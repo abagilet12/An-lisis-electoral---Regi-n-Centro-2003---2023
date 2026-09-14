@@ -1,0 +1,20 @@
+# Fuentes originales: no se versionan (ver docs/02-manifiesto-fuentes.md)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/geo/*
+!data/geo/.gitkeep
+
+# Base SQLite: se regenera con src/build_db.py
+data/processed/*.db
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Generados: el libro de prueba lo produce tests/fixtures/generar_fixture.py
+# y el informe lo produce src/validate.py
+tests/fixtures/*.xlsx
+docs/informe-validacion.md
