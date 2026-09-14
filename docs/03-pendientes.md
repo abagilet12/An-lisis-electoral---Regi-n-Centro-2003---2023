@@ -10,6 +10,8 @@ investigador; los archivos se suben a `Datos electorales 2003 - 2023` en Drive.
 
 | Instancia | Qué hace falta | Dónde buscarlo |
 |---|---|---|
+| **Los 10 archivos `Votos por Localidad`** | Son la única fuente desagregada que existe hoy; están en Drive pero todavía no llegaron al repositorio | Drive: `Datos electorales 2007 - 2023` |
+| **`presentacionDeResultados (39).xlsx`** | 2023 a nivel mesa: da 2023 provincial completo y el nomenclador circuito→localidad de toda la provincia | Drive: `Datos electorales 2007 - 2023` |
 | 2003-GENERAL | Cualquier fuente por circuito o departamento | DINE histórico, Tribunal Electoral de Santa Fe, Atlas Electoral |
 | 2007-GENERAL | `Argentina07.mdb` (el usado para el derivado) | Archivo propio del investigador |
 | 2011 PASO y generales | Resultados por mesa o circuito, Santa Fe | DINE |
@@ -26,11 +28,12 @@ la descarga podría automatizarse desde el propio pipeline.
 - `src/ingest/dine_mesa.py` — ingesta del formato mesa (`presentacionDeResultados`):
   filtra distrito Santa Fe y cargo presidente, y agrega mesa → circuito →
   localidad. Es el camino a los 19 departamentos.
-- `src/nomenclador/` — construcción del nomenclador circuito → localidad completo
-  para la provincia, versionado por elección. Hoy solo hay 30 circuitos mapeados,
-  sobre la base 2011.
-- `src/ingest/control_provincial.py` — carga de las planillas DINE por distrito
-  como totales de control.
+- `src/nomenclador/` — falta el nomenclador **circuito → localidad** completo,
+  versionado por elección. Hoy solo hay 30 circuitos mapeados, sobre la base
+  2011. El de **departamentos** ya está hecho (`departamentos.py`), con los 19
+  códigos oficiales de la DINE.
+- ~~`src/ingest/control_provincial.py`~~ — **hecho**: nueve planillas cargadas,
+  control provincial para 8 de las 12 instancias.
 
 ## 3. Decisiones metodológicas por tomar
 

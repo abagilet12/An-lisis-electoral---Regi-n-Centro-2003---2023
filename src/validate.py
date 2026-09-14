@@ -20,13 +20,9 @@ import comunes as c  # noqa: E402
 BASE = RAIZ / "data" / "processed" / "santafe_electoral.db"
 INFORME = RAIZ / "docs" / "informe-validacion.md"
 
-#: Departamentos de la provincia de Santa Fe. Fija el denominador de cobertura.
-DEPARTAMENTOS_SANTA_FE = [
-    "9 de Julio", "Belgrano", "Caseros", "Castellanos", "Constitución", "Garay",
-    "General López", "General Obligado", "Iriondo", "La Capital", "Las Colonias",
-    "Rosario", "San Cristóbal", "San Javier", "San Jerónimo", "San Justo",
-    "San Lorenzo", "San Martín", "Vera",
-]
+#: Cuantos departamentos tiene la provincia. El listado concreto sale de
+#: dim_departamento, que se arma con el nomenclador oficial de la DINE.
+TOTAL_DEPARTAMENTOS = 19
 
 
 class Informe:
@@ -156,15 +152,19 @@ def validar(con: sqlite3.Connection, inf: Informe) -> None:
     if faltantes:
         inf.texto(f"Faltan: {', '.join(faltantes)}.")
 
+    oficiales = {d: n for d, n in cur.execute(
+        "SELECT departamento_id, departamento FROM dim_departamento ORDER BY codigo_dine")}
+    if len(oficiales) != TOTAL_DEPARTAMENTOS:
+        inf.aviso(f"el nomenclador tiene {len(oficiales)} departamentos y Santa Fe tiene "
+                  f"{TOTAL_DEPARTAMENTOS}: falta cargar AmbitosElectorales")
     deptos = {d for (d,) in cur.execute("SELECT DISTINCT departamento_id FROM hechos_votos")}
-    esperados = {c.clave(d) for d in DEPARTAMENTOS_SANTA_FE}
-    inf.texto(f"\nDepartamentos con datos: **{len(deptos)} de 19**.")
-    sin_datos = sorted(d for d in DEPARTAMENTOS_SANTA_FE if c.clave(d) not in deptos)
+    inf.texto(f"\nDepartamentos con datos: **{len(deptos)} de {len(oficiales) or TOTAL_DEPARTAMENTOS}**.")
+    sin_datos = [n for d, n in oficiales.items() if d not in deptos]
     if sin_datos:
         inf.texto(f"Sin datos: {', '.join(sin_datos)}.")
-    intrusos = deptos - esperados - {c.clave(c.LOCALIDAD_SIN_ASIGNAR)}
-    if intrusos:
-        inf.error(f"departamentos que no pertenecen a Santa Fe: {sorted(intrusos)}")
+    intrusos = deptos - set(oficiales) - {c.clave(c.LOCALIDAD_SIN_ASIGNAR)}
+    if intrusos and oficiales:
+        inf.error(f"departamentos que no figuran en el nomenclador oficial: {sorted(intrusos)}")
 
     inf.texto("\n| Instancia | Departamentos | Localidades | Agrupaciones | Votos |")
     inf.texto("|---|---:|---:|---:|---:|")
@@ -180,11 +180,52 @@ def validar(con: sqlite3.Connection, inf: Informe) -> None:
     """):
         inf.texto(f"| {elec} | {nd} | {nl} | {na} | {votos:,} |".replace(",", "."))
 
+    _contrastar_control(cur, inf)
+
     inf.titulo("Pendiente")
-    inf.texto("- Contraste contra los totales provinciales de la DINE: requiere cargar las "
-              "planillas por distrito (`src/ingest/control_provincial.py`, no implementado aun).")
     inf.texto("- `dim_agrupacion.espacio_politico` esta vacia: el mapeo de espacios politicos "
               "estables se define en la etapa siguiente.")
+
+
+def _contrastar_control(cur, inf: Informe) -> None:
+    """Compara los totales provinciales de la base contra los publicados por la DINE.
+
+    Mientras la cobertura sea parcial la diferencia es esperable: lo que se
+    informa es que porcentaje del total provincial ya esta cargado. Un exceso,
+    en cambio, es un error: la base no puede tener mas votos que la fuente.
+    """
+    inf.titulo("Contraste contra los totales de la DINE")
+
+    con_control = [e for (e,) in cur.execute(
+        "SELECT DISTINCT eleccion_id FROM control_totales WHERE ambito = 'PROVINCIA'")]
+    sin_control = [e for (e,) in cur.execute(
+        "SELECT eleccion_id FROM dim_eleccion ORDER BY orden_cronologico")
+        if e not in con_control]
+    inf.texto(f"\nInstancias con total provincial de control: **{len(con_control)} de 12**.")
+    if sin_control:
+        inf.texto(f"Sin control provincial: {', '.join(sin_control)}.")
+
+    filas = cur.execute("""
+        SELECT c.eleccion_id, SUM(c.votos) AS control,
+               COALESCE((SELECT SUM(h.votos) FROM hechos_votos h
+                         WHERE h.eleccion_id = c.eleccion_id), 0) AS base
+        FROM control_totales c
+        WHERE c.ambito = 'PROVINCIA'
+        GROUP BY c.eleccion_id
+        ORDER BY c.eleccion_id
+    """).fetchall()
+    if not filas:
+        inf.aviso("no hay totales provinciales cargados todavia")
+        return
+
+    inf.texto("\n| Instancia | Votos en la base | Total provincial DINE | Cobertura |")
+    inf.texto("|---|---:|---:|---:|")
+    for elec, control, base in filas:
+        pct = (base / control * 100) if control else 0
+        inf.texto(f"| {elec} | {base:,} | {control:,} | {pct:.1f}% |".replace(",", "."))
+        if base > control:
+            inf.error(f"{elec}: la base tiene mas votos ({base:,}) que el total provincial "
+                      f"publicado ({control:,})")
 
 
 def main() -> int:

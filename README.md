@@ -35,8 +35,12 @@ docs/             encuadre, diccionario, manifiesto, pendientes
 
 ## Estado
 
-La base ya se construye y valida, pero **falta la mayor parte de los datos**:
-las fuentes disponibles cubren 3 de los 19 departamentos. Ver
+La base se construye y se valida. Hoy tiene cargada la **capa de control**: los
+totales provinciales que publica la DINE para 8 de las 12 instancias, con padrón,
+participación y voto por agrupación en Santa Fe. Las 16 hojas leídas cuadran.
+
+Falta la **serie desagregada por localidad**, que es el objetivo central: las
+fuentes que la alimentan todavía no están en el repositorio. Ver
 [`docs/03-pendientes.md`](docs/03-pendientes.md).
 
 ## Dos advertencias de lectura

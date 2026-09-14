@@ -42,9 +42,36 @@ PASO y generales, 2015 PASO / generales / segunda vuelta, 2019) **están agregad
 por distrito**: no traen departamento ni localidad. Se verificó buscando
 "Castellanos" en el texto completo de las nueve, sin resultados.
 
+Verificado hoja por hoja sobre los archivos ya descargados: la hoja `Santa Fe` de
+cada libro tiene entre 11 y 27 filas con contenido y ninguna menciona un
+departamento ni un circuito.
+
 No sirven como fuente de la base, pero sí como **totales de control**: el total
 provincial por agrupación que arroje la base debe coincidir con ellas. Ese
-contraste lo hará `src/ingest/control_provincial.py`, todavía no implementado.
+contraste lo hace `src/ingest/control_provincial.py`, ya implementado y cargado.
+
+### Estado de la capa de control
+
+Nueve planillas cargadas, con total provincial para **8 de las 12 instancias**:
+2003-GENERAL, 2007-GENERAL, 2011-PASO, 2011-GENERAL, 2015-PASO, 2015-GENERAL,
+2015-BALLOTAGE y 2019-GENERAL. Falta control provincial de 2019-PASO (el archivo
+disponible es solo total país) y de las tres instancias de 2023.
+
+Las 16 hojas leídas **cuadran**: positivos más blancos más nulos da exactamente
+el total de votantes declarado, y los votantes nunca superan a los electores.
+
+Tres particularidades de estas planillas que el ingestor contempla:
+
+- **La instancia no se deduce del nombre del archivo**, que es irregular, sino de
+  la fecha que la propia hoja declara en su encabezado.
+- **2011-PASO intercala una fila `VOTOS VÁLIDOS`** (positivos + blancos) entre las
+  agrupaciones y el pie. Tomada por una agrupación duplicaba los votos positivos
+  de la provincia. Hay un test de regresión para ese caso y el ingestor ahora
+  **falla** ante cualquier etiqueta `VOTOS …` que no reconozca, en lugar de
+  cargarla como un partido inexistente.
+- **Las hojas `Nacionales` de 2003 y 2007 son un índice** de fórmulas y partidos
+  componentes, sin columna de votos. Se omiten, y la omisión se informa al
+  construir la base en vez de pasar inadvertida.
 
 `AmbitosElectorales_2023_Generales.csv` es el nomenclador oficial de distritos y
 secciones de 2023; sirve para validar nombres de departamento.

@@ -20,7 +20,9 @@ RAIZ = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(RAIZ / "src"))
 
 import comunes as c  # noqa: E402
+from ingest.control_provincial import leer_libro as leer_control  # noqa: E402
 from ingest.derivados_xlsx import leer_libro  # noqa: E402
+from nomenclador.departamentos import leer as leer_departamentos  # noqa: E402
 
 CRUDO = RAIZ / "data" / "raw"
 SALIDA = RAIZ / "data" / "processed"
@@ -45,6 +47,16 @@ def _archivos_derivados() -> list[Path]:
     return sorted(CRUDO.glob("Votos por Localidad*.xlsx"))
 
 
+def _archivos_control() -> list[Path]:
+    """Planillas DINE por distrito: todo .xlsx que no sea un derivado."""
+    derivados = {r.name for r in _archivos_derivados()}
+    return sorted(r for r in CRUDO.glob("*.xlsx") if r.name not in derivados)
+
+
+def _archivos_ambitos() -> list[Path]:
+    return sorted(CRUDO.glob("AmbitosElectorales*.csv"))
+
+
 def construir() -> dict:
     hechos: list[dict] = []
     padron: list[dict] = []
@@ -65,6 +77,23 @@ def construir() -> dict:
         circuitos.extend(ing.circuitos)
         fuentes.append(ing.fuente)
         incidencias.extend(ing.incidencias)
+
+    # --- Totales de control (no entran en la serie) ------------------------
+    control_totales: list[dict] = []
+    control_padron: list[dict] = []
+    hojas_omitidas: list[dict] = []
+    for ruta in _archivos_control():
+        controles, omitidas = leer_control(ruta)
+        hojas_omitidas.extend(omitidas)
+        for ctrl in controles:
+            control_totales.extend(ctrl.totales)
+            control_padron.extend(ctrl.padron)
+
+    # --- Departamentos oficiales ------------------------------------------
+    departamentos: dict[str, dict] = {}
+    for ruta in _archivos_ambitos():
+        for depto in leer_departamentos(ruta):
+            departamentos.setdefault(depto["departamento_id"], depto)
 
     # --- Dimensiones ------------------------------------------------------
     localidades: dict[str, dict] = {}
@@ -118,6 +147,17 @@ def construir() -> dict:
     _escribir_csv(SALIDA / "dim_eleccion.csv",
                   ["eleccion_id", "anio", "instancia", "fecha", "orden_cronologico", "cargada", "nota"],
                   dim_eleccion)
+    _escribir_csv(SALIDA / "dim_departamento.csv",
+                  ["departamento_id", "departamento", "codigo_dine", "distrito_id", "distrito",
+                   "anio_nomenclador"],
+                  sorted(departamentos.values(), key=lambda d: d["codigo_dine"]))
+    _escribir_csv(SALIDA / "control_totales.csv",
+                  ["eleccion_id", "ambito", "distrito", "tipo_voto", "agrupacion_key",
+                   "nombre_fuente", "formula", "votos", "fuente_id"],
+                  control_totales)
+    _escribir_csv(SALIDA / "control_padron.csv",
+                  ["eleccion_id", "ambito", "distrito", "electores", "mesas", "votantes", "fuente_id"],
+                  control_padron)
     _escribir_csv(SALIDA / "dim_localidad.csv",
                   ["localidad_id", "localidad", "departamento_id", "departamento"],
                   sorted(localidades.values(), key=lambda d: (d["departamento_id"], d["localidad_id"])))
@@ -145,6 +185,10 @@ def construir() -> dict:
 
     return {
         "archivos": len(archivos),
+        "archivos_control": len(_archivos_control()),
+        "departamentos_nomenclador": len(departamentos),
+        "control_filas": len(control_totales),
+        "hojas_omitidas": hojas_omitidas,
         "elecciones": len(elecciones_cargadas),
         "hechos": len(hechos),
         "localidades": len(localidades),
@@ -169,6 +213,15 @@ def _armar_sqlite() -> None:
                     ["fuente_id", "archivo", "eleccion_id", "organismo", "archivo_origen",
                      "unidad_original", "recuento", "cobertura_declarada", "fecha_proceso_origen",
                      "sha256", "observaciones"]),
+        "dim_departamento": ("dim_departamento.csv",
+                             ["departamento_id", "departamento", "codigo_dine", "distrito_id",
+                              "distrito", "anio_nomenclador"]),
+        "control_totales": ("control_totales.csv",
+                            ["eleccion_id", "ambito", "distrito", "tipo_voto", "agrupacion_key",
+                             "nombre_fuente", "formula", "votos", "fuente_id"]),
+        "control_padron": ("control_padron.csv",
+                           ["eleccion_id", "ambito", "distrito", "electores", "mesas", "votantes",
+                            "fuente_id"]),
         "dim_localidad": ("dim_localidad.csv",
                           ["localidad_id", "localidad", "departamento_id", "departamento"]),
         "dim_circuito": ("dim_circuito.csv",
@@ -201,13 +254,17 @@ def _armar_sqlite() -> None:
 
 if __name__ == "__main__":
     resumen = construir()
-    if resumen["archivos"] == 0:
+    if resumen["archivos"] == 0 and resumen["archivos_control"] == 0:
         print("No hay archivos en data/raw/. Ver docs/03-pendientes.md.")
         sys.exit(1)
     print(
-        f"Base construida: {resumen['hechos']} filas de hechos | "
+        f"Serie: {resumen['hechos']} filas de hechos | "
         f"{resumen['elecciones']}/12 instancias | "
-        f"{resumen['departamentos']} departamentos | "
+        f"{resumen['departamentos']} de {resumen['departamentos_nomenclador']} departamentos | "
         f"{resumen['localidades']} localidades | "
         f"{resumen['incidencias']} incidencia(s)"
     )
+    print(f"Control: {resumen['control_filas']} filas desde "
+          f"{resumen['archivos_control']} planilla(s) por distrito")
+    for hoja in resumen["hojas_omitidas"]:
+        print(f"  Hoja omitida: {hoja['hoja']} ({hoja['archivo']}) - {hoja['motivo']}")

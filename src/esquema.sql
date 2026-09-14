@@ -14,6 +14,17 @@ CREATE TABLE dim_eleccion (
     nota               TEXT
 );
 
+-- Los 19 departamentos, con el codigo oficial de la DINE (1..19). El codigo es
+-- la clave estable para unir con las capas geograficas de los mapas.
+CREATE TABLE dim_departamento (
+    departamento_id   TEXT PRIMARY KEY,
+    departamento      TEXT NOT NULL,
+    codigo_dine       INTEGER NOT NULL UNIQUE,
+    distrito_id       INTEGER NOT NULL,
+    distrito          TEXT NOT NULL,
+    anio_nomenclador  INTEGER NOT NULL
+);
+
 CREATE TABLE dim_localidad (
     localidad_id     TEXT PRIMARY KEY,
     localidad        TEXT NOT NULL,
@@ -101,6 +112,32 @@ CREATE TABLE incidencias (
     obtenido      INTEGER,
     diferencia    INTEGER
 );
+
+-- Totales publicados por la DINE, agregados por distrito. No son parte de la
+-- serie: son el patron contra el cual se contrasta lo que arroja la base.
+CREATE TABLE control_totales (
+    eleccion_id     TEXT NOT NULL REFERENCES dim_eleccion(eleccion_id),
+    ambito          TEXT NOT NULL CHECK (ambito IN ('PAIS','PROVINCIA')),
+    distrito        TEXT NOT NULL,
+    tipo_voto       TEXT NOT NULL,
+    agrupacion_key  TEXT,
+    nombre_fuente   TEXT,
+    formula         TEXT,
+    votos           INTEGER NOT NULL CHECK (votos >= 0),
+    fuente_id       TEXT NOT NULL
+);
+
+CREATE TABLE control_padron (
+    eleccion_id  TEXT NOT NULL REFERENCES dim_eleccion(eleccion_id),
+    ambito       TEXT NOT NULL,
+    distrito     TEXT NOT NULL,
+    electores    INTEGER,
+    mesas        INTEGER,
+    votantes     INTEGER,
+    fuente_id    TEXT NOT NULL
+);
+
+CREATE INDEX ix_control_eleccion ON control_totales (eleccion_id, ambito);
 
 CREATE INDEX ix_hechos_eleccion   ON hechos_votos (eleccion_id);
 CREATE INDEX ix_hechos_localidad  ON hechos_votos (localidad_id);

@@ -1,0 +1,13 @@
+eleccion_id,anio,instancia,fecha,orden_cronologico,cargada,nota
+2003-GENERAL,2003,GENERAL,2003-04-27,1,0,Sin PASO. El ballotage previsto no se realizo: Menem se retiro.
+2007-GENERAL,2007,GENERAL,2007-10-28,2,0,Sin PASO. Sin ballotage: la formula ganadora supero el 45%.
+2011-PASO,2011,PASO,2011-08-14,3,0,Primeras PASO presidenciales (Ley 26.571).
+2011-GENERAL,2011,GENERAL,2011-10-23,4,0,Sin ballotage.
+2015-PASO,2015,PASO,2015-08-09,5,0,
+2015-GENERAL,2015,GENERAL,2015-10-25,6,0,
+2015-BALLOTAGE,2015,BALLOTAGE,2015-11-22,7,0,Primer ballotage efectivo. Solo 2 formulas: no comparable en magnitud con la general.
+2019-PASO,2019,PASO,2019-08-11,8,0,
+2019-GENERAL,2019,GENERAL,2019-10-27,9,0,Sin ballotage.
+2023-PASO,2023,PASO,2023-08-13,10,0,
+2023-GENERAL,2023,GENERAL,2023-10-22,11,0,
+2023-BALLOTAGE,2023,BALLOTAGE,2023-11-19,12,0,Solo 2 formulas: no comparable en magnitud con la general.

@@ -40,6 +40,12 @@ Las 12 instancias del período, estén cargadas o no. `cargada` vale 1 si ya tie
 datos: permite ver el avance sin salir de la base. `nota` guarda la advertencia
 de comparabilidad (p. ej. que un ballotage tiene solo dos fórmulas).
 
+### `dim_departamento`
+Los 19 departamentos con su **código oficial de la DINE** (1 = La Capital … 19 =
+San Lorenzo), tomado del nomenclador `AmbitosElectorales`. El código importa por
+dos razones: es una clave estable que no depende de cómo se escriba el nombre, y
+es la que permite unir con las capas geográficas para los mapas.
+
 ### `dim_localidad`
 `localidad_id`, nombre, departamento. Es el ancla geográfica de la serie.
 
@@ -68,6 +74,19 @@ calcular participación.
 Registro de trazabilidad: archivo, organismo, archivo de origen, unidad original
 (mesa / circuito / localidad), carácter del recuento, cobertura declarada, fecha
 de procesamiento y `sha256`. Toda fila de hechos apunta acá.
+
+### `control_totales` y `control_padron`
+Los totales que la DINE publica **agregados por distrito**: una fila por
+elección, ámbito (`PAIS` o `PROVINCIA`), tipo de voto y agrupación, más el padrón
+y los votantes declarados.
+
+No forman parte de la serie y nunca se mezclan con `hechos_votos`: son el patrón
+contra el cual se contrasta lo que arroja la base. Mientras la cobertura por
+localidad sea parcial, el validador informa qué porcentaje del total provincial
+ya está cargado; si alguna vez la base supera ese total, eso sí es un error.
+
+Estas tablas ya sirven por sí solas para leer la serie provincial: padrón,
+participación y voto por agrupación en Santa Fe para 8 de las 12 instancias.
 
 ### `incidencias`
 Descuadres detectados durante la ingesta, con valor esperado, obtenido y
