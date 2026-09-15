@@ -18,3 +18,4 @@ __pycache__/
 # y el informe lo produce src/validate.py
 tests/fixtures/*.xlsx
 docs/informe-validacion.md
+tests/fixtures/*.csv

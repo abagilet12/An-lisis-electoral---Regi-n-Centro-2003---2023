@@ -49,6 +49,12 @@ es la que permite unir con las capas geográficas para los mapas.
 ### `dim_localidad`
 `localidad_id`, nombre, departamento. Es el ancla geográfica de la serie.
 
+Las localidades `SIN_ASIGNAR_<departamento>` son el destino de los circuitos que
+todavía no están mapeados a una localidad. **Hay una por departamento, no una
+sola**: si todos cayeran en un mismo cajón se mezclarían departamentos y el total
+departamental dejaría de cerrar, que es justamente el nivel que los archivos a
+nivel mesa cubren completo sin necesidad de nomenclador.
+
 ### `dim_circuito`
 Una fila por `(circuito_id, eleccion_id)`: el nomenclador **versionado por
 elección**. Así conviven la numeración previa y la renumeración de 2023 sin

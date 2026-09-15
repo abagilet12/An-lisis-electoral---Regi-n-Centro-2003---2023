@@ -75,11 +75,11 @@ def validar(con: sqlite3.Connection, inf: Informe) -> None:
     (inf.ok if negativos == 0 else inf.error)(f"sin votos negativos (encontrados: {negativos})")
 
     sin_asignar = cur.execute(
-        "SELECT COUNT(*) FROM hechos_votos WHERE localidad_id = ?",
-        (c.LOCALIDAD_SIN_ASIGNAR,)).fetchone()[0]
-    if sin_asignar:
-        inf.aviso(f"{sin_asignar} filas quedaron en {c.LOCALIDAD_SIN_ASIGNAR}: "
-                  "hay circuitos sin localidad en el nomenclador")
+        "SELECT COUNT(*), COALESCE(SUM(votos), 0) FROM hechos_votos WHERE localidad_id LIKE ?",
+        (c.PREFIJO_SIN_ASIGNAR + "%",)).fetchone()
+    if sin_asignar[0]:
+        inf.aviso(f"{sin_asignar[0]} filas ({sin_asignar[1]:,} votos) quedaron sin localidad, "
+                  "imputadas a su departamento: faltan circuitos en el nomenclador")
     else:
         inf.ok("todas las filas tienen localidad asignada")
 
@@ -162,7 +162,7 @@ def validar(con: sqlite3.Connection, inf: Informe) -> None:
     sin_datos = [n for d, n in oficiales.items() if d not in deptos]
     if sin_datos:
         inf.texto(f"Sin datos: {', '.join(sin_datos)}.")
-    intrusos = deptos - set(oficiales) - {c.clave(c.LOCALIDAD_SIN_ASIGNAR)}
+    intrusos = deptos - set(oficiales)
     if intrusos and oficiales:
         inf.error(f"departamentos que no figuran en el nomenclador oficial: {sorted(intrusos)}")
 

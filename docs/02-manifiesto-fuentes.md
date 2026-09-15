@@ -73,6 +73,30 @@ Tres particularidades de estas planillas que el ingestor contempla:
   componentes, sin columna de votos. Se omiten, y la omisión se informa al
   construir la base en vez de pasar inadvertida.
 
+## El formato a nivel mesa
+
+`presentacionDeResultados` es el formato que habilita la cobertura provincial.
+Trae una fila por mesa × cargo × lista × tipo de voto, y lo lee
+`src/ingest/dine_mesa.py`.
+
+**Su columna `seccion_nombre` es el departamento.** Eso significa que este
+formato da los **19 departamentos sin necesidad de ningún nomenclador**: solo la
+desagregación por localidad depende del mapeo circuito → localidad. Es el
+hallazgo que define la estrategia: cada archivo a nivel mesa que consigamos
+aporta cobertura departamental completa de inmediato, y la localidad se va
+completando a medida que crece el nomenclador.
+
+Cuatro trampas del formato que el ingestor contempla, todas con test:
+
+- En las **PASO cada agrupación presenta varias listas internas**; el total de la
+  agrupación es la suma de sus listas.
+- El **padrón de la mesa se repite en cada fila** de esa mesa: sumarlo tal cual lo
+  multiplicaría por la cantidad de listas. Se cuenta una vez por mesa.
+- El archivo trae **todos los distritos y todos los cargos**: se filtra Santa Fe y
+  presidente.
+- Un **circuito ausente del nomenclador no se descarta**: se imputa a la localidad
+  sin asignar *de su departamento*, y se informa al construir la base.
+
 ## Nomencladores
 
 `AmbitosElectorales_2023_Generales.csv` — nomenclador oficial de distritos y

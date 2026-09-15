@@ -14,7 +14,8 @@ está en [`docs/00-encuadre.md`](docs/00-encuadre.md). Leerlo antes de tocar nad
 pip install openpyxl
 python3 src/build_db.py     # data/raw/ -> data/processed/ (CSV + SQLite)
 python3 src/validate.py     # controles de integridad -> docs/informe-validacion.md
-python3 tests/test_derivados.py
+
+for t in tests/test_*.py; do python3 "$t"; done
 ```
 
 `src/build_db.py` se ejecuta siempre desde cero: no hay estado acumulado entre

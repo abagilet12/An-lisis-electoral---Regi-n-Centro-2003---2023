@@ -25,9 +25,7 @@ la descarga podría automatizarse desde el propio pipeline.
 
 ## 2. Código por escribir
 
-- `src/ingest/dine_mesa.py` — ingesta del formato mesa (`presentacionDeResultados`):
-  filtra distrito Santa Fe y cargo presidente, y agrega mesa → circuito →
-  localidad. Es el camino a los 19 departamentos.
+- ~~`src/ingest/dine_mesa.py`~~ — **hecho**, con pruebas. Esperando archivos.
 - `src/nomenclador/` — falta el nomenclador **circuito → localidad** completo,
   versionado por elección. Hoy solo hay 30 circuitos mapeados, sobre la base
   2011. El de **departamentos** ya está hecho (`departamentos.py`), con los 19

@@ -72,9 +72,23 @@ ETIQUETA_POR_ELECCION = {
     "2023-BALLOTAGE": "AGRUPACION",
 }
 
-#: Localidad a la que se imputan los circuitos sin asignacion conocida.
-#: Nunca se descartan filas en silencio (criterio 3 del encuadre).
-LOCALIDAD_SIN_ASIGNAR = "SIN_ASIGNAR"
+#: Prefijo de la localidad a la que se imputan los circuitos sin asignacion
+#: conocida. Nunca se descartan filas en silencio (criterio 3 del encuadre).
+#:
+#: La imputacion es **por departamento**: si todos los circuitos huerfanos
+#: cayeran en un mismo cajon se mezclarian departamentos distintos y los totales
+#: departamentales dejarian de cerrar, que es justamente el nivel que este
+#: formato permite cubrir sin nomenclador.
+PREFIJO_SIN_ASIGNAR = "SIN_ASIGNAR"
+
+
+def localidad_sin_asignar(departamento_id: str) -> str:
+    """Localidad de destino para un circuito sin localidad conocida."""
+    return f"{PREFIJO_SIN_ASIGNAR}_{departamento_id}"
+
+
+def es_sin_asignar(localidad_id: str | None) -> bool:
+    return bool(localidad_id) and localidad_id.startswith(PREFIJO_SIN_ASIGNAR)
 
 
 # --- Normalizacion ---------------------------------------------------------

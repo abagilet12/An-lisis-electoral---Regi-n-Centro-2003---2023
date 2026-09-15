@@ -22,6 +22,7 @@ sys.path.insert(0, str(RAIZ / "src"))
 import comunes as c  # noqa: E402
 from ingest.control_provincial import leer_libro as leer_control  # noqa: E402
 from ingest.derivados_xlsx import leer_libro  # noqa: E402
+from ingest.dine_mesa import leer_archivo as leer_mesa  # noqa: E402
 from nomenclador.colores import leer as leer_colores  # noqa: E402
 from nomenclador.departamentos import leer as leer_departamentos  # noqa: E402
 
@@ -48,10 +49,16 @@ def _archivos_derivados() -> list[Path]:
     return sorted(CRUDO.glob("Votos por Localidad*.xlsx"))
 
 
+def _archivos_mesa() -> list[Path]:
+    """Archivos a nivel mesa de la DINE (presentacionDeResultados*), csv o xlsx."""
+    return sorted(r for r in CRUDO.glob("presentacionDeResultados*")
+                  if r.suffix.lower() in (".csv", ".xlsx"))
+
+
 def _archivos_control() -> list[Path]:
-    """Planillas DINE por distrito: todo .xlsx que no sea un derivado."""
-    derivados = {r.name for r in _archivos_derivados()}
-    return sorted(r for r in CRUDO.glob("*.xlsx") if r.name not in derivados)
+    """Planillas DINE por distrito: los .xlsx que no son derivados ni de mesa."""
+    excluidos = {r.name for r in _archivos_derivados()} | {r.name for r in _archivos_mesa()}
+    return sorted(r for r in CRUDO.glob("*.xlsx") if r.name not in excluidos)
 
 
 def _archivos_ambitos() -> list[Path]:
@@ -82,6 +89,30 @@ def construir() -> dict:
         circuitos.extend(ing.circuitos)
         fuentes.append(ing.fuente)
         incidencias.extend(ing.incidencias)
+
+    # --- Archivos a nivel mesa --------------------------------------------
+    # El nomenclador circuito -> localidad que aportan los derivados se reutiliza
+    # aca: lo que no figure en el cae en la localidad sin asignar de su
+    # departamento, de modo que el total departamental siga completo.
+    nomenclador = {cir["circuito_id"]: cir["localidad_id"] for cir in circuitos}
+    sin_localidad: list[dict] = []
+    for ruta in _archivos_mesa():
+        ing = leer_mesa(ruta, nomenclador=nomenclador)
+        elec = ing.fuente["eleccion_id"]
+        anio, instancia = elec.split("-")
+        for h in ing.hechos:
+            h["anio"] = int(anio)
+            h["instancia"] = instancia
+        hechos.extend(ing.hechos)
+        padron.extend(ing.padron)
+        circuitos.extend(ing.circuitos)
+        fuentes.append(ing.fuente)
+        if ing.resumen["circuitos_sin_localidad"]:
+            sin_localidad.append({
+                "eleccion_id": elec,
+                "circuitos": ing.resumen["circuitos_sin_localidad"],
+                "departamentos": ing.resumen["departamentos"],
+            })
 
     # --- Totales de control (no entran en la serie) ------------------------
     control_totales: list[dict] = []
@@ -202,6 +233,8 @@ def construir() -> dict:
         "archivos_control": len(_archivos_control()),
         "departamentos_nomenclador": len(departamentos),
         "control_filas": len(control_totales),
+        "archivos_mesa": len(_archivos_mesa()),
+        "sin_localidad": sin_localidad,
         "colores": len(colores),
         "hojas_omitidas": hojas_omitidas,
         "elecciones": len(elecciones_cargadas),
@@ -285,5 +318,9 @@ if __name__ == "__main__":
     print(f"Control: {resumen['control_filas']} filas desde "
           f"{resumen['archivos_control']} planilla(s) por distrito")
     print(f"Colores oficiales: {resumen['colores']} agrupaciones de Santa Fe")
+    for falta in resumen["sin_localidad"]:
+        print(f"  {falta['eleccion_id']}: {len(falta['circuitos'])} circuito(s) sin localidad "
+              f"en el nomenclador, imputados a su departamento "
+              f"({falta['departamentos']} departamentos cubiertos)")
     for hoja in resumen["hojas_omitidas"]:
         print(f"  Hoja omitida: {hoja['hoja']} ({hoja['archivo']}) - {hoja['motivo']}")
