@@ -196,14 +196,41 @@ Siguen valiendo por dos razones, las dos de control:
    el derivado de esa instancia, el pipeline queda validado contra trabajo
    humano. Es la mejor prueba disponible.
 
+### Cartografía de circuitos — incorporada
+
+`data/geo/circuitos/`, del repositorio
+[circuitos_electorales_AR](https://github.com/tartagalensis/circuitos_electorales_AR)
+de Franco Galeano, bajo **CC BY 4.0**. Detalle, atribución y limitaciones en
+[`data/geo/circuitos/FUENTE.md`](../data/geo/circuitos/FUENTE.md).
+
+Trae dos cortes temporales de Santa Fe que caen justo a los dos lados de la
+renumeración: **2021** (numeración anterior, sirve para 2003–2019) y **2025**
+(numeración posterior, sirve para 2023).
+
+El cruce con nuestros datos, verificado antes de incorporarlo:
+
+| prueba | resultado |
+|---|---|
+| Corte 2021 contra el nomenclador viejo | 30 de 30 |
+| Corte 2025 contra los 523 circuitos de 2023 | 503 (96,2%) |
+| Departamento (`coddepto` = `seccionId`) | 503 de 503 |
+
+**No trae nombre de localidad**, así que no resuelve el mapeo circuito →
+localidad; aporta la geometría para hacerlo por cruce espacial y para dibujar.
+Quedan registradas cuatro limitaciones en `FUENTE.md`, entre ellas 20 circuitos
+de 2023 sin polígono y 9 polígonos vacíos en 2021.
+
+Sigue faltando, entonces, una fuente que asocie circuito con localidad.
+
 ## Prioridad 5 — Capas geográficas para el mapa
 
 Lo que se necesita para el mapa final, en orden de importancia:
 
-1. **Circuitos electorales de Santa Fe** (GeoJSON). Es la unidad que permite
-   armar localidades.
-2. **Departamentos de Santa Fe** (ya hay capas del IGN en tu Drive).
-3. **Localidades**, si existiera una capa oficial.
+1. ~~**Circuitos electorales de Santa Fe**~~ — **hecho**, ver arriba.
+2. **Departamentos de Santa Fe**: se pueden derivar disolviendo los circuitos
+   por `coddepto`, así que tampoco hace falta buscarlos.
+3. **Localidades**, si existiera una capa oficial. **Es lo único que falta**, y
+   es lo que resolvería el mapeo circuito → localidad de una vez.
 
 ### Qué necesita traer el GeoJSON para que sirva
 

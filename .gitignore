@@ -5,6 +5,9 @@ data/interim/*
 !data/interim/.gitkeep
 data/geo/*
 !data/geo/.gitkeep
+# La cartografía de circuitos sí se versiona: es CC BY, pesa poco y hace que el
+# mapa sea reproducible sin depender de una descarga externa.
+!data/geo/circuitos/
 
 # Base SQLite: se regenera con src/build_db.py
 data/processed/*.db
