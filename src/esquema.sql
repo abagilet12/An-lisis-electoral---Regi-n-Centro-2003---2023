@@ -57,6 +57,18 @@ CREATE TABLE dim_agrupacion (
     PRIMARY KEY (agrupacion_key, eleccion_id)
 );
 
+-- Color oficial con que cada agrupacion se presento, por distrito y anio.
+-- Solo hay datos de 2023; el resto de la serie necesita una paleta propia.
+CREATE TABLE dim_color_agrupacion (
+    anio                INTEGER NOT NULL,
+    agrupacion_id_dine  INTEGER NOT NULL,
+    agrupacion_key      TEXT NOT NULL,
+    nombre_fuente       TEXT NOT NULL,
+    color               TEXT NOT NULL,
+    distrito_id         INTEGER NOT NULL,
+    PRIMARY KEY (anio, agrupacion_id_dine, distrito_id)
+);
+
 CREATE TABLE fuentes (
     fuente_id             TEXT PRIMARY KEY,
     archivo               TEXT NOT NULL,

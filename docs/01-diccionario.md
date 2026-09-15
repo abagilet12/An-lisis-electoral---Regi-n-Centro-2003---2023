@@ -75,6 +75,21 @@ Registro de trazabilidad: archivo, organismo, archivo de origen, unidad original
 (mesa / circuito / localidad), carácter del recuento, cobertura declarada, fecha
 de procesamiento y `sha256`. Toda fila de hechos apunta acá.
 
+### `dim_color_agrupacion`
+El color oficial con que cada agrupación se presentó, publicado por la DINE, para
+usar en mapas y gráficos en vez de una paleta inventada. Trae además el
+`agrupacion_id_dine`, que es la clave numérica con la que vienen los archivos de
+resultados a nivel mesa.
+
+Dos advertencias que salen del propio archivo:
+
+- **El color es por distrito, no nacional.** La misma fuerza puede tener otro id
+  y otro color según la provincia: Unión por la Patria es `#009CDE` con id 134 en
+  Santa Fe y `#FEDD00` con id 503 en otras. Por eso se carga filtrando por Santa
+  Fe y nunca se mezcla entre provincias.
+- **Solo existe para 2023.** Para el resto de la serie hay que definir una paleta
+  propia, y esa decisión va atada a la de espacios políticos estables.
+
 ### `control_totales` y `control_padron`
 Los totales que la DINE publica **agregados por distrito**: una fila por
 elección, ámbito (`PAIS` o `PROVINCIA`), tipo de voto y agrupación, más el padrón

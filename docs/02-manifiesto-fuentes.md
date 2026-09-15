@@ -73,8 +73,16 @@ Tres particularidades de estas planillas que el ingestor contempla:
   componentes, sin columna de votos. Se omiten, y la omisión se informa al
   construir la base en vez de pasar inadvertida.
 
-`AmbitosElectorales_2023_Generales.csv` es el nomenclador oficial de distritos y
-secciones de 2023; sirve para validar nombres de departamento.
+## Nomencladores
+
+`AmbitosElectorales_2023_Generales.csv` — nomenclador oficial de distritos y
+secciones. En Santa Fe la sección es el departamento: da los 19 con su código
+oficial (1 = La Capital … 19 = San Lorenzo), que alimenta `dim_departamento`.
+
+`Colores_2023.csv` — colores oficiales de las agrupaciones, 20 para Santa Fe.
+Alimenta `dim_color_agrupacion` y trae el `agrupacion_id` numérico, que es la
+clave con la que vienen los resultados a nivel mesa de 2023. El color es por
+distrito: se carga filtrando Santa Fe. Solo cubre 2023.
 
 ## Capas geográficas
 

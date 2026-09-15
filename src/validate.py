@@ -180,6 +180,35 @@ def validar(con: sqlite3.Connection, inf: Informe) -> None:
     """):
         inf.texto(f"| {elec} | {nd} | {nl} | {na} | {votos:,} |".replace(",", "."))
 
+    # --- Colores para los mapas -------------------------------------------
+    inf.titulo("Colores oficiales")
+    anios_color = [a for (a,) in cur.execute(
+        "SELECT DISTINCT anio FROM dim_color_agrupacion ORDER BY anio")]
+    if not anios_color:
+        inf.aviso("no hay colores cargados: los mapas van a necesitar una paleta propia")
+    else:
+        inf.ok(f"colores oficiales cargados para {', '.join(str(a) for a in anios_color)}")
+        sin_color = cur.execute("""
+            SELECT DISTINCT h.anio, h.agrupacion_nombre_fuente
+            FROM hechos_votos h
+            WHERE h.agrupacion_key IS NOT NULL
+              AND h.anio IN (SELECT DISTINCT anio FROM dim_color_agrupacion)
+              AND NOT EXISTS (SELECT 1 FROM dim_color_agrupacion d
+                              WHERE d.anio = h.anio AND d.agrupacion_key = h.agrupacion_key)
+            ORDER BY 1, 2
+        """).fetchall()
+        if sin_color:
+            inf.aviso(f"{len(sin_color)} agrupación(es) de un año con colores no tienen color asignado")
+            for anio, nombre in sin_color[:10]:
+                inf.texto(f"  - {anio}: {nombre}")
+        else:
+            inf.ok("toda agrupación de un año con colores tiene el suyo")
+        faltan = [a for a in (2003, 2007, 2011, 2015, 2019, 2023) if a not in anios_color]
+        if faltan:
+            inf.texto(f"\nSin colores oficiales: {', '.join(str(a) for a in faltan)}. "
+                      "Para esos años hay que definir una paleta propia, decisión atada a la de "
+                      "espacios políticos estables.")
+
     _contrastar_control(cur, inf)
 
     inf.titulo("Pendiente")

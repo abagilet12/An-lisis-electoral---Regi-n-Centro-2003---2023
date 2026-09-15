@@ -44,5 +44,9 @@ la descarga podría automatizarse desde el propio pipeline.
 - **2003 con menor resolución.** Si no aparece una fuente por circuito, la
   alternativa es cargar 2003 a nivel departamento y declararlo explícitamente
   como serie de menor resolución. Nunca mezclarlo en silencio con el resto.
+- **Paleta para 2003–2019.** Los colores oficiales de la DINE solo existen para
+  2023. Para el resto de la serie hay que definir una paleta propia, y conviene
+  resolverla junto con el mapeo de espacios políticos: si FPV y Unión por la
+  Patria van a leerse como una continuidad, deberían compartir color.
 - **Provisorio vs definitivo.** El archivo 2023 disponible es un recuento
   provisorio. Si aparece el definitivo, se reemplaza y se anota el cambio.

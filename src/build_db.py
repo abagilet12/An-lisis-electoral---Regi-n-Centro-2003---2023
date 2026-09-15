@@ -22,6 +22,7 @@ sys.path.insert(0, str(RAIZ / "src"))
 import comunes as c  # noqa: E402
 from ingest.control_provincial import leer_libro as leer_control  # noqa: E402
 from ingest.derivados_xlsx import leer_libro  # noqa: E402
+from nomenclador.colores import leer as leer_colores  # noqa: E402
 from nomenclador.departamentos import leer as leer_departamentos  # noqa: E402
 
 CRUDO = RAIZ / "data" / "raw"
@@ -55,6 +56,10 @@ def _archivos_control() -> list[Path]:
 
 def _archivos_ambitos() -> list[Path]:
     return sorted(CRUDO.glob("AmbitosElectorales*.csv"))
+
+
+def _archivos_colores() -> list[Path]:
+    return sorted(CRUDO.glob("Colores_*.csv"))
 
 
 def construir() -> dict:
@@ -94,6 +99,11 @@ def construir() -> dict:
     for ruta in _archivos_ambitos():
         for depto in leer_departamentos(ruta):
             departamentos.setdefault(depto["departamento_id"], depto)
+
+    # --- Colores oficiales por agrupacion ---------------------------------
+    colores: list[dict] = []
+    for ruta in _archivos_colores():
+        colores.extend(leer_colores(ruta))
 
     # --- Dimensiones ------------------------------------------------------
     localidades: dict[str, dict] = {}
@@ -151,6 +161,10 @@ def construir() -> dict:
                   ["departamento_id", "departamento", "codigo_dine", "distrito_id", "distrito",
                    "anio_nomenclador"],
                   sorted(departamentos.values(), key=lambda d: d["codigo_dine"]))
+    _escribir_csv(SALIDA / "dim_color_agrupacion.csv",
+                  ["anio", "agrupacion_id_dine", "agrupacion_key", "nombre_fuente", "color",
+                   "distrito_id"],
+                  colores)
     _escribir_csv(SALIDA / "control_totales.csv",
                   ["eleccion_id", "ambito", "distrito", "tipo_voto", "agrupacion_key",
                    "nombre_fuente", "formula", "votos", "fuente_id"],
@@ -188,6 +202,7 @@ def construir() -> dict:
         "archivos_control": len(_archivos_control()),
         "departamentos_nomenclador": len(departamentos),
         "control_filas": len(control_totales),
+        "colores": len(colores),
         "hojas_omitidas": hojas_omitidas,
         "elecciones": len(elecciones_cargadas),
         "hechos": len(hechos),
@@ -216,6 +231,9 @@ def _armar_sqlite() -> None:
         "dim_departamento": ("dim_departamento.csv",
                              ["departamento_id", "departamento", "codigo_dine", "distrito_id",
                               "distrito", "anio_nomenclador"]),
+        "dim_color_agrupacion": ("dim_color_agrupacion.csv",
+                                 ["anio", "agrupacion_id_dine", "agrupacion_key", "nombre_fuente",
+                                  "color", "distrito_id"]),
         "control_totales": ("control_totales.csv",
                             ["eleccion_id", "ambito", "distrito", "tipo_voto", "agrupacion_key",
                              "nombre_fuente", "formula", "votos", "fuente_id"]),
@@ -266,5 +284,6 @@ if __name__ == "__main__":
     )
     print(f"Control: {resumen['control_filas']} filas desde "
           f"{resumen['archivos_control']} planilla(s) por distrito")
+    print(f"Colores oficiales: {resumen['colores']} agrupaciones de Santa Fe")
     for hoja in resumen["hojas_omitidas"]:
         print(f"  Hoja omitida: {hoja['hoja']} ({hoja['archivo']}) - {hoja['motivo']}")
