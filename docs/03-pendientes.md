@@ -14,10 +14,9 @@ investigador; los archivos se suben a `Datos electorales 2003 - 2023` en Drive.
 | **`presentacionDeResultados (39).xlsx`** | 2023 a nivel mesa: da 2023 provincial completo y el nomenclador circuito→localidad de toda la provincia | Drive: `Datos electorales 2007 - 2023` |
 | 2003-GENERAL | Cualquier fuente por circuito o departamento | DINE histórico, Tribunal Electoral de Santa Fe, Atlas Electoral |
 | 2007-GENERAL | `Argentina07.mdb` (el usado para el derivado) | Archivo propio del investigador |
-| 2011 PASO y generales | Resultados por mesa o circuito, Santa Fe | DINE |
-| 2015 PASO, generales, ballotage | Ídem (el derivado cita `presentacionDeResultadosBallotage_SantaFe_2015.csv`) | resultados.mininterior.gob.ar |
-| 2019 PASO y generales | Ídem | resultados.mininterior.gob.ar |
-| 2023 PASO, generales, ballotage | Versión **definitiva** por mesa (hoy solo hay el provisorio de PASO) | resultados.gob.ar |
+| ~~2011, 2015, 2019, 2023~~ | **Descargados** (8 de 10) con `src/descarga.py` | datos.gob.ar |
+| PASO 2015 y PASO 2023 | Las URL del catálogo dan 404: buscar alternativa | datos.gob.ar |
+| Escrutinios **definitivos** | El portal solo publica provisorios. Pedido formal a la CNE | `cnelectoral.datosabiertos@pjn.gov.ar` |
 | Localidades | Listado oficial de localidades por departamento de Santa Fe | IPEC / IGN |
 
 Si el entorno se configurara con una política de red que habilite esos dominios,
@@ -42,8 +41,8 @@ la descarga podría automatizarse desde el propio pipeline.
 - **2003 con menor resolución.** Si no aparece una fuente por circuito, la
   alternativa es cargar 2003 a nivel departamento y declararlo explícitamente
   como serie de menor resolución. Nunca mezclarlo en silencio con el resto.
-- **Paleta para 2003–2019.** Los colores oficiales de la DINE solo existen para
-  2023. Para el resto de la serie hay que definir una paleta propia, y conviene
+- **Paleta para 2003–2007.** Cada ZIP descargado trae los colores de su año, así
+  que 2011 en adelante está cubierto; faltan solo 2003 y 2007. Para el resto de la serie hay que definir una paleta propia, y conviene
   resolverla junto con el mapeo de espacios políticos: si FPV y Unión por la
   Patria van a leerse como una continuidad, deberían compartir color.
 - **Provisorio vs definitivo.** El archivo 2023 disponible es un recuento

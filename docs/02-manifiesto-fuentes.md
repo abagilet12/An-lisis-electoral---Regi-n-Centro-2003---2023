@@ -97,6 +97,34 @@ Cuatro trampas del formato que el ingestor contempla, todas con test:
 - Un **circuito ausente del nomenclador no se descarta**: se imputa a la localidad
   sin asignar *de su departamento*, y se informa al construir la base.
 
+## Descarga automatizada
+
+`src/descarga.py` baja los archivos a nivel mesa desde el catálogo CKAN de
+datos.gob.ar (datasets *Resultados Provisionales Elecciones `<año>`*, publicados
+por el Ministerio del Interior / DINE). Cada ZIP trae el CSV de resultados más
+sus propios nomencladores de ámbitos y colores de ese año.
+
+Estado: **8 de 10 recursos** descargados, 167 MB. Los dos que faltan devuelven
+404 en el catálogo: **PASO 2015** y **PASO 2023**, ambos bajo la ruta
+`/dine-resultados/`. Hay que buscarles una URL alternativa.
+
+El manifiesto con URL, tamaño y `sha256` de cada descarga queda en
+`data/raw/descargas/manifiesto.json`.
+
+### Provisorio, no definitivo
+
+Todo lo que publica este portal es **recuento provisorio**. El escrutinio
+definitivo lo publica la Justicia Nacional Electoral en `padron.gob.ar/publica`,
+cuyas condiciones de uso dicen que la consulta "se encuentra prevista y diseñada
+para ser utilizada exclusivamente a través de consultas individuales efectuadas
+por ciudadanos argentinos", y que ante su vulneración la JNE puede restringir el
+acceso o incorporar captcha. **Por eso ese sitio no se automatiza desde acá.**
+Para datos definitivos en volumen, la vía es pedirlos a la Cámara Nacional
+Electoral, que publica el contacto `cnelectoral.datosabiertos@pjn.gov.ar`.
+
+Cada fila de la base declara su `recuento`, así que provisorio y definitivo nunca
+se mezclan sin que se note.
+
 ## Nomencladores
 
 `AmbitosElectorales_2023_Generales.csv` — nomenclador oficial de distritos y
