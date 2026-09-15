@@ -26,13 +26,56 @@ instancias a nivel mesa.** No hace falta recolectarlas de nuevo.
 
 **Faltan 4 instancias a nivel mesa: 2003, 2007, PASO 2015 y PASO 2023.**
 
+## Recibido y registrado
+
+### PASO 2023 — archivos de diccionario (parcial)
+
+`data/raw/2023_paso_diccionarios/`, con `sha256` de cada archivo en su manifiesto.
+
+| archivo | contenido |
+|---|---|
+| `agrupaciones.csv` | agrupaciones por categoría y distrito |
+| `listas.csv` | listas internas de cada agrupación |
+| `categorias.csv` | 1 = Presidente y Vice |
+| `distritos.csv` | los 24 distritos |
+| `establecimientos.csv` | 17.430 establecimientos del país, 1.429 de Santa Fe |
+
+Son las **PASO 2023**: la confirmación es que Juntos por el Cambio y Unión por la
+Patria aparecen con dos listas internas cada una, cosa que solo ocurre en
+primarias. En Santa Fe hay 15 agrupaciones y 27 listas presidenciales.
+
+**Falta el archivo de resultados de ese mismo conjunto**: el que trae las mesas
+y los votos (`votos_cantidad`). Sin él, los diccionarios no aportan resultados,
+solo vocabulario. Es el que hay que seguir buscando para cerrar la instancia.
+
+Dos cosas que sí aportan desde ya:
+
+- **El universo completo de circuitos de Santa Fe**: 523 circuitos con su
+  departamento, contra los 30 que teníamos mapeados. Es la lista contra la cual
+  se va a medir cuánto cubre el nomenclador.
+- **Los nombres de los establecimientos** (escuelas), que suelen contener la
+  localidad y sirven como insumo para construir el mapeo circuito → localidad.
+  Es un método aproximado y habrá que validarlo, pero es un punto de partida
+  para 523 circuitos donde hoy no hay nada.
+
+`municipioId` viene en el archivo pero **está vacío para los 1.429
+establecimientos de Santa Fe**, así que no resuelve el nomenclador por sí solo.
+
+⚠️ **Riesgo registrado**: el `circuitoId` viene acá con cinco dígitos (`00010`),
+mientras que en los resultados de 2011 aparece como `0557 ` con espacio al final
+y en el nomenclador de los derivados como `0055` o `0134A`. Son formatos
+distintos del mismo identificador. Unificarlos es condición para cruzar
+circuitos entre años, y hay que resolverlo con cuidado: un error acá asigna
+votos a la localidad equivocada.
+
 ## Prioridad 1 — Las dos PASO con URL rota
 
 Son las más fáciles: el dataset existe en el catálogo de datos.gob.ar, pero el
 enlace devuelve 404. Ambos cuelgan de la ruta `/dine-resultados/`.
 
 - **PASO 2015**: `2015-PROVISORIOS_PASO.zip`
-- **PASO 2023**: `2023-PROVISORIOS_PASO.zip`
+- **PASO 2023**: `2023-PROVISORIOS_PASO.zip` — de este ya llegaron los
+  diccionarios; falta el archivo de resultados por mesa.
 
 Dónde buscarlas: la ficha del dataset en datos.gob.ar (puede tener un enlace
 actualizado que la API no refleja), o el sitio de la DINE en argentina.gob.ar.
