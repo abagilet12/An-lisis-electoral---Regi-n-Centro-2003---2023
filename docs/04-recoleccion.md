@@ -96,6 +96,46 @@ distintos del mismo identificador. Unificarlos es condición para cruzar
 circuitos entre años, y hay que resolverlo con cuidado: un error acá asigna
 votos a la localidad equivocada.
 
+### Votos por Localidad — 5 de 10 recibidos
+
+Ballotage 2015, PASO 2019, Generales 2019, Generales 2023 y Segunda Vuelta 2023.
+Los cinco íntegros y los cinco los lee el ingestor sin una sola incidencia: en
+las 150 combinaciones de localidad y elección, el total de positivos declarado
+coincide exactamente con la suma por agrupación. Es un buen indicio de la
+calidad del trabajo previo.
+
+Faltan cinco: **2007, PASO 2011, Generales 2011, PASO 2015 y Generales 2015**.
+
+### La cadena de identificadores de circuito, resuelta
+
+Estos archivos permitieron cerrar el problema de normalización que estaba
+anotado como riesgo. La renumeración de Santa Fe en 2023 **sigue una regla
+determinística**, verificada sobre las 30 localidades que aparecen en ambos
+períodos:
+
+| localidad | 2015 y 2019 | 2023 | establecimientos.csv |
+|---|---|---|---|
+| Esperanza | `0055` | `0550` | `00550` |
+| Ataliva | `0121` | `1210` | `01210` |
+| Cañada Rosquín | `0161` | `1610` | `01610` |
+| Frontera | `0134A` | `1345` | `01345` |
+
+La regla: **el código anterior se corre un dígito a la izquierda** (equivale a
+multiplicarlo por diez), y el archivo de establecimientos usa el mismo código
+con un cero adelante. Verificado: los 11 códigos probados aparecen en los 523
+circuitos de 2023, sin excepción.
+
+Los sub-circuitos con letra siguen la misma lógica y la letra pasa a dígito
+(`0134A` → `1345`). Hay un solo caso observado, así que **esa parte de la regla
+no está confirmada** y hay que validarla cuando aparezcan más sub-circuitos.
+De los 523 circuitos de 2023, 384 terminan en cero y 139 no: esos 139 son
+sub-circuitos y son los que pueden dar problemas.
+
+Consecuencia práctica: cualquier mapeo circuito → localidad que construyamos se
+puede expresar en una forma canónica y aplicar a toda la serie, sin rehacerlo
+por año. Eso vale tanto para los 30 circuitos que ya tenemos como para los que
+sumemos después.
+
 ## Prioridad 1 — Las dos PASO con URL rota
 
 Son las más fáciles: el dataset existe en el catálogo de datos.gob.ar, pero el
@@ -139,9 +179,11 @@ tiene con qué pedirlo, y conviene hacerlo temprano porque puede demorar.
 
 Mientras tanto la serie se arma con provisorios, declarado en cada fila.
 
-## Prioridad 4 — Los 10 archivos `Votos por Localidad`
+## Prioridad 4 — Los 5 archivos `Votos por Localidad` que faltan
 
-Están en tu Drive (`Datos electorales 2007 - 2023`). **Bajaron de prioridad**:
+**2007, PASO 2011, Generales 2011, PASO 2015 y Generales 2015.** Están en tu
+Drive (`Datos electorales 2007 - 2023`). **Bajaron de prioridad** como fuente de
+resultados:
 los archivos del portal cubren las mismas instancias con más alcance (los 19
 departamentos en vez de 3).
 
