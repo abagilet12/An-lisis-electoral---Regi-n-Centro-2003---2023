@@ -28,7 +28,7 @@ instancias a nivel mesa.** No hace falta recolectarlas de nuevo.
 
 ## Recibido y registrado
 
-### PASO 2023 — archivos de diccionario (parcial)
+### PASO 2023 — escrutinio provisorio (parcial)
 
 `data/raw/2023_paso_diccionarios/`, con `sha256` de cada archivo en su manifiesto.
 
@@ -39,14 +39,26 @@ instancias a nivel mesa.** No hace falta recolectarlas de nuevo.
 | `categorias.csv` | 1 = Presidente y Vice |
 | `distritos.csv` | los 24 distritos |
 | `establecimientos.csv` | 17.430 establecimientos del país, 1.429 de Santa Fe |
+| `secciones.csv` | las secciones (departamentos) de los 24 distritos |
+| `municipios.csv` | municipios — **solo de Buenos Aires, Catamarca y Santa Cruz** |
+| `mesas-totales.csv` | totales por mesa: participación, blancos, nulos, recurridos |
 
 Son las **PASO 2023**: la confirmación es que Juntos por el Cambio y Unión por la
 Patria aparecen con dos listas internas cada una, cosa que solo ocurre en
 primarias. En Santa Fe hay 15 agrupaciones y 27 listas presidenciales.
 
-**Falta el archivo de resultados de ese mismo conjunto**: el que trae las mesas
-y los votos (`votos_cantidad`). Sin él, los diccionarios no aportan resultados,
-solo vocabulario. Es el que hay que seguir buscando para cerrar la instancia.
+`mesas-totales.csv` sí trae datos de Santa Fe, y buenos: **8.332 mesas, 523
+circuitos, los 19 departamentos**, con 2.776.689 habilitados y 1.885.494
+votantes (67,9% de participación, coherente con la PASO 2023). Con eso ya se
+puede armar participación, blancos y nulos por departamento y por circuito.
+
+**Lo que falta es el archivo de votos por agrupación.** `mesas-totales.csv` da
+los totales de cada mesa pero no cuántos votos sacó cada fuerza. Sin ese archivo
+la instancia queda a medias: hay denominador, no hay reparto.
+
+Es un corte del **escrutinio provisorio de la noche de la elección** (marca de
+tiempo 2023-08-13/14), todavía más preliminar que los ZIP "PROVISORIOS" del
+portal. Queda registrado en el manifiesto.
 
 Dos cosas que sí aportan desde ya:
 
@@ -58,8 +70,24 @@ Dos cosas que sí aportan desde ya:
   Es un método aproximado y habrá que validarlo, pero es un punto de partida
   para 523 circuitos donde hoy no hay nada.
 
-`municipioId` viene en el archivo pero **está vacío para los 1.429
-establecimientos de Santa Fe**, así que no resuelve el nomenclador por sí solo.
+### Un hallazgo negativo que conviene tener claro
+
+`municipioId` viene vacío en los 1.429 establecimientos de Santa Fe y en las
+8.332 mesas. Y `municipios.csv` lo explica: **solo define municipios para Buenos
+Aires, Catamarca y Santa Cruz. Santa Fe no tiene ninguno.**
+
+Es decir: **el dataset de la DINE no trae localidad para Santa Fe por ningún
+lado.** La desagregación por localidad no va a salir de esta fuente, por más
+archivos que sumemos. Tiene que venir de otro lado:
+
+1. El nomenclador de los archivos `Votos por Localidad` (30 circuitos, ya
+   mapeados en etapas previas del proyecto).
+2. El GeoJSON de circuitos, si trae nombre de localidad.
+3. Los nombres de los establecimientos, como método aproximado.
+
+Conviene saberlo ahora y no después de juntar todo: **el objetivo "por
+localidad" depende enteramente de construir ese mapeo a mano o por cruce
+geográfico.** El nivel departamento, en cambio, está garantizado.
 
 ⚠️ **Riesgo registrado**: el `circuitoId` viene acá con cinco dígitos (`00010`),
 mientras que en los resultados de 2011 aparece como `0557 ` con espacio al final
