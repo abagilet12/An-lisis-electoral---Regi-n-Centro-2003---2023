@@ -149,6 +149,36 @@ Dónde buscarlas: la ficha del dataset en datos.gob.ar (puede tener un enlace
 actualizado que la API no refleja), o el sitio de la DINE en argentina.gob.ar.
 Deben pesar entre 25 y 40 MB y traer un `ResultadosElectorales.csv` adentro.
 
+### Santa_Fe.mdb (2003) — revisado, fuera de la serie
+
+`data/raw/referencia/Santa_Fe_2003_legislativas.mdb`. Base Access de Santa Fe,
+29 MB, a nivel mesa.
+
+**No sirve para la serie: no tiene la categoría Presidente.** Su tabla
+`Elecciones` va del código 2 al 8 (Senadores Nacionales, Diputados Nacionales,
+Gobernador, Senadores y Diputados Provinciales, Concejales, Intendentes) y no
+existe un código 1. Las únicas tablas con datos son `DNacionales` y
+`SNacionales`.
+
+Que el año es 2003 está confirmado por el padrón: 2.234.151 electores, contra
+2.235.568 de la presidencial de 2003 según la DINE. Es el mismo padrón.
+
+Aun así vale conservarla, por tres motivos:
+
+1. **516 circuitos con exactamente la misma numeración que nuestro nomenclador
+   previo a 2023**: los 30 que teníamos aparecen los 30. Es el universo de
+   circuitos de la época, que hasta ahora solo conocíamos para 2023.
+2. **Desagregación por sexo** (`mesCodSexo`), que conecta directamente con la
+   hipótesis de Tagina sobre el voto por género. Es de legislativas, no de
+   presidente, pero es un antecedente metodológico del período.
+3. **Es la prueba de que existe una fuente provincial con datos de 2003 a nivel
+   mesa.** Si esa fuente publica también la categoría Presidente, resuelve el
+   hueco más difícil de la serie.
+
+⚠️ Los **códigos de departamento son distintos a los de la DINE**: esta base usa
+numeración alfabética provincial (Belgrano = 001) y la DINE la suya
+(Belgrano = 17). El cruce hay que hacerlo por nombre, no por código.
+
 ## Prioridad 2 — 2003 y 2007 a nivel circuito
 
 Son anteriores a la política de datos abiertos, así que no están en el portal.
@@ -158,7 +188,10 @@ Es la parte más difícil de la serie y la que decide si el análisis arranca en
 - **2007**: `Argentina07.mdb`, el archivo que ya usaste para construir el
   derivado de 2007. Es el que tenés a mano y resuelve la instancia entera.
 - **2003**: sin fuente identificada. Alternativas a explorar, en orden:
-  1. Tribunal Electoral de la Provincia de Santa Fe.
+  1. **Tribunal Electoral de la Provincia de Santa Fe** — es la pista más
+     firme: de ahí parece venir `Santa_Fe.mdb`, que tiene 2003 a nivel mesa
+     pero sin la categoría Presidente. Vale preguntar si existe la misma base
+     con esa categoría.
   2. Archivo histórico de la DINE.
   3. Atlas Electoral de Andy Tow (dato derivado, citar como tal).
   4. Pedido formal a la Cámara Nacional Electoral.
