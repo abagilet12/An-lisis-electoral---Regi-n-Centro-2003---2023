@@ -66,6 +66,32 @@ mesas en lugar de 8.332. Sumando las 19 secciones el total cierra correcto.
 Por eso `total_provincial()` recorre las secciones en vez de pedir el
 distrito. Es un comportamiento anómalo de la API, no un dato faltante.
 
+## Otros endpoints no documentados en el spec
+
+Extraídos del bundle JavaScript de la aplicación web:
+
+| Endpoint | Estado |
+|---|---|
+| `GET /api/menu/periodos` | Funciona. Devuelve `[2025, 2023, 2021, 2019, 2017, 2015, 2013, 2011]`, que confirma el piso de 2011 |
+| `GET /api/menu` | Funciona. Lista las elecciones con su `IdEleccion` y fecha |
+| `GET /api/resultado/totalizadocsv` | Existe pero inutilizable: responde 409 pidiendo `año, recuentoId, eleccionId, categoriaId` y sigue rechazando esos mismos parámetros en todas las codificaciones probadas (UTF-8, latin-1, sin eñe, mayúsculas) |
+| `GET /api/menu/distritos` | Responde 409 `error al obtener el menu` con cualquier combinación |
+
+El botón "Descargar CSV" de la web genera el archivo en el navegador a partir
+de las respuestas de la API: no hay un archivo servido que se pueda pedir.
+
+## El nivel de circuito sigue cerrado
+
+`circuitoId` es un parámetro válido del endpoint, pero no se logró determinar
+su esquema de códigos. Probado sin éxito: los códigos del nomenclador de
+padrón (1210 para Ataliva) crudos, con relleno a 6 y a 7 dígitos, barridos
+contra las 19 secciones, e ids secuenciales. El id parece ser interno del
+Sistema de Recuento, como ya advierte el spec para `idAgrupacion`.
+
+Sin el árbol de ámbitos —que `menu/distritos` no entrega— no hay forma de
+descubrirlos desde la API. **Para llegar a localidad sigue haciendo falta el
+archivo por mesa.**
+
 ## Qué resuelve y qué no
 
 | Necesidad | ¿La API la cubre? |
@@ -73,7 +99,7 @@ distrito. Es un comportamiento anómalo de la API, no un dato faltante.
 | PASO 2023 por departamento | Sí, pero provisional |
 | General 2003 por localidad | **No** — no hay datos previos a 2011 |
 | Serie 2011-2019 por departamento | Sí, provisional, remapeando ids por año |
-| Desagregación por circuito → localidad | Incierto: falta descifrar `circuitoId` |
+| Desagregación por circuito → localidad | **No**, ver arriba |
 
 Para el nivel circuito, que es el que permite reconstruir localidades, sigue
 siendo más directa la descarga masiva por mesa de
