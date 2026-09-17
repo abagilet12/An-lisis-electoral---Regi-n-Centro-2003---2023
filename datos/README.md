@@ -67,11 +67,33 @@ Cubierto (nivel distrito, cargo Presidente y Vice):
 
 | Año | Instancia | Córdoba | Entre Ríos | Santa Fe |
 |---|---|---|---|---|
-| 2023 | PASO | ✓ | — | — |
-| 2023 | General | ✓ | ✓ | — |
-| 2023 | Balotaje | ✓ | ✓ | — |
+| 2023 | PASO | ✓ | ✓ | ✓ |
+| 2023 | General | ✓ | ✓ | ✓ |
+| 2023 | Balotaje | ✓ | ✓ | ✓ |
 
-Falta: Santa Fe completo, PASO de Entre Ríos, y todo 2003-2019.
+2023 está completo para las tres provincias. Falta 2003-2019.
+
+## Irregularidades de la fuente
+
+La JNE no publica los tres distritos con el mismo formato. Lo detectado hasta
+ahora, y resuelto en el parser:
+
+- **Distrito truncado**: el balotaje de Córdoba trae `Distrito: C`. El código
+  del nombre de archivo manda sobre el encabezado.
+- **Código de lista interna**: en Córdoba va en la primera columna (`20"A"`);
+  en Entre Ríos y Santa Fe esa columna repite el código de la agrupación y el
+  código de lista viene como prefijo del nombre (`A - DEMOS`, `1A TIERRA,
+  TECHO Y TRABAJO`). El parser lo normaliza a la letra en `lista_id`.
+- **Códigos que no encadenan**: en el PASO de Entre Ríos la lista de La
+  Libertad Avanza figura con código `503` dentro de la agrupación `135`. Por
+  eso la pertenencia lista→agrupación se decide por la estructura del bloque
+  (cabecera sin votos … fila `TOTAL`), nunca por el prefijo del código.
+- **Participación como texto**: viene `75.09%`, y la etiqueta cambia entre
+  `Votantes` y `Asistencia` según el archivo.
+- **Nombres de agrupación no homologados**: la misma fuerza aparece como
+  `UNION POR LA PATRIA`, `UNIÓN POR LA PATRIA` y `UNION POR LA PATRIA (SERGIO
+  MASSA - AGUSTIN ROSSI)` según distrito e instancia. Pendiente: tabla de
+  homologación para poder comparar entre años.
 
 ## Nota sobre la granularidad
 

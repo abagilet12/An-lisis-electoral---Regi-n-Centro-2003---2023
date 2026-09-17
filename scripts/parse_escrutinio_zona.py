@@ -94,6 +94,27 @@ def numero(celda):
         return ""
 
 
+def separar_codigo_lista(col_id, nombre):
+    """Separa el codigo de lista interna de su nombre.
+
+    La JNE lo publica de dos maneras segun el distrito:
+      Cordoba     -> codigo en la columna 0: 20"A" + nombre limpio
+      ER/Santa Fe -> columna 0 repite la agrupacion y el codigo va como
+                     prefijo del nombre: "A - DEMOS", "1A TIERRA, TECHO..."
+    Devuelve (codigo, nombre) con el codigo normalizado a la letra.
+    """
+    m = re.search(r'"?([0-9]?[A-Z])"?\s*$', col_id)
+    if m:
+        return m.group(1), nombre
+    m = re.match(r"^([0-9]?[A-Z])\s*-\s*(.+)$", nombre)
+    if m:
+        return m.group(1), m.group(2).strip()
+    m = re.match(r"^([0-9]?[A-Z])\s+([A-ZÁÉÍÓÚÑ].+)$", nombre)
+    if m:
+        return m.group(1), m.group(2).strip()
+    return "", nombre
+
+
 def leer_encabezado(sh, archivo):
     """Extrae instancia, fecha, distrito y cargo de las primeras filas."""
     meta = {"instancia": "", "fecha": "", "distrito": "", "cargo": ""}
@@ -173,10 +194,17 @@ def parsear(archivo):
                               "categoria": categoria, "valor": v})
 
     # --- Tabla de resultados ---
-    # En PASO cada agrupacion abre con una fila cabecera (sin votos), sigue con
-    # sus listas internas y cierra con "TOTAL <agrupacion>". En generales y
-    # balotaje hay una unica fila por agrupacion.
+    # En PASO cada agrupacion abre un bloque con una fila cabecera sin votos,
+    # sigue con sus listas internas y cierra con "TOTAL <agrupacion>". En
+    # generales y balotaje hay una unica fila por agrupacion, sin bloque.
+    #
+    # La pertenencia de una lista a su agrupacion se decide por el bloque
+    # abierto, no por el codigo de la columna 0: los codigos no son
+    # consistentes entre distritos (en Entre Rios 2023 la lista de La Libertad
+    # Avanza figura como 503 dentro de la agrupacion 135).
     agrupacion_actual = {"id": "", "nombre": ""}
+    bloque_abierto = False
+
     for r in range(inicio + 1, sh.nrows):
         col_id = texto(sh.cell_value(r, 0))
         nombre = texto(sh.cell_value(r, 1))
@@ -197,6 +225,7 @@ def parsear(archivo):
             continue
 
         if clave.startswith("TOTAL "):
+            # Cierra el bloque y aporta la fila agregada de la agrupacion.
             resultados.append({**comun,
                                "agrupacion_id": agrupacion_actual["id"],
                                "agrupacion": agrupacion_actual["nombre"],
@@ -204,21 +233,21 @@ def parsear(archivo):
                                "tipo_registro": "agrupacion", "votos": votos,
                                "pct_general": p_gen, "pct_validos": p_val,
                                "pct_afirmativos": p_afi, "pct_interna": ""})
+            bloque_abierto = False
             continue
 
         if votos == "":
-            # Cabecera de agrupacion en PASO: abre el bloque de listas internas.
+            # Cabecera de agrupacion: abre el bloque de listas internas.
             agrupacion_actual = {"id": col_id, "nombre": nombre}
+            bloque_abierto = True
             continue
 
-        if agrupacion_actual["nombre"] and col_id.startswith(
-            agrupacion_actual["id"].split("/")[0]
-        ):
-            # Lista interna dentro de la agrupacion abierta (PASO).
+        if bloque_abierto:
+            lista_id, lista = separar_codigo_lista(col_id, nombre)
             resultados.append({**comun,
                                "agrupacion_id": agrupacion_actual["id"],
                                "agrupacion": agrupacion_actual["nombre"],
-                               "lista_id": col_id, "lista": nombre,
+                               "lista_id": lista_id, "lista": lista,
                                "tipo_registro": "lista", "votos": votos,
                                "pct_general": "", "pct_validos": "",
                                "pct_afirmativos": "", "pct_interna": p_gen})
@@ -250,6 +279,40 @@ def verificar(resultados, archivo):
     return None
 
 
+def verificar_listas(resultados, archivo):
+    """En PASO, las listas internas deben sumar el total de su agrupacion."""
+    avisos = []
+    sumas = {}
+    for f in resultados:
+        if f["tipo_registro"] == "lista" and isinstance(f["votos"], (int, float)):
+            sumas[f["agrupacion"]] = sumas.get(f["agrupacion"], 0) + f["votos"]
+    for f in resultados:
+        if f["tipo_registro"] != "agrupacion" or f["agrupacion"] not in sumas:
+            continue
+        if abs(sumas[f["agrupacion"]] - f["votos"]) > 1:
+            avisos.append(
+                f"{archivo}: listas de {f['agrupacion']} suman "
+                f"{sumas[f['agrupacion']]:,} != total {f['votos']:,}"
+            )
+    return avisos
+
+
+def verificar_participacion(resultados, metadatos, archivo):
+    """La participacion declarada debe coincidir con votos/padron."""
+    total = next((f["votos"] for f in resultados if f["tipo_registro"] == "total"), None)
+    padron = next((m["valor"] for m in metadatos
+                   if sin_tildes(m["concepto"]) == "TOTAL INSCRIPTOS"), None)
+    declarada = next((m["valor"] for m in metadatos
+                      if m["categoria"] == "participacion"), None)
+    if not (total and padron and declarada):
+        return None
+    calculada = 100 * total / padron
+    if abs(calculada - declarada) > 0.15:
+        return (f"{archivo}: participacion declarada {declarada}% vs "
+                f"calculada {calculada:.2f}%")
+    return None
+
+
 def main():
     archivos = sorted(CRUDOS.rglob("*.xls"))
     if not archivos:
@@ -258,9 +321,11 @@ def main():
     resultados, metadatos, avisos = [], [], []
     for archivo in archivos:
         res, met = parsear(archivo)
-        aviso = verificar(res, archivo.name)
-        if aviso:
-            avisos.append(aviso)
+        for aviso in (verificar(res, archivo.name),
+                      verificar_participacion(res, met, archivo.name)):
+            if aviso:
+                avisos.append(aviso)
+        avisos += verificar_listas(res, archivo.name)
         resultados += res
         metadatos += met
         print(f"  {archivo.name}: {len(res)} filas de resultados, "

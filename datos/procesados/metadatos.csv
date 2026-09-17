@@ -3,6 +3,8 @@ anio,instancia,fecha,cargo,distrito_id,distrito,seccion_id,seccion,circuito_id,c
 2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_BALOTAJE_DIST04_cordoba_presidente.xls
 2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Participacion [%],participacion,77.76,2023_BALOTAJE_DIST08_entrerios_presidente.xls
 2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Normal (padron Electoral),mesas,3434,2023_BALOTAJE_DIST08_entrerios_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,74.96,2023_BALOTAJE_DIST21_santafe_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_BALOTAJE_DIST21_santafe_presidente.xls
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),inscriptos,3060623,2023_GENERAL_DIST04_cordoba_presidente.xls
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_GENERAL_DIST04_cordoba_presidente.xls
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Residentes Exterior,inscriptos,30438,2023_GENERAL_DIST04_cordoba_presidente.xls
@@ -22,9 +24,33 @@ anio,instancia,fecha,cargo,distrito_id,distrito,seccion_id,seccion,circuito_id,c
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Privados De Libertad,mesas,1,2023_GENERAL_DIST08_entrerios_presidente.xls
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Participacion [%],participacion,78.23,2023_GENERAL_DIST08_entrerios_presidente.xls
 2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Total Mesas,mesas,3437,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),inscriptos,2826966,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Residentes Exterior,inscriptos,27572,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Mesa Especial,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,VOTO COMANDO ELECTORAL,inscriptos,945,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Residentes Exterior,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Inscriptos,inscriptos,2855483,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Privados De Libertad,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,73.16,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Mesas,mesas,8335,2023_GENERAL_DIST21_santafe_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,VOTO COMANDO ELECTORAL,inscriptos,237,2023_PASO_DIST04_cordoba_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_PASO_DIST04_cordoba_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Inscriptos,inscriptos,3064193,2023_PASO_DIST04_cordoba_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Privados De Libertad,mesas,1,2023_PASO_DIST04_cordoba_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Participacion [%],participacion,68.33,2023_PASO_DIST04_cordoba_presidente.xls
 2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Mesas,mesas,9098,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,VOTO COMANDO ELECTORAL,inscriptos,88,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Normal (padron Electoral),mesas,3434,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Total Inscriptos,inscriptos,1144217,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Mesa Especial,mesas,1,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Participacion [%],participacion,75.55,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Privados De Libertad,mesas,1,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Total Mesas,mesas,3436,2023_PASO_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,VOTO COMANDO ELECTORAL,inscriptos,1009,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Inscriptos,inscriptos,2822833,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Mesa Especial,mesas,1,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,68.33,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Privados De Libertad,mesas,1,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Mesas,mesas,8334,2023_PASO_DIST21_santafe_presidente.xls
