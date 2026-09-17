@@ -1,0 +1,30 @@
+anio,instancia,fecha,cargo,distrito_id,distrito,seccion_id,seccion,circuito_id,circuito,mesa_id,concepto,categoria,valor,archivo_origen
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,04,Cordoba,,,,,,Participacion [%],participacion,75.09,2023_BALOTAJE_DIST04_cordoba_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_BALOTAJE_DIST04_cordoba_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Participacion [%],participacion,77.76,2023_BALOTAJE_DIST08_entrerios_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Normal (padron Electoral),mesas,3434,2023_BALOTAJE_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),inscriptos,3060623,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Residentes Exterior,inscriptos,30438,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Residentes Exterior,mesas,141,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,VOTO COMANDO ELECTORAL,inscriptos,320,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Privados De Libertad,mesas,1,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Inscriptos,inscriptos,3091381,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Mesas,mesas,9239,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,04,Cordoba,,,,,,Participacion [%],participacion,75.73,2023_GENERAL_DIST04_cordoba_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Normal (padron Electoral),inscriptos,1142794,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Normal (padron Electoral),mesas,3434,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Residentes Exterior,inscriptos,6744,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Mesa Especial,mesas,1,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,VOTO COMANDO ELECTORAL,inscriptos,1416,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Residentes Exterior,mesas,1,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Total Inscriptos,inscriptos,1150954,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Privados De Libertad,mesas,1,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Participacion [%],participacion,78.23,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,08,Entre Rios,,,,,,Total Mesas,mesas,3437,2023_GENERAL_DIST08_entrerios_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,VOTO COMANDO ELECTORAL,inscriptos,237,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Normal (padron Electoral),mesas,9097,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Inscriptos,inscriptos,3064193,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Privados De Libertad,mesas,1,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Participacion [%],participacion,68.33,2023_PASO_DIST04_cordoba_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,04,Cordoba,,,,,,Total Mesas,mesas,9098,2023_PASO_DIST04_cordoba_presidente.xls
