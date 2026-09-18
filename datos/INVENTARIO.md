@@ -42,6 +42,25 @@ Ya incorporado en `datos/crudos/2023/`, procesado en `datos/procesados/`.
 
 **3 de 12 instancias.** Solo da el total provincial: no se puede desagregar.
 
+### Nivel provincial — archivos de la DINE
+
+Fuente: `resultados_<año>_<instancia>_presidente_y_vicepresidente.xlsx`,
+archivos nacionales con una hoja por distrito. Se lee la de Santa Fe.
+Procesados por `scripts/parse_resultados_dine.py`.
+
+| Año | PASO | General | Balotaje |
+|---|---|---|---|
+| 2011 | ✓ | ✗ | — |
+| 2015 | ✓ | ✗ | ✓ |
+
+Aportan además la única fuente que vincula la **fórmula** (los nombres de
+los candidatos) con la **agrupación** que la lleva: `formulas.csv`. Ese
+puente es el que permite homologar 2007, donde las etiquetas son fórmulas,
+con 2011 en adelante, donde son agrupaciones.
+
+Sumando ambas fuentes, el nivel provincial cubre 6 de 12 instancias: PASO
+2011, PASO y balotaje 2015, y las tres de 2023.
+
 ### Nivel localidad — 3 departamentos, 30 localidades
 
 Fuente: archivos `Votos por Localidad - … - Presidente - Santa Fe.xlsx` en
@@ -61,7 +80,8 @@ entera: Santa Fe tiene 19 departamentos.
 | 2019 | ✓ | ✓ | — |
 | 2023 | ✗ | ✓ | ✓ |
 
-**10 de 12 instancias.** Faltan la general de 2003 y la PASO de 2023.
+**10 de 12 instancias, todas incorporadas.** Faltan la general de 2003 y la
+PASO de 2023.
 
 Cada archivo trae seis hojas: votos por localidad y agrupación, agrupación
 ganadora, totales por tipo de voto (blanco, nulo, impugnado, recurrido,
@@ -73,8 +93,9 @@ una hoja de metodología que documenta fuente y decisiones de procesamiento.
 1. **General 2003, por localidad.** Es el hueco más costoso. La DINE publica
    datos desagregados recién desde 2011; para 2003 hay que ir a otra fuente
    (Atlas Electoral de Andy Tow, o el Tribunal Electoral de Santa Fe).
-2. **PASO 2023, por localidad.** Disponible en la DINE, mismo formato que la
-   general 2023 que ya está procesada.
+2. **PASO 2023, por localidad.** Hay que generarla desde el archivo por mesa
+   de la DINE, igual que se hizo con la general 2023. El total provincial de
+   esa instancia sí está, por escrutinio definitivo de la JNE.
 3. **2011-2019 a nivel provincial**, si se quiere la serie provincial completa
    además de la de localidades. Se puede derivar de los archivos por mesa, no
    hace falta bajarla aparte.
