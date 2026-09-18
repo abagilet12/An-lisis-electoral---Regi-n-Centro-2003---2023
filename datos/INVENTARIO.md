@@ -61,6 +61,26 @@ con 2011 en adelante, donde son agrupaciones.
 Sumando ambas fuentes, el nivel provincial cubre 6 de 12 instancias: PASO
 2011, PASO y balotaje 2015, y las tres de 2023.
 
+### Nivel circuito — toda la provincia, 523 circuitos
+
+Fuente: el CSV por mesa de la DINE, agregado por
+`scripts/agregar_mesa_a_circuito.py`. **El circuito es la unidad geográfica
+del mapa electoral y viene identificado en el propio archivo**, así que este
+nivel no depende de ningún nomenclador y cubre los 19 departamentos.
+
+| Año | PASO | General | Balotaje |
+|---|---|---|---|
+| 2023 | ✓ | ✗ | ✗ |
+
+Verificado: los 523 circuitos suman exactamente el total provincial, y el
+padrón agregado (2.822.834) coincide con el del escrutinio definitivo de la
+JNE (2.822.833). Es recuento provisorio: la brecha con el definitivo es de
+36.944 votos (−2,08 %) en las seis fuerzas principales.
+
+`nomenclador_circuitos_2023.csv` lista los 523 circuitos con departamento,
+padrón y mesas. La columna `localidad` está poblada en 30 y vacía en 493:
+esas son, exactamente, las que faltan relevar a mano en padron.gob.ar.
+
 ### Nivel localidad — 3 departamentos, 30 localidades
 
 Fuente: archivos `Votos por Localidad - … - Presidente - Santa Fe.xlsx` en
