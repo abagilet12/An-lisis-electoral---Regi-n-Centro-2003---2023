@@ -113,7 +113,11 @@ una hoja de metodología que documenta fuente y decisiones de procesamiento.
 - **Renumeración de circuitos en 2023.** El nomenclador circuito→localidad de
   2023 no sirve para 2011-2021 ni al revés: Santa Fe renumeró sus circuitos.
   Está reconstruido por separado para 2023.
-- **El recuento provisorio no es el definitivo.** La PASO 2023 por localidad
+- **El recuento provisorio no es el definitivo.** Ver
+  [`docs/NOTA_METODOLOGICA_2023.md`](../docs/NOTA_METODOLOGICA_2023.md), que
+  deja constancia de que trabajar 2023 con datos provisorios responde a la
+  falta de publicación del escrutinio definitivo desagregado por parte de los
+  organismos responsables, y no a una decisión de esta investigación. La PASO 2023 por localidad
   viene del recuento provisorio, y las hojas de metodología de los `.xlsx`
   apuntan a archivos de la misma familia, así que probablemente toda la serie
   por localidad lo sea. El nivel provincial, en cambio, usa el escrutinio
