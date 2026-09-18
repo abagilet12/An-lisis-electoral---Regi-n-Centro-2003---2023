@@ -80,8 +80,13 @@ entera: Santa Fe tiene 19 departamentos.
 | 2019 | ✓ | ✓ | — |
 | 2023 | ✗ | ✓ | ✓ |
 
-**10 de 12 instancias, todas incorporadas.** Faltan la general de 2003 y la
-PASO de 2023.
+**11 de 12 instancias.** Diez salen de los `.xlsx`; la PASO 2023 se agregó
+desde el CSV por mesa con `scripts/agregar_mesa_a_localidad.py`, que agrupa
+las mesas por circuito y los circuitos por localidad usando el nomenclador.
+Solo falta la general de 2003.
+
+La tabla unificada es `datos/procesados/serie_localidad.csv`, que une ambas
+fuentes con las columnas `fuente` y `recuento_tipo`.
 
 Cada archivo trae seis hojas: votos por localidad y agrupación, agrupación
 ganadora, totales por tipo de voto (blanco, nulo, impugnado, recurrido,
@@ -93,9 +98,12 @@ una hoja de metodología que documenta fuente y decisiones de procesamiento.
 1. **General 2003, por localidad.** Es el hueco más costoso. La DINE publica
    datos desagregados recién desde 2011; para 2003 hay que ir a otra fuente
    (Atlas Electoral de Andy Tow, o el Tribunal Electoral de Santa Fe).
-2. **PASO 2023, por localidad.** Hay que generarla desde el archivo por mesa
-   de la DINE, igual que se hizo con la general 2023. El total provincial de
-   esa instancia sí está, por escrutinio definitivo de la JNE.
+2. **Confirmar si existe el escrutinio definitivo por mesa.** El CSV por
+   mesa que se usó para la PASO 2023 declara `recuento_tipo = PROVISORIO`.
+   Que esa columna exista sugiere que hay una variante `DEFINITIVO`; si está
+   disponible para descarga, conviene rehacer con ella toda la serie por
+   localidad, porque el provisorio difiere del definitivo (en el total
+   provincial de la PASO 2023, entre 2 y 2,3 % en las principales fuerzas).
 3. **2011-2019 a nivel provincial**, si se quiere la serie provincial completa
    además de la de localidades. Se puede derivar de los archivos por mesa, no
    hace falta bajarla aparte.
@@ -105,6 +113,12 @@ una hoja de metodología que documenta fuente y decisiones de procesamiento.
 - **Renumeración de circuitos en 2023.** El nomenclador circuito→localidad de
   2023 no sirve para 2011-2021 ni al revés: Santa Fe renumeró sus circuitos.
   Está reconstruido por separado para 2023.
+- **El recuento provisorio no es el definitivo.** La PASO 2023 por localidad
+  viene del recuento provisorio, y las hojas de metodología de los `.xlsx`
+  apuntan a archivos de la misma familia, así que probablemente toda la serie
+  por localidad lo sea. El nivel provincial, en cambio, usa el escrutinio
+  definitivo de la JNE. No mezclar ambos en un mismo cálculo: la columna
+  `recuento_tipo` de `serie_localidad.csv` está para eso.
 - **2007 tiene otra fuente** (`Argentina07.mdb`, origen no verificado
   directamente) y viene por partido, no por fórmula, así que las agrupaciones
   están reconstruidas. Es el año menos homogéneo de la serie.

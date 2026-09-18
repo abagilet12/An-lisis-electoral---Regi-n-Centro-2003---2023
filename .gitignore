@@ -1,0 +1,3 @@
+# El CSV por mesa pesa 42 MB; se documenta su origen en datos/INVENTARIO.md
+# y se versiona el agregado, no el crudo.
+datos/crudos/mesa/
