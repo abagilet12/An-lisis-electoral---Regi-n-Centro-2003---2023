@@ -61,6 +61,19 @@ con 2011 en adelante, donde son agrupaciones.
 Sumando ambas fuentes, el nivel provincial cubre 6 de 12 instancias: PASO
 2011, PASO y balotaje 2015, y las tres de 2023.
 
+### Nivel provincial — fuentes transcriptas
+
+Para 2003 no hay fuente procesable: la DINE arranca en 2011 y la Consulta de
+Escrutinio por Zona tampoco lo cubre. El dato se transcribió a mano desde una
+tabla de resultados y se validó con tres controles aritméticos que dan
+exactos (ver `datos/crudos/transcripciones/README.md`).
+
+| Año | PASO | General | Balotaje |
+|---|---|---|---|
+| 2003 | no existía | ✓ | no hubo |
+
+Con esto **el nivel provincial cubre 7 de las 12 instancias** del período.
+
 ### Nivel circuito — toda la provincia, 523 circuitos
 
 Fuente: el CSV por mesa de la DINE, agregado por
@@ -115,9 +128,10 @@ una hoja de metodología que documenta fuente y decisiones de procesamiento.
 
 ## Lo que falta
 
-1. **General 2003, por localidad.** Es el hueco más costoso. La DINE publica
-   datos desagregados recién desde 2011; para 2003 hay que ir a otra fuente
-   (Atlas Electoral de Andy Tow, o el Tribunal Electoral de Santa Fe).
+1. **General 2003, desagregada.** El total provincial ya está (transcripto).
+   Falta la desagregación por circuito o localidad, que la DINE no cubre
+   porque arranca en 2011. Hay que ir a otra fuente: Atlas Electoral de Andy
+   Tow o Tribunal Electoral de Santa Fe.
 2. **Confirmar si existe el escrutinio definitivo por mesa.** El CSV por
    mesa que se usó para la PASO 2023 declara `recuento_tipo = PROVISORIO`.
    Que esa columna exista sugiere que hay una variante `DEFINITIVO`; si está
