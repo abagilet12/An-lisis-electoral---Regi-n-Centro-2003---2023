@@ -140,7 +140,24 @@ Reglas que valen para **todas** las hojas de datos:
 - **Nombres de columna en minúscula, sin tildes ni espacios**, con guion
   bajo. Son nombres de variable, no títulos.
 
-## 9. Cómo leerlos desde Python
+## 9. Comparabilidad entre años
+
+Una serie temporal exige **tres condiciones**, no una:
+
+1. **Etiquetas homologadas.** La misma fuerza escrita igual todos los años.
+2. **Continuidad política declarada.** Qué se considera la misma corriente a
+   lo largo del tiempo es una decisión de investigación y vive en
+   `datos/referencia/homologacion_agrupaciones.csv`, editable, no en el
+   código.
+3. **Mismo universo geográfico.** El más fácil de pasar por alto y el que más
+   daño hace: comparar la provincia entera de un año con 30 localidades de
+   otro mide un cambio de recorte, no un cambio político.
+
+La columna `universo` de `serie_homologada.csv` marca el recorte de cada
+fila. **Filtrar por ella antes de agregar cualquier serie.** Ver
+[`HOMOLOGACION.md`](HOMOLOGACION.md).
+
+## 10. Cómo leerlos desde Python
 
 ```python
 import pandas as pd
@@ -157,7 +174,7 @@ por_agrupacion = votos.groupby("agrupacion").votos.sum().sort_values(ascending=F
 Para unir con cartografía, usar `Resultados_ancho` y cruzar por
 `circuito_id`, recordando normalizar los ceros a la izquierda de ambos lados.
 
-## 10. Qué hacer al agregar una fuente nueva
+## 11. Qué hacer al agregar una fuente nueva
 
 1. Guardar el original en `datos/crudos/<nivel>/`, sin editarlo.
 2. Renombrarlo `<anio>_<instancia>_<...>` para que el contenido se lea en el
