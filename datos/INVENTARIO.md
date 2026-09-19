@@ -83,16 +83,15 @@ nivel no depende de ningún nomenclador y cubre los 19 departamentos.
 
 | Año | PASO | General | Balotaje |
 |---|---|---|---|
-| 2023 | ✓ | ✓ | ✗ |
+| 2023 | ✓ | ✓ | ✓ |
 
-Junto con los nueve de PolAr, **el nivel circuito cubre 11 de las 12
-instancias**. Solo falta el balotaje 2023.
+Junto con los nueve de PolAr, **el nivel circuito cubre las 12 instancias del
+período**. La serie está completa a la unidad del mapa electoral.
 
-**No se puede obtener por la API**: comprobado en una misma corrida, la
-general devuelve 380 circuitos en el muestreo y la segunda vuelta cero, con
-los 523 códigos reales y pasando `seccionId` como padre. La única vía es su
-archivo por mesa, el equivalente de
-`ResultadoElectorales_2023_Generales.csv` para la segunda vuelta.
+El balotaje 2023 no lo entrega la API —comprobado en una misma corrida: la
+general devuelve 380 circuitos en el muestreo y la segunda vuelta cero— y se
+obtuvo de su archivo por mesa en el portal de datos abiertos. Ver
+[`docs/FUENTES.md`](../docs/FUENTES.md).
 
 Verificado: los 523 circuitos suman exactamente el total provincial, y el
 padrón agregado (2.822.834) coincide con el del escrutinio definitivo de la
