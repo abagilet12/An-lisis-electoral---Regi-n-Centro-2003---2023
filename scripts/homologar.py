@@ -33,12 +33,14 @@ TABLA = RAIZ / "datos" / "referencia" / "homologacion_agrupaciones.csv"
 FUENTES = [
     ("2023_PASO_circuito.csv", "circuito"),
     ("serie_localidad.csv", "localidad"),
+    ("resultados_departamento.csv", "departamento"),
     ("resultados_provincia_transcripto.csv", "provincia"),
     ("resultados_provincia_dine.csv", "provincia"),
     ("resultados.csv", "provincia"),
 ]
 
-COLUMNAS = ["anio", "instancia", "nivel", "universo", "seccion", "localidad",
+COLUMNAS = ["anio", "instancia", "nivel", "universo", "seccion_id", "seccion",
+            "localidad",
             "circuito_id", "agrupacion_original", "agrupacion_homologada",
             "familia", "bloque", "votos"]
 
@@ -48,6 +50,7 @@ COLUMNAS = ["anio", "instancia", "nivel", "universo", "seccion", "localidad",
 # una misma serie temporal.
 UNIVERSOS = {"localidad": "zona_nucleo_30_localidades",
              "circuito": "provincia_completa",
+             "departamento": "provincia_completa",
              "provincia": "provincia_completa"}
 
 
@@ -86,6 +89,7 @@ def main():
                 "seccion": r.get("seccion", ""),
                 "localidad": r.get("localidad", ""),
                 "circuito_id": r.get("circuito_id", ""),
+                "seccion_id": r.get("seccion_id", ""),
                 "agrupacion_original": etiqueta,
                 "agrupacion_homologada": h["agrupacion_homologada"],
                 "familia": h["familia"], "bloque": h["bloque"],

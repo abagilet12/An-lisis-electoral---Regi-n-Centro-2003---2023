@@ -94,6 +94,35 @@ JNE (2.822.833). Es recuento provisorio: la brecha con el definitivo es de
 padrón y mesas. La columna `localidad` está poblada en 30 y vacía en 493:
 esas son, exactamente, las que faltan relevar a mano en padron.gob.ar.
 
+### Nivel departamento — toda la provincia, vía API
+
+Fuente: la API de la DINE, recolectada con
+`notebooks/extraccion_api_dine.ipynb` y procesada por
+`scripts/parse_api_dine.py`.
+
+| Año | PASO | General | Balotaje |
+|---|---|---|---|
+| 2011 | ✓* | ✓* | — |
+| 2015 | ✓ | ✓ | ✓ |
+| 2019 | ✓ | ✓ | — |
+| 2023 | ✓ | ✓ | ✓ |
+
+**10 instancias, provincia entera.** Es el nivel intermedio que faltaba: con
+esto el universo `provincia_completa` deja de ser 2003 y 2023 sueltos y pasa
+a ser una serie.
+
+Verificado: 2015, 2019 y 2023 traen los 19 departamentos y el padrón cierra
+exacto contra la referencia provincial (2023 general: 8.332 mesas, 2.827.794
+electores).
+
+**\* 2011 viene partido en 22 unidades, no en los 19 departamentos.** El
+padrón total cierra exacto contra el archivo oficial (2.440.284 electores),
+así que la partición es completa, pero sus unidades no son los departamentos
+de los demás años. La columna `particion_comparable` lo marca.
+
+Es **recuento provisorio**: en la general 2023 da 18.456 votos menos que el
+escrutinio definitivo (−0,90 %).
+
 ### Nivel localidad — 3 departamentos, 30 localidades
 
 Fuente: archivos `Votos por Localidad - … - Presidente - Santa Fe.xlsx` en
