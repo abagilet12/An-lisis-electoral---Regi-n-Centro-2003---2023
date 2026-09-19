@@ -32,7 +32,7 @@ TABLA = RAIZ / "datos" / "referencia" / "homologacion_agrupaciones.csv"
 # El nivel más fino disponible de cada elección, sin superponer fuentes.
 FUENTES = [
     ("resultados_circuito_polar.csv", "circuito"),
-    ("2023_PASO_circuito.csv", "circuito"),
+    ("*_circuito.csv", "circuito"),          # los agregados desde mesa
     ("serie_localidad.csv", "localidad"),
     ("resultados_departamento.csv", "departamento"),
     ("resultados_provincia_transcripto.csv", "provincia"),
@@ -70,10 +70,14 @@ def main():
     # `universo`, porque cada uno sirve para una serie distinta. Al sumar hay
     # que filtrar por universo o se cuenta dos veces.
 
+    rutas = []
     for nombre, nivel in FUENTES:
-        ruta = PROC / nombre
-        if not ruta.exists():
-            continue
+        if "*" in nombre:
+            rutas += [(p, nivel) for p in sorted(PROC.glob(nombre))]
+        elif (PROC / nombre).exists():
+            rutas.append((PROC / nombre, nivel))
+
+    for ruta, nivel in rutas:
         for r in csv.DictReader(open(ruta, encoding="utf-8")):
             if r["tipo_registro"] != "agrupacion":
                 continue

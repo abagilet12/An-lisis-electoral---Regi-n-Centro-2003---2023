@@ -74,16 +74,20 @@ exactos (ver `datos/crudos/transcripciones/README.md`).
 
 Con esto **el nivel provincial cubre 7 de las 12 instancias** del período.
 
-### Nivel circuito — toda la provincia, 523 circuitos
+### Nivel circuito — 2023, desde los archivos por mesa de la DINE
 
-Fuente: el CSV por mesa de la DINE, agregado por
+Fuente: los CSV por mesa, agregados por
 `scripts/agregar_mesa_a_circuito.py`. **El circuito es la unidad geográfica
 del mapa electoral y viene identificado en el propio archivo**, así que este
 nivel no depende de ningún nomenclador y cubre los 19 departamentos.
 
 | Año | PASO | General | Balotaje |
 |---|---|---|---|
-| 2023 | ✓ | ✗ | ✗ |
+| 2023 | ✓ | ✓ | ✗ |
+
+Junto con los nueve de PolAr, **el nivel circuito cubre 11 de las 12
+instancias**. Solo falta el balotaje 2023, que necesita su propio archivo por
+mesa.
 
 Verificado: los 523 circuitos suman exactamente el total provincial, y el
 padrón agregado (2.822.834) coincide con el del escrutinio definitivo de la

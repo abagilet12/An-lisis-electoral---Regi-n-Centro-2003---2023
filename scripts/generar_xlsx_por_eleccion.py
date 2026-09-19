@@ -79,17 +79,27 @@ def cargar():
         for r in csv.DictReader(open(ruta, encoding="utf-8")):
             nomencladores.setdefault(r["anio_referencia"], {})[r["circuito_id"]] = r
 
-    for ruta in sorted(PROC.glob("*_circuito.csv")):
-        filas = list(csv.DictReader(open(ruta, encoding="utf-8")))
-        if not filas:
+    # Un archivo puede traer una eleccion (los agregados desde mesa) o varias
+    # (el consolidado de PolAr), asi que siempre se agrupa por eleccion.
+    circuito = ["resultados_circuito_polar.csv"] + [
+        p.name for p in sorted(PROC.glob("*_circuito.csv"))]
+    for nombre in circuito:
+        ruta = PROC / nombre
+        if not ruta.exists():
             continue
-        anio, inst = filas[0]["anio"], filas[0]["instancia"]
-        elecciones[(anio, inst)] = {
-            "nivel": "circuito", "clave": "circuito_id", "filas": filas,
-            "nomenclador": nomencladores.get(anio, {}),
-            "recuento": filas[0].get("recuento_tipo", "NO DECLARADO"),
-            "fuente": filas[0].get("archivo_origen", ""),
-        }
+        por_eleccion_circ = defaultdict(list)
+        for r in csv.DictReader(open(ruta, encoding="utf-8")):
+            por_eleccion_circ[(r["anio"], r["instancia"])].append(r)
+        for clave, filas in por_eleccion_circ.items():
+            if clave in elecciones:        # ya cargada de otro archivo
+                continue
+            elecciones[clave] = {
+                "nivel": "circuito", "clave": "circuito_id", "filas": filas,
+                "nomenclador": nomencladores.get(clave[0], {}),
+                "recuento": filas[0].get("recuento_tipo", "NO DECLARADO"),
+                "fuente": filas[0].get("fuente")
+                          or filas[0].get("archivo_origen", ""),
+            }
 
     # --- Nivel localidad ---------------------------------------------------
     por_eleccion = defaultdict(list)
@@ -182,6 +192,10 @@ def padron_de(datos, uid, unidad):
         n = datos["nomenclador"].get(unidad["circuito_id"])
         if n:
             return entero(n["electores"]), entero(n["mesas"])
+        # PolAr trae padron y mesas en cada fila, sin nomenclador aparte.
+        for f in datos["filas"]:
+            if f.get("circuito_id") == unidad["circuito_id"] and f.get("electores"):
+                return entero(f["electores"]), entero(f.get("mesas", 0))
     elif datos["nivel"] == "localidad":
         filas = datos["filas"]
         m = datos.get("metadatos_unidad", {}).get(
