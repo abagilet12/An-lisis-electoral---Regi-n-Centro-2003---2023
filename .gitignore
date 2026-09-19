@@ -1,3 +1,6 @@
 # El CSV por mesa pesa 42 MB; se documenta su origen en datos/INVENTARIO.md
 # y se versiona el agregado, no el crudo.
 datos/crudos/mesa/
+# Los .csv nacionales por mesa del repo PolAr pesan 48 MB; su origen queda
+# documentado y se versiona el agregado por circuito, no el crudo.
+datos/crudos/polar/arg_presi_*.csv

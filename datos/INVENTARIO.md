@@ -94,6 +94,44 @@ JNE (2.822.833). Es recuento provisorio: la brecha con el definitivo es de
 padrón y mesas. La columna `localidad` está poblada en 30 y vacía en 493:
 esas son, exactamente, las que faltan relevar a mano en padron.gob.ar.
 
+### Nivel circuito — toda la provincia, 2003-2019
+
+Fuente: escrutinios provisorios de
+[PoliticaArgentina/data_warehouse](https://github.com/PoliticaArgentina/data_warehouse),
+que a su vez vienen del **Atlas Electoral de Andy Tow** (2003-2017) y, para
+2019, de los paquetes de @pmoracho. Datos **a nivel mesa**, agregados por
+`scripts/parse_polar.py`.
+
+| Año | PASO | General | Balotaje |
+|---|---|---|---|
+| 2003 | no existía | ✓ | no hubo |
+| 2007 | no existía | ✓ | no hubo |
+| 2011 | ✓* | ✓* | no hubo |
+| 2015 | ✓ | ✓ | ✓ |
+| 2019 | ✓ | ✓ | no hubo |
+
+**Nueve instancias, entre 516 y 527 circuitos, los 19 departamentos.** Es la
+fuente que cierra los agujeros estructurales: **2003 y 2007 desagregados**,
+que ningún organismo publica.
+
+Validado: el padrón agregado coincide al elector con las cifras oficiales
+(2003: 2.235.568 · 2011: 2.440.284 · 2015: 2.687.061).
+
+**\* 2011 viene partido en 22 unidades**, igual que en la API: misma anomalía
+en ambas fuentes, lo que la confirma como propia del dato y no del
+procesamiento.
+
+Es recuento **provisorio**. En 2003 da 2,32 % *más* que el definitivo — al
+revés que los archivos de la DINE, que dan de menos.
+
+Dos detalles de la fuente resueltos en el parser: en la general 2019 los
+códigos de lista de los datos (`00001`-`00010`) no coinciden con los del
+diccionario (`00024`-`00108`), porque ese año se reconstruyó de otro origen;
+el mapeo se resolvió cotejando totales contra la API, que sí trae nombres, y
+se confirmó viendo que en Rosario el orden se invierte igual en ambas
+fuentes. Y **2007 viene por partido, no por fórmula**, así que las etiquetas
+son partidos y no candidatos.
+
 ### Nivel departamento — toda la provincia, vía API
 
 Fuente: la API de la DINE, recolectada con

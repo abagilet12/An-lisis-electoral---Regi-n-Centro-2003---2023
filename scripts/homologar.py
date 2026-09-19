@@ -31,6 +31,7 @@ TABLA = RAIZ / "datos" / "referencia" / "homologacion_agrupaciones.csv"
 
 # El nivel más fino disponible de cada elección, sin superponer fuentes.
 FUENTES = [
+    ("resultados_circuito_polar.csv", "circuito"),
     ("2023_PASO_circuito.csv", "circuito"),
     ("serie_localidad.csv", "localidad"),
     ("resultados_departamento.csv", "departamento"),

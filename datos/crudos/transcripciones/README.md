@@ -26,12 +26,13 @@ distrito Santa Fe. 18 fórmulas.
 
 Las tres verificaciones dan exactas.
 
-**Procedencia pendiente de asentar.** El dato se transcribió desde una
-captura de pantalla aportada por el investigador. Antes de citar la base en
-un trabajo publicado hay que dejar registrada la fuente concreta —organismo,
-publicación y fecha de consulta— y, si es posible, guardar el original en
-esta misma carpeta. La verificación aritmética confirma que la transcripción
-es fiel a la tabla, pero no dice nada sobre la autoridad de esa tabla.
+**Procedencia: resuelta.** El dato se transcribió desde una captura aportada
+por el investigador, sin fuente declarada. Posteriormente se identificó: las
+18 fórmulas y el padrón coinciden **exactamente**, cifra por cifra y con el
+mismo formato de nombres, con `sfe_presi_gral2003.csv` de los escrutinios
+definitivos del repositorio
+[PoliticaArgentina/data_warehouse](https://github.com/PoliticaArgentina/data_warehouse),
+cuyo origen es el **Atlas Electoral de Andy Tow**. Esa es la fuente a citar.
 
 Nota: 2003 no tuvo PASO (creadas por Ley 26.571, de 2009) ni segunda vuelta:
 Menem se retiró antes del balotaje, de modo que esta general es la única
