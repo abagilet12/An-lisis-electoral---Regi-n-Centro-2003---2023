@@ -86,8 +86,13 @@ nivel no depende de ningún nomenclador y cubre los 19 departamentos.
 | 2023 | ✓ | ✓ | ✗ |
 
 Junto con los nueve de PolAr, **el nivel circuito cubre 11 de las 12
-instancias**. Solo falta el balotaje 2023, que necesita su propio archivo por
-mesa.
+instancias**. Solo falta el balotaje 2023.
+
+**No se puede obtener por la API**: comprobado en una misma corrida, la
+general devuelve 380 circuitos en el muestreo y la segunda vuelta cero, con
+los 523 códigos reales y pasando `seccionId` como padre. La única vía es su
+archivo por mesa, el equivalente de
+`ResultadoElectorales_2023_Generales.csv` para la segunda vuelta.
 
 Verificado: los 523 circuitos suman exactamente el total provincial, y el
 padrón agregado (2.822.834) coincide con el del escrutinio definitivo de la

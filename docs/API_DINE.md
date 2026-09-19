@@ -102,7 +102,21 @@ aparecen 129 circuitos, **todos reales** —coinciden uno a uno con los del
 archivo por mesa, sin falsos positivos—. Los 394 restantes están por encima
 de ese rango.
 
-### Pero solo para 2023
+### Y dentro de 2023, tampoco para el balotaje
+
+Muestreando 999 códigos sobre todo el espacio de ids, **en la misma corrida**:
+
+| Elección 2023 | Circuitos hallados |
+|---|---:|
+| General | 380 |
+| Segunda vuelta | **0** |
+
+Probado además con los 523 códigos reales de la general y pasando
+`seccionId` como padre: nada. El circuito no está publicado para la segunda
+vuelta. El balotaje sí responde a nivel departamento, que es lo que la base
+ya tiene.
+
+### Solo para 2023, y no para todas sus instancias
 
 Muestreando 999 códigos repartidos sobre todo el espacio de ids:
 
