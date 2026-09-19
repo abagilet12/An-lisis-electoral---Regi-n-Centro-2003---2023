@@ -102,7 +102,40 @@ aparecen 129 circuitos, **todos reales** —coinciden uno a uno con los del
 archivo por mesa, sin falsos positivos—. Los 394 restantes están por encima
 de ese rango.
 
-`notebooks/extraccion_api_dine.ipynb` automatiza el barrido y la recolección.
+### Pero solo para 2023
+
+Muestreando 999 códigos repartidos sobre todo el espacio de ids:
+
+| Elección | Circuitos hallados |
+|---|---:|
+| 2023 General | 384 |
+| 2019 General | **0** |
+| 2015 General | **0** |
+
+Se probó además pasando `seccionId` como padre, por si el circuito lo
+requiriera en esos años: barrido de 1.499 códigos dentro de la sección 1 de
+2019, cero resultados. **No es un problema de descubrir códigos: el dato no
+está publicado a nivel circuito antes de 2023.**
+
+Y para 2023 ese nivel ya lo tenemos del archivo por mesa, así que la API no
+agrega nada ahí.
+
+## Qué aporta realmente esta API al proyecto
+
+El **nivel de departamento para 2011-2019**, que hoy falta en la base:
+
+| Elección | Departamentos | Mesas (suma) | Mesas (provincia) | ¿Cierra? |
+|---|---:|---:|---:|---|
+| 2015 General | 18 de 19 | 7.718 | 7.852 | No, faltan 134 |
+| 2019 General | **19 de 19** | 8.111 | 8.111 | **Sí, exacto** |
+| 2023 General | 19 de 19 | 8.332 | — | Sí |
+
+2019 es el caso limpio. 2015 queda 1,7 % corto. 2011 es claramente parcial y
+además su agregado distrital está roto.
+
+`notebooks/extraccion_api_dine.ipynb` automatiza la recolección. Son unas
+200 consultas por elección, cuestión de segundos: no hace falta barrer
+circuitos, porque ya se sabe que no existen antes de 2023.
 
 ## Cobertura real por año
 
