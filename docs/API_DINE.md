@@ -80,17 +80,44 @@ Extraídos del bundle JavaScript de la aplicación web:
 El botón "Descargar CSV" de la web genera el archivo en el navegador a partir
 de las respuestas de la API: no hay un archivo servido que se pueda pedir.
 
-## El nivel de circuito sigue cerrado
+## El nivel de circuito SÍ funciona (corrección)
 
-`circuitoId` es un parámetro válido del endpoint, pero no se logró determinar
-su esquema de códigos. Probado sin éxito: los códigos del nomenclador de
-padrón (1210 para Ataliva) crudos, con relleno a 6 y a 7 dígitos, barridos
-contra las 19 secciones, e ids secuenciales. El id parece ser interno del
-Sistema de Recuento, como ya advierte el spec para `idAgrupacion`.
+Una versión anterior de este documento concluía que el nivel de circuito era
+inaccesible. **Era un error**: se estaban probando los códigos del
+nomenclador de padrón (`1210` para Ataliva), que no son los que usa la API.
 
-Sin el árbol de ámbitos —que `menu/distritos` no entrega— no hay forma de
-descubrirlos desde la API. **Para llegar a localidad sigue haciendo falta el
-archivo por mesa.**
+Los códigos correctos son los del archivo por mesa de la DINE: cinco dígitos
+con ceros a la izquierda, `00115`. Con esos, `circuitoId` responde, y ni
+siquiera hace falta pasar `seccionId`:
+
+```
+?anioEleccion=2023&tipoRecuento=1&tipoEleccion=1&categoriaId=1
+&distritoId=21&circuitoId=00115
+→ 29 mesas, 9.856 electores
+```
+
+Como no hay endpoint que liste los ámbitos, los códigos se descubren por
+barrido del espacio de ids. Verificado: barriendo 1-1200 en la general 2023
+aparecen 129 circuitos, **todos reales** —coinciden uno a uno con los del
+archivo por mesa, sin falsos positivos—. Los 394 restantes están por encima
+de ese rango.
+
+`notebooks/extraccion_api_dine.ipynb` automatiza el barrido y la recolección.
+
+## Cobertura real por año
+
+A nivel distrito, comprobado contra lo que se sabe de la provincia:
+
+| Año | Mesas que devuelve | ¿Completo? |
+|---|---:|---|
+| 2011 PASO | 616 | **No**, el agregado distrital está roto |
+| 2011 General | 356 | **No**, ídem |
+| 2015 General | 7.852 | Sí |
+| 2019 General | 8.111 | Sí |
+| 2023 General | 8.332 | Sí, coincide exacto con el definitivo de la JNE |
+
+En las elecciones donde el agregado distrital falla hay que sumar las partes
+(secciones o circuitos) en vez de confiar en el total.
 
 ## Qué resuelve y qué no
 
@@ -99,7 +126,8 @@ archivo por mesa.**
 | PASO 2023 por departamento | Sí, pero provisional |
 | General 2003 por localidad | **No** — no hay datos previos a 2011 |
 | Serie 2011-2019 por departamento | Sí, provisional, remapeando ids por año |
-| Desagregación por circuito → localidad | **No**, ver arriba |
+| Desagregación por circuito | **Sí**, con los códigos de 5 dígitos de la DINE |
+| Desagregación a localidad | Solo con el nomenclador circuito→localidad, relevado aparte |
 
 Para el nivel circuito, que es el que permite reconstruir localidades, sigue
 siendo más directa la descarga masiva por mesa de
