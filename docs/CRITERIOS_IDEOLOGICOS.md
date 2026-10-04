@@ -104,15 +104,11 @@ centroderecha y derecha.
 **Escala de siete posiciones**, de la derecha a la izquierda: derecha radical,
 derecha, centroderecha, centro, centroizquierda, izquierda, izquierda radical.
 
-**Dos ejes separados, no mezclados:**
-
-1. **Posición izquierda-derecha** (la escala de arriba).
-2. **Campo peronista / no peronista** (Malamud, p. 152; ya presente en la columna
-   `bloque` de `homologacion_agrupaciones.csv`).
-
-Son dimensiones distintas: dentro del campo peronista conviven frentes de
-posiciones muy distintas, y el peronismo no kirchnerista no se resuelve con una
-sola etiqueta ideológica.
+**Decisión: la etiqueta es solo de posición izquierda-derecha.** El campo peronista /
+no peronista (Malamud, p. 152) **no entra en la etiqueta ideológica**; queda en la
+columna `bloque` de `homologacion_agrupaciones.csv` para el análisis. La razón es
+que dentro del campo peronista conviven frentes de posiciones muy distintas, y
+mezclar las dos dimensiones en una etiqueta multiplicaría las categorías.
 
 **Reglas de codificación:**
 
@@ -156,11 +152,19 @@ Salamanca, el Manifesto Project y la literatura sobre la derecha radical y la
 izquierda radical (Mudde). Si me pasás los PDF que prefieras, los leo y armo la
 tabla con página, como hice con Malamud.
 
-## 7. Decisiones que necesito de vos
+## 7. Decisiones tomadas
 
-1. ¿Te sirve la escala de siete posiciones y la regla de que **radical = extremo de
-   la dimensión más rechazo al orden institucional**?
-2. ¿Aceptás que el frente herede la posición de su **socio hegemónico** (regla 3)?
-3. ¿Mantengo el campo peronista / no peronista como **eje separado**, o querés una
-   sola etiqueta combinada?
-4. ¿Qué fuentes agregamos para 2003-2023?
+| Tema | Decisión |
+|---|---|
+| Escala | Siete posiciones, de derecha radical a izquierda radical |
+| «Radical» | Extremo de la dimensión **más** rechazo al orden institucional vigente |
+| Frentes con integrantes heterogéneos | El frente hereda la posición de su socio hegemónico |
+| Campo peronista / no peronista | Fuera de la etiqueta; solo en `bloque` |
+| Fuentes para 2003-2023 | Literatura que aporta el equipo (PDF), leída con página |
+| Composición de alianzas 2015-2023 | Registro o actas de la CNE, a conseguir fuera de este entorno |
+
+## 8. Pendiente
+
+1. Los PDF de literatura sobre ubicación de partidos argentinos en 2003-2023.
+2. El registro de alianzas o las actas constitutivas nacionales de la CNE.
+3. Con ambos, ubicar los frentes de cada elección con la evidencia anotada.

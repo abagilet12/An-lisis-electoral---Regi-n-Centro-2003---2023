@@ -158,15 +158,19 @@ constitutivas nacionales de la CNE (hay que abrirlas desde fuera de este entorno
 pasarme los PDF) o la hoja de alianzas del Registro de la CNE. Con cualquiera de
 las dos lo cierro con fuente oficial.
 
-## 6. Lo que sale de esta lista para el diseño de las etiquetas
+## 6. Las dos consideraciones para mostrar las etiquetas (decididas)
 
-1. Cada elección tiene que mostrar **el nombre oficial de la alianza**, no una
-   etiqueta de partido, y poder abrirse en sus integrantes.
-2. La continuidad FPV → Frente de Todos → Unión por la Patria es de **nombre y de
-   coalición**, no de partidos idénticos; lo mismo para Cambiemos → Juntos por el
-   Cambio.
-3. Hay etiquetas que no son continuas aunque se parezcan (UNA 2007 y UNA 2015) y
-   alianzas con el mismo partido adentro compitiendo entre sí (2003).
+1. **Alianza, no partido.** Cada elección muestra el **nombre oficial de la alianza o
+   frente** tal como figura en la boleta, y debe poder abrirse en los partidos que
+   lo integran. La etiqueta de boleta no es el partido (sección 2).
+2. **Cambios de nombre en el tiempo.** Cada etiqueta se muestra con el nombre que
+   tuvo en esa elección y con el vínculo a la anterior, **sin agruparlas bajo un
+   nombre único**. Por ejemplo, Frente para la Victoria (2003-2015), Frente de Todos
+   (2019) y Unión por la Patria (2023) se muestran como tres etiquetas encadenadas.
+
+Dos casos que esta regla evita confundir: la UNA de 2007 y la UNA de 2015 no son
+continuas, y en 2003 el mismo partido (el Justicialista) integra tres alianzas que
+compiten entre sí.
 
 ## 7. Registro de partidos de la DINE (UEEDA, cierre 30/09/2026)
 
