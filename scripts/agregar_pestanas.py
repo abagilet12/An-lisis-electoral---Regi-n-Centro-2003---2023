@@ -27,11 +27,44 @@ def quitar(s, ini, fin):
     return re.sub(re.escape(ini) + r".*?" + re.escape(fin) + r"\n?", "", s, flags=re.S)
 
 
+# Correcciones sobre el JavaScript original del tablero (idempotentes).
+PARCHES = [
+    # 1. Las capas 2003-2019 numeran los departamentos distinto que la geometría del mapa
+    #    (001 Belgrano ... 022 Vera, contra 001 La Capital ... 019 San Lorenzo): el mapa
+    #    por departamento pintaba cada polígono con datos de otro departamento.
+    ("""  const dd={}; capa.forEach(f=>dd[f.c]=f.d);
+  const out={};""",
+     """  const ant=+clave.slice(0,4)<=2019;      // las capas 2003-2019 usan otra numeración de departamentos
+  const dd={}; capa.forEach(f=>dd[f.c]= ant ? DEP_COD[DEP_ANT[f.d]] : f.d);
+  const out={};"""),
+    ("""function porUnidad(clave, nivel){""",
+     """const DEP_ANT={"001":"Belgrano","002":"Caseros","003":"Castellanos","004":"Constitución","005":"Garay",
+  "006":"General López","007":"General Obligado","008":"Iriondo","009":"La Capital","011":"Las Colonias",
+  "012":"Nueve de Julio","013":"Rosario","016":"San Cristóbal","017":"San Javier","018":"San Jerónimo",
+  "019":"San Justo","020":"San Lorenzo","021":"San Martín","022":"Vera"};
+const DEP_COD={}; M.dep.forEach(g=>{ DEP_COD[g.n==="9 de Julio"?"Nueve de Julio":g.n]=g.d; });
+function porUnidad(clave, nivel){"""),
+    # 2. Epígrafe en la ficha histórica de un circuito
+    ("""`<tbody>${filas}</tbody></table></div>`;""",
+     """`<tbody>${filas}</tbody></table></div>`+
+    `<p class="epi" style="padding:0 1rem .8rem">${EPI(["polar","dine23","cart"])}</p>`;"""),
+]
+
+
+def parchear(s):
+    for viejo, nuevo in PARCHES:
+        if nuevo in s:
+            continue
+        assert s.count(viejo) == 1, "no se encontró el fragmento: " + viejo[:50]
+        s = s.replace(viejo, nuevo)
+    return s
+
+
 def main():
     s = HTML.read_text(encoding="utf-8")
     css = (PLANT / "fichas.css").read_text(encoding="utf-8")
     panel = (PLANT / "fichas.html").read_text(encoding="utf-8")
-    js = (PLANT / "fichas.js").read_text(encoding="utf-8")
+    js = (PLANT / "fichas.js").read_text(encoding="utf-8") + "\n" + (PLANT / "epigrafes.js").read_text(encoding="utf-8")
     datos = DATOS.read_text(encoding="utf-8")
 
     # 1. quitar versiones anteriores
@@ -68,6 +101,7 @@ def main():
     if 'fichasMostrar(p)' not in s.replace(bloque, ""):
         s = s.replace(gancho, gancho + '  if(p==="ele"||p==="par") fichasMostrar(p);\n', 1)
 
+    s = parchear(s)
     HTML.write_text(s, encoding="utf-8")
     print(f"{HTML} · {len(s)/1024/1024:.2f} MB")
 

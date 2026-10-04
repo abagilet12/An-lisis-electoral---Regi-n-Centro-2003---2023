@@ -84,3 +84,42 @@ etiqueta oficial, hasta el nivel de circuito.
 - Votantes = votos positivos + blancos + nulos (+ impugnados, recurridos y comando en 2023).
   En 2003 a 2019 la base no trae impugnados, así que la participación puede quedar apenas
   por debajo de la oficial.
+
+## Epígrafes de tablas y gráficos
+
+Cada tabla y cada gráfico del tablero lleva debajo un epígrafe con el texto «Elaboración
+propia en base a los datos obtenidos en…» y las fuentes que corresponden. Las fuentes se
+definen en un solo lugar, `scripts/plantillas/epigrafes.js`, que se inyecta con
+`scripts/agregar_pestanas.py`.
+
+| Clave | Fuente que se nombra |
+|---|---|
+| `polar` | PoliticaArgentina/data_warehouse (escrutinios provisorios por mesa de 2003 a 2019, originados en el Atlas Electoral de Andy Tow) |
+| `dine23` | Dirección Nacional Electoral (archivos por mesa y nomenclador de ámbitos de 2023, del portal de datos abiertos) |
+| `cart` | Cartografía de circuitos electorales de Franco Galeano (CC BY 4.0) |
+| `dinex` | Dirección Nacional Electoral (Excel de resultados por distrito, escrutinio definitivo) |
+| `csv` | Base de datos electorales de Santa Fe 2011-2023 aportada por el equipo |
+
+| Tabla o gráfico | Fuentes |
+|---|---|
+| Resultados comparados (Datos y objetivos) | `polar`, `dine23` |
+| Mapa de la serie por circuito y ficha histórica de un circuito | `polar`, `dine23`, `cart` |
+| Mapas por departamento y por circuito, seis presidencias en paralelo | `polar`, `dine23`, `cart` |
+| Tabla por elección y sus indicadores | `polar`, `dine23` |
+| Composición por departamento | `polar`, `dine23` |
+| Corpus en cifras, evolución de las fuerzas, volatilidad, desafección, tamaño del lugar, dispersión | `polar`, `dine23` |
+| Elecciones: mapa | `polar`, `dine23`, `cart` |
+| Elecciones: tabla de resultados y participación | `polar`, `dine23`, `dinex`, `csv` |
+| Partidos: evolución y tabla de nombres | `polar`, `dine23`, `dinex`, `csv` (y `cart` cuando la unidad es un circuito) |
+| Partidos: mapa | `polar`, `dine23`, `cart` |
+| Partidos: ranking por departamento | `polar`, `dine23` |
+
+## Corrección del mapa por departamento (2003-2019)
+
+Las capas de circuitos de 2003 a 2019 numeran los departamentos con otro código que la
+geometría departamental (001 Belgrano … 022 Vera, contra 001 La Capital … 019 San Lorenzo).
+El mapa por departamento de esas elecciones pintaba cada polígono con los datos de otro
+departamento: entre 4 y 11 de los 19 estaban mal según la elección (2023 no tenía el
+problema). Se corrigió traduciendo el código por nombre de departamento y se verificó que
+el ganador pintado en cada departamento coincide con el de la tabla de resultados en las
+doce instancias.

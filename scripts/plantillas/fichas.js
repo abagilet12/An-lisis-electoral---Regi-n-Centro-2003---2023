@@ -255,6 +255,8 @@ function dibujarPartido(){
   $("#par-sel").value=k;
   fOpcionesU("#par-unidad",FP.u,FP.clave);
   fCabPar(); fVinculos(); fGraficoPar(); fTablaPar(); fMapaPar();
+  const epi=EPI(FP.u.t==="cir" ? EPI_FICHA.concat(["cart"]) : EPI_FICHA);
+  ["epi-par-serie","epi-par-tabla"].forEach(id=>{ const e=document.getElementById(id); if(e) e.textContent=epi; });
 }
 function fGraficoPar(){
   const k=FP.key, s=fSerie(k,FP.u), pct=FP.modo==="pct";
