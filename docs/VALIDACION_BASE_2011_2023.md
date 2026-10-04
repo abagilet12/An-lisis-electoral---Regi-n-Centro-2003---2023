@@ -8,7 +8,7 @@ Archivo recibido: `datos/crudos/otras_fuentes/datos_electorales_presidente_santa
 - **Diez de las doce instancias:** PASO, generales y balotaje de 2011 a 2023. **Faltan
   2003 y 2007**, que seguimos cubriendo con los Excel de la DINE y nuestra base.
 - Una fila por partido o alianza e instancia, más las filas de blanco, nulo e impugnado.
-  Hay 36 etiquetas partidarias distintas.
+  Hay 35 etiquetas partidarias distintas.
 - Todos los porcentajes y votos son de **recuento provisorio**. Coinciden exactamente
   con nuestra base en 29 de 74 filas (todas las de 2023 y las PASO 2011).
 
@@ -59,5 +59,5 @@ ideológica. Lo que cambia es el alcance de lo que hay que ubicar.
 | Escala de siete posiciones y definición de «radical» | **No.** Es una decisión de método. |
 | Frente que hereda la posición de su socio hegemónico | **No.** |
 | Campo peronista / no peronista como eje separado | **No.** |
-| Fuentes de ubicación para 2003-2023 | **No**, pero ahora se sabe qué ubicar: las 36 etiquetas de 2011-2023 más las de 2003 y 2007. |
+| Fuentes de ubicación para 2003-2023 | **No**, pero ahora se sabe qué ubicar: las 35 etiquetas de 2011-2023 más las de 2003 y 2007. |
 | Las «dos consideraciones» sobre etiquetas y alianzas | **No.** Sigue sin respuesta. |
