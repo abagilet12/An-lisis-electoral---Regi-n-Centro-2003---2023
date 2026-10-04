@@ -14,6 +14,7 @@ Datos en `datos/referencia/top3_por_eleccion.csv` y
 |---|---|---|
 | DINE, Excel por elección (argentina.gob.ar/dine) | Resultados definitivos 2003-2019, nacional y por distrito. **Para 2003, 2007 y 2011 el encabezado trae la lista de partidos de cada alianza.** | Descargado y leído |
 | DINE, CSV de mesas 2023 y API | Generales 2023 (provisorio) y país en PASO y balotaje 2023 | Descargado y leído |
+| DINE, registro de partidos (UEEDA), cierre 30/09/2026 y su historización desde junio de 2018 | Nombre legal, sigla, fecha de reconocimiento y vigencia de cada partido. **No informa alianzas.** | Aportado por el equipo; leído (sección 7) |
 | Base propia (`serie_homologada.csv`) | Santa Fe, doce instancias, recuento provisorio | Leída |
 | Cámara Nacional Electoral (electoral.gob.ar) | Actas constitutivas y plataformas 2023 | Accesible, pero los PDF nacionales están **escaneados** sin texto y las actas de Santa Fe son distritales |
 | CNE, registro histórico de alianzas (old.pjn.gov.ar) | Alianzas reconocidas 2015 en adelante | **Bloqueado** desde este entorno |
@@ -166,3 +167,54 @@ las dos lo cierro con fuente oficial.
    Cambio.
 3. Hay etiquetas que no son continuas aunque se parezcan (UNA 2007 y UNA 2015) y
    alianzas con el mismo partido adentro compitiendo entre sí (2003).
+
+## 7. Registro de partidos de la DINE (UEEDA, cierre 30/09/2026)
+
+Los dos archivos aportados están en `datos/crudos/dine_registro_partidos/`:
+partidos vigentes hoy (737: 44 nacionales y 693 de distrito, 45 de ellos en Santa
+Fe) y su historización desde el cierre del 15/06/2018 (1.265 registros, de los
+cuales 528 corresponden a partidos que ya no figuran como vigentes).
+
+**Qué sirve y qué no:**
+
+- **No contiene alianzas ni frentes.** Es el padrón de partidos, de modo que no
+  cierra la composición de 2015-2023.
+- **Sirve para fijar el nombre legal y la sigla** de cada partido integrante y para
+  saber si sigue vigente. El cruce con los integrantes de 2003-2011 está en
+  `datos/referencia/partidos_integrantes_vs_registro.csv` (se regenera con
+  `scripts/cruzar_registro_partidos.py`).
+- **Cobertura del cruce (198 integrantes):** 70 coinciden con un partido de orden
+  nacional (10 de ellos marcados «probable, revisar» por nombre genérico o dudoso,
+  como «Popular», «Autonomista» o «Unión Popular»), 81 son partidos provinciales de
+  otro distrito que no se evaluaron, y 47 no figuran en el registro. Estos últimos
+  pueden haberse extinguido antes de 2018: el registro no lo permite saber.
+- **Cuidado con `fecha_reconocimiento`:** en varios casos es la de un nuevo
+  reconocimiento y no la de fundación (la Unión del Centro Democrático figura en 2023).
+
+**Lo que el registro sí deja ver de 2015-2023**, como dato de contexto y no de
+composición de alianzas:
+
+| Partido (nombre legal) | Reconocimiento nacional | Estado |
+|---|---|---|
+| Frente Renovador | 12/06/2019 | vigente |
+| Unite por la Libertad y la Dignidad | 12/06/2019 | baja, último cierre 31/10/2023 |
+| La Libertad Avanza | 20/11/2024 | vigente |
+| Hacemos | 24/06/2025 | vigente |
+| Compromiso Federal | 13/05/2016 | vigente |
+| Kolina | 13/06/2011 | vigente |
+| Nuevo Encuentro por la Democracia y la Equidad | 21/08/2014 | vigente |
+| Patria Grande | 14/04/2023 | vigente |
+| Partido Fe | 06/02/2015 | vigente |
+
+Conviene leer esa tabla con una advertencia: **un partido con reconocimiento
+posterior a una elección no pudo ser la etiqueta de esa elección.** «La Libertad
+Avanza» y «Hacemos por Nuestro País» son nombres de alianza en 2023, mientras que
+los partidos registrados con nombres iguales o muy parecidos («La Libertad Avanza», «Hacemos») se reconocieron en 2024 y 2025. La etiqueta
+de la boleta y el partido registrado coinciden en el nombre pero no son la misma
+unidad, que es lo que la sección 2 ya advertía.
+
+**Lo que haría falta para cerrar 2015-2023:** el registro de alianzas o las actas
+constitutivas de la Cámara Nacional Electoral, que la DINE publica por separado de
+este padrón. Si encontrás en la DINE un archivo de «alianzas» o «frentes electorales»
+con la misma estructura (UEEDA), lo cargo con el mismo procedimiento.
+
