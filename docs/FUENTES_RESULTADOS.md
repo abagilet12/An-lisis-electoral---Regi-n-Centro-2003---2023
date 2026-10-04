@@ -46,3 +46,41 @@ La misma etiqueta se escribe distinto según la fuente (por ejemplo «Concertaci
 en la base propia y «Alianza Concertación para una Nación Avanzada» en la DINE). Para
 mostrar resultados se usa el nombre oficial del Excel de la DINE; las variantes quedan
 en `top3_por_eleccion.csv` (columna `etiqueta_tal_cual`).
+
+## Pestañas «Elecciones» y «Partidos» del tablero
+
+`salida/voto_santafesino.html` tiene dos pestañas con el resultado de cada partido por
+etiqueta oficial, hasta el nivel de circuito.
+
+- **Elecciones:** una ficha por instancia, con mapa por departamento o circuito (un clic
+  selecciona la unidad), tabla de resultados y participación, blancos y nulos. En el total
+  provincial se muestra al lado el resultado definitivo de la DINE cuando existe.
+- **Partidos:** una ficha por nombre oficial, con su evolución en las doce instancias,
+  la tabla de nombres y resultados, el mapa de intensidad y el ranking por departamento.
+  Si el partido cambió de nombre, la ficha ofrece un vínculo a la etiqueta anterior o
+  siguiente con su fuente. Es una ayuda de navegación, no una afirmación de identidad.
+
+**Cómo se regenera**
+
+1. `python3 scripts/construir_datos_fichas.py --proc <datos procesados de la rama de datos>`
+   genera `salida/datos_fichas.json` (resultados por circuito y etiqueta).
+2. `python3 scripts/agregar_pestanas.py` inserta (o reemplaza) las pestañas en el HTML con
+   las plantillas de `scripts/plantillas/`.
+
+**Cosas que conviene saber**
+
+- Departamento y provincia son la suma de circuitos, con recuento provisorio. El total
+  provincial definitivo de la DINE se agrega como referencia.
+- En 2011 PASO, tres partidos (Del Campo Popular, Movimiento de Acción Vecinal y Proyecto Sur)
+  solo tienen total provincial, tomado de la base recibida: no tienen detalle territorial.
+- En 2007, cuatro filas de la base que corresponden a un mismo frente de la DINE (El Movimiento
+  de las Provincias Unidas y los partidos que lo integran) se presentan juntas con el nombre
+  oficial, para no contar cuatro partidos donde la DINE informa uno.
+- Hay 43 circuitos sin polígono en la cartografía: no se dibujan en el mapa, pero suman en
+  departamento y provincia.
+- En el mapa de una elección el color indica el puesto provincial del partido, no su identidad.
+- Para seguir un circuito en el tiempo se usa el enlace histórico de la cartografía, con el
+  circuito de 2023 como referencia.
+- Votantes = votos positivos + blancos + nulos (+ impugnados, recurridos y comando en 2023).
+  En 2003 a 2019 la base no trae impugnados, así que la participación puede quedar apenas
+  por debajo de la oficial.
