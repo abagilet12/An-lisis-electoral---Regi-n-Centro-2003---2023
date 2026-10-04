@@ -163,8 +163,74 @@ tabla con página, como hice con Malamud.
 | Fuentes para 2003-2023 | Literatura que aporta el equipo (PDF), leída con página |
 | Composición de alianzas 2015-2023 | Registro o actas de la CNE, a conseguir fuera de este entorno |
 
-## 8. Pendiente
+## 8. Literatura leída para 2003-2023
 
-1. Los PDF de literatura sobre ubicación de partidos argentinos en 2003-2023.
-2. El registro de alianzas o las actas constitutivas nacionales de la CNE.
-3. Con ambos, ubicar los frentes de cada elección con la evidencia anotada.
+Cuatro textos aportados por el equipo. Evidencia con página en
+`datos/referencia/literatura_ubicacion_partidos.csv` (21 filas) y aplicación
+provisoria a los frentes de Santa Fe en `datos/referencia/ubicacion_frentes_provisoria.csv`
+(34 filas: 12 instancias, primeros tres de cada una).
+
+| Texto | Qué aporta | Qué no aporta |
+|---|---|---|
+| Murillo y Oliveros (2024), *Revista de Ciencia Política* 44(2), 161-185. Es el archivo «Argentina 2023». | La fuente más rica: ubica LLA, JxC, el PRO y el peronismo kirchnerista, y da la tesis de las «coaliciones no ideológicas» hasta 2001 | No ubica a UxP, Hacemos ni a la izquierda en la escala |
+| Murillo, Rubio y Mangonnet (2016), *Revista de Ciencia Política* 36(1), 3-26 | Composición de Cambiemos (PRO, CC, UCR), PRO como centroderecha, UNA como refugio del peronismo disidente | No ubica el FPV, UNA ni el FAP |
+| Scaramella (2025), *Espaço & Geografia* 28, 99-128. Es el archivo «Todo en todas partes…», fechado 2023 en el nombre. | Composición de JxC con una caracterización de cada partido; continuidad Frente de Todos → Unión por la Patria; Santa Fe pasa a JxC en 2023 | Poca ubicación ideológica: describe al peronismo por pertenencia |
+| Escolar (2011), *Revista SAAP* 5(2) | Marco conceptual: la etiqueta partidaria como mecanismo de coordinación entre distritos (p. 285, nota 38) | No ubica ningún partido |
+
+**Dos aclaraciones de cita.** Los archivos llevan años distintos de los de las
+revistas: «Murillo Argentina 2023» es de 2024 y «Scaramella 2023» es de 2025.
+Además, Murillo, Rubio y Mangonnet citan a Malamud como 2005, en la *Revista
+Colección* 10(15): es otra publicación del mismo título. La copia que tenemos es
+la de la *Revista Uruguaya de Ciencia Política* de 2004.
+
+### Qué quedó ubicado
+
+| Frente | Posición provisoria | Evidencia |
+|---|---|---|
+| La Libertad Avanza 2023 | **Derecha radical** | Explícita. Extrema derecha económica y conservadora en lo social, con «tintes autoritarios» respecto de las instituciones (Murillo y Oliveros, pp. 161-163, 171, 173). Cumple los dos requisitos de la definición de «radical». |
+| Juntos por el Cambio 2023 | **Derecha** | Explícita. Ala dominante, la de Bullrich; el ala de Rodríguez Larreta se ubica más al centro (pp. 171, 178). |
+| Cambiemos 2015 | **Centroderecha** | Explícita en tres fuentes. Socio hegemónico: PRO. |
+| Juntos por el Cambio 2019 | Centroderecha | Extrapolada: es el nuevo nombre de Cambiemos (Murillo y Oliveros, pp. 177-178). |
+| Frente para la Victoria 2007-2015 | Centroizquierda | Extrapolada: la fuente lo dice del kirchnerismo desde 2003 (p. 170). |
+| Frente de Todos 2019 y Unión por la Patria 2023 | Centroizquierda | Extrapolada débil: Scaramella los trata como el mismo sello (p. 104) pero ninguna fuente les da etiqueta ideológica. |
+| ARI y Recrear 2003 | Centroizquierda y centroderecha | Explícita, pero relativa a la UCR (Malamud, p. 145). |
+
+### Qué sigue sin ubicación (11 de 34 filas)
+
+Frente por la Lealtad (Menem, 2003), Confederación Coalición Cívica (2007),
+Concertación para una Nación Avanzada (2007), Frente Amplio Progresista (2011),
+Frente Popular (2011), Unión para el Desarrollo Social (2011), UNA (2015), Consenso
+Federal (2019) y Hacemos por Nuestro País (2023). Tampoco hay ubicación para la
+izquierda más allá de la etiqueta de bloque «Izquierda», así que ninguna fuente
+distingue entre izquierda e izquierda radical.
+
+### Tensiones y precauciones que dejan los textos
+
+1. **«Coaliciones no ideológicas».** Murillo y Oliveros dicen que hasta 2001 el
+   electorado se dividía en peronismo y no peronismo, sin base ideológica, y que
+   la oferta ideológica empieza a delimitarse con Cambiemos en 2015 (p. 170).
+   Esto pide cautela con las ubicaciones de 2003 a 2011: son más débiles que las
+   de 2015 a 2023.
+2. **La autoubicación de los votantes no discrimina frentes.** Los votantes de
+   Bullrich se ubican en 5 y los de Milei en 5,1 a 5,5, en una escala de 1 a 7
+   (p. 173). Por eso la posición del frente no puede salir de encuestas a votantes.
+3. **PRO: centroderecha o derecha.** Murillo y Oliveros lo llaman «derecha» y
+   «centroderecha» según el pasaje; Murillo, Rubio y Mangonnet y Scaramella dicen
+   «centroderecha». Se adopta centroderecha para 2015 y 2019, y se registra que
+   Gené (2024) lo llama antecedente de la derecha radical.
+4. **Frente heterogéneo.** El FPV, el Frente de Todos y Unión por la Patria
+   incluyen un ala conservadora (los gobernadores del Norte). Por la regla del
+   socio hegemónico hereda la posición del núcleo, con esta nota.
+5. **Radicalidad.** Solo LLA cumple el criterio completo. Sobre el MODIN de 1993,
+   Malamud lo ubicaba como derecha con «componente antisistema».
+
+## 9. Pendiente
+
+1. **Más literatura** para cubrir los 11 frentes sin ubicación. Los propios textos
+   leídos señalan los siguientes, que no leí: Gené (2024), *Revista Uruguaya de
+   Ciencia Política* 33(1); Vommaro, Morresi y Bellotti (2015), *Mundo PRO*; Cruz
+   (2019), *Revista SAAP* 13(2), sobre la construcción de coaliciones entre 1995 y
+   2015; Abal Medina (2004), *Party Politics*, sobre el Frente Grande.
+2. **El registro de alianzas o las actas de la CNE**, para la composición de las
+   alianzas de 2015 a 2023.
+3. **Validar** la ubicación provisoria de los frentes de las tablas de arriba.
