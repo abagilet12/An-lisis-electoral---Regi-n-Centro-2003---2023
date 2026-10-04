@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
-Top 3 por elección y composición de las alianzas, 2003-2023.
+Los tres primeros por elección, 2003-2023.
 
-Genera dos CSV en datos/referencia/:
-
-  top3_por_eleccion.csv    los tres primeros por instancia, con la etiqueta
-                           tal cual la publica cada fuente.
-  composicion_alianzas.csv partidos integrantes de cada alianza, copiados del
-                           encabezado de los Excel oficiales de la DINE
-                           (disponible 2003, 2007 y 2011).
+Genera datos/referencia/top3_por_eleccion.csv: los tres primeros por instancia,
+con la etiqueta tal cual la publica cada fuente.
 
 Fuentes (todas del Ministerio del Interior / DINE):
   - Excel 2003-2015 y 2019 de argentina.gob.ar/dine/resultados-electorales
@@ -16,7 +11,7 @@ Fuentes (todas del Ministerio del Interior / DINE):
   - API resultados.mininterior.gob.ar (PASO y balotaje 2023, provisorio)
   - Base propia: datos/procesados/serie_homologada.csv (recuento provisorio)
 
-Uso: python3 scripts/construir_top3_y_alianzas.py [carpeta_cache]
+Uso: python3 scripts/construir_top3.py [carpeta_cache]
 Requiere openpyxl. Descarga lo que falte en la carpeta de caché.
 """
 import csv
@@ -98,22 +93,6 @@ def etiquetas_por_formula(hoja):
     return m
 
 
-def composicion(hoja, anio, instancia):
-    """Alianzas y partidos integrantes del encabezado de la hoja nacional."""
-    out, actual = [], None
-    for f in filas(hoja):
-        t = f[0] if isinstance(f[0], str) else None
-        if t is None:
-            continue
-        if t.strip().upper().startswith("TOTAL PA"):
-            break
-        if t.strip().upper().startswith("ALIANZA ") and t.strip() == t.strip().upper() and len(f) == 1:
-            actual = t.strip()
-        elif actual and len(f) == 1 and not t.isupper():
-            out.append((anio, instancia, actual, t.strip()))
-    return out
-
-
 def top3_oficial(ambito, anio, inst, res, positivos, fuente, recuento, etq_formula=None):
     res = sorted(res, key=lambda x: -x[2])[:3]
     rows = []
@@ -126,7 +105,7 @@ def top3_oficial(ambito, anio, inst, res, positivos, fuente, recuento, etq_formu
 
 
 def main():
-    top3, comp = [], []
+    top3 = []
     # --- Excel DINE 2003-2015 (escrutinio definitivo) ---
     for anio, inst, nombre, hn, hs, fmt in EXCEL:
         wb = openpyxl.load_workbook(bajar(nombre), read_only=True, data_only=True)
@@ -134,8 +113,6 @@ def main():
         for ambito, hoja in (("Nacional", hn), ("Santa Fe", hs)):
             res, pos = leer_resultados(wb[hoja], fmt)
             top3 += top3_oficial(ambito, anio, inst, res, pos, "DINE (Excel oficial)", "DEFINITIVO", etq)
-        if anio <= 2011:
-            comp += composicion(wb[hn], anio, inst)
 
     # --- 2019: Excel definitivo (total país PASO y generales; Santa Fe generales) ---
     wb = openpyxl.load_workbook(bajar("2019_pv_definitivos_total_pais_paso_y_generales_1.xlsx"), read_only=True, data_only=True)
@@ -192,11 +169,7 @@ def main():
         w.writerow(["ambito", "fuente", "recuento", "anio", "instancia", "puesto", "etiqueta_tal_cual",
                     "formula_o_homologada", "votos", "pct_votos_positivos"])
         w.writerows(top3)
-    with open(SALIDA / "composicion_alianzas.csv", "w", newline="", encoding="utf8") as fh:
-        w = csv.writer(fh)
-        w.writerow(["anio", "instancia", "alianza", "partido_integrante"])
-        w.writerows(comp)
-    print(len(top3), "filas top3;", len(comp), "filas de composición")
+    print(len(top3), "filas")
 
 
 if __name__ == "__main__":

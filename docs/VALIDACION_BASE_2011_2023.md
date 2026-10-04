@@ -47,17 +47,3 @@ como segunda fuente provisoria, pero no para reemplazar el definitivo.
 Completa tres partidos menores que nuestra base no tenía en la PASO 2011: Del Campo
 Popular (3.775 votos), Movimiento de Acción Vecinal (2.458) y Proyecto Sur (12.496).
 En el resto de las instancias el universo de partidos coincide con el de la base.
-
-## ¿Resuelve las preguntas pendientes?
-
-No. Es una base de **resultados**, sin composición de alianzas ni ubicación
-ideológica. Lo que cambia es el alcance de lo que hay que ubicar.
-
-| Pregunta pendiente | ¿Cambia con esta base? |
-|---|---|
-| Composición de las alianzas 2015-2023 | **No.** Sigue haciendo falta el registro de alianzas o las actas de la CNE. |
-| Escala de siete posiciones y definición de «radical» | **No.** Es una decisión de método. |
-| Frente que hereda la posición de su socio hegemónico | **No.** |
-| Campo peronista / no peronista como eje separado | **No.** |
-| Fuentes de ubicación para 2003-2023 | **No**, pero ahora se sabe qué ubicar: las 35 etiquetas de 2011-2023 más las de 2003 y 2007. |
-| Las «dos consideraciones» sobre etiquetas y alianzas | **No.** Sigue sin respuesta. |
