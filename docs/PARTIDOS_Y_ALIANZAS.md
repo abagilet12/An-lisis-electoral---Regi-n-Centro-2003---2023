@@ -222,3 +222,56 @@ constitutivas de la Cámara Nacional Electoral, que la DINE publica por separado
 este padrón. Si encontrás en la DINE un archivo de «alianzas» o «frentes electorales»
 con la misma estructura (UEEDA), lo cargo con el mismo procedimiento.
 
+## 8. Registro oficial de candidaturas presidenciales (DINE, 1983-2023)
+
+Llegaron seis ZIP (uno por año, de 2003 a 2023) con **el mismo archivo**: tienen
+idéntico contenido. Se guardó una sola copia en
+`datos/crudos/dine_candidaturas/Candidaturas_Presidenciales_1983-2023.xlsx`.
+
+**Qué es:** una fila por candidato y por agrupación de las **elecciones generales**
+de 1983, 1989, 1995, 1999, 2003, 2007, 2011, 2015, 2019 y 2023 (220 filas, 99
+fórmulas). **No incluye PASO ni balotajes.** El orden por fórmula está en
+`datos/referencia/formulas_presidenciales_1983_2023.csv`
+(se regenera con `scripts/ordenar_candidaturas.py`).
+
+**Qué aporta:**
+
+1. **La fórmula de cada frente.** Se sumó la columna `formula_presidencial` a
+   `datos/referencia/ubicacion_frentes_provisoria.csv` para las generales y balotajes
+   de 2003 a 2023 (en las PASO queda vacía, porque el archivo no las cubre).
+2. **Una confirmación directa de la consideración 1 (alianza, no partido).** Una
+   misma fórmula aparece bajo varias etiquetas, porque cada partido integrante la
+   presenta por separado:
+
+   | Año | Fórmula | Etiquetas bajo las que figura |
+   |---|---|---|
+   | 1995 | Menem-Ruckauf | Partido Justicialista, Partido Federal, Unión del Centro Democrático, Frente Recuperación Ética |
+   | 1999 | Duhalde-Ortega | Unión del Centro Democrático, Frente de Integración Federal, Concertación Justicialista para el Cambio |
+   | 2003 | Menem-Romero | Unión del Centro Democrático, Frente por la Lealtad |
+   | 2007 | Sobisch-Asís | Unión Popular, Movimiento por la Dignidad y la Independencia, El Movimiento de las Provincias Unidas, Movimiento de Acción Vecinal |
+
+   Contar etiquetas del registro como si fueran frentes distintos duplicaría
+   candidaturas: la unidad es la fórmula, y la etiqueta de frente es solo una de las
+   que la presentan.
+3. **Un cruce con Malamud (1983-2003).** Los frentes que el texto menciona figuran en
+   el registro con la misma identidad: Alianza de Centro (1989, Alsogaray), FREPASO
+   (1995, Bordón-Álvarez), ALIANZA (1999, De la Rúa-Álvarez), Acción por la República
+   (1999, Cavallo). También el MODIN presenta a Aldo Rico en 1995.
+
+**Diferencias de nombre con la DINE de resultados (2003-2015):**
+
+| Año | Registro de candidaturas | Excel de resultados |
+|---|---|---|
+| 2003 | Movimiento Federal Recrear | Alianza Movimiento Federal para Recrear el Crecimiento |
+| 2007 | Afirmación Coalición Cívica | Alianza Confederación Coalición Cívica |
+| 2007 | Concertación UNA | Alianza Concertación para una Nación Avanzada |
+| 2007 | Frente Justicialista Unión y Libertad | Alianza Frente Justicia, Unión y Libertad |
+| 2011 | Coalición Cívica Ari | Coalición Cívica - Afirmación para una República Igualitaria |
+
+La abreviatura «Concertación UNA» de nuestra base viene de esta forma corta.
+
+**Qué no resuelve:** el registro no dice de qué partido es cada candidato ni qué
+partidos integran cada alianza, así que **no cierra la composición de 2015-2023**
+ni permite aplicar sola la regla del socio hegemónico. Tampoco ubica ideológicamente
+ningún frente.
+
