@@ -42,6 +42,9 @@ resultados por circuito ──► localidad (cartografía × radios censales) �
 | Votos reconstruidos desde circuitos contra la fuente por localidad (30 localidades × 11 elecciones = 330 pares) | diferencia media absoluta de 0,6 %; solo 4 pares superan el 10 % (Frontera 2019, San Carlos Sud 2011 general, Santa Clara de Saguier 2015 general), por diferencias entre las propias fuentes |
 | Ningún gobierno local reúne circuitos de más de un departamento | cumplido en las capas 2003, 2011, 2019 y 2023 |
 | Circuitos con menos del 90 % de su población en una sola localidad | 7 a 10 por capa |
+| Electores 2023 / población de 16+ por localidad | mediana 1,07; la corrección por padrón mueve un circuito (04250, Ricardone → San Lorenzo) |
+
+Chequeo de la población y corrección por padrón del circuito 04250 de 2023: ver `docs/VERIFICACION_POBLACION.md`.
 
 ## Resultado de la clasificación
 
@@ -49,9 +52,9 @@ resultados por circuito ──► localidad (cartografía × radios censales) �
 |---|---:|---:|
 | Rural | 198 | 4,5 |
 | Pueblo | 73 | 6,6 |
-| Ciudad pequeña | 45 | 10,7 |
+| Ciudad pequeña | 45 | 9,2 |
 | Ciudad intermedia | 40 | 25,1 |
-| Ciudad grande | 9 | 53,1 |
+| Ciudad grande | 9 | 54,6 |
 
 ## Límites a tener presentes
 

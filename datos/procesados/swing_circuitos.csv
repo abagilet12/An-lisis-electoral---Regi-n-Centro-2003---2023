@@ -16,7 +16,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,14,14,Peronismo Federal,Kirchnerismo,-1,36.4
 2003-GENERAL,2007-GENERAL,15,15,Peronismo Federal,Kirchnerismo,-1,52.3
 2003-GENERAL,2007-GENERAL,16,16,Peronismo Federal,Kirchnerismo,-1,44.6
-2003-GENERAL,2007-GENERAL,17,17,Centro progresista no peronista,Kirchnerismo,1,34.5
+2003-GENERAL,2007-GENERAL,17,17,Centro progresista no peronista,Kirchnerismo,-1,34.5
 2003-GENERAL,2007-GENERAL,18,18,Peronismo Federal,Kirchnerismo,-1,52.3
 2003-GENERAL,2007-GENERAL,19,19,Centro progresista no peronista,Centro progresista no peronista,0,38.1
 2003-GENERAL,2007-GENERAL,20,20,Peronismo Federal,Kirchnerismo,-1,37.0
@@ -33,7 +33,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,29,29,Peronismo Federal,Kirchnerismo,-1,46.7
 2003-GENERAL,2007-GENERAL,30,30,Centroderecha liberal,Centro progresista no peronista,-1,34.3
 2003-GENERAL,2007-GENERAL,31,31,Centroderecha liberal,Centro progresista no peronista,-1,39.7
-2003-GENERAL,2007-GENERAL,32,32,Centro progresista no peronista,Kirchnerismo,1,34.7
+2003-GENERAL,2007-GENERAL,32,32,Centro progresista no peronista,Kirchnerismo,-1,34.7
 2003-GENERAL,2007-GENERAL,33,33,Peronismo Federal,Kirchnerismo,-1,41.2
 2003-GENERAL,2007-GENERAL,34,34,Peronismo Federal,Kirchnerismo,-1,57.5
 2003-GENERAL,2007-GENERAL,35,35,Peronismo Federal,Kirchnerismo,-1,41.3
@@ -87,7 +87,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,80,80,Kirchnerismo,Peronismo Federal,1,41.3
 2003-GENERAL,2007-GENERAL,81,81,Centroderecha liberal,Peronismo Federal,-1,37.7
 2003-GENERAL,2007-GENERAL,82,82,Peronismo Federal,Centro progresista no peronista,-1,38.9
-2003-GENERAL,2007-GENERAL,83,83,Centro progresista no peronista,Kirchnerismo,1,43.2
+2003-GENERAL,2007-GENERAL,83,83,Centro progresista no peronista,Kirchnerismo,-1,43.2
 2003-GENERAL,2007-GENERAL,84,84,Peronismo Federal,Kirchnerismo,-1,51.1
 2003-GENERAL,2007-GENERAL,85,85,Peronismo Federal,Kirchnerismo,-1,44.6
 2003-GENERAL,2007-GENERAL,85A,85A,Centroderecha liberal,Peronismo Federal,-1,43.2
@@ -170,7 +170,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,158,158,Peronismo Federal,Kirchnerismo,-1,35.6
 2003-GENERAL,2007-GENERAL,159,159,Peronismo Federal,Peronismo Federal,0,32.7
 2003-GENERAL,2007-GENERAL,160,160,Peronismo Federal,Peronismo Federal,0,37.4
-2003-GENERAL,2007-GENERAL,161,161,Kirchnerismo,Centro progresista no peronista,-1,32.7
+2003-GENERAL,2007-GENERAL,161,161,Kirchnerismo,Centro progresista no peronista,1,32.7
 2003-GENERAL,2007-GENERAL,162,162,Kirchnerismo,Kirchnerismo,0,57.1
 2003-GENERAL,2007-GENERAL,163,163,Peronismo Federal,Peronismo Federal,0,40.7
 2003-GENERAL,2007-GENERAL,164,164,Peronismo Federal,Peronismo Federal,0,40.4
@@ -413,7 +413,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,363,363,Peronismo Federal,Centro progresista no peronista,-1,36.3
 2003-GENERAL,2007-GENERAL,364,364,Centro progresista no peronista,Centro progresista no peronista,0,32.0
 2003-GENERAL,2007-GENERAL,365,365,Kirchnerismo,Peronismo Federal,1,43.2
-2003-GENERAL,2007-GENERAL,366,366,Kirchnerismo,Centro progresista no peronista,-1,37.6
+2003-GENERAL,2007-GENERAL,366,366,Kirchnerismo,Centro progresista no peronista,1,37.6
 2003-GENERAL,2007-GENERAL,367,367,Peronismo Federal,Centro progresista no peronista,-1,40.2
 2003-GENERAL,2007-GENERAL,368A,,,Centro progresista no peronista,9,33.8
 2003-GENERAL,2007-GENERAL,368B,368D,Peronismo Federal,Kirchnerismo,-1,34.4
@@ -423,7 +423,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,370,370,Centro progresista no peronista,Centro progresista no peronista,0,39.2
 2003-GENERAL,2007-GENERAL,371,371,Centro progresista no peronista,Centro progresista no peronista,0,39.1
 2003-GENERAL,2007-GENERAL,372,372,Peronismo Federal,Peronismo Federal,0,34.4
-2003-GENERAL,2007-GENERAL,373,373,Centro progresista no peronista,Kirchnerismo,1,35.6
+2003-GENERAL,2007-GENERAL,373,373,Centro progresista no peronista,Kirchnerismo,-1,35.6
 2003-GENERAL,2007-GENERAL,374,374,Centro progresista no peronista,Peronismo Federal,1,37.2
 2003-GENERAL,2007-GENERAL,375,375,Peronismo Federal,Peronismo Federal,0,37.1
 2003-GENERAL,2007-GENERAL,375A,375A,Kirchnerismo,Peronismo Federal,1,40.2
@@ -434,7 +434,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,378,378,Peronismo Federal,Centro progresista no peronista,-1,39.1
 2003-GENERAL,2007-GENERAL,378A,378A,Peronismo Federal,Kirchnerismo,-1,37.4
 2003-GENERAL,2007-GENERAL,378B,378B,Kirchnerismo,Kirchnerismo,0,46.1
-2003-GENERAL,2007-GENERAL,378C,378C,Kirchnerismo,Centro progresista no peronista,-1,36.5
+2003-GENERAL,2007-GENERAL,378C,378C,Kirchnerismo,Centro progresista no peronista,1,36.5
 2003-GENERAL,2007-GENERAL,378D,378D,Kirchnerismo,Kirchnerismo,0,40.9
 2003-GENERAL,2007-GENERAL,379A,379A,Peronismo Federal,Centro progresista no peronista,-1,40.1
 2003-GENERAL,2007-GENERAL,379B,379B,Peronismo Federal,Peronismo Federal,0,39.9
@@ -498,9 +498,9 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2003-GENERAL,2007-GENERAL,414A,414A,Peronismo Federal,Kirchnerismo,-1,39.6
 2003-GENERAL,2007-GENERAL,415,415,Centro progresista no peronista,Centro progresista no peronista,0,32.4
 2003-GENERAL,2007-GENERAL,416,416,Peronismo Federal,Kirchnerismo,-1,47.8
-2003-GENERAL,2007-GENERAL,417,417,Kirchnerismo,Centro progresista no peronista,-1,44.2
+2003-GENERAL,2007-GENERAL,417,417,Kirchnerismo,Centro progresista no peronista,1,44.2
 2003-GENERAL,2007-GENERAL,417A,417A,Peronismo Federal,Kirchnerismo,-1,39.4
-2003-GENERAL,2007-GENERAL,417B,417B,Kirchnerismo,Centro progresista no peronista,-1,46.0
+2003-GENERAL,2007-GENERAL,417B,417B,Kirchnerismo,Centro progresista no peronista,1,46.0
 2003-GENERAL,2007-GENERAL,418A,418A,Peronismo Federal,Kirchnerismo,-1,46.0
 2003-GENERAL,2007-GENERAL,418B,418B,Peronismo Federal,Centro progresista no peronista,-1,35.6
 2003-GENERAL,2007-GENERAL,419,419,Peronismo Federal,Kirchnerismo,-1,42.3
@@ -520,7 +520,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,4,4,Centro progresista no peronista,Socialismo,-1,57.0
 2007-GENERAL,2011-GENERAL,5,5,Centro progresista no peronista,Socialismo,-1,58.2
 2007-GENERAL,2011-GENERAL,6,6,Centro progresista no peronista,Socialismo,-1,57.0
-2007-GENERAL,2011-GENERAL,7,7,Centro progresista no peronista,Kirchnerismo,1,45.0
+2007-GENERAL,2011-GENERAL,7,7,Centro progresista no peronista,Kirchnerismo,-1,45.0
 2007-GENERAL,2011-GENERAL,8,8,Centro progresista no peronista,Socialismo,-1,44.3
 2007-GENERAL,2011-GENERAL,9,9,Centro progresista no peronista,Socialismo,-1,58.3
 2007-GENERAL,2011-GENERAL,10,10,Centro progresista no peronista,Socialismo,-1,54.1
@@ -606,13 +606,13 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,84,84,Kirchnerismo,Kirchnerismo,0,50.0
 2007-GENERAL,2011-GENERAL,85,85,Kirchnerismo,Kirchnerismo,0,45.3
 2007-GENERAL,2011-GENERAL,85A,85A,Peronismo Federal,Socialismo,-1,61.0
-2007-GENERAL,2011-GENERAL,86,86,Centro progresista no peronista,Kirchnerismo,1,42.6
+2007-GENERAL,2011-GENERAL,86,86,Centro progresista no peronista,Kirchnerismo,-1,42.6
 2007-GENERAL,2011-GENERAL,87,87,Kirchnerismo,Kirchnerismo,0,45.8
 2007-GENERAL,2011-GENERAL,88,88,Kirchnerismo,Kirchnerismo,0,46.6
 2007-GENERAL,2011-GENERAL,89,89,Kirchnerismo,Kirchnerismo,0,47.1
 2007-GENERAL,2011-GENERAL,91,91,Kirchnerismo,Kirchnerismo,0,53.5
-2007-GENERAL,2011-GENERAL,92,92,Centro progresista no peronista,Kirchnerismo,1,42.2
-2007-GENERAL,2011-GENERAL,93,93,Centro progresista no peronista,Kirchnerismo,1,39.9
+2007-GENERAL,2011-GENERAL,92,92,Centro progresista no peronista,Kirchnerismo,-1,42.2
+2007-GENERAL,2011-GENERAL,93,93,Centro progresista no peronista,Kirchnerismo,-1,39.9
 2007-GENERAL,2011-GENERAL,94,94,Peronismo Federal,Kirchnerismo,-1,59.6
 2007-GENERAL,2011-GENERAL,95,95,Kirchnerismo,Kirchnerismo,0,58.9
 2007-GENERAL,2011-GENERAL,96,96,Kirchnerismo,Kirchnerismo,0,54.6
@@ -628,7 +628,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,106B,106B,Peronismo Federal,Socialismo,-1,40.4
 2007-GENERAL,2011-GENERAL,107,107,Kirchnerismo,Kirchnerismo,0,50.2
 2007-GENERAL,2011-GENERAL,108,108,Peronismo Federal,Kirchnerismo,-1,58.5
-2007-GENERAL,2011-GENERAL,109,109,Centro progresista no peronista,Kirchnerismo,1,62.1
+2007-GENERAL,2011-GENERAL,109,109,Centro progresista no peronista,Kirchnerismo,-1,62.1
 2007-GENERAL,2011-GENERAL,110,110,Kirchnerismo,Kirchnerismo,0,59.8
 2007-GENERAL,2011-GENERAL,111,111,Peronismo Federal,Socialismo,-1,45.9
 2007-GENERAL,2011-GENERAL,112,112,Peronismo Federal,Socialismo,-1,45.6
@@ -691,9 +691,9 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,162,162,Kirchnerismo,Kirchnerismo,0,57.2
 2007-GENERAL,2011-GENERAL,163,163,Peronismo Federal,Socialismo,-1,52.3
 2007-GENERAL,2011-GENERAL,164,164,Peronismo Federal,Socialismo,-1,43.5
-2007-GENERAL,2011-GENERAL,165,165,Centro progresista no peronista,Kirchnerismo,1,41.0
+2007-GENERAL,2011-GENERAL,165,165,Centro progresista no peronista,Kirchnerismo,-1,41.0
 2007-GENERAL,2011-GENERAL,166,166,Peronismo Federal,Socialismo,-1,48.0
-2007-GENERAL,2011-GENERAL,167,167,Centro progresista no peronista,Kirchnerismo,1,39.7
+2007-GENERAL,2011-GENERAL,167,167,Centro progresista no peronista,Kirchnerismo,-1,39.7
 2007-GENERAL,2011-GENERAL,168,168,Peronismo Federal,Kirchnerismo,-1,34.5
 2007-GENERAL,2011-GENERAL,169,169,Peronismo Federal,Socialismo,-1,41.7
 2007-GENERAL,2011-GENERAL,174,174,Peronismo Federal,Kirchnerismo,-1,39.7
@@ -738,7 +738,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,209,209,Peronismo Federal,Kirchnerismo,-1,60.5
 2007-GENERAL,2011-GENERAL,210,210,Centro progresista no peronista,Socialismo,-1,40.7
 2007-GENERAL,2011-GENERAL,210A,210A,Kirchnerismo,Socialismo,-1,40.0
-2007-GENERAL,2011-GENERAL,211,211,Centro progresista no peronista,Kirchnerismo,1,39.9
+2007-GENERAL,2011-GENERAL,211,211,Centro progresista no peronista,Kirchnerismo,-1,39.9
 2007-GENERAL,2011-GENERAL,212,212,Centro progresista no peronista,Socialismo,-1,37.9
 2007-GENERAL,2011-GENERAL,212A,212A,Kirchnerismo,Kirchnerismo,0,49.1
 2007-GENERAL,2011-GENERAL,213,213,Kirchnerismo,Socialismo,-1,41.0
@@ -809,7 +809,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,260,260,Kirchnerismo,Kirchnerismo,0,54.3
 2007-GENERAL,2011-GENERAL,261,261,Peronismo Federal,Kirchnerismo,-1,83.2
 2007-GENERAL,2011-GENERAL,262,262,Kirchnerismo,Kirchnerismo,0,70.0
-2007-GENERAL,2011-GENERAL,263,263,Centro progresista no peronista,Kirchnerismo,1,64.2
+2007-GENERAL,2011-GENERAL,263,263,Centro progresista no peronista,Kirchnerismo,-1,64.2
 2007-GENERAL,2011-GENERAL,264,264,Kirchnerismo,Kirchnerismo,0,76.2
 2007-GENERAL,2011-GENERAL,267,267,Kirchnerismo,Kirchnerismo,0,52.4
 2007-GENERAL,2011-GENERAL,268,268,Kirchnerismo,Kirchnerismo,0,68.0
@@ -817,7 +817,7 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,268B,268B,Kirchnerismo,Kirchnerismo,0,70.9
 2007-GENERAL,2011-GENERAL,269,269,Kirchnerismo,Kirchnerismo,0,84.2
 2007-GENERAL,2011-GENERAL,270,270,Kirchnerismo,Kirchnerismo,0,46.6
-2007-GENERAL,2011-GENERAL,271,271,Centro progresista no peronista,Kirchnerismo,1,50.0
+2007-GENERAL,2011-GENERAL,271,271,Centro progresista no peronista,Kirchnerismo,-1,50.0
 2007-GENERAL,2011-GENERAL,274,274,Kirchnerismo,Kirchnerismo,0,38.3
 2007-GENERAL,2011-GENERAL,275,275,Kirchnerismo,Kirchnerismo,0,55.4
 2007-GENERAL,2011-GENERAL,275A,275A,Kirchnerismo,Kirchnerismo,0,64.0
@@ -891,23 +891,23 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,342A,342A,Centro progresista no peronista,Socialismo,-1,51.1
 2007-GENERAL,2011-GENERAL,342B,342B,Kirchnerismo,Kirchnerismo,0,55.9
 2007-GENERAL,2011-GENERAL,343,343,Centro progresista no peronista,Socialismo,-1,36.9
-2007-GENERAL,2011-GENERAL,343A,343A,Centro progresista no peronista,Kirchnerismo,1,48.1
+2007-GENERAL,2011-GENERAL,343A,343A,Centro progresista no peronista,Kirchnerismo,-1,48.1
 2007-GENERAL,2011-GENERAL,344,344,Centro progresista no peronista,Socialismo,-1,51.1
 2007-GENERAL,2011-GENERAL,344A,344A,Kirchnerismo,Kirchnerismo,0,57.2
 2007-GENERAL,2011-GENERAL,345,345,Kirchnerismo,Kirchnerismo,0,44.5
 2007-GENERAL,2011-GENERAL,345A,345A,Kirchnerismo,Kirchnerismo,0,50.5
 2007-GENERAL,2011-GENERAL,347,347,Centro progresista no peronista,Socialismo,-1,43.0
 2007-GENERAL,2011-GENERAL,347A,347A,Kirchnerismo,Kirchnerismo,0,52.2
-2007-GENERAL,2011-GENERAL,348,348,Centro progresista no peronista,Kirchnerismo,1,46.0
-2007-GENERAL,2011-GENERAL,349,349,Centro progresista no peronista,Kirchnerismo,1,47.3
+2007-GENERAL,2011-GENERAL,348,348,Centro progresista no peronista,Kirchnerismo,-1,46.0
+2007-GENERAL,2011-GENERAL,349,349,Centro progresista no peronista,Kirchnerismo,-1,47.3
 2007-GENERAL,2011-GENERAL,349A,349A,Kirchnerismo,Kirchnerismo,0,51.6
 2007-GENERAL,2011-GENERAL,349B,349B,Kirchnerismo,Kirchnerismo,0,62.0
 2007-GENERAL,2011-GENERAL,349C,349C,Kirchnerismo,Kirchnerismo,0,46.7
 2007-GENERAL,2011-GENERAL,349D,,,Kirchnerismo,9,52.8
 2007-GENERAL,2011-GENERAL,350,350,Kirchnerismo,Kirchnerismo,0,45.4
 2007-GENERAL,2011-GENERAL,350A,350A,Centro progresista no peronista,Socialismo,-1,45.5
-2007-GENERAL,2011-GENERAL,351,351,Centro progresista no peronista,Kirchnerismo,1,42.5
-2007-GENERAL,2011-GENERAL,351A,351A,Centro progresista no peronista,Kirchnerismo,1,34.3
+2007-GENERAL,2011-GENERAL,351,351,Centro progresista no peronista,Kirchnerismo,-1,42.5
+2007-GENERAL,2011-GENERAL,351A,351A,Centro progresista no peronista,Kirchnerismo,-1,34.3
 2007-GENERAL,2011-GENERAL,352,352,Centro progresista no peronista,Socialismo,-1,50.9
 2007-GENERAL,2011-GENERAL,353,353,Kirchnerismo,Kirchnerismo,0,49.9
 2007-GENERAL,2011-GENERAL,353A,353A,Centro progresista no peronista,Socialismo,-1,43.3
@@ -921,16 +921,16 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,358,358,Centro progresista no peronista,Socialismo,-1,50.8
 2007-GENERAL,2011-GENERAL,359,359,Centro progresista no peronista,Socialismo,-1,45.5
 2007-GENERAL,2011-GENERAL,359A,359A,Kirchnerismo,Kirchnerismo,0,52.3
-2007-GENERAL,2011-GENERAL,360,360,Centro progresista no peronista,Kirchnerismo,1,38.8
+2007-GENERAL,2011-GENERAL,360,360,Centro progresista no peronista,Kirchnerismo,-1,38.8
 2007-GENERAL,2011-GENERAL,360A,360A,Kirchnerismo,Kirchnerismo,0,39.5
 2007-GENERAL,2011-GENERAL,362A,362A,Kirchnerismo,Kirchnerismo,0,59.3
 2007-GENERAL,2011-GENERAL,362B,362B,Kirchnerismo,Kirchnerismo,0,47.2
 2007-GENERAL,2011-GENERAL,362C,362C,Kirchnerismo,Kirchnerismo,0,49.1
 2007-GENERAL,2011-GENERAL,362D,362D,Kirchnerismo,Kirchnerismo,0,45.3
 2007-GENERAL,2011-GENERAL,363,363,Centro progresista no peronista,Socialismo,-1,40.8
-2007-GENERAL,2011-GENERAL,364,364,Centro progresista no peronista,Kirchnerismo,1,39.3
+2007-GENERAL,2011-GENERAL,364,364,Centro progresista no peronista,Kirchnerismo,-1,39.3
 2007-GENERAL,2011-GENERAL,365,365,Peronismo Federal,Socialismo,-1,34.4
-2007-GENERAL,2011-GENERAL,366,366,Centro progresista no peronista,Kirchnerismo,1,34.9
+2007-GENERAL,2011-GENERAL,366,366,Centro progresista no peronista,Kirchnerismo,-1,34.9
 2007-GENERAL,2011-GENERAL,367,367,Centro progresista no peronista,Socialismo,-1,38.7
 2007-GENERAL,2011-GENERAL,368A,,,Socialismo,9,41.8
 2007-GENERAL,2011-GENERAL,368B,368B,Kirchnerismo,Kirchnerismo,0,35.3
@@ -945,17 +945,17 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,375,375,Peronismo Federal,Socialismo,-1,37.2
 2007-GENERAL,2011-GENERAL,375A,375A,Peronismo Federal,Kirchnerismo,-1,45.7
 2007-GENERAL,2011-GENERAL,376,376,Centro progresista no peronista,Socialismo,-1,44.0
-2007-GENERAL,2011-GENERAL,377A,377A,Centro progresista no peronista,Kirchnerismo,1,38.8
+2007-GENERAL,2011-GENERAL,377A,377A,Centro progresista no peronista,Kirchnerismo,-1,38.8
 2007-GENERAL,2011-GENERAL,377B,377B,Centro progresista no peronista,Socialismo,-1,37.7
-2007-GENERAL,2011-GENERAL,377C,377C,Centro progresista no peronista,Kirchnerismo,1,41.4
-2007-GENERAL,2011-GENERAL,378,378,Centro progresista no peronista,Kirchnerismo,1,41.9
+2007-GENERAL,2011-GENERAL,377C,377C,Centro progresista no peronista,Kirchnerismo,-1,41.4
+2007-GENERAL,2011-GENERAL,378,378,Centro progresista no peronista,Kirchnerismo,-1,41.9
 2007-GENERAL,2011-GENERAL,378A,378A,Kirchnerismo,Kirchnerismo,0,32.8
 2007-GENERAL,2011-GENERAL,378B,378B,Kirchnerismo,Kirchnerismo,0,40.3
 2007-GENERAL,2011-GENERAL,378C,378C,Centro progresista no peronista,Socialismo,-1,36.7
 2007-GENERAL,2011-GENERAL,378D,378D,Kirchnerismo,Socialismo,-1,37.0
 2007-GENERAL,2011-GENERAL,379A,379A,Centro progresista no peronista,Socialismo,-1,35.8
 2007-GENERAL,2011-GENERAL,379B,379B,Peronismo Federal,Kirchnerismo,-1,36.7
-2007-GENERAL,2011-GENERAL,379C,379C,Centro progresista no peronista,Kirchnerismo,1,32.8
+2007-GENERAL,2011-GENERAL,379C,379C,Centro progresista no peronista,Kirchnerismo,-1,32.8
 2007-GENERAL,2011-GENERAL,380,380,Centro progresista no peronista,Socialismo,-1,40.4
 2007-GENERAL,2011-GENERAL,381,381,Centro progresista no peronista,Socialismo,-1,37.1
 2007-GENERAL,2011-GENERAL,382,382,Centro progresista no peronista,Socialismo,-1,44.4
@@ -988,12 +988,12 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,395B,395B,Peronismo Federal,Kirchnerismo,-1,36.8
 2007-GENERAL,2011-GENERAL,396,396,Kirchnerismo,Kirchnerismo,0,45.4
 2007-GENERAL,2011-GENERAL,396A,396A,Peronismo Federal,Kirchnerismo,-1,49.7
-2007-GENERAL,2011-GENERAL,397,397,Centro progresista no peronista,Kirchnerismo,1,41.1
+2007-GENERAL,2011-GENERAL,397,397,Centro progresista no peronista,Kirchnerismo,-1,41.1
 2007-GENERAL,2011-GENERAL,397A,397A,Peronismo Federal,Kirchnerismo,-1,42.9
 2007-GENERAL,2011-GENERAL,398,398,Kirchnerismo,Kirchnerismo,0,37.4
 2007-GENERAL,2011-GENERAL,399,399,Kirchnerismo,Socialismo,-1,38.9
 2007-GENERAL,2011-GENERAL,400,400,Peronismo Federal,Kirchnerismo,-1,32.1
-2007-GENERAL,2011-GENERAL,401A,401A,Centro progresista no peronista,Kirchnerismo,1,36.8
+2007-GENERAL,2011-GENERAL,401A,401A,Centro progresista no peronista,Kirchnerismo,-1,36.8
 2007-GENERAL,2011-GENERAL,401B,401B,Peronismo Federal,Kirchnerismo,-1,36.3
 2007-GENERAL,2011-GENERAL,402,402,Peronismo Federal,Socialismo,-1,36.5
 2007-GENERAL,2011-GENERAL,403,403,Kirchnerismo,Kirchnerismo,0,45.4
@@ -1001,14 +1001,14 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,404B,404B,Kirchnerismo,Kirchnerismo,0,38.1
 2007-GENERAL,2011-GENERAL,405,405,Peronismo Federal,Socialismo,-1,36.7
 2007-GENERAL,2011-GENERAL,406,406,Peronismo Federal,Kirchnerismo,-1,45.5
-2007-GENERAL,2011-GENERAL,407,407,Centro progresista no peronista,Kirchnerismo,1,39.4
+2007-GENERAL,2011-GENERAL,407,407,Centro progresista no peronista,Kirchnerismo,-1,39.4
 2007-GENERAL,2011-GENERAL,408,408,Kirchnerismo,Kirchnerismo,0,44.9
 2007-GENERAL,2011-GENERAL,409,409,Centro progresista no peronista,Socialismo,-1,40.7
 2007-GENERAL,2011-GENERAL,410,410,Kirchnerismo,Socialismo,-1,44.5
 2007-GENERAL,2011-GENERAL,411A,411A,Kirchnerismo,Socialismo,-1,40.4
 2007-GENERAL,2011-GENERAL,411B,411B,Kirchnerismo,Kirchnerismo,0,44.3
-2007-GENERAL,2011-GENERAL,412,412,Centro progresista no peronista,Kirchnerismo,1,43.5
-2007-GENERAL,2011-GENERAL,413A,413A,Centro progresista no peronista,Kirchnerismo,1,38.0
+2007-GENERAL,2011-GENERAL,412,412,Centro progresista no peronista,Kirchnerismo,-1,43.5
+2007-GENERAL,2011-GENERAL,413A,413A,Centro progresista no peronista,Kirchnerismo,-1,38.0
 2007-GENERAL,2011-GENERAL,413B,413B,Peronismo Federal,Socialismo,-1,40.5
 2007-GENERAL,2011-GENERAL,413C,413C,Kirchnerismo,Kirchnerismo,0,54.1
 2007-GENERAL,2011-GENERAL,414,414,Kirchnerismo,Kirchnerismo,0,47.2
@@ -1024,10 +1024,10 @@ eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ga
 2007-GENERAL,2011-GENERAL,420,420,Kirchnerismo,Kirchnerismo,0,50.2
 2007-GENERAL,2011-GENERAL,420A,420A,Kirchnerismo,Kirchnerismo,0,45.6
 2007-GENERAL,2011-GENERAL,421,421,Kirchnerismo,Kirchnerismo,0,63.1
-2007-GENERAL,2011-GENERAL,422,422,Centro progresista no peronista,Kirchnerismo,1,32.4
+2007-GENERAL,2011-GENERAL,422,422,Centro progresista no peronista,Kirchnerismo,-1,32.4
 2007-GENERAL,2011-GENERAL,422A,422B,Kirchnerismo,Kirchnerismo,0,60.0
 2007-GENERAL,2011-GENERAL,422B,,,Socialismo,9,42.3
-2007-GENERAL,2011-GENERAL,423,423,Centro progresista no peronista,Kirchnerismo,1,44.7
+2007-GENERAL,2011-GENERAL,423,423,Centro progresista no peronista,Kirchnerismo,-1,44.7
 2007-GENERAL,2011-GENERAL,424,424,Centro progresista no peronista,Socialismo,-1,43.3
 2007-GENERAL,2011-GENERAL,425A,425A,Centro progresista no peronista,Socialismo,-1,41.1
 2007-GENERAL,2011-GENERAL,425B,425B,Centro progresista no peronista,Socialismo,-1,48.3

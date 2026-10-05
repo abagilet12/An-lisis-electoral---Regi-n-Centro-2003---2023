@@ -94,11 +94,15 @@ def main():
     pob_gl = collections.defaultdict(int)
     for cod, p, _ in radios:
         pob_gl[glr[cod]] += p
+    pob16 = collections.defaultdict(int)          # población de 16 años o más (edad mínima para votar)
+    for r in csv.DictReader(io.TextIOWrapper(zc.open("82-santa-fe-2022-persona.csv"), encoding="utf-8-sig")):
+        if r["cod_variable"] == "PERSONA_EDAD" and r["categoria"].isdigit() and int(r["categoria"]) >= 16:
+            pob16[glr[r["codigo"]]] += int(r["cantidad"])
     with open(REF / "poblacion_gobiernos_locales_censo2022.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, lineterminator="\n")
-        w.writerow(["codigo_gobierno_local", "gobierno_local", "cod_departamento", "poblacion_2022"])
+        w.writerow(["codigo_gobierno_local", "gobierno_local", "cod_departamento", "poblacion_2022", "poblacion_16_y_mas"])
         for c in sorted(pob_gl, key=lambda c: -pob_gl[c]):
-            w.writerow([c, nom[c], dep[c], pob_gl[c]])
+            w.writerow([c, nom[c], dep[c], pob_gl[c], pob16[c]])
     print(f"{len(pob_gl)} gobiernos locales; población {sum(pob_gl.values()):,}".replace(",", "."))
 
     # 3. circuitos × radios
@@ -146,6 +150,31 @@ def main():
             f[2], f[3], f[4] = gl, nom[gl], pob_gl[gl]
         f[7] = "nomenclador" if gl == f[2] else f[7]
     print("corregidos con el nomenclador a mano:", cambios or "ninguno")
+
+    # 5. Corrección por padrón (capa 2023). Un circuito subdividido entre 2023 y 2025 puede quedar con un polígono
+    #    parcial. Se detecta porque el padrón del circuito supera varias veces la población de 16+ de su localidad
+    #    mientras otra localidad del mismo departamento queda casi sin electores. Se mueve el circuito solo si, con
+    #    el cambio, las dos localidades quedan en una relación electores/población razonable.
+    el23 = {nz(r["circuito_id"]): int(r["electores"]) for r in csv.DictReader(
+        open(RAIZ / "datos" / "procesados" / "nomenclador_circuitos_2023.csv", encoding="utf-8"))}
+    f23 = [f for f in filas if f[0] == "2023"]
+    sum_el = collections.defaultdict(int)
+    for f in f23:
+        sum_el[f[2]] += el23.get(nz(f[1]), 0)
+    corr = []
+    for f in sorted(f23, key=lambda f: -el23.get(nz(f[1]), 0)):
+        e, gl = el23.get(nz(f[1]), 0), f[2]
+        if e < 1000 or sum_el[gl] / max(1, pob16[gl]) < 3:
+            continue
+        candidatos = [g for g in pob16 if dep[g] == dep[gl] and g != gl and sum_el[g] / max(1, pob16[g]) < 0.3]
+        for g in sorted(candidatos, key=lambda g: -pob16[g]):
+            nuevo_g = (sum_el[g] + e) / pob16[g]; resto_gl = (sum_el[gl] - e) / max(1, pob16[gl])
+            if 0.5 <= nuevo_g <= 2 and resto_gl <= 3:
+                corr.append((f[1], f[3], nom[g], e))
+                sum_el[g] += e; sum_el[gl] -= e
+                f[2], f[3], f[4], f[7] = g, nom[g], pob_gl[g], "padron"
+                break
+    print("corregidos con el padrón:", corr or "ninguno")
     with open(REF / "circuito_localidad.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh, lineterminator="\n")
         w.writerow(["capa", "circuito", "codigo_gobierno_local", "localidad", "poblacion_localidad_2022",

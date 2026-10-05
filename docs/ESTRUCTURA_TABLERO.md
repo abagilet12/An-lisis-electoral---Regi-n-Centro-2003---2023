@@ -7,7 +7,7 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 
 | Pestaña | Pregunta | Secciones |
 |---|---|---|
-| Objetivos, método y base de datos | Qué se hizo y con qué datos | Objetivos · Recolección y procesamiento de los datos · Advertencias y fuentes |
+| Objetivos, método y base de datos | Qué se hizo y con qué datos | Objetivos · Marco de referencia (gobernanza electoral multinivel, territorialización y nacionalización; Scaramella, 2025) · Recolección y procesamiento de los datos · Advertencias y fuentes |
 | Evolución del voto | Cómo cambia el voto en el territorio | Evolución del voto a Presidente en Santa Fe 2003-2023 por circuito electoral (mapa de la serie, con tres líneas de interpretación) · El voto departamento por departamento · Comparación de las elecciones definitivas 2003 - 2023 en Santa Fe |
 | Swing voters | Dónde cambió el ganador entre elecciones definitivas | Swing voters (mapa con flechas y vista ampliada) · Las cinco comparaciones · El cambio según el tamaño del lugar (`docs/SWING_VOTERS.md`) |
 | Análisis estadístico | Qué dicen las tablas y los indicadores | Resultados comparados, 2003-2023 · Tabla por elección · Composición por departamento · Volatilidad y desafección |
@@ -26,3 +26,6 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 - Títulos, paleta (`#010318` → `#07169C` para la interfaz), colores de familias
   (`docs/CRITERIOS_COLOR.md`), etiquetas (`docs/CRITERIO_DERECHA_LIBERTARIA.md`) y redacción
   académica se mantienen en todas las pestañas.
+
+- Las citas del HTML siguen el formato (autor, año: página); las referencias están en `docs/REFERENCIAS.md`.
+- Para replicar el análisis en otras provincias: `docs/REPLICACION_OTRAS_PROVINCIAS.md`.

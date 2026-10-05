@@ -12,8 +12,9 @@ Comparaciones: 2003-2007, 2007-2011, 2011-2015, 2015-2019 y 2019-2023.
 Para cada par (a, b) las unidades son los circuitos de la elección b con polígono en la cartografía. Cada uno
 se enlaza con el circuito que cubría ese territorio en a mediante el enlace histórico
 (datos/referencia/enlace_circuitos.csv). Dirección de la flecha: según el movimiento en la escala
-izquierda-derecha de datos/referencia/ubicacion_familias.csv (derecha si la nueva fuerza queda más a la derecha
-que la que ganó antes).
+izquierda-derecha de datos/referencia/ubicacion_familias.csv, que ordena a las familias por su orientación
+igualitaria (criterio de Bobbio, 1994; docs/CRITERIO_IDEOLOGICO_BOBBIO.md). Derecha si la nueva fuerza es menos
+igualitaria que la que ganó antes.
 
 Entradas  datos/procesados/serie_homologada.csv, datos/referencia/{enlace_circuitos, ubicacion_familias,
           circuito_localidad, escala_tamano_lugar, departamentos_codigos_cartografia}.csv, datos/geo/circuitos/
@@ -40,8 +41,13 @@ def leer(p):
 
 
 # escala izquierda-derecha
-esc = {r["familia"]: (int(r["posicion"]), int(r["orden_en_posicion"]), r["posicion_nombre"]) for r in leer(REF / "ubicacion_familias.csv")}
-puntaje = lambda f: esc[f][0] * 100 + esc[f][1] if f in esc else None
+_ub = leer(REF / "ubicacion_familias.csv")
+if len({r["igualitarismo"] for r in _ub}) != len(_ub):
+    sys.exit("dos familias comparten el mismo puntaje de igualitarismo: el orden debe ser estricto")
+# puntaje = igualitarismo (Bobbio): menor = más igualitario = más a la izquierda
+esc = {r["familia"]: (float(r["igualitarismo"]), int(r["posicion"]), r["posicion_nombre"]) for r in sorted(_ub, key=lambda r: float(r["igualitarismo"]))}
+puntaje = lambda f: esc[f][0] if f in esc else None
+misma_pos = lambda a, b: a in esc and b in esc and esc[a][1] == esc[b][1]
 
 # votos por circuito
 votos = collections.defaultdict(lambda: collections.defaultdict(lambda: collections.defaultdict(int)))
@@ -77,14 +83,14 @@ def ganador(d):
     return f, d[f], tot
 
 pares, filas, resumen, J = list(zip(DEF, DEF[1:])), [], [], {"fam": familias, "cat": cats, "dep": nomdep, "loc": nomloc,
-    "esc": [[f, *esc[f]] for f in esc], "pares": []}
+    "esc": [[f, esc[f][1], i + 1, esc[f][2], esc[f][0]] for i, f in enumerate(esc)], "pares": []}
 for a, b in pares:
     ya, yb = a[:4], b[:4]
     capa_b = CAPA(int(yb))
     eq = mapa_enlace(ya, yb)
     gj = json.load(open(GEO / f"santafe_circuitos_{capa_b}_reconstruido.geojson", encoding="utf-8"))
     corte = "2025" if capa_b == "2023" else "2021"
-    unidades, cont = [], collections.Counter()
+    unidades, cont, mp = [], collections.Counter(), 0
     sin_votos = 0
     for ft in gj["features"]:
         cb = nz(ft["properties"]["circuito"])
@@ -101,6 +107,8 @@ for a, b in pares:
         ca = eq.get(cb); da = votos[a].get(ca) if ca else None
         if da:
             wa, va, ta = ganador(da)
+            if wa != wb and misma_pos(wa, wb):
+                mp += 1
             if wa == wb:
                 d = 0
             elif puntaje(wa) is None or puntaje(wb) is None:
@@ -119,9 +127,9 @@ for a, b in pares:
     n = collections.Counter()
     for (d, ct), c in cont.items():
         n[d] += c
-    resumen.append([a, b, tot, n[0], n[1], n[-1], n[8], n[9]])
+    resumen.append([a, b, tot, n[0], n[1], n[-1], n[8], n[9], mp])
     print(f"{a} → {b}: {tot} circuitos · continuidad {n[0]} · a la derecha {n[1]} · a la izquierda {n[-1]} · "
-          f"sin ubicación {n[8]} · sin enlace {n[9]} (sin votos: {sin_votos})")
+          f"sin ubicación {n[8]} · sin enlace {n[9]} · cambios dentro de la misma posición {mp}")
 
 with open(PROC / "swing_circuitos.csv", "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh, lineterminator="\n")
@@ -129,7 +137,7 @@ with open(PROC / "swing_circuitos.csv", "w", newline="", encoding="utf-8") as fh
     w.writerows(filas)
 with open(PROC / "swing_resumen.csv", "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh, lineterminator="\n")
-    w.writerow(["eleccion_a", "eleccion_b", "circuitos", "continuidad", "cambio_a_la_derecha", "cambio_a_la_izquierda", "sin_ubicacion", "sin_enlace"])
+    w.writerow(["eleccion_a", "eleccion_b", "circuitos", "continuidad", "cambio_a_la_derecha", "cambio_a_la_izquierda", "sin_ubicacion", "sin_enlace", "cambios_dentro_de_la_misma_posicion"])
     w.writerows(resumen)
 (RAIZ / "salida" / "datos_swing.json").write_text(json.dumps(J, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 print("JSON:", round((RAIZ / "salida" / "datos_swing.json").stat().st_size / 1024), "KB")

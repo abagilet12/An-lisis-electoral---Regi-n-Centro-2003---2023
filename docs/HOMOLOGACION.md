@@ -126,3 +126,8 @@ Las PASO no son comparables con las generales aunque sean del mismo año: la
 oferta es más fragmentada y el voto se reparte entre listas internas. Al
 construir series conviene usar **una sola instancia** —generales, por lo
 común— y tratar las PASO por separado.
+
+## Revisión de la clasificación de 2003
+
+El equipo revisó la clasificación de 2003 (Peronismo Federal y Kirchnerismo como familias separadas) y la validó: representa
+adecuadamente el traspaso de mandos en el frente peronista. No requiere cambios.
