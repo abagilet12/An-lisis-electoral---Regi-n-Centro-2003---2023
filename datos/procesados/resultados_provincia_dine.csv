@@ -1,0 +1,57 @@
+anio,instancia,cargo,distrito_id,distrito,agrupacion_id,agrupacion,formula,tipo_registro,votos,pct,archivo_origen
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,ELECTORES INSCRIPTOS,,inscriptos,2440284,,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,PORCENTAJE DE VOTANTES,,participacion,0.7558,,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Frente para la Victoria,FERNÁNDEZ DE KIRCHNER - BOUDOU,agrupacion,676812,37.24,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Frente Amplio Progresista,BINNER - MORANDINI,agrupacion,585682,32.23,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Frente Popular,DUHALDE - DAS NEVES,agrupacion,207293,11.41,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Unión para el Desarrollo Social,ALFONSÍN - GONZÁLEZ FRAGA,agrupacion,116807,6.43,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Compromiso Federal,RODRÍGUEZ SAÁ - VERNET,agrupacion,97738,5.38,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Coalición Cívica - Afirmación para una República Igualitaria,CARRIÓ - PÉREZ,agrupacion,59151,3.25,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Frente de Izquierda y de los Trabajadores,ALTAMIRA- CASTILLO,agrupacion,23983,1.32,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Alianza Proyecto Sur,ARGUMEDO - CARDELLI,agrupacion,12573,0.69,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Del Campo Popular,BONACCI - VILLENA,agrupacion,3636,0.2,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,Movimiento de Acción Vecinal,PASTORE - RODRÍGUEZ,agrupacion,1867,0.1,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS VÁLIDOS,,validos,1817236,98.53,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS POSITIVOS,,positivo,1785542,96.82,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS EN BLANCO,,blancos,31694,1.72,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS NULOS,,nulos,27035,1.47,2011_PASO_nacional_presidente.xlsx
+2011,PASO,PRESIDENTE Y VICE,21,Santa Fe,,TOTAL DE VOTANTES,,total,1844271,,2011_PASO_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,,ELECTORES INSCRIPTOS,,inscriptos,2687061,,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,,PORCENTAJE DE VOTANTES,,participacion,0.7862,,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,135,ALIANZA CAMBIEMOS,,agrupacion,1141121,0.5572,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,131,ALIANZA FRENTE PARA LA VICTORIA,,agrupacion,906826,0.4428,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS POSITIVOS,,positivo,2047947,0.9694,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS EN BLANCO,,blancos,30219,0.0143,2015_BALOTAJE_nacional_presidente.xlsx
+2015,BALOTAJE,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS NULOS,,nulos,34426,0.0163,2015_BALOTAJE_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,ELECTORES INSCRIPTOS,,inscriptos,2687061,,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,PORCENTAJE DE VOTANTES,,participacion,0.6719,,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,131,ALIANZA FRENTE PARA LA VICTORIA,,agrupacion,550970,0.3303,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,131,ALIANZA FRENTE PARA LA VICTORIA,"Scioli, Daniel Osvaldo - Zannini, Carlos Alberto",formula,550970,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,135,ALIANZA CAMBIEMOS,,agrupacion,533398,0.3197,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,135,ALIANZA CAMBIEMOS,"Macri, Mauricio - Michetti, Marta Gabriela",formula,434764,0.8151,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,135,ALIANZA CAMBIEMOS,"Sanz, Ernesto Ricardo - Llach, Lucas",formula,40991,0.0768,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,135,ALIANZA CAMBIEMOS,"Carrió, Elisa María Avelina - Flores, Héctor Antonio",formula,57643,0.1081,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,138,ALIANZA UNIDOS POR UNA NUEVA ALTERNATIVA (UNA),,agrupacion,368693,0.221,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,138,ALIANZA UNIDOS POR UNA NUEVA ALTERNATIVA (UNA),"Massa, Sergio Tomás - Ruberto Sáenz, Gustavo Adolfo",formula,227714,0.6176,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,138,ALIANZA UNIDOS POR UNA NUEVA ALTERNATIVA (UNA),"de la Sota, José Manuel - Rucci, Claudia Mónica",formula,140979,0.3824,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,132,ALIANZA PROGRESISTAS,,agrupacion,102997,0.0617,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,132,ALIANZA PROGRESISTAS,"Stolbizer, Margarita Rosa - Olaviaga, Miguel Ángel",formula,102997,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,137,ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES,,agrupacion,37121,0.0223,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,137,ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES,"del Caño, Nicolás - Bregman, Myriam Teresa",formula,21064,0.5674,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,137,ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES,"Altamira, Jorge - Giordano, Juan Carlos",formula,16057,0.4326,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,133,ALIANZA COMPROMISO FEDERAL,,agrupacion,47438,0.0284,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,133,ALIANZA COMPROMISO FEDERAL,"Rodríguez Saá, Adolfo - Negre De Alonso, Liliana Teresita",formula,47438,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,136,ALIANZA FRENTE POPULAR,,agrupacion,8257,0.0049,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,136,ALIANZA FRENTE POPULAR,"De Gennaro, Víctor Norberto - Codoni, Evangelina Soledad",formula,8257,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,13,MOVIMIENTO AL SOCIALISMO,,agrupacion,6324,0.0038,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,13,MOVIMIENTO AL SOCIALISMO,"Castañeira, Manuela Jimena - Ayala, Jorge Luis",formula,6324,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,134,MST - NUEVA IZQUIERDA,,agrupacion,6220,0.0037,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,134,MST - NUEVA IZQUIERDA,"Bodart, Hugo Alejandro - Ripoll, Vilma Ana",formula,6220,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,81,PARTIDO POPULAR,,agrupacion,4468,0.0027,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,81,PARTIDO POPULAR,"Yattah, Mauricio Jorge - Moretta, María Belén",formula,4468,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,57,MOVIMIENTO DE ACCIÓN VECINAL,,agrupacion,2364,0.0014,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,57,MOVIMIENTO DE ACCIÓN VECINAL,"Albarracín, Raúl Humberto - Dib, Gastón",formula,2364,1,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS POSITIVOS,,positivo,1668250,0.9241,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS EN BLANCO,,blancos,98878,0.0548,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,VOTOS NULOS,,nulos,38235,0.0212,2015_PASO_nacional_presidente.xlsx
+2015,PASO,PRESIDENTE Y VICE,21,Santa Fe,,TOTAL DE VOTANTES,,total,1805363,,2015_PASO_nacional_presidente.xlsx

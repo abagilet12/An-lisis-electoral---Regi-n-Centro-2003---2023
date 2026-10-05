@@ -1,0 +1,20 @@
+anio,instancia,fecha,cargo,distrito_id,distrito,seccion_id,seccion,circuito_id,circuito,mesa_id,concepto,categoria,valor,archivo_origen
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,74.96,2023_BALOTAJE_DIST21_santafe_presidente.xls
+2023,BALOTAJE,2023-11-19,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_BALOTAJE_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),inscriptos,2826966,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Residentes Exterior,inscriptos,27572,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Mesa Especial,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,VOTO COMANDO ELECTORAL,inscriptos,945,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Residentes Exterior,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Inscriptos,inscriptos,2855483,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Privados De Libertad,mesas,1,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,73.16,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,GENERAL,2023-10-22,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Mesas,mesas,8335,2023_GENERAL_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,VOTO COMANDO ELECTORAL,inscriptos,1009,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Normal (padron Electoral),mesas,8332,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Inscriptos,inscriptos,2822833,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Mesa Especial,mesas,1,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Participacion [%],participacion,68.33,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Privados De Libertad,mesas,1,2023_PASO_DIST21_santafe_presidente.xls
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,,,,,,Total Mesas,mesas,8334,2023_PASO_DIST21_santafe_presidente.xls

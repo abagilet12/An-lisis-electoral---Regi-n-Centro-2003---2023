@@ -1,0 +1,631 @@
+anio,instancia,fecha,cargo,distrito_id,distrito,seccion,localidad,circuito_id,agrupacion,tipo_registro,votos,recuento_tipo,archivo_origen
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,EN BLANCO,blancos,39,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,FRENTE LIBER.AR,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,HACEMOS POR NUESTRO PAIS,agrupacion,78,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,JUNTOS POR EL CAMBIO,agrupacion,406,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,LA LIBERTAD AVANZA,agrupacion,514,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,MOVIMIENTO AL SOCIALISMO,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,MOVIMIENTO DE ACCION VECINAL,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,MOVIMIENTO LIBRES DEL SUR,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,NULO,nulos,49,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,PRINCIPIOS Y VALORES,agrupacion,15,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,UNION POR LA PATRIA,agrupacion,105,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,EN BLANCO,blancos,67,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,FRENTE LIBER.AR,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,HACEMOS POR NUESTRO PAIS,agrupacion,91,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,JUNTOS POR EL CAMBIO,agrupacion,322,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,LA LIBERTAD AVANZA,agrupacion,428,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,MOVIMIENTO AL SOCIALISMO,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,MOVIMIENTO DE ACCION VECINAL,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,MOVIMIENTO LIBRES DEL SUR,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,NULO,nulos,16,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,POLITICA OBRERA,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,PRINCIPIOS Y VALORES,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,UNION POR LA PATRIA,agrupacion,146,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,EN BLANCO,blancos,140,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,39,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,FRENTE LIBER.AR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,HACEMOS POR NUESTRO PAIS,agrupacion,972,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,JUNTOS POR EL CAMBIO,agrupacion,770,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,LA LIBERTAD AVANZA,agrupacion,1482,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,MOVIMIENTO AL SOCIALISMO,agrupacion,17,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,MOVIMIENTO DE ACCION VECINAL,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,13,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,MOVIMIENTO LIBRES DEL SUR,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,NULO,nulos,101,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,PRINCIPIOS Y VALORES,agrupacion,31,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,UNION POR LA PATRIA,agrupacion,632,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,EN BLANCO,blancos,134,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,FRENTE LIBER.AR,agrupacion,13,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,HACEMOS POR NUESTRO PAIS,agrupacion,148,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,JUNTOS POR EL CAMBIO,agrupacion,1146,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,LA LIBERTAD AVANZA,agrupacion,1209,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,MOVIMIENTO AL SOCIALISMO,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,MOVIMIENTO LIBRES DEL SUR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,NULO,nulos,59,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,POLITICA OBRERA,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,PRINCIPIOS Y VALORES,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,UNION POR LA PATRIA,agrupacion,261,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,EN BLANCO,blancos,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,FRENTE LIBER.AR,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,HACEMOS POR NUESTRO PAIS,agrupacion,86,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,JUNTOS POR EL CAMBIO,agrupacion,199,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,LA LIBERTAD AVANZA,agrupacion,191,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,MOVIMIENTO AL SOCIALISMO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,MOVIMIENTO LIBRES DEL SUR,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,NULO,nulos,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,POLITICA OBRERA,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,PRINCIPIOS Y VALORES,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,UNION POR LA PATRIA,agrupacion,42,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,EN BLANCO,blancos,62,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,FRENTE LIBER.AR,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,HACEMOS POR NUESTRO PAIS,agrupacion,122,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,JUNTOS POR EL CAMBIO,agrupacion,606,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,LA LIBERTAD AVANZA,agrupacion,682,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,MOVIMIENTO AL SOCIALISMO,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,MOVIMIENTO DE ACCION VECINAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,MOVIMIENTO LIBRES DEL SUR,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,NULO,nulos,60,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,POLITICA OBRERA,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,PRINCIPIOS Y VALORES,agrupacion,23,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,UNION POR LA PATRIA,agrupacion,219,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,EN BLANCO,blancos,116,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,28,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,FRENTE LIBER.AR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,HACEMOS POR NUESTRO PAIS,agrupacion,513,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,JUNTOS POR EL CAMBIO,agrupacion,805,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,LA LIBERTAD AVANZA,agrupacion,900,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,MOVIMIENTO AL SOCIALISMO,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,MOVIMIENTO DE ACCION VECINAL,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,MOVIMIENTO LIBRES DEL SUR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,NULO,nulos,74,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,POLITICA OBRERA,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,PRINCIPIOS Y VALORES,agrupacion,14,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,UNION POR LA PATRIA,agrupacion,481,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,EN BLANCO,blancos,61,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,FRENTE LIBER.AR,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,HACEMOS POR NUESTRO PAIS,agrupacion,146,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,JUNTOS POR EL CAMBIO,agrupacion,390,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,LA LIBERTAD AVANZA,agrupacion,312,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,MOVIMIENTO AL SOCIALISMO,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,MOVIMIENTO LIBRES DEL SUR,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,NULO,nulos,22,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,POLITICA OBRERA,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,PRINCIPIOS Y VALORES,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,UNION POR LA PATRIA,agrupacion,162,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,EN BLANCO,blancos,150,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,FRENTE LIBER.AR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,HACEMOS POR NUESTRO PAIS,agrupacion,306,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,IMPUGNADO,impugnados,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,JUNTOS POR EL CAMBIO,agrupacion,1098,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,LA LIBERTAD AVANZA,agrupacion,1380,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,MOVIMIENTO AL SOCIALISMO,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,MOVIMIENTO DE ACCION VECINAL,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,MOVIMIENTO LIBRES DEL SUR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,NULO,nulos,74,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,POLITICA OBRERA,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,PRINCIPIOS Y VALORES,agrupacion,29,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,UNION POR LA PATRIA,agrupacion,475,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,COMANDO,comando,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,EN BLANCO,blancos,57,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,17,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,FRENTE LIBER.AR,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,HACEMOS POR NUESTRO PAIS,agrupacion,141,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,JUNTOS POR EL CAMBIO,agrupacion,392,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,LA LIBERTAD AVANZA,agrupacion,392,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,MOVIMIENTO AL SOCIALISMO,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,MOVIMIENTO DE ACCION VECINAL,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,MOVIMIENTO LIBRES DEL SUR,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,NULO,nulos,17,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,POLITICA OBRERA,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,PRINCIPIOS Y VALORES,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,UNION POR LA PATRIA,agrupacion,126,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,EN BLANCO,blancos,380,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,102,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,FRENTE LIBER.AR,agrupacion,16,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,HACEMOS POR NUESTRO PAIS,agrupacion,1159,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,JUNTOS POR EL CAMBIO,agrupacion,4646,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,LA LIBERTAD AVANZA,agrupacion,4529,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,MOVIMIENTO AL SOCIALISMO,agrupacion,34,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,MOVIMIENTO DE ACCION VECINAL,agrupacion,16,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,45,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,MOVIMIENTO LIBRES DEL SUR,agrupacion,26,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,NULO,nulos,352,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,POLITICA OBRERA,agrupacion,20,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,PRINCIPIOS Y VALORES,agrupacion,99,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,UNION POR LA PATRIA,agrupacion,2176,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,EN BLANCO,blancos,53,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,FRENTE LIBER.AR,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,HACEMOS POR NUESTRO PAIS,agrupacion,142,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,JUNTOS POR EL CAMBIO,agrupacion,389,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,LA LIBERTAD AVANZA,agrupacion,408,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,MOVIMIENTO AL SOCIALISMO,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,MOVIMIENTO DE ACCION VECINAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,MOVIMIENTO LIBRES DEL SUR,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,NULO,nulos,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,PRINCIPIOS Y VALORES,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,UNION POR LA PATRIA,agrupacion,76,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,COMANDO,comando,22,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,EN BLANCO,blancos,734,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,170,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,FRENTE LIBER.AR,agrupacion,50,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,HACEMOS POR NUESTRO PAIS,agrupacion,711,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,JUNTOS POR EL CAMBIO,agrupacion,8646,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,LA LIBERTAD AVANZA,agrupacion,10867,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,MOVIMIENTO AL SOCIALISMO,agrupacion,55,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,MOVIMIENTO DE ACCION VECINAL,agrupacion,19,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,89,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,MOVIMIENTO LIBRES DEL SUR,agrupacion,44,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,NULO,nulos,571,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,POLITICA OBRERA,agrupacion,35,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,PRINCIPIOS Y VALORES,agrupacion,283,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,PROYECTO JOVEN,agrupacion,24,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,UNION POR LA PATRIA,agrupacion,2743,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,EN BLANCO,blancos,72,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,FRENTE LIBER.AR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,HACEMOS POR NUESTRO PAIS,agrupacion,59,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,JUNTOS POR EL CAMBIO,agrupacion,563,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,LA LIBERTAD AVANZA,agrupacion,629,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,MOVIMIENTO AL SOCIALISMO,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,MOVIMIENTO LIBRES DEL SUR,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,NULO,nulos,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,POLITICA OBRERA,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,PRINCIPIOS Y VALORES,agrupacion,15,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,PROYECTO JOVEN,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,UNION POR LA PATRIA,agrupacion,108,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,EN BLANCO,blancos,178,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,31,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,FRENTE LIBER.AR,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,HACEMOS POR NUESTRO PAIS,agrupacion,183,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,JUNTOS POR EL CAMBIO,agrupacion,1607,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,LA LIBERTAD AVANZA,agrupacion,1670,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,MOVIMIENTO AL SOCIALISMO,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,MOVIMIENTO DE ACCION VECINAL,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,MOVIMIENTO LIBRES DEL SUR,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,NULO,nulos,75,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,POLITICA OBRERA,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,PRINCIPIOS Y VALORES,agrupacion,27,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,PROYECTO JOVEN,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,UNION POR LA PATRIA,agrupacion,333,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,EN BLANCO,blancos,113,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,FRENTE LIBER.AR,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,HACEMOS POR NUESTRO PAIS,agrupacion,112,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,JUNTOS POR EL CAMBIO,agrupacion,993,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,LA LIBERTAD AVANZA,agrupacion,1375,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,MOVIMIENTO AL SOCIALISMO,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,MOVIMIENTO DE ACCION VECINAL,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,MOVIMIENTO LIBRES DEL SUR,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,NULO,nulos,34,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,POLITICA OBRERA,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,PRINCIPIOS Y VALORES,agrupacion,23,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,PROYECTO JOVEN,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,UNION POR LA PATRIA,agrupacion,330,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,EN BLANCO,blancos,193,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,FRENTE LIBER.AR,agrupacion,16,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,HACEMOS POR NUESTRO PAIS,agrupacion,153,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,JUNTOS POR EL CAMBIO,agrupacion,962,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,LA LIBERTAD AVANZA,agrupacion,1020,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,MOVIMIENTO AL SOCIALISMO,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,MOVIMIENTO DE ACCION VECINAL,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,MOVIMIENTO LIBRES DEL SUR,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,NULO,nulos,43,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,POLITICA OBRERA,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,PRINCIPIOS Y VALORES,agrupacion,56,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,UNION POR LA PATRIA,agrupacion,455,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,COMANDO,comando,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,EN BLANCO,blancos,47,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,FRENTE LIBER.AR,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,HACEMOS POR NUESTRO PAIS,agrupacion,45,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,JUNTOS POR EL CAMBIO,agrupacion,595,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,LA LIBERTAD AVANZA,agrupacion,551,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,MOVIMIENTO AL SOCIALISMO,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,MOVIMIENTO LIBRES DEL SUR,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,NULO,nulos,20,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,POLITICA OBRERA,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,PRINCIPIOS Y VALORES,agrupacion,17,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,UNION POR LA PATRIA,agrupacion,96,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,COMANDO,comando,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,EN BLANCO,blancos,220,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,72,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,FRENTE LIBER.AR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,HACEMOS POR NUESTRO PAIS,agrupacion,253,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,JUNTOS POR EL CAMBIO,agrupacion,2314,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,LA LIBERTAD AVANZA,agrupacion,2754,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,MOVIMIENTO AL SOCIALISMO,agrupacion,20,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,MOVIMIENTO DE ACCION VECINAL,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,24,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,MOVIMIENTO LIBRES DEL SUR,agrupacion,24,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,NULO,nulos,157,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,POLITICA OBRERA,agrupacion,15,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,PRINCIPIOS Y VALORES,agrupacion,105,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,PROYECTO JOVEN,agrupacion,14,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,UNION POR LA PATRIA,agrupacion,1186,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,EN BLANCO,blancos,65,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,FRENTE LIBER.AR,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,HACEMOS POR NUESTRO PAIS,agrupacion,38,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,JUNTOS POR EL CAMBIO,agrupacion,442,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,LA LIBERTAD AVANZA,agrupacion,638,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,MOVIMIENTO AL SOCIALISMO,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,MOVIMIENTO DE ACCION VECINAL,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,MOVIMIENTO LIBRES DEL SUR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,NULO,nulos,36,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,POLITICA OBRERA,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,PRINCIPIOS Y VALORES,agrupacion,34,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,PROYECTO JOVEN,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,UNION POR LA PATRIA,agrupacion,232,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,COMANDO,comando,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,EN BLANCO,blancos,139,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,34,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,FRENTE LIBER.AR,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,HACEMOS POR NUESTRO PAIS,agrupacion,253,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,JUNTOS POR EL CAMBIO,agrupacion,1694,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,LA LIBERTAD AVANZA,agrupacion,1640,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,MOVIMIENTO AL SOCIALISMO,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,MOVIMIENTO DE ACCION VECINAL,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,15,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,MOVIMIENTO LIBRES DEL SUR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,NULO,nulos,91,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,PRINCIPIOS Y VALORES,agrupacion,108,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,PROYECTO JOVEN,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,UNION POR LA PATRIA,agrupacion,420,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,EN BLANCO,blancos,55,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,10,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,FRENTE LIBER.AR,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,FRENTE PATRIOTA FEDERAL,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,HACEMOS POR NUESTRO PAIS,agrupacion,103,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,JUNTOS POR EL CAMBIO,agrupacion,534,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,LA LIBERTAD AVANZA,agrupacion,714,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,MOVIMIENTO AL SOCIALISMO,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,MOVIMIENTO DE ACCION VECINAL,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,MOVIMIENTO LIBRES DEL SUR,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,NULO,nulos,62,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,PRINCIPIOS Y VALORES,agrupacion,40,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,PROYECTO JOVEN,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,UNION DEL CENTRO DEMOCRATICO,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,UNION POR LA PATRIA,agrupacion,221,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,EN BLANCO,blancos,114,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,25,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,FRENTE LIBER.AR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,FRENTE PATRIOTA FEDERAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,HACEMOS POR NUESTRO PAIS,agrupacion,239,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,JUNTOS POR EL CAMBIO,agrupacion,1252,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,LA LIBERTAD AVANZA,agrupacion,1380,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,MOVIMIENTO AL SOCIALISMO,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,MOVIMIENTO LIBRES DEL SUR,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,NULO,nulos,56,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,POLITICA OBRERA,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,PRINCIPIOS Y VALORES,agrupacion,33,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,PROYECTO JOVEN,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,UNION DEL CENTRO DEMOCRATICO,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,UNION POR LA PATRIA,agrupacion,334,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,COMANDO,comando,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,EN BLANCO,blancos,119,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,27,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,FRENTE LIBER.AR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,FRENTE PATRIOTA FEDERAL,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,HACEMOS POR NUESTRO PAIS,agrupacion,225,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,JUNTOS POR EL CAMBIO,agrupacion,1089,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,LA LIBERTAD AVANZA,agrupacion,1260,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,MOVIMIENTO AL SOCIALISMO,agrupacion,14,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,MOVIMIENTO DE ACCION VECINAL,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,MOVIMIENTO LIBRES DEL SUR,agrupacion,66,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,NULO,nulos,70,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,POLITICA OBRERA,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,PRINCIPIOS Y VALORES,agrupacion,26,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,PROYECTO JOVEN,agrupacion,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,UNION DEL CENTRO DEMOCRATICO,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,UNION POR LA PATRIA,agrupacion,321,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,EN BLANCO,blancos,245,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,61,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,FRENTE LIBER.AR,agrupacion,27,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,FRENTE PATRIOTA FEDERAL,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,HACEMOS POR NUESTRO PAIS,agrupacion,552,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,JUNTOS POR EL CAMBIO,agrupacion,2122,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,LA LIBERTAD AVANZA,agrupacion,3041,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,MOVIMIENTO AL SOCIALISMO,agrupacion,21,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,MOVIMIENTO DE ACCION VECINAL,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,MOVIMIENTO LIBRES DEL SUR,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,NULO,nulos,186,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,POLITICA OBRERA,agrupacion,11,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,PRINCIPIOS Y VALORES,agrupacion,102,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,PROYECTO JOVEN,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,UNION DEL CENTRO DEMOCRATICO,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,UNION POR LA PATRIA,agrupacion,1065,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,COMANDO,comando,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,EN BLANCO,blancos,54,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,FRENTE LIBER.AR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,FRENTE PATRIOTA FEDERAL,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,HACEMOS POR NUESTRO PAIS,agrupacion,127,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,JUNTOS POR EL CAMBIO,agrupacion,787,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,LA LIBERTAD AVANZA,agrupacion,797,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,MOVIMIENTO AL SOCIALISMO,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,MOVIMIENTO LIBRES DEL SUR,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,NULO,nulos,60,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,POLITICA OBRERA,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,PRINCIPIOS Y VALORES,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,PROYECTO JOVEN,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,UNION DEL CENTRO DEMOCRATICO,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,UNION POR LA PATRIA,agrupacion,134,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,COMANDO,comando,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,EN BLANCO,blancos,99,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,30,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,FRENTE LIBER.AR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,FRENTE PATRIOTA FEDERAL,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,HACEMOS POR NUESTRO PAIS,agrupacion,97,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,JUNTOS POR EL CAMBIO,agrupacion,774,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,LA LIBERTAD AVANZA,agrupacion,690,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,MOVIMIENTO AL SOCIALISMO,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,MOVIMIENTO LIBRES DEL SUR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,NULO,nulos,46,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,POLITICA OBRERA,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,PRINCIPIOS Y VALORES,agrupacion,19,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,PROYECTO JOVEN,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,UNION DEL CENTRO DEMOCRATICO,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,UNION POR LA PATRIA,agrupacion,205,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,COMANDO,comando,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,EN BLANCO,blancos,391,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,66,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,FRENTE LIBER.AR,agrupacion,29,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,FRENTE PATRIOTA FEDERAL,agrupacion,17,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,HACEMOS POR NUESTRO PAIS,agrupacion,943,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,JUNTOS POR EL CAMBIO,agrupacion,3143,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,LA LIBERTAD AVANZA,agrupacion,4537,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,MOVIMIENTO AL SOCIALISMO,agrupacion,30,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,MOVIMIENTO DE ACCION VECINAL,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,24,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,MOVIMIENTO LIBRES DEL SUR,agrupacion,35,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,NULO,nulos,351,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,POLITICA OBRERA,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,PRINCIPIOS Y VALORES,agrupacion,95,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,PROYECTO JOVEN,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,UNION DEL CENTRO DEMOCRATICO,agrupacion,18,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,UNION POR LA PATRIA,agrupacion,1529,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,COMANDO,comando,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,EN BLANCO,blancos,79,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,FRENTE LIBER.AR,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,FRENTE PATRIOTA FEDERAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,HACEMOS POR NUESTRO PAIS,agrupacion,168,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,JUNTOS POR EL CAMBIO,agrupacion,559,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,LA LIBERTAD AVANZA,agrupacion,727,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,MOVIMIENTO AL SOCIALISMO,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,MOVIMIENTO DE ACCION VECINAL,agrupacion,1,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,MOVIMIENTO LIBRES DEL SUR,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,NULO,nulos,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,POLITICA OBRERA,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,PRINCIPIOS Y VALORES,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,PROYECTO JOVEN,agrupacion,4,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,UNION DEL CENTRO DEMOCRATICO,agrupacion,12,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,UNION POR LA PATRIA,agrupacion,135,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,COMANDO,comando,3,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,EN BLANCO,blancos,162,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD,agrupacion,30,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,FRENTE LIBER.AR,agrupacion,14,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,FRENTE PATRIOTA FEDERAL,agrupacion,5,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,HACEMOS POR NUESTRO PAIS,agrupacion,342,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,IMPUGNADO,impugnados,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,JUNTOS POR EL CAMBIO,agrupacion,1179,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,LA LIBERTAD AVANZA,agrupacion,983,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,MOVIMIENTO AL SOCIALISMO,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,MOVIMIENTO DE ACCION VECINAL,agrupacion,2,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,MOVIMIENTO IZQUIERDA JUVENTUD Y DIGNIDAD,agrupacion,6,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,MOVIMIENTO LIBRES DEL SUR,agrupacion,25,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,NULO,nulos,97,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,POLITICA OBRERA,agrupacion,9,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,PRINCIPIOS Y VALORES,agrupacion,40,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,PROYECTO JOVEN,agrupacion,7,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,RECURRIDO,recurridos,0,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,UNION DEL CENTRO DEMOCRATICO,agrupacion,8,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,UNION POR LA PATRIA,agrupacion,673,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ataliva,1210,POSITIVO,positivo,1138,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Colonia Aldao,1200,POSITIVO,positivo,1017,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Frontera,1345,POSITIVO,positivo,3990,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Humberto Primo,1170,POSITIVO,positivo,2826,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Josefina,1340,POSITIVO,positivo,524,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Lehmann,1230,POSITIVO,positivo,1692,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,María Juana,1400,POSITIVO,positivo,2774,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Ramona,1240,POSITIVO,positivo,1033,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,San Vicente,1420,POSITIVO,positivo,3353,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Santa Clara de Saguier,1300,POSITIVO,positivo,1088,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Sunchales,1180,POSITIVO,positivo,12868,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Castellanos,Zenón Pereyra,1380,POSITIVO,positivo,1032,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Esperanza,550,POSITIVO,positivo,23736,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Felicia,600,POSITIVO,positivo,1404,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Franck,530,POSITIVO,positivo,3904,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Humboldt,560,POSITIVO,positivo,2891,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Pilar,570,POSITIVO,positivo,2714,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Progreso,630,POSITIVO,positivo,1330,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Centro,440,POSITIVO,positivo,6799,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Carlos Sud,430,POSITIVO,positivo,1410,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,San Jerónimo Norte,520,POSITIVO,positivo,4207,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,Las Colonias,Santa Clara de Buena Vista,460,POSITIVO,positivo,1663,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Carlos Pellegrini,1600,POSITIVO,positivo,3294,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Cañada Rosquín,1610,POSITIVO,positivo,3078,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,El Trébol,1650,POSITIVO,positivo,7055,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,María Susana,1660,POSITIVO,positivo,1914,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Piamonte,1640,POSITIVO,positivo,1849,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Jorge,1580,POSITIVO,positivo,10505,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,San Martín de las Escobas,1560,POSITIVO,positivo,1646,PROVISORIO,presentacionDeResultados (1).csv
+2023,PASO,2023-08-13,PRESIDENTE Y VICE,21,Santa Fe,San Martín,Sastre y Ortiz,1550,POSITIVO,positivo,3329,PROVISORIO,presentacionDeResultados (1).csv

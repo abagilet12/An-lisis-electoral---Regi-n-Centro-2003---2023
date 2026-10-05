@@ -1,0 +1,529 @@
+año,distrito_id,distrito_nombre,seccionprovincial_id,seccionprovincial_nombre,seccion_id,seccion_nombre
+2023,01,Ciudad Autónoma de Buenos Aires,,,001,Comuna 01
+2023,01,Ciudad Autónoma de Buenos Aires,,,002,Comuna 02
+2023,01,Ciudad Autónoma de Buenos Aires,,,003,Comuna 03
+2023,01,Ciudad Autónoma de Buenos Aires,,,004,Comuna 04
+2023,01,Ciudad Autónoma de Buenos Aires,,,005,Comuna 05
+2023,01,Ciudad Autónoma de Buenos Aires,,,006,Comuna 06
+2023,01,Ciudad Autónoma de Buenos Aires,,,007,Comuna 07
+2023,01,Ciudad Autónoma de Buenos Aires,,,008,Comuna 08
+2023,01,Ciudad Autónoma de Buenos Aires,,,009,Comuna 09
+2023,01,Ciudad Autónoma de Buenos Aires,,,010,Comuna 10
+2023,01,Ciudad Autónoma de Buenos Aires,,,011,Comuna 11
+2023,01,Ciudad Autónoma de Buenos Aires,,,012,Comuna 12
+2023,01,Ciudad Autónoma de Buenos Aires,,,013,Comuna 13
+2023,01,Ciudad Autónoma de Buenos Aires,,,014,Comuna 14
+2023,01,Ciudad Autónoma de Buenos Aires,,,015,Comuna 15
+2023,02,Buenos Aires,1,Sección Primera,016,Campana
+2023,02,Buenos Aires,1,Sección Primera,035,Escobar
+2023,02,Buenos Aires,1,Sección Primera,045,General Las Heras
+2023,02,Buenos Aires,1,Sección Primera,051,General Rodríguez
+2023,02,Buenos Aires,1,Sección Primera,052,General San Martín
+2023,02,Buenos Aires,1,Sección Primera,053,San Miguel
+2023,02,Buenos Aires,1,Sección Primera,071,Luján
+2023,02,Buenos Aires,1,Sección Primera,075,Marcos Paz
+2023,02,Buenos Aires,1,Sección Primera,076,Mercedes
+2023,02,Buenos Aires,1,Sección Primera,077,Merlo
+2023,02,Buenos Aires,1,Sección Primera,079,Moreno
+2023,02,Buenos Aires,1,Sección Primera,080,Morón
+2023,02,Buenos Aires,1,Sección Primera,081,Navarro
+2023,02,Buenos Aires,1,Sección Primera,089,Pilar
+2023,02,Buenos Aires,1,Sección Primera,105,San Fernando
+2023,02,Buenos Aires,1,Sección Primera,106,San Isidro
+2023,02,Buenos Aires,1,Sección Primera,110,Suipacha
+2023,02,Buenos Aires,1,Sección Primera,113,Tigre
+2023,02,Buenos Aires,1,Sección Primera,118,Tres de Febrero
+2023,02,Buenos Aires,1,Sección Primera,122,Vicente López
+2023,02,Buenos Aires,1,Sección Primera,129,José C. Paz
+2023,02,Buenos Aires,1,Sección Primera,130,Malvinas Argentinas
+2023,02,Buenos Aires,1,Sección Primera,133,Ituzaingó
+2023,02,Buenos Aires,1,Sección Primera,134,Hurlingham
+2023,02,Buenos Aires,2,Sección Segunda,009,Baradero
+2023,02,Buenos Aires,2,Sección Segunda,010,Arrecifes
+2023,02,Buenos Aires,2,Sección Segunda,018,Capitán Sarmiento
+2023,02,Buenos Aires,2,Sección Segunda,021,Carmen de Areco
+2023,02,Buenos Aires,2,Sección Segunda,024,Colón
+2023,02,Buenos Aires,2,Sección Segunda,037,Exaltación de la Cruz
+2023,02,Buenos Aires,2,Sección Segunda,087,Pergamino
+2023,02,Buenos Aires,2,Sección Segunda,093,Ramallo
+2023,02,Buenos Aires,2,Sección Segunda,096,Rojas
+2023,02,Buenos Aires,2,Sección Segunda,101,Salto
+2023,02,Buenos Aires,2,Sección Segunda,102,San Andrés de Giles
+2023,02,Buenos Aires,2,Sección Segunda,103,San Antonio de Areco
+2023,02,Buenos Aires,2,Sección Segunda,107,San Nicolás
+2023,02,Buenos Aires,2,Sección Segunda,108,San Pedro
+2023,02,Buenos Aires,2,Sección Segunda,125,Zárate
+2023,02,Buenos Aires,3,Sección Tercera,003,Almirante Brown
+2023,02,Buenos Aires,3,Sección Tercera,004,Avellaneda
+2023,02,Buenos Aires,3,Sección Tercera,011,Berazategui
+2023,02,Buenos Aires,3,Sección Tercera,012,Berisso
+2023,02,Buenos Aires,3,Sección Tercera,015,Brandsen
+2023,02,Buenos Aires,3,Sección Tercera,017,Cañuelas
+2023,02,Buenos Aires,3,Sección Tercera,034,Ensenada
+2023,02,Buenos Aires,3,Sección Tercera,036,Esteban Echeverría
+2023,02,Buenos Aires,3,Sección Tercera,038,Florencio Varela
+2023,02,Buenos Aires,3,Sección Tercera,061,La Matanza
+2023,02,Buenos Aires,3,Sección Tercera,062,Lanús
+2023,02,Buenos Aires,3,Sección Tercera,069,Lobos
+2023,02,Buenos Aires,3,Sección Tercera,070,Lomas de Zamora
+2023,02,Buenos Aires,3,Sección Tercera,072,Magdalena
+2023,02,Buenos Aires,3,Sección Tercera,092,Quilmes
+2023,02,Buenos Aires,3,Sección Tercera,109,San Vicente
+2023,02,Buenos Aires,3,Sección Tercera,128,Presidente Perón
+2023,02,Buenos Aires,3,Sección Tercera,131,Punta Indio
+2023,02,Buenos Aires,3,Sección Tercera,132,Ezeiza
+2023,02,Buenos Aires,4,Sección Cuarta,002,Alberti
+2023,02,Buenos Aires,4,Sección Cuarta,014,Bragado
+2023,02,Buenos Aires,4,Sección Cuarta,019,Carlos Casares
+2023,02,Buenos Aires,4,Sección Cuarta,020,Carlos Tejedor
+2023,02,Buenos Aires,4,Sección Cuarta,029,Chacabuco
+2023,02,Buenos Aires,4,Sección Cuarta,031,Chivilcoy
+2023,02,Buenos Aires,4,Sección Cuarta,041,General Arenales
+2023,02,Buenos Aires,4,Sección Cuarta,049,General Pinto
+2023,02,Buenos Aires,4,Sección Cuarta,054,General Viamonte
+2023,02,Buenos Aires,4,Sección Cuarta,055,General Villegas
+2023,02,Buenos Aires,4,Sección Cuarta,058,Hipólito Yrigoyen
+2023,02,Buenos Aires,4,Sección Cuarta,060,Junín
+2023,02,Buenos Aires,4,Sección Cuarta,066,Leandro N. Alem
+2023,02,Buenos Aires,4,Sección Cuarta,067,Lincoln
+2023,02,Buenos Aires,4,Sección Cuarta,083,9 de Julio
+2023,02,Buenos Aires,4,Sección Cuarta,085,Pehuajó
+2023,02,Buenos Aires,4,Sección Cuarta,095,Rivadavia
+2023,02,Buenos Aires,4,Sección Cuarta,115,Trenque Lauquen
+2023,02,Buenos Aires,4,Sección Cuarta,127,Florentino Ameghino
+2023,02,Buenos Aires,5,Sección Quinta,005,Ayacucho
+2023,02,Buenos Aires,5,Sección Quinta,008,Balcarce
+2023,02,Buenos Aires,5,Sección Quinta,023,Castelli
+2023,02,Buenos Aires,5,Sección Quinta,030,Chascomús
+2023,02,Buenos Aires,5,Sección Quinta,033,Dolores
+2023,02,Buenos Aires,5,Sección Quinta,039,General Alvarado
+2023,02,Buenos Aires,5,Sección Quinta,042,General Belgrano
+2023,02,Buenos Aires,5,Sección Quinta,043,General Guido
+2023,02,Buenos Aires,5,Sección Quinta,046,General Lavalle
+2023,02,Buenos Aires,5,Sección Quinta,047,General Juan Madariaga
+2023,02,Buenos Aires,5,Sección Quinta,048,General Paz
+2023,02,Buenos Aires,5,Sección Quinta,050,General Pueyrredón
+2023,02,Buenos Aires,5,Sección Quinta,065,Las Flores
+2023,02,Buenos Aires,5,Sección Quinta,068,Lobería
+2023,02,Buenos Aires,5,Sección Quinta,073,Maipú
+2023,02,Buenos Aires,5,Sección Quinta,074,Mar Chiquita
+2023,02,Buenos Aires,5,Sección Quinta,078,Monte
+2023,02,Buenos Aires,5,Sección Quinta,082,Necochea
+2023,02,Buenos Aires,5,Sección Quinta,088,Pila
+2023,02,Buenos Aires,5,Sección Quinta,090,Pinamar
+2023,02,Buenos Aires,5,Sección Quinta,094,Rauch
+2023,02,Buenos Aires,5,Sección Quinta,104,San Cayetano
+2023,02,Buenos Aires,5,Sección Quinta,111,Tandil
+2023,02,Buenos Aires,5,Sección Quinta,116,Tordillo
+2023,02,Buenos Aires,5,Sección Quinta,119,La Costa
+2023,02,Buenos Aires,5,Sección Quinta,123,Villa Gesell
+2023,02,Buenos Aires,5,Sección Quinta,135,Lezama
+2023,02,Buenos Aires,6,Sección Sexta,001,Adolfo Alsina
+2023,02,Buenos Aires,6,Sección Sexta,007,Bahía Blanca
+2023,02,Buenos Aires,6,Sección Sexta,022,Patagones
+2023,02,Buenos Aires,6,Sección Sexta,025,Coronel Dorrego
+2023,02,Buenos Aires,6,Sección Sexta,026,Coronel Pringles
+2023,02,Buenos Aires,6,Sección Sexta,027,Coronel de Marina L. Rosales
+2023,02,Buenos Aires,6,Sección Sexta,028,Coronel Suárez
+2023,02,Buenos Aires,6,Sección Sexta,032,Daireaux
+2023,02,Buenos Aires,6,Sección Sexta,044,General La Madrid
+2023,02,Buenos Aires,6,Sección Sexta,056,Adolfo Gonzales Chaves
+2023,02,Buenos Aires,6,Sección Sexta,057,Guaminí
+2023,02,Buenos Aires,6,Sección Sexta,059,Benito Juárez
+2023,02,Buenos Aires,6,Sección Sexta,064,Laprida
+2023,02,Buenos Aires,6,Sección Sexta,086,Pellegrini
+2023,02,Buenos Aires,6,Sección Sexta,091,Puan
+2023,02,Buenos Aires,6,Sección Sexta,098,Saavedra
+2023,02,Buenos Aires,6,Sección Sexta,100,Salliqueló
+2023,02,Buenos Aires,6,Sección Sexta,114,Tornquist
+2023,02,Buenos Aires,6,Sección Sexta,117,Tres Arroyos
+2023,02,Buenos Aires,6,Sección Sexta,120,Monte Hermoso
+2023,02,Buenos Aires,6,Sección Sexta,124,Villarino
+2023,02,Buenos Aires,6,Sección Sexta,126,Tres Lomas
+2023,02,Buenos Aires,7,Sección Séptima,006,Azul
+2023,02,Buenos Aires,7,Sección Séptima,013,Bolívar
+2023,02,Buenos Aires,7,Sección Séptima,040,General Alvear
+2023,02,Buenos Aires,7,Sección Séptima,084,Olavarría
+2023,02,Buenos Aires,7,Sección Séptima,097,Roque Pérez
+2023,02,Buenos Aires,7,Sección Séptima,099,Saladillo
+2023,02,Buenos Aires,7,Sección Séptima,112,Tapalqué
+2023,02,Buenos Aires,7,Sección Séptima,121,25 de Mayo
+2023,02,Buenos Aires,8,Sección Capital,063,La Plata
+2023,03,Catamarca,,,001,Capital
+2023,03,Catamarca,,,002,Capayán
+2023,03,Catamarca,,,003,La Paz
+2023,03,Catamarca,,,004,Ancasti
+2023,03,Catamarca,,,005,El Alto
+2023,03,Catamarca,,,006,Santa Rosa
+2023,03,Catamarca,,,007,Paclín
+2023,03,Catamarca,,,008,Valle Viejo
+2023,03,Catamarca,,,009,Fray Mamerto Esquiú
+2023,03,Catamarca,,,010,Ambato
+2023,03,Catamarca,,,011,Pomán
+2023,03,Catamarca,,,012,Andalgalá
+2023,03,Catamarca,,,013,Belén
+2023,03,Catamarca,,,014,Antofagasta de la Sierra
+2023,03,Catamarca,,,015,Tinogasta
+2023,03,Catamarca,,,016,Santa María
+2023,04,Córdoba,,,001,Capital
+2023,04,Córdoba,,,002,Calamuchita
+2023,04,Córdoba,,,003,Colón
+2023,04,Córdoba,,,004,Cruz del Eje
+2023,04,Córdoba,,,005,General Roca
+2023,04,Córdoba,,,006,General San Martín
+2023,04,Córdoba,,,007,Ischilín
+2023,04,Córdoba,,,008,Juárez Celman
+2023,04,Córdoba,,,009,Marcos Juárez
+2023,04,Córdoba,,,010,Minas
+2023,04,Córdoba,,,011,Pocho
+2023,04,Córdoba,,,012,Punilla
+2023,04,Córdoba,,,013,Río Cuarto
+2023,04,Córdoba,,,014,Río Primero
+2023,04,Córdoba,,,015,Río Seco
+2023,04,Córdoba,,,016,Río Segundo
+2023,04,Córdoba,,,017,Presidente Roque Sáenz Peña
+2023,04,Córdoba,,,018,San Alberto
+2023,04,Córdoba,,,019,San Javier
+2023,04,Córdoba,,,020,San Justo
+2023,04,Córdoba,,,021,Santa María
+2023,04,Córdoba,,,022,Sobremonte
+2023,04,Córdoba,,,023,Tercero Arriba
+2023,04,Córdoba,,,024,Totoral
+2023,04,Córdoba,,,025,Tulumba
+2023,04,Córdoba,,,026,Unión
+2023,05,Corrientes,,,001,Capital
+2023,05,Corrientes,,,002,Goya
+2023,05,Corrientes,,,003,Curuzú Cuatiá
+2023,05,Corrientes,,,004,Mercedes
+2023,05,Corrientes,,,005,Esquina
+2023,05,Corrientes,,,006,Lavalle
+2023,05,Corrientes,,,007,Santo Tomé
+2023,05,Corrientes,,,008,Paso de los Libres
+2023,05,Corrientes,,,009,Monte Caseros
+2023,05,Corrientes,,,010,San Luis del Palmar
+2023,05,Corrientes,,,011,Bella Vista
+2023,05,Corrientes,,,012,Empedrado
+2023,05,Corrientes,,,013,San Roque
+2023,05,Corrientes,,,014,General Paz
+2023,05,Corrientes,,,015,Saladas
+2023,05,Corrientes,,,016,San Martín
+2023,05,Corrientes,,,017,Concepción
+2023,05,Corrientes,,,018,Mburucuyá
+2023,05,Corrientes,,,019,Ituzaingó
+2023,05,Corrientes,,,020,Sauce
+2023,05,Corrientes,,,021,San Cosme
+2023,05,Corrientes,,,022,General Alvear
+2023,05,Corrientes,,,023,San Miguel
+2023,05,Corrientes,,,024,Itatí
+2023,05,Corrientes,,,025,Berón de Astrada
+2023,06,Chaco,,,001,San Fernando
+2023,06,Chaco,,,002,1º de Mayo
+2023,06,Chaco,,,003,Libertad
+2023,06,Chaco,,,004,General Donovan
+2023,06,Chaco,,,005,Sargento Cabral
+2023,06,Chaco,,,006,Presidencia de la Plaza
+2023,06,Chaco,,,007,Bermejo
+2023,06,Chaco,,,008,Libertador General San Martín
+2023,06,Chaco,,,009,Tapenagá
+2023,06,Chaco,,,010,San Lorenzo
+2023,06,Chaco,,,011,Mayor Luis J. Fontana
+2023,06,Chaco,,,012,O'Higgins
+2023,06,Chaco,,,013,Comandante Fernández
+2023,06,Chaco,,,014,Quitilipi
+2023,06,Chaco,,,015,25 de Mayo
+2023,06,Chaco,,,016,Maipú
+2023,06,Chaco,,,017,Independencia
+2023,06,Chaco,,,018,General Belgrano
+2023,06,Chaco,,,019,9 de Julio
+2023,06,Chaco,,,020,Chacabuco
+2023,06,Chaco,,,021,12 de Octubre
+2023,06,Chaco,,,022,2 de Abril
+2023,06,Chaco,,,023,Fray Justo Santa María de Oro
+2023,06,Chaco,,,024,Almirante Brown
+2023,06,Chaco,,,025,General Güemes
+2023,07,Chubut,,,001,Rawson
+2023,07,Chubut,,,002,Biedma
+2023,07,Chubut,,,003,Telsen
+2023,07,Chubut,,,004,Gastre
+2023,07,Chubut,,,005,Cushamen
+2023,07,Chubut,,,006,Futaleufú
+2023,07,Chubut,,,007,Languiñeo
+2023,07,Chubut,,,008,Tehuelches
+2023,07,Chubut,,,009,Paso de Indios
+2023,07,Chubut,,,010,Mártires
+2023,07,Chubut,,,011,Florentino Ameghino
+2023,07,Chubut,,,012,Gaiman
+2023,07,Chubut,,,013,Río Senguer
+2023,07,Chubut,,,014,Sarmiento
+2023,07,Chubut,,,015,Escalante
+2023,08,Entre Ríos,,,001,Paraná
+2023,08,Entre Ríos,,,003,La Paz
+2023,08,Entre Ríos,,,004,Diamante
+2023,08,Entre Ríos,,,005,Victoria
+2023,08,Entre Ríos,,,006,Nogoyá
+2023,08,Entre Ríos,,,007,Gualeguay
+2023,08,Entre Ríos,,,008,Tala
+2023,08,Entre Ríos,,,009,Uruguay
+2023,08,Entre Ríos,,,010,Gualeguaychú
+2023,08,Entre Ríos,,,011,Islas del Ibicuy
+2023,08,Entre Ríos,,,012,Villaguay
+2023,08,Entre Ríos,,,013,Concordia
+2023,08,Entre Ríos,,,014,Federal
+2023,08,Entre Ríos,,,015,Colón
+2023,08,Entre Ríos,,,016,Feliciano
+2023,08,Entre Ríos,,,017,Federación
+2023,08,Entre Ríos,,,018,San Salvador
+2023,09,Formosa,,,001,Formosa
+2023,09,Formosa,,,002,Laishí
+2023,09,Formosa,,,003,Pilcomayo
+2023,09,Formosa,,,004,Pirané
+2023,09,Formosa,,,005,Pilagás
+2023,09,Formosa,,,006,Patiño
+2023,09,Formosa,,,007,Bermejo
+2023,09,Formosa,,,008,Matacos
+2023,09,Formosa,,,009,Ramón Lista
+2023,10,Jujuy,,,001,Dr. Manuel Belgrano
+2023,10,Jujuy,,,002,Palpalá
+2023,10,Jujuy,,,003,San Antonio
+2023,10,Jujuy,,,004,El Carmen
+2023,10,Jujuy,,,005,San Pedro
+2023,10,Jujuy,,,006,Santa Bárbara
+2023,10,Jujuy,,,007,Ledesma
+2023,10,Jujuy,,,008,Valle Grande
+2023,10,Jujuy,,,009,Tumbaya
+2023,10,Jujuy,,,010,Tilcara
+2023,10,Jujuy,,,011,Humahuaca
+2023,10,Jujuy,,,012,Cochinoca
+2023,10,Jujuy,,,013,Rinconada
+2023,10,Jujuy,,,014,Santa Catalina
+2023,10,Jujuy,,,015,Yavi
+2023,10,Jujuy,,,016,Susques
+2023,11,La Pampa,,,001,Atreucó
+2023,11,La Pampa,,,002,Capital
+2023,11,La Pampa,,,003,Caleu Caleu
+2023,11,La Pampa,,,004,Catriló
+2023,11,La Pampa,,,005,Chalileo
+2023,11,La Pampa,,,006,Chapaleufú
+2023,11,La Pampa,,,007,Chical Có
+2023,11,La Pampa,,,008,Conhelo
+2023,11,La Pampa,,,009,Curacó
+2023,11,La Pampa,,,010,Guatraché
+2023,11,La Pampa,,,011,Hucal
+2023,11,La Pampa,,,012,Loventué
+2023,11,La Pampa,,,013,Lihuel Calel
+2023,11,La Pampa,,,014,Limay Mahuida
+2023,11,La Pampa,,,015,Maracó
+2023,11,La Pampa,,,016,Puelén
+2023,11,La Pampa,,,017,Quemú Quemú
+2023,11,La Pampa,,,018,Rancul
+2023,11,La Pampa,,,019,Realicó
+2023,11,La Pampa,,,020,Toay
+2023,11,La Pampa,,,021,Trenel
+2023,11,La Pampa,,,022,Utracán
+2023,12,La Rioja,,,001,Capital
+2023,12,La Rioja,,,002,Sanagasta
+2023,12,La Rioja,,,003,Castro Barros
+2023,12,La Rioja,,,004,Arauco
+2023,12,La Rioja,,,005,San Blas de los Sauces
+2023,12,La Rioja,,,006,Chilecito
+2023,12,La Rioja,,,007,Famatina
+2023,12,La Rioja,,,008,Coronel Felipe Varela
+2023,12,La Rioja,,,009,General Lamadrid
+2023,12,La Rioja,,,010,Vinchina
+2023,12,La Rioja,,,011,Independencia
+2023,12,La Rioja,,,012,Chamical
+2023,12,La Rioja,,,013,Ángel Vicente Peñaloza
+2023,12,La Rioja,,,014,General Belgrano
+2023,12,La Rioja,,,015,General Juan Facundo Quiroga
+2023,12,La Rioja,,,016,General Ortiz de Ocampo
+2023,12,La Rioja,,,017,Rosario Vera Peñaloza
+2023,12,La Rioja,,,018,General San Martín
+2023,13,Mendoza,1,Sección Primera,001,Capital
+2023,13,Mendoza,1,Sección Primera,003,Guaymallén
+2023,13,Mendoza,1,Sección Primera,004,Las Heras
+2023,13,Mendoza,1,Sección Primera,005,Lavalle
+2023,13,Mendoza,2,Sección Segunda,006,Maipú
+2023,13,Mendoza,2,Sección Segunda,009,San Martín
+2023,13,Mendoza,2,Sección Segunda,010,Junín
+2023,13,Mendoza,2,Sección Segunda,011,Rivadavia
+2023,13,Mendoza,2,Sección Segunda,014,Santa Rosa
+2023,13,Mendoza,2,Sección Segunda,015,La Paz
+2023,13,Mendoza,3,Sección Tercera,002,Godoy Cruz
+2023,13,Mendoza,3,Sección Tercera,007,Luján de Cuyo
+2023,13,Mendoza,3,Sección Tercera,008,Tupungato
+2023,13,Mendoza,3,Sección Tercera,012,Tunuyán
+2023,13,Mendoza,3,Sección Tercera,013,San Carlos
+2023,13,Mendoza,4,Sección Cuarta,016,San Rafael
+2023,13,Mendoza,4,Sección Cuarta,017,Malargüe
+2023,13,Mendoza,4,Sección Cuarta,018,General Alvear
+2023,14,Misiones,,,001,Capital
+2023,14,Misiones,,,002,Apóstoles
+2023,14,Misiones,,,003,Candelaria
+2023,14,Misiones,,,004,Leandro N. Alem
+2023,14,Misiones,,,005,Concepción
+2023,14,Misiones,,,006,San Javier
+2023,14,Misiones,,,007,San Ignacio
+2023,14,Misiones,,,008,Oberá
+2023,14,Misiones,,,009,Libertador General San Martín
+2023,14,Misiones,,,010,Cainguás
+2023,14,Misiones,,,011,25 de Mayo
+2023,14,Misiones,,,012,Montecarlo
+2023,14,Misiones,,,013,Guaraní
+2023,14,Misiones,,,014,Eldorado
+2023,14,Misiones,,,015,San Pedro
+2023,14,Misiones,,,016,Iguazú
+2023,14,Misiones,,,017,General Manuel Belgrano
+2023,15,Neuquén,,,001,Confluencia
+2023,15,Neuquén,,,002,Zapala
+2023,15,Neuquén,,,003,Añelo
+2023,15,Neuquén,,,004,Pehuenches
+2023,15,Neuquén,,,005,Chos Malal
+2023,15,Neuquén,,,006,Minas
+2023,15,Neuquén,,,007,Ñorquín
+2023,15,Neuquén,,,008,Loncopué
+2023,15,Neuquén,,,009,Picunches
+2023,15,Neuquén,,,010,Aluminé
+2023,15,Neuquén,,,011,Catán Lil
+2023,15,Neuquén,,,012,Picún Leufú
+2023,15,Neuquén,,,013,Collón Curá
+2023,15,Neuquén,,,014,Huiliches
+2023,15,Neuquén,,,015,Lácar
+2023,15,Neuquén,,,016,Los Lagos
+2023,16,Río Negro,,,001,Adolfo Alsina
+2023,16,Río Negro,,,002,Conesa
+2023,16,Río Negro,,,003,San Antonio
+2023,16,Río Negro,,,004,Valcheta
+2023,16,Río Negro,,,005,9 de Julio
+2023,16,Río Negro,,,006,25 de Mayo
+2023,16,Río Negro,,,007,Ñorquinco
+2023,16,Río Negro,,,008,Pilcaniyeu
+2023,16,Río Negro,,,009,Bariloche
+2023,16,Río Negro,,,010,Pichi Mahuida
+2023,16,Río Negro,,,011,Avellaneda
+2023,16,Río Negro,,,012,General Roca
+2023,16,Río Negro,,,013,El Cuy
+2023,17,Salta,,,001,Capital
+2023,17,Salta,,,002,La Caldera
+2023,17,Salta,,,003,General Güemes
+2023,17,Salta,,,004,Metán
+2023,17,Salta,,,005,Anta
+2023,17,Salta,,,006,Rivadavia
+2023,17,Salta,,,007,Orán
+2023,17,Salta,,,008,General José de San Martín
+2023,17,Salta,,,009,Iruya
+2023,17,Salta,,,010,Santa Victoria
+2023,17,Salta,,,011,Cerrillos
+2023,17,Salta,,,012,Chicoana
+2023,17,Salta,,,013,La Viña
+2023,17,Salta,,,014,Guachipas
+2023,17,Salta,,,015,Rosario de la Frontera
+2023,17,Salta,,,016,La Candelaria
+2023,17,Salta,,,017,Cafayate
+2023,17,Salta,,,018,San Carlos
+2023,17,Salta,,,019,Molinos
+2023,17,Salta,,,020,Cachi
+2023,17,Salta,,,021,Rosario de Lerma
+2023,17,Salta,,,022,La Poma
+2023,17,Salta,,,023,Los Andes
+2023,18,San Juan,,,001,Capital
+2023,18,San Juan,,,002,Santa Lucía
+2023,18,San Juan,,,003,Chimbas
+2023,18,San Juan,,,004,Rivadavia
+2023,18,San Juan,,,005,Zonda
+2023,18,San Juan,,,006,Rawson
+2023,18,San Juan,,,007,9 de Julio
+2023,18,San Juan,,,008,San Martín
+2023,18,San Juan,,,009,Angaco
+2023,18,San Juan,,,010,Albardón
+2023,18,San Juan,,,011,Ullum
+2023,18,San Juan,,,012,Pocito
+2023,18,San Juan,,,013,Sarmiento
+2023,18,San Juan,,,014,25 de Mayo
+2023,18,San Juan,,,015,Caucete
+2023,18,San Juan,,,016,Valle Fértil
+2023,18,San Juan,,,017,Jáchal
+2023,18,San Juan,,,018,Iglesia
+2023,18,San Juan,,,019,Calingasta
+2023,19,San Luis,,,001,Juan Martín de Pueyrredón
+2023,19,San Luis,,,002,Coronel Pringles
+2023,19,San Luis,,,003,General Pedernera
+2023,19,San Luis,,,004,Chacabuco
+2023,19,San Luis,,,005,Libertador General San Martín
+2023,19,San Luis,,,006,Junín
+2023,19,San Luis,,,007,Ayacucho
+2023,19,San Luis,,,008,Belgrano
+2023,19,San Luis,,,009,Gobernador Dupuy
+2023,20,Santa Cruz,,,001,Deseado
+2023,20,Santa Cruz,,,002,Lago Buenos Aires
+2023,20,Santa Cruz,,,003,Magallanes
+2023,20,Santa Cruz,,,004,Río Chico
+2023,20,Santa Cruz,,,005,Corpen Aike
+2023,20,Santa Cruz,,,006,Lago Argentino
+2023,20,Santa Cruz,,,007,Güer Aike
+2023,21,Santa Fe,,,001,La Capital
+2023,21,Santa Fe,,,002,Las Colonias
+2023,21,Santa Fe,,,003,San Jerónimo
+2023,21,Santa Fe,,,004,Garay
+2023,21,Santa Fe,,,005,Castellanos
+2023,21,Santa Fe,,,006,San Martín
+2023,21,Santa Fe,,,007,San Cristóbal
+2023,21,Santa Fe,,,008,San Justo
+2023,21,Santa Fe,,,009,General Obligado
+2023,21,Santa Fe,,,010,Vera
+2023,21,Santa Fe,,,011,San Javier
+2023,21,Santa Fe,,,012,9 de Julio
+2023,21,Santa Fe,,,013,Rosario
+2023,21,Santa Fe,,,014,Caseros
+2023,21,Santa Fe,,,015,Constitución
+2023,21,Santa Fe,,,016,General López
+2023,21,Santa Fe,,,017,Belgrano
+2023,21,Santa Fe,,,018,Iriondo
+2023,21,Santa Fe,,,019,San Lorenzo
+2023,22,Santiago del Estero,,,001,Capital
+2023,22,Santiago del Estero,,,002,Avellaneda
+2023,22,Santiago del Estero,,,003,Aguirre
+2023,22,Santiago del Estero,,,004,Alberdi
+2023,22,Santiago del Estero,,,005,Atamisqui
+2023,22,Santiago del Estero,,,006,Banda
+2023,22,Santiago del Estero,,,007,Belgrano
+2023,22,Santiago del Estero,,,008,Copo
+2023,22,Santiago del Estero,,,009,Choya
+2023,22,Santiago del Estero,,,010,Figueroa
+2023,22,Santiago del Estero,,,011,Guasayán
+2023,22,Santiago del Estero,,,012,Jiménez
+2023,22,Santiago del Estero,,,013,Loreto
+2023,22,Santiago del Estero,,,014,Juan F. Ibarra
+2023,22,Santiago del Estero,,,015,Mitre
+2023,22,Santiago del Estero,,,016,Moreno
+2023,22,Santiago del Estero,,,017,Ojo de Agua
+2023,22,Santiago del Estero,,,018,Pellegrini
+2023,22,Santiago del Estero,,,019,Quebrachos
+2023,22,Santiago del Estero,,,020,Rivadavia
+2023,22,Santiago del Estero,,,021,Robles
+2023,22,Santiago del Estero,,,022,Río Hondo
+2023,22,Santiago del Estero,,,023,Silípica
+2023,22,Santiago del Estero,,,024,San Martín
+2023,22,Santiago del Estero,,,025,Salavina
+2023,22,Santiago del Estero,,,026,Sarmiento
+2023,22,Santiago del Estero,,,027,General Taboada
+2023,23,Tucumán,1,Capital,001,Capital
+2023,23,Tucumán,2,Este,009,Graneros
+2023,23,Tucumán,2,Este,010,Simoca
+2023,23,Tucumán,2,Este,011,Leales
+2023,23,Tucumán,2,Este,012,Cruz Alta
+2023,23,Tucumán,2,Este,013,Burruyacú
+2023,23,Tucumán,2,Este,014,Trancas
+2023,23,Tucumán,3,Oeste,002,Lules
+2023,23,Tucumán,3,Oeste,003,Famaillá
+2023,23,Tucumán,3,Oeste,004,Monteros
+2023,23,Tucumán,3,Oeste,005,Chicligasta
+2023,23,Tucumán,3,Oeste,006,Río Chico
+2023,23,Tucumán,3,Oeste,007,Juan Bautista Alberdi
+2023,23,Tucumán,3,Oeste,008,La Cocha
+2023,23,Tucumán,3,Oeste,015,Yerba Buena
+2023,23,Tucumán,3,Oeste,016,Tafí Viejo
+2023,23,Tucumán,3,Oeste,017,Tafí del Valle
+2023,24,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",,,001,Ushuaia
+2023,24,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",,,002,Río Grande
+2023,24,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",,,003,Antártida Argentina
+2023,24,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",,,005,Tolhuin
