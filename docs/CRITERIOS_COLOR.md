@@ -11,7 +11,8 @@ El color identifica una **familia política** (el campo `familia` de
 | Kirchnerismo | azul claro | `#4fa8ea` |
 | Peronismo Federal | azul oscuro | `#12338a` |
 | Socialismo | rojo | `#d7263d` |
-| Derecha libertaria (La Libertad Avanza) | violeta | `#7b3fc4` |
+| La Libertad Avanza (desde 2023) | violeta | `#7b3fc4` |
+| Derecha libertaria (anterior a 2023) | violeta claro | `#b79ae6` |
 | Cambiemos / Juntos por el Cambio | amarillo | `#f2c200` |
 | Centro progresista no peronista | naranja | `#e8782a` |
 | Centroderecha liberal | rosa | `#e87ba4` |
@@ -22,7 +23,8 @@ El color identifica una **familia política** (el campo `familia` de
 | Otros / Otras fuerzas | gris | `#9a9a92` |
 
 Nombres: «Peronismo kirchnerista» pasa a **Kirchnerismo**, «Peronismo no kirchnerista»
-a **Peronismo Federal** y «Socialismo y progresismo santafesino» a **Socialismo**.
+a **Peronismo Federal** y «Socialismo y progresismo santafesino» a **Socialismo**. La derecha libertaria se divide
+en dos familias por período (`docs/CRITERIO_DERECHA_LIBERTARIA.md`).
 El eje `bloque` (Kirchnerismo / Peronismo no kirchnerista / No kirchnerismo) no cambia.
 
 ## Reglas

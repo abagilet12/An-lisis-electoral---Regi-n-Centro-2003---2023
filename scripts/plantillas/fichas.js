@@ -137,7 +137,7 @@ function dibujarEleccion(){
     clic:k=>{ FE.u = FE.nivel==="dep" ? {t:"dep",i:+k} : {t:"cir",c:k}; dibujarEleccion(); }});
   const usados=[...ganan].sort((x,y)=>x-y);
   $("#leg-ele").innerHTML=`<div class="escala"><b>Primera fuerza</b></div>`+
-    usados.map(i=>`<span class="item"><i class="sw" style="background:${fCol(i,cl)}"></i><span>${R.pt[cl][i].n} <span style="color:var(--ink-3)">(${CORTO_M(fFam(i,cl))})</span></span></span>`).join("")+
+    usados.map(i=>`<span class="item"><i class="sw" style="background:${fCol(i,cl)}"></i><span>${R.pt[cl][i].n}${R.pt[cl][i].n===CORTO_M(fFam(i,cl))?"":` <span style="color:var(--ink-3)">(${CORTO_M(fFam(i,cl))})</span>`}</span></span>`).join("")+
     `<div class="escala" style="margin-top:.5rem"><span style="font-size:.72rem;color:var(--ink-3)">El color identifica la familia política `+
     `a la que se asigna cada partido o alianza, no su puesto.</span></div>`;
   const sinGeo = Object.keys(R.ci[cl]).filter(c=>!M.cap[CAPA(fAnio(cl))].some(g=>g.c===c));

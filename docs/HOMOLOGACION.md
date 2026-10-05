@@ -23,8 +23,9 @@ por el Cambio, o para considerar a La Libertad Avanza heredera de Unite.
 
 Esto se explicita en dos columnas, deliberadamente separadas:
 
-- **`familia`**: linaje partidario. Doce categorías, de `Peronismo
-  kirchnerista` a `Derecha libertaria`.
+- **`familia`**: linaje partidario. Trece categorías, de `Kirchnerismo` a
+  `La Libertad Avanza` (la derecha libertaria se parte en dos por período:
+  ver `docs/CRITERIO_DERECHA_LIBERTARIA.md`).
 - **`bloque`**: el eje kirchnerismo / no kirchnerismo que el plan de
   investigación toma como estructurante desde el conflicto agrario de 2008.
   Deja al peronismo no kirchnerista como categoría propia, porque colapsarlo
@@ -49,10 +50,13 @@ cinco que más pesan:
    a `Centro progresista no peronista`, pero Giustiniani es socialista
    santafesino: en Santa Fe esa fórmula tiene un componente que la
    clasificación nacional no captura.
-3. **La Libertad Avanza aparece sin antecedente.** Se la clasificó como
-   `Derecha libertaria`, familia que en 2019 solo ocupaba Unite (1,8 %). Si se
-   la considera heredera, hay continuidad; si no, es irrupción pura. El dato
-   no lo decide.
+3. **La Libertad Avanza se registra como fuerza propia desde 2023.** Decisión
+   tomada: la etiqueta `Derecha libertaria` queda para las candidaturas
+   anteriores (solo Unite en 2019, 1,8 % en la zona núcleo) y desde 2023 todo
+   voto de esa derecha va a `La Libertad Avanza`. El criterio vive en el CSV y
+   lo vigila `scripts/verificar_derecha_libertaria.py`. Consecuencia: el índice
+   de volatilidad 2019-2023 trata a Unite y a La Libertad Avanza como fuerzas
+   distintas, de modo que suma ambos valores.
 4. **El socialismo santafesino** es el caso más sensible para esta
    investigación: 42,7 % en 2011 y desaparecido después. Se mantuvo como
    familia propia en vez de fundirlo en un progresismo genérico, porque su
@@ -98,7 +102,8 @@ Zona núcleo, elecciones generales, porcentaje sobre votos positivos:
 |---|---:|---:|---:|---:|---:|
 | Cambiemos | — | — | 45,1 | 57,2 | 28,1 |
 | Socialismo | — | 42,7 | 3,7 | — | — |
-| Derecha libertaria | — | — | — | 1,8 | 39,1 |
+| Derecha libertaria | — | — | — | 1,8 | — |
+| La Libertad Avanza | — | — | — | — | 39,1 |
 | Peronismo Federal | 36,6 | 11,3 | 25,7 | 7,8 | 13,6 |
 | Kirchnerismo | 34,4 | 36,2 | 23,9 | 30,9 | 18,0 |
 | Centro progresista no peronista | 24,4 | 1,7 | — | — | — |

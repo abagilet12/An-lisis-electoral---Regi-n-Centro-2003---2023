@@ -2,7 +2,8 @@ familia,color_nombre,hex,token_css,nombre_anterior,color_anterior,criterio
 Kirchnerismo,azul claro,#4fa8ea,--c-kirch,Peronismo kirchnerista,#2a78d6,indicado por la investigación
 Peronismo Federal,azul oscuro,#12338a,--c-pfed,Peronismo no kirchnerista,#eda100,indicado por la investigación
 Socialismo,rojo,#d7263d,--c-soc,Socialismo y progresismo santafesino,#1baf7a,indicado por la investigación
-Derecha libertaria (La Libertad Avanza),violeta,#7b3fc4,--c-lla,Derecha libertaria,#e34948,indicado por la investigación
+La Libertad Avanza,violeta,#7b3fc4,--c-lla,Derecha libertaria,#e34948,indicado por la investigación; familia propia desde 2023
+Derecha libertaria (anterior a 2023),violeta claro,#b79ae6,--c-dlib,,,matiz claro del violeta de La Libertad Avanza: distingue las dos familias sin romper la regla de un color por familia
 Cambiemos,amarillo,#f2c200,--c-camb,Cambiemos,#eb6834,indicado por la investigación (Cambiemos / Juntos por el Cambio)
 Centro progresista no peronista,naranja,#e8782a,--c-cprog,Centro progresista no peronista,#4a3aa7,reasignado: el violeta pasa a La Libertad Avanza
 Centroderecha liberal,rosa,#e87ba4,--c-cderl,Centroderecha liberal,#e87ba4,sin cambio

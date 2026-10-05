@@ -55,11 +55,26 @@ UNIVERSOS = {"localidad": "zona_nucleo_30_localidades",
              "provincia": "provincia_completa"}
 
 
+def verificar_criterio_lla(filas):
+    """Criterio de la derecha libertaria (docs/CRITERIO_DERECHA_LIBERTARIA.md).
+
+    Antes de 2023 la familia es «Derecha libertaria»; desde 2023, todo voto de esa
+    derecha, incluido el de La Libertad Avanza, va a la familia «La Libertad Avanza».
+    """
+    mal = [(r["anio"], r["instancia"], r["agrupacion_original"], r["familia"]) for r in filas
+           if (int(r["anio"]) >= 2023 and r["familia"] == "Derecha libertaria")
+           or (int(r["anio"]) < 2023 and r["familia"] == "La Libertad Avanza")]
+    if mal:
+        sys.exit("criterio de la derecha libertaria violado en la tabla de homologación: "
+                 + "; ".join(map(str, mal)))
+
+
 def cargar_tabla():
     if not TABLA.exists():
         sys.exit(f"falta {TABLA}")
-    return {(r["anio"], r["instancia"], r["agrupacion_original"].strip()): r
-            for r in csv.DictReader(open(TABLA, encoding="utf-8"))}
+    filas = list(csv.DictReader(open(TABLA, encoding="utf-8")))
+    verificar_criterio_lla(filas)
+    return {(r["anio"], r["instancia"], r["agrupacion_original"].strip()): r for r in filas}
 
 
 def main():
