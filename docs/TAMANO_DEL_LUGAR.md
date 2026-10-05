@@ -56,6 +56,18 @@ Chequeo de la población y corrección por padrón del circuito 04250 de 2023: v
 | Ciudad intermedia | 40 | 25,1 |
 | Ciudad grande | 9 | 54,6 |
 
+## Cómo se dibuja el gráfico del tablero
+
+Pestaña «Hallazgos», sección «El voto según el tamaño del lugar» (`dibujarTramos` en `salida/voto_santafesino.html`):
+
+- **Una línea por categoría**, con el porcentaje sobre los votos positivos del conjunto de localidades de la categoría. No se rotulan cifras al final de las líneas: los valores se leen en la tabla de debajo o al pasar el puntero (o con las flechas del teclado) sobre una elección.
+- **Identidad de cada categoría:** tono de una rampa ordinal de un solo color (`--accent`, de claro a oscuro según el tamaño; validada: pasos de luminosidad uniformes y extremo claro con contraste ≥ 2:1 contra el fondo) **más** una forma de marcador propia (círculo, cuadrado, rombo, triángulo y cruz). Los marcadores crecen con la categoría y se dibujan de mayor a menor: si dos categorías coinciden en una elección (por ejemplo, Pueblo y Ciudad pequeña de Kirchnerismo en 2003, ambas 19,9 %), se siguen viendo los dos.
+- **Etiquetas:** solo el nombre de la categoría, con una línea guía hacia el último punto de la serie. La leyenda repite forma y tono; al pasar o fijar una categoría en la leyenda, las demás se atenúan.
+- **Interrupciones:** donde la fuerza no se presentó la línea se corta; no se unen puntos separados por una elección sin datos.
+- **Eje horizontal:** un lugar por año. En «Todas» las instancias de un mismo año (PASO, general, balotaje) quedan agrupadas, de modo que la distancia entre ellas no se confunda con la que separa dos años.
+- **Eje vertical:** se ajusta al rango de la fuerza elegida y no parte de cero, para que las líneas se distingan; el tablero lo aclara en la nota del gráfico.
+- La tabla de comprobación ya no incluye la correlación de Spearman. `datos/procesados/tamano_lugar_correlaciones.csv` se sigue generando.
+
 ## Límites a tener presentes
 
 - Localidades a menos del 1 % de un límite de categoría: Frontera (9.967), Monte Vera (9.953), Nelson (4.966) y Colonia Aldao
