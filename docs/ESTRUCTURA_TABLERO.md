@@ -9,6 +9,7 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 |---|---|---|
 | Objetivos, método y base de datos | Qué se hizo y con qué datos | Objetivos · Recolección y procesamiento de los datos · Advertencias y fuentes |
 | Evolución del voto | Cómo cambia el voto en el territorio | Evolución del voto a Presidente en Santa Fe 2003-2023 por circuito electoral (mapa de la serie, con tres líneas de interpretación) · El voto departamento por departamento · Comparación de las elecciones definitivas 2003 - 2023 en Santa Fe |
+| Swing voters | Dónde cambió el ganador entre elecciones definitivas | Swing voters (mapa con flechas y vista ampliada) · Las cinco comparaciones · El cambio según el tamaño del lugar (`docs/SWING_VOTERS.md`) |
 | Análisis estadístico | Qué dicen las tablas y los indicadores | Resultados comparados, 2003-2023 · Tabla por elección · Composición por departamento · Volatilidad y desafección |
 | Hallazgos | Qué indicadores sintetizan la serie | Resumen de 5 números · Evolución de las fuerzas políticas (las tres que ganaron la presidencia) · El voto según el tamaño del lugar (`docs/TAMANO_DEL_LUGAR.md`) |
 | Elecciones | Ficha de cada elección, por etiqueta oficial | (generada por `scripts/agregar_pestanas.py`) |

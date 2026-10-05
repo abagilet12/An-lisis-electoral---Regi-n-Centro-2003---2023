@@ -1,0 +1,2598 @@
+eleccion_a,eleccion_b,circuito_b,circuito_a,ganador_a,ganador_b,direccion,pct_ganador_b
+2003-GENERAL,2007-GENERAL,1,1,Centro progresista no peronista,Centro progresista no peronista,0,47.9
+2003-GENERAL,2007-GENERAL,2,2,Centro progresista no peronista,Centro progresista no peronista,0,47.2
+2003-GENERAL,2007-GENERAL,3,3,Centro progresista no peronista,Centro progresista no peronista,0,43.2
+2003-GENERAL,2007-GENERAL,4,4,Centro progresista no peronista,Centro progresista no peronista,0,49.1
+2003-GENERAL,2007-GENERAL,5,5,Centro progresista no peronista,Centro progresista no peronista,0,51.3
+2003-GENERAL,2007-GENERAL,6,6,Centro progresista no peronista,Centro progresista no peronista,0,48.7
+2003-GENERAL,2007-GENERAL,7,7,Peronismo Federal,Centro progresista no peronista,-1,37.1
+2003-GENERAL,2007-GENERAL,8,8,Centro progresista no peronista,Centro progresista no peronista,0,38.6
+2003-GENERAL,2007-GENERAL,9,9,Centro progresista no peronista,Centro progresista no peronista,0,48.7
+2003-GENERAL,2007-GENERAL,10,10,Centro progresista no peronista,Centro progresista no peronista,0,45.2
+2003-GENERAL,2007-GENERAL,11,11,Centro progresista no peronista,Centro progresista no peronista,0,42.4
+2003-GENERAL,2007-GENERAL,11A,11A,Peronismo Federal,Kirchnerismo,-1,42.0
+2003-GENERAL,2007-GENERAL,12,12,Centro progresista no peronista,Centro progresista no peronista,0,48.0
+2003-GENERAL,2007-GENERAL,13,13,Centro progresista no peronista,Centro progresista no peronista,0,38.6
+2003-GENERAL,2007-GENERAL,14,14,Peronismo Federal,Kirchnerismo,-1,36.4
+2003-GENERAL,2007-GENERAL,15,15,Peronismo Federal,Kirchnerismo,-1,52.3
+2003-GENERAL,2007-GENERAL,16,16,Peronismo Federal,Kirchnerismo,-1,44.6
+2003-GENERAL,2007-GENERAL,17,17,Centro progresista no peronista,Kirchnerismo,1,34.5
+2003-GENERAL,2007-GENERAL,18,18,Peronismo Federal,Kirchnerismo,-1,52.3
+2003-GENERAL,2007-GENERAL,19,19,Centro progresista no peronista,Centro progresista no peronista,0,38.1
+2003-GENERAL,2007-GENERAL,20,20,Peronismo Federal,Kirchnerismo,-1,37.0
+2003-GENERAL,2007-GENERAL,20A,35,Peronismo Federal,Centro progresista no peronista,-1,34.3
+2003-GENERAL,2007-GENERAL,20B,33,Peronismo Federal,Kirchnerismo,-1,42.4
+2003-GENERAL,2007-GENERAL,21,21,Peronismo Federal,Kirchnerismo,-1,37.4
+2003-GENERAL,2007-GENERAL,22,22,Peronismo Federal,Kirchnerismo,-1,34.3
+2003-GENERAL,2007-GENERAL,23,23,Peronismo Federal,Kirchnerismo,-1,38.9
+2003-GENERAL,2007-GENERAL,24,24,Peronismo Federal,Kirchnerismo,-1,41.2
+2003-GENERAL,2007-GENERAL,25,25,Peronismo Federal,Kirchnerismo,-1,41.3
+2003-GENERAL,2007-GENERAL,26,26,Peronismo Federal,Kirchnerismo,-1,45.7
+2003-GENERAL,2007-GENERAL,27,27,Peronismo Federal,Kirchnerismo,-1,50.6
+2003-GENERAL,2007-GENERAL,28,28,Peronismo Federal,Centro progresista no peronista,-1,35.2
+2003-GENERAL,2007-GENERAL,29,29,Peronismo Federal,Kirchnerismo,-1,46.7
+2003-GENERAL,2007-GENERAL,30,30,Centroderecha liberal,Centro progresista no peronista,-1,34.3
+2003-GENERAL,2007-GENERAL,31,31,Centroderecha liberal,Centro progresista no peronista,-1,39.7
+2003-GENERAL,2007-GENERAL,32,32,Centro progresista no peronista,Kirchnerismo,1,34.7
+2003-GENERAL,2007-GENERAL,33,33,Peronismo Federal,Kirchnerismo,-1,41.2
+2003-GENERAL,2007-GENERAL,34,34,Peronismo Federal,Kirchnerismo,-1,57.5
+2003-GENERAL,2007-GENERAL,35,35,Peronismo Federal,Kirchnerismo,-1,41.3
+2003-GENERAL,2007-GENERAL,36,36,Centro progresista no peronista,Centro progresista no peronista,0,42.7
+2003-GENERAL,2007-GENERAL,37,37,Centroderecha liberal,Peronismo Federal,-1,54.3
+2003-GENERAL,2007-GENERAL,38,38,Peronismo Federal,Kirchnerismo,-1,36.5
+2003-GENERAL,2007-GENERAL,39,39,Peronismo Federal,Kirchnerismo,-1,44.2
+2003-GENERAL,2007-GENERAL,40,40,Peronismo Federal,Kirchnerismo,-1,42.1
+2003-GENERAL,2007-GENERAL,41,41,Peronismo Federal,Peronismo Federal,0,40.1
+2003-GENERAL,2007-GENERAL,42,42,Peronismo Federal,Peronismo Federal,0,43.3
+2003-GENERAL,2007-GENERAL,43,43,Peronismo Federal,Kirchnerismo,-1,41.4
+2003-GENERAL,2007-GENERAL,44,44,Peronismo Federal,Kirchnerismo,-1,36.4
+2003-GENERAL,2007-GENERAL,45,45,Centroderecha liberal,Kirchnerismo,-1,38.3
+2003-GENERAL,2007-GENERAL,46,46,Peronismo Federal,Peronismo Federal,0,36.5
+2003-GENERAL,2007-GENERAL,47,47,Peronismo Federal,Peronismo Federal,0,49.3
+2003-GENERAL,2007-GENERAL,48,48,Kirchnerismo,Kirchnerismo,0,40.2
+2003-GENERAL,2007-GENERAL,49,49,Peronismo Federal,Peronismo Federal,0,37.5
+2003-GENERAL,2007-GENERAL,50,50,Peronismo Federal,Peronismo Federal,0,40.9
+2003-GENERAL,2007-GENERAL,51,51,Peronismo Federal,Kirchnerismo,-1,44.3
+2003-GENERAL,2007-GENERAL,52,52,Centroderecha liberal,Peronismo Federal,-1,43.2
+2003-GENERAL,2007-GENERAL,53,53,Centroderecha liberal,Peronismo Federal,-1,46.8
+2003-GENERAL,2007-GENERAL,54,54,Kirchnerismo,Peronismo Federal,1,53.5
+2003-GENERAL,2007-GENERAL,55,55,Peronismo Federal,Peronismo Federal,0,38.9
+2003-GENERAL,2007-GENERAL,55A,,,Centroizquierda no peronista,9,33.3
+2003-GENERAL,2007-GENERAL,55B,55B,Peronismo Federal,Peronismo Federal,0,37.6
+2003-GENERAL,2007-GENERAL,55C,,,Centro progresista no peronista,9,42.1
+2003-GENERAL,2007-GENERAL,55D,55D,Peronismo Federal,Kirchnerismo,-1,58.8
+2003-GENERAL,2007-GENERAL,56,56,Kirchnerismo,Peronismo Federal,1,41.5
+2003-GENERAL,2007-GENERAL,57,57,Peronismo Federal,Kirchnerismo,-1,49.1
+2003-GENERAL,2007-GENERAL,58,58,Centroderecha liberal,Kirchnerismo,-1,41.7
+2003-GENERAL,2007-GENERAL,59,59,Peronismo Federal,Peronismo Federal,0,44.2
+2003-GENERAL,2007-GENERAL,60,60,Centroderecha liberal,Peronismo Federal,-1,46.1
+2003-GENERAL,2007-GENERAL,61,61,Peronismo Federal,Kirchnerismo,-1,38.3
+2003-GENERAL,2007-GENERAL,62,62,Centroderecha liberal,Peronismo Federal,-1,41.0
+2003-GENERAL,2007-GENERAL,63,63,Peronismo Federal,Peronismo Federal,0,42.8
+2003-GENERAL,2007-GENERAL,64,64,Kirchnerismo,Peronismo Federal,1,47.9
+2003-GENERAL,2007-GENERAL,65,65,Centroderecha liberal,Peronismo Federal,-1,30.3
+2003-GENERAL,2007-GENERAL,66,66,Peronismo Federal,Peronismo Federal,0,39.1
+2003-GENERAL,2007-GENERAL,67,67,Peronismo Federal,Peronismo Federal,0,50.1
+2003-GENERAL,2007-GENERAL,68,68,Peronismo Federal,Peronismo Federal,0,49.8
+2003-GENERAL,2007-GENERAL,69,69,Peronismo Federal,Kirchnerismo,-1,41.3
+2003-GENERAL,2007-GENERAL,70,70,Centroderecha liberal,Peronismo Federal,-1,52.1
+2003-GENERAL,2007-GENERAL,71,71,Peronismo Federal,Peronismo Federal,0,38.1
+2003-GENERAL,2007-GENERAL,72,72,Kirchnerismo,Kirchnerismo,0,37.9
+2003-GENERAL,2007-GENERAL,73,73,Peronismo Federal,Peronismo Federal,0,35.9
+2003-GENERAL,2007-GENERAL,74,74,Kirchnerismo,Peronismo Federal,1,59.4
+2003-GENERAL,2007-GENERAL,75,75,Peronismo Federal,Peronismo Federal,0,40.9
+2003-GENERAL,2007-GENERAL,76,76,Peronismo Federal,Peronismo Federal,0,52.6
+2003-GENERAL,2007-GENERAL,77,77,Peronismo Federal,Peronismo Federal,0,48.6
+2003-GENERAL,2007-GENERAL,79,79,Peronismo Federal,Kirchnerismo,-1,35.5
+2003-GENERAL,2007-GENERAL,80,80,Kirchnerismo,Peronismo Federal,1,41.3
+2003-GENERAL,2007-GENERAL,81,81,Centroderecha liberal,Peronismo Federal,-1,37.7
+2003-GENERAL,2007-GENERAL,82,82,Peronismo Federal,Centro progresista no peronista,-1,38.9
+2003-GENERAL,2007-GENERAL,83,83,Centro progresista no peronista,Kirchnerismo,1,43.2
+2003-GENERAL,2007-GENERAL,84,84,Peronismo Federal,Kirchnerismo,-1,51.1
+2003-GENERAL,2007-GENERAL,85,85,Peronismo Federal,Kirchnerismo,-1,44.6
+2003-GENERAL,2007-GENERAL,85A,85A,Centroderecha liberal,Peronismo Federal,-1,43.2
+2003-GENERAL,2007-GENERAL,86,86,Peronismo Federal,Centro progresista no peronista,-1,39.2
+2003-GENERAL,2007-GENERAL,87,87,Peronismo Federal,Kirchnerismo,-1,42.1
+2003-GENERAL,2007-GENERAL,88,88,Peronismo Federal,Kirchnerismo,-1,35.3
+2003-GENERAL,2007-GENERAL,89,89,Peronismo Federal,Kirchnerismo,-1,33.5
+2003-GENERAL,2007-GENERAL,91,91,Peronismo Federal,Kirchnerismo,-1,39.2
+2003-GENERAL,2007-GENERAL,92,92,Centroderecha liberal,Centro progresista no peronista,-1,36.0
+2003-GENERAL,2007-GENERAL,93,93,Peronismo Federal,Centro progresista no peronista,-1,36.5
+2003-GENERAL,2007-GENERAL,94,94,Peronismo Federal,Peronismo Federal,0,36.3
+2003-GENERAL,2007-GENERAL,95,95,Peronismo Federal,Kirchnerismo,-1,43.9
+2003-GENERAL,2007-GENERAL,96,96,Peronismo Federal,Kirchnerismo,-1,51.4
+2003-GENERAL,2007-GENERAL,96A,96A,Peronismo Federal,Kirchnerismo,-1,55.9
+2003-GENERAL,2007-GENERAL,97,97,Peronismo Federal,Centro progresista no peronista,-1,40.5
+2003-GENERAL,2007-GENERAL,98,98,Peronismo Federal,Kirchnerismo,-1,68.5
+2003-GENERAL,2007-GENERAL,100,100,Centroderecha liberal,Peronismo Federal,-1,43.8
+2003-GENERAL,2007-GENERAL,101,101,Peronismo Federal,Kirchnerismo,-1,62.9
+2003-GENERAL,2007-GENERAL,104,104,Peronismo Federal,Kirchnerismo,-1,57.6
+2003-GENERAL,2007-GENERAL,105,105,Peronismo Federal,Kirchnerismo,-1,43.7
+2003-GENERAL,2007-GENERAL,106,106,Peronismo Federal,Kirchnerismo,-1,37.0
+2003-GENERAL,2007-GENERAL,106A,106A,Peronismo Federal,Peronismo Federal,0,45.7
+2003-GENERAL,2007-GENERAL,106B,106B,Peronismo Federal,Peronismo Federal,0,41.2
+2003-GENERAL,2007-GENERAL,107,107,Peronismo Federal,Kirchnerismo,-1,40.2
+2003-GENERAL,2007-GENERAL,108,108,Peronismo Federal,Peronismo Federal,0,38.5
+2003-GENERAL,2007-GENERAL,109,109,Peronismo Federal,Centro progresista no peronista,-1,29.0
+2003-GENERAL,2007-GENERAL,110,110,Peronismo Federal,Kirchnerismo,-1,43.1
+2003-GENERAL,2007-GENERAL,111,111,Peronismo Federal,Peronismo Federal,0,51.4
+2003-GENERAL,2007-GENERAL,112,112,Peronismo Federal,Peronismo Federal,0,38.9
+2003-GENERAL,2007-GENERAL,113,113,Peronismo Federal,Peronismo Federal,0,55.4
+2003-GENERAL,2007-GENERAL,114,114,Peronismo Federal,Kirchnerismo,-1,46.0
+2003-GENERAL,2007-GENERAL,115,115,Peronismo Federal,Peronismo Federal,0,39.9
+2003-GENERAL,2007-GENERAL,116,116,Peronismo Federal,Peronismo Federal,0,47.5
+2003-GENERAL,2007-GENERAL,117,117,Peronismo Federal,Peronismo Federal,0,44.4
+2003-GENERAL,2007-GENERAL,118,118,Peronismo Federal,Kirchnerismo,-1,37.0
+2003-GENERAL,2007-GENERAL,119,119,Peronismo Federal,Peronismo Federal,0,47.5
+2003-GENERAL,2007-GENERAL,120,120,Peronismo Federal,Peronismo Federal,0,42.2
+2003-GENERAL,2007-GENERAL,120A,120A,Peronismo Federal,Kirchnerismo,-1,41.0
+2003-GENERAL,2007-GENERAL,120B,120B,Kirchnerismo,Peronismo Federal,1,53.7
+2003-GENERAL,2007-GENERAL,121,121,Peronismo Federal,Peronismo Federal,0,37.2
+2003-GENERAL,2007-GENERAL,122,122,Centroderecha liberal,Kirchnerismo,-1,46.3
+2003-GENERAL,2007-GENERAL,123,123,Peronismo Federal,Kirchnerismo,-1,49.2
+2003-GENERAL,2007-GENERAL,124,124,Peronismo Federal,Peronismo Federal,0,35.8
+2003-GENERAL,2007-GENERAL,125,125,Kirchnerismo,Kirchnerismo,0,37.9
+2003-GENERAL,2007-GENERAL,126,126,Peronismo Federal,Kirchnerismo,-1,49.5
+2003-GENERAL,2007-GENERAL,127,127,Centroderecha liberal,Peronismo Federal,-1,46.4
+2003-GENERAL,2007-GENERAL,128A,128A,Peronismo Federal,Kirchnerismo,-1,36.5
+2003-GENERAL,2007-GENERAL,128B,128B,Peronismo Federal,Peronismo Federal,0,36.2
+2003-GENERAL,2007-GENERAL,129,129,Peronismo Federal,Peronismo Federal,0,46.2
+2003-GENERAL,2007-GENERAL,130,130,Peronismo Federal,Peronismo Federal,0,36.7
+2003-GENERAL,2007-GENERAL,131,131,Kirchnerismo,Kirchnerismo,0,38.4
+2003-GENERAL,2007-GENERAL,132,132,Peronismo Federal,Peronismo Federal,0,38.6
+2003-GENERAL,2007-GENERAL,133,133,Peronismo Federal,Kirchnerismo,-1,47.4
+2003-GENERAL,2007-GENERAL,134,134,Peronismo Federal,Peronismo Federal,0,44.7
+2003-GENERAL,2007-GENERAL,134A,134A,Peronismo Federal,Peronismo Federal,0,38.3
+2003-GENERAL,2007-GENERAL,135,135,Centroderecha liberal,Peronismo Federal,-1,53.4
+2003-GENERAL,2007-GENERAL,136,136,Peronismo Federal,Kirchnerismo,-1,48.2
+2003-GENERAL,2007-GENERAL,136A,136A,Centroderecha liberal,Peronismo Federal,-1,52.4
+2003-GENERAL,2007-GENERAL,137,137,Peronismo Federal,Peronismo Federal,0,36.6
+2003-GENERAL,2007-GENERAL,138,138,Peronismo Federal,Kirchnerismo,-1,39.6
+2003-GENERAL,2007-GENERAL,139,139,Peronismo Federal,Peronismo Federal,0,45.8
+2003-GENERAL,2007-GENERAL,140,140,Peronismo Federal,Kirchnerismo,-1,38.1
+2003-GENERAL,2007-GENERAL,141,141,Kirchnerismo,Peronismo Federal,1,40.1
+2003-GENERAL,2007-GENERAL,142,142,Kirchnerismo,Peronismo Federal,1,40.0
+2003-GENERAL,2007-GENERAL,143,143,Peronismo Federal,Kirchnerismo,-1,39.9
+2003-GENERAL,2007-GENERAL,144,144,Peronismo Federal,Peronismo Federal,0,45.3
+2003-GENERAL,2007-GENERAL,145,145,Peronismo Federal,Peronismo Federal,0,47.6
+2003-GENERAL,2007-GENERAL,146,146,Kirchnerismo,Peronismo Federal,1,48.4
+2003-GENERAL,2007-GENERAL,147,147,Peronismo Federal,Kirchnerismo,-1,45.9
+2003-GENERAL,2007-GENERAL,148,148,Peronismo Federal,Peronismo Federal,0,50.5
+2003-GENERAL,2007-GENERAL,149,149,Kirchnerismo,Peronismo Federal,1,47.1
+2003-GENERAL,2007-GENERAL,150,150,Centroderecha liberal,Peronismo Federal,-1,66.3
+2003-GENERAL,2007-GENERAL,151,151,Peronismo Federal,Kirchnerismo,-1,51.4
+2003-GENERAL,2007-GENERAL,152,152,Peronismo Federal,Peronismo Federal,0,50.0
+2003-GENERAL,2007-GENERAL,153,153,Peronismo Federal,Peronismo Federal,0,46.8
+2003-GENERAL,2007-GENERAL,154,154,Peronismo Federal,Peronismo Federal,0,47.2
+2003-GENERAL,2007-GENERAL,155,155,Peronismo Federal,Peronismo Federal,0,41.9
+2003-GENERAL,2007-GENERAL,156,156,Peronismo Federal,Centro progresista no peronista,-1,33.8
+2003-GENERAL,2007-GENERAL,157,157,Peronismo Federal,Peronismo Federal,0,35.0
+2003-GENERAL,2007-GENERAL,158,158,Peronismo Federal,Kirchnerismo,-1,35.6
+2003-GENERAL,2007-GENERAL,159,159,Peronismo Federal,Peronismo Federal,0,32.7
+2003-GENERAL,2007-GENERAL,160,160,Peronismo Federal,Peronismo Federal,0,37.4
+2003-GENERAL,2007-GENERAL,161,161,Kirchnerismo,Centro progresista no peronista,-1,32.7
+2003-GENERAL,2007-GENERAL,162,162,Kirchnerismo,Kirchnerismo,0,57.1
+2003-GENERAL,2007-GENERAL,163,163,Peronismo Federal,Peronismo Federal,0,40.7
+2003-GENERAL,2007-GENERAL,164,164,Peronismo Federal,Peronismo Federal,0,40.4
+2003-GENERAL,2007-GENERAL,165,165,Peronismo Federal,Centro progresista no peronista,-1,33.9
+2003-GENERAL,2007-GENERAL,166,166,Peronismo Federal,Peronismo Federal,0,36.6
+2003-GENERAL,2007-GENERAL,167,167,Peronismo Federal,Centro progresista no peronista,-1,36.7
+2003-GENERAL,2007-GENERAL,168,168,Centroderecha liberal,Peronismo Federal,-1,57.3
+2003-GENERAL,2007-GENERAL,169,169,Kirchnerismo,Peronismo Federal,1,42.4
+2003-GENERAL,2007-GENERAL,174,174,Union Civica Radical,Peronismo Federal,1,41.0
+2003-GENERAL,2007-GENERAL,175,175,Peronismo Federal,Peronismo Federal,0,51.1
+2003-GENERAL,2007-GENERAL,176,176,Peronismo Federal,Kirchnerismo,-1,44.6
+2003-GENERAL,2007-GENERAL,177,177,Peronismo Federal,Peronismo Federal,0,53.5
+2003-GENERAL,2007-GENERAL,178,178,Peronismo Federal,Kirchnerismo,-1,41.5
+2003-GENERAL,2007-GENERAL,179,179,Peronismo Federal,Peronismo Federal,0,51.4
+2003-GENERAL,2007-GENERAL,180,180,Peronismo Federal,Peronismo Federal,0,60.0
+2003-GENERAL,2007-GENERAL,181,181,Peronismo Federal,Peronismo Federal,0,49.6
+2003-GENERAL,2007-GENERAL,181A,181A,Peronismo Federal,Kirchnerismo,-1,58.3
+2003-GENERAL,2007-GENERAL,182,182,Union Civica Radical,Peronismo Federal,1,57.8
+2003-GENERAL,2007-GENERAL,183,183,Peronismo Federal,Peronismo Federal,0,43.1
+2003-GENERAL,2007-GENERAL,184,184,Peronismo Federal,Peronismo Federal,0,37.6
+2003-GENERAL,2007-GENERAL,185,185,Peronismo Federal,Kirchnerismo,-1,46.0
+2003-GENERAL,2007-GENERAL,186,186,Union Civica Radical,Peronismo Federal,1,50.9
+2003-GENERAL,2007-GENERAL,187,187,Peronismo Federal,Peronismo Federal,0,57.6
+2003-GENERAL,2007-GENERAL,188,188,Peronismo Federal,Peronismo Federal,0,51.8
+2003-GENERAL,2007-GENERAL,189,189,Peronismo Federal,Kirchnerismo,-1,51.8
+2003-GENERAL,2007-GENERAL,191,191,Peronismo Federal,Peronismo Federal,0,45.9
+2003-GENERAL,2007-GENERAL,192,192,Peronismo Federal,Peronismo Federal,0,44.1
+2003-GENERAL,2007-GENERAL,193,193,Peronismo Federal,Kirchnerismo,-1,47.9
+2003-GENERAL,2007-GENERAL,194,194,Peronismo Federal,Kirchnerismo,-1,38.2
+2003-GENERAL,2007-GENERAL,195,195,Peronismo Federal,Peronismo Federal,0,50.6
+2003-GENERAL,2007-GENERAL,196,196,Peronismo Federal,Peronismo Federal,0,46.8
+2003-GENERAL,2007-GENERAL,196A,,,Peronismo Federal,9,47.4
+2003-GENERAL,2007-GENERAL,196B,196B,Centro progresista no peronista,Peronismo Federal,1,56.2
+2003-GENERAL,2007-GENERAL,197,197,Peronismo Federal,Peronismo Federal,0,52.4
+2003-GENERAL,2007-GENERAL,198,198,Peronismo Federal,Kirchnerismo,-1,49.3
+2003-GENERAL,2007-GENERAL,199,199,Centroderecha liberal,Peronismo Federal,-1,46.0
+2003-GENERAL,2007-GENERAL,200,200,Peronismo Federal,Peronismo Federal,0,46.6
+2003-GENERAL,2007-GENERAL,201,201,Peronismo Federal,Peronismo Federal,0,64.3
+2003-GENERAL,2007-GENERAL,202,202,Peronismo Federal,Peronismo Federal,0,58.7
+2003-GENERAL,2007-GENERAL,203,203,Centroderecha liberal,Peronismo Federal,-1,62.9
+2003-GENERAL,2007-GENERAL,204,204,Peronismo Federal,Peronismo Federal,0,52.0
+2003-GENERAL,2007-GENERAL,205,205,Peronismo Federal,Peronismo Federal,0,37.6
+2003-GENERAL,2007-GENERAL,207,207,Peronismo Federal,Kirchnerismo,-1,44.0
+2003-GENERAL,2007-GENERAL,208,208,Peronismo Federal,Peronismo Federal,0,36.7
+2003-GENERAL,2007-GENERAL,208A,,,Peronismo Federal,9,45.0
+2003-GENERAL,2007-GENERAL,208B,208B,Peronismo Federal,Kirchnerismo,-1,33.3
+2003-GENERAL,2007-GENERAL,208C,208C,Centroderecha liberal,Peronismo Federal,-1,37.2
+2003-GENERAL,2007-GENERAL,209,209,Peronismo Federal,Peronismo Federal,0,44.7
+2003-GENERAL,2007-GENERAL,210,210,Peronismo Federal,Centro progresista no peronista,-1,35.6
+2003-GENERAL,2007-GENERAL,210A,210A,Peronismo Federal,Kirchnerismo,-1,38.2
+2003-GENERAL,2007-GENERAL,211,211,Peronismo Federal,Centro progresista no peronista,-1,34.2
+2003-GENERAL,2007-GENERAL,212,212,Peronismo Federal,Centro progresista no peronista,-1,33.2
+2003-GENERAL,2007-GENERAL,212A,212A,Peronismo Federal,Kirchnerismo,-1,43.4
+2003-GENERAL,2007-GENERAL,213,213,Peronismo Federal,Kirchnerismo,-1,39.3
+2003-GENERAL,2007-GENERAL,214,214,Peronismo Federal,Kirchnerismo,-1,48.6
+2003-GENERAL,2007-GENERAL,214A,214A,Peronismo Federal,Kirchnerismo,-1,55.3
+2003-GENERAL,2007-GENERAL,215,215,Peronismo Federal,Kirchnerismo,-1,34.5
+2003-GENERAL,2007-GENERAL,215A,215A,Peronismo Federal,Centro progresista no peronista,-1,52.7
+2003-GENERAL,2007-GENERAL,216,216,Peronismo Federal,Kirchnerismo,-1,38.2
+2003-GENERAL,2007-GENERAL,216A,216A,Centroderecha liberal,Peronismo Federal,-1,54.5
+2003-GENERAL,2007-GENERAL,217,217,Centroderecha liberal,Centro progresista no peronista,-1,45.6
+2003-GENERAL,2007-GENERAL,218,218,Peronismo Federal,Kirchnerismo,-1,40.5
+2003-GENERAL,2007-GENERAL,219,219,Peronismo Federal,Peronismo Federal,0,41.8
+2003-GENERAL,2007-GENERAL,220,220,Peronismo Federal,Kirchnerismo,-1,53.3
+2003-GENERAL,2007-GENERAL,221,221,Peronismo Federal,Kirchnerismo,-1,40.2
+2003-GENERAL,2007-GENERAL,221A,221A,Kirchnerismo,Peronismo Federal,1,41.5
+2003-GENERAL,2007-GENERAL,222,,,Kirchnerismo,9,41.4
+2003-GENERAL,2007-GENERAL,222A,222A,Centroderecha liberal,Kirchnerismo,-1,36.4
+2003-GENERAL,2007-GENERAL,223,223,Kirchnerismo,Peronismo Federal,1,37.2
+2003-GENERAL,2007-GENERAL,223A,223A,Peronismo Federal,Kirchnerismo,-1,43.1
+2003-GENERAL,2007-GENERAL,224,224,Peronismo Federal,Kirchnerismo,-1,37.8
+2003-GENERAL,2007-GENERAL,224A,224A,Peronismo Federal,Peronismo Federal,0,39.4
+2003-GENERAL,2007-GENERAL,224B,224B,Peronismo Federal,Kirchnerismo,-1,67.0
+2003-GENERAL,2007-GENERAL,224C,225,Peronismo Federal,Kirchnerismo,-1,43.2
+2003-GENERAL,2007-GENERAL,224D,224A,Peronismo Federal,Kirchnerismo,-1,56.0
+2003-GENERAL,2007-GENERAL,224E,225,Peronismo Federal,Kirchnerismo,-1,49.1
+2003-GENERAL,2007-GENERAL,225,225,Peronismo Federal,Kirchnerismo,-1,39.7
+2003-GENERAL,2007-GENERAL,225A,225A,Kirchnerismo,Kirchnerismo,0,45.7
+2003-GENERAL,2007-GENERAL,226,226,Peronismo Federal,Peronismo Federal,0,47.3
+2003-GENERAL,2007-GENERAL,227,227,Centroderecha liberal,Kirchnerismo,-1,43.7
+2003-GENERAL,2007-GENERAL,227A,227A,Peronismo Federal,Kirchnerismo,-1,54.8
+2003-GENERAL,2007-GENERAL,227B,227B,Peronismo Federal,Kirchnerismo,-1,44.1
+2003-GENERAL,2007-GENERAL,228,228,Peronismo Federal,Kirchnerismo,-1,51.3
+2003-GENERAL,2007-GENERAL,229,229,Peronismo Federal,Kirchnerismo,-1,44.8
+2003-GENERAL,2007-GENERAL,230,230,Peronismo Federal,Kirchnerismo,-1,41.7
+2003-GENERAL,2007-GENERAL,231,231,Peronismo Federal,Kirchnerismo,-1,50.7
+2003-GENERAL,2007-GENERAL,232,232,Peronismo Federal,Kirchnerismo,-1,43.8
+2003-GENERAL,2007-GENERAL,232A,232A,Peronismo Federal,Kirchnerismo,-1,43.7
+2003-GENERAL,2007-GENERAL,233,233,Peronismo Federal,Kirchnerismo,-1,44.0
+2003-GENERAL,2007-GENERAL,234,234,Peronismo Federal,Kirchnerismo,-1,61.3
+2003-GENERAL,2007-GENERAL,235,235,Peronismo Federal,Kirchnerismo,-1,42.4
+2003-GENERAL,2007-GENERAL,237,237,Peronismo Federal,Kirchnerismo,-1,47.0
+2003-GENERAL,2007-GENERAL,238,238,Peronismo Federal,Kirchnerismo,-1,42.2
+2003-GENERAL,2007-GENERAL,239,239,Peronismo Federal,Kirchnerismo,-1,45.2
+2003-GENERAL,2007-GENERAL,239A,,,Kirchnerismo,9,49.2
+2003-GENERAL,2007-GENERAL,240,240,Peronismo Federal,Kirchnerismo,-1,68.6
+2003-GENERAL,2007-GENERAL,241,241,Peronismo Federal,Kirchnerismo,-1,42.5
+2003-GENERAL,2007-GENERAL,242,242,Centroderecha liberal,Kirchnerismo,-1,38.4
+2003-GENERAL,2007-GENERAL,243,,,Peronismo Federal,9,40.0
+2003-GENERAL,2007-GENERAL,244,244,Peronismo Federal,Peronismo Federal,0,58.0
+2003-GENERAL,2007-GENERAL,244A,244A,Centroderecha liberal,Peronismo Federal,-1,38.9
+2003-GENERAL,2007-GENERAL,244B,244B,Peronismo Federal,Kirchnerismo,-1,43.3
+2003-GENERAL,2007-GENERAL,245,245,Peronismo Federal,Kirchnerismo,-1,37.9
+2003-GENERAL,2007-GENERAL,246,246,Peronismo Federal,Peronismo Federal,0,33.8
+2003-GENERAL,2007-GENERAL,246A,246A,Peronismo Federal,Kirchnerismo,-1,35.4
+2003-GENERAL,2007-GENERAL,247,247,Peronismo Federal,Kirchnerismo,-1,44.6
+2003-GENERAL,2007-GENERAL,248,248,Peronismo Federal,Kirchnerismo,-1,43.4
+2003-GENERAL,2007-GENERAL,249,249,Kirchnerismo,Peronismo Federal,1,45.8
+2003-GENERAL,2007-GENERAL,251,251,Peronismo Federal,Kirchnerismo,-1,46.8
+2003-GENERAL,2007-GENERAL,252,252,Peronismo Federal,Kirchnerismo,-1,45.3
+2003-GENERAL,2007-GENERAL,253,253,Kirchnerismo,Kirchnerismo,0,44.7
+2003-GENERAL,2007-GENERAL,254,254,Peronismo Federal,Kirchnerismo,-1,42.6
+2003-GENERAL,2007-GENERAL,254A,254A,Peronismo Federal,Kirchnerismo,-1,79.5
+2003-GENERAL,2007-GENERAL,255,255,Peronismo Federal,Kirchnerismo,-1,78.2
+2003-GENERAL,2007-GENERAL,256,256,Peronismo Federal,Kirchnerismo,-1,44.5
+2003-GENERAL,2007-GENERAL,256A,,,Centroderecha liberal,9,44.4
+2003-GENERAL,2007-GENERAL,257,257,Peronismo Federal,Kirchnerismo,-1,76.6
+2003-GENERAL,2007-GENERAL,259,259,Peronismo Federal,Kirchnerismo,-1,60.7
+2003-GENERAL,2007-GENERAL,260,260,Peronismo Federal,Kirchnerismo,-1,38.9
+2003-GENERAL,2007-GENERAL,261,261,Peronismo Federal,Peronismo Federal,0,52.1
+2003-GENERAL,2007-GENERAL,262,262,Peronismo Federal,Kirchnerismo,-1,57.5
+2003-GENERAL,2007-GENERAL,263,263,Peronismo Federal,Centro progresista no peronista,-1,55.7
+2003-GENERAL,2007-GENERAL,264,264,Peronismo Federal,Kirchnerismo,-1,51.2
+2003-GENERAL,2007-GENERAL,267,267,Peronismo Federal,Kirchnerismo,-1,65.1
+2003-GENERAL,2007-GENERAL,268,268,Peronismo Federal,Kirchnerismo,-1,51.2
+2003-GENERAL,2007-GENERAL,268A,268A,Peronismo Federal,Kirchnerismo,-1,56.6
+2003-GENERAL,2007-GENERAL,268B,268B,Peronismo Federal,Kirchnerismo,-1,57.5
+2003-GENERAL,2007-GENERAL,269,269,Peronismo Federal,Kirchnerismo,-1,40.3
+2003-GENERAL,2007-GENERAL,270,270,Peronismo Federal,Kirchnerismo,-1,40.6
+2003-GENERAL,2007-GENERAL,271,271,Peronismo Federal,Centro progresista no peronista,-1,43.8
+2003-GENERAL,2007-GENERAL,274,274,Peronismo Federal,Kirchnerismo,-1,47.0
+2003-GENERAL,2007-GENERAL,275,275,Peronismo Federal,Kirchnerismo,-1,40.2
+2003-GENERAL,2007-GENERAL,275A,275A,Kirchnerismo,Kirchnerismo,0,50.9
+2003-GENERAL,2007-GENERAL,276,276,Peronismo Federal,Kirchnerismo,-1,53.9
+2003-GENERAL,2007-GENERAL,276A,276A,Centroderecha liberal,Peronismo Federal,-1,38.7
+2003-GENERAL,2007-GENERAL,276B,276B,Kirchnerismo,Kirchnerismo,0,53.1
+2003-GENERAL,2007-GENERAL,277,277,Peronismo Federal,Kirchnerismo,-1,43.5
+2003-GENERAL,2007-GENERAL,277A,277A,Peronismo Federal,Kirchnerismo,-1,36.8
+2003-GENERAL,2007-GENERAL,277B,,,Kirchnerismo,9,36.8
+2003-GENERAL,2007-GENERAL,278,278,Centro progresista no peronista,Peronismo Federal,1,47.9
+2003-GENERAL,2007-GENERAL,279,279,Peronismo Federal,Kirchnerismo,-1,41.1
+2003-GENERAL,2007-GENERAL,280,280,Peronismo Federal,Kirchnerismo,-1,36.7
+2003-GENERAL,2007-GENERAL,281,281,Centroderecha liberal,Peronismo Federal,-1,42.4
+2003-GENERAL,2007-GENERAL,283,283,Peronismo Federal,Kirchnerismo,-1,56.9
+2003-GENERAL,2007-GENERAL,284,284,Peronismo Federal,Peronismo Federal,0,45.5
+2003-GENERAL,2007-GENERAL,285,285,Peronismo Federal,Kirchnerismo,-1,42.9
+2003-GENERAL,2007-GENERAL,285A,,,Kirchnerismo,9,40.2
+2003-GENERAL,2007-GENERAL,285B,285A,Peronismo Federal,Kirchnerismo,-1,49.3
+2003-GENERAL,2007-GENERAL,286,286,Peronismo Federal,Peronismo Federal,0,68.6
+2003-GENERAL,2007-GENERAL,287,287,Peronismo Federal,Peronismo Federal,0,52.1
+2003-GENERAL,2007-GENERAL,289,289,Peronismo Federal,Kirchnerismo,-1,38.6
+2003-GENERAL,2007-GENERAL,290,290,Peronismo Federal,Peronismo Federal,0,37.7
+2003-GENERAL,2007-GENERAL,291,291,Peronismo Federal,Peronismo Federal,0,45.4
+2003-GENERAL,2007-GENERAL,292,292,Peronismo Federal,Kirchnerismo,-1,56.0
+2003-GENERAL,2007-GENERAL,293,293,Peronismo Federal,Peronismo Federal,0,38.3
+2003-GENERAL,2007-GENERAL,294,294,Centroderecha liberal,Peronismo Federal,-1,73.7
+2003-GENERAL,2007-GENERAL,301,301,Centro progresista no peronista,Centro progresista no peronista,0,57.4
+2003-GENERAL,2007-GENERAL,302,302,Centro progresista no peronista,Centro progresista no peronista,0,58.3
+2003-GENERAL,2007-GENERAL,303,303,Centroderecha liberal,Centro progresista no peronista,-1,58.5
+2003-GENERAL,2007-GENERAL,304,304,Centro progresista no peronista,Centro progresista no peronista,0,56.4
+2003-GENERAL,2007-GENERAL,305,305,Centroderecha liberal,Centro progresista no peronista,-1,56.8
+2003-GENERAL,2007-GENERAL,306,306,Centroderecha liberal,Centro progresista no peronista,-1,60.6
+2003-GENERAL,2007-GENERAL,307,307,Centro progresista no peronista,Centro progresista no peronista,0,60.0
+2003-GENERAL,2007-GENERAL,308,308,Centroderecha liberal,Centro progresista no peronista,-1,58.4
+2003-GENERAL,2007-GENERAL,309,309,Centroderecha liberal,Centro progresista no peronista,-1,56.2
+2003-GENERAL,2007-GENERAL,310,310,Centro progresista no peronista,Centro progresista no peronista,0,62.0
+2003-GENERAL,2007-GENERAL,311,311,Centro progresista no peronista,Centro progresista no peronista,0,57.2
+2003-GENERAL,2007-GENERAL,312,312,Centro progresista no peronista,Centro progresista no peronista,0,55.4
+2003-GENERAL,2007-GENERAL,313,313,Centro progresista no peronista,Centro progresista no peronista,0,58.7
+2003-GENERAL,2007-GENERAL,314,314,Centro progresista no peronista,Centro progresista no peronista,0,58.3
+2003-GENERAL,2007-GENERAL,315,315,Centro progresista no peronista,Centro progresista no peronista,0,57.8
+2003-GENERAL,2007-GENERAL,316,316,Centro progresista no peronista,Centro progresista no peronista,0,57.1
+2003-GENERAL,2007-GENERAL,317,317,Centro progresista no peronista,Centro progresista no peronista,0,54.7
+2003-GENERAL,2007-GENERAL,318,318,Centro progresista no peronista,Centro progresista no peronista,0,54.9
+2003-GENERAL,2007-GENERAL,319,319,Centro progresista no peronista,Centro progresista no peronista,0,54.9
+2003-GENERAL,2007-GENERAL,320,320,Centroderecha liberal,Centro progresista no peronista,-1,59.5
+2003-GENERAL,2007-GENERAL,321,321,Centroderecha liberal,Centro progresista no peronista,-1,60.4
+2003-GENERAL,2007-GENERAL,322,322,Centro progresista no peronista,Centro progresista no peronista,0,48.4
+2003-GENERAL,2007-GENERAL,323,323,Centro progresista no peronista,Centro progresista no peronista,0,48.4
+2003-GENERAL,2007-GENERAL,324,324,Centro progresista no peronista,Centro progresista no peronista,0,55.8
+2003-GENERAL,2007-GENERAL,325,325,Centro progresista no peronista,Centro progresista no peronista,0,54.4
+2003-GENERAL,2007-GENERAL,326,326,Centro progresista no peronista,Centro progresista no peronista,0,57.1
+2003-GENERAL,2007-GENERAL,327,327,Centro progresista no peronista,Centro progresista no peronista,0,55.5
+2003-GENERAL,2007-GENERAL,328,328,Centro progresista no peronista,Centro progresista no peronista,0,51.0
+2003-GENERAL,2007-GENERAL,329,329,Centro progresista no peronista,Centro progresista no peronista,0,49.4
+2003-GENERAL,2007-GENERAL,330,330,Centro progresista no peronista,Centro progresista no peronista,0,56.4
+2003-GENERAL,2007-GENERAL,331,331,Centro progresista no peronista,Centro progresista no peronista,0,53.9
+2003-GENERAL,2007-GENERAL,332,332,Centro progresista no peronista,Centro progresista no peronista,0,54.0
+2003-GENERAL,2007-GENERAL,333,333,Centro progresista no peronista,Centro progresista no peronista,0,55.6
+2003-GENERAL,2007-GENERAL,334,334,Centro progresista no peronista,Centro progresista no peronista,0,47.4
+2003-GENERAL,2007-GENERAL,335,335,Centro progresista no peronista,Centro progresista no peronista,0,53.8
+2003-GENERAL,2007-GENERAL,336,336,Centro progresista no peronista,Centro progresista no peronista,0,57.7
+2003-GENERAL,2007-GENERAL,337,337,Centro progresista no peronista,Centro progresista no peronista,0,49.3
+2003-GENERAL,2007-GENERAL,338,338,Centro progresista no peronista,Centro progresista no peronista,0,52.9
+2003-GENERAL,2007-GENERAL,339,339,Centro progresista no peronista,Centro progresista no peronista,0,43.9
+2003-GENERAL,2007-GENERAL,340,340,Centro progresista no peronista,Centro progresista no peronista,0,42.9
+2003-GENERAL,2007-GENERAL,341,341,Peronismo Federal,Centro progresista no peronista,-1,38.0
+2003-GENERAL,2007-GENERAL,341A,341A,Peronismo Federal,Peronismo Federal,0,33.7
+2003-GENERAL,2007-GENERAL,341B,341B,Centroderecha liberal,Centro progresista no peronista,-1,41.6
+2003-GENERAL,2007-GENERAL,342,342,Centro progresista no peronista,Centro progresista no peronista,0,43.5
+2003-GENERAL,2007-GENERAL,342A,342A,Centro progresista no peronista,Centro progresista no peronista,0,46.4
+2003-GENERAL,2007-GENERAL,342B,342B,Peronismo Federal,Kirchnerismo,-1,46.4
+2003-GENERAL,2007-GENERAL,343,343,Peronismo Federal,Centro progresista no peronista,-1,35.6
+2003-GENERAL,2007-GENERAL,343A,343A,Peronismo Federal,Centro progresista no peronista,-1,39.5
+2003-GENERAL,2007-GENERAL,344,344,Centro progresista no peronista,Centro progresista no peronista,0,49.2
+2003-GENERAL,2007-GENERAL,344A,344A,Peronismo Federal,Kirchnerismo,-1,48.2
+2003-GENERAL,2007-GENERAL,345,345,Peronismo Federal,Kirchnerismo,-1,36.7
+2003-GENERAL,2007-GENERAL,345A,345A,Peronismo Federal,Kirchnerismo,-1,41.8
+2003-GENERAL,2007-GENERAL,347,347,Peronismo Federal,Centro progresista no peronista,-1,40.6
+2003-GENERAL,2007-GENERAL,347A,347A,Peronismo Federal,Kirchnerismo,-1,43.2
+2003-GENERAL,2007-GENERAL,348,348,Peronismo Federal,Centro progresista no peronista,-1,39.5
+2003-GENERAL,2007-GENERAL,349,349,Peronismo Federal,Centro progresista no peronista,-1,38.4
+2003-GENERAL,2007-GENERAL,349A,349A,Peronismo Federal,Kirchnerismo,-1,43.9
+2003-GENERAL,2007-GENERAL,349B,349B,Peronismo Federal,Kirchnerismo,-1,43.9
+2003-GENERAL,2007-GENERAL,349C,349C,Peronismo Federal,Kirchnerismo,-1,40.2
+2003-GENERAL,2007-GENERAL,349D,,,Centro progresista no peronista,9,43.7
+2003-GENERAL,2007-GENERAL,350,350,Peronismo Federal,Kirchnerismo,-1,35.2
+2003-GENERAL,2007-GENERAL,350A,350A,Centroderecha liberal,Centro progresista no peronista,-1,39.0
+2003-GENERAL,2007-GENERAL,351,351,Peronismo Federal,Centro progresista no peronista,-1,43.3
+2003-GENERAL,2007-GENERAL,351A,351A,Peronismo Federal,Centro progresista no peronista,-1,35.6
+2003-GENERAL,2007-GENERAL,352,352,Centro progresista no peronista,Centro progresista no peronista,0,48.2
+2003-GENERAL,2007-GENERAL,353,353,Peronismo Federal,Kirchnerismo,-1,36.3
+2003-GENERAL,2007-GENERAL,353A,353A,Peronismo Federal,Centro progresista no peronista,-1,42.8
+2003-GENERAL,2007-GENERAL,354,354,Peronismo Federal,Kirchnerismo,-1,41.3
+2003-GENERAL,2007-GENERAL,354A,354A,Centro progresista no peronista,Centro progresista no peronista,0,49.7
+2003-GENERAL,2007-GENERAL,355,355,Peronismo Federal,Kirchnerismo,-1,40.8
+2003-GENERAL,2007-GENERAL,355A,355A,Peronismo Federal,Centro progresista no peronista,-1,40.3
+2003-GENERAL,2007-GENERAL,356,356,Peronismo Federal,Kirchnerismo,-1,43.9
+2003-GENERAL,2007-GENERAL,356A,356A,Peronismo Federal,Kirchnerismo,-1,57.2
+2003-GENERAL,2007-GENERAL,357,357,Peronismo Federal,Kirchnerismo,-1,37.1
+2003-GENERAL,2007-GENERAL,358,358,Centro progresista no peronista,Centro progresista no peronista,0,45.1
+2003-GENERAL,2007-GENERAL,359,359,Centro progresista no peronista,Centro progresista no peronista,0,43.3
+2003-GENERAL,2007-GENERAL,359A,359A,Peronismo Federal,Kirchnerismo,-1,45.3
+2003-GENERAL,2007-GENERAL,360,360,Peronismo Federal,Centro progresista no peronista,-1,35.1
+2003-GENERAL,2007-GENERAL,360A,360A,Peronismo Federal,Kirchnerismo,-1,38.3
+2003-GENERAL,2007-GENERAL,362A,362A,Peronismo Federal,Kirchnerismo,-1,47.9
+2003-GENERAL,2007-GENERAL,362B,362B,Peronismo Federal,Kirchnerismo,-1,44.4
+2003-GENERAL,2007-GENERAL,362C,362C,Peronismo Federal,Kirchnerismo,-1,41.1
+2003-GENERAL,2007-GENERAL,362D,362D,Peronismo Federal,Kirchnerismo,-1,38.6
+2003-GENERAL,2007-GENERAL,363,363,Peronismo Federal,Centro progresista no peronista,-1,36.3
+2003-GENERAL,2007-GENERAL,364,364,Centro progresista no peronista,Centro progresista no peronista,0,32.0
+2003-GENERAL,2007-GENERAL,365,365,Kirchnerismo,Peronismo Federal,1,43.2
+2003-GENERAL,2007-GENERAL,366,366,Kirchnerismo,Centro progresista no peronista,-1,37.6
+2003-GENERAL,2007-GENERAL,367,367,Peronismo Federal,Centro progresista no peronista,-1,40.2
+2003-GENERAL,2007-GENERAL,368A,,,Centro progresista no peronista,9,33.8
+2003-GENERAL,2007-GENERAL,368B,368D,Peronismo Federal,Kirchnerismo,-1,34.4
+2003-GENERAL,2007-GENERAL,368C,,,Centro progresista no peronista,9,37.3
+2003-GENERAL,2007-GENERAL,368D,,,Centro progresista no peronista,9,38.9
+2003-GENERAL,2007-GENERAL,369,369,Peronismo Federal,Kirchnerismo,-1,38.7
+2003-GENERAL,2007-GENERAL,370,370,Centro progresista no peronista,Centro progresista no peronista,0,39.2
+2003-GENERAL,2007-GENERAL,371,371,Centro progresista no peronista,Centro progresista no peronista,0,39.1
+2003-GENERAL,2007-GENERAL,372,372,Peronismo Federal,Peronismo Federal,0,34.4
+2003-GENERAL,2007-GENERAL,373,373,Centro progresista no peronista,Kirchnerismo,1,35.6
+2003-GENERAL,2007-GENERAL,374,374,Centro progresista no peronista,Peronismo Federal,1,37.2
+2003-GENERAL,2007-GENERAL,375,375,Peronismo Federal,Peronismo Federal,0,37.1
+2003-GENERAL,2007-GENERAL,375A,375A,Kirchnerismo,Peronismo Federal,1,40.2
+2003-GENERAL,2007-GENERAL,376,376,Centro progresista no peronista,Centro progresista no peronista,0,41.1
+2003-GENERAL,2007-GENERAL,377A,377A,Peronismo Federal,Centro progresista no peronista,-1,37.6
+2003-GENERAL,2007-GENERAL,377B,377B,Peronismo Federal,Centro progresista no peronista,-1,35.8
+2003-GENERAL,2007-GENERAL,377C,377C,Peronismo Federal,Centro progresista no peronista,-1,40.4
+2003-GENERAL,2007-GENERAL,378,378,Peronismo Federal,Centro progresista no peronista,-1,39.1
+2003-GENERAL,2007-GENERAL,378A,378A,Peronismo Federal,Kirchnerismo,-1,37.4
+2003-GENERAL,2007-GENERAL,378B,378B,Kirchnerismo,Kirchnerismo,0,46.1
+2003-GENERAL,2007-GENERAL,378C,378C,Kirchnerismo,Centro progresista no peronista,-1,36.5
+2003-GENERAL,2007-GENERAL,378D,378D,Kirchnerismo,Kirchnerismo,0,40.9
+2003-GENERAL,2007-GENERAL,379A,379A,Peronismo Federal,Centro progresista no peronista,-1,40.1
+2003-GENERAL,2007-GENERAL,379B,379B,Peronismo Federal,Peronismo Federal,0,39.9
+2003-GENERAL,2007-GENERAL,379C,379C,Peronismo Federal,Centro progresista no peronista,-1,34.6
+2003-GENERAL,2007-GENERAL,380,380,Peronismo Federal,Centro progresista no peronista,-1,40.4
+2003-GENERAL,2007-GENERAL,381,381,Peronismo Federal,Centro progresista no peronista,-1,33.1
+2003-GENERAL,2007-GENERAL,382,382,Peronismo Federal,Centro progresista no peronista,-1,38.2
+2003-GENERAL,2007-GENERAL,383,383,Peronismo Federal,Centro progresista no peronista,-1,41.6
+2003-GENERAL,2007-GENERAL,384,,,Kirchnerismo,9,45.2
+2003-GENERAL,2007-GENERAL,384A,384A,Peronismo Federal,Kirchnerismo,-1,50.5
+2003-GENERAL,2007-GENERAL,384B,384B,Peronismo Federal,Kirchnerismo,-1,55.0
+2003-GENERAL,2007-GENERAL,384C,384C,Peronismo Federal,Kirchnerismo,-1,46.4
+2003-GENERAL,2007-GENERAL,385A,385A,Peronismo Federal,Peronismo Federal,0,35.5
+2003-GENERAL,2007-GENERAL,385B,385B,Peronismo Federal,Peronismo Federal,0,39.6
+2003-GENERAL,2007-GENERAL,385C,385C,Peronismo Federal,Kirchnerismo,-1,38.7
+2003-GENERAL,2007-GENERAL,386,386,Kirchnerismo,Kirchnerismo,0,37.8
+2003-GENERAL,2007-GENERAL,386A,386A,Peronismo Federal,Kirchnerismo,-1,41.2
+2003-GENERAL,2007-GENERAL,386B,386B,Peronismo Federal,Peronismo Federal,0,36.5
+2003-GENERAL,2007-GENERAL,387,387,Peronismo Federal,Centro progresista no peronista,-1,34.8
+2003-GENERAL,2007-GENERAL,388A,388A,Peronismo Federal,Peronismo Federal,0,45.5
+2003-GENERAL,2007-GENERAL,388B,388B,Peronismo Federal,Kirchnerismo,-1,42.2
+2003-GENERAL,2007-GENERAL,389,389,Peronismo Federal,Kirchnerismo,-1,39.6
+2003-GENERAL,2007-GENERAL,390A,390A,Peronismo Federal,Kirchnerismo,-1,31.1
+2003-GENERAL,2007-GENERAL,390B,390B,Peronismo Federal,Kirchnerismo,-1,38.8
+2003-GENERAL,2007-GENERAL,390C,390C,Peronismo Federal,Peronismo Federal,0,38.2
+2003-GENERAL,2007-GENERAL,390D,390D,Peronismo Federal,Kirchnerismo,-1,41.1
+2003-GENERAL,2007-GENERAL,391,391,Peronismo Federal,Peronismo Federal,0,57.2
+2003-GENERAL,2007-GENERAL,391A,391A,Kirchnerismo,Kirchnerismo,0,42.4
+2003-GENERAL,2007-GENERAL,392,392,Peronismo Federal,Peronismo Federal,0,43.0
+2003-GENERAL,2007-GENERAL,393,393,Peronismo Federal,Kirchnerismo,-1,35.7
+2003-GENERAL,2007-GENERAL,393A,393A,Peronismo Federal,Peronismo Federal,0,44.4
+2003-GENERAL,2007-GENERAL,394,394,Peronismo Federal,Kirchnerismo,-1,39.2
+2003-GENERAL,2007-GENERAL,395A,395A,Peronismo Federal,Peronismo Federal,0,52.3
+2003-GENERAL,2007-GENERAL,395B,395B,Peronismo Federal,Peronismo Federal,0,39.4
+2003-GENERAL,2007-GENERAL,396,396,Peronismo Federal,Kirchnerismo,-1,37.7
+2003-GENERAL,2007-GENERAL,396A,396A,Peronismo Federal,Peronismo Federal,0,36.0
+2003-GENERAL,2007-GENERAL,397,397,Peronismo Federal,Centro progresista no peronista,-1,33.4
+2003-GENERAL,2007-GENERAL,397A,397A,Peronismo Federal,Peronismo Federal,0,43.5
+2003-GENERAL,2007-GENERAL,398,398,Peronismo Federal,Kirchnerismo,-1,36.2
+2003-GENERAL,2007-GENERAL,399,399,Peronismo Federal,Kirchnerismo,-1,33.1
+2003-GENERAL,2007-GENERAL,400,400,Peronismo Federal,Peronismo Federal,0,39.8
+2003-GENERAL,2007-GENERAL,401A,401A,Peronismo Federal,Centro progresista no peronista,-1,35.2
+2003-GENERAL,2007-GENERAL,401B,401B,Peronismo Federal,Peronismo Federal,0,33.7
+2003-GENERAL,2007-GENERAL,402,402,Peronismo Federal,Peronismo Federal,0,36.8
+2003-GENERAL,2007-GENERAL,403,403,Peronismo Federal,Kirchnerismo,-1,46.4
+2003-GENERAL,2007-GENERAL,404A,404A,Peronismo Federal,Kirchnerismo,-1,38.3
+2003-GENERAL,2007-GENERAL,404B,404B,Peronismo Federal,Kirchnerismo,-1,34.6
+2003-GENERAL,2007-GENERAL,405,405,Peronismo Federal,Peronismo Federal,0,37.9
+2003-GENERAL,2007-GENERAL,406,406,Peronismo Federal,Peronismo Federal,0,35.4
+2003-GENERAL,2007-GENERAL,407,407,Peronismo Federal,Centro progresista no peronista,-1,43.1
+2003-GENERAL,2007-GENERAL,408,408,Peronismo Federal,Kirchnerismo,-1,41.0
+2003-GENERAL,2007-GENERAL,409,409,Peronismo Federal,Centro progresista no peronista,-1,42.8
+2003-GENERAL,2007-GENERAL,410,410,Kirchnerismo,Kirchnerismo,0,41.0
+2003-GENERAL,2007-GENERAL,411A,411A,Peronismo Federal,Kirchnerismo,-1,33.2
+2003-GENERAL,2007-GENERAL,411B,411B,Peronismo Federal,Kirchnerismo,-1,42.9
+2003-GENERAL,2007-GENERAL,412,412,Peronismo Federal,Centro progresista no peronista,-1,41.7
+2003-GENERAL,2007-GENERAL,413A,413A,Peronismo Federal,Centro progresista no peronista,-1,33.9
+2003-GENERAL,2007-GENERAL,413B,413B,Peronismo Federal,Peronismo Federal,0,35.0
+2003-GENERAL,2007-GENERAL,413C,413C,Peronismo Federal,Kirchnerismo,-1,52.4
+2003-GENERAL,2007-GENERAL,414,414,Peronismo Federal,Kirchnerismo,-1,39.4
+2003-GENERAL,2007-GENERAL,414A,414A,Peronismo Federal,Kirchnerismo,-1,39.6
+2003-GENERAL,2007-GENERAL,415,415,Centro progresista no peronista,Centro progresista no peronista,0,32.4
+2003-GENERAL,2007-GENERAL,416,416,Peronismo Federal,Kirchnerismo,-1,47.8
+2003-GENERAL,2007-GENERAL,417,417,Kirchnerismo,Centro progresista no peronista,-1,44.2
+2003-GENERAL,2007-GENERAL,417A,417A,Peronismo Federal,Kirchnerismo,-1,39.4
+2003-GENERAL,2007-GENERAL,417B,417B,Kirchnerismo,Centro progresista no peronista,-1,46.0
+2003-GENERAL,2007-GENERAL,418A,418A,Peronismo Federal,Kirchnerismo,-1,46.0
+2003-GENERAL,2007-GENERAL,418B,418B,Peronismo Federal,Centro progresista no peronista,-1,35.6
+2003-GENERAL,2007-GENERAL,419,419,Peronismo Federal,Kirchnerismo,-1,42.3
+2003-GENERAL,2007-GENERAL,420,420,Peronismo Federal,Kirchnerismo,-1,45.0
+2003-GENERAL,2007-GENERAL,420A,420A,Peronismo Federal,Kirchnerismo,-1,42.0
+2003-GENERAL,2007-GENERAL,421,421,Peronismo Federal,Kirchnerismo,-1,56.9
+2003-GENERAL,2007-GENERAL,422,422,Peronismo Federal,Centro progresista no peronista,-1,37.8
+2003-GENERAL,2007-GENERAL,422A,,,Centro progresista no peronista,9,71.4
+2003-GENERAL,2007-GENERAL,422B,422A,Peronismo Federal,Kirchnerismo,-1,38.5
+2003-GENERAL,2007-GENERAL,423,423,Peronismo Federal,Centro progresista no peronista,-1,41.0
+2003-GENERAL,2007-GENERAL,424,424,Peronismo Federal,Centro progresista no peronista,-1,38.3
+2003-GENERAL,2007-GENERAL,425A,425A,Centro progresista no peronista,Centro progresista no peronista,0,40.3
+2003-GENERAL,2007-GENERAL,425B,425B,Centro progresista no peronista,Centro progresista no peronista,0,42.1
+2007-GENERAL,2011-GENERAL,1,1,Centro progresista no peronista,Socialismo,-1,55.9
+2007-GENERAL,2011-GENERAL,2,2,Centro progresista no peronista,Socialismo,-1,55.7
+2007-GENERAL,2011-GENERAL,3,3,Centro progresista no peronista,Socialismo,-1,54.6
+2007-GENERAL,2011-GENERAL,4,4,Centro progresista no peronista,Socialismo,-1,57.0
+2007-GENERAL,2011-GENERAL,5,5,Centro progresista no peronista,Socialismo,-1,58.2
+2007-GENERAL,2011-GENERAL,6,6,Centro progresista no peronista,Socialismo,-1,57.0
+2007-GENERAL,2011-GENERAL,7,7,Centro progresista no peronista,Kirchnerismo,1,45.0
+2007-GENERAL,2011-GENERAL,8,8,Centro progresista no peronista,Socialismo,-1,44.3
+2007-GENERAL,2011-GENERAL,9,9,Centro progresista no peronista,Socialismo,-1,58.3
+2007-GENERAL,2011-GENERAL,10,10,Centro progresista no peronista,Socialismo,-1,54.1
+2007-GENERAL,2011-GENERAL,11,11,Centro progresista no peronista,Socialismo,-1,50.2
+2007-GENERAL,2011-GENERAL,11A,11A,Kirchnerismo,Kirchnerismo,0,69.2
+2007-GENERAL,2011-GENERAL,12,12,Centro progresista no peronista,Socialismo,-1,52.0
+2007-GENERAL,2011-GENERAL,13,13,Centro progresista no peronista,Socialismo,-1,48.6
+2007-GENERAL,2011-GENERAL,14,14,Kirchnerismo,Kirchnerismo,0,49.2
+2007-GENERAL,2011-GENERAL,15,15,Kirchnerismo,Kirchnerismo,0,67.2
+2007-GENERAL,2011-GENERAL,16,16,Kirchnerismo,Kirchnerismo,0,54.0
+2007-GENERAL,2011-GENERAL,17,17,Kirchnerismo,Socialismo,-1,44.0
+2007-GENERAL,2011-GENERAL,18,18,Kirchnerismo,Kirchnerismo,0,78.0
+2007-GENERAL,2011-GENERAL,19,19,Centro progresista no peronista,Socialismo,-1,45.3
+2007-GENERAL,2011-GENERAL,20,20,Kirchnerismo,Kirchnerismo,0,41.9
+2007-GENERAL,2011-GENERAL,20A,20A,Centro progresista no peronista,Socialismo,-1,44.7
+2007-GENERAL,2011-GENERAL,20B,20B,Kirchnerismo,Kirchnerismo,0,49.3
+2007-GENERAL,2011-GENERAL,21,21,Kirchnerismo,Kirchnerismo,0,47.5
+2007-GENERAL,2011-GENERAL,22,22,Kirchnerismo,Kirchnerismo,0,47.0
+2007-GENERAL,2011-GENERAL,23,23,Kirchnerismo,Kirchnerismo,0,48.1
+2007-GENERAL,2011-GENERAL,24,24,Kirchnerismo,Kirchnerismo,0,47.6
+2007-GENERAL,2011-GENERAL,25,25,Kirchnerismo,Kirchnerismo,0,44.3
+2007-GENERAL,2011-GENERAL,26,26,Kirchnerismo,Kirchnerismo,0,49.3
+2007-GENERAL,2011-GENERAL,27,27,Kirchnerismo,Kirchnerismo,0,48.7
+2007-GENERAL,2011-GENERAL,28,28,Centro progresista no peronista,Socialismo,-1,43.8
+2007-GENERAL,2011-GENERAL,29,29,Kirchnerismo,Socialismo,-1,45.2
+2007-GENERAL,2011-GENERAL,30,30,Centro progresista no peronista,Socialismo,-1,37.1
+2007-GENERAL,2011-GENERAL,31,31,Centro progresista no peronista,Socialismo,-1,34.1
+2007-GENERAL,2011-GENERAL,32,32,Kirchnerismo,Socialismo,-1,42.3
+2007-GENERAL,2011-GENERAL,33,33,Kirchnerismo,Kirchnerismo,0,45.8
+2007-GENERAL,2011-GENERAL,34,34,Kirchnerismo,Kirchnerismo,0,67.9
+2007-GENERAL,2011-GENERAL,35,35,Kirchnerismo,Kirchnerismo,0,49.1
+2007-GENERAL,2011-GENERAL,36,36,Centro progresista no peronista,Socialismo,-1,53.1
+2007-GENERAL,2011-GENERAL,37,37,Peronismo Federal,Kirchnerismo,-1,42.0
+2007-GENERAL,2011-GENERAL,38,38,Kirchnerismo,Kirchnerismo,0,44.6
+2007-GENERAL,2011-GENERAL,39,39,Kirchnerismo,Kirchnerismo,0,52.0
+2007-GENERAL,2011-GENERAL,40,40,Kirchnerismo,Kirchnerismo,0,52.0
+2007-GENERAL,2011-GENERAL,41,41,Peronismo Federal,Kirchnerismo,-1,39.1
+2007-GENERAL,2011-GENERAL,42,42,Peronismo Federal,Socialismo,-1,40.9
+2007-GENERAL,2011-GENERAL,43,43,Kirchnerismo,Socialismo,-1,42.8
+2007-GENERAL,2011-GENERAL,44,44,Kirchnerismo,Socialismo,-1,46.3
+2007-GENERAL,2011-GENERAL,45,45,Kirchnerismo,Socialismo,-1,39.4
+2007-GENERAL,2011-GENERAL,46,46,Peronismo Federal,Socialismo,-1,45.3
+2007-GENERAL,2011-GENERAL,47,47,Peronismo Federal,Kirchnerismo,-1,46.0
+2007-GENERAL,2011-GENERAL,48,48,Kirchnerismo,Kirchnerismo,0,37.6
+2007-GENERAL,2011-GENERAL,49,49,Peronismo Federal,Socialismo,-1,41.5
+2007-GENERAL,2011-GENERAL,50,50,Peronismo Federal,Socialismo,-1,39.3
+2007-GENERAL,2011-GENERAL,51,51,Kirchnerismo,Socialismo,-1,46.4
+2007-GENERAL,2011-GENERAL,52,52,Peronismo Federal,Socialismo,-1,49.3
+2007-GENERAL,2011-GENERAL,53,53,Peronismo Federal,Socialismo,-1,49.3
+2007-GENERAL,2011-GENERAL,54,54,Peronismo Federal,Socialismo,-1,41.6
+2007-GENERAL,2011-GENERAL,55,55,Peronismo Federal,Socialismo,-1,49.9
+2007-GENERAL,2011-GENERAL,55A,,,Socialismo,9,100.0
+2007-GENERAL,2011-GENERAL,55B,55B,Peronismo Federal,Socialismo,-1,53.6
+2007-GENERAL,2011-GENERAL,55C,,,Kirchnerismo,9,60.0
+2007-GENERAL,2011-GENERAL,55D,55D,Kirchnerismo,Kirchnerismo,0,73.0
+2007-GENERAL,2011-GENERAL,56,56,Peronismo Federal,Socialismo,-1,41.9
+2007-GENERAL,2011-GENERAL,57,57,Kirchnerismo,Socialismo,-1,43.7
+2007-GENERAL,2011-GENERAL,58,58,Kirchnerismo,Socialismo,-1,44.4
+2007-GENERAL,2011-GENERAL,59,59,Peronismo Federal,Socialismo,-1,43.1
+2007-GENERAL,2011-GENERAL,60,60,Peronismo Federal,Socialismo,-1,44.9
+2007-GENERAL,2011-GENERAL,61,61,Kirchnerismo,Socialismo,-1,40.9
+2007-GENERAL,2011-GENERAL,62,62,Peronismo Federal,Socialismo,-1,47.2
+2007-GENERAL,2011-GENERAL,63,63,Peronismo Federal,Socialismo,-1,40.8
+2007-GENERAL,2011-GENERAL,64,64,Peronismo Federal,Socialismo,-1,42.8
+2007-GENERAL,2011-GENERAL,65,65,Peronismo Federal,Socialismo,-1,38.7
+2007-GENERAL,2011-GENERAL,66,66,Peronismo Federal,Kirchnerismo,-1,41.2
+2007-GENERAL,2011-GENERAL,67,67,Peronismo Federal,Kirchnerismo,-1,46.3
+2007-GENERAL,2011-GENERAL,68,68,Peronismo Federal,Socialismo,-1,40.1
+2007-GENERAL,2011-GENERAL,69,69,Kirchnerismo,Socialismo,-1,42.2
+2007-GENERAL,2011-GENERAL,70,70,Peronismo Federal,Socialismo,-1,55.8
+2007-GENERAL,2011-GENERAL,71,71,Peronismo Federal,Kirchnerismo,-1,50.9
+2007-GENERAL,2011-GENERAL,72,72,Kirchnerismo,Socialismo,-1,48.5
+2007-GENERAL,2011-GENERAL,73,73,Peronismo Federal,Socialismo,-1,51.0
+2007-GENERAL,2011-GENERAL,74,74,Peronismo Federal,Socialismo,-1,63.9
+2007-GENERAL,2011-GENERAL,75,75,Peronismo Federal,Kirchnerismo,-1,37.8
+2007-GENERAL,2011-GENERAL,76,76,Peronismo Federal,Socialismo,-1,48.8
+2007-GENERAL,2011-GENERAL,77,77,Peronismo Federal,Socialismo,-1,51.9
+2007-GENERAL,2011-GENERAL,79,79,Kirchnerismo,Kirchnerismo,0,43.0
+2007-GENERAL,2011-GENERAL,80,80,Peronismo Federal,Socialismo,-1,59.6
+2007-GENERAL,2011-GENERAL,81,81,Peronismo Federal,Socialismo,-1,47.5
+2007-GENERAL,2011-GENERAL,82,82,Centro progresista no peronista,Socialismo,-1,43.6
+2007-GENERAL,2011-GENERAL,83,83,Kirchnerismo,Kirchnerismo,0,44.9
+2007-GENERAL,2011-GENERAL,84,84,Kirchnerismo,Kirchnerismo,0,50.0
+2007-GENERAL,2011-GENERAL,85,85,Kirchnerismo,Kirchnerismo,0,45.3
+2007-GENERAL,2011-GENERAL,85A,85A,Peronismo Federal,Socialismo,-1,61.0
+2007-GENERAL,2011-GENERAL,86,86,Centro progresista no peronista,Kirchnerismo,1,42.6
+2007-GENERAL,2011-GENERAL,87,87,Kirchnerismo,Kirchnerismo,0,45.8
+2007-GENERAL,2011-GENERAL,88,88,Kirchnerismo,Kirchnerismo,0,46.6
+2007-GENERAL,2011-GENERAL,89,89,Kirchnerismo,Kirchnerismo,0,47.1
+2007-GENERAL,2011-GENERAL,91,91,Kirchnerismo,Kirchnerismo,0,53.5
+2007-GENERAL,2011-GENERAL,92,92,Centro progresista no peronista,Kirchnerismo,1,42.2
+2007-GENERAL,2011-GENERAL,93,93,Centro progresista no peronista,Kirchnerismo,1,39.9
+2007-GENERAL,2011-GENERAL,94,94,Peronismo Federal,Kirchnerismo,-1,59.6
+2007-GENERAL,2011-GENERAL,95,95,Kirchnerismo,Kirchnerismo,0,58.9
+2007-GENERAL,2011-GENERAL,96,96,Kirchnerismo,Kirchnerismo,0,54.6
+2007-GENERAL,2011-GENERAL,96A,96A,Kirchnerismo,Kirchnerismo,0,52.4
+2007-GENERAL,2011-GENERAL,97,97,Centro progresista no peronista,Socialismo,-1,45.1
+2007-GENERAL,2011-GENERAL,98,98,Kirchnerismo,Kirchnerismo,0,72.7
+2007-GENERAL,2011-GENERAL,100,100,Peronismo Federal,Socialismo,-1,46.3
+2007-GENERAL,2011-GENERAL,101,101,Kirchnerismo,Kirchnerismo,0,55.4
+2007-GENERAL,2011-GENERAL,104,104,Kirchnerismo,Kirchnerismo,0,66.5
+2007-GENERAL,2011-GENERAL,105,105,Kirchnerismo,Kirchnerismo,0,63.6
+2007-GENERAL,2011-GENERAL,106,106,Kirchnerismo,Kirchnerismo,0,50.8
+2007-GENERAL,2011-GENERAL,106A,106A,Peronismo Federal,Kirchnerismo,-1,36.4
+2007-GENERAL,2011-GENERAL,106B,106B,Peronismo Federal,Socialismo,-1,40.4
+2007-GENERAL,2011-GENERAL,107,107,Kirchnerismo,Kirchnerismo,0,50.2
+2007-GENERAL,2011-GENERAL,108,108,Peronismo Federal,Kirchnerismo,-1,58.5
+2007-GENERAL,2011-GENERAL,109,109,Centro progresista no peronista,Kirchnerismo,1,62.1
+2007-GENERAL,2011-GENERAL,110,110,Kirchnerismo,Kirchnerismo,0,59.8
+2007-GENERAL,2011-GENERAL,111,111,Peronismo Federal,Socialismo,-1,45.9
+2007-GENERAL,2011-GENERAL,112,112,Peronismo Federal,Socialismo,-1,45.6
+2007-GENERAL,2011-GENERAL,113,113,Peronismo Federal,Socialismo,-1,56.2
+2007-GENERAL,2011-GENERAL,114,114,Kirchnerismo,Kirchnerismo,0,57.1
+2007-GENERAL,2011-GENERAL,115,115,Peronismo Federal,Kirchnerismo,-1,39.3
+2007-GENERAL,2011-GENERAL,116,116,Peronismo Federal,Socialismo,-1,46.0
+2007-GENERAL,2011-GENERAL,117,117,Peronismo Federal,Socialismo,-1,48.0
+2007-GENERAL,2011-GENERAL,118,118,Kirchnerismo,Kirchnerismo,0,41.4
+2007-GENERAL,2011-GENERAL,119,119,Peronismo Federal,Socialismo,-1,43.7
+2007-GENERAL,2011-GENERAL,120,120,Peronismo Federal,Kirchnerismo,-1,40.9
+2007-GENERAL,2011-GENERAL,120A,120A,Kirchnerismo,Peronismo Federal,1,38.9
+2007-GENERAL,2011-GENERAL,120B,120B,Peronismo Federal,Socialismo,-1,43.8
+2007-GENERAL,2011-GENERAL,121,121,Peronismo Federal,Socialismo,-1,42.8
+2007-GENERAL,2011-GENERAL,122,122,Kirchnerismo,Socialismo,-1,48.0
+2007-GENERAL,2011-GENERAL,123,123,Kirchnerismo,Kirchnerismo,0,40.6
+2007-GENERAL,2011-GENERAL,124,124,Peronismo Federal,Socialismo,-1,40.6
+2007-GENERAL,2011-GENERAL,125,125,Kirchnerismo,Kirchnerismo,0,46.9
+2007-GENERAL,2011-GENERAL,126,126,Kirchnerismo,Kirchnerismo,0,52.0
+2007-GENERAL,2011-GENERAL,127,127,Peronismo Federal,Socialismo,-1,51.6
+2007-GENERAL,2011-GENERAL,128A,128A,Kirchnerismo,Socialismo,-1,42.0
+2007-GENERAL,2011-GENERAL,128B,128B,Peronismo Federal,Socialismo,-1,42.7
+2007-GENERAL,2011-GENERAL,128C,128A,Kirchnerismo,Socialismo,-1,48.0
+2007-GENERAL,2011-GENERAL,128D,132,Peronismo Federal,Socialismo,-1,45.1
+2007-GENERAL,2011-GENERAL,129,129,Peronismo Federal,Socialismo,-1,32.6
+2007-GENERAL,2011-GENERAL,130,130,Peronismo Federal,Kirchnerismo,-1,41.4
+2007-GENERAL,2011-GENERAL,131,131,Kirchnerismo,Socialismo,-1,48.7
+2007-GENERAL,2011-GENERAL,132,132,Peronismo Federal,Socialismo,-1,49.1
+2007-GENERAL,2011-GENERAL,133,133,Kirchnerismo,Socialismo,-1,49.3
+2007-GENERAL,2011-GENERAL,134,134,Peronismo Federal,Kirchnerismo,-1,47.6
+2007-GENERAL,2011-GENERAL,134A,134A,Peronismo Federal,Kirchnerismo,-1,59.5
+2007-GENERAL,2011-GENERAL,135,135,Peronismo Federal,Socialismo,-1,43.2
+2007-GENERAL,2011-GENERAL,136,136,Kirchnerismo,Kirchnerismo,0,47.3
+2007-GENERAL,2011-GENERAL,136A,136A,Peronismo Federal,Socialismo,-1,75.0
+2007-GENERAL,2011-GENERAL,137,137,Peronismo Federal,Socialismo,-1,49.5
+2007-GENERAL,2011-GENERAL,138,138,Kirchnerismo,Socialismo,-1,50.0
+2007-GENERAL,2011-GENERAL,139,139,Peronismo Federal,Kirchnerismo,-1,39.8
+2007-GENERAL,2011-GENERAL,140,140,Kirchnerismo,Socialismo,-1,43.8
+2007-GENERAL,2011-GENERAL,141,141,Peronismo Federal,Kirchnerismo,-1,49.7
+2007-GENERAL,2011-GENERAL,142,142,Peronismo Federal,Socialismo,-1,39.9
+2007-GENERAL,2011-GENERAL,143,143,Kirchnerismo,Socialismo,-1,40.5
+2007-GENERAL,2011-GENERAL,144,144,Peronismo Federal,Socialismo,-1,49.6
+2007-GENERAL,2011-GENERAL,145,145,Peronismo Federal,Kirchnerismo,-1,45.9
+2007-GENERAL,2011-GENERAL,146,146,Peronismo Federal,Socialismo,-1,59.6
+2007-GENERAL,2011-GENERAL,147,147,Kirchnerismo,Kirchnerismo,0,60.0
+2007-GENERAL,2011-GENERAL,148,148,Peronismo Federal,Socialismo,-1,33.3
+2007-GENERAL,2011-GENERAL,149,149,Peronismo Federal,Socialismo,-1,40.9
+2007-GENERAL,2011-GENERAL,150,150,Peronismo Federal,Socialismo,-1,54.5
+2007-GENERAL,2011-GENERAL,151,151,Kirchnerismo,Kirchnerismo,0,54.5
+2007-GENERAL,2011-GENERAL,152,152,Peronismo Federal,Socialismo,-1,71.4
+2007-GENERAL,2011-GENERAL,153,153,Peronismo Federal,Kirchnerismo,-1,40.3
+2007-GENERAL,2011-GENERAL,154,154,Peronismo Federal,Kirchnerismo,-1,40.7
+2007-GENERAL,2011-GENERAL,155,155,Peronismo Federal,Kirchnerismo,-1,41.0
+2007-GENERAL,2011-GENERAL,156,156,Centro progresista no peronista,Socialismo,-1,43.2
+2007-GENERAL,2011-GENERAL,157,157,Peronismo Federal,Socialismo,-1,47.8
+2007-GENERAL,2011-GENERAL,158,158,Kirchnerismo,Kirchnerismo,0,40.3
+2007-GENERAL,2011-GENERAL,159,159,Peronismo Federal,Kirchnerismo,-1,39.9
+2007-GENERAL,2011-GENERAL,160,160,Peronismo Federal,Socialismo,-1,46.5
+2007-GENERAL,2011-GENERAL,161,161,Centro progresista no peronista,Socialismo,-1,37.1
+2007-GENERAL,2011-GENERAL,162,162,Kirchnerismo,Kirchnerismo,0,57.2
+2007-GENERAL,2011-GENERAL,163,163,Peronismo Federal,Socialismo,-1,52.3
+2007-GENERAL,2011-GENERAL,164,164,Peronismo Federal,Socialismo,-1,43.5
+2007-GENERAL,2011-GENERAL,165,165,Centro progresista no peronista,Kirchnerismo,1,41.0
+2007-GENERAL,2011-GENERAL,166,166,Peronismo Federal,Socialismo,-1,48.0
+2007-GENERAL,2011-GENERAL,167,167,Centro progresista no peronista,Kirchnerismo,1,39.7
+2007-GENERAL,2011-GENERAL,168,168,Peronismo Federal,Kirchnerismo,-1,34.5
+2007-GENERAL,2011-GENERAL,169,169,Peronismo Federal,Socialismo,-1,41.7
+2007-GENERAL,2011-GENERAL,174,174,Peronismo Federal,Kirchnerismo,-1,39.7
+2007-GENERAL,2011-GENERAL,175,175,Peronismo Federal,Kirchnerismo,-1,58.9
+2007-GENERAL,2011-GENERAL,176,176,Kirchnerismo,Kirchnerismo,0,66.2
+2007-GENERAL,2011-GENERAL,177,177,Peronismo Federal,Kirchnerismo,-1,37.3
+2007-GENERAL,2011-GENERAL,178,178,Kirchnerismo,Kirchnerismo,0,50.2
+2007-GENERAL,2011-GENERAL,179,179,Peronismo Federal,Kirchnerismo,-1,43.0
+2007-GENERAL,2011-GENERAL,180,180,Peronismo Federal,Kirchnerismo,-1,45.0
+2007-GENERAL,2011-GENERAL,181,181,Peronismo Federal,Kirchnerismo,-1,39.3
+2007-GENERAL,2011-GENERAL,181A,181A,Kirchnerismo,Kirchnerismo,0,62.3
+2007-GENERAL,2011-GENERAL,182,182,Peronismo Federal,Union Civica Radical,-1,38.5
+2007-GENERAL,2011-GENERAL,183,183,Peronismo Federal,Kirchnerismo,-1,37.7
+2007-GENERAL,2011-GENERAL,184,184,Peronismo Federal,Kirchnerismo,-1,43.2
+2007-GENERAL,2011-GENERAL,185,185,Kirchnerismo,Kirchnerismo,0,51.8
+2007-GENERAL,2011-GENERAL,186,186,Peronismo Federal,Kirchnerismo,-1,44.1
+2007-GENERAL,2011-GENERAL,187,187,Peronismo Federal,Kirchnerismo,-1,38.8
+2007-GENERAL,2011-GENERAL,188,188,Peronismo Federal,Kirchnerismo,-1,38.0
+2007-GENERAL,2011-GENERAL,189,189,Kirchnerismo,Kirchnerismo,0,46.3
+2007-GENERAL,2011-GENERAL,191,191,Peronismo Federal,Kirchnerismo,-1,43.2
+2007-GENERAL,2011-GENERAL,192,192,Peronismo Federal,Kirchnerismo,-1,48.2
+2007-GENERAL,2011-GENERAL,193,193,Kirchnerismo,Kirchnerismo,0,55.4
+2007-GENERAL,2011-GENERAL,194,194,Kirchnerismo,Kirchnerismo,0,46.1
+2007-GENERAL,2011-GENERAL,195,195,Peronismo Federal,Kirchnerismo,-1,51.5
+2007-GENERAL,2011-GENERAL,196,196,Peronismo Federal,Kirchnerismo,-1,69.7
+2007-GENERAL,2011-GENERAL,196A,,,Kirchnerismo,9,50.0
+2007-GENERAL,2011-GENERAL,196B,196B,Peronismo Federal,Kirchnerismo,-1,51.7
+2007-GENERAL,2011-GENERAL,197,197,Peronismo Federal,Kirchnerismo,-1,43.6
+2007-GENERAL,2011-GENERAL,198,198,Kirchnerismo,Kirchnerismo,0,59.3
+2007-GENERAL,2011-GENERAL,199,199,Peronismo Federal,Socialismo,-1,81.0
+2007-GENERAL,2011-GENERAL,200,200,Peronismo Federal,Kirchnerismo,-1,61.7
+2007-GENERAL,2011-GENERAL,201,201,Peronismo Federal,Kirchnerismo,-1,44.0
+2007-GENERAL,2011-GENERAL,202,202,Peronismo Federal,Kirchnerismo,-1,49.0
+2007-GENERAL,2011-GENERAL,203,203,Peronismo Federal,Socialismo,-1,47.1
+2007-GENERAL,2011-GENERAL,204,204,Peronismo Federal,Union Civica Radical,-1,33.3
+2007-GENERAL,2011-GENERAL,205,205,Peronismo Federal,Socialismo,-1,33.1
+2007-GENERAL,2011-GENERAL,207,207,Kirchnerismo,Kirchnerismo,0,59.5
+2007-GENERAL,2011-GENERAL,208,208,Peronismo Federal,Kirchnerismo,-1,38.0
+2007-GENERAL,2011-GENERAL,208A,,,Union Civica Radical,9,50.0
+2007-GENERAL,2011-GENERAL,208B,208B,Kirchnerismo,Socialismo,-1,36.4
+2007-GENERAL,2011-GENERAL,208C,208C,Peronismo Federal,Socialismo,-1,31.0
+2007-GENERAL,2011-GENERAL,209,209,Peronismo Federal,Kirchnerismo,-1,60.5
+2007-GENERAL,2011-GENERAL,210,210,Centro progresista no peronista,Socialismo,-1,40.7
+2007-GENERAL,2011-GENERAL,210A,210A,Kirchnerismo,Socialismo,-1,40.0
+2007-GENERAL,2011-GENERAL,211,211,Centro progresista no peronista,Kirchnerismo,1,39.9
+2007-GENERAL,2011-GENERAL,212,212,Centro progresista no peronista,Socialismo,-1,37.9
+2007-GENERAL,2011-GENERAL,212A,212A,Kirchnerismo,Kirchnerismo,0,49.1
+2007-GENERAL,2011-GENERAL,213,213,Kirchnerismo,Socialismo,-1,41.0
+2007-GENERAL,2011-GENERAL,214,214,Kirchnerismo,Kirchnerismo,0,62.2
+2007-GENERAL,2011-GENERAL,214A,214A,Kirchnerismo,Kirchnerismo,0,57.4
+2007-GENERAL,2011-GENERAL,215,215,Kirchnerismo,Kirchnerismo,0,42.0
+2007-GENERAL,2011-GENERAL,215A,215A,Centro progresista no peronista,Socialismo,-1,41.0
+2007-GENERAL,2011-GENERAL,216,216,Kirchnerismo,Kirchnerismo,0,44.8
+2007-GENERAL,2011-GENERAL,216A,216A,Peronismo Federal,Socialismo,-1,38.9
+2007-GENERAL,2011-GENERAL,217,217,Centro progresista no peronista,Socialismo,-1,43.3
+2007-GENERAL,2011-GENERAL,218,218,Kirchnerismo,Kirchnerismo,0,57.4
+2007-GENERAL,2011-GENERAL,219,219,Peronismo Federal,Kirchnerismo,-1,71.4
+2007-GENERAL,2011-GENERAL,220,220,Kirchnerismo,Kirchnerismo,0,52.1
+2007-GENERAL,2011-GENERAL,221,221,Kirchnerismo,Kirchnerismo,0,45.1
+2007-GENERAL,2011-GENERAL,221A,221A,Peronismo Federal,Union Civica Radical,-1,32.4
+2007-GENERAL,2011-GENERAL,222,,,Kirchnerismo,9,50.0
+2007-GENERAL,2011-GENERAL,222A,222A,Kirchnerismo,Socialismo,-1,66.7
+2007-GENERAL,2011-GENERAL,223,223,Peronismo Federal,Union Civica Radical,-1,31.8
+2007-GENERAL,2011-GENERAL,223A,223A,Kirchnerismo,Union Civica Radical,1,34.4
+2007-GENERAL,2011-GENERAL,224,224,Kirchnerismo,Socialismo,-1,40.6
+2007-GENERAL,2011-GENERAL,224A,224A,Peronismo Federal,Socialismo,-1,35.2
+2007-GENERAL,2011-GENERAL,224B,224B,Kirchnerismo,Kirchnerismo,0,73.7
+2007-GENERAL,2011-GENERAL,224C,224C,Kirchnerismo,Socialismo,-1,42.0
+2007-GENERAL,2011-GENERAL,224D,224D,Kirchnerismo,Kirchnerismo,0,60.2
+2007-GENERAL,2011-GENERAL,224E,224E,Kirchnerismo,Kirchnerismo,0,49.7
+2007-GENERAL,2011-GENERAL,225,225,Kirchnerismo,Kirchnerismo,0,39.2
+2007-GENERAL,2011-GENERAL,225A,225A,Kirchnerismo,Kirchnerismo,0,46.5
+2007-GENERAL,2011-GENERAL,226,226,Peronismo Federal,Kirchnerismo,-1,48.6
+2007-GENERAL,2011-GENERAL,227,227,Kirchnerismo,Kirchnerismo,0,42.2
+2007-GENERAL,2011-GENERAL,227A,227A,Kirchnerismo,Kirchnerismo,0,49.7
+2007-GENERAL,2011-GENERAL,227B,227B,Kirchnerismo,Kirchnerismo,0,42.6
+2007-GENERAL,2011-GENERAL,228,228,Kirchnerismo,Kirchnerismo,0,56.4
+2007-GENERAL,2011-GENERAL,229,229,Kirchnerismo,Kirchnerismo,0,63.4
+2007-GENERAL,2011-GENERAL,230,230,Kirchnerismo,Kirchnerismo,0,67.4
+2007-GENERAL,2011-GENERAL,231,231,Kirchnerismo,Kirchnerismo,0,61.4
+2007-GENERAL,2011-GENERAL,232,232,Kirchnerismo,Kirchnerismo,0,53.7
+2007-GENERAL,2011-GENERAL,232A,232A,Kirchnerismo,Kirchnerismo,0,77.9
+2007-GENERAL,2011-GENERAL,233,233,Kirchnerismo,Kirchnerismo,0,62.0
+2007-GENERAL,2011-GENERAL,234,234,Kirchnerismo,Kirchnerismo,0,65.5
+2007-GENERAL,2011-GENERAL,235,235,Kirchnerismo,Kirchnerismo,0,57.1
+2007-GENERAL,2011-GENERAL,237,237,Kirchnerismo,Kirchnerismo,0,67.7
+2007-GENERAL,2011-GENERAL,238,238,Kirchnerismo,Kirchnerismo,0,71.8
+2007-GENERAL,2011-GENERAL,239,239,Kirchnerismo,Kirchnerismo,0,65.7
+2007-GENERAL,2011-GENERAL,239A,,,Kirchnerismo,9,60.8
+2007-GENERAL,2011-GENERAL,240,240,Kirchnerismo,Kirchnerismo,0,82.9
+2007-GENERAL,2011-GENERAL,241,241,Kirchnerismo,Kirchnerismo,0,41.7
+2007-GENERAL,2011-GENERAL,242,242,Kirchnerismo,Kirchnerismo,0,37.0
+2007-GENERAL,2011-GENERAL,243,,,Socialismo,9,66.7
+2007-GENERAL,2011-GENERAL,244,244,Peronismo Federal,Socialismo,-1,41.1
+2007-GENERAL,2011-GENERAL,244A,244A,Peronismo Federal,Kirchnerismo,-1,36.8
+2007-GENERAL,2011-GENERAL,244B,244B,Kirchnerismo,Kirchnerismo,0,59.4
+2007-GENERAL,2011-GENERAL,245,245,Kirchnerismo,Kirchnerismo,0,39.3
+2007-GENERAL,2011-GENERAL,246,246,Peronismo Federal,Kirchnerismo,-1,45.1
+2007-GENERAL,2011-GENERAL,246A,246A,Kirchnerismo,Kirchnerismo,0,58.4
+2007-GENERAL,2011-GENERAL,247,247,Kirchnerismo,Kirchnerismo,0,39.7
+2007-GENERAL,2011-GENERAL,248,248,Kirchnerismo,Kirchnerismo,0,38.5
+2007-GENERAL,2011-GENERAL,249,249,Peronismo Federal,Union Civica Radical,-1,34.1
+2007-GENERAL,2011-GENERAL,251,251,Kirchnerismo,Kirchnerismo,0,55.8
+2007-GENERAL,2011-GENERAL,252,252,Kirchnerismo,Kirchnerismo,0,50.3
+2007-GENERAL,2011-GENERAL,253,253,Kirchnerismo,Kirchnerismo,0,61.1
+2007-GENERAL,2011-GENERAL,254,254,Kirchnerismo,Kirchnerismo,0,44.6
+2007-GENERAL,2011-GENERAL,254A,254A,Kirchnerismo,Kirchnerismo,0,67.5
+2007-GENERAL,2011-GENERAL,255,255,Kirchnerismo,Kirchnerismo,0,73.9
+2007-GENERAL,2011-GENERAL,256,256,Kirchnerismo,Kirchnerismo,0,67.3
+2007-GENERAL,2011-GENERAL,256A,,,Kirchnerismo,9,50.0
+2007-GENERAL,2011-GENERAL,257,257,Kirchnerismo,Kirchnerismo,0,78.7
+2007-GENERAL,2011-GENERAL,259,259,Kirchnerismo,Kirchnerismo,0,70.6
+2007-GENERAL,2011-GENERAL,260,260,Kirchnerismo,Kirchnerismo,0,54.3
+2007-GENERAL,2011-GENERAL,261,261,Peronismo Federal,Kirchnerismo,-1,83.2
+2007-GENERAL,2011-GENERAL,262,262,Kirchnerismo,Kirchnerismo,0,70.0
+2007-GENERAL,2011-GENERAL,263,263,Centro progresista no peronista,Kirchnerismo,1,64.2
+2007-GENERAL,2011-GENERAL,264,264,Kirchnerismo,Kirchnerismo,0,76.2
+2007-GENERAL,2011-GENERAL,267,267,Kirchnerismo,Kirchnerismo,0,52.4
+2007-GENERAL,2011-GENERAL,268,268,Kirchnerismo,Kirchnerismo,0,68.0
+2007-GENERAL,2011-GENERAL,268A,268A,Kirchnerismo,Kirchnerismo,0,68.6
+2007-GENERAL,2011-GENERAL,268B,268B,Kirchnerismo,Kirchnerismo,0,70.9
+2007-GENERAL,2011-GENERAL,269,269,Kirchnerismo,Kirchnerismo,0,84.2
+2007-GENERAL,2011-GENERAL,270,270,Kirchnerismo,Kirchnerismo,0,46.6
+2007-GENERAL,2011-GENERAL,271,271,Centro progresista no peronista,Kirchnerismo,1,50.0
+2007-GENERAL,2011-GENERAL,274,274,Kirchnerismo,Kirchnerismo,0,38.3
+2007-GENERAL,2011-GENERAL,275,275,Kirchnerismo,Kirchnerismo,0,55.4
+2007-GENERAL,2011-GENERAL,275A,275A,Kirchnerismo,Kirchnerismo,0,64.0
+2007-GENERAL,2011-GENERAL,276,276,Kirchnerismo,Kirchnerismo,0,63.2
+2007-GENERAL,2011-GENERAL,276A,276A,Peronismo Federal,Kirchnerismo,-1,41.2
+2007-GENERAL,2011-GENERAL,276B,276B,Kirchnerismo,Kirchnerismo,0,40.9
+2007-GENERAL,2011-GENERAL,277,277,Kirchnerismo,Kirchnerismo,0,52.5
+2007-GENERAL,2011-GENERAL,277A,277A,Kirchnerismo,Socialismo,-1,41.7
+2007-GENERAL,2011-GENERAL,277B,,,Kirchnerismo,9,43.4
+2007-GENERAL,2011-GENERAL,278,278,Peronismo Federal,Peronismo Federal,0,37.5
+2007-GENERAL,2011-GENERAL,279,279,Kirchnerismo,Kirchnerismo,0,55.8
+2007-GENERAL,2011-GENERAL,280,280,Kirchnerismo,Socialismo,-1,41.3
+2007-GENERAL,2011-GENERAL,281,281,Peronismo Federal,Socialismo,-1,36.6
+2007-GENERAL,2011-GENERAL,283,283,Kirchnerismo,Kirchnerismo,0,71.2
+2007-GENERAL,2011-GENERAL,284,284,Peronismo Federal,Kirchnerismo,-1,40.7
+2007-GENERAL,2011-GENERAL,285,285,Kirchnerismo,Kirchnerismo,0,50.5
+2007-GENERAL,2011-GENERAL,285A,285B,Kirchnerismo,Kirchnerismo,0,54.6
+2007-GENERAL,2011-GENERAL,285B,,,Kirchnerismo,9,55.1
+2007-GENERAL,2011-GENERAL,286,286,Peronismo Federal,Socialismo,-1,57.1
+2007-GENERAL,2011-GENERAL,287,287,Peronismo Federal,Kirchnerismo,-1,44.1
+2007-GENERAL,2011-GENERAL,289,289,Kirchnerismo,Kirchnerismo,0,56.6
+2007-GENERAL,2011-GENERAL,290,290,Peronismo Federal,Kirchnerismo,-1,67.6
+2007-GENERAL,2011-GENERAL,291,291,Peronismo Federal,Kirchnerismo,-1,48.6
+2007-GENERAL,2011-GENERAL,292,292,Kirchnerismo,Kirchnerismo,0,73.7
+2007-GENERAL,2011-GENERAL,293,293,Peronismo Federal,Kirchnerismo,-1,56.9
+2007-GENERAL,2011-GENERAL,294,294,Peronismo Federal,Kirchnerismo,-1,38.5
+2007-GENERAL,2011-GENERAL,301,301,Centro progresista no peronista,Socialismo,-1,60.4
+2007-GENERAL,2011-GENERAL,302,302,Centro progresista no peronista,Socialismo,-1,58.8
+2007-GENERAL,2011-GENERAL,303,303,Centro progresista no peronista,Socialismo,-1,62.6
+2007-GENERAL,2011-GENERAL,304,304,Centro progresista no peronista,Socialismo,-1,58.4
+2007-GENERAL,2011-GENERAL,305,305,Centro progresista no peronista,Socialismo,-1,59.2
+2007-GENERAL,2011-GENERAL,306,306,Centro progresista no peronista,Socialismo,-1,61.5
+2007-GENERAL,2011-GENERAL,307,307,Centro progresista no peronista,Socialismo,-1,62.2
+2007-GENERAL,2011-GENERAL,308,308,Centro progresista no peronista,Socialismo,-1,60.4
+2007-GENERAL,2011-GENERAL,309,309,Centro progresista no peronista,Socialismo,-1,56.8
+2007-GENERAL,2011-GENERAL,310,310,Centro progresista no peronista,Socialismo,-1,58.5
+2007-GENERAL,2011-GENERAL,311,311,Centro progresista no peronista,Socialismo,-1,59.5
+2007-GENERAL,2011-GENERAL,312,312,Centro progresista no peronista,Socialismo,-1,57.1
+2007-GENERAL,2011-GENERAL,313,313,Centro progresista no peronista,Socialismo,-1,60.3
+2007-GENERAL,2011-GENERAL,314,314,Centro progresista no peronista,Socialismo,-1,60.3
+2007-GENERAL,2011-GENERAL,315,315,Centro progresista no peronista,Socialismo,-1,60.1
+2007-GENERAL,2011-GENERAL,316,316,Centro progresista no peronista,Socialismo,-1,61.3
+2007-GENERAL,2011-GENERAL,317,317,Centro progresista no peronista,Socialismo,-1,60.7
+2007-GENERAL,2011-GENERAL,318,318,Centro progresista no peronista,Socialismo,-1,58.8
+2007-GENERAL,2011-GENERAL,319,319,Centro progresista no peronista,Socialismo,-1,60.2
+2007-GENERAL,2011-GENERAL,320,320,Centro progresista no peronista,Socialismo,-1,59.8
+2007-GENERAL,2011-GENERAL,321,321,Centro progresista no peronista,Socialismo,-1,62.2
+2007-GENERAL,2011-GENERAL,322,322,Centro progresista no peronista,Socialismo,-1,52.8
+2007-GENERAL,2011-GENERAL,323,323,Centro progresista no peronista,Socialismo,-1,47.7
+2007-GENERAL,2011-GENERAL,324,324,Centro progresista no peronista,Socialismo,-1,59.4
+2007-GENERAL,2011-GENERAL,325,325,Centro progresista no peronista,Socialismo,-1,61.9
+2007-GENERAL,2011-GENERAL,326,326,Centro progresista no peronista,Socialismo,-1,61.0
+2007-GENERAL,2011-GENERAL,327,327,Centro progresista no peronista,Socialismo,-1,58.0
+2007-GENERAL,2011-GENERAL,328,328,Centro progresista no peronista,Socialismo,-1,54.4
+2007-GENERAL,2011-GENERAL,329,329,Centro progresista no peronista,Socialismo,-1,52.2
+2007-GENERAL,2011-GENERAL,330,330,Centro progresista no peronista,Socialismo,-1,61.0
+2007-GENERAL,2011-GENERAL,331,331,Centro progresista no peronista,Socialismo,-1,58.7
+2007-GENERAL,2011-GENERAL,332,332,Centro progresista no peronista,Socialismo,-1,52.8
+2007-GENERAL,2011-GENERAL,333,333,Centro progresista no peronista,Socialismo,-1,57.7
+2007-GENERAL,2011-GENERAL,334,334,Centro progresista no peronista,Socialismo,-1,51.0
+2007-GENERAL,2011-GENERAL,335,335,Centro progresista no peronista,Socialismo,-1,55.2
+2007-GENERAL,2011-GENERAL,336,336,Centro progresista no peronista,Socialismo,-1,59.1
+2007-GENERAL,2011-GENERAL,337,337,Centro progresista no peronista,Socialismo,-1,58.7
+2007-GENERAL,2011-GENERAL,338,338,Centro progresista no peronista,Socialismo,-1,55.5
+2007-GENERAL,2011-GENERAL,339,339,Centro progresista no peronista,Socialismo,-1,50.0
+2007-GENERAL,2011-GENERAL,340,340,Centro progresista no peronista,Socialismo,-1,51.1
+2007-GENERAL,2011-GENERAL,341,341,Centro progresista no peronista,Socialismo,-1,37.5
+2007-GENERAL,2011-GENERAL,341A,341A,Peronismo Federal,Kirchnerismo,-1,28.7
+2007-GENERAL,2011-GENERAL,341B,341B,Centro progresista no peronista,Socialismo,-1,44.2
+2007-GENERAL,2011-GENERAL,342,342,Centro progresista no peronista,Socialismo,-1,45.9
+2007-GENERAL,2011-GENERAL,342A,342A,Centro progresista no peronista,Socialismo,-1,51.1
+2007-GENERAL,2011-GENERAL,342B,342B,Kirchnerismo,Kirchnerismo,0,55.9
+2007-GENERAL,2011-GENERAL,343,343,Centro progresista no peronista,Socialismo,-1,36.9
+2007-GENERAL,2011-GENERAL,343A,343A,Centro progresista no peronista,Kirchnerismo,1,48.1
+2007-GENERAL,2011-GENERAL,344,344,Centro progresista no peronista,Socialismo,-1,51.1
+2007-GENERAL,2011-GENERAL,344A,344A,Kirchnerismo,Kirchnerismo,0,57.2
+2007-GENERAL,2011-GENERAL,345,345,Kirchnerismo,Kirchnerismo,0,44.5
+2007-GENERAL,2011-GENERAL,345A,345A,Kirchnerismo,Kirchnerismo,0,50.5
+2007-GENERAL,2011-GENERAL,347,347,Centro progresista no peronista,Socialismo,-1,43.0
+2007-GENERAL,2011-GENERAL,347A,347A,Kirchnerismo,Kirchnerismo,0,52.2
+2007-GENERAL,2011-GENERAL,348,348,Centro progresista no peronista,Kirchnerismo,1,46.0
+2007-GENERAL,2011-GENERAL,349,349,Centro progresista no peronista,Kirchnerismo,1,47.3
+2007-GENERAL,2011-GENERAL,349A,349A,Kirchnerismo,Kirchnerismo,0,51.6
+2007-GENERAL,2011-GENERAL,349B,349B,Kirchnerismo,Kirchnerismo,0,62.0
+2007-GENERAL,2011-GENERAL,349C,349C,Kirchnerismo,Kirchnerismo,0,46.7
+2007-GENERAL,2011-GENERAL,349D,,,Kirchnerismo,9,52.8
+2007-GENERAL,2011-GENERAL,350,350,Kirchnerismo,Kirchnerismo,0,45.4
+2007-GENERAL,2011-GENERAL,350A,350A,Centro progresista no peronista,Socialismo,-1,45.5
+2007-GENERAL,2011-GENERAL,351,351,Centro progresista no peronista,Kirchnerismo,1,42.5
+2007-GENERAL,2011-GENERAL,351A,351A,Centro progresista no peronista,Kirchnerismo,1,34.3
+2007-GENERAL,2011-GENERAL,352,352,Centro progresista no peronista,Socialismo,-1,50.9
+2007-GENERAL,2011-GENERAL,353,353,Kirchnerismo,Kirchnerismo,0,49.9
+2007-GENERAL,2011-GENERAL,353A,353A,Centro progresista no peronista,Socialismo,-1,43.3
+2007-GENERAL,2011-GENERAL,354,354,Kirchnerismo,Kirchnerismo,0,54.4
+2007-GENERAL,2011-GENERAL,354A,354A,Centro progresista no peronista,Socialismo,-1,50.4
+2007-GENERAL,2011-GENERAL,355,355,Kirchnerismo,Kirchnerismo,0,52.9
+2007-GENERAL,2011-GENERAL,355A,355A,Centro progresista no peronista,Socialismo,-1,43.1
+2007-GENERAL,2011-GENERAL,356,356,Kirchnerismo,Kirchnerismo,0,50.1
+2007-GENERAL,2011-GENERAL,356A,356A,Kirchnerismo,Kirchnerismo,0,73.9
+2007-GENERAL,2011-GENERAL,357,357,Kirchnerismo,Kirchnerismo,0,46.0
+2007-GENERAL,2011-GENERAL,358,358,Centro progresista no peronista,Socialismo,-1,50.8
+2007-GENERAL,2011-GENERAL,359,359,Centro progresista no peronista,Socialismo,-1,45.5
+2007-GENERAL,2011-GENERAL,359A,359A,Kirchnerismo,Kirchnerismo,0,52.3
+2007-GENERAL,2011-GENERAL,360,360,Centro progresista no peronista,Kirchnerismo,1,38.8
+2007-GENERAL,2011-GENERAL,360A,360A,Kirchnerismo,Kirchnerismo,0,39.5
+2007-GENERAL,2011-GENERAL,362A,362A,Kirchnerismo,Kirchnerismo,0,59.3
+2007-GENERAL,2011-GENERAL,362B,362B,Kirchnerismo,Kirchnerismo,0,47.2
+2007-GENERAL,2011-GENERAL,362C,362C,Kirchnerismo,Kirchnerismo,0,49.1
+2007-GENERAL,2011-GENERAL,362D,362D,Kirchnerismo,Kirchnerismo,0,45.3
+2007-GENERAL,2011-GENERAL,363,363,Centro progresista no peronista,Socialismo,-1,40.8
+2007-GENERAL,2011-GENERAL,364,364,Centro progresista no peronista,Kirchnerismo,1,39.3
+2007-GENERAL,2011-GENERAL,365,365,Peronismo Federal,Socialismo,-1,34.4
+2007-GENERAL,2011-GENERAL,366,366,Centro progresista no peronista,Kirchnerismo,1,34.9
+2007-GENERAL,2011-GENERAL,367,367,Centro progresista no peronista,Socialismo,-1,38.7
+2007-GENERAL,2011-GENERAL,368A,,,Socialismo,9,41.8
+2007-GENERAL,2011-GENERAL,368B,368B,Kirchnerismo,Kirchnerismo,0,35.3
+2007-GENERAL,2011-GENERAL,368C,,,Socialismo,9,38.9
+2007-GENERAL,2011-GENERAL,368D,,,Socialismo,9,75.0
+2007-GENERAL,2011-GENERAL,369,369,Kirchnerismo,Kirchnerismo,0,46.9
+2007-GENERAL,2011-GENERAL,370,370,Centro progresista no peronista,Socialismo,-1,32.8
+2007-GENERAL,2011-GENERAL,371,371,Centro progresista no peronista,Socialismo,-1,33.7
+2007-GENERAL,2011-GENERAL,372,372,Peronismo Federal,Socialismo,-1,31.4
+2007-GENERAL,2011-GENERAL,373,373,Kirchnerismo,Socialismo,-1,42.6
+2007-GENERAL,2011-GENERAL,374,374,Peronismo Federal,Socialismo,-1,37.5
+2007-GENERAL,2011-GENERAL,375,375,Peronismo Federal,Socialismo,-1,37.2
+2007-GENERAL,2011-GENERAL,375A,375A,Peronismo Federal,Kirchnerismo,-1,45.7
+2007-GENERAL,2011-GENERAL,376,376,Centro progresista no peronista,Socialismo,-1,44.0
+2007-GENERAL,2011-GENERAL,377A,377A,Centro progresista no peronista,Kirchnerismo,1,38.8
+2007-GENERAL,2011-GENERAL,377B,377B,Centro progresista no peronista,Socialismo,-1,37.7
+2007-GENERAL,2011-GENERAL,377C,377C,Centro progresista no peronista,Kirchnerismo,1,41.4
+2007-GENERAL,2011-GENERAL,378,378,Centro progresista no peronista,Kirchnerismo,1,41.9
+2007-GENERAL,2011-GENERAL,378A,378A,Kirchnerismo,Kirchnerismo,0,32.8
+2007-GENERAL,2011-GENERAL,378B,378B,Kirchnerismo,Kirchnerismo,0,40.3
+2007-GENERAL,2011-GENERAL,378C,378C,Centro progresista no peronista,Socialismo,-1,36.7
+2007-GENERAL,2011-GENERAL,378D,378D,Kirchnerismo,Socialismo,-1,37.0
+2007-GENERAL,2011-GENERAL,379A,379A,Centro progresista no peronista,Socialismo,-1,35.8
+2007-GENERAL,2011-GENERAL,379B,379B,Peronismo Federal,Kirchnerismo,-1,36.7
+2007-GENERAL,2011-GENERAL,379C,379C,Centro progresista no peronista,Kirchnerismo,1,32.8
+2007-GENERAL,2011-GENERAL,380,380,Centro progresista no peronista,Socialismo,-1,40.4
+2007-GENERAL,2011-GENERAL,381,381,Centro progresista no peronista,Socialismo,-1,37.1
+2007-GENERAL,2011-GENERAL,382,382,Centro progresista no peronista,Socialismo,-1,44.4
+2007-GENERAL,2011-GENERAL,383,383,Centro progresista no peronista,Socialismo,-1,39.3
+2007-GENERAL,2011-GENERAL,384,,,Kirchnerismo,9,48.2
+2007-GENERAL,2011-GENERAL,384A,384A,Kirchnerismo,Kirchnerismo,0,46.6
+2007-GENERAL,2011-GENERAL,384B,384B,Kirchnerismo,Kirchnerismo,0,53.8
+2007-GENERAL,2011-GENERAL,384C,384C,Kirchnerismo,Kirchnerismo,0,40.8
+2007-GENERAL,2011-GENERAL,385A,385A,Peronismo Federal,Kirchnerismo,-1,33.7
+2007-GENERAL,2011-GENERAL,385B,385B,Peronismo Federal,Kirchnerismo,-1,33.3
+2007-GENERAL,2011-GENERAL,385C,385C,Kirchnerismo,Kirchnerismo,0,46.6
+2007-GENERAL,2011-GENERAL,386,386,Kirchnerismo,Socialismo,-1,38.5
+2007-GENERAL,2011-GENERAL,386A,386A,Kirchnerismo,Kirchnerismo,0,40.9
+2007-GENERAL,2011-GENERAL,386B,386B,Peronismo Federal,Kirchnerismo,-1,38.8
+2007-GENERAL,2011-GENERAL,387,387,Centro progresista no peronista,Socialismo,-1,29.6
+2007-GENERAL,2011-GENERAL,388A,388A,Peronismo Federal,Kirchnerismo,-1,50.6
+2007-GENERAL,2011-GENERAL,388B,388B,Kirchnerismo,Kirchnerismo,0,49.1
+2007-GENERAL,2011-GENERAL,389,389,Kirchnerismo,Kirchnerismo,0,35.1
+2007-GENERAL,2011-GENERAL,390A,390A,Kirchnerismo,Kirchnerismo,0,43.0
+2007-GENERAL,2011-GENERAL,390B,390B,Kirchnerismo,Kirchnerismo,0,39.0
+2007-GENERAL,2011-GENERAL,390C,390C,Peronismo Federal,Socialismo,-1,35.8
+2007-GENERAL,2011-GENERAL,390D,390D,Kirchnerismo,Kirchnerismo,0,38.6
+2007-GENERAL,2011-GENERAL,391,391,Peronismo Federal,Kirchnerismo,-1,58.9
+2007-GENERAL,2011-GENERAL,391A,391A,Kirchnerismo,Kirchnerismo,0,47.8
+2007-GENERAL,2011-GENERAL,392,392,Peronismo Federal,Kirchnerismo,-1,40.1
+2007-GENERAL,2011-GENERAL,393,393,Kirchnerismo,Kirchnerismo,0,40.3
+2007-GENERAL,2011-GENERAL,393A,393A,Peronismo Federal,Kirchnerismo,-1,31.7
+2007-GENERAL,2011-GENERAL,394,394,Kirchnerismo,Kirchnerismo,0,42.5
+2007-GENERAL,2011-GENERAL,395A,395A,Peronismo Federal,Kirchnerismo,-1,35.6
+2007-GENERAL,2011-GENERAL,395B,395B,Peronismo Federal,Kirchnerismo,-1,36.8
+2007-GENERAL,2011-GENERAL,396,396,Kirchnerismo,Kirchnerismo,0,45.4
+2007-GENERAL,2011-GENERAL,396A,396A,Peronismo Federal,Kirchnerismo,-1,49.7
+2007-GENERAL,2011-GENERAL,397,397,Centro progresista no peronista,Kirchnerismo,1,41.1
+2007-GENERAL,2011-GENERAL,397A,397A,Peronismo Federal,Kirchnerismo,-1,42.9
+2007-GENERAL,2011-GENERAL,398,398,Kirchnerismo,Kirchnerismo,0,37.4
+2007-GENERAL,2011-GENERAL,399,399,Kirchnerismo,Socialismo,-1,38.9
+2007-GENERAL,2011-GENERAL,400,400,Peronismo Federal,Kirchnerismo,-1,32.1
+2007-GENERAL,2011-GENERAL,401A,401A,Centro progresista no peronista,Kirchnerismo,1,36.8
+2007-GENERAL,2011-GENERAL,401B,401B,Peronismo Federal,Kirchnerismo,-1,36.3
+2007-GENERAL,2011-GENERAL,402,402,Peronismo Federal,Socialismo,-1,36.5
+2007-GENERAL,2011-GENERAL,403,403,Kirchnerismo,Kirchnerismo,0,45.4
+2007-GENERAL,2011-GENERAL,404A,404A,Kirchnerismo,Kirchnerismo,0,39.1
+2007-GENERAL,2011-GENERAL,404B,404B,Kirchnerismo,Kirchnerismo,0,38.1
+2007-GENERAL,2011-GENERAL,405,405,Peronismo Federal,Socialismo,-1,36.7
+2007-GENERAL,2011-GENERAL,406,406,Peronismo Federal,Kirchnerismo,-1,45.5
+2007-GENERAL,2011-GENERAL,407,407,Centro progresista no peronista,Kirchnerismo,1,39.4
+2007-GENERAL,2011-GENERAL,408,408,Kirchnerismo,Kirchnerismo,0,44.9
+2007-GENERAL,2011-GENERAL,409,409,Centro progresista no peronista,Socialismo,-1,40.7
+2007-GENERAL,2011-GENERAL,410,410,Kirchnerismo,Socialismo,-1,44.5
+2007-GENERAL,2011-GENERAL,411A,411A,Kirchnerismo,Socialismo,-1,40.4
+2007-GENERAL,2011-GENERAL,411B,411B,Kirchnerismo,Kirchnerismo,0,44.3
+2007-GENERAL,2011-GENERAL,412,412,Centro progresista no peronista,Kirchnerismo,1,43.5
+2007-GENERAL,2011-GENERAL,413A,413A,Centro progresista no peronista,Kirchnerismo,1,38.0
+2007-GENERAL,2011-GENERAL,413B,413B,Peronismo Federal,Socialismo,-1,40.5
+2007-GENERAL,2011-GENERAL,413C,413C,Kirchnerismo,Kirchnerismo,0,54.1
+2007-GENERAL,2011-GENERAL,414,414,Kirchnerismo,Kirchnerismo,0,47.2
+2007-GENERAL,2011-GENERAL,414A,414A,Kirchnerismo,Kirchnerismo,0,48.5
+2007-GENERAL,2011-GENERAL,415,415,Centro progresista no peronista,Socialismo,-1,42.3
+2007-GENERAL,2011-GENERAL,416,416,Kirchnerismo,Kirchnerismo,0,49.5
+2007-GENERAL,2011-GENERAL,417,417,Centro progresista no peronista,Socialismo,-1,37.5
+2007-GENERAL,2011-GENERAL,417A,417A,Kirchnerismo,Kirchnerismo,0,37.1
+2007-GENERAL,2011-GENERAL,417B,417B,Centro progresista no peronista,Socialismo,-1,43.2
+2007-GENERAL,2011-GENERAL,418A,418A,Kirchnerismo,Kirchnerismo,0,52.8
+2007-GENERAL,2011-GENERAL,418B,418B,Centro progresista no peronista,Socialismo,-1,41.2
+2007-GENERAL,2011-GENERAL,419,419,Kirchnerismo,Kirchnerismo,0,47.1
+2007-GENERAL,2011-GENERAL,420,420,Kirchnerismo,Kirchnerismo,0,50.2
+2007-GENERAL,2011-GENERAL,420A,420A,Kirchnerismo,Kirchnerismo,0,45.6
+2007-GENERAL,2011-GENERAL,421,421,Kirchnerismo,Kirchnerismo,0,63.1
+2007-GENERAL,2011-GENERAL,422,422,Centro progresista no peronista,Kirchnerismo,1,32.4
+2007-GENERAL,2011-GENERAL,422A,422B,Kirchnerismo,Kirchnerismo,0,60.0
+2007-GENERAL,2011-GENERAL,422B,,,Socialismo,9,42.3
+2007-GENERAL,2011-GENERAL,423,423,Centro progresista no peronista,Kirchnerismo,1,44.7
+2007-GENERAL,2011-GENERAL,424,424,Centro progresista no peronista,Socialismo,-1,43.3
+2007-GENERAL,2011-GENERAL,425A,425A,Centro progresista no peronista,Socialismo,-1,41.1
+2007-GENERAL,2011-GENERAL,425B,425B,Centro progresista no peronista,Socialismo,-1,48.3
+2011-GENERAL,2015-BALOTAJE,1,1,Socialismo,Cambiemos,1,76.8
+2011-GENERAL,2015-BALOTAJE,2,2,Socialismo,Cambiemos,1,76.4
+2011-GENERAL,2015-BALOTAJE,3,3,Socialismo,Cambiemos,1,73.7
+2011-GENERAL,2015-BALOTAJE,4,4,Socialismo,Cambiemos,1,76.8
+2011-GENERAL,2015-BALOTAJE,5,5,Socialismo,Cambiemos,1,77.9
+2011-GENERAL,2015-BALOTAJE,6,6,Socialismo,Cambiemos,1,71.1
+2011-GENERAL,2015-BALOTAJE,7,7,Kirchnerismo,Kirchnerismo,0,50.7
+2011-GENERAL,2015-BALOTAJE,8,8,Socialismo,Cambiemos,1,57.0
+2011-GENERAL,2015-BALOTAJE,9,9,Socialismo,Cambiemos,1,72.1
+2011-GENERAL,2015-BALOTAJE,10,10,Socialismo,Cambiemos,1,68.2
+2011-GENERAL,2015-BALOTAJE,11,11,Socialismo,Cambiemos,1,65.9
+2011-GENERAL,2015-BALOTAJE,11A,11A,Kirchnerismo,Kirchnerismo,0,75.3
+2011-GENERAL,2015-BALOTAJE,12,12,Socialismo,Cambiemos,1,69.6
+2011-GENERAL,2015-BALOTAJE,13,13,Socialismo,Cambiemos,1,63.7
+2011-GENERAL,2015-BALOTAJE,14,14,Kirchnerismo,Kirchnerismo,0,53.6
+2011-GENERAL,2015-BALOTAJE,15,15,Kirchnerismo,Kirchnerismo,0,66.4
+2011-GENERAL,2015-BALOTAJE,16,16,Kirchnerismo,Kirchnerismo,0,55.9
+2011-GENERAL,2015-BALOTAJE,17,17,Socialismo,Cambiemos,1,60.0
+2011-GENERAL,2015-BALOTAJE,18,18,Kirchnerismo,Kirchnerismo,0,77.3
+2011-GENERAL,2015-BALOTAJE,19,19,Socialismo,Cambiemos,1,60.3
+2011-GENERAL,2015-BALOTAJE,20,20,Kirchnerismo,Cambiemos,1,58.7
+2011-GENERAL,2015-BALOTAJE,20A,20A,Socialismo,Cambiemos,1,61.8
+2011-GENERAL,2015-BALOTAJE,20B,20B,Kirchnerismo,Cambiemos,1,51.6
+2011-GENERAL,2015-BALOTAJE,21,21,Kirchnerismo,Cambiemos,1,50.7
+2011-GENERAL,2015-BALOTAJE,22,22,Kirchnerismo,Kirchnerismo,0,52.1
+2011-GENERAL,2015-BALOTAJE,23,23,Kirchnerismo,Cambiemos,1,51.4
+2011-GENERAL,2015-BALOTAJE,24,24,Kirchnerismo,Cambiemos,1,51.9
+2011-GENERAL,2015-BALOTAJE,25,25,Kirchnerismo,Cambiemos,1,63.6
+2011-GENERAL,2015-BALOTAJE,26,26,Kirchnerismo,Kirchnerismo,0,55.0
+2011-GENERAL,2015-BALOTAJE,27,27,Kirchnerismo,Kirchnerismo,0,52.4
+2011-GENERAL,2015-BALOTAJE,28,28,Socialismo,Cambiemos,1,61.1
+2011-GENERAL,2015-BALOTAJE,29,29,Socialismo,Cambiemos,1,53.9
+2011-GENERAL,2015-BALOTAJE,30,30,Socialismo,Cambiemos,1,69.9
+2011-GENERAL,2015-BALOTAJE,31,31,Socialismo,Cambiemos,1,70.6
+2011-GENERAL,2015-BALOTAJE,32,32,Socialismo,Cambiemos,1,56.9
+2011-GENERAL,2015-BALOTAJE,33,33,Kirchnerismo,Cambiemos,1,53.0
+2011-GENERAL,2015-BALOTAJE,34,34,Kirchnerismo,Kirchnerismo,0,67.1
+2011-GENERAL,2015-BALOTAJE,35,35,Kirchnerismo,Kirchnerismo,0,54.5
+2011-GENERAL,2015-BALOTAJE,36,36,Socialismo,Cambiemos,1,69.3
+2011-GENERAL,2015-BALOTAJE,37,37,Kirchnerismo,Cambiemos,1,64.8
+2011-GENERAL,2015-BALOTAJE,38,38,Kirchnerismo,Cambiemos,1,50.9
+2011-GENERAL,2015-BALOTAJE,39,39,Kirchnerismo,Kirchnerismo,0,53.2
+2011-GENERAL,2015-BALOTAJE,40,40,Kirchnerismo,Kirchnerismo,0,53.7
+2011-GENERAL,2015-BALOTAJE,41,41,Kirchnerismo,Cambiemos,1,60.8
+2011-GENERAL,2015-BALOTAJE,42,42,Socialismo,Cambiemos,1,73.9
+2011-GENERAL,2015-BALOTAJE,43,43,Socialismo,Cambiemos,1,59.5
+2011-GENERAL,2015-BALOTAJE,44,44,Socialismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,45,45,Socialismo,Cambiemos,1,65.7
+2011-GENERAL,2015-BALOTAJE,46,46,Socialismo,Cambiemos,1,67.7
+2011-GENERAL,2015-BALOTAJE,47,47,Kirchnerismo,Cambiemos,1,61.9
+2011-GENERAL,2015-BALOTAJE,48,48,Kirchnerismo,Cambiemos,1,68.1
+2011-GENERAL,2015-BALOTAJE,49,49,Socialismo,Cambiemos,1,66.6
+2011-GENERAL,2015-BALOTAJE,50,50,Socialismo,Cambiemos,1,60.4
+2011-GENERAL,2015-BALOTAJE,51,51,Socialismo,Cambiemos,1,55.0
+2011-GENERAL,2015-BALOTAJE,52,52,Socialismo,Cambiemos,1,78.6
+2011-GENERAL,2015-BALOTAJE,53,53,Socialismo,Cambiemos,1,80.6
+2011-GENERAL,2015-BALOTAJE,54,54,Socialismo,Cambiemos,1,74.7
+2011-GENERAL,2015-BALOTAJE,55,55,Socialismo,Cambiemos,1,68.3
+2011-GENERAL,2015-BALOTAJE,55A,,,Cambiemos,9,100.0
+2011-GENERAL,2015-BALOTAJE,55B,55B,Socialismo,Cambiemos,1,73.1
+2011-GENERAL,2015-BALOTAJE,55C,,,Cambiemos,9,50.0
+2011-GENERAL,2015-BALOTAJE,55D,55D,Kirchnerismo,Kirchnerismo,0,70.4
+2011-GENERAL,2015-BALOTAJE,56,56,Socialismo,Cambiemos,1,75.4
+2011-GENERAL,2015-BALOTAJE,57,57,Socialismo,Cambiemos,1,62.2
+2011-GENERAL,2015-BALOTAJE,58,58,Socialismo,Cambiemos,1,79.7
+2011-GENERAL,2015-BALOTAJE,59,59,Socialismo,Cambiemos,1,68.6
+2011-GENERAL,2015-BALOTAJE,60,60,Socialismo,Cambiemos,1,81.3
+2011-GENERAL,2015-BALOTAJE,61,61,Socialismo,Cambiemos,1,62.7
+2011-GENERAL,2015-BALOTAJE,62,62,Socialismo,Cambiemos,1,83.9
+2011-GENERAL,2015-BALOTAJE,63,63,Socialismo,Cambiemos,1,81.8
+2011-GENERAL,2015-BALOTAJE,64,64,Socialismo,Cambiemos,1,79.7
+2011-GENERAL,2015-BALOTAJE,65,65,Socialismo,Cambiemos,1,79.0
+2011-GENERAL,2015-BALOTAJE,66,66,Kirchnerismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,67,67,Kirchnerismo,Cambiemos,1,58.6
+2011-GENERAL,2015-BALOTAJE,68,68,Socialismo,Cambiemos,1,78.4
+2011-GENERAL,2015-BALOTAJE,69,69,Socialismo,Cambiemos,1,73.9
+2011-GENERAL,2015-BALOTAJE,70,70,Socialismo,Cambiemos,1,93.4
+2011-GENERAL,2015-BALOTAJE,71,71,Kirchnerismo,Cambiemos,1,70.2
+2011-GENERAL,2015-BALOTAJE,72,72,Socialismo,Cambiemos,1,80.0
+2011-GENERAL,2015-BALOTAJE,73,73,Socialismo,Cambiemos,1,75.9
+2011-GENERAL,2015-BALOTAJE,74,74,Socialismo,Cambiemos,1,93.3
+2011-GENERAL,2015-BALOTAJE,75,75,Kirchnerismo,Cambiemos,1,78.8
+2011-GENERAL,2015-BALOTAJE,76,76,Socialismo,Cambiemos,1,74.2
+2011-GENERAL,2015-BALOTAJE,77,77,Socialismo,Cambiemos,1,75.0
+2011-GENERAL,2015-BALOTAJE,79,79,Kirchnerismo,Cambiemos,1,54.4
+2011-GENERAL,2015-BALOTAJE,80,80,Socialismo,Cambiemos,1,75.2
+2011-GENERAL,2015-BALOTAJE,81,81,Socialismo,Cambiemos,1,62.1
+2011-GENERAL,2015-BALOTAJE,82,82,Socialismo,Cambiemos,1,69.4
+2011-GENERAL,2015-BALOTAJE,83,83,Kirchnerismo,Cambiemos,1,53.5
+2011-GENERAL,2015-BALOTAJE,84,84,Kirchnerismo,Cambiemos,1,51.4
+2011-GENERAL,2015-BALOTAJE,85,85,Kirchnerismo,Cambiemos,1,58.9
+2011-GENERAL,2015-BALOTAJE,85A,85A,Socialismo,Cambiemos,1,56.9
+2011-GENERAL,2015-BALOTAJE,86,86,Kirchnerismo,Cambiemos,1,58.9
+2011-GENERAL,2015-BALOTAJE,87,87,Kirchnerismo,Cambiemos,1,55.7
+2011-GENERAL,2015-BALOTAJE,88,88,Kirchnerismo,Cambiemos,1,51.3
+2011-GENERAL,2015-BALOTAJE,89,89,Kirchnerismo,Cambiemos,1,65.1
+2011-GENERAL,2015-BALOTAJE,91,91,Kirchnerismo,Kirchnerismo,0,53.1
+2011-GENERAL,2015-BALOTAJE,92,92,Kirchnerismo,Cambiemos,1,60.3
+2011-GENERAL,2015-BALOTAJE,93,93,Kirchnerismo,Cambiemos,1,60.9
+2011-GENERAL,2015-BALOTAJE,94,94,Kirchnerismo,Kirchnerismo,0,59.4
+2011-GENERAL,2015-BALOTAJE,95,95,Kirchnerismo,Kirchnerismo,0,54.7
+2011-GENERAL,2015-BALOTAJE,96,96,Kirchnerismo,Kirchnerismo,0,61.7
+2011-GENERAL,2015-BALOTAJE,96A,96A,Kirchnerismo,Kirchnerismo,0,56.6
+2011-GENERAL,2015-BALOTAJE,97,97,Socialismo,Cambiemos,1,81.3
+2011-GENERAL,2015-BALOTAJE,98,98,Kirchnerismo,Kirchnerismo,0,62.9
+2011-GENERAL,2015-BALOTAJE,100,100,Socialismo,Cambiemos,1,68.1
+2011-GENERAL,2015-BALOTAJE,101,101,Kirchnerismo,Kirchnerismo,0,58.6
+2011-GENERAL,2015-BALOTAJE,104,104,Kirchnerismo,Cambiemos,1,52.3
+2011-GENERAL,2015-BALOTAJE,105,105,Kirchnerismo,Kirchnerismo,0,59.0
+2011-GENERAL,2015-BALOTAJE,106,106,Kirchnerismo,Cambiemos,1,50.8
+2011-GENERAL,2015-BALOTAJE,106A,106A,Kirchnerismo,Cambiemos,1,70.0
+2011-GENERAL,2015-BALOTAJE,106B,106B,Socialismo,Cambiemos,1,66.0
+2011-GENERAL,2015-BALOTAJE,107,107,Kirchnerismo,Kirchnerismo,0,50.4
+2011-GENERAL,2015-BALOTAJE,108,108,Kirchnerismo,Kirchnerismo,0,56.0
+2011-GENERAL,2015-BALOTAJE,109,109,Kirchnerismo,Cambiemos,1,51.2
+2011-GENERAL,2015-BALOTAJE,110,110,Kirchnerismo,Kirchnerismo,0,57.2
+2011-GENERAL,2015-BALOTAJE,111,111,Socialismo,Cambiemos,1,87.5
+2011-GENERAL,2015-BALOTAJE,112,112,Socialismo,Cambiemos,1,74.8
+2011-GENERAL,2015-BALOTAJE,113,113,Socialismo,Cambiemos,1,87.1
+2011-GENERAL,2015-BALOTAJE,114,114,Kirchnerismo,Cambiemos,1,56.8
+2011-GENERAL,2015-BALOTAJE,115,115,Kirchnerismo,Cambiemos,1,69.6
+2011-GENERAL,2015-BALOTAJE,116,116,Socialismo,Cambiemos,1,78.2
+2011-GENERAL,2015-BALOTAJE,117,117,Socialismo,Cambiemos,1,73.1
+2011-GENERAL,2015-BALOTAJE,118,118,Kirchnerismo,Cambiemos,1,64.7
+2011-GENERAL,2015-BALOTAJE,119,119,Socialismo,Cambiemos,1,70.2
+2011-GENERAL,2015-BALOTAJE,120,120,Kirchnerismo,Cambiemos,1,65.7
+2011-GENERAL,2015-BALOTAJE,120A,120A,Peronismo Federal,Cambiemos,1,67.6
+2011-GENERAL,2015-BALOTAJE,120B,120B,Socialismo,Cambiemos,1,73.7
+2011-GENERAL,2015-BALOTAJE,121,121,Socialismo,Cambiemos,1,72.3
+2011-GENERAL,2015-BALOTAJE,122,122,Socialismo,Cambiemos,1,73.2
+2011-GENERAL,2015-BALOTAJE,123,123,Kirchnerismo,Cambiemos,1,66.5
+2011-GENERAL,2015-BALOTAJE,124,124,Socialismo,Cambiemos,1,72.3
+2011-GENERAL,2015-BALOTAJE,125,125,Kirchnerismo,Cambiemos,1,65.6
+2011-GENERAL,2015-BALOTAJE,126,126,Kirchnerismo,Cambiemos,1,59.9
+2011-GENERAL,2015-BALOTAJE,127,127,Socialismo,Cambiemos,1,84.3
+2011-GENERAL,2015-BALOTAJE,128A,128A,Socialismo,Cambiemos,1,63.0
+2011-GENERAL,2015-BALOTAJE,128B,128B,Socialismo,Cambiemos,1,67.7
+2011-GENERAL,2015-BALOTAJE,128C,128C,Socialismo,Cambiemos,1,74.1
+2011-GENERAL,2015-BALOTAJE,128D,128D,Socialismo,Cambiemos,1,70.1
+2011-GENERAL,2015-BALOTAJE,129,129,Socialismo,Cambiemos,1,82.2
+2011-GENERAL,2015-BALOTAJE,130,130,Kirchnerismo,Cambiemos,1,69.0
+2011-GENERAL,2015-BALOTAJE,131,131,Socialismo,Cambiemos,1,61.6
+2011-GENERAL,2015-BALOTAJE,132,132,Socialismo,Cambiemos,1,79.6
+2011-GENERAL,2015-BALOTAJE,133,133,Socialismo,Cambiemos,1,65.4
+2011-GENERAL,2015-BALOTAJE,134,134,Kirchnerismo,Cambiemos,1,59.1
+2011-GENERAL,2015-BALOTAJE,134A,134A,Kirchnerismo,Kirchnerismo,0,50.4
+2011-GENERAL,2015-BALOTAJE,135,135,Socialismo,Cambiemos,1,85.3
+2011-GENERAL,2015-BALOTAJE,136,136,Kirchnerismo,Cambiemos,1,56.3
+2011-GENERAL,2015-BALOTAJE,136A,136A,Socialismo,Cambiemos,1,75.0
+2011-GENERAL,2015-BALOTAJE,137,137,Socialismo,Cambiemos,1,63.3
+2011-GENERAL,2015-BALOTAJE,138,138,Socialismo,Cambiemos,1,73.4
+2011-GENERAL,2015-BALOTAJE,139,139,Kirchnerismo,Cambiemos,1,66.6
+2011-GENERAL,2015-BALOTAJE,140,140,Socialismo,Cambiemos,1,60.2
+2011-GENERAL,2015-BALOTAJE,141,141,Kirchnerismo,Cambiemos,1,55.6
+2011-GENERAL,2015-BALOTAJE,142,142,Socialismo,Cambiemos,1,67.0
+2011-GENERAL,2015-BALOTAJE,143,143,Socialismo,Cambiemos,1,71.6
+2011-GENERAL,2015-BALOTAJE,144,144,Socialismo,Cambiemos,1,76.1
+2011-GENERAL,2015-BALOTAJE,145,145,Kirchnerismo,Cambiemos,1,71.4
+2011-GENERAL,2015-BALOTAJE,146,146,Socialismo,Cambiemos,1,92.2
+2011-GENERAL,2015-BALOTAJE,147,147,Kirchnerismo,Kirchnerismo,0,63.6
+2011-GENERAL,2015-BALOTAJE,148,148,Socialismo,Cambiemos,1,70.9
+2011-GENERAL,2015-BALOTAJE,149,149,Socialismo,Cambiemos,1,82.6
+2011-GENERAL,2015-BALOTAJE,150,150,Socialismo,Cambiemos,1,93.4
+2011-GENERAL,2015-BALOTAJE,151,151,Kirchnerismo,Cambiemos,1,54.6
+2011-GENERAL,2015-BALOTAJE,152,152,Socialismo,Cambiemos,1,77.1
+2011-GENERAL,2015-BALOTAJE,153,153,Kirchnerismo,Cambiemos,1,71.6
+2011-GENERAL,2015-BALOTAJE,154,154,Kirchnerismo,Cambiemos,1,65.3
+2011-GENERAL,2015-BALOTAJE,155,155,Kirchnerismo,Cambiemos,1,57.0
+2011-GENERAL,2015-BALOTAJE,156,156,Socialismo,Cambiemos,1,78.4
+2011-GENERAL,2015-BALOTAJE,157,157,Socialismo,Cambiemos,1,66.4
+2011-GENERAL,2015-BALOTAJE,158,158,Kirchnerismo,Cambiemos,1,64.6
+2011-GENERAL,2015-BALOTAJE,159,159,Kirchnerismo,Cambiemos,1,65.4
+2011-GENERAL,2015-BALOTAJE,160,160,Socialismo,Cambiemos,1,72.3
+2011-GENERAL,2015-BALOTAJE,161,161,Socialismo,Cambiemos,1,68.0
+2011-GENERAL,2015-BALOTAJE,162,162,Kirchnerismo,Kirchnerismo,0,53.9
+2011-GENERAL,2015-BALOTAJE,163,163,Socialismo,Kirchnerismo,1,66.7
+2011-GENERAL,2015-BALOTAJE,164,164,Socialismo,Cambiemos,1,71.9
+2011-GENERAL,2015-BALOTAJE,165,165,Kirchnerismo,Cambiemos,1,62.3
+2011-GENERAL,2015-BALOTAJE,166,166,Socialismo,Cambiemos,1,79.1
+2011-GENERAL,2015-BALOTAJE,167,167,Kirchnerismo,Cambiemos,1,66.6
+2011-GENERAL,2015-BALOTAJE,168,168,Kirchnerismo,Cambiemos,1,75.8
+2011-GENERAL,2015-BALOTAJE,169,169,Socialismo,Cambiemos,1,73.2
+2011-GENERAL,2015-BALOTAJE,174,174,Kirchnerismo,Cambiemos,1,79.8
+2011-GENERAL,2015-BALOTAJE,175,175,Kirchnerismo,Cambiemos,1,50.0
+2011-GENERAL,2015-BALOTAJE,176,176,Kirchnerismo,Kirchnerismo,0,59.2
+2011-GENERAL,2015-BALOTAJE,177,177,Kirchnerismo,Cambiemos,1,54.5
+2011-GENERAL,2015-BALOTAJE,178,178,Kirchnerismo,Cambiemos,1,57.1
+2011-GENERAL,2015-BALOTAJE,179,179,Kirchnerismo,Cambiemos,1,56.7
+2011-GENERAL,2015-BALOTAJE,180,180,Kirchnerismo,Cambiemos,1,60.4
+2011-GENERAL,2015-BALOTAJE,181,181,Kirchnerismo,Cambiemos,1,65.6
+2011-GENERAL,2015-BALOTAJE,181A,181A,Kirchnerismo,Cambiemos,1,61.5
+2011-GENERAL,2015-BALOTAJE,182,182,Union Civica Radical,Cambiemos,1,79.2
+2011-GENERAL,2015-BALOTAJE,183,183,Kirchnerismo,Cambiemos,1,63.1
+2011-GENERAL,2015-BALOTAJE,184,184,Kirchnerismo,Cambiemos,1,56.8
+2011-GENERAL,2015-BALOTAJE,185,185,Kirchnerismo,Kirchnerismo,0,51.6
+2011-GENERAL,2015-BALOTAJE,186,186,Kirchnerismo,Cambiemos,1,60.5
+2011-GENERAL,2015-BALOTAJE,187,187,Kirchnerismo,Cambiemos,1,72.1
+2011-GENERAL,2015-BALOTAJE,188,188,Kirchnerismo,Cambiemos,1,67.8
+2011-GENERAL,2015-BALOTAJE,189,189,Kirchnerismo,Cambiemos,1,60.4
+2011-GENERAL,2015-BALOTAJE,191,191,Kirchnerismo,Cambiemos,1,64.8
+2011-GENERAL,2015-BALOTAJE,192,192,Kirchnerismo,Cambiemos,1,67.6
+2011-GENERAL,2015-BALOTAJE,193,193,Kirchnerismo,Cambiemos,1,57.1
+2011-GENERAL,2015-BALOTAJE,194,194,Kirchnerismo,Cambiemos,1,63.9
+2011-GENERAL,2015-BALOTAJE,195,195,Kirchnerismo,Cambiemos,1,55.8
+2011-GENERAL,2015-BALOTAJE,196,196,Kirchnerismo,Kirchnerismo,0,69.0
+2011-GENERAL,2015-BALOTAJE,196A,,,Cambiemos,9,66.7
+2011-GENERAL,2015-BALOTAJE,196B,196B,Kirchnerismo,Cambiemos,1,68.0
+2011-GENERAL,2015-BALOTAJE,197,197,Kirchnerismo,Cambiemos,1,60.6
+2011-GENERAL,2015-BALOTAJE,198,198,Kirchnerismo,Kirchnerismo,0,58.4
+2011-GENERAL,2015-BALOTAJE,199,199,Socialismo,Cambiemos,1,72.2
+2011-GENERAL,2015-BALOTAJE,200,200,Kirchnerismo,Kirchnerismo,0,55.5
+2011-GENERAL,2015-BALOTAJE,201,201,Kirchnerismo,Cambiemos,1,58.0
+2011-GENERAL,2015-BALOTAJE,202,202,Kirchnerismo,Cambiemos,1,68.3
+2011-GENERAL,2015-BALOTAJE,203,203,Socialismo,Cambiemos,1,79.5
+2011-GENERAL,2015-BALOTAJE,204,204,Union Civica Radical,Cambiemos,1,82.5
+2011-GENERAL,2015-BALOTAJE,205,205,Socialismo,Cambiemos,1,65.5
+2011-GENERAL,2015-BALOTAJE,207,207,Kirchnerismo,Kirchnerismo,0,59.4
+2011-GENERAL,2015-BALOTAJE,208,208,Kirchnerismo,Cambiemos,1,65.4
+2011-GENERAL,2015-BALOTAJE,208A,,,Cambiemos,9,63.6
+2011-GENERAL,2015-BALOTAJE,208B,208B,Socialismo,Cambiemos,1,54.7
+2011-GENERAL,2015-BALOTAJE,208C,208C,Socialismo,Cambiemos,1,78.0
+2011-GENERAL,2015-BALOTAJE,209,209,Kirchnerismo,Kirchnerismo,0,58.5
+2011-GENERAL,2015-BALOTAJE,210,210,Socialismo,Cambiemos,1,62.9
+2011-GENERAL,2015-BALOTAJE,210A,210A,Socialismo,Cambiemos,1,62.3
+2011-GENERAL,2015-BALOTAJE,211,211,Kirchnerismo,Cambiemos,1,65.1
+2011-GENERAL,2015-BALOTAJE,212,212,Socialismo,Cambiemos,1,63.9
+2011-GENERAL,2015-BALOTAJE,212A,212A,Kirchnerismo,Cambiemos,1,54.3
+2011-GENERAL,2015-BALOTAJE,213,213,Socialismo,Cambiemos,1,66.2
+2011-GENERAL,2015-BALOTAJE,214,214,Kirchnerismo,Kirchnerismo,0,71.3
+2011-GENERAL,2015-BALOTAJE,214A,214A,Kirchnerismo,Kirchnerismo,0,65.8
+2011-GENERAL,2015-BALOTAJE,215,215,Kirchnerismo,Cambiemos,1,59.2
+2011-GENERAL,2015-BALOTAJE,215A,215A,Socialismo,Cambiemos,1,78.1
+2011-GENERAL,2015-BALOTAJE,216,216,Kirchnerismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,216A,216A,Socialismo,Cambiemos,1,80.0
+2011-GENERAL,2015-BALOTAJE,217,217,Socialismo,Cambiemos,1,80.7
+2011-GENERAL,2015-BALOTAJE,218,218,Kirchnerismo,Kirchnerismo,0,57.6
+2011-GENERAL,2015-BALOTAJE,219,219,Kirchnerismo,Cambiemos,1,57.8
+2011-GENERAL,2015-BALOTAJE,220,220,Kirchnerismo,Kirchnerismo,0,65.9
+2011-GENERAL,2015-BALOTAJE,221,221,Kirchnerismo,Cambiemos,1,54.7
+2011-GENERAL,2015-BALOTAJE,221A,221A,Union Civica Radical,Cambiemos,1,70.3
+2011-GENERAL,2015-BALOTAJE,222,,,Kirchnerismo,9,65.0
+2011-GENERAL,2015-BALOTAJE,222A,222A,Socialismo,Cambiemos,1,85.7
+2011-GENERAL,2015-BALOTAJE,223,223,Union Civica Radical,Cambiemos,1,70.3
+2011-GENERAL,2015-BALOTAJE,223A,223A,Union Civica Radical,Cambiemos,1,73.1
+2011-GENERAL,2015-BALOTAJE,224,224,Socialismo,Cambiemos,1,61.5
+2011-GENERAL,2015-BALOTAJE,224A,224A,Socialismo,Cambiemos,1,66.7
+2011-GENERAL,2015-BALOTAJE,224B,224B,Kirchnerismo,Kirchnerismo,0,88.7
+2011-GENERAL,2015-BALOTAJE,224C,224C,Socialismo,Cambiemos,1,64.9
+2011-GENERAL,2015-BALOTAJE,224D,224D,Kirchnerismo,Kirchnerismo,0,60.5
+2011-GENERAL,2015-BALOTAJE,224E,224E,Kirchnerismo,Cambiemos,1,50.9
+2011-GENERAL,2015-BALOTAJE,225,225,Kirchnerismo,Cambiemos,1,62.7
+2011-GENERAL,2015-BALOTAJE,225A,225A,Kirchnerismo,Kirchnerismo,0,67.4
+2011-GENERAL,2015-BALOTAJE,226,226,Kirchnerismo,Cambiemos,1,54.1
+2011-GENERAL,2015-BALOTAJE,227,227,Kirchnerismo,Cambiemos,1,72.6
+2011-GENERAL,2015-BALOTAJE,227A,227A,Kirchnerismo,Cambiemos,1,51.7
+2011-GENERAL,2015-BALOTAJE,227B,227B,Kirchnerismo,Cambiemos,1,75.0
+2011-GENERAL,2015-BALOTAJE,228,228,Kirchnerismo,Kirchnerismo,0,53.2
+2011-GENERAL,2015-BALOTAJE,229,229,Kirchnerismo,Kirchnerismo,0,52.7
+2011-GENERAL,2015-BALOTAJE,230,230,Kirchnerismo,Kirchnerismo,0,62.6
+2011-GENERAL,2015-BALOTAJE,231,231,Kirchnerismo,Kirchnerismo,0,54.4
+2011-GENERAL,2015-BALOTAJE,232,232,Kirchnerismo,Kirchnerismo,0,51.1
+2011-GENERAL,2015-BALOTAJE,232A,232A,Kirchnerismo,Kirchnerismo,0,71.1
+2011-GENERAL,2015-BALOTAJE,233,233,Kirchnerismo,Kirchnerismo,0,55.1
+2011-GENERAL,2015-BALOTAJE,234,234,Kirchnerismo,Kirchnerismo,0,69.2
+2011-GENERAL,2015-BALOTAJE,235,235,Kirchnerismo,Kirchnerismo,0,53.8
+2011-GENERAL,2015-BALOTAJE,237,237,Kirchnerismo,Kirchnerismo,0,62.4
+2011-GENERAL,2015-BALOTAJE,238,238,Kirchnerismo,Kirchnerismo,0,70.2
+2011-GENERAL,2015-BALOTAJE,239,239,Kirchnerismo,Kirchnerismo,0,61.9
+2011-GENERAL,2015-BALOTAJE,239A,,,Kirchnerismo,9,66.9
+2011-GENERAL,2015-BALOTAJE,240,240,Kirchnerismo,Kirchnerismo,0,87.2
+2011-GENERAL,2015-BALOTAJE,241,241,Kirchnerismo,Cambiemos,1,51.1
+2011-GENERAL,2015-BALOTAJE,242,242,Kirchnerismo,Cambiemos,1,64.0
+2011-GENERAL,2015-BALOTAJE,243,,,Cambiemos,9,66.7
+2011-GENERAL,2015-BALOTAJE,244,244,Socialismo,Cambiemos,1,57.1
+2011-GENERAL,2015-BALOTAJE,244A,244A,Kirchnerismo,Cambiemos,1,64.3
+2011-GENERAL,2015-BALOTAJE,244B,244B,Kirchnerismo,Kirchnerismo,0,50.5
+2011-GENERAL,2015-BALOTAJE,245,245,Kirchnerismo,Cambiemos,1,63.8
+2011-GENERAL,2015-BALOTAJE,246,246,Kirchnerismo,Cambiemos,1,59.3
+2011-GENERAL,2015-BALOTAJE,246A,246A,Kirchnerismo,Kirchnerismo,0,65.7
+2011-GENERAL,2015-BALOTAJE,247,247,Kirchnerismo,Cambiemos,1,65.8
+2011-GENERAL,2015-BALOTAJE,248,248,Kirchnerismo,Cambiemos,1,65.0
+2011-GENERAL,2015-BALOTAJE,249,249,Union Civica Radical,Cambiemos,1,60.6
+2011-GENERAL,2015-BALOTAJE,251,251,Kirchnerismo,Kirchnerismo,0,52.5
+2011-GENERAL,2015-BALOTAJE,252,252,Kirchnerismo,Cambiemos,1,55.8
+2011-GENERAL,2015-BALOTAJE,253,253,Kirchnerismo,Kirchnerismo,0,58.5
+2011-GENERAL,2015-BALOTAJE,254,254,Kirchnerismo,Cambiemos,1,59.2
+2011-GENERAL,2015-BALOTAJE,254A,254A,Kirchnerismo,Kirchnerismo,0,70.3
+2011-GENERAL,2015-BALOTAJE,255,255,Kirchnerismo,Kirchnerismo,0,72.1
+2011-GENERAL,2015-BALOTAJE,256,256,Kirchnerismo,Kirchnerismo,0,62.8
+2011-GENERAL,2015-BALOTAJE,256A,,,Cambiemos,9,100.0
+2011-GENERAL,2015-BALOTAJE,257,257,Kirchnerismo,Kirchnerismo,0,65.0
+2011-GENERAL,2015-BALOTAJE,259,259,Kirchnerismo,Kirchnerismo,0,62.4
+2011-GENERAL,2015-BALOTAJE,260,260,Kirchnerismo,Kirchnerismo,0,63.6
+2011-GENERAL,2015-BALOTAJE,261,261,Kirchnerismo,Kirchnerismo,0,63.6
+2011-GENERAL,2015-BALOTAJE,262,262,Kirchnerismo,Kirchnerismo,0,57.4
+2011-GENERAL,2015-BALOTAJE,263,263,Kirchnerismo,Kirchnerismo,0,75.0
+2011-GENERAL,2015-BALOTAJE,264,264,Kirchnerismo,Kirchnerismo,0,62.0
+2011-GENERAL,2015-BALOTAJE,267,267,Kirchnerismo,Kirchnerismo,0,63.0
+2011-GENERAL,2015-BALOTAJE,268,268,Kirchnerismo,Kirchnerismo,0,52.0
+2011-GENERAL,2015-BALOTAJE,268A,268A,Kirchnerismo,Kirchnerismo,0,56.1
+2011-GENERAL,2015-BALOTAJE,268B,268B,Kirchnerismo,Kirchnerismo,0,56.9
+2011-GENERAL,2015-BALOTAJE,269,269,Kirchnerismo,Kirchnerismo,0,69.0
+2011-GENERAL,2015-BALOTAJE,270,270,Kirchnerismo,Cambiemos,1,80.8
+2011-GENERAL,2015-BALOTAJE,271,271,Kirchnerismo,Kirchnerismo,0,68.0
+2011-GENERAL,2015-BALOTAJE,274,274,Kirchnerismo,Cambiemos,1,58.1
+2011-GENERAL,2015-BALOTAJE,275,275,Kirchnerismo,Cambiemos,1,51.5
+2011-GENERAL,2015-BALOTAJE,275A,275A,Kirchnerismo,Kirchnerismo,0,60.3
+2011-GENERAL,2015-BALOTAJE,276,276,Kirchnerismo,Kirchnerismo,0,55.6
+2011-GENERAL,2015-BALOTAJE,276A,276A,Kirchnerismo,Kirchnerismo,0,56.2
+2011-GENERAL,2015-BALOTAJE,276B,276B,Kirchnerismo,Cambiemos,1,72.7
+2011-GENERAL,2015-BALOTAJE,277,277,Kirchnerismo,Cambiemos,1,50.3
+2011-GENERAL,2015-BALOTAJE,277A,277A,Socialismo,Cambiemos,1,82.1
+2011-GENERAL,2015-BALOTAJE,277B,,,Cambiemos,9,68.9
+2011-GENERAL,2015-BALOTAJE,278,278,Peronismo Federal,Cambiemos,1,100.0
+2011-GENERAL,2015-BALOTAJE,279,279,Kirchnerismo,Cambiemos,1,55.1
+2011-GENERAL,2015-BALOTAJE,280,280,Socialismo,Cambiemos,1,69.8
+2011-GENERAL,2015-BALOTAJE,281,281,Socialismo,Cambiemos,1,78.9
+2011-GENERAL,2015-BALOTAJE,283,283,Kirchnerismo,Kirchnerismo,0,65.4
+2011-GENERAL,2015-BALOTAJE,284,284,Kirchnerismo,Cambiemos,1,58.9
+2011-GENERAL,2015-BALOTAJE,285,285,Kirchnerismo,Cambiemos,1,54.2
+2011-GENERAL,2015-BALOTAJE,285A,285A,Kirchnerismo,Cambiemos,1,58.4
+2011-GENERAL,2015-BALOTAJE,285B,,,Cambiemos,9,66.7
+2011-GENERAL,2015-BALOTAJE,286,286,Socialismo,Cambiemos,1,75.0
+2011-GENERAL,2015-BALOTAJE,287,287,Kirchnerismo,Cambiemos,1,65.9
+2011-GENERAL,2015-BALOTAJE,289,289,Kirchnerismo,Kirchnerismo,0,51.9
+2011-GENERAL,2015-BALOTAJE,290,290,Kirchnerismo,Cambiemos,1,62.2
+2011-GENERAL,2015-BALOTAJE,291,291,Kirchnerismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,292,292,Kirchnerismo,Kirchnerismo,0,58.6
+2011-GENERAL,2015-BALOTAJE,293,293,Kirchnerismo,Cambiemos,1,52.0
+2011-GENERAL,2015-BALOTAJE,294,294,Kirchnerismo,Cambiemos,1,61.5
+2011-GENERAL,2015-BALOTAJE,301,301,Socialismo,Cambiemos,1,70.3
+2011-GENERAL,2015-BALOTAJE,302,302,Socialismo,Cambiemos,1,70.1
+2011-GENERAL,2015-BALOTAJE,303,303,Socialismo,Cambiemos,1,74.2
+2011-GENERAL,2015-BALOTAJE,304,304,Socialismo,Cambiemos,1,67.8
+2011-GENERAL,2015-BALOTAJE,305,305,Socialismo,Cambiemos,1,73.7
+2011-GENERAL,2015-BALOTAJE,306,306,Socialismo,Cambiemos,1,72.2
+2011-GENERAL,2015-BALOTAJE,307,307,Socialismo,Cambiemos,1,72.0
+2011-GENERAL,2015-BALOTAJE,308,308,Socialismo,Cambiemos,1,75.3
+2011-GENERAL,2015-BALOTAJE,309,309,Socialismo,Cambiemos,1,75.7
+2011-GENERAL,2015-BALOTAJE,310,310,Socialismo,Cambiemos,1,71.4
+2011-GENERAL,2015-BALOTAJE,311,311,Socialismo,Cambiemos,1,69.5
+2011-GENERAL,2015-BALOTAJE,312,312,Socialismo,Cambiemos,1,68.8
+2011-GENERAL,2015-BALOTAJE,313,313,Socialismo,Cambiemos,1,69.3
+2011-GENERAL,2015-BALOTAJE,314,314,Socialismo,Cambiemos,1,70.2
+2011-GENERAL,2015-BALOTAJE,315,315,Socialismo,Cambiemos,1,73.5
+2011-GENERAL,2015-BALOTAJE,316,316,Socialismo,Cambiemos,1,70.4
+2011-GENERAL,2015-BALOTAJE,317,317,Socialismo,Cambiemos,1,69.9
+2011-GENERAL,2015-BALOTAJE,318,318,Socialismo,Cambiemos,1,70.8
+2011-GENERAL,2015-BALOTAJE,319,319,Socialismo,Cambiemos,1,70.2
+2011-GENERAL,2015-BALOTAJE,320,320,Socialismo,Cambiemos,1,73.9
+2011-GENERAL,2015-BALOTAJE,321,321,Socialismo,Cambiemos,1,74.9
+2011-GENERAL,2015-BALOTAJE,322,322,Socialismo,Cambiemos,1,59.5
+2011-GENERAL,2015-BALOTAJE,323,323,Socialismo,Cambiemos,1,51.8
+2011-GENERAL,2015-BALOTAJE,324,324,Socialismo,Cambiemos,1,67.4
+2011-GENERAL,2015-BALOTAJE,325,325,Socialismo,Cambiemos,1,67.0
+2011-GENERAL,2015-BALOTAJE,326,326,Socialismo,Cambiemos,1,67.7
+2011-GENERAL,2015-BALOTAJE,327,327,Socialismo,Cambiemos,1,67.4
+2011-GENERAL,2015-BALOTAJE,328,328,Socialismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,329,329,Socialismo,Cambiemos,1,60.8
+2011-GENERAL,2015-BALOTAJE,330,330,Socialismo,Cambiemos,1,67.6
+2011-GENERAL,2015-BALOTAJE,331,331,Socialismo,Cambiemos,1,66.3
+2011-GENERAL,2015-BALOTAJE,332,332,Socialismo,Cambiemos,1,67.2
+2011-GENERAL,2015-BALOTAJE,333,333,Socialismo,Cambiemos,1,67.5
+2011-GENERAL,2015-BALOTAJE,334,334,Socialismo,Cambiemos,1,61.0
+2011-GENERAL,2015-BALOTAJE,335,335,Socialismo,Cambiemos,1,59.8
+2011-GENERAL,2015-BALOTAJE,336,336,Socialismo,Cambiemos,1,67.9
+2011-GENERAL,2015-BALOTAJE,337,337,Socialismo,Cambiemos,1,62.9
+2011-GENERAL,2015-BALOTAJE,338,338,Socialismo,Cambiemos,1,62.9
+2011-GENERAL,2015-BALOTAJE,339,339,Socialismo,Cambiemos,1,64.1
+2011-GENERAL,2015-BALOTAJE,340,340,Socialismo,Cambiemos,1,60.8
+2011-GENERAL,2015-BALOTAJE,341,341,Socialismo,Cambiemos,1,55.9
+2011-GENERAL,2015-BALOTAJE,341A,341A,Kirchnerismo,Cambiemos,1,62.2
+2011-GENERAL,2015-BALOTAJE,341B,341B,Socialismo,Cambiemos,1,71.7
+2011-GENERAL,2015-BALOTAJE,342,342,Socialismo,Cambiemos,1,52.7
+2011-GENERAL,2015-BALOTAJE,342A,342A,Socialismo,Cambiemos,1,57.0
+2011-GENERAL,2015-BALOTAJE,342B,342B,Kirchnerismo,Kirchnerismo,0,61.4
+2011-GENERAL,2015-BALOTAJE,343,343,Socialismo,Cambiemos,1,62.0
+2011-GENERAL,2015-BALOTAJE,343A,343A,Kirchnerismo,Kirchnerismo,0,50.5
+2011-GENERAL,2015-BALOTAJE,344,344,Socialismo,Cambiemos,1,56.4
+2011-GENERAL,2015-BALOTAJE,344A,344A,Kirchnerismo,Kirchnerismo,0,63.5
+2011-GENERAL,2015-BALOTAJE,345,345,Kirchnerismo,Cambiemos,1,55.7
+2011-GENERAL,2015-BALOTAJE,345A,345A,Kirchnerismo,Kirchnerismo,0,52.7
+2011-GENERAL,2015-BALOTAJE,347,347,Socialismo,Cambiemos,1,52.7
+2011-GENERAL,2015-BALOTAJE,347A,347A,Kirchnerismo,Kirchnerismo,0,57.5
+2011-GENERAL,2015-BALOTAJE,348,348,Kirchnerismo,Kirchnerismo,0,52.2
+2011-GENERAL,2015-BALOTAJE,349,349,Kirchnerismo,Kirchnerismo,0,54.0
+2011-GENERAL,2015-BALOTAJE,349A,349A,Kirchnerismo,Kirchnerismo,0,58.3
+2011-GENERAL,2015-BALOTAJE,349B,349B,Kirchnerismo,Kirchnerismo,0,70.7
+2011-GENERAL,2015-BALOTAJE,349C,349C,Kirchnerismo,Kirchnerismo,0,52.6
+2011-GENERAL,2015-BALOTAJE,349D,,,Kirchnerismo,9,54.2
+2011-GENERAL,2015-BALOTAJE,350,350,Kirchnerismo,Kirchnerismo,0,50.5
+2011-GENERAL,2015-BALOTAJE,350A,350A,Socialismo,Cambiemos,1,70.4
+2011-GENERAL,2015-BALOTAJE,351,351,Kirchnerismo,Cambiemos,1,51.6
+2011-GENERAL,2015-BALOTAJE,351A,351A,Kirchnerismo,Cambiemos,1,66.0
+2011-GENERAL,2015-BALOTAJE,352,352,Socialismo,Cambiemos,1,65.5
+2011-GENERAL,2015-BALOTAJE,353,353,Kirchnerismo,Kirchnerismo,0,57.4
+2011-GENERAL,2015-BALOTAJE,353A,353A,Socialismo,Cambiemos,1,54.7
+2011-GENERAL,2015-BALOTAJE,354,354,Kirchnerismo,Kirchnerismo,0,61.5
+2011-GENERAL,2015-BALOTAJE,354A,354A,Socialismo,Cambiemos,1,61.0
+2011-GENERAL,2015-BALOTAJE,355,355,Kirchnerismo,Kirchnerismo,0,55.9
+2011-GENERAL,2015-BALOTAJE,355A,355A,Socialismo,Cambiemos,1,52.1
+2011-GENERAL,2015-BALOTAJE,356,356,Kirchnerismo,Kirchnerismo,0,55.2
+2011-GENERAL,2015-BALOTAJE,356A,356A,Kirchnerismo,Kirchnerismo,0,71.0
+2011-GENERAL,2015-BALOTAJE,357,357,Kirchnerismo,Cambiemos,1,56.3
+2011-GENERAL,2015-BALOTAJE,358,358,Socialismo,Cambiemos,1,56.4
+2011-GENERAL,2015-BALOTAJE,359,359,Socialismo,Cambiemos,1,54.8
+2011-GENERAL,2015-BALOTAJE,359A,359A,Kirchnerismo,Kirchnerismo,0,57.2
+2011-GENERAL,2015-BALOTAJE,360,360,Kirchnerismo,Cambiemos,1,60.4
+2011-GENERAL,2015-BALOTAJE,360A,360A,Kirchnerismo,Cambiemos,1,60.1
+2011-GENERAL,2015-BALOTAJE,362A,362A,Kirchnerismo,Kirchnerismo,0,56.4
+2011-GENERAL,2015-BALOTAJE,362B,362B,Kirchnerismo,Cambiemos,1,55.1
+2011-GENERAL,2015-BALOTAJE,362C,362C,Kirchnerismo,Kirchnerismo,0,56.5
+2011-GENERAL,2015-BALOTAJE,362D,362D,Kirchnerismo,Cambiemos,1,52.3
+2011-GENERAL,2015-BALOTAJE,362E,362B,Kirchnerismo,Kirchnerismo,0,58.0
+2011-GENERAL,2015-BALOTAJE,362F,362B,Kirchnerismo,Kirchnerismo,0,69.9
+2011-GENERAL,2015-BALOTAJE,363,363,Socialismo,Cambiemos,1,62.3
+2011-GENERAL,2015-BALOTAJE,364,364,Kirchnerismo,Cambiemos,1,61.5
+2011-GENERAL,2015-BALOTAJE,365,365,Socialismo,Cambiemos,1,76.4
+2011-GENERAL,2015-BALOTAJE,366,366,Kirchnerismo,Cambiemos,1,62.1
+2011-GENERAL,2015-BALOTAJE,367,367,Socialismo,Cambiemos,1,63.1
+2011-GENERAL,2015-BALOTAJE,368A,,,Cambiemos,9,67.9
+2011-GENERAL,2015-BALOTAJE,368B,368B,Kirchnerismo,Cambiemos,1,71.1
+2011-GENERAL,2015-BALOTAJE,368C,,,Cambiemos,9,92.9
+2011-GENERAL,2015-BALOTAJE,368D,,,Cambiemos,9,62.6
+2011-GENERAL,2015-BALOTAJE,369,369,Kirchnerismo,Cambiemos,1,52.3
+2011-GENERAL,2015-BALOTAJE,370,370,Socialismo,Cambiemos,1,68.9
+2011-GENERAL,2015-BALOTAJE,371,371,Socialismo,Cambiemos,1,68.2
+2011-GENERAL,2015-BALOTAJE,372,372,Socialismo,Cambiemos,1,64.2
+2011-GENERAL,2015-BALOTAJE,373,373,Socialismo,Cambiemos,1,65.8
+2011-GENERAL,2015-BALOTAJE,374,374,Socialismo,Cambiemos,1,64.5
+2011-GENERAL,2015-BALOTAJE,375,375,Socialismo,Cambiemos,1,73.4
+2011-GENERAL,2015-BALOTAJE,375A,375A,Kirchnerismo,Cambiemos,1,55.2
+2011-GENERAL,2015-BALOTAJE,376,376,Socialismo,Cambiemos,1,67.2
+2011-GENERAL,2015-BALOTAJE,377A,377A,Kirchnerismo,Cambiemos,1,61.1
+2011-GENERAL,2015-BALOTAJE,377B,377B,Socialismo,Cambiemos,1,61.5
+2011-GENERAL,2015-BALOTAJE,377C,377C,Kirchnerismo,Cambiemos,1,50.9
+2011-GENERAL,2015-BALOTAJE,378,378,Kirchnerismo,Kirchnerismo,0,50.4
+2011-GENERAL,2015-BALOTAJE,378A,378A,Kirchnerismo,Cambiemos,1,57.5
+2011-GENERAL,2015-BALOTAJE,378B,378B,Kirchnerismo,Cambiemos,1,50.9
+2011-GENERAL,2015-BALOTAJE,378C,378C,Socialismo,Cambiemos,1,74.7
+2011-GENERAL,2015-BALOTAJE,378D,378D,Socialismo,Cambiemos,1,69.7
+2011-GENERAL,2015-BALOTAJE,379A,379A,Socialismo,Cambiemos,1,66.7
+2011-GENERAL,2015-BALOTAJE,379B,379B,Kirchnerismo,Cambiemos,1,63.6
+2011-GENERAL,2015-BALOTAJE,379C,379C,Kirchnerismo,Cambiemos,1,62.5
+2011-GENERAL,2015-BALOTAJE,380,380,Socialismo,Cambiemos,1,59.3
+2011-GENERAL,2015-BALOTAJE,381,381,Socialismo,Cambiemos,1,68.2
+2011-GENERAL,2015-BALOTAJE,382,382,Socialismo,Cambiemos,1,70.8
+2011-GENERAL,2015-BALOTAJE,383,383,Socialismo,Cambiemos,1,66.4
+2011-GENERAL,2015-BALOTAJE,384,,,Kirchnerismo,9,53.5
+2011-GENERAL,2015-BALOTAJE,384A,384A,Kirchnerismo,Kirchnerismo,0,51.8
+2011-GENERAL,2015-BALOTAJE,384B,384B,Kirchnerismo,Kirchnerismo,0,55.5
+2011-GENERAL,2015-BALOTAJE,384C,384C,Kirchnerismo,Cambiemos,1,57.1
+2011-GENERAL,2015-BALOTAJE,385A,385A,Kirchnerismo,Cambiemos,1,73.8
+2011-GENERAL,2015-BALOTAJE,385B,385B,Kirchnerismo,Cambiemos,1,72.8
+2011-GENERAL,2015-BALOTAJE,385C,385C,Kirchnerismo,Cambiemos,1,66.0
+2011-GENERAL,2015-BALOTAJE,386,386,Socialismo,Cambiemos,1,65.1
+2011-GENERAL,2015-BALOTAJE,386A,386A,Kirchnerismo,Cambiemos,1,66.5
+2011-GENERAL,2015-BALOTAJE,386B,386B,Kirchnerismo,Cambiemos,1,59.7
+2011-GENERAL,2015-BALOTAJE,387,387,Socialismo,Cambiemos,1,62.7
+2011-GENERAL,2015-BALOTAJE,388A,388A,Kirchnerismo,Kirchnerismo,0,58.4
+2011-GENERAL,2015-BALOTAJE,388B,388B,Kirchnerismo,Cambiemos,1,52.7
+2011-GENERAL,2015-BALOTAJE,389,389,Kirchnerismo,Cambiemos,1,62.6
+2011-GENERAL,2015-BALOTAJE,390A,390A,Kirchnerismo,Cambiemos,1,58.2
+2011-GENERAL,2015-BALOTAJE,390B,390B,Kirchnerismo,Cambiemos,1,54.4
+2011-GENERAL,2015-BALOTAJE,390C,390C,Socialismo,Cambiemos,1,69.8
+2011-GENERAL,2015-BALOTAJE,390D,390D,Kirchnerismo,Cambiemos,1,52.7
+2011-GENERAL,2015-BALOTAJE,391,391,Kirchnerismo,Kirchnerismo,0,58.7
+2011-GENERAL,2015-BALOTAJE,391A,391A,Kirchnerismo,Cambiemos,1,59.0
+2011-GENERAL,2015-BALOTAJE,392,392,Kirchnerismo,Cambiemos,1,60.5
+2011-GENERAL,2015-BALOTAJE,393,393,Kirchnerismo,Cambiemos,1,56.5
+2011-GENERAL,2015-BALOTAJE,393A,393A,Kirchnerismo,Cambiemos,1,54.6
+2011-GENERAL,2015-BALOTAJE,394,394,Kirchnerismo,Cambiemos,1,59.1
+2011-GENERAL,2015-BALOTAJE,395A,395A,Kirchnerismo,Cambiemos,1,71.9
+2011-GENERAL,2015-BALOTAJE,395B,395B,Kirchnerismo,Cambiemos,1,70.9
+2011-GENERAL,2015-BALOTAJE,396,396,Kirchnerismo,Kirchnerismo,0,53.7
+2011-GENERAL,2015-BALOTAJE,396A,396A,Kirchnerismo,Cambiemos,1,52.3
+2011-GENERAL,2015-BALOTAJE,397,397,Kirchnerismo,Cambiemos,1,59.1
+2011-GENERAL,2015-BALOTAJE,397A,397A,Kirchnerismo,Cambiemos,1,52.3
+2011-GENERAL,2015-BALOTAJE,398,398,Kirchnerismo,Cambiemos,1,64.0
+2011-GENERAL,2015-BALOTAJE,399,399,Socialismo,Cambiemos,1,65.7
+2011-GENERAL,2015-BALOTAJE,400,400,Kirchnerismo,Cambiemos,1,69.2
+2011-GENERAL,2015-BALOTAJE,401A,401A,Kirchnerismo,Cambiemos,1,61.0
+2011-GENERAL,2015-BALOTAJE,401B,401B,Kirchnerismo,Cambiemos,1,59.3
+2011-GENERAL,2015-BALOTAJE,402,402,Socialismo,Cambiemos,1,73.2
+2011-GENERAL,2015-BALOTAJE,403,403,Kirchnerismo,Cambiemos,1,56.8
+2011-GENERAL,2015-BALOTAJE,404A,404A,Kirchnerismo,Cambiemos,1,67.2
+2011-GENERAL,2015-BALOTAJE,404B,404B,Kirchnerismo,Cambiemos,1,70.1
+2011-GENERAL,2015-BALOTAJE,405,405,Socialismo,Cambiemos,1,77.9
+2011-GENERAL,2015-BALOTAJE,406,406,Kirchnerismo,Cambiemos,1,60.3
+2011-GENERAL,2015-BALOTAJE,407,407,Kirchnerismo,Cambiemos,1,58.9
+2011-GENERAL,2015-BALOTAJE,408,408,Kirchnerismo,Cambiemos,1,53.9
+2011-GENERAL,2015-BALOTAJE,409,409,Socialismo,Cambiemos,1,57.5
+2011-GENERAL,2015-BALOTAJE,410,410,Socialismo,Cambiemos,1,58.2
+2011-GENERAL,2015-BALOTAJE,411A,411A,Socialismo,Cambiemos,1,61.9
+2011-GENERAL,2015-BALOTAJE,411B,411B,Kirchnerismo,Cambiemos,1,50.0
+2011-GENERAL,2015-BALOTAJE,412,412,Kirchnerismo,Cambiemos,1,54.9
+2011-GENERAL,2015-BALOTAJE,413A,413A,Kirchnerismo,Cambiemos,1,67.6
+2011-GENERAL,2015-BALOTAJE,413B,413B,Socialismo,Cambiemos,1,71.1
+2011-GENERAL,2015-BALOTAJE,413C,413C,Kirchnerismo,Kirchnerismo,0,64.7
+2011-GENERAL,2015-BALOTAJE,414,414,Kirchnerismo,Cambiemos,1,52.6
+2011-GENERAL,2015-BALOTAJE,414A,414A,Kirchnerismo,Kirchnerismo,0,52.5
+2011-GENERAL,2015-BALOTAJE,415,415,Socialismo,Cambiemos,1,70.2
+2011-GENERAL,2015-BALOTAJE,416,416,Kirchnerismo,Cambiemos,1,50.2
+2011-GENERAL,2015-BALOTAJE,417,417,Socialismo,Cambiemos,1,56.2
+2011-GENERAL,2015-BALOTAJE,417A,417A,Kirchnerismo,Cambiemos,1,64.0
+2011-GENERAL,2015-BALOTAJE,417B,417B,Socialismo,Cambiemos,1,58.6
+2011-GENERAL,2015-BALOTAJE,418A,418A,Kirchnerismo,Kirchnerismo,0,54.5
+2011-GENERAL,2015-BALOTAJE,418B,418B,Socialismo,Cambiemos,1,64.6
+2011-GENERAL,2015-BALOTAJE,419,419,Kirchnerismo,Cambiemos,1,51.3
+2011-GENERAL,2015-BALOTAJE,420,420,Kirchnerismo,Kirchnerismo,0,50.8
+2011-GENERAL,2015-BALOTAJE,420A,420A,Kirchnerismo,Kirchnerismo,0,50.1
+2011-GENERAL,2015-BALOTAJE,421,421,Kirchnerismo,Kirchnerismo,0,58.3
+2011-GENERAL,2015-BALOTAJE,422,422,Kirchnerismo,Cambiemos,1,72.4
+2011-GENERAL,2015-BALOTAJE,422A,422A,Kirchnerismo,Cambiemos,1,50.0
+2011-GENERAL,2015-BALOTAJE,422B,,,Cambiemos,9,74.9
+2011-GENERAL,2015-BALOTAJE,423,423,Kirchnerismo,Cambiemos,1,53.3
+2011-GENERAL,2015-BALOTAJE,424,424,Socialismo,Cambiemos,1,68.0
+2011-GENERAL,2015-BALOTAJE,425A,425A,Socialismo,Cambiemos,1,58.5
+2011-GENERAL,2015-BALOTAJE,425B,425B,Socialismo,Cambiemos,1,66.0
+2015-BALOTAJE,2019-GENERAL,1,1,Cambiemos,Cambiemos,0,67.9
+2015-BALOTAJE,2019-GENERAL,2,2,Cambiemos,Cambiemos,0,68.7
+2015-BALOTAJE,2019-GENERAL,3,3,Cambiemos,Cambiemos,0,65.9
+2015-BALOTAJE,2019-GENERAL,4,4,Cambiemos,Cambiemos,0,67.3
+2015-BALOTAJE,2019-GENERAL,5,5,Cambiemos,Cambiemos,0,68.9
+2015-BALOTAJE,2019-GENERAL,6,6,Cambiemos,Cambiemos,0,63.6
+2015-BALOTAJE,2019-GENERAL,7,7,Kirchnerismo,Kirchnerismo,0,47.4
+2015-BALOTAJE,2019-GENERAL,8,8,Cambiemos,Cambiemos,0,46.3
+2015-BALOTAJE,2019-GENERAL,9,9,Cambiemos,Cambiemos,0,63.7
+2015-BALOTAJE,2019-GENERAL,10,10,Cambiemos,Cambiemos,0,59.3
+2015-BALOTAJE,2019-GENERAL,11,11,Cambiemos,Cambiemos,0,54.9
+2015-BALOTAJE,2019-GENERAL,12,12,Cambiemos,Cambiemos,0,59.1
+2015-BALOTAJE,2019-GENERAL,13,13,Cambiemos,Cambiemos,0,53.0
+2015-BALOTAJE,2019-GENERAL,14,14,Kirchnerismo,Kirchnerismo,0,47.5
+2015-BALOTAJE,2019-GENERAL,15,15,Kirchnerismo,Kirchnerismo,0,59.2
+2015-BALOTAJE,2019-GENERAL,16,16,Kirchnerismo,Kirchnerismo,0,48.5
+2015-BALOTAJE,2019-GENERAL,17,17,Cambiemos,Cambiemos,0,49.7
+2015-BALOTAJE,2019-GENERAL,18,18,Kirchnerismo,Kirchnerismo,0,67.8
+2015-BALOTAJE,2019-GENERAL,19,19,Cambiemos,Cambiemos,0,51.2
+2015-BALOTAJE,2019-GENERAL,20,20,Cambiemos,Cambiemos,0,47.9
+2015-BALOTAJE,2019-GENERAL,21,21,Cambiemos,Kirchnerismo,-1,43.2
+2015-BALOTAJE,2019-GENERAL,22,22,Kirchnerismo,Kirchnerismo,0,48.7
+2015-BALOTAJE,2019-GENERAL,23,23,Cambiemos,Kirchnerismo,-1,44.5
+2015-BALOTAJE,2019-GENERAL,24,24,Cambiemos,Cambiemos,0,43.3
+2015-BALOTAJE,2019-GENERAL,25,25,Cambiemos,Cambiemos,0,53.1
+2015-BALOTAJE,2019-GENERAL,26,26,Kirchnerismo,Kirchnerismo,0,48.8
+2015-BALOTAJE,2019-GENERAL,27,27,Kirchnerismo,Kirchnerismo,0,46.3
+2015-BALOTAJE,2019-GENERAL,28,28,Cambiemos,Cambiemos,0,53.1
+2015-BALOTAJE,2019-GENERAL,29,29,Cambiemos,Cambiemos,0,43.6
+2015-BALOTAJE,2019-GENERAL,30,30,Cambiemos,Cambiemos,0,64.7
+2015-BALOTAJE,2019-GENERAL,31,31,Cambiemos,Cambiemos,0,70.8
+2015-BALOTAJE,2019-GENERAL,32,32,Cambiemos,Cambiemos,0,47.4
+2015-BALOTAJE,2019-GENERAL,33,33,Cambiemos,Kirchnerismo,-1,44.3
+2015-BALOTAJE,2019-GENERAL,34,34,Kirchnerismo,Kirchnerismo,0,60.8
+2015-BALOTAJE,2019-GENERAL,35,35,Kirchnerismo,Kirchnerismo,0,51.0
+2015-BALOTAJE,2019-GENERAL,36,36,Cambiemos,Cambiemos,0,59.2
+2015-BALOTAJE,2019-GENERAL,37,37,Cambiemos,Cambiemos,0,54.5
+2015-BALOTAJE,2019-GENERAL,38,38,Cambiemos,Kirchnerismo,-1,44.8
+2015-BALOTAJE,2019-GENERAL,39,39,Kirchnerismo,Kirchnerismo,0,48.5
+2015-BALOTAJE,2019-GENERAL,40,40,Kirchnerismo,Kirchnerismo,0,50.3
+2015-BALOTAJE,2019-GENERAL,41,41,Cambiemos,Cambiemos,0,59.0
+2015-BALOTAJE,2019-GENERAL,42,42,Cambiemos,Cambiemos,0,63.5
+2015-BALOTAJE,2019-GENERAL,43,43,Cambiemos,Cambiemos,0,45.6
+2015-BALOTAJE,2019-GENERAL,44,44,Cambiemos,Cambiemos,0,50.5
+2015-BALOTAJE,2019-GENERAL,45,45,Cambiemos,Cambiemos,0,49.2
+2015-BALOTAJE,2019-GENERAL,46,46,Cambiemos,Cambiemos,0,49.9
+2015-BALOTAJE,2019-GENERAL,47,47,Cambiemos,Cambiemos,0,50.2
+2015-BALOTAJE,2019-GENERAL,48,48,Cambiemos,Cambiemos,0,59.3
+2015-BALOTAJE,2019-GENERAL,49,49,Cambiemos,Cambiemos,0,54.4
+2015-BALOTAJE,2019-GENERAL,50,50,Cambiemos,Cambiemos,0,60.0
+2015-BALOTAJE,2019-GENERAL,51,51,Cambiemos,Kirchnerismo,-1,44.5
+2015-BALOTAJE,2019-GENERAL,52,52,Cambiemos,Cambiemos,0,70.1
+2015-BALOTAJE,2019-GENERAL,53,53,Cambiemos,Cambiemos,0,71.3
+2015-BALOTAJE,2019-GENERAL,54,54,Cambiemos,Cambiemos,0,68.4
+2015-BALOTAJE,2019-GENERAL,55,55,Cambiemos,Cambiemos,0,62.5
+2015-BALOTAJE,2019-GENERAL,56,56,Cambiemos,Cambiemos,0,65.0
+2015-BALOTAJE,2019-GENERAL,57,57,Cambiemos,Cambiemos,0,56.0
+2015-BALOTAJE,2019-GENERAL,58,58,Cambiemos,Cambiemos,0,74.3
+2015-BALOTAJE,2019-GENERAL,59,59,Cambiemos,Cambiemos,0,63.5
+2015-BALOTAJE,2019-GENERAL,60,60,Cambiemos,Cambiemos,0,76.6
+2015-BALOTAJE,2019-GENERAL,61,61,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,62,62,Cambiemos,Cambiemos,0,74.4
+2015-BALOTAJE,2019-GENERAL,63,63,Cambiemos,Cambiemos,0,73.5
+2015-BALOTAJE,2019-GENERAL,64,64,Cambiemos,Cambiemos,0,77.5
+2015-BALOTAJE,2019-GENERAL,65,65,Cambiemos,Cambiemos,0,70.8
+2015-BALOTAJE,2019-GENERAL,66,66,Cambiemos,Cambiemos,0,57.2
+2015-BALOTAJE,2019-GENERAL,67,67,Cambiemos,Kirchnerismo,-1,45.9
+2015-BALOTAJE,2019-GENERAL,68,68,Cambiemos,Cambiemos,0,68.3
+2015-BALOTAJE,2019-GENERAL,69,69,Cambiemos,Cambiemos,0,65.4
+2015-BALOTAJE,2019-GENERAL,70,70,Cambiemos,Cambiemos,0,95.4
+2015-BALOTAJE,2019-GENERAL,71,71,Cambiemos,Cambiemos,0,62.6
+2015-BALOTAJE,2019-GENERAL,72,72,Cambiemos,Cambiemos,0,78.9
+2015-BALOTAJE,2019-GENERAL,73,73,Cambiemos,Cambiemos,0,59.6
+2015-BALOTAJE,2019-GENERAL,74,74,Cambiemos,Cambiemos,0,91.8
+2015-BALOTAJE,2019-GENERAL,75,75,Cambiemos,Cambiemos,0,65.7
+2015-BALOTAJE,2019-GENERAL,76,76,Cambiemos,Cambiemos,0,64.5
+2015-BALOTAJE,2019-GENERAL,77,77,Cambiemos,Cambiemos,0,79.3
+2015-BALOTAJE,2019-GENERAL,79,79,Cambiemos,Cambiemos,0,44.5
+2015-BALOTAJE,2019-GENERAL,80,80,Cambiemos,Cambiemos,0,65.2
+2015-BALOTAJE,2019-GENERAL,81,81,Cambiemos,Cambiemos,0,54.7
+2015-BALOTAJE,2019-GENERAL,82,82,Cambiemos,Cambiemos,0,56.3
+2015-BALOTAJE,2019-GENERAL,83,83,Cambiemos,Cambiemos,0,42.9
+2015-BALOTAJE,2019-GENERAL,84,84,Cambiemos,Kirchnerismo,-1,49.2
+2015-BALOTAJE,2019-GENERAL,85,85,Cambiemos,Cambiemos,0,45.3
+2015-BALOTAJE,2019-GENERAL,86,86,Cambiemos,Cambiemos,0,45.1
+2015-BALOTAJE,2019-GENERAL,87,87,Cambiemos,Cambiemos,0,45.5
+2015-BALOTAJE,2019-GENERAL,88,88,Cambiemos,Kirchnerismo,-1,50.6
+2015-BALOTAJE,2019-GENERAL,89,89,Cambiemos,Cambiemos,0,47.2
+2015-BALOTAJE,2019-GENERAL,91,91,Kirchnerismo,Kirchnerismo,0,50.2
+2015-BALOTAJE,2019-GENERAL,92,92,Cambiemos,Cambiemos,0,50.0
+2015-BALOTAJE,2019-GENERAL,93,93,Cambiemos,Cambiemos,0,46.9
+2015-BALOTAJE,2019-GENERAL,94,94,Kirchnerismo,Kirchnerismo,0,67.3
+2015-BALOTAJE,2019-GENERAL,95,95,Kirchnerismo,Kirchnerismo,0,49.5
+2015-BALOTAJE,2019-GENERAL,96,96,Kirchnerismo,Kirchnerismo,0,63.4
+2015-BALOTAJE,2019-GENERAL,97,97,Cambiemos,Cambiemos,0,58.7
+2015-BALOTAJE,2019-GENERAL,98,98,Kirchnerismo,Kirchnerismo,0,60.0
+2015-BALOTAJE,2019-GENERAL,100,100,Cambiemos,Cambiemos,0,63.5
+2015-BALOTAJE,2019-GENERAL,101,101,Kirchnerismo,Kirchnerismo,0,49.0
+2015-BALOTAJE,2019-GENERAL,104,104,Cambiemos,Kirchnerismo,-1,58.3
+2015-BALOTAJE,2019-GENERAL,105,105,Kirchnerismo,Kirchnerismo,0,55.8
+2015-BALOTAJE,2019-GENERAL,106,106,Cambiemos,Kirchnerismo,-1,46.1
+2015-BALOTAJE,2019-GENERAL,107,107,Kirchnerismo,Kirchnerismo,0,46.5
+2015-BALOTAJE,2019-GENERAL,108,108,Kirchnerismo,Kirchnerismo,0,55.5
+2015-BALOTAJE,2019-GENERAL,109,109,Cambiemos,Kirchnerismo,-1,63.9
+2015-BALOTAJE,2019-GENERAL,110,110,Kirchnerismo,Kirchnerismo,0,50.3
+2015-BALOTAJE,2019-GENERAL,111,111,Cambiemos,Cambiemos,0,82.4
+2015-BALOTAJE,2019-GENERAL,112,112,Cambiemos,Cambiemos,0,71.1
+2015-BALOTAJE,2019-GENERAL,113,113,Cambiemos,Cambiemos,0,84.0
+2015-BALOTAJE,2019-GENERAL,114,114,Cambiemos,Cambiemos,0,57.9
+2015-BALOTAJE,2019-GENERAL,115,115,Cambiemos,Cambiemos,0,60.5
+2015-BALOTAJE,2019-GENERAL,116,116,Cambiemos,Cambiemos,0,81.0
+2015-BALOTAJE,2019-GENERAL,117,117,Cambiemos,Cambiemos,0,67.8
+2015-BALOTAJE,2019-GENERAL,118,118,Cambiemos,Cambiemos,0,55.0
+2015-BALOTAJE,2019-GENERAL,119,119,Cambiemos,Cambiemos,0,65.6
+2015-BALOTAJE,2019-GENERAL,11A,11A,Kirchnerismo,Kirchnerismo,0,67.5
+2015-BALOTAJE,2019-GENERAL,120,120,Cambiemos,Cambiemos,0,57.8
+2015-BALOTAJE,2019-GENERAL,121,121,Cambiemos,Cambiemos,0,64.7
+2015-BALOTAJE,2019-GENERAL,122,122,Cambiemos,Cambiemos,0,69.0
+2015-BALOTAJE,2019-GENERAL,123,123,Cambiemos,Cambiemos,0,57.9
+2015-BALOTAJE,2019-GENERAL,124,124,Cambiemos,Cambiemos,0,61.1
+2015-BALOTAJE,2019-GENERAL,125,125,Cambiemos,Cambiemos,0,59.3
+2015-BALOTAJE,2019-GENERAL,126,126,Cambiemos,Cambiemos,0,57.1
+2015-BALOTAJE,2019-GENERAL,127,127,Cambiemos,Cambiemos,0,80.5
+2015-BALOTAJE,2019-GENERAL,129,129,Cambiemos,Cambiemos,0,71.0
+2015-BALOTAJE,2019-GENERAL,130,130,Cambiemos,Cambiemos,0,56.1
+2015-BALOTAJE,2019-GENERAL,131,131,Cambiemos,Cambiemos,0,58.6
+2015-BALOTAJE,2019-GENERAL,132,132,Cambiemos,Cambiemos,0,70.2
+2015-BALOTAJE,2019-GENERAL,133,133,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,134,134,Cambiemos,Cambiemos,0,59.8
+2015-BALOTAJE,2019-GENERAL,135,135,Cambiemos,Cambiemos,0,78.3
+2015-BALOTAJE,2019-GENERAL,136,136,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,137,137,Cambiemos,Cambiemos,0,47.2
+2015-BALOTAJE,2019-GENERAL,138,138,Cambiemos,Cambiemos,0,64.7
+2015-BALOTAJE,2019-GENERAL,139,139,Cambiemos,Cambiemos,0,57.1
+2015-BALOTAJE,2019-GENERAL,140,140,Cambiemos,Cambiemos,0,47.6
+2015-BALOTAJE,2019-GENERAL,141,141,Cambiemos,Kirchnerismo,-1,46.0
+2015-BALOTAJE,2019-GENERAL,142,142,Cambiemos,Cambiemos,0,54.5
+2015-BALOTAJE,2019-GENERAL,143,143,Cambiemos,Cambiemos,0,62.4
+2015-BALOTAJE,2019-GENERAL,144,144,Cambiemos,Cambiemos,0,66.6
+2015-BALOTAJE,2019-GENERAL,145,145,Cambiemos,Cambiemos,0,67.4
+2015-BALOTAJE,2019-GENERAL,146,146,Cambiemos,Cambiemos,0,87.7
+2015-BALOTAJE,2019-GENERAL,147,147,Kirchnerismo,Kirchnerismo,0,55.6
+2015-BALOTAJE,2019-GENERAL,148,148,Cambiemos,Cambiemos,0,60.4
+2015-BALOTAJE,2019-GENERAL,149,149,Cambiemos,Cambiemos,0,60.7
+2015-BALOTAJE,2019-GENERAL,150,150,Cambiemos,Cambiemos,0,77.8
+2015-BALOTAJE,2019-GENERAL,151,151,Cambiemos,Cambiemos,0,47.1
+2015-BALOTAJE,2019-GENERAL,152,152,Cambiemos,Cambiemos,0,86.5
+2015-BALOTAJE,2019-GENERAL,153,153,Cambiemos,Cambiemos,0,58.7
+2015-BALOTAJE,2019-GENERAL,154,154,Cambiemos,Cambiemos,0,56.2
+2015-BALOTAJE,2019-GENERAL,155,155,Cambiemos,Kirchnerismo,-1,43.5
+2015-BALOTAJE,2019-GENERAL,156,156,Cambiemos,Cambiemos,0,67.5
+2015-BALOTAJE,2019-GENERAL,157,157,Cambiemos,Cambiemos,0,56.7
+2015-BALOTAJE,2019-GENERAL,158,158,Cambiemos,Cambiemos,0,50.4
+2015-BALOTAJE,2019-GENERAL,159,159,Cambiemos,Cambiemos,0,52.6
+2015-BALOTAJE,2019-GENERAL,160,160,Cambiemos,Cambiemos,0,61.3
+2015-BALOTAJE,2019-GENERAL,161,161,Cambiemos,Cambiemos,0,56.9
+2015-BALOTAJE,2019-GENERAL,162,162,Kirchnerismo,Kirchnerismo,0,53.5
+2015-BALOTAJE,2019-GENERAL,163,163,Kirchnerismo,Kirchnerismo,0,67.8
+2015-BALOTAJE,2019-GENERAL,164,164,Cambiemos,Cambiemos,0,60.4
+2015-BALOTAJE,2019-GENERAL,165,165,Cambiemos,Cambiemos,0,50.3
+2015-BALOTAJE,2019-GENERAL,166,166,Cambiemos,Cambiemos,0,59.6
+2015-BALOTAJE,2019-GENERAL,167,167,Cambiemos,Cambiemos,0,53.9
+2015-BALOTAJE,2019-GENERAL,168,168,Cambiemos,Kirchnerismo,-1,46.7
+2015-BALOTAJE,2019-GENERAL,169,169,Cambiemos,Cambiemos,0,61.1
+2015-BALOTAJE,2019-GENERAL,174,174,Cambiemos,Cambiemos,0,60.0
+2015-BALOTAJE,2019-GENERAL,175,175,Cambiemos,Kirchnerismo,-1,52.7
+2015-BALOTAJE,2019-GENERAL,176,176,Kirchnerismo,Kirchnerismo,0,52.7
+2015-BALOTAJE,2019-GENERAL,177,177,Cambiemos,Cambiemos,0,43.5
+2015-BALOTAJE,2019-GENERAL,178,178,Cambiemos,Cambiemos,0,47.6
+2015-BALOTAJE,2019-GENERAL,179,179,Cambiemos,Kirchnerismo,-1,46.9
+2015-BALOTAJE,2019-GENERAL,180,180,Cambiemos,Cambiemos,0,54.4
+2015-BALOTAJE,2019-GENERAL,181,181,Cambiemos,Cambiemos,0,59.6
+2015-BALOTAJE,2019-GENERAL,182,182,Cambiemos,Cambiemos,0,61.5
+2015-BALOTAJE,2019-GENERAL,183,183,Cambiemos,Cambiemos,0,58.3
+2015-BALOTAJE,2019-GENERAL,184,184,Cambiemos,Cambiemos,0,48.3
+2015-BALOTAJE,2019-GENERAL,185,185,Kirchnerismo,Kirchnerismo,0,50.5
+2015-BALOTAJE,2019-GENERAL,186,186,Cambiemos,Cambiemos,0,46.2
+2015-BALOTAJE,2019-GENERAL,187,187,Cambiemos,Cambiemos,0,66.2
+2015-BALOTAJE,2019-GENERAL,188,188,Cambiemos,Cambiemos,0,57.0
+2015-BALOTAJE,2019-GENERAL,189,189,Cambiemos,Kirchnerismo,-1,56.1
+2015-BALOTAJE,2019-GENERAL,191,191,Cambiemos,Cambiemos,0,57.5
+2015-BALOTAJE,2019-GENERAL,192,192,Cambiemos,Cambiemos,0,50.0
+2015-BALOTAJE,2019-GENERAL,193,193,Cambiemos,Kirchnerismo,-1,47.2
+2015-BALOTAJE,2019-GENERAL,194,194,Cambiemos,Cambiemos,0,53.4
+2015-BALOTAJE,2019-GENERAL,195,195,Cambiemos,Kirchnerismo,-1,55.1
+2015-BALOTAJE,2019-GENERAL,196,196,Kirchnerismo,Kirchnerismo,0,77.5
+2015-BALOTAJE,2019-GENERAL,197,197,Cambiemos,Cambiemos,0,62.3
+2015-BALOTAJE,2019-GENERAL,198,198,Kirchnerismo,Cambiemos,1,49.1
+2015-BALOTAJE,2019-GENERAL,199,199,Cambiemos,Cambiemos,0,73.8
+2015-BALOTAJE,2019-GENERAL,200,200,Kirchnerismo,Kirchnerismo,0,61.2
+2015-BALOTAJE,2019-GENERAL,201,201,Cambiemos,Kirchnerismo,-1,45.3
+2015-BALOTAJE,2019-GENERAL,202,202,Cambiemos,Cambiemos,0,50.8
+2015-BALOTAJE,2019-GENERAL,203,203,Cambiemos,Cambiemos,0,76.8
+2015-BALOTAJE,2019-GENERAL,204,204,Cambiemos,Cambiemos,0,70.4
+2015-BALOTAJE,2019-GENERAL,205,205,Cambiemos,Cambiemos,0,49.5
+2015-BALOTAJE,2019-GENERAL,207,207,Kirchnerismo,Kirchnerismo,0,67.1
+2015-BALOTAJE,2019-GENERAL,208,208,Cambiemos,Cambiemos,0,54.1
+2015-BALOTAJE,2019-GENERAL,209,209,Kirchnerismo,Kirchnerismo,0,59.7
+2015-BALOTAJE,2019-GENERAL,20A,20A,Cambiemos,Cambiemos,0,50.4
+2015-BALOTAJE,2019-GENERAL,20B,20B,Cambiemos,Kirchnerismo,-1,44.0
+2015-BALOTAJE,2019-GENERAL,210,210,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,211,211,Cambiemos,Cambiemos,0,49.1
+2015-BALOTAJE,2019-GENERAL,212,212,Cambiemos,Cambiemos,0,50.0
+2015-BALOTAJE,2019-GENERAL,213,213,Cambiemos,Cambiemos,0,62.0
+2015-BALOTAJE,2019-GENERAL,214,214,Kirchnerismo,Kirchnerismo,0,61.1
+2015-BALOTAJE,2019-GENERAL,215,215,Cambiemos,Cambiemos,0,47.6
+2015-BALOTAJE,2019-GENERAL,216,216,Cambiemos,Cambiemos,0,51.3
+2015-BALOTAJE,2019-GENERAL,217,217,Cambiemos,Cambiemos,0,79.4
+2015-BALOTAJE,2019-GENERAL,218,218,Kirchnerismo,Kirchnerismo,0,55.1
+2015-BALOTAJE,2019-GENERAL,219,219,Cambiemos,Cambiemos,0,40.9
+2015-BALOTAJE,2019-GENERAL,220,220,Kirchnerismo,Kirchnerismo,0,66.6
+2015-BALOTAJE,2019-GENERAL,221,221,Cambiemos,Cambiemos,0,48.9
+2015-BALOTAJE,2019-GENERAL,222,,,Kirchnerismo,9,60.2
+2015-BALOTAJE,2019-GENERAL,223,223,Cambiemos,Cambiemos,0,63.5
+2015-BALOTAJE,2019-GENERAL,224,224,Cambiemos,Cambiemos,0,56.9
+2015-BALOTAJE,2019-GENERAL,225,225,Cambiemos,Cambiemos,0,55.3
+2015-BALOTAJE,2019-GENERAL,226,226,Cambiemos,Kirchnerismo,-1,48.9
+2015-BALOTAJE,2019-GENERAL,227,227,Cambiemos,Cambiemos,0,55.3
+2015-BALOTAJE,2019-GENERAL,228,228,Kirchnerismo,Kirchnerismo,0,57.4
+2015-BALOTAJE,2019-GENERAL,229,229,Kirchnerismo,Kirchnerismo,0,55.2
+2015-BALOTAJE,2019-GENERAL,230,230,Kirchnerismo,Kirchnerismo,0,67.4
+2015-BALOTAJE,2019-GENERAL,231,231,Kirchnerismo,Kirchnerismo,0,56.7
+2015-BALOTAJE,2019-GENERAL,232,232,Kirchnerismo,Kirchnerismo,0,53.2
+2015-BALOTAJE,2019-GENERAL,233,233,Kirchnerismo,Kirchnerismo,0,64.4
+2015-BALOTAJE,2019-GENERAL,234,234,Kirchnerismo,Kirchnerismo,0,70.5
+2015-BALOTAJE,2019-GENERAL,235,235,Kirchnerismo,Kirchnerismo,0,59.1
+2015-BALOTAJE,2019-GENERAL,237,237,Kirchnerismo,Kirchnerismo,0,68.1
+2015-BALOTAJE,2019-GENERAL,238,238,Kirchnerismo,Kirchnerismo,0,72.5
+2015-BALOTAJE,2019-GENERAL,239,239,Kirchnerismo,Kirchnerismo,0,64.6
+2015-BALOTAJE,2019-GENERAL,240,240,Kirchnerismo,Kirchnerismo,0,87.9
+2015-BALOTAJE,2019-GENERAL,241,241,Cambiemos,Kirchnerismo,-1,55.0
+2015-BALOTAJE,2019-GENERAL,242,242,Cambiemos,Cambiemos,0,57.1
+2015-BALOTAJE,2019-GENERAL,243,,,Cambiemos,9,50.0
+2015-BALOTAJE,2019-GENERAL,244,244,Cambiemos,Cambiemos,0,52.5
+2015-BALOTAJE,2019-GENERAL,245,245,Cambiemos,Cambiemos,0,57.4
+2015-BALOTAJE,2019-GENERAL,246,246,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,247,247,Cambiemos,Cambiemos,0,59.4
+2015-BALOTAJE,2019-GENERAL,248,248,Cambiemos,Cambiemos,0,58.6
+2015-BALOTAJE,2019-GENERAL,249,249,Cambiemos,Cambiemos,0,56.1
+2015-BALOTAJE,2019-GENERAL,251,251,Kirchnerismo,Kirchnerismo,0,54.1
+2015-BALOTAJE,2019-GENERAL,252,252,Cambiemos,Kirchnerismo,-1,50.4
+2015-BALOTAJE,2019-GENERAL,253,253,Kirchnerismo,Kirchnerismo,0,59.4
+2015-BALOTAJE,2019-GENERAL,254,254,Cambiemos,Kirchnerismo,-1,46.3
+2015-BALOTAJE,2019-GENERAL,255,255,Kirchnerismo,Kirchnerismo,0,73.7
+2015-BALOTAJE,2019-GENERAL,256,,,Kirchnerismo,9,70.5
+2015-BALOTAJE,2019-GENERAL,257,,,Kirchnerismo,9,62.7
+2015-BALOTAJE,2019-GENERAL,258,259,Kirchnerismo,Kirchnerismo,0,66.7
+2015-BALOTAJE,2019-GENERAL,259,,,Kirchnerismo,9,61.7
+2015-BALOTAJE,2019-GENERAL,260,260,Kirchnerismo,Kirchnerismo,0,63.8
+2015-BALOTAJE,2019-GENERAL,261,261,Kirchnerismo,Kirchnerismo,0,68.4
+2015-BALOTAJE,2019-GENERAL,262,262,Kirchnerismo,Kirchnerismo,0,58.0
+2015-BALOTAJE,2019-GENERAL,263,263,Kirchnerismo,Kirchnerismo,0,75.0
+2015-BALOTAJE,2019-GENERAL,264,264,Kirchnerismo,Kirchnerismo,0,68.7
+2015-BALOTAJE,2019-GENERAL,267,267,Kirchnerismo,Kirchnerismo,0,59.5
+2015-BALOTAJE,2019-GENERAL,268,268,Kirchnerismo,Kirchnerismo,0,60.3
+2015-BALOTAJE,2019-GENERAL,269,269,Kirchnerismo,Kirchnerismo,0,69.0
+2015-BALOTAJE,2019-GENERAL,270,270,Cambiemos,Cambiemos,0,52.0
+2015-BALOTAJE,2019-GENERAL,271,271,Kirchnerismo,Kirchnerismo,0,69.2
+2015-BALOTAJE,2019-GENERAL,274,274,Cambiemos,Kirchnerismo,-1,54.2
+2015-BALOTAJE,2019-GENERAL,275,275,Cambiemos,Kirchnerismo,-1,49.8
+2015-BALOTAJE,2019-GENERAL,276,276,Kirchnerismo,Kirchnerismo,0,57.8
+2015-BALOTAJE,2019-GENERAL,277,277,Cambiemos,Kirchnerismo,-1,52.8
+2015-BALOTAJE,2019-GENERAL,278,278,Cambiemos,Cambiemos,0,85.7
+2015-BALOTAJE,2019-GENERAL,279,279,Cambiemos,Kirchnerismo,-1,51.2
+2015-BALOTAJE,2019-GENERAL,280,280,Cambiemos,Cambiemos,0,58.4
+2015-BALOTAJE,2019-GENERAL,281,281,Cambiemos,Cambiemos,0,85.7
+2015-BALOTAJE,2019-GENERAL,283,283,Kirchnerismo,Kirchnerismo,0,57.5
+2015-BALOTAJE,2019-GENERAL,284,284,Cambiemos,Cambiemos,0,49.3
+2015-BALOTAJE,2019-GENERAL,285,285,Cambiemos,Cambiemos,0,48.1
+2015-BALOTAJE,2019-GENERAL,286,286,Cambiemos,Cambiemos,0,66.7
+2015-BALOTAJE,2019-GENERAL,287,287,Cambiemos,Cambiemos,0,58.8
+2015-BALOTAJE,2019-GENERAL,289,289,Kirchnerismo,Kirchnerismo,0,51.7
+2015-BALOTAJE,2019-GENERAL,290,290,Cambiemos,Kirchnerismo,-1,48.9
+2015-BALOTAJE,2019-GENERAL,291,291,Cambiemos,Cambiemos,0,50.4
+2015-BALOTAJE,2019-GENERAL,292,292,Kirchnerismo,Kirchnerismo,0,60.1
+2015-BALOTAJE,2019-GENERAL,293,293,Cambiemos,Kirchnerismo,-1,52.8
+2015-BALOTAJE,2019-GENERAL,294,294,Cambiemos,Kirchnerismo,-1,41.5
+2015-BALOTAJE,2019-GENERAL,301,301,Cambiemos,Cambiemos,0,58.2
+2015-BALOTAJE,2019-GENERAL,302,302,Cambiemos,Cambiemos,0,56.9
+2015-BALOTAJE,2019-GENERAL,303,303,Cambiemos,Cambiemos,0,64.6
+2015-BALOTAJE,2019-GENERAL,304,304,Cambiemos,Cambiemos,0,54.5
+2015-BALOTAJE,2019-GENERAL,305,305,Cambiemos,Cambiemos,0,61.4
+2015-BALOTAJE,2019-GENERAL,306,306,Cambiemos,Cambiemos,0,62.3
+2015-BALOTAJE,2019-GENERAL,307,307,Cambiemos,Cambiemos,0,60.6
+2015-BALOTAJE,2019-GENERAL,308,308,Cambiemos,Cambiemos,0,65.2
+2015-BALOTAJE,2019-GENERAL,309,309,Cambiemos,Cambiemos,0,62.9
+2015-BALOTAJE,2019-GENERAL,310,310,Cambiemos,Cambiemos,0,58.4
+2015-BALOTAJE,2019-GENERAL,311,311,Cambiemos,Cambiemos,0,55.1
+2015-BALOTAJE,2019-GENERAL,312,312,Cambiemos,Cambiemos,0,55.1
+2015-BALOTAJE,2019-GENERAL,313,313,Cambiemos,Cambiemos,0,56.0
+2015-BALOTAJE,2019-GENERAL,314,314,Cambiemos,Cambiemos,0,59.0
+2015-BALOTAJE,2019-GENERAL,315,315,Cambiemos,Cambiemos,0,59.6
+2015-BALOTAJE,2019-GENERAL,316,316,Cambiemos,Cambiemos,0,61.5
+2015-BALOTAJE,2019-GENERAL,317,317,Cambiemos,Cambiemos,0,58.7
+2015-BALOTAJE,2019-GENERAL,318,318,Cambiemos,Cambiemos,0,58.0
+2015-BALOTAJE,2019-GENERAL,319,319,Cambiemos,Cambiemos,0,60.2
+2015-BALOTAJE,2019-GENERAL,320,320,Cambiemos,Cambiemos,0,62.2
+2015-BALOTAJE,2019-GENERAL,321,321,Cambiemos,Cambiemos,0,62.9
+2015-BALOTAJE,2019-GENERAL,322,322,Cambiemos,Cambiemos,0,46.3
+2015-BALOTAJE,2019-GENERAL,323,323,Cambiemos,Kirchnerismo,-1,46.6
+2015-BALOTAJE,2019-GENERAL,324,324,Cambiemos,Cambiemos,0,52.9
+2015-BALOTAJE,2019-GENERAL,325,325,Cambiemos,Cambiemos,0,54.3
+2015-BALOTAJE,2019-GENERAL,326,326,Cambiemos,Cambiemos,0,51.9
+2015-BALOTAJE,2019-GENERAL,327,327,Cambiemos,Cambiemos,0,55.0
+2015-BALOTAJE,2019-GENERAL,328,328,Cambiemos,Cambiemos,0,47.8
+2015-BALOTAJE,2019-GENERAL,329,329,Cambiemos,Cambiemos,0,46.5
+2015-BALOTAJE,2019-GENERAL,330,330,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,331,331,Cambiemos,Cambiemos,0,51.5
+2015-BALOTAJE,2019-GENERAL,332,332,Cambiemos,Cambiemos,0,52.4
+2015-BALOTAJE,2019-GENERAL,333,333,Cambiemos,Cambiemos,0,51.7
+2015-BALOTAJE,2019-GENERAL,334,334,Cambiemos,Cambiemos,0,44.1
+2015-BALOTAJE,2019-GENERAL,335,335,Cambiemos,Cambiemos,0,47.3
+2015-BALOTAJE,2019-GENERAL,336,336,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,337,337,Cambiemos,Cambiemos,0,48.2
+2015-BALOTAJE,2019-GENERAL,338,338,Cambiemos,Cambiemos,0,46.2
+2015-BALOTAJE,2019-GENERAL,339,339,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,340,340,Cambiemos,Cambiemos,0,42.7
+2015-BALOTAJE,2019-GENERAL,341,341,Cambiemos,Kirchnerismo,-1,46.1
+2015-BALOTAJE,2019-GENERAL,342,342,Cambiemos,Kirchnerismo,-1,44.8
+2015-BALOTAJE,2019-GENERAL,343,343,Cambiemos,Cambiemos,0,46.2
+2015-BALOTAJE,2019-GENERAL,344,344,Cambiemos,Cambiemos,0,43.3
+2015-BALOTAJE,2019-GENERAL,345,345,Cambiemos,Kirchnerismo,-1,43.0
+2015-BALOTAJE,2019-GENERAL,347,347,Cambiemos,Kirchnerismo,-1,46.4
+2015-BALOTAJE,2019-GENERAL,348,348,Kirchnerismo,Kirchnerismo,0,50.8
+2015-BALOTAJE,2019-GENERAL,349,349,Kirchnerismo,Kirchnerismo,0,51.5
+2015-BALOTAJE,2019-GENERAL,350,350,Kirchnerismo,Kirchnerismo,0,51.9
+2015-BALOTAJE,2019-GENERAL,351,351,Cambiemos,Kirchnerismo,-1,48.1
+2015-BALOTAJE,2019-GENERAL,352,352,Cambiemos,Cambiemos,0,53.1
+2015-BALOTAJE,2019-GENERAL,353,353,Kirchnerismo,Kirchnerismo,0,55.5
+2015-BALOTAJE,2019-GENERAL,354,354,Kirchnerismo,Kirchnerismo,0,60.5
+2015-BALOTAJE,2019-GENERAL,355,355,Kirchnerismo,Kirchnerismo,0,53.1
+2015-BALOTAJE,2019-GENERAL,356,356,Kirchnerismo,Kirchnerismo,0,51.1
+2015-BALOTAJE,2019-GENERAL,357,357,Cambiemos,Cambiemos,0,42.7
+2015-BALOTAJE,2019-GENERAL,358,358,Cambiemos,Kirchnerismo,-1,43.3
+2015-BALOTAJE,2019-GENERAL,359,359,Cambiemos,Kirchnerismo,-1,44.4
+2015-BALOTAJE,2019-GENERAL,360,360,Cambiemos,Cambiemos,0,49.2
+2015-BALOTAJE,2019-GENERAL,363,363,Cambiemos,Cambiemos,0,44.3
+2015-BALOTAJE,2019-GENERAL,364,364,Cambiemos,Cambiemos,0,44.6
+2015-BALOTAJE,2019-GENERAL,365,365,Cambiemos,Cambiemos,0,56.9
+2015-BALOTAJE,2019-GENERAL,366,366,Cambiemos,Cambiemos,0,54.7
+2015-BALOTAJE,2019-GENERAL,367,367,Cambiemos,Cambiemos,0,45.5
+2015-BALOTAJE,2019-GENERAL,369,369,Cambiemos,Kirchnerismo,-1,46.3
+2015-BALOTAJE,2019-GENERAL,370,370,Cambiemos,Cambiemos,0,49.6
+2015-BALOTAJE,2019-GENERAL,371,371,Cambiemos,Cambiemos,0,56.9
+2015-BALOTAJE,2019-GENERAL,372,372,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,373,373,Cambiemos,Cambiemos,0,53.9
+2015-BALOTAJE,2019-GENERAL,374,374,Cambiemos,Cambiemos,0,57.6
+2015-BALOTAJE,2019-GENERAL,375,375,Cambiemos,Cambiemos,0,60.1
+2015-BALOTAJE,2019-GENERAL,376,376,Cambiemos,Cambiemos,0,48.3
+2015-BALOTAJE,2019-GENERAL,378,378,Kirchnerismo,Kirchnerismo,0,49.8
+2015-BALOTAJE,2019-GENERAL,380,380,Cambiemos,Kirchnerismo,-1,43.7
+2015-BALOTAJE,2019-GENERAL,381,381,Cambiemos,Cambiemos,0,54.7
+2015-BALOTAJE,2019-GENERAL,382,382,Cambiemos,Cambiemos,0,54.2
+2015-BALOTAJE,2019-GENERAL,383,383,Cambiemos,Cambiemos,0,53.7
+2015-BALOTAJE,2019-GENERAL,384,,,Kirchnerismo,9,49.3
+2015-BALOTAJE,2019-GENERAL,386,386,Cambiemos,Cambiemos,0,50.8
+2015-BALOTAJE,2019-GENERAL,387,387,Cambiemos,Cambiemos,0,55.1
+2015-BALOTAJE,2019-GENERAL,389,389,Cambiemos,Cambiemos,0,51.0
+2015-BALOTAJE,2019-GENERAL,391,391,Kirchnerismo,Kirchnerismo,0,65.8
+2015-BALOTAJE,2019-GENERAL,392,392,Cambiemos,Cambiemos,0,44.0
+2015-BALOTAJE,2019-GENERAL,393,393,Cambiemos,Kirchnerismo,-1,46.6
+2015-BALOTAJE,2019-GENERAL,394,394,Cambiemos,Kirchnerismo,-1,44.8
+2015-BALOTAJE,2019-GENERAL,396,396,Kirchnerismo,Kirchnerismo,0,55.7
+2015-BALOTAJE,2019-GENERAL,397,397,Cambiemos,Cambiemos,0,44.9
+2015-BALOTAJE,2019-GENERAL,398,398,Cambiemos,Cambiemos,0,53.5
+2015-BALOTAJE,2019-GENERAL,399,399,Cambiemos,Cambiemos,0,57.5
+2015-BALOTAJE,2019-GENERAL,400,400,Cambiemos,Cambiemos,0,56.6
+2015-BALOTAJE,2019-GENERAL,402,402,Cambiemos,Cambiemos,0,62.9
+2015-BALOTAJE,2019-GENERAL,403,403,Cambiemos,Cambiemos,0,43.1
+2015-BALOTAJE,2019-GENERAL,405,405,Cambiemos,Cambiemos,0,63.3
+2015-BALOTAJE,2019-GENERAL,406,406,Cambiemos,Cambiemos,0,51.0
+2015-BALOTAJE,2019-GENERAL,407,407,Cambiemos,Cambiemos,0,44.8
+2015-BALOTAJE,2019-GENERAL,408,408,Cambiemos,Kirchnerismo,-1,42.5
+2015-BALOTAJE,2019-GENERAL,409,409,Cambiemos,Cambiemos,0,44.3
+2015-BALOTAJE,2019-GENERAL,410,410,Cambiemos,Cambiemos,0,46.2
+2015-BALOTAJE,2019-GENERAL,412,412,Cambiemos,Kirchnerismo,-1,45.9
+2015-BALOTAJE,2019-GENERAL,414,414,Cambiemos,Kirchnerismo,-1,48.0
+2015-BALOTAJE,2019-GENERAL,415,415,Cambiemos,Cambiemos,0,54.3
+2015-BALOTAJE,2019-GENERAL,416,416,Cambiemos,Kirchnerismo,-1,46.8
+2015-BALOTAJE,2019-GENERAL,417,417,Cambiemos,Cambiemos,0,43.8
+2015-BALOTAJE,2019-GENERAL,419,419,Cambiemos,Kirchnerismo,-1,46.1
+2015-BALOTAJE,2019-GENERAL,420,420,Kirchnerismo,Kirchnerismo,0,50.3
+2015-BALOTAJE,2019-GENERAL,421,421,Kirchnerismo,Kirchnerismo,0,58.6
+2015-BALOTAJE,2019-GENERAL,422,422,Cambiemos,Cambiemos,0,54.4
+2015-BALOTAJE,2019-GENERAL,423,423,Cambiemos,Kirchnerismo,-1,44.7
+2015-BALOTAJE,2019-GENERAL,424,424,Cambiemos,Cambiemos,0,49.5
+2015-BALOTAJE,2019-GENERAL,55A,,,Cambiemos,9,90.9
+2015-BALOTAJE,2019-GENERAL,55B,55B,Cambiemos,Cambiemos,0,62.7
+2015-BALOTAJE,2019-GENERAL,55C,,,Cambiemos,9,40.0
+2015-BALOTAJE,2019-GENERAL,55D,55D,Kirchnerismo,Kirchnerismo,0,46.2
+2015-BALOTAJE,2019-GENERAL,85A,85A,Cambiemos,Cambiemos,0,51.7
+2015-BALOTAJE,2019-GENERAL,96A,96A,Kirchnerismo,Kirchnerismo,0,53.8
+2015-BALOTAJE,2019-GENERAL,106A,106A,Cambiemos,Cambiemos,0,74.1
+2015-BALOTAJE,2019-GENERAL,106B,106B,Cambiemos,Cambiemos,0,55.8
+2015-BALOTAJE,2019-GENERAL,120A,120A,Cambiemos,Cambiemos,0,65.7
+2015-BALOTAJE,2019-GENERAL,120B,120B,Cambiemos,Cambiemos,0,69.2
+2015-BALOTAJE,2019-GENERAL,128A,128A,Cambiemos,Cambiemos,0,55.9
+2015-BALOTAJE,2019-GENERAL,128B,128B,Cambiemos,Cambiemos,0,60.6
+2015-BALOTAJE,2019-GENERAL,128C,128C,Cambiemos,Cambiemos,0,67.3
+2015-BALOTAJE,2019-GENERAL,128D,128D,Cambiemos,Cambiemos,0,62.6
+2015-BALOTAJE,2019-GENERAL,134A,134A,Kirchnerismo,Kirchnerismo,0,50.4
+2015-BALOTAJE,2019-GENERAL,134B,,,Kirchnerismo,9,61.4
+2015-BALOTAJE,2019-GENERAL,136A,136A,Cambiemos,Cambiemos,0,93.9
+2015-BALOTAJE,2019-GENERAL,181A,181A,Cambiemos,Cambiemos,0,59.7
+2015-BALOTAJE,2019-GENERAL,196A,,,Cambiemos,9,50.0
+2015-BALOTAJE,2019-GENERAL,196B,196B,Cambiemos,Cambiemos,0,63.2
+2015-BALOTAJE,2019-GENERAL,208A,,,Cambiemos,9,83.3
+2015-BALOTAJE,2019-GENERAL,208B,208B,Cambiemos,Cambiemos,0,51.0
+2015-BALOTAJE,2019-GENERAL,208C,208C,Cambiemos,Cambiemos,0,59.8
+2015-BALOTAJE,2019-GENERAL,210A,210A,Cambiemos,Cambiemos,0,60.0
+2015-BALOTAJE,2019-GENERAL,212A,212A,Cambiemos,Cambiemos,0,50.8
+2015-BALOTAJE,2019-GENERAL,214A,214A,Kirchnerismo,Kirchnerismo,0,67.3
+2015-BALOTAJE,2019-GENERAL,215A,215A,Cambiemos,Cambiemos,0,71.6
+2015-BALOTAJE,2019-GENERAL,216A,216A,Cambiemos,Cambiemos,0,58.5
+2015-BALOTAJE,2019-GENERAL,221A,221A,Cambiemos,Cambiemos,0,65.7
+2015-BALOTAJE,2019-GENERAL,222A,222A,Cambiemos,Cambiemos,0,66.7
+2015-BALOTAJE,2019-GENERAL,223A,223A,Cambiemos,Cambiemos,0,68.8
+2015-BALOTAJE,2019-GENERAL,224A,224A,Cambiemos,Cambiemos,0,68.2
+2015-BALOTAJE,2019-GENERAL,224B,224B,Kirchnerismo,Kirchnerismo,0,85.3
+2015-BALOTAJE,2019-GENERAL,224C,224C,Cambiemos,Cambiemos,0,57.5
+2015-BALOTAJE,2019-GENERAL,224D,224D,Kirchnerismo,Kirchnerismo,0,56.1
+2015-BALOTAJE,2019-GENERAL,224E,224E,Cambiemos,Kirchnerismo,-1,45.6
+2015-BALOTAJE,2019-GENERAL,225A,225A,Kirchnerismo,Kirchnerismo,0,72.0
+2015-BALOTAJE,2019-GENERAL,227A,227A,Cambiemos,Kirchnerismo,-1,50.7
+2015-BALOTAJE,2019-GENERAL,227B,227B,Cambiemos,Cambiemos,0,71.9
+2015-BALOTAJE,2019-GENERAL,232A,232A,Kirchnerismo,Kirchnerismo,0,63.9
+2015-BALOTAJE,2019-GENERAL,239A,,,Kirchnerismo,9,68.4
+2015-BALOTAJE,2019-GENERAL,244A,244A,Cambiemos,Cambiemos,0,58.6
+2015-BALOTAJE,2019-GENERAL,244B,244B,Kirchnerismo,Kirchnerismo,0,57.1
+2015-BALOTAJE,2019-GENERAL,246A,246A,Kirchnerismo,Kirchnerismo,0,71.3
+2015-BALOTAJE,2019-GENERAL,254A,254A,Kirchnerismo,Kirchnerismo,0,68.8
+2015-BALOTAJE,2019-GENERAL,256A,,,Cambiemos,9,100.0
+2015-BALOTAJE,2019-GENERAL,268A,268A,Kirchnerismo,Kirchnerismo,0,57.8
+2015-BALOTAJE,2019-GENERAL,268B,268B,Kirchnerismo,Kirchnerismo,0,61.9
+2015-BALOTAJE,2019-GENERAL,275A,275A,Kirchnerismo,Kirchnerismo,0,68.8
+2015-BALOTAJE,2019-GENERAL,276A,276A,Kirchnerismo,Kirchnerismo,0,52.9
+2015-BALOTAJE,2019-GENERAL,276B,276B,Cambiemos,Kirchnerismo,-1,47.8
+2015-BALOTAJE,2019-GENERAL,277A,,,Cambiemos,9,75.7
+2015-BALOTAJE,2019-GENERAL,277B,277A,Cambiemos,Cambiemos,0,62.7
+2015-BALOTAJE,2019-GENERAL,285A,,,Cambiemos,9,50.3
+2015-BALOTAJE,2019-GENERAL,285B,285A,Cambiemos,Cambiemos,0,55.0
+2015-BALOTAJE,2019-GENERAL,341A,341A,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,341B,341B,Cambiemos,Cambiemos,0,61.0
+2015-BALOTAJE,2019-GENERAL,342A,342A,Cambiemos,Cambiemos,0,42.1
+2015-BALOTAJE,2019-GENERAL,342B,342B,Kirchnerismo,Kirchnerismo,0,57.5
+2015-BALOTAJE,2019-GENERAL,343A,343A,Kirchnerismo,Kirchnerismo,0,49.3
+2015-BALOTAJE,2019-GENERAL,344A,344A,Kirchnerismo,Kirchnerismo,0,59.4
+2015-BALOTAJE,2019-GENERAL,345A,345A,Kirchnerismo,Kirchnerismo,0,54.4
+2015-BALOTAJE,2019-GENERAL,347A,347A,Kirchnerismo,Kirchnerismo,0,55.8
+2015-BALOTAJE,2019-GENERAL,349A,349A,Kirchnerismo,Kirchnerismo,0,55.9
+2015-BALOTAJE,2019-GENERAL,349B,349B,Kirchnerismo,Kirchnerismo,0,68.5
+2015-BALOTAJE,2019-GENERAL,349C,349C,Kirchnerismo,Kirchnerismo,0,51.2
+2015-BALOTAJE,2019-GENERAL,349D,,,Kirchnerismo,9,51.7
+2015-BALOTAJE,2019-GENERAL,350A,350A,Cambiemos,Cambiemos,0,63.7
+2015-BALOTAJE,2019-GENERAL,351A,351A,Cambiemos,Cambiemos,0,52.1
+2015-BALOTAJE,2019-GENERAL,353A,353A,Cambiemos,Cambiemos,0,42.6
+2015-BALOTAJE,2019-GENERAL,354A,354A,Cambiemos,Cambiemos,0,45.1
+2015-BALOTAJE,2019-GENERAL,355A,355A,Cambiemos,Kirchnerismo,-1,47.2
+2015-BALOTAJE,2019-GENERAL,356A,356A,Kirchnerismo,Kirchnerismo,0,65.9
+2015-BALOTAJE,2019-GENERAL,359A,359A,Kirchnerismo,Kirchnerismo,0,56.0
+2015-BALOTAJE,2019-GENERAL,360A,360A,Cambiemos,Cambiemos,0,49.3
+2015-BALOTAJE,2019-GENERAL,362A,362A,Kirchnerismo,Kirchnerismo,0,54.5
+2015-BALOTAJE,2019-GENERAL,362B,362B,Cambiemos,Kirchnerismo,-1,47.7
+2015-BALOTAJE,2019-GENERAL,362C,362C,Kirchnerismo,Kirchnerismo,0,54.4
+2015-BALOTAJE,2019-GENERAL,362D,362D,Cambiemos,Kirchnerismo,-1,46.6
+2015-BALOTAJE,2019-GENERAL,362E,362E,Kirchnerismo,Kirchnerismo,0,56.3
+2015-BALOTAJE,2019-GENERAL,362F,362F,Kirchnerismo,Kirchnerismo,0,67.0
+2015-BALOTAJE,2019-GENERAL,368A,,,Cambiemos,9,50.1
+2015-BALOTAJE,2019-GENERAL,368B,368B,Cambiemos,Cambiemos,0,69.4
+2015-BALOTAJE,2019-GENERAL,368C,,,Cambiemos,9,86.7
+2015-BALOTAJE,2019-GENERAL,368D,,,Kirchnerismo,9,41.1
+2015-BALOTAJE,2019-GENERAL,375A,375A,Cambiemos,Cambiemos,0,55.7
+2015-BALOTAJE,2019-GENERAL,377A,377A,Cambiemos,Cambiemos,0,49.7
+2015-BALOTAJE,2019-GENERAL,377B,377B,Cambiemos,Cambiemos,0,45.8
+2015-BALOTAJE,2019-GENERAL,377C,377C,Cambiemos,Cambiemos,0,45.1
+2015-BALOTAJE,2019-GENERAL,378A,378A,Cambiemos,Cambiemos,0,48.2
+2015-BALOTAJE,2019-GENERAL,378B,378B,Cambiemos,Cambiemos,0,44.9
+2015-BALOTAJE,2019-GENERAL,378C,378C,Cambiemos,Cambiemos,0,62.9
+2015-BALOTAJE,2019-GENERAL,378D,378D,Cambiemos,Cambiemos,0,51.6
+2015-BALOTAJE,2019-GENERAL,379A,379A,Cambiemos,Cambiemos,0,51.8
+2015-BALOTAJE,2019-GENERAL,379B,379B,Cambiemos,Cambiemos,0,51.4
+2015-BALOTAJE,2019-GENERAL,379C,379C,Cambiemos,Cambiemos,0,55.6
+2015-BALOTAJE,2019-GENERAL,384A,384A,Kirchnerismo,Kirchnerismo,0,49.3
+2015-BALOTAJE,2019-GENERAL,384B,384B,Kirchnerismo,Kirchnerismo,0,51.8
+2015-BALOTAJE,2019-GENERAL,384C,384C,Cambiemos,Cambiemos,0,51.3
+2015-BALOTAJE,2019-GENERAL,385A,385A,Cambiemos,Cambiemos,0,58.8
+2015-BALOTAJE,2019-GENERAL,385B,385B,Cambiemos,Cambiemos,0,57.8
+2015-BALOTAJE,2019-GENERAL,385C,385C,Cambiemos,Cambiemos,0,49.1
+2015-BALOTAJE,2019-GENERAL,386A,386A,Cambiemos,Cambiemos,0,49.6
+2015-BALOTAJE,2019-GENERAL,386B,386B,Cambiemos,Cambiemos,0,50.4
+2015-BALOTAJE,2019-GENERAL,388A,388A,Kirchnerismo,Kirchnerismo,0,54.6
+2015-BALOTAJE,2019-GENERAL,388B,388B,Cambiemos,Kirchnerismo,-1,54.5
+2015-BALOTAJE,2019-GENERAL,390A,390A,Cambiemos,Cambiemos,0,43.6
+2015-BALOTAJE,2019-GENERAL,390B,390B,Cambiemos,Kirchnerismo,-1,44.2
+2015-BALOTAJE,2019-GENERAL,390C,390C,Cambiemos,Cambiemos,0,60.4
+2015-BALOTAJE,2019-GENERAL,390D,390D,Cambiemos,Kirchnerismo,-1,50.9
+2015-BALOTAJE,2019-GENERAL,391A,391A,Cambiemos,Cambiemos,0,46.0
+2015-BALOTAJE,2019-GENERAL,393A,393A,Cambiemos,Kirchnerismo,-1,44.3
+2015-BALOTAJE,2019-GENERAL,395A,395A,Cambiemos,Cambiemos,0,53.9
+2015-BALOTAJE,2019-GENERAL,395B,395B,Cambiemos,Cambiemos,0,55.6
+2015-BALOTAJE,2019-GENERAL,396A,396A,Cambiemos,Kirchnerismo,-1,51.0
+2015-BALOTAJE,2019-GENERAL,397A,397A,Cambiemos,Kirchnerismo,-1,47.5
+2015-BALOTAJE,2019-GENERAL,399A,385C,Cambiemos,Cambiemos,0,55.0
+2015-BALOTAJE,2019-GENERAL,399B,386,Cambiemos,Cambiemos,0,49.0
+2015-BALOTAJE,2019-GENERAL,399C,395A,Cambiemos,Cambiemos,0,53.1
+2015-BALOTAJE,2019-GENERAL,401A,401A,Cambiemos,Cambiemos,0,49.3
+2015-BALOTAJE,2019-GENERAL,401B,401B,Cambiemos,Cambiemos,0,50.7
+2015-BALOTAJE,2019-GENERAL,404A,404A,Cambiemos,Cambiemos,0,47.4
+2015-BALOTAJE,2019-GENERAL,404B,404B,Cambiemos,Cambiemos,0,57.9
+2015-BALOTAJE,2019-GENERAL,411A,411A,Cambiemos,Cambiemos,0,47.1
+2015-BALOTAJE,2019-GENERAL,411B,411B,Cambiemos,Kirchnerismo,-1,44.3
+2015-BALOTAJE,2019-GENERAL,413A,413A,Cambiemos,Cambiemos,0,54.8
+2015-BALOTAJE,2019-GENERAL,413B,413B,Cambiemos,Cambiemos,0,54.1
+2015-BALOTAJE,2019-GENERAL,413C,413C,Kirchnerismo,Cambiemos,1,44.8
+2015-BALOTAJE,2019-GENERAL,414A,414A,Kirchnerismo,Kirchnerismo,0,52.3
+2015-BALOTAJE,2019-GENERAL,417A,417A,Cambiemos,Cambiemos,0,52.8
+2015-BALOTAJE,2019-GENERAL,417B,417B,Cambiemos,Cambiemos,0,47.6
+2015-BALOTAJE,2019-GENERAL,418A,418A,Kirchnerismo,Kirchnerismo,0,56.7
+2015-BALOTAJE,2019-GENERAL,418B,418B,Cambiemos,Cambiemos,0,49.9
+2015-BALOTAJE,2019-GENERAL,420A,420A,Kirchnerismo,Kirchnerismo,0,48.3
+2015-BALOTAJE,2019-GENERAL,422A,422A,Cambiemos,Cambiemos,0,50.0
+2015-BALOTAJE,2019-GENERAL,422B,,,Cambiemos,9,65.6
+2015-BALOTAJE,2019-GENERAL,425A,425A,Cambiemos,Kirchnerismo,-1,41.8
+2015-BALOTAJE,2019-GENERAL,425B,425B,Cambiemos,Cambiemos,0,51.1
+2019-GENERAL,2023-BALOTAJE,10,1,Cambiemos,La Libertad Avanza,1,69.6
+2019-GENERAL,2023-BALOTAJE,20,2,Cambiemos,La Libertad Avanza,1,71.6
+2019-GENERAL,2023-BALOTAJE,30,3,Cambiemos,La Libertad Avanza,1,71.0
+2019-GENERAL,2023-BALOTAJE,40,4,Cambiemos,La Libertad Avanza,1,71.7
+2019-GENERAL,2023-BALOTAJE,50,5,Cambiemos,La Libertad Avanza,1,70.5
+2019-GENERAL,2023-BALOTAJE,60,6,Cambiemos,La Libertad Avanza,1,66.2
+2019-GENERAL,2023-BALOTAJE,70,7,Kirchnerismo,La Libertad Avanza,1,52.9
+2019-GENERAL,2023-BALOTAJE,80,8,Cambiemos,La Libertad Avanza,1,58.8
+2019-GENERAL,2023-BALOTAJE,90,9,Cambiemos,La Libertad Avanza,1,69.2
+2019-GENERAL,2023-BALOTAJE,100,10,Cambiemos,La Libertad Avanza,1,65.0
+2019-GENERAL,2023-BALOTAJE,110,11,Cambiemos,La Libertad Avanza,1,65.0
+2019-GENERAL,2023-BALOTAJE,115,11A,Kirchnerismo,Kirchnerismo,0,60.1
+2019-GENERAL,2023-BALOTAJE,120,12,Cambiemos,La Libertad Avanza,1,67.3
+2019-GENERAL,2023-BALOTAJE,130,13,Cambiemos,La Libertad Avanza,1,65.1
+2019-GENERAL,2023-BALOTAJE,140,14,Kirchnerismo,La Libertad Avanza,1,62.0
+2019-GENERAL,2023-BALOTAJE,142,14,Kirchnerismo,Kirchnerismo,0,58.1
+2019-GENERAL,2023-BALOTAJE,150,15,Kirchnerismo,Kirchnerismo,0,53.1
+2019-GENERAL,2023-BALOTAJE,152,16,Kirchnerismo,La Libertad Avanza,1,57.4
+2019-GENERAL,2023-BALOTAJE,160,16,Kirchnerismo,La Libertad Avanza,1,61.5
+2019-GENERAL,2023-BALOTAJE,161,16,Kirchnerismo,La Libertad Avanza,1,50.5
+2019-GENERAL,2023-BALOTAJE,162,16,Kirchnerismo,La Libertad Avanza,1,63.2
+2019-GENERAL,2023-BALOTAJE,165,17,Cambiemos,La Libertad Avanza,1,65.2
+2019-GENERAL,2023-BALOTAJE,170,19,Cambiemos,La Libertad Avanza,1,69.9
+2019-GENERAL,2023-BALOTAJE,171,19,Cambiemos,La Libertad Avanza,1,61.1
+2019-GENERAL,2023-BALOTAJE,172,19,Cambiemos,La Libertad Avanza,1,63.2
+2019-GENERAL,2023-BALOTAJE,175,32,Cambiemos,La Libertad Avanza,1,63.7
+2019-GENERAL,2023-BALOTAJE,180,35,Kirchnerismo,La Libertad Avanza,1,51.3
+2019-GENERAL,2023-BALOTAJE,185,36,Cambiemos,La Libertad Avanza,1,66.7
+2019-GENERAL,2023-BALOTAJE,190,38,Kirchnerismo,La Libertad Avanza,1,54.7
+2019-GENERAL,2023-BALOTAJE,192,18,Kirchnerismo,Kirchnerismo,0,61.2
+2019-GENERAL,2023-BALOTAJE,194,21,Kirchnerismo,La Libertad Avanza,1,59.4
+2019-GENERAL,2023-BALOTAJE,196,34,Kirchnerismo,Kirchnerismo,0,55.1
+2019-GENERAL,2023-BALOTAJE,200,20,Cambiemos,La Libertad Avanza,1,66.3
+2019-GENERAL,2023-BALOTAJE,202,20A,Cambiemos,La Libertad Avanza,1,68.1
+2019-GENERAL,2023-BALOTAJE,204,20B,Kirchnerismo,La Libertad Avanza,1,63.3
+2019-GENERAL,2023-BALOTAJE,220,22,Kirchnerismo,La Libertad Avanza,1,55.2
+2019-GENERAL,2023-BALOTAJE,230,23,Kirchnerismo,La Libertad Avanza,1,65.8
+2019-GENERAL,2023-BALOTAJE,240,24,Cambiemos,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,250,25,Cambiemos,La Libertad Avanza,1,72.0
+2019-GENERAL,2023-BALOTAJE,260,26,Kirchnerismo,La Libertad Avanza,1,57.2
+2019-GENERAL,2023-BALOTAJE,270,27,Kirchnerismo,La Libertad Avanza,1,61.2
+2019-GENERAL,2023-BALOTAJE,280,28,Cambiemos,La Libertad Avanza,1,66.1
+2019-GENERAL,2023-BALOTAJE,290,29,Cambiemos,La Libertad Avanza,1,63.4
+2019-GENERAL,2023-BALOTAJE,300,30,Cambiemos,La Libertad Avanza,1,75.9
+2019-GENERAL,2023-BALOTAJE,310,31,Cambiemos,La Libertad Avanza,1,74.0
+2019-GENERAL,2023-BALOTAJE,330,33,Kirchnerismo,La Libertad Avanza,1,63.4
+2019-GENERAL,2023-BALOTAJE,370,37,Cambiemos,La Libertad Avanza,1,65.1
+2019-GENERAL,2023-BALOTAJE,390,39,Kirchnerismo,La Libertad Avanza,1,61.9
+2019-GENERAL,2023-BALOTAJE,400,40,Kirchnerismo,La Libertad Avanza,1,58.1
+2019-GENERAL,2023-BALOTAJE,410,41,Cambiemos,La Libertad Avanza,1,67.3
+2019-GENERAL,2023-BALOTAJE,420,42,Cambiemos,La Libertad Avanza,1,80.4
+2019-GENERAL,2023-BALOTAJE,430,43,Cambiemos,La Libertad Avanza,1,69.6
+2019-GENERAL,2023-BALOTAJE,440,44,Cambiemos,La Libertad Avanza,1,70.1
+2019-GENERAL,2023-BALOTAJE,450,45,Cambiemos,La Libertad Avanza,1,75.7
+2019-GENERAL,2023-BALOTAJE,460,46,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,470,47,Cambiemos,La Libertad Avanza,1,60.2
+2019-GENERAL,2023-BALOTAJE,480,48,Cambiemos,La Libertad Avanza,1,73.2
+2019-GENERAL,2023-BALOTAJE,490,49,Cambiemos,La Libertad Avanza,1,68.3
+2019-GENERAL,2023-BALOTAJE,500,50,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,510,51,Kirchnerismo,La Libertad Avanza,1,61.0
+2019-GENERAL,2023-BALOTAJE,520,52,Cambiemos,La Libertad Avanza,1,81.3
+2019-GENERAL,2023-BALOTAJE,530,53,Cambiemos,La Libertad Avanza,1,83.9
+2019-GENERAL,2023-BALOTAJE,540,54,Cambiemos,La Libertad Avanza,1,84.1
+2019-GENERAL,2023-BALOTAJE,550,55,Cambiemos,La Libertad Avanza,1,78.9
+2019-GENERAL,2023-BALOTAJE,557,55B,Cambiemos,La Libertad Avanza,1,84.6
+2019-GENERAL,2023-BALOTAJE,559,55D,Kirchnerismo,La Libertad Avanza,1,69.7
+2019-GENERAL,2023-BALOTAJE,560,56,Cambiemos,La Libertad Avanza,1,80.0
+2019-GENERAL,2023-BALOTAJE,570,57,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,580,58,Cambiemos,La Libertad Avanza,1,81.6
+2019-GENERAL,2023-BALOTAJE,590,59,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,600,60,Cambiemos,La Libertad Avanza,1,83.2
+2019-GENERAL,2023-BALOTAJE,610,61,Cambiemos,La Libertad Avanza,1,67.6
+2019-GENERAL,2023-BALOTAJE,620,62,Cambiemos,La Libertad Avanza,1,84.4
+2019-GENERAL,2023-BALOTAJE,630,63,Cambiemos,La Libertad Avanza,1,84.5
+2019-GENERAL,2023-BALOTAJE,640,64,Cambiemos,La Libertad Avanza,1,82.7
+2019-GENERAL,2023-BALOTAJE,650,65,Cambiemos,La Libertad Avanza,1,76.5
+2019-GENERAL,2023-BALOTAJE,660,66,Cambiemos,La Libertad Avanza,1,65.2
+2019-GENERAL,2023-BALOTAJE,670,67,Kirchnerismo,La Libertad Avanza,1,59.1
+2019-GENERAL,2023-BALOTAJE,680,68,Cambiemos,La Libertad Avanza,1,78.3
+2019-GENERAL,2023-BALOTAJE,690,69,Cambiemos,La Libertad Avanza,1,80.6
+2019-GENERAL,2023-BALOTAJE,700,70,Cambiemos,La Libertad Avanza,1,91.2
+2019-GENERAL,2023-BALOTAJE,710,71,Cambiemos,La Libertad Avanza,1,78.0
+2019-GENERAL,2023-BALOTAJE,720,72,Cambiemos,La Libertad Avanza,1,87.9
+2019-GENERAL,2023-BALOTAJE,730,73,Cambiemos,La Libertad Avanza,1,83.1
+2019-GENERAL,2023-BALOTAJE,740,74,Cambiemos,La Libertad Avanza,1,94.2
+2019-GENERAL,2023-BALOTAJE,750,75,Cambiemos,La Libertad Avanza,1,77.2
+2019-GENERAL,2023-BALOTAJE,760,76,Cambiemos,La Libertad Avanza,1,76.8
+2019-GENERAL,2023-BALOTAJE,770,77,Cambiemos,La Libertad Avanza,1,96.3
+2019-GENERAL,2023-BALOTAJE,790,79,Cambiemos,La Libertad Avanza,1,63.9
+2019-GENERAL,2023-BALOTAJE,800,80,Cambiemos,La Libertad Avanza,1,76.0
+2019-GENERAL,2023-BALOTAJE,810,81,Cambiemos,La Libertad Avanza,1,75.7
+2019-GENERAL,2023-BALOTAJE,820,82,Cambiemos,La Libertad Avanza,1,77.9
+2019-GENERAL,2023-BALOTAJE,830,83,Cambiemos,La Libertad Avanza,1,63.9
+2019-GENERAL,2023-BALOTAJE,840,84,Kirchnerismo,La Libertad Avanza,1,59.9
+2019-GENERAL,2023-BALOTAJE,850,85,Cambiemos,La Libertad Avanza,1,62.7
+2019-GENERAL,2023-BALOTAJE,855,85A,Cambiemos,La Libertad Avanza,1,72.2
+2019-GENERAL,2023-BALOTAJE,860,86,Cambiemos,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,870,87,Cambiemos,La Libertad Avanza,1,70.0
+2019-GENERAL,2023-BALOTAJE,880,88,Kirchnerismo,La Libertad Avanza,1,51.8
+2019-GENERAL,2023-BALOTAJE,890,89,Cambiemos,La Libertad Avanza,1,68.6
+2019-GENERAL,2023-BALOTAJE,910,91,Kirchnerismo,La Libertad Avanza,1,62.1
+2019-GENERAL,2023-BALOTAJE,920,92,Cambiemos,La Libertad Avanza,1,68.6
+2019-GENERAL,2023-BALOTAJE,930,93,Cambiemos,La Libertad Avanza,1,69.7
+2019-GENERAL,2023-BALOTAJE,940,94,Kirchnerismo,La Libertad Avanza,1,55.3
+2019-GENERAL,2023-BALOTAJE,950,95,Kirchnerismo,La Libertad Avanza,1,66.0
+2019-GENERAL,2023-BALOTAJE,960,96,Kirchnerismo,La Libertad Avanza,1,56.2
+2019-GENERAL,2023-BALOTAJE,965,96A,Kirchnerismo,Kirchnerismo,0,50.3
+2019-GENERAL,2023-BALOTAJE,970,97,Cambiemos,La Libertad Avanza,1,83.3
+2019-GENERAL,2023-BALOTAJE,980,98,Kirchnerismo,Kirchnerismo,0,54.0
+2019-GENERAL,2023-BALOTAJE,1000,100,Cambiemos,La Libertad Avanza,1,62.3
+2019-GENERAL,2023-BALOTAJE,1010,101,Kirchnerismo,La Libertad Avanza,1,56.0
+2019-GENERAL,2023-BALOTAJE,1040,104,Kirchnerismo,La Libertad Avanza,1,64.2
+2019-GENERAL,2023-BALOTAJE,1050,105,Kirchnerismo,La Libertad Avanza,1,57.0
+2019-GENERAL,2023-BALOTAJE,1060,106,Kirchnerismo,La Libertad Avanza,1,61.8
+2019-GENERAL,2023-BALOTAJE,1064,106A,Cambiemos,La Libertad Avanza,1,95.0
+2019-GENERAL,2023-BALOTAJE,1066,106B,Cambiemos,La Libertad Avanza,1,51.4
+2019-GENERAL,2023-BALOTAJE,1070,107,Kirchnerismo,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,1080,108,Kirchnerismo,La Libertad Avanza,1,59.5
+2019-GENERAL,2023-BALOTAJE,1085,108,Kirchnerismo,La Libertad Avanza,1,61.1
+2019-GENERAL,2023-BALOTAJE,1090,109,Kirchnerismo,La Libertad Avanza,1,57.1
+2019-GENERAL,2023-BALOTAJE,1100,110,Kirchnerismo,La Libertad Avanza,1,55.1
+2019-GENERAL,2023-BALOTAJE,1110,111,Cambiemos,La Libertad Avanza,1,93.2
+2019-GENERAL,2023-BALOTAJE,1120,112,Cambiemos,La Libertad Avanza,1,88.0
+2019-GENERAL,2023-BALOTAJE,1130,113,Cambiemos,La Libertad Avanza,1,92.1
+2019-GENERAL,2023-BALOTAJE,1140,114,Cambiemos,La Libertad Avanza,1,63.1
+2019-GENERAL,2023-BALOTAJE,1150,115,Cambiemos,La Libertad Avanza,1,78.4
+2019-GENERAL,2023-BALOTAJE,1160,116,Cambiemos,La Libertad Avanza,1,91.4
+2019-GENERAL,2023-BALOTAJE,1170,117,Cambiemos,La Libertad Avanza,1,80.6
+2019-GENERAL,2023-BALOTAJE,1180,118,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,1190,119,Cambiemos,La Libertad Avanza,1,77.6
+2019-GENERAL,2023-BALOTAJE,1200,120,Cambiemos,La Libertad Avanza,1,74.9
+2019-GENERAL,2023-BALOTAJE,1202,120A,Cambiemos,La Libertad Avanza,1,55.6
+2019-GENERAL,2023-BALOTAJE,1204,120B,Cambiemos,La Libertad Avanza,1,66.7
+2019-GENERAL,2023-BALOTAJE,1210,121,Cambiemos,La Libertad Avanza,1,81.6
+2019-GENERAL,2023-BALOTAJE,1220,122,Cambiemos,La Libertad Avanza,1,79.3
+2019-GENERAL,2023-BALOTAJE,1230,123,Cambiemos,La Libertad Avanza,1,74.2
+2019-GENERAL,2023-BALOTAJE,1240,124,Cambiemos,La Libertad Avanza,1,77.1
+2019-GENERAL,2023-BALOTAJE,1250,125,Cambiemos,La Libertad Avanza,1,72.7
+2019-GENERAL,2023-BALOTAJE,1260,126,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,1270,127,Cambiemos,La Libertad Avanza,1,88.9
+2019-GENERAL,2023-BALOTAJE,1280,128A,Cambiemos,La Libertad Avanza,1,70.2
+2019-GENERAL,2023-BALOTAJE,1282,128B,Cambiemos,La Libertad Avanza,1,74.9
+2019-GENERAL,2023-BALOTAJE,1284,128C,Cambiemos,La Libertad Avanza,1,77.4
+2019-GENERAL,2023-BALOTAJE,1286,128D,Cambiemos,La Libertad Avanza,1,74.2
+2019-GENERAL,2023-BALOTAJE,1290,129,Cambiemos,La Libertad Avanza,1,80.9
+2019-GENERAL,2023-BALOTAJE,1300,130,Cambiemos,La Libertad Avanza,1,77.2
+2019-GENERAL,2023-BALOTAJE,1310,131,Cambiemos,La Libertad Avanza,1,69.8
+2019-GENERAL,2023-BALOTAJE,1320,132,Cambiemos,La Libertad Avanza,1,80.3
+2019-GENERAL,2023-BALOTAJE,1330,133,Cambiemos,La Libertad Avanza,1,62.5
+2019-GENERAL,2023-BALOTAJE,1340,134,Cambiemos,La Libertad Avanza,1,78.5
+2019-GENERAL,2023-BALOTAJE,1342,134A,Kirchnerismo,La Libertad Avanza,1,56.0
+2019-GENERAL,2023-BALOTAJE,1345,134,Cambiemos,La Libertad Avanza,1,61.5
+2019-GENERAL,2023-BALOTAJE,1350,135,Cambiemos,La Libertad Avanza,1,92.8
+2019-GENERAL,2023-BALOTAJE,1360,136,Cambiemos,La Libertad Avanza,1,73.9
+2019-GENERAL,2023-BALOTAJE,1365,136A,Cambiemos,La Libertad Avanza,1,67.6
+2019-GENERAL,2023-BALOTAJE,1370,137,Cambiemos,La Libertad Avanza,1,64.3
+2019-GENERAL,2023-BALOTAJE,1380,138,Cambiemos,La Libertad Avanza,1,82.3
+2019-GENERAL,2023-BALOTAJE,1390,139,Cambiemos,La Libertad Avanza,1,77.6
+2019-GENERAL,2023-BALOTAJE,1400,140,Cambiemos,La Libertad Avanza,1,69.5
+2019-GENERAL,2023-BALOTAJE,1410,141,Kirchnerismo,La Libertad Avanza,1,73.4
+2019-GENERAL,2023-BALOTAJE,1420,142,Cambiemos,La Libertad Avanza,1,74.0
+2019-GENERAL,2023-BALOTAJE,1430,143,Cambiemos,La Libertad Avanza,1,75.2
+2019-GENERAL,2023-BALOTAJE,1440,144,Cambiemos,La Libertad Avanza,1,82.9
+2019-GENERAL,2023-BALOTAJE,1450,145,Cambiemos,La Libertad Avanza,1,78.7
+2019-GENERAL,2023-BALOTAJE,1460,146,Cambiemos,La Libertad Avanza,1,96.2
+2019-GENERAL,2023-BALOTAJE,1470,147,Kirchnerismo,La Libertad Avanza,1,57.9
+2019-GENERAL,2023-BALOTAJE,1480,148,Cambiemos,La Libertad Avanza,1,69.2
+2019-GENERAL,2023-BALOTAJE,1490,149,Cambiemos,La Libertad Avanza,1,75.5
+2019-GENERAL,2023-BALOTAJE,1500,150,Cambiemos,La Libertad Avanza,1,95.4
+2019-GENERAL,2023-BALOTAJE,1510,151,Cambiemos,La Libertad Avanza,1,67.3
+2019-GENERAL,2023-BALOTAJE,1520,152,Cambiemos,La Libertad Avanza,1,86.5
+2019-GENERAL,2023-BALOTAJE,1530,153,Cambiemos,La Libertad Avanza,1,79.3
+2019-GENERAL,2023-BALOTAJE,1540,154,Cambiemos,La Libertad Avanza,1,68.2
+2019-GENERAL,2023-BALOTAJE,1550,155,Kirchnerismo,La Libertad Avanza,1,61.1
+2019-GENERAL,2023-BALOTAJE,1560,156,Cambiemos,La Libertad Avanza,1,81.4
+2019-GENERAL,2023-BALOTAJE,1570,157,Cambiemos,La Libertad Avanza,1,74.4
+2019-GENERAL,2023-BALOTAJE,1580,158,Cambiemos,La Libertad Avanza,1,72.1
+2019-GENERAL,2023-BALOTAJE,1590,159,Cambiemos,La Libertad Avanza,1,73.4
+2019-GENERAL,2023-BALOTAJE,1600,160,Cambiemos,La Libertad Avanza,1,79.6
+2019-GENERAL,2023-BALOTAJE,1610,161,Cambiemos,La Libertad Avanza,1,74.6
+2019-GENERAL,2023-BALOTAJE,1620,162,Kirchnerismo,La Libertad Avanza,1,53.8
+2019-GENERAL,2023-BALOTAJE,1630,163,Kirchnerismo,Kirchnerismo,0,58.6
+2019-GENERAL,2023-BALOTAJE,1640,164,Cambiemos,La Libertad Avanza,1,77.9
+2019-GENERAL,2023-BALOTAJE,1650,165,Cambiemos,La Libertad Avanza,1,73.3
+2019-GENERAL,2023-BALOTAJE,1660,166,Cambiemos,La Libertad Avanza,1,83.9
+2019-GENERAL,2023-BALOTAJE,1670,167,Cambiemos,La Libertad Avanza,1,83.5
+2019-GENERAL,2023-BALOTAJE,1680,168,Kirchnerismo,La Libertad Avanza,1,56.1
+2019-GENERAL,2023-BALOTAJE,1690,169,Cambiemos,La Libertad Avanza,1,77.1
+2019-GENERAL,2023-BALOTAJE,1740,174,Cambiemos,La Libertad Avanza,1,77.3
+2019-GENERAL,2023-BALOTAJE,1750,175,Kirchnerismo,La Libertad Avanza,1,61.3
+2019-GENERAL,2023-BALOTAJE,1760,176,Kirchnerismo,La Libertad Avanza,1,66.8
+2019-GENERAL,2023-BALOTAJE,1770,177,Cambiemos,La Libertad Avanza,1,63.6
+2019-GENERAL,2023-BALOTAJE,1780,178,Cambiemos,La Libertad Avanza,1,64.3
+2019-GENERAL,2023-BALOTAJE,1790,179,Kirchnerismo,La Libertad Avanza,1,65.8
+2019-GENERAL,2023-BALOTAJE,1800,180,Cambiemos,La Libertad Avanza,1,70.2
+2019-GENERAL,2023-BALOTAJE,1810,181,Cambiemos,La Libertad Avanza,1,76.0
+2019-GENERAL,2023-BALOTAJE,1815,181A,Cambiemos,La Libertad Avanza,1,80.3
+2019-GENERAL,2023-BALOTAJE,1820,182,Cambiemos,La Libertad Avanza,1,73.8
+2019-GENERAL,2023-BALOTAJE,1830,183,Cambiemos,La Libertad Avanza,1,76.9
+2019-GENERAL,2023-BALOTAJE,1840,184,Cambiemos,La Libertad Avanza,1,69.3
+2019-GENERAL,2023-BALOTAJE,1850,185,Kirchnerismo,La Libertad Avanza,1,56.9
+2019-GENERAL,2023-BALOTAJE,1860,186,Cambiemos,La Libertad Avanza,1,79.1
+2019-GENERAL,2023-BALOTAJE,1870,187,Cambiemos,La Libertad Avanza,1,80.6
+2019-GENERAL,2023-BALOTAJE,1880,188,Cambiemos,La Libertad Avanza,1,74.1
+2019-GENERAL,2023-BALOTAJE,1890,189,Kirchnerismo,La Libertad Avanza,1,63.1
+2019-GENERAL,2023-BALOTAJE,1910,191,Cambiemos,La Libertad Avanza,1,77.5
+2019-GENERAL,2023-BALOTAJE,1920,192,Cambiemos,La Libertad Avanza,1,64.7
+2019-GENERAL,2023-BALOTAJE,1930,193,Kirchnerismo,La Libertad Avanza,1,59.4
+2019-GENERAL,2023-BALOTAJE,1940,194,Cambiemos,La Libertad Avanza,1,78.7
+2019-GENERAL,2023-BALOTAJE,1950,195,Kirchnerismo,La Libertad Avanza,1,63.2
+2019-GENERAL,2023-BALOTAJE,1960,196,Kirchnerismo,Kirchnerismo,0,51.1
+2019-GENERAL,2023-BALOTAJE,1964,196B,Cambiemos,La Libertad Avanza,1,84.6
+2019-GENERAL,2023-BALOTAJE,1970,197,Cambiemos,La Libertad Avanza,1,78.7
+2019-GENERAL,2023-BALOTAJE,1980,198,Cambiemos,La Libertad Avanza,1,60.9
+2019-GENERAL,2023-BALOTAJE,1990,199,Cambiemos,La Libertad Avanza,1,81.8
+2019-GENERAL,2023-BALOTAJE,2000,200,Kirchnerismo,La Libertad Avanza,1,58.2
+2019-GENERAL,2023-BALOTAJE,2010,201,Kirchnerismo,La Libertad Avanza,1,69.6
+2019-GENERAL,2023-BALOTAJE,2020,202,Cambiemos,La Libertad Avanza,1,69.6
+2019-GENERAL,2023-BALOTAJE,2030,203,Cambiemos,La Libertad Avanza,1,87.3
+2019-GENERAL,2023-BALOTAJE,2040,204,Cambiemos,La Libertad Avanza,1,81.3
+2019-GENERAL,2023-BALOTAJE,2050,205,Cambiemos,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,2070,207,Kirchnerismo,Kirchnerismo,0,52.2
+2019-GENERAL,2023-BALOTAJE,2080,208,Cambiemos,La Libertad Avanza,1,69.3
+2019-GENERAL,2023-BALOTAJE,2084,208B,Cambiemos,La Libertad Avanza,1,73.0
+2019-GENERAL,2023-BALOTAJE,2086,208C,Cambiemos,La Libertad Avanza,1,75.5
+2019-GENERAL,2023-BALOTAJE,2090,209,Kirchnerismo,La Libertad Avanza,1,51.9
+2019-GENERAL,2023-BALOTAJE,2100,210,Cambiemos,La Libertad Avanza,1,71.1
+2019-GENERAL,2023-BALOTAJE,2105,210A,Cambiemos,La Libertad Avanza,1,73.7
+2019-GENERAL,2023-BALOTAJE,2110,211,Cambiemos,La Libertad Avanza,1,73.1
+2019-GENERAL,2023-BALOTAJE,2120,212,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,2125,212A,Cambiemos,La Libertad Avanza,1,68.7
+2019-GENERAL,2023-BALOTAJE,2130,213,Cambiemos,La Libertad Avanza,1,74.6
+2019-GENERAL,2023-BALOTAJE,2140,214,Kirchnerismo,Kirchnerismo,0,54.0
+2019-GENERAL,2023-BALOTAJE,2145,214A,Kirchnerismo,Kirchnerismo,0,55.3
+2019-GENERAL,2023-BALOTAJE,2150,215,Cambiemos,La Libertad Avanza,1,56.0
+2019-GENERAL,2023-BALOTAJE,2155,215A,Cambiemos,La Libertad Avanza,1,86.5
+2019-GENERAL,2023-BALOTAJE,2160,216,Cambiemos,La Libertad Avanza,1,69.7
+2019-GENERAL,2023-BALOTAJE,2165,216A,Cambiemos,La Libertad Avanza,1,68.4
+2019-GENERAL,2023-BALOTAJE,2170,217,Cambiemos,La Libertad Avanza,1,79.2
+2019-GENERAL,2023-BALOTAJE,2180,218,Kirchnerismo,La Libertad Avanza,1,53.0
+2019-GENERAL,2023-BALOTAJE,2190,219,Cambiemos,La Libertad Avanza,1,73.1
+2019-GENERAL,2023-BALOTAJE,2200,220,Kirchnerismo,Kirchnerismo,0,65.4
+2019-GENERAL,2023-BALOTAJE,2210,221,Cambiemos,La Libertad Avanza,1,67.9
+2019-GENERAL,2023-BALOTAJE,2215,221A,Cambiemos,La Libertad Avanza,1,84.8
+2019-GENERAL,2023-BALOTAJE,2220,222A,Cambiemos,Kirchnerismo,-1,53.7
+2019-GENERAL,2023-BALOTAJE,2230,223,Cambiemos,La Libertad Avanza,1,79.7
+2019-GENERAL,2023-BALOTAJE,2235,223A,Cambiemos,La Libertad Avanza,1,80.3
+2019-GENERAL,2023-BALOTAJE,2240,224,Cambiemos,La Libertad Avanza,1,66.6
+2019-GENERAL,2023-BALOTAJE,2242,224A,Cambiemos,La Libertad Avanza,1,71.2
+2019-GENERAL,2023-BALOTAJE,2244,224B,Kirchnerismo,La Libertad Avanza,1,57.7
+2019-GENERAL,2023-BALOTAJE,2246,224C,Cambiemos,La Libertad Avanza,1,64.6
+2019-GENERAL,2023-BALOTAJE,2248,224D,Kirchnerismo,Kirchnerismo,0,71.0
+2019-GENERAL,2023-BALOTAJE,2249,224E,Kirchnerismo,La Libertad Avanza,1,68.2
+2019-GENERAL,2023-BALOTAJE,2250,225,Cambiemos,La Libertad Avanza,1,72.9
+2019-GENERAL,2023-BALOTAJE,2255,225A,Kirchnerismo,Kirchnerismo,0,52.0
+2019-GENERAL,2023-BALOTAJE,2260,226,Kirchnerismo,La Libertad Avanza,1,66.3
+2019-GENERAL,2023-BALOTAJE,2270,227,Cambiemos,La Libertad Avanza,1,69.9
+2019-GENERAL,2023-BALOTAJE,2272,227A,Kirchnerismo,La Libertad Avanza,1,64.1
+2019-GENERAL,2023-BALOTAJE,2274,227B,Cambiemos,La Libertad Avanza,1,80.6
+2019-GENERAL,2023-BALOTAJE,2280,228,Kirchnerismo,La Libertad Avanza,1,56.4
+2019-GENERAL,2023-BALOTAJE,2290,229,Kirchnerismo,La Libertad Avanza,1,52.0
+2019-GENERAL,2023-BALOTAJE,2300,230,Kirchnerismo,Kirchnerismo,0,56.5
+2019-GENERAL,2023-BALOTAJE,2305,230,Kirchnerismo,Kirchnerismo,0,73.9
+2019-GENERAL,2023-BALOTAJE,2310,231,Kirchnerismo,Kirchnerismo,0,54.8
+2019-GENERAL,2023-BALOTAJE,2320,232,Kirchnerismo,La Libertad Avanza,1,56.5
+2019-GENERAL,2023-BALOTAJE,2325,232A,Kirchnerismo,Kirchnerismo,0,57.1
+2019-GENERAL,2023-BALOTAJE,2330,233,Kirchnerismo,Kirchnerismo,0,53.7
+2019-GENERAL,2023-BALOTAJE,2340,234,Kirchnerismo,Kirchnerismo,0,53.7
+2019-GENERAL,2023-BALOTAJE,2350,235,Kirchnerismo,La Libertad Avanza,1,55.4
+2019-GENERAL,2023-BALOTAJE,2370,237,Kirchnerismo,Kirchnerismo,0,51.6
+2019-GENERAL,2023-BALOTAJE,2380,238,Kirchnerismo,Kirchnerismo,0,59.7
+2019-GENERAL,2023-BALOTAJE,2390,239,Kirchnerismo,Kirchnerismo,0,56.1
+2019-GENERAL,2023-BALOTAJE,2395,239,Kirchnerismo,Kirchnerismo,0,55.0
+2019-GENERAL,2023-BALOTAJE,2400,240,Kirchnerismo,Kirchnerismo,0,80.6
+2019-GENERAL,2023-BALOTAJE,2410,241,Kirchnerismo,La Libertad Avanza,1,61.5
+2019-GENERAL,2023-BALOTAJE,2420,242,Cambiemos,La Libertad Avanza,1,72.5
+2019-GENERAL,2023-BALOTAJE,2440,244,Cambiemos,La Libertad Avanza,1,79.6
+2019-GENERAL,2023-BALOTAJE,2444,244A,Cambiemos,La Libertad Avanza,1,77.0
+2019-GENERAL,2023-BALOTAJE,2446,244B,Kirchnerismo,La Libertad Avanza,1,61.5
+2019-GENERAL,2023-BALOTAJE,2450,245,Cambiemos,La Libertad Avanza,1,72.6
+2019-GENERAL,2023-BALOTAJE,2460,246,Cambiemos,La Libertad Avanza,1,57.3
+2019-GENERAL,2023-BALOTAJE,2465,246A,Kirchnerismo,Kirchnerismo,0,60.4
+2019-GENERAL,2023-BALOTAJE,2470,247,Cambiemos,La Libertad Avanza,1,78.2
+2019-GENERAL,2023-BALOTAJE,2480,248,Cambiemos,La Libertad Avanza,1,66.7
+2019-GENERAL,2023-BALOTAJE,2490,249,Cambiemos,La Libertad Avanza,1,65.6
+2019-GENERAL,2023-BALOTAJE,2510,251,Kirchnerismo,La Libertad Avanza,1,54.1
+2019-GENERAL,2023-BALOTAJE,2520,252,Kirchnerismo,La Libertad Avanza,1,57.1
+2019-GENERAL,2023-BALOTAJE,2530,253,Kirchnerismo,Kirchnerismo,0,52.8
+2019-GENERAL,2023-BALOTAJE,2540,254,Kirchnerismo,La Libertad Avanza,1,59.8
+2019-GENERAL,2023-BALOTAJE,2545,254A,Kirchnerismo,Kirchnerismo,0,55.0
+2019-GENERAL,2023-BALOTAJE,2550,255,Kirchnerismo,Kirchnerismo,0,55.0
+2019-GENERAL,2023-BALOTAJE,2560,258,Kirchnerismo,Kirchnerismo,0,54.5
+2019-GENERAL,2023-BALOTAJE,2570,258,Kirchnerismo,Kirchnerismo,0,52.9
+2019-GENERAL,2023-BALOTAJE,2580,258,Kirchnerismo,Kirchnerismo,0,64.4
+2019-GENERAL,2023-BALOTAJE,2590,258,Kirchnerismo,Kirchnerismo,0,50.4
+2019-GENERAL,2023-BALOTAJE,2600,260,Kirchnerismo,Kirchnerismo,0,55.0
+2019-GENERAL,2023-BALOTAJE,2610,261,Kirchnerismo,Kirchnerismo,0,50.0
+2019-GENERAL,2023-BALOTAJE,2620,262,Kirchnerismo,Kirchnerismo,0,55.4
+2019-GENERAL,2023-BALOTAJE,2630,263,Kirchnerismo,Kirchnerismo,0,66.2
+2019-GENERAL,2023-BALOTAJE,2640,264,Kirchnerismo,Kirchnerismo,0,58.6
+2019-GENERAL,2023-BALOTAJE,2670,267,Kirchnerismo,Kirchnerismo,0,54.1
+2019-GENERAL,2023-BALOTAJE,2680,268,Kirchnerismo,La Libertad Avanza,1,52.5
+2019-GENERAL,2023-BALOTAJE,2682,268A,Kirchnerismo,La Libertad Avanza,1,51.0
+2019-GENERAL,2023-BALOTAJE,2684,268B,Kirchnerismo,Kirchnerismo,0,58.0
+2019-GENERAL,2023-BALOTAJE,2690,269,Kirchnerismo,Kirchnerismo,0,50.6
+2019-GENERAL,2023-BALOTAJE,2700,270,Cambiemos,La Libertad Avanza,1,81.0
+2019-GENERAL,2023-BALOTAJE,2710,271,Kirchnerismo,La Libertad Avanza,1,88.9
+2019-GENERAL,2023-BALOTAJE,2740,274,Kirchnerismo,La Libertad Avanza,1,50.5
+2019-GENERAL,2023-BALOTAJE,2750,275,Kirchnerismo,La Libertad Avanza,1,59.5
+2019-GENERAL,2023-BALOTAJE,2755,275A,Kirchnerismo,La Libertad Avanza,1,53.8
+2019-GENERAL,2023-BALOTAJE,2758,275,Kirchnerismo,Kirchnerismo,0,53.3
+2019-GENERAL,2023-BALOTAJE,2760,276,Kirchnerismo,Kirchnerismo,0,53.2
+2019-GENERAL,2023-BALOTAJE,2762,276A,Kirchnerismo,La Libertad Avanza,1,55.6
+2019-GENERAL,2023-BALOTAJE,2764,276B,Kirchnerismo,La Libertad Avanza,1,57.9
+2019-GENERAL,2023-BALOTAJE,2766,276B,Kirchnerismo,Kirchnerismo,0,55.9
+2019-GENERAL,2023-BALOTAJE,2770,277,Kirchnerismo,La Libertad Avanza,1,55.0
+2019-GENERAL,2023-BALOTAJE,2772,277B,Cambiemos,La Libertad Avanza,1,73.9
+2019-GENERAL,2023-BALOTAJE,2774,277,Kirchnerismo,La Libertad Avanza,1,55.9
+2019-GENERAL,2023-BALOTAJE,2780,278,Cambiemos,La Libertad Avanza,1,100.0
+2019-GENERAL,2023-BALOTAJE,2790,279,Kirchnerismo,La Libertad Avanza,1,60.4
+2019-GENERAL,2023-BALOTAJE,2800,280,Cambiemos,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,2810,281,Cambiemos,La Libertad Avanza,1,87.5
+2019-GENERAL,2023-BALOTAJE,2830,283,Kirchnerismo,Kirchnerismo,0,52.7
+2019-GENERAL,2023-BALOTAJE,2840,284,Cambiemos,La Libertad Avanza,1,68.5
+2019-GENERAL,2023-BALOTAJE,2850,285,Cambiemos,La Libertad Avanza,1,66.6
+2019-GENERAL,2023-BALOTAJE,2852,285B,Cambiemos,La Libertad Avanza,1,67.7
+2019-GENERAL,2023-BALOTAJE,2854,285,Cambiemos,La Libertad Avanza,1,85.7
+2019-GENERAL,2023-BALOTAJE,2860,286,Cambiemos,La Libertad Avanza,1,64.7
+2019-GENERAL,2023-BALOTAJE,2870,287,Cambiemos,La Libertad Avanza,1,71.1
+2019-GENERAL,2023-BALOTAJE,2890,289,Kirchnerismo,La Libertad Avanza,1,63.4
+2019-GENERAL,2023-BALOTAJE,2900,290,Kirchnerismo,La Libertad Avanza,1,65.5
+2019-GENERAL,2023-BALOTAJE,2910,291,Cambiemos,La Libertad Avanza,1,68.1
+2019-GENERAL,2023-BALOTAJE,2920,292,Kirchnerismo,Kirchnerismo,0,56.3
+2019-GENERAL,2023-BALOTAJE,2930,293,Kirchnerismo,La Libertad Avanza,1,64.0
+2019-GENERAL,2023-BALOTAJE,2940,294,Kirchnerismo,La Libertad Avanza,1,75.0
+2019-GENERAL,2023-BALOTAJE,3010,301,Cambiemos,La Libertad Avanza,1,63.5
+2019-GENERAL,2023-BALOTAJE,3015,302,Cambiemos,La Libertad Avanza,1,62.1
+2019-GENERAL,2023-BALOTAJE,3020,303,Cambiemos,La Libertad Avanza,1,68.4
+2019-GENERAL,2023-BALOTAJE,3025,304,Cambiemos,La Libertad Avanza,1,59.0
+2019-GENERAL,2023-BALOTAJE,3030,305,Cambiemos,La Libertad Avanza,1,66.9
+2019-GENERAL,2023-BALOTAJE,3035,306,Cambiemos,La Libertad Avanza,1,64.2
+2019-GENERAL,2023-BALOTAJE,3040,307,Cambiemos,La Libertad Avanza,1,64.1
+2019-GENERAL,2023-BALOTAJE,3045,308,Cambiemos,La Libertad Avanza,1,68.1
+2019-GENERAL,2023-BALOTAJE,3050,309,Cambiemos,La Libertad Avanza,1,67.1
+2019-GENERAL,2023-BALOTAJE,3055,310,Cambiemos,La Libertad Avanza,1,63.6
+2019-GENERAL,2023-BALOTAJE,3060,311,Cambiemos,La Libertad Avanza,1,62.7
+2019-GENERAL,2023-BALOTAJE,3065,312,Cambiemos,La Libertad Avanza,1,60.1
+2019-GENERAL,2023-BALOTAJE,3070,313,Cambiemos,La Libertad Avanza,1,60.9
+2019-GENERAL,2023-BALOTAJE,3075,314,Cambiemos,La Libertad Avanza,1,64.8
+2019-GENERAL,2023-BALOTAJE,3080,315,Cambiemos,La Libertad Avanza,1,65.3
+2019-GENERAL,2023-BALOTAJE,3085,316,Cambiemos,La Libertad Avanza,1,65.5
+2019-GENERAL,2023-BALOTAJE,3090,317,Cambiemos,La Libertad Avanza,1,65.7
+2019-GENERAL,2023-BALOTAJE,3095,318,Cambiemos,La Libertad Avanza,1,63.3
+2019-GENERAL,2023-BALOTAJE,3100,319,Cambiemos,La Libertad Avanza,1,64.1
+2019-GENERAL,2023-BALOTAJE,3105,320,Cambiemos,La Libertad Avanza,1,67.2
+2019-GENERAL,2023-BALOTAJE,3110,321,Cambiemos,La Libertad Avanza,1,66.2
+2019-GENERAL,2023-BALOTAJE,3115,322,Cambiemos,La Libertad Avanza,1,55.6
+2019-GENERAL,2023-BALOTAJE,3120,323,Kirchnerismo,La Libertad Avanza,1,50.4
+2019-GENERAL,2023-BALOTAJE,3125,324,Cambiemos,La Libertad Avanza,1,60.7
+2019-GENERAL,2023-BALOTAJE,3130,325,Cambiemos,La Libertad Avanza,1,61.0
+2019-GENERAL,2023-BALOTAJE,3135,326,Cambiemos,La Libertad Avanza,1,59.8
+2019-GENERAL,2023-BALOTAJE,3140,327,Cambiemos,La Libertad Avanza,1,63.3
+2019-GENERAL,2023-BALOTAJE,3145,328,Cambiemos,La Libertad Avanza,1,60.2
+2019-GENERAL,2023-BALOTAJE,3150,329,Cambiemos,La Libertad Avanza,1,58.6
+2019-GENERAL,2023-BALOTAJE,3155,330,Cambiemos,La Libertad Avanza,1,61.3
+2019-GENERAL,2023-BALOTAJE,3160,331,Cambiemos,La Libertad Avanza,1,59.6
+2019-GENERAL,2023-BALOTAJE,3165,332,Cambiemos,La Libertad Avanza,1,62.4
+2019-GENERAL,2023-BALOTAJE,3170,333,Cambiemos,La Libertad Avanza,1,63.1
+2019-GENERAL,2023-BALOTAJE,3175,334,Cambiemos,La Libertad Avanza,1,58.8
+2019-GENERAL,2023-BALOTAJE,3180,335,Cambiemos,La Libertad Avanza,1,55.2
+2019-GENERAL,2023-BALOTAJE,3185,336,Cambiemos,La Libertad Avanza,1,60.3
+2019-GENERAL,2023-BALOTAJE,3190,337,Cambiemos,La Libertad Avanza,1,56.0
+2019-GENERAL,2023-BALOTAJE,3195,338,Cambiemos,La Libertad Avanza,1,55.6
+2019-GENERAL,2023-BALOTAJE,3200,339,Cambiemos,La Libertad Avanza,1,65.2
+2019-GENERAL,2023-BALOTAJE,3205,340,Cambiemos,La Libertad Avanza,1,59.3
+2019-GENERAL,2023-BALOTAJE,3210,342,Kirchnerismo,La Libertad Avanza,1,58.8
+2019-GENERAL,2023-BALOTAJE,3220,342A,Cambiemos,La Libertad Avanza,1,61.2
+2019-GENERAL,2023-BALOTAJE,3230,342B,Kirchnerismo,La Libertad Avanza,1,55.0
+2019-GENERAL,2023-BALOTAJE,3240,344,Cambiemos,La Libertad Avanza,1,56.1
+2019-GENERAL,2023-BALOTAJE,3250,344A,Kirchnerismo,Kirchnerismo,0,50.7
+2019-GENERAL,2023-BALOTAJE,3260,347,Kirchnerismo,La Libertad Avanza,1,59.2
+2019-GENERAL,2023-BALOTAJE,3270,347A,Kirchnerismo,La Libertad Avanza,1,54.7
+2019-GENERAL,2023-BALOTAJE,3280,348,Kirchnerismo,La Libertad Avanza,1,54.4
+2019-GENERAL,2023-BALOTAJE,3290,349,Kirchnerismo,La Libertad Avanza,1,54.4
+2019-GENERAL,2023-BALOTAJE,3300,349A,Kirchnerismo,La Libertad Avanza,1,54.0
+2019-GENERAL,2023-BALOTAJE,3310,349B,Kirchnerismo,Kirchnerismo,0,56.8
+2019-GENERAL,2023-BALOTAJE,3320,349C,Kirchnerismo,La Libertad Avanza,1,55.1
+2019-GENERAL,2023-BALOTAJE,3340,353,Kirchnerismo,La Libertad Avanza,1,51.6
+2019-GENERAL,2023-BALOTAJE,3350,353A,Cambiemos,La Libertad Avanza,1,63.4
+2019-GENERAL,2023-BALOTAJE,3360,354,Kirchnerismo,Kirchnerismo,0,53.8
+2019-GENERAL,2023-BALOTAJE,3370,354A,Cambiemos,La Libertad Avanza,1,59.1
+2019-GENERAL,2023-BALOTAJE,3380,358,Kirchnerismo,La Libertad Avanza,1,58.2
+2019-GENERAL,2023-BALOTAJE,3390,359,Kirchnerismo,La Libertad Avanza,1,57.7
+2019-GENERAL,2023-BALOTAJE,3400,359A,Kirchnerismo,La Libertad Avanza,1,52.0
+2019-GENERAL,2023-BALOTAJE,3410,341,Kirchnerismo,La Libertad Avanza,1,59.4
+2019-GENERAL,2023-BALOTAJE,3415,341A,Cambiemos,La Libertad Avanza,1,66.1
+2019-GENERAL,2023-BALOTAJE,3420,341B,Cambiemos,La Libertad Avanza,1,80.6
+2019-GENERAL,2023-BALOTAJE,3430,343,Cambiemos,La Libertad Avanza,1,66.8
+2019-GENERAL,2023-BALOTAJE,3435,343A,Kirchnerismo,La Libertad Avanza,1,61.1
+2019-GENERAL,2023-BALOTAJE,3450,345,Kirchnerismo,La Libertad Avanza,1,64.6
+2019-GENERAL,2023-BALOTAJE,3455,345A,Kirchnerismo,La Libertad Avanza,1,57.1
+2019-GENERAL,2023-BALOTAJE,3500,350,Kirchnerismo,La Libertad Avanza,1,55.7
+2019-GENERAL,2023-BALOTAJE,3505,350A,Cambiemos,La Libertad Avanza,1,77.8
+2019-GENERAL,2023-BALOTAJE,3510,351,Kirchnerismo,La Libertad Avanza,1,59.5
+2019-GENERAL,2023-BALOTAJE,3515,351A,Cambiemos,La Libertad Avanza,1,65.3
+2019-GENERAL,2023-BALOTAJE,3520,352,Cambiemos,La Libertad Avanza,1,70.6
+2019-GENERAL,2023-BALOTAJE,3550,355,Kirchnerismo,La Libertad Avanza,1,58.2
+2019-GENERAL,2023-BALOTAJE,3555,355A,Kirchnerismo,La Libertad Avanza,1,61.9
+2019-GENERAL,2023-BALOTAJE,3560,356,Kirchnerismo,La Libertad Avanza,1,60.0
+2019-GENERAL,2023-BALOTAJE,3565,356A,Kirchnerismo,La Libertad Avanza,1,51.4
+2019-GENERAL,2023-BALOTAJE,3570,357,Cambiemos,La Libertad Avanza,1,65.8
+2019-GENERAL,2023-BALOTAJE,3580,360,Cambiemos,La Libertad Avanza,1,68.2
+2019-GENERAL,2023-BALOTAJE,3585,360A,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,3600,362A,Kirchnerismo,La Libertad Avanza,1,54.5
+2019-GENERAL,2023-BALOTAJE,3602,362E,Kirchnerismo,La Libertad Avanza,1,54.9
+2019-GENERAL,2023-BALOTAJE,3604,362F,Kirchnerismo,Kirchnerismo,0,51.0
+2019-GENERAL,2023-BALOTAJE,3610,362B,Kirchnerismo,La Libertad Avanza,1,61.2
+2019-GENERAL,2023-BALOTAJE,3615,362C,Kirchnerismo,La Libertad Avanza,1,58.3
+2019-GENERAL,2023-BALOTAJE,3620,362D,Kirchnerismo,La Libertad Avanza,1,63.2
+2019-GENERAL,2023-BALOTAJE,3625,363,Cambiemos,La Libertad Avanza,1,68.9
+2019-GENERAL,2023-BALOTAJE,3640,364,Cambiemos,La Libertad Avanza,1,66.1
+2019-GENERAL,2023-BALOTAJE,3650,365,Cambiemos,La Libertad Avanza,1,76.0
+2019-GENERAL,2023-BALOTAJE,3660,366,Cambiemos,La Libertad Avanza,1,73.1
+2019-GENERAL,2023-BALOTAJE,3670,367,Cambiemos,La Libertad Avanza,1,67.9
+2019-GENERAL,2023-BALOTAJE,3680,368B,Cambiemos,La Libertad Avanza,1,69.8
+2019-GENERAL,2023-BALOTAJE,3690,369,Kirchnerismo,La Libertad Avanza,1,64.8
+2019-GENERAL,2023-BALOTAJE,3700,370,Cambiemos,La Libertad Avanza,1,72.3
+2019-GENERAL,2023-BALOTAJE,3710,371,Cambiemos,La Libertad Avanza,1,75.3
+2019-GENERAL,2023-BALOTAJE,3720,372,Cambiemos,La Libertad Avanza,1,74.4
+2019-GENERAL,2023-BALOTAJE,3730,373,Cambiemos,La Libertad Avanza,1,66.9
+2019-GENERAL,2023-BALOTAJE,3740,374,Cambiemos,La Libertad Avanza,1,72.5
+2019-GENERAL,2023-BALOTAJE,3750,375,Cambiemos,La Libertad Avanza,1,77.2
+2019-GENERAL,2023-BALOTAJE,3755,375A,Cambiemos,La Libertad Avanza,1,70.2
+2019-GENERAL,2023-BALOTAJE,3760,376,Cambiemos,La Libertad Avanza,1,67.1
+2019-GENERAL,2023-BALOTAJE,3770,377A,Cambiemos,La Libertad Avanza,1,67.2
+2019-GENERAL,2023-BALOTAJE,3772,377B,Cambiemos,La Libertad Avanza,1,61.3
+2019-GENERAL,2023-BALOTAJE,3774,377C,Cambiemos,La Libertad Avanza,1,63.0
+2019-GENERAL,2023-BALOTAJE,3780,378,Kirchnerismo,La Libertad Avanza,1,53.2
+2019-GENERAL,2023-BALOTAJE,3782,378A,Cambiemos,La Libertad Avanza,1,63.1
+2019-GENERAL,2023-BALOTAJE,3784,378B,Cambiemos,La Libertad Avanza,1,63.5
+2019-GENERAL,2023-BALOTAJE,3786,378C,Cambiemos,La Libertad Avanza,1,78.8
+2019-GENERAL,2023-BALOTAJE,3788,378D,Cambiemos,La Libertad Avanza,1,78.6
+2019-GENERAL,2023-BALOTAJE,3790,379A,Cambiemos,La Libertad Avanza,1,66.0
+2019-GENERAL,2023-BALOTAJE,3792,379B,Cambiemos,La Libertad Avanza,1,61.2
+2019-GENERAL,2023-BALOTAJE,3794,379C,Cambiemos,La Libertad Avanza,1,68.5
+2019-GENERAL,2023-BALOTAJE,3800,380,Kirchnerismo,La Libertad Avanza,1,60.9
+2019-GENERAL,2023-BALOTAJE,3810,381,Cambiemos,La Libertad Avanza,1,69.5
+2019-GENERAL,2023-BALOTAJE,3820,382,Cambiemos,La Libertad Avanza,1,71.4
+2019-GENERAL,2023-BALOTAJE,3830,383,Cambiemos,La Libertad Avanza,1,69.1
+2019-GENERAL,2023-BALOTAJE,3840,384C,Cambiemos,La Libertad Avanza,1,56.7
+2019-GENERAL,2023-BALOTAJE,3845,384A,Kirchnerismo,La Libertad Avanza,1,56.7
+2019-GENERAL,2023-BALOTAJE,3846,384B,Kirchnerismo,La Libertad Avanza,1,55.4
+2019-GENERAL,2023-BALOTAJE,3848,384C,Cambiemos,La Libertad Avanza,1,73.6
+2019-GENERAL,2023-BALOTAJE,3850,385A,Cambiemos,La Libertad Avanza,1,75.7
+2019-GENERAL,2023-BALOTAJE,3852,385B,Cambiemos,La Libertad Avanza,1,79.2
+2019-GENERAL,2023-BALOTAJE,3854,385C,Cambiemos,La Libertad Avanza,1,77.0
+2019-GENERAL,2023-BALOTAJE,3860,386,Cambiemos,La Libertad Avanza,1,72.4
+2019-GENERAL,2023-BALOTAJE,3862,386A,Cambiemos,La Libertad Avanza,1,79.2
+2019-GENERAL,2023-BALOTAJE,3864,386B,Cambiemos,La Libertad Avanza,1,70.2
+2019-GENERAL,2023-BALOTAJE,3870,387,Cambiemos,La Libertad Avanza,1,77.0
+2019-GENERAL,2023-BALOTAJE,3880,388A,Kirchnerismo,La Libertad Avanza,1,57.2
+2019-GENERAL,2023-BALOTAJE,3885,388B,Kirchnerismo,La Libertad Avanza,1,62.2
+2019-GENERAL,2023-BALOTAJE,3890,389,Cambiemos,La Libertad Avanza,1,70.2
+2019-GENERAL,2023-BALOTAJE,3900,390A,Cambiemos,La Libertad Avanza,1,65.1
+2019-GENERAL,2023-BALOTAJE,3904,390B,Kirchnerismo,La Libertad Avanza,1,65.9
+2019-GENERAL,2023-BALOTAJE,3906,390C,Cambiemos,La Libertad Avanza,1,78.1
+2019-GENERAL,2023-BALOTAJE,3908,390D,Kirchnerismo,La Libertad Avanza,1,61.4
+2019-GENERAL,2023-BALOTAJE,3910,391,Kirchnerismo,La Libertad Avanza,1,61.1
+2019-GENERAL,2023-BALOTAJE,3915,391A,Cambiemos,La Libertad Avanza,1,73.7
+2019-GENERAL,2023-BALOTAJE,3920,392,Cambiemos,La Libertad Avanza,1,62.8
+2019-GENERAL,2023-BALOTAJE,3930,393,Kirchnerismo,La Libertad Avanza,1,60.9
+2019-GENERAL,2023-BALOTAJE,3935,393A,Kirchnerismo,La Libertad Avanza,1,58.0
+2019-GENERAL,2023-BALOTAJE,3940,394,Kirchnerismo,La Libertad Avanza,1,64.4
+2019-GENERAL,2023-BALOTAJE,3950,395A,Cambiemos,La Libertad Avanza,1,77.4
+2019-GENERAL,2023-BALOTAJE,3955,395B,Cambiemos,La Libertad Avanza,1,79.9
+2019-GENERAL,2023-BALOTAJE,3960,396,Kirchnerismo,La Libertad Avanza,1,57.9
+2019-GENERAL,2023-BALOTAJE,3965,396A,Kirchnerismo,La Libertad Avanza,1,62.4
+2019-GENERAL,2023-BALOTAJE,3970,397,Cambiemos,La Libertad Avanza,1,68.9
+2019-GENERAL,2023-BALOTAJE,3975,397A,Kirchnerismo,La Libertad Avanza,1,65.9
+2019-GENERAL,2023-BALOTAJE,3980,398,Cambiemos,La Libertad Avanza,1,73.6
+2019-GENERAL,2023-BALOTAJE,3990,399,Cambiemos,La Libertad Avanza,1,77.0
+2019-GENERAL,2023-BALOTAJE,3992,399A,Cambiemos,La Libertad Avanza,1,75.8
+2019-GENERAL,2023-BALOTAJE,3994,399B,Cambiemos,La Libertad Avanza,1,72.0
+2019-GENERAL,2023-BALOTAJE,3996,399C,Cambiemos,La Libertad Avanza,1,73.5
+2019-GENERAL,2023-BALOTAJE,4000,400,Cambiemos,La Libertad Avanza,1,74.7
+2019-GENERAL,2023-BALOTAJE,4010,401A,Cambiemos,La Libertad Avanza,1,66.0
+2019-GENERAL,2023-BALOTAJE,4015,401B,Cambiemos,La Libertad Avanza,1,67.3
+2019-GENERAL,2023-BALOTAJE,4020,402,Cambiemos,La Libertad Avanza,1,78.2
+2019-GENERAL,2023-BALOTAJE,4030,403,Cambiemos,La Libertad Avanza,1,66.8
+2019-GENERAL,2023-BALOTAJE,4040,404A,Cambiemos,La Libertad Avanza,1,69.7
+2019-GENERAL,2023-BALOTAJE,4045,404B,Cambiemos,La Libertad Avanza,1,76.2
+2019-GENERAL,2023-BALOTAJE,4050,405,Cambiemos,La Libertad Avanza,1,78.6
+2019-GENERAL,2023-BALOTAJE,4060,406,Cambiemos,La Libertad Avanza,1,65.2
+2019-GENERAL,2023-BALOTAJE,4070,407,Cambiemos,La Libertad Avanza,1,69.2
+2019-GENERAL,2023-BALOTAJE,4080,408,Kirchnerismo,La Libertad Avanza,1,63.4
+2019-GENERAL,2023-BALOTAJE,4090,409,Cambiemos,La Libertad Avanza,1,68.8
+2019-GENERAL,2023-BALOTAJE,4100,410,Cambiemos,La Libertad Avanza,1,69.0
+2019-GENERAL,2023-BALOTAJE,4110,411A,Cambiemos,La Libertad Avanza,1,66.6
+2019-GENERAL,2023-BALOTAJE,4115,411B,Kirchnerismo,La Libertad Avanza,1,59.5
+2019-GENERAL,2023-BALOTAJE,4120,412,Kirchnerismo,La Libertad Avanza,1,66.7
+2019-GENERAL,2023-BALOTAJE,4130,413A,Cambiemos,La Libertad Avanza,1,73.8
+2019-GENERAL,2023-BALOTAJE,4132,413B,Cambiemos,La Libertad Avanza,1,75.5
+2019-GENERAL,2023-BALOTAJE,4134,413C,Cambiemos,La Libertad Avanza,1,80.0
+2019-GENERAL,2023-BALOTAJE,4140,414,Kirchnerismo,La Libertad Avanza,1,66.3
+2019-GENERAL,2023-BALOTAJE,4145,414A,Kirchnerismo,La Libertad Avanza,1,61.4
+2019-GENERAL,2023-BALOTAJE,4150,415,Cambiemos,La Libertad Avanza,1,76.3
+2019-GENERAL,2023-BALOTAJE,4160,416,Kirchnerismo,La Libertad Avanza,1,62.1
+2019-GENERAL,2023-BALOTAJE,4170,417,Cambiemos,La Libertad Avanza,1,88.2
+2019-GENERAL,2023-BALOTAJE,4172,417A,Cambiemos,La Libertad Avanza,1,70.5
+2019-GENERAL,2023-BALOTAJE,4174,417B,Cambiemos,La Libertad Avanza,1,65.7
+2019-GENERAL,2023-BALOTAJE,4180,418A,Kirchnerismo,La Libertad Avanza,1,62.6
+2019-GENERAL,2023-BALOTAJE,4185,418B,Cambiemos,La Libertad Avanza,1,75.5
+2019-GENERAL,2023-BALOTAJE,4190,419,Kirchnerismo,La Libertad Avanza,1,59.1
+2019-GENERAL,2023-BALOTAJE,4200,420,Kirchnerismo,La Libertad Avanza,1,62.0
+2019-GENERAL,2023-BALOTAJE,4205,420A,Kirchnerismo,La Libertad Avanza,1,61.0
+2019-GENERAL,2023-BALOTAJE,4210,421,Kirchnerismo,La Libertad Avanza,1,60.9
+2019-GENERAL,2023-BALOTAJE,4220,422,Cambiemos,La Libertad Avanza,1,74.0
+2019-GENERAL,2023-BALOTAJE,4224,422A,Cambiemos,La Libertad Avanza,1,79.9
+2019-GENERAL,2023-BALOTAJE,4230,423,Kirchnerismo,La Libertad Avanza,1,63.0
+2019-GENERAL,2023-BALOTAJE,4240,424,Cambiemos,La Libertad Avanza,1,71.2
+2019-GENERAL,2023-BALOTAJE,4245,425A,Kirchnerismo,La Libertad Avanza,1,73.0
+2019-GENERAL,2023-BALOTAJE,4250,425B,Cambiemos,La Libertad Avanza,1,65.4

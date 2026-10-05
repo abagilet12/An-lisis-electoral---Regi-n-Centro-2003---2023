@@ -5,6 +5,7 @@ const EPI_F = {
   cart: "la cartografía de circuitos electorales de Franco Galeano (CC BY 4.0)",
   dinex: "la Dirección Nacional Electoral (Excel de resultados por distrito, escrutinio definitivo)",
   csv: "la base de datos electorales de Santa Fe 2011-2023 aportada por el equipo",
+  enlace: "el enlace histórico entre los circuitos de cada elección, construido por el equipo a partir de la cartografía de circuitos",
   censo: "el Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC, base por radio censal), cruzado con la cartografía de circuitos para asignar cada circuito a su localidad"
 };
 function EPI(claves){
@@ -12,7 +13,7 @@ function EPI(claves){
   const l=t.length>1 ? t.slice(0,-1).join(", ")+" y "+t[t.length-1] : t[0];
   return "Elaboración propia a partir de los datos obtenidos de "+l+".";
 }
-const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"], EPI_TAMANO=["polar","dine23","cart","censo"];
+const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"], EPI_TAMANO=["polar","dine23","cart","censo"], EPI_SWING=["polar","dine23","cart","enlace"], EPI_SWING_TAM=["polar","dine23","cart","enlace","censo"];
 /* [elemento de referencia, contenedor que lo envuelve (o null), fuentes, id opcional]
    El epígrafe se coloca justo debajo del contenedor. */
 const EPI_ANCLAS = [
@@ -26,6 +27,10 @@ const EPI_ANCLAS = [
   ["#leg-serie",null,EPI_BASE],
   ["#p-vol",null,EPI_BASE],
   ["#p-des",null,EPI_BASE],
+  ["#p-sw",".swingfila",EPI_SWING],
+  ["#sw-mosaico",null,EPI_SWING],
+  ["#tabla-swing",".tablewrap",EPI_SWING],
+  ["#tabla-swing-tam",".tablewrap",EPI_SWING_TAM],
   ["#leg-tramos",null,EPI_TAMANO],
   ["#tabla-tramos",".tablewrap",EPI_TAMANO],
   ["#p-ele",".mapafila",EPI_MAPA],

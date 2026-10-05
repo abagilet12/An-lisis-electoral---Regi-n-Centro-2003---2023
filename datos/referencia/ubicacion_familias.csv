@@ -1,0 +1,13 @@
+familia,posicion,orden_en_posicion,posicion_nombre,criterio_de_orden,respaldo_en_las_fuentes,nota
+Izquierda,1,1,Izquierda,Se sitúa en el extremo izquierdo de la escala,"Murillo, Rubio y Mangonnet (2016), p. 16 (bloque «Izquierda»); Murillo y Oliveros (2024), pp. 164 n. 6, 169, 182",Frente de Izquierda y otras fuerzas de izquierda; la etiqueta de bloque no distingue izquierda radical
+Centroizquierda no peronista,2,1,Centroizquierda,Primero a la izquierda dentro de la centroizquierda,Sin etiqueta explícita en las fuentes extraídas; Proyecto Sur y fuerzas afines,Decisión de investigación
+Socialismo,2,2,Centroizquierda,Segundo dentro de la centroizquierda,"Murillo, Rubio y Mangonnet (2016), p. 16 y p. 19 (bloque PS-GEN, FAP) sin etiqueta ideológica",Decisión de investigación: socialdemocracia santafesina
+Centro progresista no peronista,2,3,Centroizquierda,Tercero dentro de la centroizquierda,"Malamud (2004), p. 145: el ARI sale de la UCR «por izquierda»",Posición relativa a la UCR; ARI y Coalición Cívica
+Kirchnerismo,2,4,Centroizquierda,Último a la derecha de la centroizquierda,"Murillo y Oliveros (2024), p. 170: Kirchner reconfigura el polo peronista «hacia la centroizquierda, aunque aún en alianza con los sectores más conservadores»",El matiz conservador de la alianza lo ubica en el borde derecho de la centroizquierda
+Union Civica Radical,3,1,Centro,Primero a la izquierda dentro del centro,"Scaramella (2025), p. 104: «partido catch-all, históricamente federal»",Sin posición explícita en las fuentes
+Peronismo Federal,3,2,Centro,Segundo dentro del centro,"Murillo y Oliveros (2024), p. 166 y Scaramella (2025), p. 115: peronismo disidente / no kirchnerista, sin etiqueta ideológica","Decisión de investigación: queda a la derecha del kirchnerismo, que incorpora a los sectores más conservadores"
+Cambiemos,4,1,Centroderecha,Primero dentro de la centroderecha,"Murillo, Rubio y Mangonnet (2016), p. 12 (PRO: «centro-derecha creado tras la crisis de 2001»); Murillo y Oliveros (2024), p. 170",Alianzas de Cambiemos y Juntos por el Cambio
+Centroderecha liberal,4,2,Centroderecha,Segundo dentro de la centroderecha,"Malamud (2004), p. 145: Recrear sale de la UCR «por derecha»",Recrear y fuerzas liberales
+Derecha nacionalista,5,1,Derecha radical,Primero dentro de la derecha radical,Sin etiqueta explícita en las fuentes extraídas,Decisión de investigación
+Derecha libertaria,5,2,Derecha radical,Segundo dentro de la derecha radical,"Fuerzas libertarias anteriores a 2023 (Unite, 2019)",Ver docs/CRITERIO_DERECHA_LIBERTARIA.md
+La Libertad Avanza,5,3,Derecha radical,Tercero dentro de la derecha radical,"Murillo y Oliveros (2024), pp. 161-163, 171, 173: «extrema derecha» / «derecha radical»",Familia propia desde 2023
