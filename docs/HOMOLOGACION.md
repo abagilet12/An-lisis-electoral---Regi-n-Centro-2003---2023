@@ -97,10 +97,10 @@ Zona núcleo, elecciones generales, porcentaje sobre votos positivos:
 | Familia | 2007 | 2011 | 2015 | 2019 | 2023 |
 |---|---:|---:|---:|---:|---:|
 | Cambiemos | — | — | 45,1 | 57,2 | 28,1 |
-| Socialismo y progresismo santafesino | — | 42,7 | 3,7 | — | — |
+| Socialismo | — | 42,7 | 3,7 | — | — |
 | Derecha libertaria | — | — | — | 1,8 | 39,1 |
-| Peronismo no kirchnerista | 36,6 | 11,3 | 25,7 | 7,8 | 13,6 |
-| Peronismo kirchnerista | 34,4 | 36,2 | 23,9 | 30,9 | 18,0 |
+| Peronismo Federal | 36,6 | 11,3 | 25,7 | 7,8 | 13,6 |
+| Kirchnerismo | 34,4 | 36,2 | 23,9 | 30,9 | 18,0 |
 | Centro progresista no peronista | 24,4 | 1,7 | — | — | — |
 | Unión Cívica Radical | — | 6,6 | — | — | — |
 | Izquierda | 1,1 | 1,5 | 1,6 | 1,1 | 1,1 |

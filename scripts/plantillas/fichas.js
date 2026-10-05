@@ -8,7 +8,9 @@ const FND = s => FN(s).replace(/^9 de julio$/,"nueve de julio");   // el mapa lo
 M.dep.forEach(g=>{ FGEO_DEP[g.d] = FDEPS.findIndex(n=>FND(n)===FND(g.n)); });
 const FEL = {}; D.elecciones.forEach(e=>FEL[e.clave]=e);
 const fPct = (n,t) => t ? (100*n/t).toFixed(1).replace(".",",")+" %" : "—";
-const fCol = i => i<8 ? `var(--s${i+1})` : "var(--s9)";
+// color por identidad: el de la familia política de la etiqueta (docs/CRITERIOS_COLOR.md)
+const fFam = (i,cl) => R.pt[cl][i].f || "Otros";
+const fCol = (i,cl) => COLOR[fFam(i,cl)] || COLOR["Otros"];
 const FNOM = ["Blancos","Nulos","Impugnados","Recurridos","Comando"];
 const fEl = c => etiquetaEl(FEL[c]);
 const fAnio = c => +c.slice(0,4);
@@ -110,7 +112,7 @@ function fMapa(o){
   svg.onclick=ev=>{ const p=ev.target.closest("path"); if(p) o.clic(p.dataset.k); };
 }
 const fFilas = (a,clave,n) => a.v.map((x,i)=>[i,x]).filter(x=>x[1]>0).sort((x,y)=>y[1]-x[1]).slice(0,n)
-  .map(([i,x])=>`<div class="r"><span><span class="sw" style="display:inline-block;background:${fCol(i)}"></span> `+
+  .map(([i,x])=>`<div class="r"><span><span class="sw" style="display:inline-block;background:${fCol(i,clave)}"></span> `+
     `${R.pt[clave][i].n}</span><b>${fPct(x,a.pos)}</b></div>`).join("");
 
 /* ================= ELECCIONES ================= */
@@ -130,14 +132,14 @@ function dibujarEleccion(){
   const ganan=new Set();
   fMapa({svg:"#svg-ele", cont:"#p-ele", clave:cl, nivel:FE.nivel, datos,
     sel: FE.u.t==="dep"&&FE.nivel==="dep" ? FE.u.i : FE.u.t==="cir"&&FE.nivel==="cir" ? FE.u.c : null,
-    relleno:a=>{const i=fGanador(a); ganan.add(i); return fCol(i);},
+    relleno:a=>{const i=fGanador(a); ganan.add(i); return fCol(i,cl);},
     tip:a=>fFilas(a,cl,4)+`<div class="r"><span>Votos positivos</span><b>${fmt(a.pos)}</b></div>`,
     clic:k=>{ FE.u = FE.nivel==="dep" ? {t:"dep",i:+k} : {t:"cir",c:k}; dibujarEleccion(); }});
   const usados=[...ganan].sort((x,y)=>x-y);
   $("#leg-ele").innerHTML=`<div class="escala"><b>Primera fuerza</b></div>`+
-    usados.map(i=>`<span class="item"><i class="sw" style="background:${fCol(i)}"></i>${R.pt[cl][i].n}</span>`).join("")+
-    `<div class="escala" style="margin-top:.5rem"><span style="font-size:.72rem;color:var(--ink-3)">El color indica el puesto `+
-    `provincial del partido en esta elección, no su identidad.</span></div>`;
+    usados.map(i=>`<span class="item"><i class="sw" style="background:${fCol(i,cl)}"></i><span>${R.pt[cl][i].n} <span style="color:var(--ink-3)">(${CORTO_M(fFam(i,cl))})</span></span></span>`).join("")+
+    `<div class="escala" style="margin-top:.5rem"><span style="font-size:.72rem;color:var(--ink-3)">El color identifica la familia política `+
+    `a la que se asigna cada partido o alianza, no su puesto.</span></div>`;
   const sinGeo = Object.keys(R.ci[cl]).filter(c=>!M.cap[CAPA(fAnio(cl))].some(g=>g.c===c));
   const vSin = sinGeo.reduce((t,c)=>t+R.ci[cl][c].filter((_,j)=>j%2).reduce((x,y)=>x+y,0),0);
   $("#ele-nota-mapa").textContent = FE.nivel==="cir"&&sinGeo.length
@@ -161,7 +163,7 @@ function fTablaEle(){
     const p=pt[i];
     h+=`<tr><td>${n}</td><td class="nom"><button type="button" data-k="${p.k}">${p.n}</button>`+
        `${p.sd&&!prov?" (sin detalle territorial)":""}</td><td>${fmt(x)}</td><td>${fPct(x,a.pos)}</td>`+
-       `<td style="text-align:left"><span class="fbar" style="width:${Math.max(1,Math.round(150*(x/a.pos)/maxp))}px"></span></td>`+
+       `<td style="text-align:left"><span class="fbar" style="background:${fCol(i,cl)};width:${Math.max(1,Math.round(150*(x/a.pos)/maxp))}px"></span></td>`+
        (conDef?`<td>${p.d?fmt(p.d):"—"}</td><td>${p.d&&def.positivos?fPct(p.d,def.positivos):"—"}</td>`:"")+`</tr>`;
   }
   h+=`</tbody><tfoot><tr><td></td><td class="nom">Votos positivos</td><td>${fmt(a.pos)}</td><td>100 %</td><td></td>`+
@@ -233,6 +235,7 @@ function fCabPar(){
   const gan=s.filter(x=>x.puesto===1).length;
   $("#par-cab").innerHTML=
     `<span><b>${fNombre(k)}</b></span>`+
+    `<span>Familia política: <span class="sw" style="display:inline-block;background:${COLOR[ap[ap.length-1].p.f]||COLOR.Otros}"></span> <b>${CORTO_M(ap[ap.length-1].p.f)}</b></span>`+
     `<span>Presente en <b>${ap.length}</b> de ${R.el.length} instancias</span>`+
     `<span>Mejor resultado provincial: <span class="g">${mejor.pct.toFixed(1).replace(".",",")} %</span> · ${fEl(mejor.cl)}</span>`+
     `<span>Primero en la provincia en <b>${gan}</b> ${gan===1?"instancia":"instancias"}</span>`;
@@ -323,7 +326,7 @@ function fMapaPar(){
   for(const a of Object.values(datos)) if(a&&a.pos) max=Math.max(max,100*a.v[i]/a.pos);
   fMapa({svg:"#svg-par", cont:"#p-par", clave:cl, nivel:FP.nivel, datos,
     sel: FP.u.t==="dep"&&FP.nivel==="dep" ? FP.u.i : FP.u.t==="cir"&&FP.nivel==="cir" ? fCodigoEn(FP.u.c,cl) : null,
-    relleno:a=>tinte("var(--navy)", max? (100*a.v[i]/a.pos)/max : 0),
+    relleno:a=>tinte(COLOR[a0.p.f]||COLOR.Otros, max? (100*a.v[i]/a.pos)/max : 0),
     tip:a=>`<div class="r"><span>${a0.p.n}</span><b>${fPct(a.v[i],a.pos)}</b></div>`+
            `<div class="r"><span>Votos</span><b>${fmt(a.v[i])}</b></div><div class="r"><span>Positivos</span><b>${fmt(a.pos)}</b></div>`,
     clic:kk=>{
@@ -333,7 +336,7 @@ function fMapaPar(){
     }});
   $("#leg-par").innerHTML= sd ? `<div class="escala"><b>Sin detalle territorial</b></div>` :
     `<div class="escala"><b>${a0.p.n}</b>`+
-    [0,.25,.5,.75,1].map(t=>`<span><i style="background:${tinte("var(--navy)",t)}"></i>${(max*t).toFixed(0)} %</span>`).join("")+`</div>`;
+    [0,.25,.5,.75,1].map(t=>`<span><i style="background:${tinte(COLOR[a0.p.f]||COLOR.Otros,t)}"></i>${(max*t).toFixed(0)} %</span>`).join("")+`</div>`;
   $("#par-nota-mapa").textContent = sd
     ? "Para esta elección únicamente se conoce el total provincial del partido."
     : `${fEl(cl)}. El color varía de claro a oscuro según el porcentaje del partido sobre los votos positivos de cada unidad; la escala alcanza el máximo observado.`;
