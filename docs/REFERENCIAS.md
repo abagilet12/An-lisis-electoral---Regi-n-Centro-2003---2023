@@ -17,6 +17,7 @@ Formato de cita en el HTML: (autor, año: página).
 ## Con datos bibliográficos incompletos (solo se conoce autoría, año y página)
 
 - Escolar (2011) y Torres (2019, citado en Scaramella, 2025: 109).
+- Auerbach et al. (2024), citado en el texto de presentación del tablero: solo se conoce autoría y año.
 - Murillo, Rubio y Mangonnet (2016).
 - Murillo y Oliveros (2024).
 - Valencia Sáiz (artículo adjunto a Malamud, 2004, pp. 155-171).

@@ -1,4 +1,18 @@
-# Análisis electoral de la región centro, 2003–2023
+# Análisis electoral nacional en la provincia de Santa Fe 2003 - 2023
+
+**Análisis electoral de la categoría presidente en la provincia de Santa Fe entre 2003 y 2023.**
+
+La presente práctica de investigación se propone analizar y describir las características del voto en las provincias de Santa Fe, Córdoba y Entre Ríos. Al explorar las relaciones entre la evaluación del voto y los cambios socio-económicos y culturales más amplios.
+
+El proceso de transición y consolidación democrática en Argentina supuso un sistema político integrado con un alto grado de nacionalización. Sin embargo, se observa que no todos los actores político-partidarios sostienen una estructura multinivel en las provincias. En términos electorales, la región centro equivale aproximadamente a un cuarto del padrón electoral nacional. A través del análisis comparado, nuestro objetivo es analizar la performance electoral para la categoría electiva presidente en la región centro (Córdoba, Santa Fe y Entre Ríos) entre 2003 y 2023.
+
+El período se corresponde con la totalidad de elecciones presidenciales en el s. XXI. Lo cual cobra relevancia en el estudio social y político de la democracia argentina. Asimismo, la competencia electoral a escala nacional atravesó fuertes procesos de reconfiguración en torno a su oferta electoral, excepto por un actor político-partidario: el kirchnerismo.
+
+Además, presentamos líneas de interpretación para abordar la división «rural-urbana». La cual requiere especial atención al lugar geográfico, que funciona como identidad social, trasciende las características socioeconómicas individuales y moldea las orientaciones políticas (en Auerbach et al., 2024).
+
+Esta presentación se encuadra en una investigación más amplia, donde se analiza la politización de un ethos cultural en la región centro. En esta línea, se plantea que las ofertas electorales (generalmente opositoras al kirchnerismo) politizan o activan las identidades culturales que moviliza una definición política-partidaria al momento de los sufragios nacionales.
+
+## Este repositorio
 
 Base de datos y análisis de los resultados de **elecciones presidenciales en la
 provincia de Santa Fe entre 2003 y 2023**, desagregados por departamento y

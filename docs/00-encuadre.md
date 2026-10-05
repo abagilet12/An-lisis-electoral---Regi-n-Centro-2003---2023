@@ -6,7 +6,7 @@ error del código.
 
 ## Proyecto
 
-**Análisis electoral de la región centro 2003–2023**, práctica de investigación
+**Análisis electoral nacional en la provincia de Santa Fe 2003 - 2023**, práctica de investigación
 (IHUCSO), inscripta en el proyecto CAI+D *"Actores, liderazgos y prácticas
 políticas en la región Centro. La reconfiguración de un ethos socio político en
 la democracia"*.
