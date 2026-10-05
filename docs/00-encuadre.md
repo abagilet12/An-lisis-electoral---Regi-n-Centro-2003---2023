@@ -54,7 +54,7 @@ Tres advertencias metodológicas que se desprenden del universo:
 
 1. **Las PASO existen recién desde 2011** (Ley 26.571). La serie tiene dos
    sub-series de distinta longitud: 6 generales comparables de punta a punta y
-   5 PASO. La columna vertebral de cualquier comparación es la de generales.
+   4 PASO. La columna vertebral de cualquier comparación es la de generales.
 2. **Los ballotages de 2015 y 2023 no son comparables con las generales**: son
    elecciones de dos opciones y saturan el mapa. Sirven para medir transferencia
    de votos entre primera y segunda vuelta, no para prolongar la serie.

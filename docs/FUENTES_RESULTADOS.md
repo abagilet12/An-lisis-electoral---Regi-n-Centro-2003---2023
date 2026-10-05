@@ -78,7 +78,7 @@ etiqueta oficial, hasta el nivel de circuito.
   oficial, para no contar cuatro partidos donde la DINE informa uno.
 - Hay 43 circuitos sin polígono en la cartografía: no se dibujan en el mapa, pero suman en
   departamento y provincia.
-- En el mapa de una elección el color indica el puesto provincial del partido, no su identidad.
+- En el mapa de una elección el color identifica la familia política del partido (`docs/CRITERIOS_COLOR.md`), no su puesto.
 - Para seguir un circuito en el tiempo se usa el enlace histórico de la cartografía, con el
   circuito de 2023 como referencia.
 - Votantes = votos positivos + blancos + nulos (+ impugnados, recurridos y comando en 2023).
