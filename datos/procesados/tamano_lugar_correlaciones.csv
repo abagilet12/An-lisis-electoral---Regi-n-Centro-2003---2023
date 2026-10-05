@@ -1,64 +1,72 @@
 clave,familia,localidades,spearman_poblacion,pearson_log_poblacion
-2007-GENERAL,Centro progresista no peronista,30,0.028,0.023
-2007-GENERAL,Centroderecha liberal,30,-0.190,-0.205
-2007-GENERAL,Centroizquierda no peronista,30,0.296,0.196
-2007-GENERAL,Izquierda,30,-0.287,-0.257
-2007-GENERAL,Kirchnerismo,30,0.001,0.070
-2007-GENERAL,Otros,30,0.055,0.034
-2007-GENERAL,Peronismo Federal,30,0.019,-0.081
-2011-PASO,Centro progresista no peronista,30,0.411,0.353
-2011-PASO,Centroizquierda no peronista,29,0.365,0.244
-2011-PASO,Izquierda,30,0.291,0.160
-2011-PASO,Kirchnerismo,30,-0.084,0.097
-2011-PASO,Otros,30,0.218,0.335
-2011-PASO,Peronismo Federal,30,-0.147,-0.298
-2011-PASO,Socialismo,30,0.205,0.204
-2011-PASO,Union Civica Radical,30,-0.134,-0.238
-2011-GENERAL,Centro progresista no peronista,30,0.144,0.130
-2011-GENERAL,Izquierda,30,0.130,-0.033
-2011-GENERAL,Kirchnerismo,30,0.001,0.121
-2011-GENERAL,Peronismo Federal,30,-0.193,-0.322
-2011-GENERAL,Socialismo,30,0.154,0.076
-2011-GENERAL,Union Civica Radical,30,-0.096,-0.229
-2015-PASO,Cambiemos,30,-0.301,-0.337
-2015-PASO,Izquierda,30,0.269,0.248
-2015-PASO,Kirchnerismo,30,0.136,0.233
-2015-PASO,Otros,30,0.157,0.171
-2015-PASO,Peronismo Federal,30,0.220,0.241
-2015-PASO,Socialismo,30,0.046,0.019
-2015-GENERAL,Cambiemos,30,-0.303,-0.303
-2015-GENERAL,Izquierda,30,0.358,0.321
-2015-GENERAL,Kirchnerismo,30,0.089,0.172
-2015-GENERAL,Peronismo Federal,30,0.317,0.293
-2015-GENERAL,Socialismo,30,0.341,0.231
-2015-BALOTAJE,Cambiemos,30,-0.216,-0.272
-2015-BALOTAJE,Kirchnerismo,30,0.216,0.272
-2019-PASO,Cambiemos,30,-0.360,-0.343
-2019-PASO,Derecha libertaria,30,0.473,0.441
-2019-PASO,Derecha nacionalista,30,0.318,0.324
-2019-PASO,Izquierda,30,0.319,0.245
-2019-PASO,Kirchnerismo,30,0.121,0.199
-2019-PASO,Otros,28,-0.055,-0.168
-2019-PASO,Peronismo Federal,30,0.323,0.272
-2019-GENERAL,Cambiemos,30,-0.207,-0.242
-2019-GENERAL,Derecha libertaria,30,0.332,0.211
-2019-GENERAL,Derecha nacionalista,30,0.332,0.257
-2019-GENERAL,Izquierda,30,0.145,0.011
-2019-GENERAL,Kirchnerismo,30,0.115,0.195
-2019-GENERAL,Peronismo Federal,30,0.347,0.276
-2023-PASO,Cambiemos,30,-0.129,-0.245
-2023-PASO,Centroderecha liberal,8,-0.857,-0.623
-2023-PASO,Centroizquierda no peronista,28,-0.013,0.015
-2023-PASO,Derecha nacionalista,8,-0.405,-0.309
-2023-PASO,Izquierda,30,0.224,0.147
-2023-PASO,Kirchnerismo,30,0.329,0.332
-2023-PASO,La Libertad Avanza,30,0.052,0.103
-2023-PASO,Otros,30,0.153,-0.046
-2023-PASO,Peronismo Federal,30,-0.165,-0.120
-2023-GENERAL,Cambiemos,30,-0.194,-0.259
-2023-GENERAL,Izquierda,30,0.131,0.178
-2023-GENERAL,Kirchnerismo,30,0.325,0.330
-2023-GENERAL,La Libertad Avanza,30,-0.076,-0.045
-2023-GENERAL,Peronismo Federal,30,-0.162,-0.033
-2023-BALOTAJE,Kirchnerismo,30,0.285,0.296
-2023-BALOTAJE,La Libertad Avanza,30,-0.285,-0.296
+2003-GENERAL,Centro progresista no peronista,364,0.512,0.522
+2003-GENERAL,Centroderecha liberal,365,-0.185,-0.218
+2003-GENERAL,Derecha nacionalista,309,-0.295,-0.316
+2003-GENERAL,Izquierda,337,0.217,0.172
+2003-GENERAL,Kirchnerismo,365,-0.044,-0.090
+2003-GENERAL,Otros,351,-0.042,-0.147
+2003-GENERAL,Peronismo Federal,365,-0.021,-0.050
+2003-GENERAL,Socialismo,322,0.183,0.121
+2003-GENERAL,Union Civica Radical,352,-0.336,-0.312
+2007-GENERAL,Centro progresista no peronista,365,0.347,0.315
+2007-GENERAL,Centroderecha liberal,343,-0.195,-0.242
+2007-GENERAL,Centroizquierda no peronista,286,-0.230,-0.106
+2007-GENERAL,Derecha nacionalista,293,-0.231,-0.218
+2007-GENERAL,Izquierda,346,0.284,0.259
+2007-GENERAL,Kirchnerismo,365,0.181,0.194
+2007-GENERAL,Otros,337,-0.082,-0.125
+2007-GENERAL,Peronismo Federal,365,-0.410,-0.435
+2011-PASO,Centro progresista no peronista,354,0.209,0.134
+2011-PASO,Izquierda,305,0.216,0.158
+2011-PASO,Kirchnerismo,364,0.146,0.134
+2011-PASO,Peronismo Federal,364,-0.172,-0.200
+2011-PASO,Socialismo,363,0.155,0.111
+2011-PASO,Union Civica Radical,362,-0.219,-0.258
+2011-GENERAL,Centro progresista no peronista,332,0.124,-0.030
+2011-GENERAL,Izquierda,323,0.128,0.085
+2011-GENERAL,Kirchnerismo,365,0.183,0.164
+2011-GENERAL,Peronismo Federal,364,-0.129,-0.165
+2011-GENERAL,Socialismo,365,0.007,-0.046
+2011-GENERAL,Union Civica Radical,360,-0.242,-0.277
+2015-PASO,Cambiemos,365,-0.198,-0.213
+2015-PASO,Izquierda,344,0.235,0.188
+2015-PASO,Kirchnerismo,364,0.089,0.055
+2015-PASO,Otros,301,-0.344,-0.188
+2015-PASO,Peronismo Federal,365,0.317,0.274
+2015-PASO,Socialismo,355,0.107,-0.140
+2015-GENERAL,Cambiemos,365,-0.270,-0.290
+2015-GENERAL,Izquierda,333,0.359,0.358
+2015-GENERAL,Kirchnerismo,365,0.148,0.112
+2015-GENERAL,Peronismo Federal,365,0.266,0.230
+2015-GENERAL,Socialismo,354,0.245,0.103
+2015-BALOTAJE,Cambiemos,365,-0.242,-0.231
+2015-BALOTAJE,Kirchnerismo,365,0.242,0.231
+2019-PASO,Cambiemos,365,-0.316,-0.348
+2019-PASO,Derecha libertaria,341,0.312,0.178
+2019-PASO,Derecha nacionalista,349,0.277,0.189
+2019-PASO,Izquierda,341,0.219,0.166
+2019-PASO,Kirchnerismo,365,0.228,0.221
+2019-PASO,Otros,290,-0.418,-0.498
+2019-PASO,Peronismo Federal,365,0.246,0.086
+2019-GENERAL,Cambiemos,365,-0.305,-0.322
+2019-GENERAL,Derecha libertaria,342,0.221,0.123
+2019-GENERAL,Derecha nacionalista,334,0.199,0.156
+2019-GENERAL,Izquierda,326,0.232,0.188
+2019-GENERAL,Kirchnerismo,365,0.235,0.230
+2019-GENERAL,Peronismo Federal,364,0.299,0.204
+2023-PASO,Cambiemos,363,-0.206,-0.257
+2023-PASO,Centroderecha liberal,145,-0.533,-0.455
+2023-PASO,Centroizquierda no peronista,260,-0.363,-0.205
+2023-PASO,Derecha nacionalista,168,-0.391,-0.462
+2023-PASO,Izquierda,337,0.228,0.179
+2023-PASO,Kirchnerismo,362,0.164,0.114
+2023-PASO,La Libertad Avanza,363,0.079,0.062
+2023-PASO,Otros,300,-0.299,-0.334
+2023-PASO,Peronismo Federal,354,0.187,0.038
+2023-GENERAL,Cambiemos,365,-0.134,-0.181
+2023-GENERAL,Izquierda,334,0.198,0.171
+2023-GENERAL,Kirchnerismo,364,0.196,0.185
+2023-GENERAL,La Libertad Avanza,365,-0.171,-0.192
+2023-GENERAL,Peronismo Federal,365,0.178,0.062
+2023-BALOTAJE,Kirchnerismo,365,0.199,0.202
+2023-BALOTAJE,La Libertad Avanza,365,-0.199,-0.202

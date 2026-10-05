@@ -28,8 +28,6 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 
 ## Pendiente de decisión
 
-- El análisis por tamaño del lugar usa las 30 localidades con resultados propios y deja vacías las categorías
-  rural y ciudad grande (`docs/TAMANO_DEL_LUGAR.md`).
 - Hay dos mapas por circuito: el de la serie (pestaña «Evolución del voto», con ficha histórica) y
   «El voto circuito por circuito» (pestaña «Distribución del electorado»).
 - «Resultados comparados» (la serie en cifras) quedó en «Distribución del electorado».

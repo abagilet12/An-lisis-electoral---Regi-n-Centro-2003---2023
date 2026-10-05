@@ -1,24 +1,29 @@
 #!/usr/bin/env python3
 """
-El voto según el tamaño del lugar (localidades × población del Censo 2022).
+El voto según el tamaño del lugar: toda la provincia, 12 instancias, por localidad censal.
+
+Cadena de datos
+  circuito (resultados) ──► localidad / gobierno local (cartografía × radios del Censo 2022)
+                         ──► población 2022 ──► categoría de la escala demográfica ──► voto por familia
 
 Entradas
-  datos/procesados/serie_homologada.csv           resultados por localidad con familia política
-  datos/referencia/poblacion_localidades_censo2022.csv   población 2022 por localidad
-  datos/referencia/escala_tamano_lugar.csv        escala demográfica (Rural … Ciudad grande)
-  datos/procesados/metadatos_localidad.csv        electores por localidad (para el control)
-  datos/procesados/serie_homologada.csv (nivel provincia/circuito) para el peso de la muestra
+  datos/procesados/serie_homologada.csv          resultados por circuito (nivel `circuito`) con familia política
+  datos/referencia/circuito_localidad.csv        circuito → localidad (scripts/asignar_circuitos_a_localidad.py)
+  datos/referencia/escala_tamano_lugar.csv       escala demográfica (Rural … Ciudad grande)
+  datos/procesados/nomenclador_circuito_localidad.csv   30 localidades relevadas a mano (control)
+  datos/procesados/serie_homologada.csv (nivel `localidad`)  resultados por localidad de esas 30 (control)
 
 Salidas
   datos/procesados/tamano_lugar.csv               localidad × elección × familia, con población y categoría
   datos/procesados/tamano_lugar_correlaciones.csv correlación población-voto por elección y familia
   salida/datos_tamano_lugar.json                  versión compacta para el tablero
 
-Controles (se imprimen y detienen el proceso si fallan los de tipo ERROR)
-  1. cada localidad tiene población y una única categoría;
-  2. cada elección tiene las 30 localidades y sus votos suman lo mismo que serie_localidad.csv;
-  3. relación electores/población dentro de lo esperable (0,5 a 0,95);
-  4. cuántas localidades hay por categoría y qué parte de la provincia representan.
+Controles (los de tipo ERROR detienen el proceso)
+  1. cada circuito con votos tiene localidad asignada y se informa qué porción de los votos queda sin asignar;
+  2. el cruce espacial reproduce el nomenclador circuito→localidad relevado a mano;
+  3. para las 30 localidades con resultados propios, los votos reconstruidos desde los circuitos se comparan
+     con los de la fuente por localidad, elección por elección;
+  4. cuántas localidades y qué porción del voto cae en cada categoría.
 """
 import collections
 import csv
@@ -31,6 +36,8 @@ RAIZ = Path(__file__).resolve().parent.parent
 PROC = RAIZ / "datos" / "procesados"
 REF = RAIZ / "datos" / "referencia"
 ORDEN = {"PASO": 0, "GENERAL": 1, "BALOTAJE": 2}
+CAPA = lambda a: "2003" if a <= 2003 else "2007" if a <= 2007 else "2011" if a <= 2011 else "2015" if a <= 2015 else "2019" if a <= 2019 else "2023"
+nz = lambda c: c.lstrip("0")
 
 
 def leer(p):
@@ -39,6 +46,7 @@ def leer(p):
 
 escala = [(int(r["orden"]), r["categoria"], int(r["desde"]), int(r["hasta"]) if r["hasta"] else None)
           for r in leer(REF / "escala_tamano_lugar.csv")]
+nombres_cat = [e[1] for e in escala]
 
 
 def categoria(p):
@@ -48,50 +56,70 @@ def categoria(p):
     raise ValueError(p)
 
 
-pob = {(r["departamento"], r["localidad"]): int(r["poblacion_2022"])
-       for r in leer(REF / "poblacion_localidades_censo2022.csv")}
-serie = [r for r in leer(PROC / "serie_homologada.csv") if r["nivel"] == "localidad"]
+asig = {(r["capa"], nz(r["circuito"])): r for r in leer(REF / "circuito_localidad.csv")}
+serie = leer(PROC / "serie_homologada.csv")
 error = []
 
-# votos por (elección, localidad, familia)
+# votos por (elección, localidad, familia) reconstruidos desde los circuitos
 v = collections.defaultdict(int)
+sin_asignar = collections.defaultdict(int)
+total_elec = collections.defaultdict(int)
+circ_por_loc = collections.defaultdict(set)
 for r in serie:
-    v[(f"{r['anio']}-{r['instancia']}", r["seccion"], r["localidad"], r["familia"])] += int(float(r["votos"]))
-claves = sorted({k[0] for k in v}, key=lambda c: (c[:4], ORDEN[c[5:]]))
-locs = sorted(pob, key=lambda k: (k[0], k[1]))
-familias = sorted({k[3] for k in v})
+    if r["nivel"] != "circuito":
+        continue
+    c = f"{r['anio']}-{r['instancia']}"
+    x = int(float(r["votos"]))
+    total_elec[c] += x
+    a = asig.get((CAPA(int(r["anio"])), nz(r["circuito_id"])))
+    if not a:
+        sin_asignar[c] += x
+        continue
+    v[(c, a["codigo_gobierno_local"], r["familia"])] += x
+    if r["anio"] == "2023":
+        circ_por_loc[a["codigo_gobierno_local"]].add(nz(r["circuito_id"]))
+claves = sorted(total_elec, key=lambda c: (c[:4], ORDEN[c[5:]]))
+familias = sorted({k[2] for k in v})
+loc_info = {}
+for a in asig.values():
+    loc_info[a["codigo_gobierno_local"]] = (a["localidad"], int(a["poblacion_localidad_2022"]))
+con_votos = sorted({k[1] for k in v}, key=lambda g: (-loc_info[g][1], loc_info[g][0]))
 
-# 1. población y categoría
-for k in locs:
-    if k not in pob or not pob[k]:
-        error.append(f"sin población: {k}")
-# 2. cobertura y conservación
-sl = collections.defaultdict(int)
-for r in leer(PROC / "serie_localidad.csv"):
-    if r["tipo_registro"] == "agrupacion":
-        sl[f"{r['anio']}-{r['instancia']}"] += int(float(r["votos"]))
+# 1. cobertura
 for c in claves:
-    presentes = {(k[1], k[2]) for k in v if k[0] == c}
-    if presentes != set(locs):
-        error.append(f"{c}: faltan localidades {set(locs) - presentes}")
-    tot = sum(x for k, x in v.items() if k[0] == c)
-    if sl and tot != sl.get(c, tot):
-        error.append(f"{c}: {tot} votos por familia vs {sl[c]} en serie_localidad.csv")
+    if total_elec[c] and sin_asignar[c] / total_elec[c] > 0.005:
+        error.append(f"{c}: {100 * sin_asignar[c] / total_elec[c]:.2f} % de los votos sin localidad")
 
-# 3. electores / población
-el = {}
-for r in leer(PROC / "metadatos_localidad.csv"):
-    if r["anio"] == "2023" and r["instancia"] == "GENERAL":
-        el[(r["seccion"], r["localidad"])] = int(r["electores"])
-raros = [(k, round(el[k] / pob[k], 2)) for k in locs if k in el and not 0.5 <= el[k] / pob[k] <= 0.95]
+# 2. el cruce espacial contra el nomenclador a mano
+nom_mal = []
+for r in leer(PROC / "nomenclador_circuito_localidad.csv"):
+    got = asig.get((r["anio"], nz(r["circuito_id"])))
+    if not got or got["localidad"] != r["localidad"]:
+        nom_mal.append((r["anio"], r["circuito_id"], r["localidad"], got["localidad"] if got else None))
+n_nom = len(leer(PROC / "nomenclador_circuito_localidad.csv"))
+if len(nom_mal) / n_nom > 0.05:
+    error.append(f"el cruce espacial no reproduce el nomenclador: {nom_mal}")
+
+# 3. las 30 localidades con resultados propios
+nombre_a_gl = {loc_info[g][0]: g for g in loc_info}
+dif = []
+fuente = collections.defaultdict(int)
+for r in serie:
+    if r["nivel"] == "localidad":
+        fuente[(f"{r['anio']}-{r['instancia']}", r["localidad"])] += int(float(r["votos"]))
+for (c, loc), x in sorted(fuente.items()):
+    g = nombre_a_gl.get(loc)
+    rec = sum(w for (cc, gg, f), w in v.items() if cc == c and gg == g)
+    dif.append((c, loc, x, rec, (rec - x) / x * 100 if x else 0))
+fuera = [d for d in dif if abs(d[4]) > 10]
 
 # salida larga
 out = PROC / "tamano_lugar.csv"
 with open(out, "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh, lineterminator="\n")
-    w.writerow(["clave", "departamento", "localidad", "poblacion_2022", "categoria", "familia", "votos"])
-    for (c, d, l, f), x in sorted(v.items(), key=lambda t: (t[0][0], t[0][1], t[0][2], t[0][3])):
-        w.writerow([c, d, l, pob[(d, l)], categoria(pob[(d, l)]), f, x])
+    w.writerow(["clave", "codigo_gobierno_local", "localidad", "poblacion_2022", "categoria", "familia", "votos"])
+    for (c, g, f), x in sorted(v.items(), key=lambda t: (t[0][0], t[0][1], t[0][2])):
+        w.writerow([c, g, loc_info[g][0], loc_info[g][1], categoria(loc_info[g][1]), f, x])
 
 
 def rangos(x):
@@ -112,46 +140,57 @@ def pearson(a, b):
     return sum((x - ma) * (y - mb) for x, y in zip(a, b)) / (sa * sb) if sa and sb else None
 
 
-cor = PROC / "tamano_lugar_correlaciones.csv"
-with open(cor, "w", newline="", encoding="utf-8") as fh:
+pos_loc = collections.defaultdict(int)
+for (c, g, f), x in v.items():
+    pos_loc[(c, g)] += x
+with open(PROC / "tamano_lugar_correlaciones.csv", "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh, lineterminator="\n")
     w.writerow(["clave", "familia", "localidades", "spearman_poblacion", "pearson_log_poblacion"])
     for c in claves:
         for f in familias:
             xs, ys, lp = [], [], []
-            for k in locs:
-                pos = sum(v.get((c, k[0], k[1], g), 0) for g in familias)
-                if pos and v.get((c, k[0], k[1], f)):
-                    xs.append(pob[k]); lp.append(math.log10(pob[k])); ys.append(100 * v[(c, k[0], k[1], f)] / pos)
-            if len(xs) >= 5:
+            for g in con_votos:
+                p = pos_loc.get((c, g), 0)
+                if p and v.get((c, g, f)):
+                    xs.append(loc_info[g][1]); lp.append(math.log10(loc_info[g][1])); ys.append(100 * v[(c, g, f)] / p)
+            if len(xs) >= 10:
                 w.writerow([c, f, len(xs), f"{pearson(rangos(xs), rangos(ys)):.3f}", f"{pearson(lp, ys):.3f}"])
 
 # JSON compacto
-J = {"cat": [e[1] for e in escala],
-     "escala": [[e[1], e[2], e[3]] for e in escala],
-     "fam": familias,
-     "loc": [{"n": k[1], "d": k[0], "p": pob[k], "c": [e[1] for e in escala].index(categoria(pob[k]))} for k in locs],
+idx = {g: i for i, g in enumerate(con_votos)}
+J = {"cat": nombres_cat, "escala": [[e[1], e[2], e[3]] for e in escala], "fam": familias,
+     "loc": [{"n": loc_info[g][0], "p": loc_info[g][1], "c": nombres_cat.index(categoria(loc_info[g][1])),
+              "k": len(circ_por_loc[g])} for g in con_votos],
      "el": claves, "v": {}}
 for c in claves:
-    J["v"][c] = []
-    for i, k in enumerate(locs):
-        J["v"][c].append([x for f_i, f in enumerate(familias) for x in (f_i, v.get((c, k[0], k[1], f), 0))
-                          if v.get((c, k[0], k[1], f), 0)] if False else
-                         [y for f_i, f in enumerate(familias) if v.get((c, k[0], k[1], f), 0)
-                          for y in (f_i, v[(c, k[0], k[1], f)])])
+    J["v"][c] = {}
+    for g in con_votos:
+        plano = [y for fi, f in enumerate(familias) if v.get((c, g, f)) for y in (fi, v[(c, g, f)])]
+        if plano:
+            J["v"][c][idx[g]] = plano
 (RAIZ / "salida" / "datos_tamano_lugar.json").write_text(
     json.dumps(J, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 # informe
-print("Localidades por categoría:")
-por_cat = collections.Counter(categoria(pob[k]) for k in locs)
+print("Localidades con votos y votos de 2023 (general) por categoría:")
+por_cat = collections.Counter(categoria(loc_info[g][1]) for g in con_votos)
+vot23 = collections.defaultdict(int)
+for g in con_votos:
+    vot23[categoria(loc_info[g][1])] += pos_loc.get(("2023-GENERAL", g), 0)
+t23 = sum(vot23.values())
 for _, n, d, h in escala:
-    print(f"  {n:18} {d:>6} a {h if h else '—':>6}: {por_cat.get(n, 0)} localidades",
-          "(sin localidades en la base)" if not por_cat.get(n) else "")
-print("Cerca de un límite (±3 %):", [(k[1], pob[k]) for k in locs
-      if any(h and abs(pob[k] - h) / h <= 0.03 for _, _, _, h in escala)] or "ninguna")
-print("Electores/población fuera de 0,5-0,95:", raros or "ninguna")
-print("Elecciones con datos por localidad:", ", ".join(claves))
+    print(f"  {n:18} {d:>6} a {h if h else '—':>6}: {por_cat.get(n, 0):>3} localidades · {100 * vot23[n] / t23:5.1f} % de los votos positivos 2023")
+print("Votos sin localidad asignada (máx. por elección):",
+      f"{max(100 * sin_asignar[c] / total_elec[c] for c in claves):.2f} %")
+print(f"Nomenclador a mano reproducido: {n_nom - len(nom_mal)} de {n_nom}", nom_mal or "")
+print("Control contra las 30 localidades con resultados propios:",
+      f"{len(dif)} pares localidad-elección; diferencia media absoluta {sum(abs(d[4]) for d in dif) / len(dif):.1f} %;",
+      f"mayor diferencia {max(abs(d[4]) for d in dif):.1f} %")
+if fuera:
+    print("  más de 10 % de diferencia:", sorted({(d[1], round(d[4])) for d in fuera})[:12])
+cerca = [(loc_info[g][0], loc_info[g][1]) for g in con_votos
+         if any(h and abs(loc_info[g][1] - h) / h <= 0.01 for _, _, _, h in escala)]
+print("A ±1 % de un límite de categoría:", cerca or "ninguna")
 if error:
     print("\nERROR:"); [print(" ", e) for e in error]; sys.exit(1)
 print("Controles: sin errores.")

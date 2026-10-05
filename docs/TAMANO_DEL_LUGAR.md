@@ -1,5 +1,7 @@
 # El voto según el tamaño del lugar
 
+Cobertura: **toda la provincia, 12 instancias (2003-2023), 365 localidades** (gobiernos locales, con su zona rural).
+
 ## Escala demográfica
 
 Definida en `datos/referencia/escala_tamano_lugar.csv` (se edita ahí, no en el código):
@@ -10,44 +12,52 @@ Definida en `datos/referencia/escala_tamano_lugar.csv` (se edita ahí, no en el 
 | Pueblo | 2.001 a 5.000 |
 | Ciudad pequeña | 5.001 a 10.000 |
 | Ciudad intermedia | 10.001 a 50.000 |
-| Ciudad grande | 50.001 a 1.000.000 |
+| Ciudad grande | 50.001 a 1.000.000 (Rosario, con 1.030.069, supera el tope y se incluye) |
 
-## Datos
+## Cadena de datos
 
-- **Voto por localidad:** `datos/procesados/serie_homologada.csv`, filas de nivel `localidad`
-  (30 localidades de Castellanos, Las Colonias y San Martín; 11 instancias de 2007 a 2023).
-  No existen resultados por localidad para 2003.
-- **Población:** Censo 2022 (INDEC), base agregada por radio censal (datos.gob.ar, dataset 48).
-  `scripts/construir_poblacion_censo2022.py` suma la población de los radios de cada gobierno
-  local y escribe `datos/referencia/poblacion_localidades_censo2022.csv`. La suma provincial
-  (3.519.059) corresponde a viviendas particulares, por lo que queda levemente por debajo del total
-  publicado por INDEC. **Si el equipo tiene la tabla oficial por localidad, basta reemplazar ese CSV.**
-- **Proceso:** `scripts/construir_tamano_lugar.py` clasifica, cruza y controla; escribe
-  `datos/procesados/tamano_lugar.csv`, `datos/procesados/tamano_lugar_correlaciones.csv` y
-  `salida/datos_tamano_lugar.json`. `scripts/agregar_tamano_lugar.py` lo inserta en el HTML.
+```
+resultados por circuito ──► localidad (cartografía × radios censales) ──► población 2022 ──► categoría ──► voto por familia
+```
+
+1. **Resultados:** `datos/procesados/serie_homologada.csv`, nivel `circuito`, con la familia política de cada etiqueta
+   (incluye el criterio de `docs/CRITERIO_DERECHA_LIBERTARIA.md`).
+2. **Circuito → localidad:** `scripts/asignar_circuitos_a_localidad.py` cruza la cartografía de circuitos de cada elección
+   (`datos/geo/circuitos/`) con los radios censales 2022 del INDEC. Cada circuito se asigna al gobierno local que aporta más
+   población dentro de su polígono. Resultado: `datos/referencia/circuito_localidad.csv` y
+   `datos/referencia/poblacion_gobiernos_locales_censo2022.csv`.
+3. **Población:** Censo 2022 (INDEC), población en viviendas particulares por radio censal (3.519.059 en Santa Fe). Queda
+   levemente por debajo del total oficial publicado. **Si el equipo tiene la tabla oficial por localidad, reemplazar la
+   columna `poblacion_2022` del CSV de gobiernos locales y volver a correr los scripts.**
+4. **Agregación y categorías:** `scripts/construir_tamano_lugar.py` suma los circuitos de cada localidad, clasifica y escribe
+   `datos/procesados/tamano_lugar.csv`, `datos/procesados/tamano_lugar_correlaciones.csv` y `salida/datos_tamano_lugar.json`.
+   `scripts/agregar_tamano_lugar.py` lo inserta en el tablero.
 
 ## Controles realizados
 
-1. Las 30 localidades se asocian a un único gobierno local censal, dentro del departamento correcto.
-2. Cada elección contiene las 30 localidades y la suma de votos por familia coincide con
-   `serie_localidad.csv`.
-3. Relación electores/población dentro de 0,5 a 0,95, salvo **Josefina (0,27)**: su padrón varía entre
-   706 y 1.403 electores según el año, lo que sugiere que el nomenclador electoral no cubre toda la
-   localidad censal. Conviene revisarla.
-4. Localidades cerca de un límite de categoría (±3 %): Colonia Aldao (2.015), Santa Clara de Saguier
-   (2.057), María Juana (4.910) y **Frontera (9.967, a 33 habitantes de ciudad intermedia)**. Con la
-   población oficial completa, Frontera podría pasar de categoría.
+| Control | Resultado |
+|---|---|
+| Votos que no se pueden asignar a una localidad | como máximo 0,17 % por elección |
+| El cruce espacial contra el nomenclador circuito→localidad relevado a mano (150 circuitos) | 149 de 150; el desacuerdo (circuito 01345 de 2023, Frontera/Josefina) se corrige con el nomenclador, que prevalece |
+| Votos reconstruidos desde circuitos contra la fuente por localidad (30 localidades × 11 elecciones = 330 pares) | diferencia media absoluta de 0,6 %; solo 4 pares superan el 10 % (Frontera 2019, San Carlos Sud 2011 general, Santa Clara de Saguier 2015 general), por diferencias entre las propias fuentes |
+| Ningún gobierno local reúne circuitos de más de un departamento | cumplido en las capas 2003, 2011, 2019 y 2023 |
+| Circuitos con menos del 90 % de su población en una sola localidad | 7 a 10 por capa |
 
 ## Resultado de la clasificación
 
-| Categoría | Localidades |
-|---|---:|
-| Rural | 0 |
-| Pueblo | 15 |
-| Ciudad pequeña | 10 |
-| Ciudad intermedia | 5 |
-| Ciudad grande | 0 |
+| Categoría | Localidades | % de los votos positivos 2023 (general) |
+|---|---:|---:|
+| Rural | 198 | 4,5 |
+| Pueblo | 73 | 6,6 |
+| Ciudad pequeña | 45 | 10,7 |
+| Ciudad intermedia | 40 | 25,1 |
+| Ciudad grande | 9 | 53,1 |
 
-Las 30 localidades reúnen alrededor del 6,4 % de los votos positivos de la provincia. Las categorías
-rural y ciudad grande quedan sin datos: para cubrirlas hace falta resultados por localidad fuera de los
-tres departamentos de la zona núcleo (en particular Rosario y Santa Fe).
+## Límites a tener presentes
+
+- Localidades a menos del 1 % de un límite de categoría: Frontera (9.967), Monte Vera (9.953), Nelson (4.966) y Colonia Aldao
+  (2.015). Con la población oficial completa podrían cambiar de categoría.
+- Los circuitos subdivididos entre 2023 y 2025 tienen polígonos reconstruidos (unión de hijos). El departamento siempre es el
+  correcto, pero dentro de un departamento un circuito podría quedar en una localidad vecina; el nomenclador a mano corrige las
+  30 localidades que lo cubren.
+- Un circuito cuenta para una sola localidad aunque abarque más de una (menos del 2 % de los circuitos).
