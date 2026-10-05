@@ -1,0 +1,6 @@
+orden,categoria,desde,hasta,criterio
+1,Rural,0,2000,menos de 2000 habitantes (el límite de 2000 se asigna a esta categoría)
+2,Pueblo,2001,5000,entre 2001 y 5000
+3,Ciudad pequeña,5001,10000,entre 5001 y 10000
+4,Ciudad intermedia,10001,50000,entre 10001 y 50000
+5,Ciudad grande,50001,,desde 50001 (el criterio original fija 1.000.000 como tope; ninguna localidad del análisis lo supera)

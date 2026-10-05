@@ -49,6 +49,7 @@ header.hero{margin-inline:calc(-1 * var(--m));padding:3rem var(--m) 0;color:#fff
    font-variant-numeric:tabular-nums;display:block;line-height:1.1;color:var(--accent)}
 .tile .l{font-family:var(--font-d);font-size:.72rem;color:var(--ink-3);
    text-transform:uppercase;letter-spacing:.07em;margin-top:.3rem;display:block}
+.tile .s{display:block;font-family:var(--font-d);font-size:.72rem;color:var(--ink-3);margin-top:.35rem;line-height:1.35}
 section{padding-block:2.6rem;border-bottom:1px solid var(--line)}
 section>h2::before{content:"";display:block;width:3rem;height:3px;background:var(--accent);margin-bottom:.8rem}
 .ctrls{display:flex;flex-wrap:wrap;gap:.7rem;align-items:flex-end;margin:1.2rem 0 1.5rem}
@@ -208,6 +209,8 @@ tr.clic:hover td{background:var(--surface-2)}
             aria-selected="false" data-p="evo">Evolución del voto</button>
     <button type="button" role="tab" id="tab-geo" aria-controls="pan-geo"
             aria-selected="false" data-p="geo">Distribución del electorado</button>
+    <button type="button" role="tab" id="tab-ana" aria-controls="pan-ana"
+            aria-selected="false" data-p="ana">Análisis estadístico</button>
     <button type="button" role="tab" id="tab-hall" aria-controls="pan-hall"
             aria-selected="false" data-p="hall">Hallazgos</button>
     <button type="button" role="tab" id="tab-ele" aria-controls="pan-ele"
@@ -355,7 +358,7 @@ tr.clic:hover td{background:var(--surface-2)}
 </div>
 
 <div role="tabpanel" id="pan-geo" aria-labelledby="tab-geo" hidden>
-  <p class="contexto">Esta sección reúne las lecturas de detalle sobre la distribución del voto: la serie en cifras, una segunda lectura cartográfica por circuito, los resultados completos de cada instancia y la composición por departamento. Las lecturas cartográficas de conjunto se encuentran en la pestaña «Evolución del voto». Conviene tener presente que los circuitos modifican su trazado y su código entre elecciones, razón por la cual las capas cartográficas se reconstruyen para cada año.</p>
+  <p class="contexto">Esta sección presenta la serie en cifras y una segunda lectura cartográfica por circuito. Las lecturas cartográficas de conjunto se encuentran en «Evolución del voto» y los análisis estadísticos, en «Análisis estadístico». Conviene tener presente que los circuitos modifican su trazado y su código entre elecciones, razón por la cual las capas cartográficas se reconstruyen para cada año.</p>
 <section>
   <h2>Resultados comparados, 2003-2023</h2>
   <p class="sub">La serie en cifras</p>
@@ -397,6 +400,10 @@ tr.clic:hover td{background:var(--surface-2)}
   <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY) y se utiliza con capas reconstruidas por año. Entre el 99,83 % y el 100 % de los votos de cada elección tienen un polígono asignado.</p>
 </section>
 
+</div>
+
+<div role="tabpanel" id="pan-ana" aria-labelledby="tab-ana" hidden>
+  <p class="contexto">Esta sección reúne los análisis estadísticos de la serie: los resultados completos de cada elección, la composición del voto por departamento y los indicadores de volatilidad y desafección. Los indicadores resumen del período y la evolución de las fuerzas que ganaron la presidencia se encuentran en «Hallazgos».</p>
 <section>
   <h2>Tabla por elección</h2>
   <p class="sub">Resultados completos por instancia</p>
@@ -429,53 +436,25 @@ tr.clic:hover td{background:var(--surface-2)}
   <div class="legend" id="leg-deptos"></div>
 </section>
 
-</div>
-
-<div role="tabpanel" id="pan-hall" aria-labelledby="tab-hall" hidden>
-  <p class="contexto">Esta sección reúne indicadores sintéticos de la serie: la evolución de las fuerzas, la volatilidad, la desafección y la relación entre el voto y el tamaño del lugar. Para interpretarlos conviene recordar que, hasta la crisis de 2001, el electorado se dividía en dos coaliciones no ideológicas, el peronismo y el no peronismo liderado por la UCR, y que en 2003 ambos presentaron tres candidatos cada uno (Murillo y Oliveros, 2024, p.&nbsp;170). Por lo tanto, la serie que aquí se analiza comienza en un escenario de oferta fragmentada dentro de ambos polos.</p>
-  <div class="barra">
-    <div class="ctrls" style="margin:0">
-      <div class="ctrl"><label for="f-ambito">Ámbito</label>
-        <select id="f-ambito"></select></div>
-      <div class="ctrl"><label for="f-inst">Instancias</label>
-        <div class="seg" id="f-inst" role="group" aria-label="Instancias">
-          <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
-          <button type="button" data-v="todas" aria-pressed="false">Todas</button>
-        </div></div>
-      <div class="ctrl"><label for="f-modo">Medida</label>
-        <div class="seg" id="f-modo" role="group" aria-label="Medida">
-          <button type="button" data-v="pct" aria-pressed="true">% positivos</button>
-          <button type="button" data-v="abs" aria-pressed="false">Votos</button>
-        </div></div>
-    </div>
-    <p class="note" style="margin-top:.7rem">Estos tres controles gobiernan los indicadores de toda la pestaña, a fin de que las lecturas resulten comparables entre sí.</p>
-  </div>
-<section>
-  <h2>El corpus en cifras</h2>
-  <p class="sub">Alcance de la base de datos</p>
-  <div class="tiles" id="tiles"></div>
-</section>
-<section>
-  <h2>Evolución de las fuerzas políticas</h2>
-  <p class="sub">Serie principal</p>
-  <p>Se expresa el porcentaje sobre los votos positivos. Dado que las etiquetas partidarias cambian en cada elección —Frente para la Victoria, Frente de Todos, Unión por la Patria—, se las agrupa en fuerzas según su continuidad política. Este criterio constituye una decisión de investigación y no un dato: se encuentra documentado y es editable.</p>
-
-  <div class="plot" id="p-serie">
-    <svg id="svg-serie" viewBox="0 0 900 400" role="img"
-         aria-label="Evolución del porcentaje de cada fuerza política"></svg>
-  </div>
-  <div class="legend" id="leg-serie"></div>
-  <p class="note" id="nota-serie"></p>
-</section>
-
-<section>
+<section style="border-bottom:0">
   <h2>Volatilidad y desafección</h2>
   <p class="sub">Dos indicadores</p>
+  <p>Se presentan dos indicadores complementarios del comportamiento electoral: la volatilidad, que mide cuánto se
+  reacomodan las preferencias de una elección a la siguiente, y la desafección, que reúne la ausencia del padrón,
+  el voto en blanco y el voto nulo.</p>
+  <div class="ctrls">
+    <div class="ctrl"><label for="a-ambito">Ámbito</label><select id="a-ambito"></select></div>
+    <div class="ctrl"><label>Instancias</label>
+      <div class="seg" id="a-inst" role="group" aria-label="Instancias">
+        <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
+        <button type="button" data-v="todas" aria-pressed="false">Todas</button>
+      </div></div>
+  </div>
   <div class="grid2">
     <div>
       <h3>Volatilidad electoral</h3>
       <p class="note" style="margin-top:.2rem">El índice de Pedersen entre elecciones generales consecutivas equivale a la mitad de la suma de los cambios, en puntos porcentuales, de cada fuerza; mide, por lo tanto, cuánto se reacomodó el electorado de una elección a la siguiente.</p>
-      <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector se encuentre en «todas»: comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
+      <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector «Instancias» se encuentre en «todas» (el ámbito sí se aplica): comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
       <div class="plot" id="p-vol" style="margin-top:.8rem">
         <svg id="svg-vol" viewBox="0 0 440 260" role="img"
              aria-label="Volatilidad entre elecciones generales"></svg>
@@ -491,39 +470,80 @@ tr.clic:hover td{background:var(--surface-2)}
     </div>
   </div>
 </section>
+</div>
 
+<div role="tabpanel" id="pan-hall" aria-labelledby="tab-hall" hidden>
+  <p class="contexto">Esta sección reúne los indicadores sintéticos de la serie: un resumen de cinco números, la evolución de las tres fuerzas que ganaron la presidencia y la relación entre el voto y el tamaño del lugar. Para interpretarlos conviene recordar que, hasta la crisis de 2001, el electorado se dividía en dos coaliciones no ideológicas, el peronismo y el no peronismo liderado por la UCR, y que en 2003 ambos presentaron tres candidatos cada uno (Murillo y Oliveros, 2024, p.&nbsp;170). Por lo tanto, la serie que aquí se analiza comienza en un escenario de oferta fragmentada dentro de ambos polos.</p>
+  <div class="barra">
+    <div class="ctrls" style="margin:0">
+      <div class="ctrl"><label for="f-ambito">Ámbito</label>
+        <select id="f-ambito"></select></div>
+      <div class="ctrl"><label for="f-inst">Instancias</label>
+        <div class="seg" id="f-inst" role="group" aria-label="Instancias">
+          <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
+          <button type="button" data-v="todas" aria-pressed="false">Todas</button>
+        </div></div>
+      <div class="ctrl"><label for="f-modo">Medida</label>
+        <div class="seg" id="f-modo" role="group" aria-label="Medida">
+          <button type="button" data-v="pct" aria-pressed="true">% positivos</button>
+          <button type="button" data-v="abs" aria-pressed="false">Votos</button>
+        </div></div>
+    </div>
+    <p class="note" style="margin-top:.7rem">Estos controles gobiernan la evolución de las fuerzas políticas; el selector «Instancias» rige también el análisis por tamaño del lugar. El resumen de cinco números tiene un universo propio, que se explicita en la sección.</p>
+  </div>
 <section>
+  <h2>Resumen de 5 números</h2>
+  <p class="sub">Indicadores del período 2003-2023</p>
+  <p>Cinco cifras sintetizan el comportamiento electoral de Santa Fe en las seis elecciones generales del período: el
+  reacomodamiento total de las preferencias entre 2003 y 2023, la cantidad de partidos que compitieron y los niveles
+  promedio de voto en blanco, voto nulo y ausentismo.</p>
+  <div class="tiles" id="tiles"></div>
+  <p class="note" id="nota-resumen"></p>
+</section>
+<section>
+  <h2>Evolución de las fuerzas políticas</h2>
+  <p class="sub">Las tres fuerzas que ganaron la presidencia</p>
+  <p>Se presentan únicamente las tres fuerzas que ganaron la presidencia en el período: las alianzas del Kirchnerismo
+  (Frente para la Victoria, Frente de Todos y Unión por la Patria), las de Cambiemos / Juntos por el Cambio y La Libertad
+  Avanza. Las demás fuerzas se excluyen de esta serie principal. Se expresa el porcentaje sobre los votos positivos y
+  las etiquetas partidarias se agrupan según su continuidad política, criterio que constituye una decisión de
+  investigación y no un dato: se encuentra documentado y es editable. La ausencia de línea indica que la fuerza no se
+  presentó en esa elección.</p>
+
+  <div class="plot" id="p-serie">
+    <svg id="svg-serie" viewBox="0 0 900 400" role="img"
+         aria-label="Evolución del porcentaje de las tres fuerzas que ganaron la presidencia"></svg>
+  </div>
+  <div class="legend" id="leg-serie"></div>
+  <p class="note" id="nota-serie"></p>
+</section>
+<section style="border-bottom:0">
   <h2>El voto según el tamaño del lugar</h2>
-  <p class="sub">Escala y comportamiento</p>
-  <p>Los circuitos se agrupan en cuatro tramos según su padrón: el campo y los parajes, los pueblos, las ciudades intermedias y las grandes ciudades. Cada línea sigue a una fuerza en un tipo de lugar. Cuando las cuatro líneas se separan, se evidencia un gradiente territorial; cuando convergen, la escala del lugar deja de ordenar el voto.</p>
+  <p class="sub">Escala demográfica y comportamiento por fuerza</p>
+  <p>Las localidades se clasifican según su población en el Censo 2022 (INDEC): <b>rural</b>, menos de 2.000
+  habitantes; <b>pueblo</b>, de 2.001 a 5.000; <b>ciudad pequeña</b>, de 5.001 a 10.000; <b>ciudad intermedia</b>, de
+  10.001 a 50.000; y <b>ciudad grande</b>, de 50.001 a 1.000.000. Cada línea sigue el porcentaje que obtiene la fuerza
+  elegida sobre los votos positivos del conjunto de localidades de cada categoría. Cuando las líneas se separan se
+  evidencia un gradiente según el tamaño del lugar; cuando convergen, la escala deja de ordenar el voto. La tabla de
+  comprobación incorpora la correlación de Spearman entre la población de cada localidad y su voto en cada elección.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="tr-fuerza">Fuerza</label>
       <select id="tr-fuerza"></select></div>
   </div>
   <div class="plot" id="p-tramos">
     <svg id="svg-tramos" role="img"
-         aria-label="Voto de una fuerza según el tamaño del circuito"></svg>
+         aria-label="Voto de una fuerza según el tamaño de la localidad"></svg>
   </div>
   <div class="legend" id="leg-tramos"></div>
   <p class="note" id="nota-tramos"></p>
+  <div class="tablewrap"><table id="tabla-tramos"></table></div>
+  <p class="note">Alcance: el análisis se limita a las 30 localidades de los departamentos Castellanos, Las Colonias y San
+  Martín, que son las únicas con resultados desagregados por localidad (desde 2007; no hay datos de 2003). Por ese motivo
+  ninguna localidad queda en las categorías rural ni ciudad grande. La población corresponde al Censo 2022 (INDEC, base
+  por radio censal, viviendas particulares).</p>
+  <details><summary>Localidades consideradas, población y categoría</summary>
+    <div class="tablewrap"><table id="tabla-localidades"></table></div></details>
 </section>
-
-<section>
-  <h2>Tamaño del circuito y voto</h2>
-  <p class="sub">Escala y comportamiento</p>
-  <p>Cada punto representa un circuito electoral: el eje horizontal muestra su padrón, en escala logarítmica, dado que entre el circuito más pequeño y el más grande existen tres órdenes de magnitud; el eje vertical, el porcentaje que obtuvo allí la fuerza elegida. Si el voto a una fuerza depende del tamaño del lugar donde se emite, la nube de puntos se inclina.</p>
-  <div class="ctrls">
-    <div class="ctrl"><label for="d-eleccion">Elección</label>
-      <select id="d-eleccion"></select></div>
-    <div class="ctrl"><label for="d-fuerza">Fuerza</label>
-      <select id="d-fuerza"></select></div>
-  </div>
-  <div class="plot" id="p-disp">
-    <svg id="svg-disp" role="img" aria-label="Dispersión entre padrón del circuito y voto"></svg>
-  </div>
-  <p class="note" id="nota-disp"></p>
-</section>
-
 </div>
 <!--FICHAS-HTML:INI-->
 <div role="tabpanel" id="pan-ele" aria-labelledby="tab-ele" hidden>
@@ -663,17 +683,20 @@ function agregado(clave, ambito){
   const nop = Object.values(n).reduce((a,b)=>a+b,0);
   return {v,n,pos,nop,total:pos+nop,padron,mesas};
 }
-const visibles = () => SERIES.filter(s=>!est.ocultas.has(s));
+const visibles = () => GANADORAS.filter(s=>!est.ocultas.has(s));
 
-/* ---------- gráfico de líneas ---------- */
+/* ---------- gráfico de líneas: las tres fuerzas que ganaron la presidencia ---------- */
+const GANADORAS = ["Kirchnerismo","Cambiemos","La Libertad Avanza"];
+const ETQ_GAN = {"Kirchnerismo":"Alianzas del Kirchnerismo",
+  "Cambiemos":"Alianzas de Cambiemos / Juntos por el Cambio","La Libertad Avanza":"La Libertad Avanza"};
 function dibujarSerie(){
-  const svg=$("#svg-serie"), W=900, H=400, M={t:18,r:132,b:46,l:56};
+  const svg=$("#svg-serie"), W=900, H=400, M={t:18,r:215,b:46,l:56};
   const els=elecciones(), ag=els.map(e=>agregado(e.clave));
   const vis=visibles();
+  /* sin dato no es cero: la fuerza no se presentó y la línea no existe en esa elección */
   const series=vis.map(f=>({f, pts:ag.map(a=>{
-      if(!a) return null;
-      const val=a.v[f]||0;
-      return est.modo==="pct" ? (a.pos? 100*val/a.pos : 0) : val;
+      if(!a || a.v[f]==null) return null;
+      return est.modo==="pct" ? (a.pos? 100*a.v[f]/a.pos : 0) : a.v[f];
     })})).filter(s=>s.pts.some(p=>p>0));
 
   const max=Math.max(...series.flatMap(s=>s.pts.filter(p=>p!=null)),0)||1;
@@ -698,14 +721,14 @@ function dibujarSerie(){
   });
 
   /* Las etiquetas del extremo derecho se separan verticalmente: sin esto,
-     dos familias con valores cercanos escriben una encima de la otra. */
+     dos fuerzas con valores cercanos escriben una encima de la otra. */
   const etqs=[];
   for(const s of series){
-    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p>0).pop();
+    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p!=null).pop();
     if(li) etqs.push({f:s.f, y:y(li[0])});
   }
   etqs.sort((a,b)=>a.y-b.y);
-  const MIN=14;
+  const MIN=30;
   for(let i=1;i<etqs.length;i++)
     if(etqs[i].y-etqs[i-1].y<MIN) etqs[i].y=etqs[i-1].y+MIN;
   const desborde=etqs.length? etqs[etqs.length-1].y-(H-M.b) : 0;
@@ -714,20 +737,21 @@ function dibujarSerie(){
 
   for(const s of series){
     const d=s.pts.map((p,i)=>p==null?null:`${x(i)},${y(p)}`).filter(Boolean).join(" L ");
-    o+=`<path d="M ${d}" fill="none" stroke="${COLOR[s.f]}" stroke-width="2"
+    o+=`<path d="M ${d}" fill="none" stroke="${COLOR[s.f]}" stroke-width="2.4"
          stroke-linejoin="round" stroke-linecap="round"/>`;
-    s.pts.forEach((p,i)=>{ if(p==null||p===0) return;
-      o+=`<circle cx="${x(i)}" cy="${y(p)}" r="4" fill="${COLOR[s.f]}"
+    s.pts.forEach((p,i)=>{ if(p==null) return;
+      o+=`<circle cx="${x(i)}" cy="${y(p)}" r="4.5" fill="${COLOR[s.f]}"
            stroke="${css('--surface')}" stroke-width="2"/>`; });
-    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p>0).pop();
+    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p!=null).pop();
     if(li){
       const ye=posEtq[s.f];
-      /* Guía corta cuando la etiqueta se corrió de su punto. */
       if(Math.abs(ye-y(li[0]))>3)
         o+=`<path d="M ${x(li[1])+6} ${y(li[0])} L ${W-M.r+5} ${ye-4}" fill="none"
              stroke="${COLOR[s.f]}" stroke-width="1" opacity=".45"/>`;
-      o+=`<text x="${W-M.r+10}" y="${ye}" font-size="11.5" font-weight="500"
-        fill="${css('--ink-2')}" font-family="${css('--font-d')}">${CORTO[s.f]}</text>`;
+      const partes=ETQ_GAN[s.f].split(" / ");
+      o+=`<text x="${W-M.r+10}" y="${ye}" font-size="11.5" font-weight="600"
+        fill="${COLOR[s.f]}" font-family="${css('--font-d')}">`+
+        partes.map((t,k)=>`<tspan x="${W-M.r+10}" dy="${k?14:0}">${t}${k<partes.length-1?" /":""}</tspan>`).join("")+`</text>`;
     }
   }
   o+=`<line id="cross" x1="0" x2="0" y1="${M.t}" y2="${H-M.b}" stroke="${css('--line-strong')}"
@@ -741,11 +765,12 @@ function dibujarSerie(){
     const cr=svg.querySelector("#cross");
     cr.setAttribute("x1",x(i)); cr.setAttribute("x2",x(i)); cr.setAttribute("opacity","1");
     const a=ag[i]; if(!a){tip.style.display="none";return}
-    const filas=vis.map(f=>{const val=a.v[f]||0; if(!val) return null;
+    const filas=vis.map(f=>{ if(a.v[f]==null) return null; const val=a.v[f];
         return [f, est.modo==="pct"? pct(100*val/a.pos) : fmt(val), 100*val/a.pos];})
-      .filter(Boolean).sort((p,q)=>q[2]-p[2]).slice(0,6);
+      .filter(Boolean).sort((p,q)=>q[2]-p[2]);
     tip.innerHTML=`<div class="th">${els[i].anio} · ${els[i].instancia}</div>`+
-      filas.map(([f,v])=>`<div class="r"><span><span class="sw" style="display:inline-block;background:${COLOR[f]}"></span> ${CORTO[f]}</span><b>${v}</b></div>`).join("");
+      (filas.length? filas.map(([f,v])=>`<div class="r"><span><span class="sw" style="display:inline-block;background:${COLOR[f]}"></span> ${ETQ_GAN[f]}</span><b>${v}</b></div>`).join("")
+                   : `<div class="r"><span>Ninguna de las tres se presentó</span></div>`);
     posicionarTip(tip,"#p-serie",ev);
   };
   svg.onpointerleave=()=>{tip.style.display="none";
@@ -803,7 +828,7 @@ function dibujarDeptos(){
 function dibujarVol(){
   const svg=$("#svg-vol"), W=440,H=260,M={t:16,r:14,b:40,l:40};
   const gs=D.elecciones.filter(e=>e.instancia==="GENERAL");
-  const ags=gs.map(e=>agregado(e.clave));
+  const ags=gs.map(e=>agregado(e.clave, estA.ambito));
   const pares=[];
   for(let i=1;i<gs.length;i++){
     const a=ags[i-1], b=ags[i]; if(!a||!b) continue;
@@ -829,8 +854,8 @@ function dibujarVol(){
 }
 function dibujarDes(){
   const svg=$("#svg-des"), W=440, H=300, Mg={t:14,r:16,b:40,l:42};
-  const els=elecciones();
-  const pts=els.map(e=>{const a=agregado(e.clave); if(!a) return null;
+  const els=elecciones(estA.inst);
+  const pts=els.map(e=>{const a=agregado(e.clave, estA.ambito); if(!a) return null;
     return {e, part:a.padron?100*a.total/a.padron:0,
             bl:a.total?100*(a.n.blancos||0)/a.total:0,
             nu:a.total?100*(a.n.nulos||0)/a.total:0};}).filter(Boolean);
@@ -875,6 +900,7 @@ function dibujarDes(){
   svg.innerHTML=o;
 }
 const estT = {ambito:"Provincia", inst:"gral"};
+const estA = {ambito:"Provincia", inst:"gral"};   // volatilidad y desafección
 function dibujarTabla(){
   const els=elecciones(estT.inst), ag=els.map(e=>agregado(e.clave, estT.ambito));
   let h=`<thead><tr><th>Fuerza</th>${els.map(e=>
@@ -889,22 +915,37 @@ function dibujarTabla(){
   $("#tabla").innerHTML=h;
 }
 
-/* ---------- tiles ---------- */
+/* ---------- resumen de 5 números: provincia, elecciones generales 2003-2023 ---------- */
+function pedersen(a,b){
+  let s=0; for(const f of SERIES) s+=Math.abs(100*(b.v[f]||0)/b.pos - 100*(a.v[f]||0)/a.pos);
+  return s/2;
+}
 function dibujarTiles(){
-  const u=agregado("2023-GENERAL"), p=agregado("2003-GENERAL");
   const gs=D.elecciones.filter(e=>e.instancia==="GENERAL");
-  let volMax={v:0,et:""};
-  for(let i=1;i<gs.length;i++){
-    const a=agregado(gs[i-1].clave), b=agregado(gs[i].clave); if(!a||!b) continue;
-    let s=0; for(const f of SERIES) s+=Math.abs(100*(b.v[f]||0)/b.pos-100*(a.v[f]||0)/a.pos);
-    if(s/2>volMax.v) volMax={v:s/2, et:`${gs[i-1].anio}→${gs[i].anio}`};}
+  const ags=gs.map(e=>agregado(e.clave,"Provincia"));
+  if(ags.some(a=>!a)) return;
+  const media=v=>v.reduce((s,x)=>s+x,0)/v.length;
+  const c1=n=>n.toFixed(1).replace(".",",");
+  const rango=v=>`${c1(Math.min(...v))} a ${c1(Math.max(...v))}`;
+  const vol=pedersen(ags[0],ags[ags.length-1]);
+  const consec=ags.slice(1).map((a,i)=>pedersen(ags[i],a));
+  const partidos=gs.map(e=>R.pt[e.clave].length);
+  const bl=ags.map(a=>100*(a.n.blancos||0)/a.total);
+  const nu=ags.map(a=>100*(a.n.nulos||0)/a.total);
+  const au=ags.map(a=>100-100*a.total/a.padron);
   $("#tiles").innerHTML=[
-    ["12","instancias cubiertas"],
-    ["19","departamentos"],
-    [p?fmt(p.padron):"—","electores en 2003"],
-    [u?fmt(u.padron):"—","electores en 2023"],
-    [volMax.v.toFixed(0),`volatilidad máxima · ${volMax.et}`]
-  ].map(([n,l])=>`<div class="tile"><span class="n">${n}</span><span class="l">${l}</span></div>`).join("");
+    [c1(vol)+" %", `volatilidad entre ${gs[0].anio} y ${gs[gs.length-1].anio}`, `promedio entre generales consecutivas: ${c1(media(consec))} %`],
+    [c1(media(partidos)), "partidos por elección, en promedio", `entre ${Math.min(...partidos)} y ${Math.max(...partidos)} por elección`],
+    [c1(media(bl))+" %", "votos en blanco, en promedio", `sobre votantes · ${rango(bl)} %`],
+    [c1(media(nu))+" %", "votos nulos, en promedio", `sobre votantes · ${rango(nu)} %`],
+    [c1(media(au))+" %", "ausentismo, en promedio", `sobre el padrón · ${rango(au)} %`]
+  ].map(([n,l,s])=>`<div class="tile"><span class="n">${n}</span><span class="l">${l}</span><span class="s">${s}</span></div>`).join("");
+  $("#nota-resumen").textContent =
+    `Universo: provincia de Santa Fe, las ${gs.length} elecciones generales (${gs.map(e=>e.anio).join(", ")}), recuento provisorio. `+
+    "Los promedios son simples —cada elección pesa lo mismo— y abarcan todo el período. La volatilidad es el índice de "+
+    "Pedersen entre las generales extremas, con las fuerzas agrupadas por familia política (Derecha libertaria y La Libertad "+
+    "Avanza cuentan como fuerzas distintas). Los partidos son las etiquetas oficiales de cada elección; una alianza cuenta como uno. "+
+    "El voto en blanco y el nulo se calculan sobre el total de votantes, y el ausentismo es el complemento de la participación sobre el padrón.";
 }
 
 /* ---------- tooltips ---------- */
@@ -923,14 +964,16 @@ function posicionarTip(t,sel,ev){
 
 /* ---------- leyendas y controles ---------- */
 function leyenda(sel, interactiva){
-  $(sel).innerHTML=SERIES.map(f=>
+  const lista = sel==="#leg-serie" ? GANADORAS : SERIES;
+  const nombre = f => sel==="#leg-serie" ? ETQ_GAN[f] : CORTO[f];
+  $(sel).innerHTML=lista.map(f=>
     `<button type="button" data-f="${f}" aria-pressed="${!est.ocultas.has(f)}">
-       <span class="sw" style="background:${COLOR[f]}"></span>${CORTO[f]}</button>`).join("");
+       <span class="sw" style="background:${COLOR[f]}"></span>${nombre(f)}</button>`).join("");
   if(!interactiva) return;
   $(sel).querySelectorAll("button").forEach(b=>b.onclick=()=>{
     const f=b.dataset.f;
     est.ocultas.has(f)?est.ocultas.delete(f):est.ocultas.add(f);
-    if(est.ocultas.size===SERIES.length) est.ocultas.delete(f);
+    if(GANADORAS.every(g=>est.ocultas.has(g))) est.ocultas.delete(f);
     leyenda("#leg-serie",true); dibujarSerie();});
 }
 function segmento(sel, campo, alCambiar){
@@ -948,15 +991,17 @@ function iniciar(){
   $("#f-eleccion").innerHTML=D.elecciones.map(e=>
     `<option value="${e.clave}"${e.clave===est.eleccion?" selected":""}>${e.anio} · ${
       e.instancia==="GENERAL"?"General":e.instancia==="PASO"?"PASO":"Balotaje"} · ${e.fecha}</option>`).join("");
-  const refrescar=()=>{dibujarSerie();dibujarVol();dibujarDes();dibujarTiles();
-    if(typeof dibujarTramos==="function") dibujarTramos();};
+  const refrescar=()=>{dibujarSerie(); if(typeof dibujarTramos==="function") dibujarTramos();};
+  $("#a-ambito").innerHTML=opAmb;
+  $("#a-ambito").onchange=e=>{estA.ambito=e.target.value; dibujarVol(); dibujarDes();};
+  segmento("#a-inst",null,v=>{estA.inst=v; dibujarDes();});
   $("#f-ambito").onchange=e=>{est.ambito=e.target.value; refrescar();};
   $("#f-eleccion").onchange=e=>{est.eleccion=e.target.value;dibujarDeptos();};
   segmento("#f-inst","inst",refrescar);
   segmento("#f-modo","modo",refrescar);
   segmento("#f-orden","orden",dibujarDeptos);
   leyenda("#leg-serie",true); leyenda("#leg-deptos",false);
-  dibujarTiles(); dibujarSerie(); dibujarDeptos(); dibujarVol(); dibujarDes(); dibujarTabla();
+  dibujarSerie(); dibujarDeptos(); dibujarVol(); dibujarDes(); dibujarTabla();
   iniciarMapas();
   pestanas();
 }
@@ -1211,113 +1256,64 @@ function dibujarTablaAnual(){
   ].map(([k,v])=>`<div><span class="l">${k}</span><span class="n">${v}</span></div>`).join("");
 }
 
-/* ---------- dispersión: tamaño del circuito contra voto ---------- */
-function dibujarDispersion(){
-  const clave=$("#d-eleccion").value, f=$("#d-fuerza").value;
-  const svg=$("#svg-disp"), W=900, H=430, Mg={t:16,r:18,b:46,l:52};
-  const datos=porUnidad(clave,"cir"), pad=M.pad[clave]||{};
-  const pts=[];
-  for(const [c,o] of Object.entries(datos)){
-    const e=pad[c]; if(!e||e<50||!o.tot) continue;
-    pts.push({x:Math.log10(e), y:100*(o.v[f]||0)/o.tot, e, c});
-  }
-  if(!pts.length){svg.innerHTML="";return}
-  const xs=pts.map(p=>p.x), x0=Math.min(...xs), x1=Math.max(...xs);
-  const ypico=Math.max(...pts.map(p=>p.y));
-  const paso = ypico<=20?5 : ypico<=45?10 : 20;
-  const ymax=Math.max(paso,Math.ceil(ypico/paso)*paso);
-  const X=v=>Mg.l+(v-x0)/(x1-x0||1)*(W-Mg.l-Mg.r);
-  const Y=v=>H-Mg.b-v/ymax*(H-Mg.t-Mg.b);
-  let o="";
-  for(let t=0;t<=ymax;t+=paso){
-    o+=`<line x1="${Mg.l}" y1="${Y(t)}" x2="${W-Mg.r}" y2="${Y(t)}" stroke="var(--line)"></line>`;
-    o+=`<text x="${Mg.l-8}" y="${Y(t)+4}" text-anchor="end" font-size="11" `+
-       `fill="var(--ink-3)" font-family="var(--font-d)">${t.toFixed(0)} %</text>`;
-  }
-  for(const e of [100,500,2000,10000,50000]){
-    const lx=Math.log10(e); if(lx<x0||lx>x1) continue;
-    o+=`<text x="${X(lx)}" y="${H-Mg.b+20}" text-anchor="middle" font-size="11" `+
-       `fill="var(--ink-3)" font-family="var(--font-d)">${fmt(e)}</text>`;
-  }
-  o+=`<text x="${(Mg.l+W-Mg.r)/2}" y="${H-6}" text-anchor="middle" font-size="11.5" `+
-     `fill="var(--ink-3)" font-family="var(--font-d)">Electores del circuito (escala logarítmica)</text>`;
-  for(const p of pts)
-    o+=`<circle cx="${X(p.x).toFixed(1)}" cy="${Y(p.y).toFixed(1)}" r="3.1" `+
-       `fill="${COLOR[f]}" fill-opacity=".45" data-c="${p.c}" `+
-       `data-e="${p.e}" data-y="${p.y.toFixed(1)}"></circle>`;
-  /* recta de tendencia por mínimos cuadrados */
-  const n=pts.length, sx=pts.reduce((a,p)=>a+p.x,0), sy=pts.reduce((a,p)=>a+p.y,0);
-  const sxy=pts.reduce((a,p)=>a+p.x*p.y,0), sxx=pts.reduce((a,p)=>a+p.x*p.x,0);
-  const b=(n*sxy-sx*sy)/(n*sxx-sx*sx||1), a=(sy-b*sx)/n;
-  o+=`<line x1="${X(x0)}" y1="${Y(a+b*x0)}" x2="${X(x1)}" y2="${Y(a+b*x1)}" `+
-     `stroke="var(--ink)" stroke-width="1.6" stroke-dasharray="5 3"></line>`;
-  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
-  svg.innerHTML=o;
-  const my=pts.reduce((s,p)=>s+p.y,0)/n;
-  const sd=Math.sqrt(pts.reduce((s,p)=>s+(p.y-my)**2,0)/n);
-  const sdx=Math.sqrt(pts.reduce((s,p)=>s+(p.x-pts.reduce((q,z)=>q+z.x,0)/n)**2,0)/n);
-  const r=b*sdx/(sd||1);
-  $("#nota-disp").innerHTML=`${n} circuitos. La recta punteada corresponde al ajuste por mínimos `+
-    `cuadrados: cuando el padrón se multiplica por diez, ${CORTO_M(f)} `+
-    `<b>${b>=0?"gana":"pierde"} ${Math.abs(b).toFixed(1).replace(".",",")} puntos</b>. `+
-    `Correlación r = ${r.toFixed(2).replace(".",",")}.`;
-  const tip=asegurarTip("#p-disp");
-  svg.onpointermove=ev=>{
-    const c=ev.target.closest("circle");
-    if(!c){tip.style.display="none";return}
-    tip.innerHTML=`<div class="th">Circuito ${c.dataset.c}</div>`+
-      `<div class="r"><span>Electores</span><b>${fmt(+c.dataset.e)}</b></div>`+
-      `<div class="r"><span>${CORTO_M(f)}</span><b>${(+c.dataset.y).toFixed(1).replace(".",",")} %</b></div>`;
-    tip.style.display="block"; posicionarTip(tip,"#p-disp",ev);
-  };
-  svg.onpointerleave=()=>tip.style.display="none";
+/* ---------- el voto según el tamaño del lugar (localidades × Censo 2022) ---------- */
+/*TAMANO-DATOS:INI*/
+const T = {"cat":["Rural","Pueblo","Ciudad pequeña","Ciudad intermedia","Ciudad grande"],"escala":[["Rural",0,2000],["Pueblo",2001,5000],["Ciudad pequeña",5001,10000],["Ciudad intermedia",10001,50000],["Ciudad grande",50001,null]],"fam":["Cambiemos","Centro progresista no peronista","Centroderecha liberal","Centroizquierda no peronista","Derecha libertaria","Derecha nacionalista","Izquierda","Kirchnerismo","La Libertad Avanza","Otros","Peronismo Federal","Socialismo","Union Civica Radical"],"loc":[{"n":"Ataliva","d":"Castellanos","p":2292,"c":1},{"n":"Colonia Aldao","d":"Castellanos","p":2015,"c":1},{"n":"Frontera","d":"Castellanos","p":9967,"c":2},{"n":"Humberto Primo","d":"Castellanos","p":5848,"c":2},{"n":"Josefina","d":"Castellanos","p":2738,"c":1},{"n":"Lehmann","d":"Castellanos","p":3574,"c":1},{"n":"María Juana","d":"Castellanos","p":4910,"c":1},{"n":"Ramona","d":"Castellanos","p":2062,"c":1},{"n":"San Vicente","d":"Castellanos","p":6240,"c":2},{"n":"Santa Clara de Saguier","d":"Castellanos","p":2057,"c":1},{"n":"Sunchales","d":"Castellanos","p":23397,"c":3},{"n":"Zenón Pereyra","d":"Castellanos","p":2123,"c":1},{"n":"Esperanza","d":"Las Colonias","p":46757,"c":3},{"n":"Felicia","d":"Las Colonias","p":3158,"c":1},{"n":"Franck","d":"Las Colonias","p":6406,"c":2},{"n":"Humboldt","d":"Las Colonias","p":5320,"c":2},{"n":"Pilar","d":"Las Colonias","p":5310,"c":2},{"n":"Progreso","d":"Las Colonias","p":2773,"c":1},{"n":"San Carlos Centro","d":"Las Colonias","p":12322,"c":3},{"n":"San Carlos Sud","d":"Las Colonias","p":2607,"c":1},{"n":"San Jerónimo Norte","d":"Las Colonias","p":7312,"c":2},{"n":"Santa Clara de Buena Vista","d":"Las Colonias","p":3115,"c":1},{"n":"Carlos Pellegrini","d":"San Martín","p":5961,"c":2},{"n":"Cañada Rosquín","d":"San Martín","p":5616,"c":2},{"n":"El Trébol","d":"San Martín","p":12424,"c":3},{"n":"María Susana","d":"San Martín","p":3569,"c":1},{"n":"Piamonte","d":"San Martín","p":3622,"c":1},{"n":"San Jorge","d":"San Martín","p":19524,"c":3},{"n":"San Martín de las Escobas","d":"San Martín","p":3047,"c":1},{"n":"Sastre y Ortiz","d":"San Martín","p":5855,"c":2}],"el":["2007-GENERAL","2011-PASO","2011-GENERAL","2015-PASO","2015-GENERAL","2015-BALOTAJE","2019-PASO","2019-GENERAL","2023-PASO","2023-GENERAL","2023-BALOTAJE"],"v":{"2007-GENERAL":[[1,228,2,27,3,12,6,15,7,368,9,1,10,385],[1,137,2,40,3,5,6,15,7,313,9,4,10,375],[1,718,2,115,3,20,6,65,7,1511,9,23,10,1523],[1,667,2,61,3,11,6,56,7,815,9,7,10,1291],[1,111,2,10,3,3,6,5,7,243,9,1,10,301],[1,252,2,38,3,13,6,30,7,784,9,2,10,474],[1,511,2,63,3,83,6,42,7,1108,9,12,10,1091],[1,285,2,33,3,10,6,12,7,376,9,2,10,401],[1,869,2,112,3,28,6,37,7,1196,9,9,10,1501],[1,371,2,37,3,11,6,21,7,430,9,6,10,507],[1,2351,2,267,3,112,6,122,7,4284,9,33,10,4124],[1,323,2,20,3,5,6,11,7,459,9,2,10,338],[1,4683,2,338,3,156,5,11,6,155,7,7758,9,52,10,8361],[1,214,2,41,3,7,6,29,7,467,9,2,10,649],[1,536,2,40,3,15,6,27,7,1002,9,6,10,1428],[1,672,2,53,3,17,6,28,7,830,9,38,10,1162],[1,568,2,70,3,14,6,38,7,1242,9,5,10,592],[1,370,2,34,3,5,6,16,7,335,9,5,10,572],[1,1899,2,137,3,43,6,70,7,2450,9,13,10,2115],[1,300,2,20,3,5,6,14,7,497,9,3,10,361],[1,1021,2,57,3,31,6,36,7,1164,9,4,10,1756],[1,388,2,46,3,6,6,30,7,576,9,10,10,607],[1,994,2,73,3,57,5,1,6,19,7,738,9,11,10,1129],[1,996,2,62,3,62,6,35,7,956,9,9,10,928],[1,2156,2,155,3,64,6,70,7,2067,9,16,10,1826],[1,789,2,63,3,22,6,28,7,460,9,6,10,790],[1,579,2,32,3,32,6,24,7,519,9,3,10,806],[1,2634,2,281,3,190,6,141,7,3559,9,38,10,3158],[1,526,2,24,3,6,6,12,7,457,9,5,10,524],[1,791,2,61,3,60,5,1,6,31,7,1034,9,8,10,1432]],"2011-PASO":[[1,25,3,2,6,5,7,439,9,1,10,200,11,369,12,54],[1,27,3,5,6,7,7,398,9,2,10,224,11,250,12,90],[1,81,3,11,6,42,7,2428,9,11,10,626,11,775,12,213],[1,102,3,5,6,26,7,847,9,9,10,740,11,1079,12,194],[1,19,6,8,7,306,9,1,10,150,11,203,12,99],[1,63,3,4,6,17,7,738,9,3,10,339,11,462,12,100],[1,67,3,7,6,37,7,1146,9,3,10,491,11,993,12,253],[1,34,3,1,6,7,7,356,9,6,10,333,11,346,12,125],[1,104,3,15,6,50,7,1118,9,8,10,1057,11,1087,12,382],[1,31,3,2,6,16,7,517,9,5,10,253,11,368,12,146],[1,456,3,33,6,119,7,4504,9,34,10,2380,11,3758,12,716],[1,47,3,1,6,6,7,337,9,4,10,229,11,466,12,67],[1,949,3,81,6,156,7,6706,9,73,10,3695,11,9037,12,1350],[1,39,3,5,6,12,7,360,9,5,10,426,11,429,12,127],[1,106,3,12,6,26,7,704,9,20,10,943,11,1185,12,318],[1,84,3,16,6,34,7,730,9,10,10,780,11,891,12,368],[1,63,3,9,6,23,7,1000,9,11,10,514,11,933,12,177],[1,43,3,1,6,18,7,294,9,4,10,505,11,362,12,166],[1,283,3,28,6,91,7,2277,9,31,10,1288,11,2627,12,491],[1,32,3,5,6,26,7,447,9,6,10,199,11,481,12,90],[1,188,3,20,6,45,7,828,9,16,10,969,11,1505,12,479],[1,53,3,13,6,12,7,514,9,4,10,383,11,607,12,112],[1,171,3,18,6,29,7,743,9,12,10,881,11,1008,12,240],[1,127,3,21,6,41,7,1056,9,15,10,748,11,947,12,248],[1,241,3,29,6,64,7,2504,9,29,10,1332,11,1926,12,672],[1,73,3,5,6,20,7,490,9,11,10,802,11,634,12,165],[1,66,3,8,6,16,7,555,9,5,10,505,11,660,12,242],[1,356,3,54,6,168,7,3759,9,134,10,1997,11,3306,12,828],[1,72,3,6,6,16,7,394,9,7,10,514,11,479,12,140],[1,102,3,6,6,62,7,1285,9,14,10,752,11,845,12,389]],"2011-GENERAL":[[1,17,6,13,7,398,10,86,11,427,12,56],[1,13,6,9,7,371,10,122,11,332,12,59],[1,43,6,68,7,2808,10,499,11,916,12,265],[1,46,6,34,7,900,10,358,11,1362,12,135],[1,13,6,10,7,372,10,77,11,227,12,83],[1,25,6,22,7,682,10,262,11,605,12,82],[1,39,6,61,7,1202,10,244,11,1339,12,171],[1,23,6,20,7,385,10,156,11,473,12,109],[1,46,6,64,7,1283,10,609,11,1540,12,315],[1,15,6,22,7,543,10,171,11,445,12,115],[1,255,6,149,7,5089,10,1113,11,5070,12,616],[1,23,6,11,7,361,10,110,11,557,12,52],[1,425,6,231,7,7141,10,2131,11,11070,12,1194],[1,17,6,20,7,371,10,214,11,589,12,100],[1,55,6,56,7,814,10,430,11,1597,12,290],[1,50,6,36,7,825,10,433,11,1198,12,315],[1,25,6,35,7,1043,10,250,11,1149,12,130],[1,18,6,16,7,321,10,291,11,542,12,142],[1,121,6,112,7,2536,10,633,11,3289,12,411],[1,8,6,28,7,402,10,83,11,441,12,65],[1,88,6,61,7,1027,10,520,11,2023,12,388],[1,34,6,36,7,563,10,202,11,753,12,75],[1,71,6,60,7,904,10,457,11,1471,12,201],[1,57,6,70,7,1153,10,462,11,1166,12,232],[1,114,6,104,7,2803,10,760,11,2528,12,534],[1,36,6,27,7,561,10,339,11,1040,12,162],[1,34,6,22,7,651,10,275,11,892,12,177],[1,145,6,192,7,4360,10,1115,11,4280,12,733],[1,32,6,19,7,444,10,269,11,671,12,117],[1,57,6,104,7,1432,10,386,11,1205,12,306]],"2015-PASO":[[0,417,6,24,7,292,9,11,10,313,11,47],[0,388,6,10,7,303,9,2,10,195,11,40],[0,620,6,47,7,614,9,17,10,915,11,47],[0,1199,6,55,7,610,9,16,10,710,11,162],[0,255,6,9,7,93,9,3,10,146,11,12],[0,639,6,27,7,432,9,10,10,414,11,36],[0,832,6,63,7,804,9,5,10,817,11,268],[0,465,6,11,7,203,9,5,10,316,11,104],[0,1353,6,42,7,864,9,13,10,895,11,128],[0,452,6,19,7,286,9,5,10,278,11,90],[0,4711,6,183,7,3469,9,51,10,2794,11,1054],[0,404,6,19,7,174,9,2,10,277,11,68],[0,8800,6,448,7,5410,9,148,10,6406,11,1106],[0,708,6,20,7,223,9,7,10,302,11,48],[0,1584,6,66,7,516,9,16,10,1040,11,136],[0,1311,6,51,7,581,9,16,10,759,11,114],[0,955,6,58,7,820,9,12,10,682,11,73],[0,813,6,25,7,236,9,7,10,324,11,46],[0,2498,6,141,7,1785,9,17,10,1693,11,322],[0,425,6,27,7,356,9,2,10,369,11,54],[0,1850,6,92,7,711,9,15,10,1080,11,215],[0,592,6,32,7,357,9,8,10,463,11,74],[0,1305,6,53,7,621,9,16,10,853,11,120],[0,1125,6,64,7,675,9,10,10,836,11,143],[0,2162,6,108,7,1607,9,20,10,1943,11,349],[0,1011,6,18,7,314,9,9,10,537,11,62],[0,763,6,41,7,324,9,9,10,517,11,77],[0,3518,6,214,7,2478,9,78,10,3143,11,428],[0,709,6,22,7,234,9,6,10,409,11,71],[0,995,6,85,7,997,9,9,10,854,11,138]],"2015-GENERAL":[[0,616,6,12,7,305,10,328,11,28],[0,563,6,10,7,375,10,220,11,22],[0,1576,6,128,7,1761,10,1704,11,131],[0,1583,6,38,7,711,10,967,11,100],[0,405,6,17,7,276,10,302,11,22],[0,858,6,28,7,467,10,516,11,36],[0,1213,6,96,7,908,10,852,11,235],[0,618,6,21,7,247,10,311,11,86],[0,1740,6,54,7,1003,10,1020,11,105],[0,532,6,13,7,297,10,261,11,38],[0,6166,6,242,7,3661,10,3042,11,702],[0,631,6,21,7,244,10,250,11,19],[0,11702,6,343,7,5600,10,6532,11,960],[0,980,6,12,7,230,10,276,11,42],[0,2144,6,54,7,554,10,910,11,93],[0,1732,6,67,7,593,10,724,11,68],[0,1281,6,26,7,938,10,786,11,64],[0,988,6,11,7,233,10,287,11,61],[0,3004,6,126,7,1986,10,2183,11,314],[0,547,6,28,7,418,10,408,11,47],[0,2467,6,73,7,756,10,1024,11,158],[0,865,6,13,7,425,10,531,11,63],[0,1777,6,52,7,683,10,850,11,109],[0,1433,6,55,7,717,10,806,11,148],[0,3079,6,141,7,2096,10,1987,11,262],[0,1256,6,17,7,356,10,574,11,60],[0,1018,6,42,7,384,10,597,11,70],[0,4734,6,250,7,2996,10,3332,11,448],[0,1000,6,22,7,316,10,437,11,53],[0,1324,6,99,7,1174,10,997,11,147]],"2015-BALOTAJE":[[0,935,7,359],[0,796,7,415],[0,2695,7,2739],[0,2524,7,931],[0,619,7,428],[0,1278,7,643],[0,1998,7,1322],[0,925,7,354],[0,2643,7,1299],[0,970,7,435],[0,9074,7,4944],[0,890,7,322],[0,17598,7,8182],[0,1256,7,289],[0,3121,7,749],[0,2455,7,800],[0,1948,7,1183],[0,1324,7,295],[0,4811,7,2871],[0,861,7,585],[0,3554,7,968],[0,1335,7,637],[0,2570,7,986],[0,2352,7,1105],[0,4753,7,2876],[0,1811,7,479],[0,1525,7,596],[0,7420,7,4072],[0,1439,7,396],[0,1999,7,1551]],"2019-PASO":[[0,717,4,20,5,21,6,18,7,320,9,3,10,95],[0,554,4,23,5,30,6,12,7,441,9,3,10,86],[0,1299,4,85,5,189,6,98,7,2380,9,12,10,395],[0,2029,4,72,5,41,6,35,7,829,9,9,10,217],[0,263,4,21,5,10,6,10,7,125,10,89],[0,924,4,46,5,50,6,27,7,614,9,3,10,189],[0,1201,4,78,5,57,6,72,7,1113,9,12,10,421],[0,600,4,33,5,22,6,22,7,381,9,9,10,129],[0,1701,4,128,5,107,6,72,7,1170,9,13,10,477],[0,589,4,29,5,42,6,18,7,381,9,4,10,126],[0,6439,4,358,5,340,6,246,7,4982,9,23,10,1452],[0,571,4,11,5,8,6,21,7,318,10,127],[0,12033,4,988,5,990,6,425,7,7056,9,81,10,3459],[0,966,4,32,5,47,6,18,7,253,9,5,10,106],[0,2310,4,143,5,134,6,61,7,790,9,9,10,459],[0,1703,4,123,5,102,6,62,7,783,9,11,10,396],[0,1331,4,60,5,43,6,47,7,1179,9,7,10,273],[0,1008,4,28,5,35,6,23,7,302,9,7,10,171],[0,2952,4,326,5,270,6,154,7,2571,9,30,10,1113],[0,563,4,46,5,64,6,24,7,603,9,6,10,211],[0,2490,4,209,5,107,6,66,7,773,9,10,10,547],[0,790,4,56,5,47,6,35,7,730,9,3,10,191],[0,1744,4,90,5,120,6,58,7,912,9,16,10,371],[0,1517,4,101,5,78,6,62,7,1046,9,13,10,391],[0,2891,4,227,5,258,6,160,7,2693,9,33,10,894],[0,1218,4,35,5,49,6,34,7,473,9,7,10,229],[0,1051,4,25,5,54,6,52,7,569,9,6,10,194],[0,4809,4,343,5,364,6,251,7,4126,9,33,10,1381],[0,1008,4,46,5,77,6,39,7,366,9,5,10,157],[0,1297,4,96,5,56,6,67,7,1556,9,14,10,427]],"2019-GENERAL":[[0,871,4,17,5,19,6,12,7,351,10,77],[0,742,4,16,5,5,6,9,7,453,10,59],[0,1938,4,75,5,100,6,57,7,2625,10,413],[0,2427,4,44,5,25,6,20,7,902,10,165],[0,355,4,8,5,4,6,5,7,160,10,62],[0,1181,4,31,5,25,6,18,7,633,10,151],[0,1587,4,55,5,41,6,177,7,1193,10,347],[0,798,4,23,5,10,6,9,7,367,10,99],[0,2208,4,104,5,50,6,46,7,1311,10,330],[0,764,4,32,5,16,6,20,7,442,10,89],[0,8303,4,257,5,169,6,147,7,5168,10,1052],[0,782,4,12,5,6,6,12,7,328,10,69],[0,17380,4,464,5,406,6,216,7,7263,10,2087],[0,1218,4,12,5,11,6,13,7,261,10,75],[0,3003,4,60,5,54,6,32,7,761,10,303],[0,2276,4,69,5,50,6,35,7,798,10,273],[0,1859,4,47,5,16,6,30,7,1157,10,208],[0,1235,4,9,5,11,6,9,7,317,10,100],[0,4062,4,223,5,111,6,74,7,2764,10,802],[0,753,4,54,5,32,6,20,7,650,10,144],[0,3351,4,107,5,24,6,33,7,932,10,328],[0,1010,4,52,5,11,6,20,7,730,10,202],[0,2209,4,48,5,65,6,37,7,954,10,287],[0,2032,4,49,5,53,6,40,7,1078,10,318],[0,4015,4,181,5,147,6,96,7,2834,10,713],[0,1347,4,31,5,32,6,12,7,664,10,174],[0,1265,4,17,5,47,6,33,7,572,10,160],[0,6289,4,229,5,212,6,149,7,4463,10,1127],[0,1298,4,22,5,49,6,18,7,417,10,118],[0,1645,4,66,5,29,6,49,7,1658,10,365]],"2023-PASO":[[0,406,3,3,6,13,7,105,8,514,9,4,10,93],[0,322,3,3,6,16,7,146,8,428,9,3,10,99],[0,770,3,9,6,71,7,632,8,1482,9,23,10,1003],[0,1146,3,5,6,30,7,261,8,1209,9,15,10,160],[0,199,3,1,6,2,7,42,8,191,9,2,10,87],[0,606,3,1,6,29,7,219,8,682,9,10,10,145],[0,805,3,4,6,49,7,481,8,900,9,8,10,527],[0,390,6,15,7,162,8,312,9,4,10,150],[0,1098,3,4,6,43,7,475,8,1380,9,18,10,335],[0,392,6,26,7,126,8,392,9,3,10,149],[0,4646,3,26,6,201,7,2176,8,4529,9,32,10,1258],[0,389,3,1,6,11,7,76,8,408,9,2,10,145],[0,8646,3,44,6,349,7,2743,8,10867,9,93,10,994],[0,563,3,2,6,20,7,108,8,629,9,8,10,74],[0,1607,3,7,6,59,7,333,8,1670,9,18,10,210],[0,993,3,2,6,43,7,330,8,1375,9,13,10,135],[0,962,3,6,6,43,7,455,8,1020,9,19,10,209],[0,595,3,3,6,11,7,96,8,551,9,12,10,62],[0,2314,3,24,6,131,7,1186,8,2754,9,32,10,358],[0,442,3,4,6,18,7,232,8,638,9,4,10,72],[0,1694,3,12,6,59,7,420,8,1640,9,21,10,361],[0,534,3,7,6,24,7,221,8,714,9,20,10,143],[0,1252,2,3,3,7,5,2,6,35,7,334,8,1380,9,9,10,272],[0,1089,2,7,3,66,5,5,6,59,7,321,8,1260,9,20,10,251],[0,2122,2,7,3,12,5,6,6,111,7,1065,8,3041,9,37,10,654],[0,787,2,5,3,6,5,6,6,22,7,134,8,797,9,12,10,145],[0,774,2,6,3,5,5,3,6,42,7,205,8,690,9,8,10,116],[0,3143,2,18,3,35,5,17,6,138,7,1529,8,4537,9,50,10,1038],[0,559,2,12,3,4,5,2,6,20,7,135,8,727,9,10,10,177],[0,1179,2,8,3,25,5,5,6,51,7,673,8,983,9,23,10,382]],"2023-GENERAL":[[0,371,6,20,7,161,8,551,10,178],[0,311,6,9,7,196,8,479,10,186],[0,640,6,37,7,1234,8,1653,10,1493],[0,1054,6,24,7,450,8,1438,10,324],[0,164,6,2,7,70,8,244,10,118],[0,519,6,17,7,365,8,766,10,277],[0,768,6,46,7,654,8,1039,10,653],[0,391,6,11,7,225,8,432,10,202],[0,962,6,51,7,736,8,1630,10,592],[0,384,6,18,7,202,8,400,10,210],[0,4123,6,171,7,3045,8,4958,10,2331],[0,354,6,14,7,128,8,454,10,165],[0,7850,6,310,7,4153,8,11247,10,2342],[0,538,6,12,7,152,8,646,10,132],[0,1410,6,26,7,479,8,1903,10,372],[0,936,6,39,7,510,8,1574,10,400],[0,827,6,32,7,656,8,1151,10,449],[0,648,6,6,7,196,8,695,10,134],[0,2036,6,112,7,1745,8,3008,10,835],[0,384,6,16,7,344,8,601,10,185],[0,1589,6,59,7,609,8,1795,10,573],[0,435,6,14,7,406,8,687,10,271],[0,1138,6,41,7,524,8,1455,10,458],[0,947,6,48,7,601,8,1268,10,483],[0,1989,6,69,7,1547,8,3127,10,1064],[0,694,6,17,7,224,8,919,10,225],[0,693,6,27,7,311,8,748,10,302],[0,3004,6,122,7,2394,8,4641,10,2005],[0,557,6,12,7,204,8,742,10,266],[0,1106,6,46,7,1064,8,915,10,602]],"2023-BALOTAJE":[[7,240,8,1062],[7,293,8,876],[7,1893,8,3023],[7,643,8,2667],[7,127,8,465],[7,515,8,1479],[7,876,8,1999],[7,289,8,971],[7,1022,8,2906],[7,291,8,987],[7,4091,8,10234],[7,199,8,926],[7,5613,8,20930],[7,251,8,1246],[7,685,8,3557],[7,692,8,2776],[7,927,8,2310],[7,267,8,1458],[7,2294,8,5374],[7,479,8,1096],[7,852,8,3696],[7,553,8,1380],[7,741,8,2887],[7,843,8,2471],[7,2078,8,5702],[7,339,8,1762],[7,449,8,1587],[7,3392,8,8755],[7,340,8,1489],[7,1443,8,2264]]}};
+/*TAMANO-DATOS:FIN*/
+const COLTR=i=>tinte("var(--accent)",[.28,.45,.62,.8,1][i]);
+const nAr = n => n.toLocaleString("es-AR");
+function rangoEscala(e){
+  return e[1]===0 ? `hasta ${nAr(e[2])}` : e[2]==null ? `desde ${nAr(e[1])}` : `${nAr(e[1])} a ${nAr(e[2])}`;
 }
-
-/* ---------- el voto según el tamaño del circuito ---------- */
-const TRAMOS=[["Rural",0,500],["Pueblo",500,3000],
-              ["Ciudad intermedia",3000,20000],["Gran ciudad",20000,1e9]];
-const COLTR=i=>tinte("var(--accent)",[.3,.5,.72,1][i]);
-function tramoDe(e){ for(let i=0;i<TRAMOS.length;i++)
-  if(e>=TRAMOS[i][1]&&e<TRAMOS[i][2]) return i; return 3; }
+function rangos(v){
+  const o=v.map((x,i)=>[x,i]).sort((a,b)=>a[0]-b[0]), r=new Array(v.length);
+  for(let i=0;i<o.length;){ let j=i; while(j+1<o.length&&o[j+1][0]===o[i][0]) j++;
+    for(let k=i;k<=j;k++) r[o[k][1]]=(i+j)/2+1; i=j+1; }
+  return r;
+}
+function pearson(a,b){
+  const n=a.length, ma=a.reduce((s,x)=>s+x,0)/n, mb=b.reduce((s,x)=>s+x,0)/n;
+  let sab=0,saa=0,sbb=0; for(let i=0;i<n;i++){sab+=(a[i]-ma)*(b[i]-mb); saa+=(a[i]-ma)**2; sbb+=(b[i]-mb)**2;}
+  return saa&&sbb ? sab/Math.sqrt(saa*sbb) : null;
+}
+const spearman=(x,y)=>pearson(rangos(x),rangos(y));
 
 function dibujarTramos(){
-  const f=$("#tr-fuerza").value, els=elecciones();
+  const f=$("#tr-fuerza").value;
+  const els=T.el.filter(c=>est.inst==="todas"||c.endsWith("GENERAL")).map(c=>D.elecciones.find(e=>e.clave===c));
   const svg=$("#svg-tramos"), W=900, H=400, Mg={t:18,r:150,b:52,l:52};
-  /* si el ámbito es un departamento, solo entran sus circuitos */
-  const dep = est.ambito==="Provincia" ? null
-            : (M.dep.find(d=>d.n===est.ambito)||{}).d;
-  const series=TRAMOS.map(()=>[]);
+  const nC=T.cat.length;
+  const series=T.cat.map(()=>[]), corr=[], posLoc=[], cobertura=[];
   for(const e of els){
-    const cir=M.cir[e.clave]||{}, pad=M.pad[e.clave]||{};
-    const capa=M.cap[CAPA(+e.anio)], dd={}; capa.forEach(x=>dd[x.c]=x.d);
-    const acum=TRAMOS.map(()=>({f:0,tot:0}));
-    for(const [c,plano] of Object.entries(cir)){
-      if(dep && dd[c]!==dep) continue;
-      const el=pad[c]; if(!el) continue;
-      const t=acum[tramoDe(el)];
-      for(let i=0;i<plano.length;i+=2){
-        t.tot+=plano[i+1];
-        if(MFAM[plano[i]]===f) t.f+=plano[i+1];
-      }
-    }
-    /* sin votos no es cero: la fuerza no se presentó, y la línea se interrumpe */
+    const acum=T.cat.map(()=>({f:0,tot:0}));
+    const xs=[], ys=[]; let totLoc=0;
+    T.v[e.clave].forEach((plano,li)=>{
+      const L=T.loc[li]; let tot=0, vf=0;
+      for(let i=0;i<plano.length;i+=2){ tot+=plano[i+1]; if(T.fam[plano[i]]===f) vf+=plano[i+1]; }
+      acum[L.c].tot+=tot; acum[L.c].f+=vf; totLoc+=tot;
+      if(tot&&vf){ xs.push(L.p); ys.push(100*vf/tot); }
+    });
+    /* sin votos no es cero: la fuerza no se presentó y la línea se interrumpe */
     acum.forEach((a,i)=>series[i].push(a.tot&&a.f? 100*a.f/a.tot : null));
+    corr.push(xs.length>=5 ? spearman(xs,ys) : null);
+    posLoc.push(totLoc);
+    const prov=agregado(e.clave,"Provincia"); cobertura.push(prov? 100*totLoc/prov.pos : null);
   }
   const vals=series.flat().filter(v=>v!=null&&v>0);
   const top=Math.max(10,Math.ceil(Math.max(...vals,0)/10)*10);
   const x=i=>Mg.l+i*(W-Mg.l-Mg.r)/Math.max(1,els.length-1);
   const y=v=>H-Mg.b-(v/top)*(H-Mg.t-Mg.b);
-  const T=(xx,yy,t,o={})=>`<text x="${xx}" y="${yy}" text-anchor="${o.a||'end'}" `+
+  const Tx=(xx,yy,t,o={})=>`<text x="${xx}" y="${yy}" text-anchor="${o.a||'end'}" `+
     `font-size="${o.s||10.5}" font-weight="${o.w||400}" fill="${o.c||css('--ink-3')}" `+
     `font-family="${css('--font-d')}">${t}</text>`;
   let o="";
   for(let t=0;t<=top;t+=top/5){
     o+=`<line x1="${Mg.l}" x2="${W-Mg.r}" y1="${y(t)}" y2="${y(t)}" stroke="${css('--line')}"/>`;
-    o+=T(Mg.l-8,y(t)+4,t.toFixed(0)+" %");}
+    o+=Tx(Mg.l-8,y(t)+4,t.toFixed(0)+" %");}
   els.forEach((e,i)=>{
-    o+=T(x(i),H-Mg.b+18,e.anio,{a:"middle",s:10});
+    o+=Tx(x(i),H-Mg.b+18,e.anio,{a:"middle",s:10});
     if(e.instancia!=="GENERAL")
-      o+=T(x(i),H-Mg.b+30,e.instancia==="PASO"?"PASO":"2ª",{a:"middle",s:8.5});});
+      o+=Tx(x(i),H-Mg.b+30,e.instancia==="PASO"?"PASO":"2ª",{a:"middle",s:8.5});});
   const fin=[];
   series.forEach((pts,i)=>{
     const d=pts.map((v,j)=>v==null?null:`${x(j)},${y(v)}`).filter(Boolean).join(" L ");
@@ -1332,21 +1328,36 @@ function dibujarTramos(){
   fin.sort((a,b)=>a.y-b.y);
   for(let i=1;i<fin.length;i++) if(fin[i].y-fin[i-1].y<14) fin[i].y=fin[i-1].y+14;
   for(const e of fin)
-    o+=T(W-Mg.r+8, e.y+4, `${TRAMOS[e.i][0]} ${e.v.toFixed(1).replace(".",",")} %`,
+    o+=Tx(W-Mg.r+8, e.y+4, `${T.cat[e.i]} ${e.v.toFixed(1).replace(".",",")} %`,
          {a:"start",s:10.5,w:600,c:COLTR(e.i)});
   svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
   svg.innerHTML=o;
-  $("#leg-tramos").innerHTML=TRAMOS.map((t,i)=>
-    `<span class="item"><i class="sw" style="background:${COLTR(i)}"></i>${t[0]}`+
-    `<span style="color:var(--ink-3)"> · ${t[1]===0?"menos de 500":
-      t[2]>1e8?"20.000 o más":t[1].toLocaleString("es-AR")+" a "+(t[2]-1).toLocaleString("es-AR")} electores</span></span>`).join("");
+  const nLoc=T.cat.map((_,i)=>T.loc.filter(l=>l.c===i).length);
+  $("#leg-tramos").innerHTML=T.escala.map((e,i)=>
+    `<span class="item"><i class="sw" style="background:${nLoc[i]?COLTR(i):"var(--surface-2)"};border:1px solid var(--line)"></i>${e[0]}`+
+    `<span style="color:var(--ink-3)"> · ${rangoEscala(e)} hab. · ${nLoc[i]?nLoc[i]+" localidades":"sin localidades en la base"}</span></span>`).join("");
+
   const u=series.map(p=>p[p.length-1]).filter(v=>v!=null);
   const brecha = u.length>1 ? Math.max(...u)-Math.min(...u) : null;
-  const ult=els[els.length-1];
+  const ult=els[els.length-1], rU=corr[corr.length-1];
   $("#nota-tramos").innerHTML = brecha==null ? "" :
-    `En ${etiquetaEl(ult).toLowerCase()}, la brecha entre el tramo en que ${CORTO_M(f)} `+
-    `obtiene su mejor resultado y aquel en que obtiene el peor es de <b>${brecha.toFixed(1).replace(".",",")} puntos</b>. `+
-    `Una brecha amplia indica que la escala del lugar ordena el voto; una brecha reducida, en cambio, que no lo hace.`;
+    `En ${etiquetaEl(ult).toLowerCase()}, la brecha entre la categoría en que ${CORTO_M(f)} obtiene su mejor resultado y aquella `+
+    `en que obtiene el peor es de <b>${brecha.toFixed(1).replace(".",",")} puntos</b>`+
+    (rU==null?"":` y la correlación de Spearman entre población y voto es de <b>${rU.toFixed(2).replace(".",",")}</b>`)+
+    `. Una brecha amplia indica que la escala del lugar ordena el voto; una brecha reducida, en cambio, que no lo hace.`;
+
+  /* tabla de comprobación */
+  let h=`<thead><tr><th>Categoría (habitantes)</th>${els.map(e=>`<th>${e.anio}${e.instancia==="GENERAL"?"":" "+(e.instancia==="PASO"?"P":"2ª")}</th>`).join("")}</tr></thead><tbody>`;
+  series.forEach((pts,i)=>{ if(!nLoc[i]) return;
+    h+=`<tr><td><span class="sw" style="display:inline-block;background:${COLTR(i)};margin-right:.4rem"></span>${T.cat[i]} (${rangoEscala(T.escala[i])}) · ${nLoc[i]} loc.</td>`+
+       pts.map(v=>`<td>${v==null?"—":v.toFixed(1).replace(".",",")}</td>`).join("")+`</tr>`; });
+  h+=`<tr><td>Correlación de Spearman (población y voto)</td>${corr.map(r=>`<td>${r==null?"—":r.toFixed(2).replace(".",",")}</td>`).join("")}</tr>`;
+  h+=`<tr><td>Votos positivos en las 30 localidades</td>${posLoc.map(n=>`<td>${nAr(n)}</td>`).join("")}</tr>`;
+  h+=`<tr><td>% de los votos positivos de la provincia</td>${cobertura.map(c=>`<td>${c==null?"—":c.toFixed(1).replace(".",",")}</td>`).join("")}</tr></tbody>`;
+  $("#tabla-tramos").innerHTML=h;
+  let hl=`<thead><tr><th>Localidad</th><th>Departamento</th><th>Población 2022</th><th>Categoría</th></tr></thead><tbody>`;
+  T.loc.map(l=>l).sort((a,b)=>b.p-a.p).forEach(l=>{ hl+=`<tr><td>${l.n}</td><td>${l.d}</td><td>${nAr(l.p)}</td><td>${T.cat[l.c]}</td></tr>`; });
+  $("#tabla-localidades").innerHTML=hl+"</tbody>";
 }
 
 /* ---------- inicialización de la capa cartográfica ---------- */
@@ -1357,9 +1368,7 @@ function iniciarMapas(){
     $("#"+p+"-fuerza").value="Kirchnerismo"; });
   estM.dep.f=estM.cir.f=estM.mp.f="Kirchnerismo";
   $("#t-eleccion").innerHTML=els; $("#t-eleccion").value="2023-GENERAL";
-  $("#d-eleccion").innerHTML=els; $("#d-eleccion").value="2023-GENERAL";
-  $("#d-fuerza").innerHTML=ops;  $("#d-fuerza").value="La Libertad Avanza";
-  $("#tr-fuerza").innerHTML=ops; $("#tr-fuerza").value="La Libertad Avanza";
+  $("#tr-fuerza").innerHTML=ops; $("#tr-fuerza").value="Kirchnerismo";
   $("#tr-fuerza").onchange=dibujarTramos;
 
   const par=(tipo,pre)=>{
@@ -1371,10 +1380,8 @@ function iniciarMapas(){
   par("dep","md"); par("cir","mc"); par("mp","mp");
   segmento("#ms-modo",null,v=>{estM.ms=v; dibujarMosaico();});
   $("#t-eleccion").onchange=dibujarTablaAnual;
-  $("#d-eleccion").onchange=dibujarDispersion;
-  $("#d-fuerza").onchange=dibujarDispersion;
   dibujarMapa("dep"); dibujarMapa("cir"); dibujarMapa("mp"); dibujarMosaico();
-  dibujarTablaAnual(); dibujarDispersion(); dibujarTramos();
+  dibujarTablaAnual(); dibujarTiles(); dibujarTramos();
 }
 
 /*FICHAS-JS:INI*/
@@ -1754,14 +1761,16 @@ const EPI_F = {
   dine23: "la Dirección Nacional Electoral (archivos por mesa y nomenclador de ámbitos de 2023, del portal de datos abiertos)",
   cart: "la cartografía de circuitos electorales de Franco Galeano (CC BY 4.0)",
   dinex: "la Dirección Nacional Electoral (Excel de resultados por distrito, escrutinio definitivo)",
-  csv: "la base de datos electorales de Santa Fe 2011-2023 aportada por el equipo"
+  csv: "la base de datos electorales de Santa Fe 2011-2023 aportada por el equipo",
+  loc: "los archivos «Votos por Localidad» de las elecciones presidenciales 2007-2023 en Santa Fe, completados con los resultados por mesa de la Dirección Nacional Electoral",
+  censo: "el Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC, base por radio censal)"
 };
 function EPI(claves){
   const t=claves.map(k=>EPI_F[k]);
   const l=t.length>1 ? t.slice(0,-1).join(", ")+" y "+t[t.length-1] : t[0];
   return "Elaboración propia a partir de los datos obtenidos de "+l+".";
 }
-const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"];
+const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"], EPI_TAMANO=["loc","censo"];
 /* [elemento de referencia, contenedor que lo envuelve (o null), fuentes, id opcional]
    El epígrafe se coloca justo debajo del contenedor. */
 const EPI_ANCLAS = [
@@ -1776,8 +1785,8 @@ const EPI_ANCLAS = [
   ["#leg-serie",null,EPI_BASE],
   ["#p-vol",null,EPI_BASE],
   ["#p-des",null,EPI_BASE],
-  ["#leg-tramos",null,EPI_BASE],
-  ["#p-disp",null,EPI_BASE],
+  ["#leg-tramos",null,EPI_TAMANO],
+  ["#tabla-tramos",".tablewrap",EPI_TAMANO],
   ["#p-ele",".mapafila",EPI_MAPA],
   ["#ele-tabla",".tablewrap",EPI_FICHA],
   ["#ele-part",null,EPI_FICHA],
@@ -1795,15 +1804,16 @@ EPI_ANCLAS.forEach(([sel,envoltura,fuentes,id])=>{
 });
 /*FICHAS-JS:FIN*/
 /* ---------- pestañas ---------- */
-const PANEL = {datos:"#pan-datos", evo:"#pan-evo", geo:"#pan-geo", hall:"#pan-hall", ele:"#pan-ele", par:"#pan-par"};
+const PANEL = {datos:"#pan-datos", evo:"#pan-evo", geo:"#pan-geo", ana:"#pan-ana", hall:"#pan-hall", ele:"#pan-ele", par:"#pan-par"};
 function mostrar(p){
   for(const [k,sel] of Object.entries(PANEL)) $(sel).hidden = (k!==p);
   $("#tabs").querySelectorAll("button").forEach(b=>
     b.setAttribute("aria-selected", b.dataset.p===p));
   $("#bajada").hidden = (p!=="datos");
   if(p==="evo"){dibujarMapa("mp");dibujarMapa("dep");dibujarMosaico();}
-  if(p==="geo"){dibujarTabla();dibujarMapa("cir");dibujarDeptos();}
-  if(p==="hall"){dibujarSerie();dibujarVol();dibujarDes();dibujarDispersion();dibujarTramos();}
+  if(p==="geo"){dibujarTabla();dibujarMapa("cir");}
+  if(p==="ana"){dibujarTablaAnual();dibujarDeptos();dibujarVol();dibujarDes();}
+  if(p==="hall"){dibujarTiles();dibujarSerie();dibujarTramos();}
   if(p==="ele"||p==="par") fichasMostrar(p);
 }
 function pestanas(){
@@ -1821,7 +1831,7 @@ function pestanas(){
 iniciar();
 let t; addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(()=>{
   dibujarSerie();dibujarDeptos();dibujarVol();dibujarDes();
-  dibujarDispersion();dibujarTramos();},180);});
+  dibujarTramos();},180);});
 
 </script>
 

@@ -9,8 +9,9 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 |---|---|---|
 | Objetivos, método y base de datos | Qué se hizo y con qué datos | Objetivos · Recolección y procesamiento de los datos · Advertencias y fuentes |
 | Evolución del voto | Cómo cambia el voto en el territorio | Evolución del voto a Presidente en Santa Fe 2003-2023 por circuito electoral (mapa de la serie, con tres líneas de interpretación) · El voto departamento por departamento · Comparación de las elecciones definitivas 2003 - 2023 en Santa Fe |
-| Distribución del electorado | Cómo se distribuye el voto (lectura de detalle) | Resultados comparados, 2003-2023 · El voto circuito por circuito · Tabla por elección · Composición por departamento |
-| Hallazgos | Qué indicadores sintetizan la serie | Corpus en cifras · Evolución de las fuerzas · Volatilidad y desafección · Voto según el tamaño del lugar |
+| Distribución del electorado | Cómo se distribuye el voto (lectura de detalle) | Resultados comparados, 2003-2023 · El voto circuito por circuito |
+| Análisis estadístico | Qué dicen las tablas y los indicadores | Tabla por elección · Composición por departamento · Volatilidad y desafección |
+| Hallazgos | Qué indicadores sintetizan la serie | Resumen de 5 números · Evolución de las fuerzas políticas (las tres que ganaron la presidencia) · El voto según el tamaño del lugar (`docs/TAMANO_DEL_LUGAR.md`) |
 | Elecciones | Ficha de cada elección, por etiqueta oficial | (generada por `scripts/agregar_pestanas.py`) |
 | Partidos | Ficha de cada partido | (generada por `scripts/agregar_pestanas.py`) |
 
@@ -27,7 +28,8 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 
 ## Pendiente de decisión
 
+- El análisis por tamaño del lugar usa las 30 localidades con resultados propios y deja vacías las categorías
+  rural y ciudad grande (`docs/TAMANO_DEL_LUGAR.md`).
 - Hay dos mapas por circuito: el de la serie (pestaña «Evolución del voto», con ficha histórica) y
   «El voto circuito por circuito» (pestaña «Distribución del electorado»).
-- «Resultados comparados» (la serie en cifras) quedó en «Distribución del electorado» al quedar
-  vacía de otras secciones la pestaña original.
+- «Resultados comparados» (la serie en cifras) quedó en «Distribución del electorado».

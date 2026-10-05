@@ -96,7 +96,7 @@ def main():
     s = s.replace(marca, bloque + marca, 1)
     s = s.replace('const PANEL = {datos:"#pan-datos", geo:"#pan-geo", hall:"#pan-hall"};',
                   'const PANEL = {datos:"#pan-datos", geo:"#pan-geo", hall:"#pan-hall", ele:"#pan-ele", par:"#pan-par"};')
-    gancho = '  if(p==="hall"){dibujarSerie();dibujarVol();dibujarDes();dibujarDispersion();dibujarTramos();}\n'
+    gancho = '  if(p==="hall"){dibujarTiles();dibujarSerie();dibujarTramos();}\n'
     assert gancho in s
     if 'fichasMostrar(p)' not in s.replace(bloque, ""):
         s = s.replace(gancho, gancho + '  if(p==="ele"||p==="par") fichasMostrar(p);\n', 1)
