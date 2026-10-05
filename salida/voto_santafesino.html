@@ -203,7 +203,9 @@ tr.clic:hover td{background:var(--surface-2)}
   <p class="creditos"><span><b>Directores CAI+D:</b> Dr. Obradovich, Gabriel · Dr. Morresi, Sergio</span><span><b>Estudiante:</b> Bagilet, Agustín (UNL — FHUC)</span></p>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Secciones del análisis">
     <button type="button" role="tab" id="tab-datos" aria-controls="pan-datos"
-            aria-selected="true" data-p="datos">Datos y objetivos</button>
+            aria-selected="true" data-p="datos">Objetivos, método y base de datos</button>
+    <button type="button" role="tab" id="tab-evo" aria-controls="pan-evo"
+            aria-selected="false" data-p="evo">Evolución del voto</button>
     <button type="button" role="tab" id="tab-geo" aria-controls="pan-geo"
             aria-selected="false" data-p="geo">Distribución del electorado</button>
     <button type="button" role="tab" id="tab-hall" aria-controls="pan-hall"
@@ -227,49 +229,6 @@ tr.clic:hover td{background:var(--surface-2)}
     <li>Examinar las particularidades que presenta dicha evolución en la región.</li>
     <li>Elaborar una ponencia y/o trabajo escrito a partir de los resultados obtenidos durante la práctica de investigación.</li>
   </ol>
-</section>
-
-<section>
-  <h2>Resultados comparados, 2003-2023</h2>
-  <p class="sub">La serie en cifras</p>
-  <p>El punto de partida del análisis es la serie completa: el porcentaje que obtuvo cada fuerza política en cada elección, calculado sobre los votos positivos. Asimismo, se informan la participación sobre el padrón y el peso conjunto del voto en blanco y nulo. Cabe aclarar que los guiones no equivalen a ceros, sino que indican que la fuerza no se presentó en esa instancia.</p>
-  <div class="ctrls">
-    <div class="ctrl"><label for="tb-ambito">Ámbito</label>
-      <select id="tb-ambito"></select></div>
-    <div class="ctrl"><label for="tb-inst">Instancias</label>
-      <div class="seg" id="tb-inst" role="group" aria-label="Instancias">
-        <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
-        <button type="button" data-v="todas" aria-pressed="false">Todas</button>
-      </div></div>
-  </div>
-  <div class="tablewrap"><table id="tabla"></table></div>
-</section>
-
-<section>
-  <h2>Veinte años de voto, circuito por circuito</h2>
-  <p class="sub">El mapa de la serie</p>
-  <p>Las doce instancias presidenciales se representan sobre los circuitos electorales de la provincia, que constituyen la unidad más desagregada que publican los organismos electorales. El deslizador permite recorrer la serie completa y, <b>al hacer clic sobre un circuito, se despliega su historia entera</b>: la fuerza ganadora y la que obtuvo el segundo lugar en cada una de las doce elecciones.</p>
-  <div class="ctrls">
-    <div class="ctrl"><label>Qué muestra</label>
-      <div class="seg" id="mp-modo" role="group" aria-label="Qué muestra el mapa">
-        <button type="button" data-v="gan" aria-pressed="true">Fuerza ganadora</button>
-        <button type="button" data-v="int" aria-pressed="false">Intensidad por fuerza</button>
-      </div></div>
-    <div class="ctrl" id="mp-fbox" hidden><label for="mp-fuerza">Fuerza</label>
-      <select id="mp-fuerza"></select></div>
-  </div>
-  <div class="tiempo">
-    <label for="mp-t">Elección</label>
-    <input type="range" id="mp-t" min="0" max="11" step="1" value="10">
-    <output id="mp-et"></output>
-  </div>
-  <div class="mapafila">
-    <div class="plot mapa" id="p-mp"><svg id="svg-mp" role="img"
-         aria-label="Mapa del voto por circuito electoral, 2003 a 2023"></svg></div>
-    <div class="legend vert" id="leg-mp"></div>
-  </div>
-  <div class="ficha" id="ficha" hidden></div>
-  <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY). Dado que los circuitos modifican su trazado y su código a lo largo de los veinte años, la ficha histórica vincula cada circuito actual con el que cubría el mismo territorio en cada elección anterior.</p>
 </section>
 
 <section>
@@ -302,8 +261,57 @@ tr.clic:hover td{background:var(--surface-2)}
 </section>
 </div>
 
-<div role="tabpanel" id="pan-geo" aria-labelledby="tab-geo" hidden>
-  <p class="contexto">Esta sección presenta la distribución territorial del voto en dos escalas: el departamento y el circuito electoral. Cada mapa admite dos lecturas. La primera muestra la <b>fuerza ganadora</b>, que permite identificar cómo se reparte el poder territorial; la segunda representa la <b>intensidad del voto</b> de una fuerza elegida, que revela avances y retrocesos que el criterio del ganador oculta. Conviene tener presente, además, que los circuitos modifican su trazado y su código entre elecciones, razón por la cual las capas cartográficas se reconstruyen para cada año.</p>
+<div role="tabpanel" id="pan-evo" aria-labelledby="tab-evo" hidden>
+<section>
+  <h2>Evolución del voto a Presidente en Santa Fe 2003-2023 por circuito electoral</h2>
+  <p class="sub">Mapa de la serie</p>
+  <p>Las doce instancias presidenciales se representan sobre los circuitos electorales de la
+  provincia, que constituyen la unidad más desagregada que publican los organismos electorales.
+  Al comparar el conjunto de las elecciones se perciben, al menos, tres líneas de interpretación
+  (porcentajes sobre votos positivos, recuento provisorio y fuerzas agrupadas por familia política).</p>
+  <ol class="objetivos">
+    <li><b>Alternancia sin una fuerza dominante.</b> En las seis elecciones generales se impusieron
+    cuatro fuerzas distintas —el Peronismo Federal en 2003, el Kirchnerismo en 2007 y 2011, Cambiemos
+    en 2015 y 2019, y La Libertad Avanza en 2023—, y las diferencias fueron estrechas en 2019
+    (43,4&nbsp;% frente a 42,7&nbsp;%) y en 2023 (32,5&nbsp;% frente a 29,7&nbsp;%).</li>
+    <li><b>De una oferta fragmentada a la competencia entre dos polos y, luego, a un escenario de tres.</b>
+    En 2003 y 2007 el voto se reparte entre varias fuerzas de peso comparable y, en 2011, el Socialismo,
+    de arraigo santafesino, alcanza el 39,1&nbsp;%; sin embargo, cae al 4,0&nbsp;% en 2015 y desaparece en 2019.
+    Entre 2015 y 2019, Cambiemos y el Kirchnerismo reúnen el 67,1&nbsp;% y el 86,1&nbsp;% de los votos, lo cual
+    puede leerse como una competencia organizada en torno a dos coaliciones de alcance nacional,
+    mientras que en 2023 la irrupción de La Libertad Avanza reabre el escenario con tres fuerzas
+    separadas por menos de seis puntos.</li>
+    <li><b>Un territorio heterogéneo en las generales y homogéneo en los balotajes.</b> En las generales
+    los departamentos se reparten entre fuerzas: en 2023, el Kirchnerismo conserva Rosario, Constitución,
+    San Javier y Vera frente a La Libertad Avanza en los otros quince. En los balotajes, en cambio, el
+    polo no kirchnerista gana 18 de los 19 departamentos en 2015 y los 19 en 2023.</li>
+  </ol>
+  <p>El deslizador permite recorrer la serie completa y, <b>al hacer clic sobre un circuito, se despliega
+  su historia entera</b>: la fuerza ganadora y la que obtuvo el segundo lugar en cada una de las doce
+  elecciones.</p>
+  <div class="ctrls">
+    <div class="ctrl"><label>Qué muestra</label>
+      <div class="seg" id="mp-modo" role="group" aria-label="Qué muestra el mapa">
+        <button type="button" data-v="gan" aria-pressed="true">Fuerza ganadora</button>
+        <button type="button" data-v="int" aria-pressed="false">Intensidad por fuerza</button>
+      </div></div>
+    <div class="ctrl" id="mp-fbox" hidden><label for="mp-fuerza">Fuerza</label>
+      <select id="mp-fuerza"></select></div>
+  </div>
+  <div class="tiempo">
+    <label for="mp-t">Elección</label>
+    <input type="range" id="mp-t" min="0" max="11" step="1" value="10">
+    <output id="mp-et"></output>
+  </div>
+  <div class="mapafila">
+    <div class="plot mapa" id="p-mp"><svg id="svg-mp" role="img"
+         aria-label="Mapa del voto por circuito electoral, 2003 a 2023"></svg></div>
+    <div class="legend vert" id="leg-mp"></div>
+  </div>
+  <div class="ficha" id="ficha" hidden></div>
+  <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY). Dado que los circuitos modifican su trazado y su código a lo largo de los veinte años, la ficha histórica vincula cada circuito actual con el que cubría el mismo territorio en cada elección anterior.</p>
+</section>
+
 <section>
   <h2>El voto departamento por departamento</h2>
   <p class="sub">Cartografía · departamentos</p>
@@ -329,10 +337,44 @@ tr.clic:hover td{background:var(--surface-2)}
   </div>
 </section>
 
+<section style="border-bottom:0">
+  <h2>Comparación de las elecciones definitivas 2003 - 2023 en Santa Fe</h2>
+  <p class="sub">Cartografía comparada</p>
+  <p>Se consideran definitivas las instancias que resolvieron la presidencia en cada ciclo: las elecciones generales de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Cada mapa corresponde a una de ellas y, al disponerlos en paralelo, sin deslizador ni animación, lo que se compara es la configuración del territorio y no el momento de la serie.</p>
+  <div class="ctrls">
+    <div class="ctrl"><label>Qué muestra</label>
+      <div class="seg" id="ms-modo" role="group" aria-label="Qué muestran los mapas">
+        <button type="button" data-v="gan" aria-pressed="true">Fuerza ganadora</button>
+        <button type="button" data-v="cal" aria-pressed="false">Cantidad de votos</button>
+      </div></div>
+  </div>
+  <div class="mosaico" id="mosaico"></div>
+  <div class="legend" id="leg-ms"></div>
+  <p class="note" id="nota-ms"></p>
+</section>
+</div>
+
+<div role="tabpanel" id="pan-geo" aria-labelledby="tab-geo" hidden>
+  <p class="contexto">Esta sección reúne las lecturas de detalle sobre la distribución del voto: la serie en cifras, una segunda lectura cartográfica por circuito, los resultados completos de cada instancia y la composición por departamento. Las lecturas cartográficas de conjunto se encuentran en la pestaña «Evolución del voto». Conviene tener presente que los circuitos modifican su trazado y su código entre elecciones, razón por la cual las capas cartográficas se reconstruyen para cada año.</p>
+<section>
+  <h2>Resultados comparados, 2003-2023</h2>
+  <p class="sub">La serie en cifras</p>
+  <p>El punto de partida del análisis es la serie completa: el porcentaje que obtuvo cada fuerza política en cada elección, calculado sobre los votos positivos. Asimismo, se informan la participación sobre el padrón y el peso conjunto del voto en blanco y nulo. Cabe aclarar que los guiones no equivalen a ceros, sino que indican que la fuerza no se presentó en esa instancia.</p>
+  <div class="ctrls">
+    <div class="ctrl"><label for="tb-ambito">Ámbito</label>
+      <select id="tb-ambito"></select></div>
+    <div class="ctrl"><label for="tb-inst">Instancias</label>
+      <div class="seg" id="tb-inst" role="group" aria-label="Instancias">
+        <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
+        <button type="button" data-v="todas" aria-pressed="false">Todas</button>
+      </div></div>
+  </div>
+  <div class="tablewrap"><table id="tabla"></table></div>
+</section>
 <section>
   <h2>El voto circuito por circuito</h2>
   <p class="sub">Cartografía · circuitos</p>
-  <p>La misma serie se presenta en la unidad más desagregada disponible: los circuitos electorales, cuyo número oscila entre 516 y 527 según el año. A esta escala, el departamento se revela internamente heterogéneo, dado que una ciudad y su entorno rural votan de manera diferente aunque compartan departamento; de allí que se plantee, a continuación, la pregunta por las ciudades intermedias.</p>
+  <p>Se presenta aquí, junto a las tablas, la misma serie en la unidad más desagregada disponible: los circuitos electorales, cuyo número oscila entre 516 y 527 según el año. A esta escala, el departamento se revela internamente heterogéneo, dado que una ciudad y su entorno rural votan de manera diferente aunque compartan departamento; de allí que se plantee, a continuación, la pregunta por las ciudades intermedias.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="mc-modo" role="group" aria-label="Qué muestra el mapa">
@@ -353,22 +395,6 @@ tr.clic:hover td{background:var(--surface-2)}
     <div class="legend vert" id="leg-mc"></div>
   </div>
   <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY) y se utiliza con capas reconstruidas por año. Entre el 99,83 % y el 100 % de los votos de cada elección tienen un polígono asignado.</p>
-</section>
-
-<section>
-  <h2>Las seis presidencias, una al lado de la otra</h2>
-  <p class="sub">Comparación entre campañas</p>
-  <p>Cada mapa corresponde a la instancia que definió la presidencia en su ciclo: las elecciones generales de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Al disponerlos en paralelo, sin deslizador ni animación, lo que se compara es la configuración del territorio y no el momento de la serie.</p>
-  <div class="ctrls">
-    <div class="ctrl"><label>Qué muestra</label>
-      <div class="seg" id="ms-modo" role="group" aria-label="Qué muestran los mapas">
-        <button type="button" data-v="gan" aria-pressed="true">Fuerza ganadora</button>
-        <button type="button" data-v="cal" aria-pressed="false">Cantidad de votos</button>
-      </div></div>
-  </div>
-  <div class="mosaico" id="mosaico"></div>
-  <div class="legend" id="leg-ms"></div>
-  <p class="note" id="nota-ms"></p>
 </section>
 
 <section>
@@ -1769,14 +1795,14 @@ EPI_ANCLAS.forEach(([sel,envoltura,fuentes,id])=>{
 });
 /*FICHAS-JS:FIN*/
 /* ---------- pestañas ---------- */
-const PANEL = {datos:"#pan-datos", geo:"#pan-geo", hall:"#pan-hall", ele:"#pan-ele", par:"#pan-par"};
+const PANEL = {datos:"#pan-datos", evo:"#pan-evo", geo:"#pan-geo", hall:"#pan-hall", ele:"#pan-ele", par:"#pan-par"};
 function mostrar(p){
   for(const [k,sel] of Object.entries(PANEL)) $(sel).hidden = (k!==p);
   $("#tabs").querySelectorAll("button").forEach(b=>
     b.setAttribute("aria-selected", b.dataset.p===p));
   $("#bajada").hidden = (p!=="datos");
-  if(p==="datos"){dibujarMapa("mp"); dibujarTabla();}
-  if(p==="geo"){dibujarDeptos();dibujarMapa("dep");dibujarMapa("cir");dibujarMosaico();}
+  if(p==="evo"){dibujarMapa("mp");dibujarMapa("dep");dibujarMosaico();}
+  if(p==="geo"){dibujarTabla();dibujarMapa("cir");dibujarDeptos();}
   if(p==="hall"){dibujarSerie();dibujarVol();dibujarDes();dibujarDispersion();dibujarTramos();}
   if(p==="ele"||p==="par") fichasMostrar(p);
 }
