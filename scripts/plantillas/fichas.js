@@ -141,8 +141,8 @@ function dibujarEleccion(){
   const sinGeo = Object.keys(R.ci[cl]).filter(c=>!M.cap[CAPA(fAnio(cl))].some(g=>g.c===c));
   const vSin = sinGeo.reduce((t,c)=>t+R.ci[cl][c].filter((_,j)=>j%2).reduce((x,y)=>x+y,0),0);
   $("#ele-nota-mapa").textContent = FE.nivel==="cir"&&sinGeo.length
-    ? `${sinGeo.length} circuitos sin polígono en la cartografía (${fmt(vSin)} votos) no se dibujan, pero sí cuentan en departamento y provincia.`
-    : "El recuento es provisorio; el total provincial definitivo de la DINE se muestra en la tabla cuando existe.";
+    ? `${sinGeo.length} circuitos sin polígono en la cartografía (${fmt(vSin)} votos) no se representan en el mapa, aunque sí se computan en el departamento y la provincia.`
+    : "El recuento es provisorio; cuando existe, el total provincial definitivo de la DINE se consigna en la tabla.";
   fOpcionesU("#ele-unidad",FE.u,cl);
   fTablaEle(); fPartEle();
 }
@@ -170,8 +170,8 @@ function fTablaEle(){
   $("#ele-tabla").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k, cl));
   const sd=pt.filter(p=>p.sd);
   $("#ele-nota-tabla").textContent =
-    (sd.length ? `${sd.map(p=>p.n).join(", ")}: solo se cuenta con el total provincial, sin detalle por departamento ni circuito. `:"")+
-    "El porcentaje es sobre votos positivos. Recuento provisorio; la columna definitiva viene de la DINE.";
+    (sd.length ? `${sd.map(p=>p.n).join(", ")}: solo se dispone del total provincial, sin desagregación por departamento ni circuito. `:"")+
+    "El porcentaje se calcula sobre los votos positivos. Se trata del recuento provisorio; la columna definitiva proviene de la DINE.";
 }
 function fPartEle(){
   const cl=FE.clave, a=fUnidad(cl,FE.u), prov=FE.u.t==="prov", def=R.def[cl];
@@ -183,7 +183,7 @@ function fPartEle(){
   if(otros) tiles.push(["Impugnados, recurridos y comando",`${fmt(otros)} · ${fPct(otros,a.vot)}`]);
   $("#ele-part").innerHTML=tiles.map(([l,n])=>`<div><span class="l">${l}</span><span class="n">${n}</span></div>`).join("");
   let nota="Votantes = votos positivos + blancos + nulos"+(otros?" + impugnados, recurridos y comando":"")+
-    ". El porcentaje de blancos y nulos es sobre votantes.";
+    ". El porcentaje de blancos y nulos se calcula sobre el total de votantes.";
   if(prov && def && def.electores){
     const v=def.votantes||((def.positivos||0)+(def.blancos||0)+(def.nulos||0));
     nota+=` Definitivo (DINE): ${fmt(def.electores)} electores, participación ${fPct(v,def.electores)}, `+
@@ -244,7 +244,7 @@ function fVinculos(){
                        `<div class="fte">Fuente del vínculo: ${f}</div></div>`;
   ant.forEach(v=>h+=bt(v[0],v[2],"← Etiqueta anterior:"));
   sig.forEach(v=>h+=bt(v[1],v[2],"Etiqueta siguiente →"));
-  if(h) h+=`<div class="fte">El vínculo es una ayuda para navegar entre nombres: no implica que se trate del mismo partido.</div>`;
+  if(h) h+=`<div class="fte">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</div>`;
   $("#par-vinc").className="vinc"; $("#par-vinc").innerHTML=h;
   $("#par-vinc").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k));
 }
@@ -273,11 +273,11 @@ function fGraficoPar(){
     `${pct?t.toFixed(0)+" %":fmt(t)}</text>`;
   s.forEach((x,i)=>{
     const cx=Mg.l+sl*i+sl/2, e=FEL[x.cl];
-    const col = e.instancia==="GENERAL" ? "var(--navy)" : e.instancia==="PASO" ? tinte("var(--navy)",.5) : "var(--coral)";
+    const col = e.instancia==="GENERAL" ? "var(--navy)" : e.instancia==="PASO" ? tinte("var(--navy)",.5) : "var(--accent)";
     if(x.ap && x.a && !x.sd){
       const v=valor(x), top_=y(v);
       o+=`<rect class="${x.cl===FP.clave?"sel":""}" data-cl="${x.cl}" x="${cx-bw/2}" y="${top_}" width="${bw}" height="${Math.max(1,H-Mg.b-top_)}" fill="${col}" `+
-         `${x.cl===FP.clave?'stroke="var(--coral)" stroke-width="2"':""} style="cursor:pointer"></rect>`+
+         `${x.cl===FP.clave?'stroke="var(--accent)" stroke-width="2"':""} style="cursor:pointer"></rect>`+
          `<text x="${cx}" y="${top_-6}" text-anchor="middle" font-size="10.5" font-weight="700" fill="var(--ink)" font-family="var(--font-d)">`+
          `${pct?v.toFixed(1).replace(".",",")+"":(v>=1000?(v/1000).toFixed(0)+" mil":v)}</text>`;
     } else {
@@ -291,11 +291,11 @@ function fGraficoPar(){
   $("#leg-par-serie").innerHTML=
     `<span class="item"><i class="sw" style="background:var(--navy)"></i>General</span>`+
     `<span class="item"><i class="sw" style="background:${tinte("var(--navy)",.5)}"></i>PASO</span>`+
-    `<span class="item"><i class="sw" style="background:var(--coral)"></i>Balotaje</span>`;
+    `<span class="item"><i class="sw" style="background:var(--accent)"></i>Balotaje</span>`;
   $("#par-nota-serie").textContent =
-    `${fNombreU(FP.u,FP.clave)}. «—» indica que el partido no figura en esa instancia; no es un cero. `+
-    `«s/d» indica que solo hay total provincial. Un clic en una barra elige la elección del mapa.`+
-    (FP.u.t==="cir"?" En circuitos se sigue el territorio de 2023 con el enlace histórico de la cartografía.":"");
+    `${fNombreU(FP.u,FP.clave)}. El guion («—») indica que el partido no figura en esa instancia y no equivale a un cero; `+
+    `«s/d» señala que solo se dispone del total provincial. Un clic en una barra selecciona la elección del mapa.`+
+    (FP.u.t==="cir"?" En los circuitos se sigue el territorio de 2023 mediante el enlace histórico de la cartografía.":"");
 }
 function fTablaPar(){
   const k=FP.key, s=fSerie(k,FP.u);
@@ -311,7 +311,7 @@ function fTablaPar(){
   }
   $("#par-tabla").innerHTML=h+"</tbody>";
   $("#par-tabla").querySelectorAll("tr[data-cl]").forEach(r=>r.onclick=()=>{FP.clave=r.dataset.cl; dibujarPartido();});
-  $("#par-nota-tabla").innerHTML=`Un clic en una fila elige esa elección en el mapa. <button type="button" id="par-ir-ele" style="font:inherit;color:var(--navy);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline">Ver la ficha de ${fEl(FP.clave)} →</button>`;
+  $("#par-nota-tabla").innerHTML=`Un clic en una fila selecciona esa elección en el mapa. <button type="button" id="par-ir-ele" style="font:inherit;color:var(--navy);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline">Ver la ficha de ${fEl(FP.clave)} →</button>`;
   $("#par-ir-ele").onclick=()=>fIrEleccion(FP.clave);
 }
 function fMapaPar(){
@@ -328,15 +328,15 @@ function fMapaPar(){
            `<div class="r"><span>Votos</span><b>${fmt(a.v[i])}</b></div><div class="r"><span>Positivos</span><b>${fmt(a.pos)}</b></div>`,
     clic:kk=>{
       if(FP.nivel==="dep") FP.u={t:"dep",i:+kk};
-      else { const c23=fAC23(kk,cl); if(!c23){ $("#par-nota-mapa").textContent="Este circuito no tiene enlace histórico: no se puede seguir en el tiempo."; return; } FP.u={t:"cir",c:c23}; }
+      else { const c23=fAC23(kk,cl); if(!c23){ $("#par-nota-mapa").textContent="Este circuito carece de enlace histórico, por lo que no es posible seguirlo en el tiempo."; return; } FP.u={t:"cir",c:c23}; }
       dibujarPartido();
     }});
   $("#leg-par").innerHTML= sd ? `<div class="escala"><b>Sin detalle territorial</b></div>` :
     `<div class="escala"><b>${a0.p.n}</b>`+
     [0,.25,.5,.75,1].map(t=>`<span><i style="background:${tinte("var(--navy)",t)}"></i>${(max*t).toFixed(0)} %</span>`).join("")+`</div>`;
   $("#par-nota-mapa").textContent = sd
-    ? "Para esta elección solo se conoce el total provincial del partido."
-    : `${fEl(cl)}. El color va de claro a oscuro según el porcentaje del partido sobre los votos positivos de cada unidad; la escala llega al máximo observado.`;
+    ? "Para esta elección únicamente se conoce el total provincial del partido."
+    : `${fEl(cl)}. El color varía de claro a oscuro según el porcentaje del partido sobre los votos positivos de cada unidad; la escala alcanza el máximo observado.`;
   fTablaDeptosPar(a0, sd);
 }
 function fTablaDeptosPar(a0, sd){

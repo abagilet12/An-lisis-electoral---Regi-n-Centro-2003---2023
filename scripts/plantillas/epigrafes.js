@@ -9,7 +9,7 @@ const EPI_F = {
 function EPI(claves){
   const t=claves.map(k=>EPI_F[k]);
   const l=t.length>1 ? t.slice(0,-1).join(", ")+" y "+t[t.length-1] : t[0];
-  return "Elaboración propia en base a los datos obtenidos en "+l+".";
+  return "Elaboración propia a partir de los datos obtenidos de "+l+".";
 }
 const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"];
 /* [elemento de referencia, contenedor que lo envuelve (o null), fuentes, id opcional]

@@ -1,50 +1,55 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px Arial,Helvetica,sans-serif;background:#fff;color:#111}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html lang="es"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px Arial,Helvetica,sans-serif;background:#fff;color:#010318}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Voto santafesino 2003-2023</title>
 <style>
 :root{
   color-scheme: light;
-  /* Paleta: azul oscuro (títulos), negro (subtítulos y descripciones), coral (énfasis) */
-  --navy:#0b2a5b; --black:#111111; --coral:#d0412b;
-  --ground:#ffffff; --surface:#ffffff; --surface-2:#eef2f8;
-  --line:#d9dee7; --line-strong:#aab4c5;
-  --ink:#111111; --ink-2:#222222; --ink-3:#4a4a4a;
-  --accent:#0b2a5b;
+  /* Paleta única: escala de azules del #010318 al #07169C.
+     Jerarquía: títulos (--navy), subtítulos y texto (--black), énfasis (--accent). */
+  --b0:#010318; --b1:#030944; --b2:#051070; --b3:#07169C;
+  --navy:#030944; --black:#010318; --accent:#07169C;
+  --ground:#ffffff; --surface:#ffffff; --surface-2:#eff1fa;
+  --line:#d6daec; --line-strong:#a9b0d2;
+  --ink:#010318; --ink-2:#010318; --ink-3:#474d7a;
   /* Colores de datos: identifican fuerzas políticas, no se tocan */
   --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
   --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --s8:#e34948;
   --s9:#9a9a92; --s10:#8c2f39; --s11:#0f8b8d; --s12:#6b4f2a;
-  --font-d:Arial,Helvetica,sans-serif;
-  --font-b:Arial,Helvetica,sans-serif;
+  --font-d:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-b:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --m:4mm;                       /* encuadre: 4 mm a cada lado */
 }
 *{box-sizing:border-box}
 body{background:var(--ground);color:var(--ink);font-family:var(--font-b);
-     margin:0;padding-block:0 4rem;line-height:1.6;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+     margin:0;padding-block:0 4rem;line-height:1.68;-webkit-font-smoothing:antialiased}
+.wrap{max-width:none;margin:0;padding-inline:var(--m)}
 h1,h2,h3,.ui{font-family:var(--font-d)}
-h1{font-size:clamp(1.9rem,4.4vw,2.7rem);line-height:1.12;margin:0 0 .7rem;
-    font-weight:700;color:var(--navy);text-wrap:balance}
-h2{font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.2;font-weight:700;color:var(--navy);
-    margin:0 0 .35rem;text-wrap:balance}
-h3{font-size:1.05rem;font-weight:700;color:var(--navy);margin:0 0 .25rem}
-p{margin:0 0 .85rem;max-width:66ch;font-size:.95rem;color:var(--ink-2)}
-p.sub{font-size:1.05rem;font-weight:700;color:var(--black);margin:0 0 .8rem}
-p b,li b,summary b{color:var(--coral);font-weight:700}
-.eyebrow{font-family:var(--font-d);font-size:.72rem;font-weight:700;
-    letter-spacing:.12em;text-transform:uppercase;color:var(--coral);margin-bottom:.7rem}
-header.hero{padding-block:3.2rem 0}
-.lede{font-size:1rem;max-width:66ch;color:var(--ink-2)}
-.volanta{font-family:var(--font-d);font-size:1.1rem;font-weight:700;max-width:64ch;
-    color:var(--black);margin-bottom:1rem}
-.volanta i{font-style:normal;color:var(--coral)}
+h1{font-size:clamp(1.9rem,3.6vw,2.9rem);line-height:1.12;margin:0 0 1rem;
+    font-weight:700;color:#fff;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(1.35rem,2.2vw,1.8rem);line-height:1.2;font-weight:700;color:var(--navy);
+    margin:0 0 .35rem;text-wrap:balance;letter-spacing:-.005em}
+h3{font-size:1.08rem;font-weight:700;color:var(--navy);margin:0 0 .25rem}
+p,li,.note,.epi,.contexto,details p{text-align:justify;text-justify:inter-word;
+    hyphens:auto;-webkit-hyphens:auto}
+p{margin:0 0 .9rem;max-width:none;font-size:1rem;color:var(--ink-2)}
+p.sub{font-size:1.08rem;font-weight:700;color:var(--black);margin:0 0 .9rem}
+p b,li b,summary b{color:var(--accent);font-weight:700}
+.eyebrow{font-family:var(--font-d);font-size:.74rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-bottom:.8rem}
+header.hero{margin-inline:calc(-1 * var(--m));padding:3rem var(--m) 0;color:#fff;
+    background:linear-gradient(135deg,#010318 0%,#030944 52%,#07169C 135%)}
+.lede,.volanta{max-width:none}
+.lede{font-size:1.02rem;color:rgba(255,255,255,.9)}
+.volanta{font-family:var(--font-d);font-size:1.12rem;font-weight:600;color:#fff;margin-bottom:1rem}
+.volanta i{font-style:normal;color:#fff;border-bottom:1px solid rgba(255,255,255,.5)}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
    gap:1px;background:var(--line);border:1px solid var(--line);margin-top:2rem}
 .tile{background:var(--surface);padding:1rem 1.1rem}
 .tile .n{font-family:var(--font-d);font-size:1.75rem;font-weight:700;
-   font-variant-numeric:tabular-nums;display:block;line-height:1.1;color:var(--coral)}
+   font-variant-numeric:tabular-nums;display:block;line-height:1.1;color:var(--accent)}
 .tile .l{font-family:var(--font-d);font-size:.72rem;color:var(--ink-3);
    text-transform:uppercase;letter-spacing:.07em;margin-top:.3rem;display:block}
 section{padding-block:2.6rem;border-bottom:1px solid var(--line)}
-section>h2::before{content:"";display:block;width:3rem;height:3px;background:var(--navy);margin-bottom:.8rem}
+section>h2::before{content:"";display:block;width:3rem;height:3px;background:var(--accent);margin-bottom:.8rem}
 .ctrls{display:flex;flex-wrap:wrap;gap:.7rem;align-items:flex-end;margin:1.2rem 0 1.5rem}
 .ctrl{display:flex;flex-direction:column;gap:.3rem}
 .ctrl label{font-family:var(--font-d);font-size:.7rem;font-weight:600;
@@ -58,7 +63,7 @@ select{min-width:190px}
    background:var(--surface);color:var(--ink-2)}
 .seg button:last-child{border-right:0}
 .seg button[aria-pressed="true"]{background:var(--navy);color:#fff;font-weight:700}
-select:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline-offset:1px}
+select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .plot{background:var(--surface);border:1px solid var(--line);padding:1rem .8rem .6rem;position:relative}
 .plot svg{display:block;width:100%;height:auto;overflow:visible}
 .legend{display:flex;flex-wrap:wrap;gap:.35rem .95rem;margin-top:.9rem;
@@ -69,48 +74,50 @@ select:focus-visible,button:focus-visible{outline:2px solid var(--coral);outline
 .sw{width:11px;height:11px;border-radius:2px;flex:none}
 .tip{position:absolute;pointer-events:none;background:var(--surface);
    border:1px solid var(--line-strong);padding:.5rem .6rem;font-family:var(--font-d);
-   font-size:.78rem;line-height:1.45;box-shadow:0 4px 14px rgba(0,0,0,.13);
+   font-size:.78rem;line-height:1.45;box-shadow:0 4px 14px rgba(1,3,24,.16);
    border-radius:3px;z-index:5;min-width:160px}
 .tip .th{font-weight:700;margin-bottom:.3rem;color:var(--navy)}
 .tip .r{display:flex;justify-content:space-between;gap:.9rem;color:var(--ink-2)}
 .tip .r b{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:500}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
-.note{font-size:.84rem;color:var(--ink-3);max-width:70ch;margin-top:.9rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem}
+.note{font-size:.86rem;color:var(--ink-3);max-width:none;margin-top:.9rem}
 .tablewrap{overflow-x:auto;margin-top:1.1rem;border:1px solid var(--line);background:var(--surface)}
-table{border-collapse:collapse;width:100%;font-family:var(--font-d);font-size:.8rem}
-th,td{padding:.42rem .65rem;text-align:right;border-bottom:1px solid var(--line);
+table{border-collapse:collapse;width:100%;font-family:var(--font-d);font-size:.82rem}
+th,td{padding:.45rem .7rem;text-align:right;border-bottom:1px solid var(--line);
    font-variant-numeric:tabular-nums;white-space:nowrap}
 th:first-child,td:first-child{text-align:left;font-variant-numeric:normal}
 thead th{position:sticky;top:0;background:var(--navy);font-weight:700;
     color:#fff;font-size:.73rem;text-transform:uppercase;letter-spacing:.05em}
 tbody tr:last-child td{border-bottom:0}
 details{border:1px solid var(--line);background:var(--surface);padding:.85rem 1rem;margin-top:1rem}
-summary{font-family:var(--font-d);font-weight:700;font-size:.95rem;color:var(--navy);cursor:pointer}
-details p{margin-top:.7rem;font-size:.9rem}
-.src{font-size:.8rem;color:var(--ink-3)}
-.src b{color:var(--coral);font-weight:700}
+summary{font-family:var(--font-d);font-weight:700;font-size:.98rem;color:var(--navy);cursor:pointer}
+details p{margin-top:.7rem;font-size:.95rem}
+.src{font-size:.85rem;color:var(--ink-3)}
+.src b{color:var(--accent);font-weight:700}
 
 .creditos{display:flex;flex-wrap:wrap;gap:.2rem 1.6rem;margin-top:1.1rem;
-   font-family:var(--font-d);font-size:.78rem;color:var(--ink-3)}
-.creditos b{font-weight:700;color:var(--navy)}
-.tabs{display:flex;flex-wrap:wrap;gap:0 1.6rem;border-bottom:1px solid var(--line);
-   margin-top:1.7rem;padding-inline:0}
-.tabs button{font-family:var(--font-d);font-size:.95rem;font-weight:700;color:var(--ink-3);
+   font-family:var(--font-d);font-size:.8rem;color:rgba(255,255,255,.78)}
+.creditos b{font-weight:700;color:#fff}
+.tabs{display:flex;flex-wrap:wrap;gap:0 1.8rem;border-bottom:1px solid rgba(255,255,255,.25);
+   margin-top:1.9rem;padding-inline:0}
+.tabs button{font-family:var(--font-d);font-size:.95rem;font-weight:700;color:rgba(255,255,255,.7);
     background:none;border:0;border-bottom:3px solid transparent;border-radius:0;
-   padding:.62rem .1rem;margin-bottom:-1px;cursor:pointer;white-space:nowrap}
-.tabs button:hover{color:var(--navy)}
-.tabs button[aria-selected="true"]{color:var(--navy);border-bottom-color:var(--coral)}
-.contexto{font-size:.95rem;color:var(--ink-2);max-width:66ch;
-   border-left:3px solid var(--coral);padding-left:.9rem;margin:1.9rem 0 0}
+   padding:.7rem .1rem;margin-bottom:-1px;cursor:pointer;white-space:nowrap}
+.tabs button:hover{color:#fff}
+.tabs button[aria-selected="true"]{color:#fff;border-bottom-color:#fff}
+.tabs button:focus-visible{outline-color:#fff}
+.contexto{font-size:1rem;color:var(--ink-2);max-width:none;background:var(--surface-2);
+   border-left:3px solid var(--accent);padding:.9rem 1.1rem;margin:1.9rem 0 0}
+.contexto b{color:var(--accent)}
 .tiempo{display:flex;align-items:center;gap:.8rem;margin:.2rem 0 1.2rem;flex-wrap:wrap}
 .tiempo label{font-family:var(--font-d);font-size:.7rem;font-weight:600;
    letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
-.tiempo input[type=range]{flex:1;min-width:200px;max-width:520px;accent-color:var(--accent)}
+.tiempo input[type=range]{flex:1;min-width:200px;max-width:none;accent-color:var(--accent)}
 .tiempo output{font-family:var(--font-d);font-size:.9rem;font-weight:700;color:var(--navy);
     min-width:9.5em}
-.mapafila{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:1.2rem;align-items:start}
+.mapafila{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:1.4rem;align-items:start}
 .mapa{padding:.7rem}
-.mapa svg{display:block;width:100%;height:min(74vh,660px);margin:0 auto}
+.mapa svg{display:block;width:100%;height:min(78vh,720px);margin:0 auto}
 .legend.vert{flex-direction:column;align-items:flex-start;gap:.34rem;margin-top:.3rem}
 .legend .item{display:flex;align-items:center;gap:.4rem;color:var(--ink-2)}
 .legend .sw{display:inline-block}
@@ -155,33 +162,33 @@ tfoot td{font-weight:700;color:var(--navy);background:var(--surface-2);border-to
 
 .barra{background:var(--surface);border:1px solid var(--line);padding:1rem 1.1rem;
    margin-top:1.6rem}
-.barra .note{max-width:70ch}
+.barra .note{max-width:none}
 
-.objetivos{margin:1rem 0 0;padding-left:1.1rem;max-width:66ch}
-.objetivos li{margin-bottom:.45rem;font-size:.95rem;color:var(--ink-2)}
+.objetivos{margin:1rem 0 0;padding-left:1.3rem;max-width:none}
+.objetivos li{margin-bottom:.45rem;font-size:1rem;color:var(--ink-2)}
 [role="tabpanel"] section:first-of-type{padding-top:1.9rem}
 @media (max-width:760px){ .grid2{grid-template-columns:1fr} }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 /*FICHAS-CSS:INI*/
 /* ===== Pestañas «Elecciones» y «Partidos» ===== */
 .fcab{display:flex;flex-wrap:wrap;gap:.35rem 1.6rem;margin:0 0 1.1rem;padding:.8rem 1rem;
-  border-left:3px solid var(--coral);background:var(--surface-2);font-family:var(--font-d);font-size:.9rem;color:var(--ink)}
+  border-left:3px solid var(--accent);background:var(--surface-2);font-family:var(--font-d);font-size:.9rem;color:var(--ink)}
 .fcab b{color:var(--navy)}
-.fcab .g{color:var(--coral);font-weight:700}
+.fcab .g{color:var(--accent);font-weight:700}
 .fbar{display:inline-block;height:9px;background:var(--navy);border-radius:1px;vertical-align:middle;min-width:1px}
 td.nom,th.nom{text-align:left;white-space:normal;min-width:15rem}
 td.nom button,.vinc button{font:inherit;font-family:var(--font-d);color:var(--navy);background:none;border:0;
-  padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--coral);
+  padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--accent);
   text-underline-offset:3px}
-td.nom button:hover,.vinc button:hover{color:var(--coral)}
+td.nom button:hover,.vinc button:hover{color:var(--accent)}
 .vinc{font-family:var(--font-d);font-size:.88rem;margin:0 0 1rem;display:flex;flex-direction:column;gap:.35rem}
-.vinc .fte{font-size:.78rem;color:var(--ink-3);max-width:74ch}
+.vinc .fte{font-size:.78rem;color:var(--ink-3);max-width:none}
 tr.ausente td{color:var(--ink-3)}
 tr.sel td{background:var(--surface-2);font-weight:700}
 tr.clic{cursor:pointer}
 tr.clic:hover td{background:var(--surface-2)}
-.pista.sel{stroke:var(--coral)!important;stroke-width:2.2!important}
-.epi{font-family:var(--font-d);font-size:.76rem;font-style:italic;color:var(--ink-3);
+.pista.sel{stroke:var(--accent)!important;stroke-width:2.2!important}
+.epi{font-family:var(--font-d);font-size:.78rem;font-style:italic;color:var(--ink-3);
   max-width:none;margin:.55rem 0 0;line-height:1.45}
 /*FICHAS-CSS:FIN*/
 </style>
@@ -190,16 +197,8 @@ tr.clic:hover td{background:var(--surface-2)}
 <header class="hero">
   <div class="eyebrow">CAI+D · IHUCSO Litoral · UNL</div>
   <h1>Evolución del voto en la provincia de Santa Fe entre 2003 y 2023</h1>
-  <p class="volanta">En el marco del CAI+D <i>«Actores, liderazgos y prácticas políticas en la Región Centro»</i>. Nuestro objetivo es analizar la evolución del voto en la categoría electoral presidente en la provincia de Santa Fe entre 2003 y 2023.</p>
-  <p class="lede" id="bajada">El proceso de transición y consolidación democrática en
-  Argentina supuso un sistema político integrado con un alto grado de nacionalización.
-  Sin embargo, se observa que no todos los actores político-partidarios sostienen una
-  estructura multinivel en las provincias. En términos electorales, la región Centro
-  equivale aproximadamente a un cuarto del padrón electoral nacional. A través del
-  análisis comparado, nuestro objetivo es analizar la performance electoral para la
-  categoría electiva presidente en la provincia de Santa Fe entre 2003 y 2023. El
-  período se corresponde con la totalidad de elecciones presidenciales en el s.&nbsp;XXI,
-  lo cual cobra relevancia en el estudio social y político de la democracia argentina.</p>
+  <p class="volanta">El presente tablero se inscribe en el CAI+D <i>«Actores, liderazgos y prácticas políticas en la Región Centro»</i> y examina la evolución del voto para la categoría presidente en la provincia de Santa Fe entre 2003 y 2023.</p>
+  <p class="lede" id="bajada">El proceso de transición y consolidación democrática en la Argentina dio lugar a un sistema político con un elevado grado de nacionalización. No obstante, no todos los actores político-partidarios sostienen una estructura multinivel en las provincias. En términos electorales, la región Centro concentra aproximadamente una cuarta parte del padrón nacional, lo cual otorga especial relevancia a su estudio. En este marco, el análisis comparado de la performance electoral para la categoría presidente en la provincia de Santa Fe entre 2003 y 2023 resulta pertinente, puesto que el período se corresponde con la totalidad de las elecciones presidenciales del siglo&nbsp;XXI y, por ello, cobra relevancia para el estudio social y político de la democracia argentina.</p>
   <p class="creditos"><span><b>Directores CAI+D:</b> Dr. Obradovich, Gabriel · Dr. Morresi, Sergio</span><span><b>Estudiante:</b> Bagilet, Agustín (UNL — FHUC)</span></p>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Secciones del análisis">
     <button type="button" role="tab" id="tab-datos" aria-controls="pan-datos"
@@ -219,29 +218,20 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Objetivos</h2>
   <p class="sub">El proyecto</p>
-  <p>Esta entrega forma parte de la práctica de investigación radicada en el IHUCSO
-  Litoral, dentro del grupo «Actores, liderazgos y prácticas políticas en la Región
-  Centro. La reconfiguración de un ethos socio político en democracia». Los objetivos
-  que la orientan son cinco.</p>
+  <p>Esta entrega forma parte de la práctica de investigación radicada en el IHUCSO Litoral, en el marco del grupo «Actores, liderazgos y prácticas políticas en la Región Centro. La reconfiguración de un ethos socio político en democracia». En este sentido, se persiguen cinco objetivos.</p>
   <ol class="objetivos">
-    <li>Confeccionar una base de datos con los resultados electorales de la provincia
-    de Santa Fe.</li>
-    <li>Visualizar, a través de gráficos con mapas electorales y tablas, los resultados
-    obtenidos para cada localidad y departamento de la provincia.</li>
-    <li>Indagar la evolución del voto en el período analizado.</li>
-    <li>Analizar las particularidades que presenta la evolución del voto para dicho
-    período en esta región.</li>
-    <li>Elaborar una ponencia y/o trabajo escrito a partir de los resultados obtenidos
-    durante la práctica de investigación.</li>
+    <li>Construir una base de datos con los resultados electorales de la provincia de Santa Fe.</li>
+    <li>Visualizar, mediante mapas electorales, gráficos y tablas, los resultados correspondientes a cada localidad y departamento de la provincia.</li>
+    <li>Indagar la evolución del voto a lo largo del período analizado.</li>
+    <li>Examinar las particularidades que presenta dicha evolución en la región.</li>
+    <li>Elaborar una ponencia y/o trabajo escrito a partir de los resultados obtenidos durante la práctica de investigación.</li>
   </ol>
 </section>
 
 <section>
   <h2>Resultados comparados, 2003-2023</h2>
   <p class="sub">La serie en cifras</p>
-  <p>El punto de partida: cada fuerza política en cada elección, como porcentaje de los
-  votos positivos. Debajo, la participación sobre el padrón y el peso conjunto del voto
-  en blanco y nulo. Los guiones no son ceros: señalan que esa fuerza no se presentó.</p>
+  <p>El punto de partida del análisis es la serie completa: el porcentaje que obtuvo cada fuerza política en cada elección, calculado sobre los votos positivos. Asimismo, se informan la participación sobre el padrón y el peso conjunto del voto en blanco y nulo. Cabe aclarar que los guiones no equivalen a ceros, sino que indican que la fuerza no se presentó en esa instancia.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="tb-ambito">Ámbito</label>
       <select id="tb-ambito"></select></div>
@@ -257,10 +247,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Veinte años de voto, circuito por circuito</h2>
   <p class="sub">El mapa de la serie</p>
-  <p>Las doce instancias presidenciales sobre los circuitos electorales de la provincia,
-  la unidad más fina que publican los organismos electorales. Moviendo el deslizador
-  se recorre la serie completa; <b>al hacer clic sobre un circuito se abre su historia
-  entera</b>: quién ganó y quién salió segundo en cada una de las doce elecciones.</p>
+  <p>Las doce instancias presidenciales se representan sobre los circuitos electorales de la provincia, que constituyen la unidad más desagregada que publican los organismos electorales. El deslizador permite recorrer la serie completa y, <b>al hacer clic sobre un circuito, se despliega su historia entera</b>: la fuerza ganadora y la que obtuvo el segundo lugar en cada una de las doce elecciones.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="mp-modo" role="group" aria-label="Qué muestra el mapa">
@@ -281,79 +268,45 @@ tr.clic:hover td{background:var(--surface-2)}
     <div class="legend vert" id="leg-mp"></div>
   </div>
   <div class="ficha" id="ficha" hidden></div>
-  <p class="note">Cartografía de circuitos de Franco Galeano, licencia CC&nbsp;BY.
-  Los circuitos cambian de trazado y de código a lo largo de los veinte años: la ficha
-  histórica enlaza cada circuito actual con el que cubría ese mismo territorio en cada
-  elección anterior.</p>
+  <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY). Dado que los circuitos modifican su trazado y su código a lo largo de los veinte años, la ficha histórica vincula cada circuito actual con el que cubría el mismo territorio en cada elección anterior.</p>
 </section>
 
 <section>
   <h2>Recolección y procesamiento de los datos</h2>
   <p class="sub">Construcción de la base</p>
-  <p>La base reúne las <b>doce instancias presidenciales</b> celebradas entre 2003 y 2023
-  —generales, PASO y balotajes—, siempre para la categoría Presidente y Vice. El dato
-  de origen llega en formatos distintos según el año, así que el trabajo consistió
-  menos en recolectar que en <b>volver comparables</b> series que no nacieron para serlo.</p>
-  <p>Los resultados se agregan por niveles sucesivos: de la mesa al circuito, del
-  circuito al departamento y del departamento a la provincia. El circuito es la unidad
-  mínima con identidad territorial estable, y sobre ella se apoya el cruce con la
-  cartografía. La cobertura supera el <b>99,8 % de los votos mapeables</b> en las doce
-  instancias.</p>
-  <p>El problema central no es la suma sino la <b>identidad de las fuerzas</b>. Las
-  <b>82 etiquetas partidarias</b> que aparecen a lo largo de la serie se reducen a
-  <b>52 fuerzas</b> y se agrupan en <b>fuerzas políticas</b> según continuidad,
-  porque ninguna etiqueta sobrevive intacta a los veinte años. Ese agrupamiento es una
-  decisión de investigación declarada, no un dato: está documentada y es revisable.</p>
-  <p>El resultado se publica como <b>un archivo por elección</b>, con cinco hojas cada uno:
-  un resumen de totales, los resultados por circuito en formato ancho y en formato largo,
-  el nomenclador para cruzar con la capa geográfica, y una hoja de metadatos donde cada
-  archivo declara su propia procedencia, sus controles y sus advertencias.</p>
+  <p>La base reúne las <b>doce instancias presidenciales</b> celebradas entre 2003 y 2023 —generales, PASO y balotajes—, siempre para la categoría Presidente y Vice. Dado que los datos de origen se presentan en formatos diferentes según el año, el trabajo consistió menos en recolectar información que en <b>volver comparables</b> series que no fueron concebidas para serlo.</p>
+  <p>Los resultados se agregan por niveles sucesivos: de la mesa al circuito, del circuito al departamento y, finalmente, del departamento a la provincia. El circuito constituye la unidad mínima con identidad territorial estable y, por ello, sobre él se apoya el cruce con la cartografía. En consecuencia, la cobertura supera el <b>99,8 % de los votos mapeables</b> en las doce instancias.</p>
+  <p>El problema central, sin embargo, no radica en la suma sino en la <b>identidad de las fuerzas</b>. Las <b>82 etiquetas partidarias</b> que aparecen a lo largo de la serie se reducen a <b>52 fuerzas</b>, que a su vez se agrupan en <b>fuerzas políticas</b> según su continuidad, puesto que ninguna etiqueta se mantiene intacta durante veinte años. Cabe señalar que este agrupamiento constituye una decisión de investigación explícita y no un dato dado: se encuentra documentado y es susceptible de revisión.</p>
+  <p>El resultado se publica en <b>un archivo por elección</b>, cada uno con cinco hojas: un resumen de totales, los resultados por circuito en formato ancho y en formato largo, el nomenclador para el cruce con la capa geográfica y una hoja de metadatos en la que cada archivo declara su procedencia, sus controles y sus advertencias.</p>
 </section>
 
 <section style="border-bottom:0">
   <h2>Advertencias y fuentes</h2>
-  <p class="sub">Cómo leer esto</p>
+  <p class="sub">Criterios para la lectura</p>
 
-  <details open><summary>Los datos son del recuento provisorio</summary>
-    <p>El escrutinio definitivo no está publicado de forma desagregada: a más de tres
-    años de las elecciones de 2023, los organismos responsables solo lo difunden como
-    total provincial. Para trabajar por circuito o departamento no hay alternativa.
-    La diferencia entre ambos recuentos ronda el 2 % y <b>su signo no es constante</b>:
-    en 2023 el provisorio queda por debajo del definitivo y en 2003 por encima, así que
-    no se corrige con un factor.</p></details>
+  <details open><summary>Los datos corresponden al recuento provisorio</summary>
+    <p>El escrutinio definitivo no se encuentra publicado de forma desagregada: a más de tres años de las elecciones de 2023, los organismos responsables únicamente lo difunden como total provincial. Por consiguiente, el trabajo por circuito o departamento solo puede realizarse con el recuento provisorio. La diferencia entre ambos recuentos ronda el 2 % y <b>su signo no es constante</b>: en 2023 el provisorio resulta inferior al definitivo, mientras que en 2003 lo supera, razón por la cual no puede corregirse mediante un factor.</p></details>
 
-  <details><summary>Qué significa «fuerza política»</summary>
-    <p>Las 82 etiquetas partidarias de la serie se reducen a 52 fuerzas y se agrupan en
-    familias políticas por continuidad; en los gráficos aparecen como «fuerzas». Las decisiones discutibles están declaradas: si
-    el Frente para la Victoria, el Frente de Todos y Unión por la Patria son la misma
-    corriente; si La Libertad Avanza hereda de Unite o es irrupción pura; y qué hacer
-    con el socialismo santafesino, que pasa del 39 % en 2011 a desaparecer.</p></details>
+  <details><summary>Qué se entiende por «fuerza política»</summary>
+    <p>Las 82 etiquetas partidarias de la serie se reducen a 52 fuerzas, que se agrupan en familias políticas según su continuidad; en los gráficos aparecen como «fuerzas». Esta decisión se vincula con la noción de etiqueta focal, entendida como mecanismo de coordinación de votantes y élites entre distritos (Escolar, 2011, p.&nbsp;285, n.&nbsp;38, a partir de Cox). Las decisiones discutibles se declaran de manera explícita: si el Frente para la Victoria, el Frente de Todos y Unión por la Patria constituyen una misma corriente; si La Libertad Avanza hereda de Unite o es una irrupción plena; y qué tratamiento corresponde al socialismo santafesino, que pasa del 39 % en 2011 a desaparecer.</p></details>
 
-  <details><summary>Las PASO no se comparan con las generales</summary>
-    <p>La oferta es más fragmentada y el voto se reparte entre listas internas. Por eso
-    el gráfico principal abre con «solo generales». Al activar «todas», las PASO y los
-    balotajes aparecen intercalados y la serie deja de ser homogénea.</p></details>
+  <details><summary>Las PASO no son comparables con las generales</summary>
+    <p>La oferta de las PASO se encuentra más fragmentada y el voto se distribuye entre listas internas. Por este motivo, el gráfico principal se presenta, en primera instancia, con la opción «solo generales». Al activar «todas», las PASO y los balotajes se intercalan en la serie, que deja así de ser homogénea.</p></details>
 
   <details><summary>Fuentes</summary>
-    <p class="src"><b>2003-2019:</b> escrutinios provisorios de PoliticaArgentina/data_warehouse,
-    originados en el Atlas Electoral de Andy Tow.<br>
-    <b>2023:</b> archivos por mesa de la Dirección Nacional Electoral, del portal de
-    datos abiertos.<br>
-    <b>Control a nivel provincial:</b> Consulta de Escrutinio por Zona de la Justicia
-    Nacional Electoral, escrutinio definitivo.<br>
+    <p class="src"><b>2003-2019:</b> escrutinios provisorios de PoliticaArgentina/data_warehouse, cuyo origen es el Atlas Electoral de Andy Tow.<br>
+    <b>2023:</b> archivos por mesa de la Dirección Nacional Electoral, del portal de datos abiertos.<br>
+    <b>Control a nivel provincial:</b> Consulta de Escrutinio por Zona de la Justicia Nacional Electoral, escrutinio definitivo.<br>
     <b>Cartografía de circuitos:</b> Franco Galeano, licencia CC BY.</p></details>
 </section>
 </div>
 
 <div role="tabpanel" id="pan-geo" aria-labelledby="tab-geo" hidden>
-  <p class="contexto">Qué hace falta saber para leer esta sección: pendiente de redacción.</p>
+  <p class="contexto">Esta sección presenta la distribución territorial del voto en dos escalas: el departamento y el circuito electoral. Cada mapa admite dos lecturas. La primera muestra la <b>fuerza ganadora</b>, que permite identificar cómo se reparte el poder territorial; la segunda representa la <b>intensidad del voto</b> de una fuerza elegida, que revela avances y retrocesos que el criterio del ganador oculta. Conviene tener presente, además, que los circuitos modifican su trazado y su código entre elecciones, razón por la cual las capas cartográficas se reconstruyen para cada año.</p>
 <section>
   <h2>El voto departamento por departamento</h2>
   <p class="sub">Cartografía · departamentos</p>
-  <p>Los 19 departamentos de la provincia, elección por elección. El mapa abre
-  mostrando qué fuerza salió primera en cada uno; el segundo modo pinta la
-  intensidad de una fuerza elegida, que es lo que permite ver un avance o un
-  retroceso territorial que el ganador esconde.</p>
+  <p>Los 19 departamentos de la provincia se representan elección por elección. El mapa se abre con la fuerza que obtuvo el primer lugar en cada uno; el segundo modo, en cambio, colorea la intensidad del voto de la fuerza seleccionada, lo que permite apreciar avances o retrocesos territoriales que el criterio del ganador no deja ver.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="md-modo" role="group" aria-label="Qué muestra el mapa">
@@ -378,10 +331,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>El voto circuito por circuito</h2>
   <p class="sub">Cartografía · circuitos</p>
-  <p>La misma serie en la unidad más fina disponible: los circuitos electorales,
-  entre 516 y 527 según el año. A esta escala el departamento se revela internamente
-  heterogéneo —una ciudad y su campo circundante votan distinto aunque compartan
-  departamento—, y ahí empieza la pregunta por las ciudades intermedias.</p>
+  <p>La misma serie se presenta en la unidad más desagregada disponible: los circuitos electorales, cuyo número oscila entre 516 y 527 según el año. A esta escala, el departamento se revela internamente heterogéneo, dado que una ciudad y su entorno rural votan de manera diferente aunque compartan departamento; de allí que se plantee, a continuación, la pregunta por las ciudades intermedias.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="mc-modo" role="group" aria-label="Qué muestra el mapa">
@@ -401,18 +351,13 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Mapa del voto por circuito electoral"></svg></div>
     <div class="legend vert" id="leg-mc"></div>
   </div>
-  <p class="note">Cartografía de circuitos de Franco Galeano, licencia CC&nbsp;BY, con
-  capas reconstruidas por año. Entre el 99,83 % y el 100 % de los votos de cada
-  elección tienen polígono asignado.</p>
+  <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY) y se utiliza con capas reconstruidas por año. Entre el 99,83 % y el 100 % de los votos de cada elección tienen un polígono asignado.</p>
 </section>
 
 <section>
   <h2>Las seis presidencias, una al lado de la otra</h2>
   <p class="sub">Comparación entre campañas</p>
-  <p>Cada mapa es la instancia que definió la presidencia de ese ciclo: las generales
-  de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Sin deslizador y sin
-  animación: puestos en paralelo, lo que se compara es la forma del territorio, no el
-  momento.</p>
+  <p>Cada mapa corresponde a la instancia que definió la presidencia en su ciclo: las elecciones generales de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Al disponerlos en paralelo, sin deslizador ni animación, lo que se compara es la configuración del territorio y no el momento de la serie.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="ms-modo" role="group" aria-label="Qué muestran los mapas">
@@ -427,12 +372,8 @@ tr.clic:hover td{background:var(--surface-2)}
 
 <section>
   <h2>Tabla por elección</h2>
-  <p class="sub">Resultados completos</p>
-  <p>Los resultados provinciales de cada instancia con el criterio de publicación de
-  los organismos electorales. Los tres denominadores no son intercambiables: sobre
-  <b>positivos</b> se comparan las fuerzas entre sí, sobre <b>válidos</b> se incorpora
-  el voto en blanco como opción política, y sobre <b>emitidos</b> se mide qué porción
-  del acto electoral se llevó cada cosa.</p>
+  <p class="sub">Resultados completos por instancia</p>
+  <p>Se presentan los resultados provinciales de cada instancia conforme al criterio de publicación de los organismos electorales. Cabe advertir que los tres denominadores no son intercambiables: los votos <b>positivos</b> permiten comparar las fuerzas entre sí; los <b>válidos</b> incorporan el voto en blanco como opción política; y los <b>emitidos</b> miden qué proporción del acto electoral corresponde a cada categoría.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="t-eleccion">Elección</label>
       <select id="t-eleccion"></select></div>
@@ -444,8 +385,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Composición por departamento</h2>
   <p class="sub">Distribución del electorado</p>
-  <p>Los 19 departamentos ordenados por padrón. Una barra por departamento muestra
-  cómo se reparte su voto positivo en la elección elegida.</p>
+  <p>Los 19 departamentos se ordenan por padrón. Cada barra muestra cómo se distribuye el voto positivo del departamento en la elección seleccionada.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="f-eleccion">Elección</label>
       <select id="f-eleccion"></select></div>
@@ -465,7 +405,7 @@ tr.clic:hover td{background:var(--surface-2)}
 </div>
 
 <div role="tabpanel" id="pan-hall" aria-labelledby="tab-hall" hidden>
-  <p class="contexto">Qué hace falta saber para leer esta sección: pendiente de redacción.</p>
+  <p class="contexto">Esta sección reúne indicadores sintéticos de la serie: la evolución de las fuerzas, la volatilidad, la desafección y la relación entre el voto y el tamaño del lugar. Para interpretarlos conviene recordar que, hasta la crisis de 2001, el electorado se dividía en dos coaliciones no ideológicas, el peronismo y el no peronismo liderado por la UCR, y que en 2003 ambos presentaron tres candidatos cada uno (Murillo y Oliveros, 2024, p.&nbsp;170). Por lo tanto, la serie que aquí se analiza comienza en un escenario de oferta fragmentada dentro de ambos polos.</p>
   <div class="barra">
     <div class="ctrls" style="margin:0">
       <div class="ctrl"><label for="f-ambito">Ámbito</label>
@@ -481,8 +421,7 @@ tr.clic:hover td{background:var(--surface-2)}
           <button type="button" data-v="abs" aria-pressed="false">Votos</button>
         </div></div>
     </div>
-    <p class="note" style="margin-top:.7rem">Estos tres controles gobiernan los
-    indicadores de toda la pestaña, para que las lecturas sean comparables entre sí.</p>
+    <p class="note" style="margin-top:.7rem">Estos tres controles gobiernan los indicadores de toda la pestaña, a fin de que las lecturas resulten comparables entre sí.</p>
   </div>
 <section>
   <h2>El corpus en cifras</h2>
@@ -492,10 +431,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Evolución de las fuerzas políticas</h2>
   <p class="sub">Serie principal</p>
-  <p>Porcentaje sobre votos positivos. Las etiquetas partidarias cambian en cada
-  elección —Frente para la Victoria, Frente de Todos, Unión por la Patria—, así que
-  se agrupan en fuerzas según su continuidad política. Ese criterio es una decisión
-  de investigación, no un dato: está documentado y es editable.</p>
+  <p>Se expresa el porcentaje sobre los votos positivos. Dado que las etiquetas partidarias cambian en cada elección —Frente para la Victoria, Frente de Todos, Unión por la Patria—, se las agrupa en fuerzas según su continuidad política. Este criterio constituye una decisión de investigación y no un dato: se encuentra documentado y es editable.</p>
 
   <div class="plot" id="p-serie">
     <svg id="svg-serie" viewBox="0 0 900 400" role="img"
@@ -511,13 +447,8 @@ tr.clic:hover td{background:var(--surface-2)}
   <div class="grid2">
     <div>
       <h3>Volatilidad electoral</h3>
-      <p class="note" style="margin-top:.2rem">Índice de Pedersen entre generales
-      consecutivas: la mitad de la suma de los cambios en puntos de cada fuerza.
-      Cuánto se reacomodó el electorado de una elección a la siguiente.</p>
-      <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre
-      entre generales consecutivas, aunque el selector esté en «todas»: medir una PASO
-      contra su general no informa sobre el reacomodamiento del electorado sino sobre
-      la distancia entre la interna y la elección definitiva.</p>
+      <p class="note" style="margin-top:.2rem">El índice de Pedersen entre elecciones generales consecutivas equivale a la mitad de la suma de los cambios, en puntos porcentuales, de cada fuerza; mide, por lo tanto, cuánto se reacomodó el electorado de una elección a la siguiente.</p>
+      <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector se encuentre en «todas»: comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
       <div class="plot" id="p-vol" style="margin-top:.8rem">
         <svg id="svg-vol" viewBox="0 0 440 260" role="img"
              aria-label="Volatilidad entre elecciones generales"></svg>
@@ -525,10 +456,7 @@ tr.clic:hover td{background:var(--surface-2)}
     </div>
     <div>
       <h3>Desafección</h3>
-      <p class="note" style="margin-top:.2rem">Participación sobre el padrón, y blanco
-      y nulo por separado sobre el total de votantes: el blanco es una decisión política
-      declarada y el nulo mezcla protesta con error material. Dos escalas distintas,
-      porque una sola aplastaría las series de abajo.</p>
+      <p class="note" style="margin-top:.2rem">Se informa la participación sobre el padrón y, por separado, el voto en blanco y el nulo sobre el total de votantes, dado que el blanco constituye una decisión política declarada, mientras que el nulo combina protesta y error material. Se utilizan dos escalas distintas, pues una sola comprimiría las series de menor magnitud.</p>
       <div class="plot" id="p-des" style="margin-top:.8rem">
         <svg id="svg-des" viewBox="0 0 440 300" role="img"
              aria-label="Participación, votos en blanco y votos nulos"></svg>
@@ -540,10 +468,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>El voto según el tamaño del lugar</h2>
   <p class="sub">Escala y comportamiento</p>
-  <p>Los circuitos agrupados en cuatro tramos por su padrón: el campo y los parajes,
-  los pueblos, las ciudades intermedias y las grandes ciudades. Cada línea sigue a una
-  fuerza en un tipo de lugar. Cuando las cuatro líneas se separan hay un gradiente
-  territorial; cuando se juntan, la escala del lugar dejó de ordenar el voto.</p>
+  <p>Los circuitos se agrupan en cuatro tramos según su padrón: el campo y los parajes, los pueblos, las ciudades intermedias y las grandes ciudades. Cada línea sigue a una fuerza en un tipo de lugar. Cuando las cuatro líneas se separan, se evidencia un gradiente territorial; cuando convergen, la escala del lugar deja de ordenar el voto.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="tr-fuerza">Fuerza</label>
       <select id="tr-fuerza"></select></div>
@@ -559,10 +484,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Tamaño del circuito y voto</h2>
   <p class="sub">Escala y comportamiento</p>
-  <p>Cada punto es un circuito electoral: en el eje horizontal su padrón, en escala
-  logarítmica porque entre el circuito más chico y el más grande hay tres órdenes de
-  magnitud; en el vertical, el porcentaje que obtuvo allí la fuerza elegida. Si el
-  voto a una fuerza depende del tamaño del lugar donde se emite, la nube se inclina.</p>
+  <p>Cada punto representa un circuito electoral: el eje horizontal muestra su padrón, en escala logarítmica, dado que entre el circuito más pequeño y el más grande existen tres órdenes de magnitud; el eje vertical, el porcentaje que obtuvo allí la fuerza elegida. Si el voto a una fuerza depende del tamaño del lugar donde se emite, la nube de puntos se inclina.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="d-eleccion">Elección</label>
       <select id="d-eleccion"></select></div>
@@ -581,9 +503,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Ficha de una elección</h2>
   <p class="sub">Resultado de cada partido, territorio por territorio</p>
-  <p>Elegí una elección y una unidad territorial. El mapa se puede ver por departamento o por
-  circuito, y <b>un clic sobre el mapa selecciona esa unidad</b>. Cada partido figura con el
-  nombre oficial que tuvo en esa elección.</p>
+  <p>Se selecciona una elección y una unidad territorial. El mapa puede observarse por departamento o por circuito, y <b>un clic sobre él selecciona la unidad correspondiente</b>. Cada partido figura con el nombre oficial que tuvo en esa elección.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="ele-sel">Elección</label><select id="ele-sel"></select></div>
     <div class="ctrl"><label for="ele-unidad">Unidad</label><select id="ele-unidad"></select></div>
@@ -619,8 +539,7 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Ficha de un partido</h2>
   <p class="sub">Su recorrido elección por elección</p>
-  <p>Cada nombre oficial tiene su ficha. Si un partido cambió de nombre, la ficha muestra un
-  vínculo opcional a la etiqueta anterior o siguiente, con la fuente que lo respalda.</p>
+  <p>Cada nombre oficial dispone de su propia ficha. Cuando un partido cambió de denominación, la ficha ofrece un vínculo opcional hacia la etiqueta anterior o posterior, junto con la fuente que lo respalda.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="par-sel">Partido</label><select id="par-sel"></select></div>
     <div class="ctrl"><label for="par-unidad">Unidad</label><select id="par-unidad"></select></div>
@@ -807,7 +726,7 @@ function dibujarSerie(){
 
   const a0=ag[0], aN=ag[ag.length-1];
   $("#nota-serie").textContent = a0&&aN
-    ? `${est.ambito} · ${els.length} instancias · ${fmt(aN.padron)} electores en la última, ${fmt(a0.padron)} en la primera.`
+    ? `${est.ambito} · ${els.length} instancias · ${fmt(aN.padron)} electores en la última instancia y ${fmt(a0.padron)} en la primera.`
     : "";
 }
 
@@ -1227,9 +1146,9 @@ function dibujarMosaico(){
         `<span><i class="sw" style="background:${tinte("var(--accent)",Math.sqrt(t))}"></i>`+
         `${fmt(Math.round(maxVotos*t))}</span>`).join("")+`</div>`;
   $("#nota-ms").textContent = estM.ms==="gan"
-    ? "Cada circuito pintado del color de la fuerza más votada en esa instancia."
-    : "Intensidad proporcional a la cantidad de votos positivos emitidos en el circuito. "+
-      "La escala es de raíz cuadrada: sin ella, Rosario apagaría el resto de la provincia.";
+    ? "Cada circuito se colorea según la fuerza más votada en esa instancia."
+    : "La intensidad es proporcional a la cantidad de votos positivos emitidos en el circuito. "+
+      "Se emplea una escala de raíz cuadrada porque, de lo contrario, Rosario opacaría al resto de la provincia.";
 }
 
 /* ---------- tabla completa por elección ---------- */
@@ -1311,8 +1230,8 @@ function dibujarDispersion(){
   const sd=Math.sqrt(pts.reduce((s,p)=>s+(p.y-my)**2,0)/n);
   const sdx=Math.sqrt(pts.reduce((s,p)=>s+(p.x-pts.reduce((q,z)=>q+z.x,0)/n)**2,0)/n);
   const r=b*sdx/(sd||1);
-  $("#nota-disp").innerHTML=`${n} circuitos. La recta punteada es el ajuste por mínimos `+
-    `cuadrados: cada vez que el padrón se multiplica por diez, ${CORTO_M(f)} `+
+  $("#nota-disp").innerHTML=`${n} circuitos. La recta punteada corresponde al ajuste por mínimos `+
+    `cuadrados: cuando el padrón se multiplica por diez, ${CORTO_M(f)} `+
     `<b>${b>=0?"gana":"pierde"} ${Math.abs(b).toFixed(1).replace(".",",")} puntos</b>. `+
     `Correlación r = ${r.toFixed(2).replace(".",",")}.`;
   const tip=asegurarTip("#p-disp");
@@ -1398,9 +1317,9 @@ function dibujarTramos(){
   const brecha = u.length>1 ? Math.max(...u)-Math.min(...u) : null;
   const ult=els[els.length-1];
   $("#nota-tramos").innerHTML = brecha==null ? "" :
-    `En ${etiquetaEl(ult).toLowerCase()}, la distancia entre el tramo donde ${CORTO_M(f)} `+
-    `rinde más y aquel donde rinde menos es de <b>${brecha.toFixed(1).replace(".",",")} puntos</b>. `+
-    `Una brecha amplia indica que la escala del lugar ordena el voto; una brecha chica, que no.`;
+    `En ${etiquetaEl(ult).toLowerCase()}, la brecha entre el tramo en que ${CORTO_M(f)} `+
+    `obtiene su mejor resultado y aquel en que obtiene el peor es de <b>${brecha.toFixed(1).replace(".",",")} puntos</b>. `+
+    `Una brecha amplia indica que la escala del lugar ordena el voto; una brecha reducida, en cambio, que no lo hace.`;
 }
 
 /* ---------- inicialización de la capa cartográfica ---------- */
@@ -1576,8 +1495,8 @@ function dibujarEleccion(){
   const sinGeo = Object.keys(R.ci[cl]).filter(c=>!M.cap[CAPA(fAnio(cl))].some(g=>g.c===c));
   const vSin = sinGeo.reduce((t,c)=>t+R.ci[cl][c].filter((_,j)=>j%2).reduce((x,y)=>x+y,0),0);
   $("#ele-nota-mapa").textContent = FE.nivel==="cir"&&sinGeo.length
-    ? `${sinGeo.length} circuitos sin polígono en la cartografía (${fmt(vSin)} votos) no se dibujan, pero sí cuentan en departamento y provincia.`
-    : "El recuento es provisorio; el total provincial definitivo de la DINE se muestra en la tabla cuando existe.";
+    ? `${sinGeo.length} circuitos sin polígono en la cartografía (${fmt(vSin)} votos) no se representan en el mapa, aunque sí se computan en el departamento y la provincia.`
+    : "El recuento es provisorio; cuando existe, el total provincial definitivo de la DINE se consigna en la tabla.";
   fOpcionesU("#ele-unidad",FE.u,cl);
   fTablaEle(); fPartEle();
 }
@@ -1605,8 +1524,8 @@ function fTablaEle(){
   $("#ele-tabla").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k, cl));
   const sd=pt.filter(p=>p.sd);
   $("#ele-nota-tabla").textContent =
-    (sd.length ? `${sd.map(p=>p.n).join(", ")}: solo se cuenta con el total provincial, sin detalle por departamento ni circuito. `:"")+
-    "El porcentaje es sobre votos positivos. Recuento provisorio; la columna definitiva viene de la DINE.";
+    (sd.length ? `${sd.map(p=>p.n).join(", ")}: solo se dispone del total provincial, sin desagregación por departamento ni circuito. `:"")+
+    "El porcentaje se calcula sobre los votos positivos. Se trata del recuento provisorio; la columna definitiva proviene de la DINE.";
 }
 function fPartEle(){
   const cl=FE.clave, a=fUnidad(cl,FE.u), prov=FE.u.t==="prov", def=R.def[cl];
@@ -1618,7 +1537,7 @@ function fPartEle(){
   if(otros) tiles.push(["Impugnados, recurridos y comando",`${fmt(otros)} · ${fPct(otros,a.vot)}`]);
   $("#ele-part").innerHTML=tiles.map(([l,n])=>`<div><span class="l">${l}</span><span class="n">${n}</span></div>`).join("");
   let nota="Votantes = votos positivos + blancos + nulos"+(otros?" + impugnados, recurridos y comando":"")+
-    ". El porcentaje de blancos y nulos es sobre votantes.";
+    ". El porcentaje de blancos y nulos se calcula sobre el total de votantes.";
   if(prov && def && def.electores){
     const v=def.votantes||((def.positivos||0)+(def.blancos||0)+(def.nulos||0));
     nota+=` Definitivo (DINE): ${fmt(def.electores)} electores, participación ${fPct(v,def.electores)}, `+
@@ -1679,7 +1598,7 @@ function fVinculos(){
                        `<div class="fte">Fuente del vínculo: ${f}</div></div>`;
   ant.forEach(v=>h+=bt(v[0],v[2],"← Etiqueta anterior:"));
   sig.forEach(v=>h+=bt(v[1],v[2],"Etiqueta siguiente →"));
-  if(h) h+=`<div class="fte">El vínculo es una ayuda para navegar entre nombres: no implica que se trate del mismo partido.</div>`;
+  if(h) h+=`<div class="fte">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</div>`;
   $("#par-vinc").className="vinc"; $("#par-vinc").innerHTML=h;
   $("#par-vinc").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k));
 }
@@ -1708,11 +1627,11 @@ function fGraficoPar(){
     `${pct?t.toFixed(0)+" %":fmt(t)}</text>`;
   s.forEach((x,i)=>{
     const cx=Mg.l+sl*i+sl/2, e=FEL[x.cl];
-    const col = e.instancia==="GENERAL" ? "var(--navy)" : e.instancia==="PASO" ? tinte("var(--navy)",.5) : "var(--coral)";
+    const col = e.instancia==="GENERAL" ? "var(--navy)" : e.instancia==="PASO" ? tinte("var(--navy)",.5) : "var(--accent)";
     if(x.ap && x.a && !x.sd){
       const v=valor(x), top_=y(v);
       o+=`<rect class="${x.cl===FP.clave?"sel":""}" data-cl="${x.cl}" x="${cx-bw/2}" y="${top_}" width="${bw}" height="${Math.max(1,H-Mg.b-top_)}" fill="${col}" `+
-         `${x.cl===FP.clave?'stroke="var(--coral)" stroke-width="2"':""} style="cursor:pointer"></rect>`+
+         `${x.cl===FP.clave?'stroke="var(--accent)" stroke-width="2"':""} style="cursor:pointer"></rect>`+
          `<text x="${cx}" y="${top_-6}" text-anchor="middle" font-size="10.5" font-weight="700" fill="var(--ink)" font-family="var(--font-d)">`+
          `${pct?v.toFixed(1).replace(".",",")+"":(v>=1000?(v/1000).toFixed(0)+" mil":v)}</text>`;
     } else {
@@ -1726,11 +1645,11 @@ function fGraficoPar(){
   $("#leg-par-serie").innerHTML=
     `<span class="item"><i class="sw" style="background:var(--navy)"></i>General</span>`+
     `<span class="item"><i class="sw" style="background:${tinte("var(--navy)",.5)}"></i>PASO</span>`+
-    `<span class="item"><i class="sw" style="background:var(--coral)"></i>Balotaje</span>`;
+    `<span class="item"><i class="sw" style="background:var(--accent)"></i>Balotaje</span>`;
   $("#par-nota-serie").textContent =
-    `${fNombreU(FP.u,FP.clave)}. «—» indica que el partido no figura en esa instancia; no es un cero. `+
-    `«s/d» indica que solo hay total provincial. Un clic en una barra elige la elección del mapa.`+
-    (FP.u.t==="cir"?" En circuitos se sigue el territorio de 2023 con el enlace histórico de la cartografía.":"");
+    `${fNombreU(FP.u,FP.clave)}. El guion («—») indica que el partido no figura en esa instancia y no equivale a un cero; `+
+    `«s/d» señala que solo se dispone del total provincial. Un clic en una barra selecciona la elección del mapa.`+
+    (FP.u.t==="cir"?" En los circuitos se sigue el territorio de 2023 mediante el enlace histórico de la cartografía.":"");
 }
 function fTablaPar(){
   const k=FP.key, s=fSerie(k,FP.u);
@@ -1746,7 +1665,7 @@ function fTablaPar(){
   }
   $("#par-tabla").innerHTML=h+"</tbody>";
   $("#par-tabla").querySelectorAll("tr[data-cl]").forEach(r=>r.onclick=()=>{FP.clave=r.dataset.cl; dibujarPartido();});
-  $("#par-nota-tabla").innerHTML=`Un clic en una fila elige esa elección en el mapa. <button type="button" id="par-ir-ele" style="font:inherit;color:var(--navy);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline">Ver la ficha de ${fEl(FP.clave)} →</button>`;
+  $("#par-nota-tabla").innerHTML=`Un clic en una fila selecciona esa elección en el mapa. <button type="button" id="par-ir-ele" style="font:inherit;color:var(--navy);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline">Ver la ficha de ${fEl(FP.clave)} →</button>`;
   $("#par-ir-ele").onclick=()=>fIrEleccion(FP.clave);
 }
 function fMapaPar(){
@@ -1763,15 +1682,15 @@ function fMapaPar(){
            `<div class="r"><span>Votos</span><b>${fmt(a.v[i])}</b></div><div class="r"><span>Positivos</span><b>${fmt(a.pos)}</b></div>`,
     clic:kk=>{
       if(FP.nivel==="dep") FP.u={t:"dep",i:+kk};
-      else { const c23=fAC23(kk,cl); if(!c23){ $("#par-nota-mapa").textContent="Este circuito no tiene enlace histórico: no se puede seguir en el tiempo."; return; } FP.u={t:"cir",c:c23}; }
+      else { const c23=fAC23(kk,cl); if(!c23){ $("#par-nota-mapa").textContent="Este circuito carece de enlace histórico, por lo que no es posible seguirlo en el tiempo."; return; } FP.u={t:"cir",c:c23}; }
       dibujarPartido();
     }});
   $("#leg-par").innerHTML= sd ? `<div class="escala"><b>Sin detalle territorial</b></div>` :
     `<div class="escala"><b>${a0.p.n}</b>`+
     [0,.25,.5,.75,1].map(t=>`<span><i style="background:${tinte("var(--navy)",t)}"></i>${(max*t).toFixed(0)} %</span>`).join("")+`</div>`;
   $("#par-nota-mapa").textContent = sd
-    ? "Para esta elección solo se conoce el total provincial del partido."
-    : `${fEl(cl)}. El color va de claro a oscuro según el porcentaje del partido sobre los votos positivos de cada unidad; la escala llega al máximo observado.`;
+    ? "Para esta elección únicamente se conoce el total provincial del partido."
+    : `${fEl(cl)}. El color varía de claro a oscuro según el porcentaje del partido sobre los votos positivos de cada unidad; la escala alcanza el máximo observado.`;
   fTablaDeptosPar(a0, sd);
 }
 function fTablaDeptosPar(a0, sd){
@@ -1810,7 +1729,7 @@ const EPI_F = {
 function EPI(claves){
   const t=claves.map(k=>EPI_F[k]);
   const l=t.length>1 ? t.slice(0,-1).join(", ")+" y "+t[t.length-1] : t[0];
-  return "Elaboración propia en base a los datos obtenidos en "+l+".";
+  return "Elaboración propia a partir de los datos obtenidos de "+l+".";
 }
 const EPI_BASE=["polar","dine23"], EPI_MAPA=["polar","dine23","cart"], EPI_FICHA=["polar","dine23","dinex","csv"];
 /* [elemento de referencia, contenedor que lo envuelve (o null), fuentes, id opcional]
