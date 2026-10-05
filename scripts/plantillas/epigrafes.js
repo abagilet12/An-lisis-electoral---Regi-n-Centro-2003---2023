@@ -19,7 +19,6 @@ const EPI_ANCLAS = [
   ["#tabla",".tablewrap",EPI_BASE],
   ["#p-mp",".mapafila",EPI_MAPA],
   ["#p-md",".mapafila",EPI_MAPA],
-  ["#p-mc",".mapafila",EPI_MAPA],
   ["#leg-ms",null,EPI_MAPA],
   ["#resumen-anual",null,EPI_BASE],
   ["#leg-deptos",null,EPI_BASE],
