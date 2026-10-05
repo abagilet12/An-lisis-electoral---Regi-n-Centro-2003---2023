@@ -1,0 +1,563 @@
+<title>Voto santafesino 2003-2023</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,500&display=swap">
+<style>
+:root{
+  color-scheme: light;
+  --ground:#f7f7f5; --surface:#fdfdfc; --surface-2:#f1f1ee;
+  --line:#dededa; --line-strong:#c4c4be;
+  --ink:#16161a; --ink-2:#55554f; --ink-3:#83837b;
+  --accent:#2a78d6;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+  --s5:#e87ba4; --s6:#008300; --s7:#4a3aa7; --s8:#e34948;
+  --s9:#9a9a92;
+  --font-d:'Archivo',system-ui,-apple-system,sans-serif;
+  --font-b:'Literata',Georgia,serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  color-scheme: dark;
+  --ground:#131315; --surface:#1b1b1e; --surface-2:#232327;
+  --line:#33333a; --line-strong:#4a4a52;
+  --ink:#f4f4f2; --ink-2:#b8b8b1; --ink-3:#8a8a83;
+  --accent:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+  --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  --s9:#8d8d86;
+}}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#131315; --surface:#1b1b1e; --surface-2:#232327;
+  --line:#33333a; --line-strong:#4a4a52;
+  --ink:#f4f4f2; --ink-2:#b8b8b1; --ink-3:#8a8a83;
+  --accent:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+  --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+  --s9:#8d8d86;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--font-b);
+     margin:0;padding-block:0 4rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+h1,h2,h3,.ui{font-family:var(--font-d)}
+h1{font-size:clamp(1.9rem,4.4vw,3rem);line-height:1.08;margin:0 0 .5rem;
+   font-weight:700;letter-spacing:-.022em;text-wrap:balance}
+h2{font-size:clamp(1.15rem,2.2vw,1.45rem);font-weight:600;letter-spacing:-.012em;
+   margin:0 0 .3rem;text-wrap:balance}
+h3{font-size:.95rem;font-weight:600;margin:0 0 .15rem}
+p{margin:0 0 .85rem;max-width:66ch;color:var(--ink-2)}
+.eyebrow{font-family:var(--font-d);font-size:.7rem;font-weight:600;
+   letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.7rem}
+header.hero{padding-block:3.2rem 1.8rem;border-bottom:1px solid var(--line)}
+.lede{font-size:1.06rem;max-width:62ch;color:var(--ink-2)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+   gap:1px;background:var(--line);border:1px solid var(--line);margin-top:2rem}
+.tile{background:var(--surface);padding:1rem 1.1rem}
+.tile .n{font-family:var(--font-d);font-size:1.75rem;font-weight:700;
+   letter-spacing:-.025em;font-variant-numeric:tabular-nums;display:block;line-height:1.1}
+.tile .l{font-family:var(--font-d);font-size:.72rem;color:var(--ink-3);
+   text-transform:uppercase;letter-spacing:.07em;margin-top:.3rem;display:block}
+section{padding-block:2.6rem;border-bottom:1px solid var(--line)}
+.ctrls{display:flex;flex-wrap:wrap;gap:.7rem;align-items:flex-end;margin:1.2rem 0 1.5rem}
+.ctrl{display:flex;flex-direction:column;gap:.3rem}
+.ctrl label{font-family:var(--font-d);font-size:.7rem;font-weight:600;
+   letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+select,.seg button{font-family:var(--font-d);font-size:.85rem;color:var(--ink);
+   background:var(--surface);border:1px solid var(--line-strong);
+   padding:.45rem .7rem;border-radius:3px}
+select{min-width:190px}
+.seg{display:flex;gap:0;border:1px solid var(--line-strong);border-radius:3px;overflow:hidden}
+.seg button{border:0;border-right:1px solid var(--line);border-radius:0;cursor:pointer;
+   background:var(--surface);color:var(--ink-2)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground);font-weight:600}
+select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.plot{background:var(--surface);border:1px solid var(--line);padding:1rem .8rem .6rem;position:relative}
+.plot svg{display:block;width:100%;height:auto;overflow:visible}
+.legend{display:flex;flex-wrap:wrap;gap:.35rem .95rem;margin-top:.9rem;
+   font-family:var(--font-d);font-size:.78rem}
+.legend button{display:flex;align-items:center;gap:.38rem;background:none;border:0;
+   padding:.12rem .1rem;cursor:pointer;color:var(--ink-2);font:inherit}
+.legend button[aria-pressed="false"]{opacity:.35}
+.sw{width:11px;height:11px;border-radius:2px;flex:none}
+.tip{position:absolute;pointer-events:none;background:var(--surface);
+   border:1px solid var(--line-strong);padding:.5rem .6rem;font-family:var(--font-d);
+   font-size:.78rem;line-height:1.45;box-shadow:0 4px 14px rgba(0,0,0,.13);
+   border-radius:3px;z-index:5;min-width:160px}
+.tip .th{font-weight:600;margin-bottom:.3rem;color:var(--ink)}
+.tip .r{display:flex;justify-content:space-between;gap:.9rem;color:var(--ink-2)}
+.tip .r b{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:500}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.note{font-size:.84rem;color:var(--ink-3);max-width:70ch;margin-top:.9rem}
+.tablewrap{overflow-x:auto;margin-top:1.1rem;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-family:var(--font-d);font-size:.8rem}
+th,td{padding:.42rem .65rem;text-align:right;border-bottom:1px solid var(--line);
+   font-variant-numeric:tabular-nums;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;font-variant-numeric:normal}
+thead th{position:sticky;top:0;background:var(--surface-2);font-weight:600;
+   color:var(--ink-2);font-size:.73rem;text-transform:uppercase;letter-spacing:.05em}
+tbody tr:last-child td{border-bottom:0}
+details{border:1px solid var(--line);background:var(--surface);padding:.85rem 1rem;margin-top:1rem}
+summary{font-family:var(--font-d);font-weight:600;font-size:.9rem;cursor:pointer}
+details p{margin-top:.7rem;font-size:.9rem}
+.src{font-size:.8rem;color:var(--ink-3)}
+.src b{color:var(--ink-2);font-weight:500}
+@media (max-width:760px){ .grid2{grid-template-columns:1fr} }
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Santa Fe · Presidente y Vice · 523 circuitos</div>
+  <h1>Veinte años de voto santafesino</h1>
+  <p class="lede">Las doce instancias presidenciales de 2003 a 2023, con la oferta
+  electoral agrupada en familias políticas para que los años sean comparables.
+  Cada elección cubre los 19 departamentos de la provincia.</p>
+  <div class="tiles" id="tiles"></div>
+</header>
+<section>
+  <div class="eyebrow">Serie principal</div>
+  <h2>Evolución de las familias políticas</h2>
+  <p>Porcentaje sobre votos positivos. Las etiquetas partidarias cambian en cada
+  elección —Frente para la Victoria, Frente de Todos, Unión por la Patria—, así que
+  se agrupan en familias según su continuidad política. Ese criterio es una decisión
+  de investigación, no un dato: está documentado y es editable.</p>
+
+  <div class="ctrls">
+    <div class="ctrl"><label for="f-ambito">Ámbito</label>
+      <select id="f-ambito"></select></div>
+    <div class="ctrl"><label for="f-inst">Instancias</label>
+      <div class="seg" id="f-inst" role="group" aria-label="Instancias">
+        <button type="button" data-v="gral" aria-pressed="true">Solo generales</button>
+        <button type="button" data-v="todas" aria-pressed="false">Todas</button>
+      </div></div>
+    <div class="ctrl"><label for="f-modo">Medida</label>
+      <div class="seg" id="f-modo" role="group" aria-label="Medida">
+        <button type="button" data-v="pct" aria-pressed="true">% positivos</button>
+        <button type="button" data-v="abs" aria-pressed="false">Votos</button>
+      </div></div>
+  </div>
+
+  <div class="plot" id="p-serie">
+    <svg id="svg-serie" viewBox="0 0 900 400" role="img"
+         aria-label="Evolución del porcentaje de cada familia política"></svg>
+  </div>
+  <div class="legend" id="leg-serie"></div>
+  <p class="note" id="nota-serie"></p>
+</section>
+
+<section>
+  <div class="eyebrow">Geografía</div>
+  <h2>Composición por departamento</h2>
+  <p>Los 19 departamentos ordenados por padrón. Una barra por departamento muestra
+  cómo se reparte su voto positivo en la elección elegida.</p>
+  <div class="ctrls">
+    <div class="ctrl"><label for="f-eleccion">Elección</label>
+      <select id="f-eleccion"></select></div>
+    <div class="ctrl"><label for="f-orden">Ordenar por</label>
+      <div class="seg" id="f-orden" role="group" aria-label="Orden">
+        <button type="button" data-v="padron" aria-pressed="true">Padrón</button>
+        <button type="button" data-v="ganador" aria-pressed="false">Fuerza ganadora</button>
+      </div></div>
+  </div>
+  <div class="plot" id="p-deptos">
+    <svg id="svg-deptos" viewBox="0 0 900 560" role="img"
+         aria-label="Composición del voto por departamento"></svg>
+  </div>
+  <div class="legend" id="leg-deptos"></div>
+</section>
+
+<section>
+  <div class="eyebrow">Dos indicadores</div>
+  <div class="grid2">
+    <div>
+      <h3>Volatilidad electoral</h3>
+      <p class="note" style="margin-top:.2rem">Índice de Pedersen entre generales
+      consecutivas: la mitad de la suma de los cambios en puntos de cada familia.
+      Cuánto se reacomodó el electorado de una elección a la siguiente.</p>
+      <div class="plot" id="p-vol" style="margin-top:.8rem">
+        <svg id="svg-vol" viewBox="0 0 440 260" role="img"
+             aria-label="Volatilidad entre elecciones generales"></svg>
+      </div>
+    </div>
+    <div>
+      <h3>Desafección</h3>
+      <p class="note" style="margin-top:.2rem">Votos en blanco y nulos sobre el total
+      de votantes, y participación sobre el padrón. Medidos sobre los datos reales,
+      no estimados.</p>
+      <div class="plot" id="p-des" style="margin-top:.8rem">
+        <svg id="svg-des" viewBox="0 0 440 260" role="img"
+             aria-label="Blancos, nulos y participación"></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Los números</div>
+  <h2>Tabla de resultados</h2>
+  <p>La misma serie del primer gráfico, en cifras. Porcentaje sobre positivos.</p>
+  <div class="tablewrap"><table id="tabla"></table></div>
+</section>
+
+<section style="border-bottom:0">
+  <div class="eyebrow">Cómo leer esto</div>
+  <h2>Advertencias y fuentes</h2>
+
+  <details open><summary>Los datos son del recuento provisorio</summary>
+    <p>El escrutinio definitivo no está publicado de forma desagregada: a más de tres
+    años de las elecciones de 2023, los organismos responsables solo lo difunden como
+    total provincial. Para trabajar por circuito o departamento no hay alternativa.
+    La diferencia entre ambos recuentos ronda el 2 % y <b>su signo no es constante</b>:
+    en 2023 el provisorio queda por debajo del definitivo y en 2003 por encima, así que
+    no se corrige con un factor.</p></details>
+
+  <details><summary>Qué significa «familia política»</summary>
+    <p>Las 82 etiquetas partidarias de la serie se reducen a 52 fuerzas y se agrupan en
+    familias por continuidad política. Las decisiones discutibles están declaradas: si
+    el Frente para la Victoria, el Frente de Todos y Unión por la Patria son la misma
+    corriente; si La Libertad Avanza hereda de Unite o es irrupción pura; y qué hacer
+    con el socialismo santafesino, que pasa del 39 % en 2011 a desaparecer.</p></details>
+
+  <details><summary>Las PASO no se comparan con las generales</summary>
+    <p>La oferta es más fragmentada y el voto se reparte entre listas internas. Por eso
+    el gráfico principal abre con «solo generales». Al activar «todas», las PASO y los
+    balotajes aparecen intercalados y la serie deja de ser homogénea.</p></details>
+
+  <details><summary>Fuentes</summary>
+    <p class="src"><b>2003-2019:</b> escrutinios provisorios de PoliticaArgentina/data_warehouse,
+    originados en el Atlas Electoral de Andy Tow.<br>
+    <b>2023:</b> archivos por mesa de la Dirección Nacional Electoral, del portal de
+    datos abiertos.<br>
+    <b>Control a nivel provincial:</b> Consulta de Escrutinio por Zona de la Justicia
+    Nacional Electoral, escrutinio definitivo.<br>
+    <b>Cartografía de circuitos:</b> Franco Galeano, licencia CC BY.</p></details>
+</section>
+</div>
+
+<script>
+const D = {"elecciones":[{"anio":"2003","instancia":"GENERAL","fecha":"27/04/2003","clave":"2003-GENERAL"},{"anio":"2007","instancia":"GENERAL","fecha":"28/10/2007","clave":"2007-GENERAL"},{"anio":"2011","instancia":"PASO","fecha":"14/08/2011","clave":"2011-PASO"},{"anio":"2011","instancia":"GENERAL","fecha":"23/10/2011","clave":"2011-GENERAL"},{"anio":"2015","instancia":"PASO","fecha":"09/08/2015","clave":"2015-PASO"},{"anio":"2015","instancia":"GENERAL","fecha":"25/10/2015","clave":"2015-GENERAL"},{"anio":"2015","instancia":"BALOTAJE","fecha":"22/11/2015","clave":"2015-BALOTAJE"},{"anio":"2019","instancia":"PASO","fecha":"11/08/2019","clave":"2019-PASO"},{"anio":"2019","instancia":"GENERAL","fecha":"27/10/2019","clave":"2019-GENERAL"},{"anio":"2023","instancia":"PASO","fecha":"13/08/2023","clave":"2023-PASO"},{"anio":"2023","instancia":"GENERAL","fecha":"22/10/2023","clave":"2023-GENERAL"},{"anio":"2023","instancia":"BALOTAJE","fecha":"19/11/2023","clave":"2023-BALOTAJE"}],"familias":["Cambiemos","Centro progresista no peronista","Centroderecha liberal","Centroizquierda no peronista","Derecha libertaria","Derecha nacionalista","Izquierda","Otros","Peronismo kirchnerista","Peronismo no kirchnerista","Socialismo y progresismo santafesino","Union Civica Radical"],"departamentos":["Belgrano","Caseros","Castellanos","Constitución","Garay","General López","General Obligado","Iriondo","La Capital","Las Colonias","Nueve de Julio","Rosario","San Cristóbal","San Javier","San Jerónimo","San Justo","San Lorenzo","San Martín","Vera"],"datos":{"2003-GENERAL":{"Belgrano":{"v":{"Centro progresista no peronista":5725,"Centroderecha liberal":5260,"Derecha nacionalista":82,"Izquierda":419,"Otros":553,"Peronismo kirchnerista":7140,"Peronismo no kirchnerista":9105,"Socialismo y progresismo santafesino":567,"Union Civica Radical":245},"n":{"blancos":630,"nulos":160},"p":32084,"m":43},"Caseros":{"v":{"Centro progresista no peronista":16746,"Centroderecha liberal":8680,"Derecha nacionalista":325,"Izquierda":1299,"Otros":1139,"Peronismo kirchnerista":12160,"Peronismo no kirchnerista":15061,"Socialismo y progresismo santafesino":962,"Union Civica Radical":664},"n":{"blancos":834,"nulos":630},"p":63433,"m":110},"Castellanos":{"v":{"Centro progresista no peronista":15075,"Centroderecha liberal":22020,"Derecha nacionalista":645,"Izquierda":1691,"Otros":2413,"Peronismo kirchnerista":16759,"Peronismo no kirchnerista":32822,"Socialismo y progresismo santafesino":928,"Union Civica Radical":1443},"n":{"blancos":1431,"nulos":1415},"p":114362,"m":245},"Constitución":{"v":{"Centro progresista no peronista":14382,"Centroderecha liberal":8964,"Derecha nacionalista":249,"Izquierda":1279,"Otros":1332,"Peronismo kirchnerista":10089,"Peronismo no kirchnerista":17648,"Socialismo y progresismo santafesino":880,"Union Civica Radical":1180},"n":{"blancos":730,"nulos":733},"p":67147,"m":139},"Garay":{"v":{"Centro progresista no peronista":1330,"Centroderecha liberal":1555,"Derecha nacionalista":52,"Izquierda":131,"Otros":186,"Peronismo kirchnerista":1752,"Peronismo no kirchnerista":4234,"Socialismo y progresismo santafesino":71,"Union Civica Radical":426},"n":{"blancos":148,"nulos":271},"p":13327,"m":40},"General López":{"v":{"Centro progresista no peronista":20047,"Centroderecha liberal":21602,"Derecha nacionalista":413,"Izquierda":2405,"Otros":2014,"Peronismo kirchnerista":19217,"Peronismo no kirchnerista":51313,"Socialismo y progresismo santafesino":1327,"Union Civica Radical":1718},"n":{"blancos":1491,"nulos":1253},"p":142370,"m":263},"General Obligado":{"v":{"Centro progresista no peronista":12583,"Centroderecha liberal":14045,"Derecha nacionalista":421,"Izquierda":1332,"Otros":2162,"Peronismo kirchnerista":21141,"Peronismo no kirchnerista":37283,"Socialismo y progresismo santafesino":1132,"Union Civica Radical":4407},"n":{"blancos":777,"nulos":1150},"p":113174,"m":244},"Iriondo":{"v":{"Centro progresista no peronista":11060,"Centroderecha liberal":7732,"Derecha nacionalista":189,"Izquierda":957,"Otros":877,"Peronismo kirchnerista":7057,"Peronismo no kirchnerista":12995,"Socialismo y progresismo santafesino":600,"Union Civica Radical":494},"n":{"blancos":891,"nulos":428},"p":50176,"m":106},"La Capital":{"v":{"Centro progresista no peronista":72771,"Centroderecha liberal":43084,"Derecha nacionalista":1278,"Izquierda":5727,"Otros":5087,"Peronismo kirchnerista":44319,"Peronismo no kirchnerista":86519,"Socialismo y progresismo santafesino":3189,"Union Civica Radical":2766},"n":{"blancos":2083,"nulos":6167},"p":353927,"m":819},"Las Colonias":{"v":{"Centro progresista no peronista":10419,"Centroderecha liberal":13157,"Derecha nacionalista":229,"Izquierda":779,"Otros":1194,"Peronismo kirchnerista":11597,"Peronismo no kirchnerista":14762,"Socialismo y progresismo santafesino":492,"Union Civica Radical":1808},"n":{"blancos":1122,"nulos":917},"p":70870,"m":203},"Nueve de Julio":{"v":{"Centro progresista no peronista":1355,"Centroderecha liberal":1607,"Derecha nacionalista":69,"Izquierda":133,"Otros":293,"Peronismo kirchnerista":3462,"Peronismo no kirchnerista":6155,"Socialismo y progresismo santafesino":88,"Union Civica Radical":505},"n":{"blancos":140,"nulos":175},"p":20740,"m":61},"Rosario":{"v":{"Centro progresista no peronista":201834,"Centroderecha liberal":105266,"Derecha nacionalista":2721,"Izquierda":18017,"Otros":11103,"Peronismo kirchnerista":71035,"Peronismo no kirchnerista":203943,"Socialismo y progresismo santafesino":15005,"Union Civica Radical":4651},"n":{"blancos":6363,"nulos":12980},"p":846036,"m":1965},"San Cristóbal":{"v":{"Centro progresista no peronista":3843,"Centroderecha liberal":5932,"Derecha nacionalista":122,"Izquierda":340,"Otros":528,"Peronismo kirchnerista":7413,"Peronismo no kirchnerista":13035,"Socialismo y progresismo santafesino":244,"Union Civica Radical":2190},"n":{"blancos":498,"nulos":375},"p":48731,"m":151},"San Javier":{"v":{"Centro progresista no peronista":1907,"Centroderecha liberal":1828,"Derecha nacionalista":58,"Izquierda":180,"Otros":293,"Peronismo kirchnerista":3831,"Peronismo no kirchnerista":5519,"Socialismo y progresismo santafesino":80,"Union Civica Radical":1034},"n":{"blancos":410,"nulos":200},"p":20314,"m":62},"San Jerónimo":{"v":{"Centro progresista no peronista":8907,"Centroderecha liberal":9043,"Derecha nacionalista":281,"Izquierda":1010,"Otros":856,"Peronismo kirchnerista":7748,"Peronismo no kirchnerista":15361,"Socialismo y progresismo santafesino":481,"Union Civica Radical":697},"n":{"blancos":776,"nulos":612},"p":58127,"m":152},"San Justo":{"v":{"Centro progresista no peronista":2899,"Centroderecha liberal":5115,"Derecha nacionalista":97,"Izquierda":369,"Otros":412,"Peronismo kirchnerista":4067,"Peronismo no kirchnerista":8813,"Socialismo y progresismo santafesino":144,"Union Civica Radical":500},"n":{"blancos":318,"nulos":371},"p":30087,"m":92},"San Lorenzo":{"v":{"Centro progresista no peronista":24394,"Centroderecha liberal":12327,"Derecha nacionalista":564,"Izquierda":1976,"Otros":1413,"Peronismo kirchnerista":13780,"Peronismo no kirchnerista":28017,"Socialismo y progresismo santafesino":1134,"Union Civica Radical":1617},"n":{"blancos":1088,"nulos":1448},"p":107770,"m":258},"San Martín":{"v":{"Centro progresista no peronista":6780,"Centroderecha liberal":7970,"Derecha nacionalista":256,"Izquierda":676,"Otros":801,"Peronismo kirchnerista":7258,"Peronismo no kirchnerista":11410,"Socialismo y progresismo santafesino":432,"Union Civica Radical":435},"n":{"blancos":593,"nulos":500},"p":46454,"m":123},"Vera":{"v":{"Centro progresista no peronista":2469,"Centroderecha liberal":2129,"Derecha nacionalista":69,"Izquierda":514,"Otros":317,"Peronismo kirchnerista":5736,"Peronismo no kirchnerista":12520,"Socialismo y progresismo santafesino":142,"Union Civica Radical":1319},"n":{"blancos":291,"nulos":257},"p":36439,"m":113}},"2007-GENERAL":{"Belgrano":{"v":{"Centro progresista no peronista":7249,"Centroderecha liberal":296,"Centroizquierda no peronista":273,"Derecha nacionalista":167,"Izquierda":708,"Otros":448,"Peronismo kirchnerista":10457,"Peronismo no kirchnerista":8468},"n":{"blancos":1272,"nulos":15},"p":33224,"m":49},"Caseros":{"v":{"Centro progresista no peronista":18670,"Centroderecha liberal":728,"Centroizquierda no peronista":177,"Derecha nacionalista":191,"Izquierda":2000,"Otros":391,"Peronismo kirchnerista":16156,"Peronismo no kirchnerista":15335},"n":{"blancos":2324,"nulos":188},"p":65052,"m":132},"Castellanos":{"v":{"Centro progresista no peronista":20389,"Centroderecha liberal":1500,"Centroizquierda no peronista":417,"Derecha nacionalista":403,"Izquierda":2202,"Otros":1639,"Peronismo kirchnerista":34013,"Peronismo no kirchnerista":34887},"n":{"blancos":3361,"nulos":850},"p":120721,"m":265},"Constitución":{"v":{"Centro progresista no peronista":16351,"Centroderecha liberal":648,"Centroizquierda no peronista":296,"Derecha nacionalista":296,"Izquierda":1869,"Otros":648,"Peronismo kirchnerista":22097,"Peronismo no kirchnerista":12822},"n":{"blancos":2283,"nulos":238},"p":68934,"m":145},"Garay":{"v":{"Centro progresista no peronista":2457,"Centroderecha liberal":106,"Centroizquierda no peronista":116,"Derecha nacionalista":54,"Izquierda":210,"Otros":182,"Peronismo kirchnerista":3662,"Peronismo no kirchnerista":3223},"n":{"blancos":515,"nulos":51},"p":14527,"m":43},"General López":{"v":{"Centro progresista no peronista":31224,"Centroderecha liberal":1251,"Centroizquierda no peronista":1108,"Derecha nacionalista":379,"Izquierda":3583,"Otros":949,"Peronismo kirchnerista":38321,"Peronismo no kirchnerista":37880},"n":{"blancos":3824,"nulos":307},"p":145924,"m":295},"General Obligado":{"v":{"Centro progresista no peronista":19905,"Centroderecha liberal":1022,"Centroizquierda no peronista":303,"Derecha nacionalista":377,"Izquierda":1908,"Otros":1196,"Peronismo kirchnerista":36995,"Peronismo no kirchnerista":24181},"n":{"blancos":3313,"nulos":624},"p":120640,"m":314},"Iriondo":{"v":{"Centro progresista no peronista":12352,"Centroderecha liberal":305,"Centroizquierda no peronista":116,"Derecha nacionalista":153,"Izquierda":1217,"Otros":256,"Peronismo kirchnerista":14494,"Peronismo no kirchnerista":9850},"n":{"blancos":1724,"nulos":122},"p":50987,"m":122},"La Capital":{"v":{"Centro progresista no peronista":90153,"Centroderecha liberal":2787,"Centroizquierda no peronista":1475,"Derecha nacionalista":1827,"Izquierda":8569,"Otros":3169,"Peronismo kirchnerista":92106,"Peronismo no kirchnerista":63223},"n":{"blancos":7516,"nulos":4153},"p":371768,"m":870},"Las Colonias":{"v":{"Centro progresista no peronista":13144,"Centroderecha liberal":595,"Centroizquierda no peronista":165,"Derecha nacionalista":192,"Izquierda":825,"Otros":607,"Peronismo kirchnerista":19890,"Peronismo no kirchnerista":22365},"n":{"blancos":2538,"nulos":384},"p":74218,"m":211},"Nueve de Julio":{"v":{"Centro progresista no peronista":2988,"Centroderecha liberal":130,"Centroizquierda no peronista":90,"Derecha nacionalista":78,"Izquierda":277,"Otros":233,"Peronismo kirchnerista":5216,"Peronismo no kirchnerista":4715},"n":{"blancos":601,"nulos":60},"p":21710,"m":65},"Rosario":{"v":{"Centro progresista no peronista":264733,"Centroderecha liberal":7576,"Centroizquierda no peronista":2617,"Derecha nacionalista":3438,"Izquierda":30763,"Otros":6790,"Peronismo kirchnerista":210598,"Peronismo no kirchnerista":112907},"n":{"blancos":19480,"nulos":7308},"p":876890,"m":2031},"San Cristóbal":{"v":{"Centro progresista no peronista":7199,"Centroderecha liberal":306,"Centroizquierda no peronista":127,"Derecha nacionalista":144,"Izquierda":620,"Otros":331,"Peronismo kirchnerista":12759,"Peronismo no kirchnerista":14252},"n":{"blancos":1526,"nulos":120},"p":50155,"m":156},"San Javier":{"v":{"Centro progresista no peronista":4739,"Centroderecha liberal":96,"Centroizquierda no peronista":32,"Derecha nacionalista":59,"Izquierda":201,"Otros":225,"Peronismo kirchnerista":6384,"Peronismo no kirchnerista":3269},"n":{"blancos":662,"nulos":77},"p":21484,"m":65},"San Jerónimo":{"v":{"Centro progresista no peronista":12953,"Centroderecha liberal":443,"Centroizquierda no peronista":227,"Derecha nacionalista":332,"Izquierda":984,"Otros":503,"Peronismo kirchnerista":16978,"Peronismo no kirchnerista":11338},"n":{"blancos":2186,"nulos":309},"p":59136,"m":156},"San Justo":{"v":{"Centro progresista no peronista":7777,"Centroderecha liberal":245,"Centroizquierda no peronista":66,"Derecha nacionalista":65,"Izquierda":319,"Otros":422,"Peronismo kirchnerista":7848,"Peronismo no kirchnerista":6097},"n":{"blancos":1082,"nulos":40},"p":31022,"m":96},"San Lorenzo":{"v":{"Centro progresista no peronista":31556,"Centroderecha liberal":764,"Centroizquierda no peronista":265,"Derecha nacionalista":369,"Izquierda":2971,"Otros":555,"Peronismo kirchnerista":36386,"Peronismo no kirchnerista":16025},"n":{"blancos":3206,"nulos":473},"p":114651,"m":273},"San Martín":{"v":{"Centro progresista no peronista":10756,"Centroderecha liberal":436,"Centroizquierda no peronista":105,"Derecha nacionalista":123,"Izquierda":861,"Otros":396,"Peronismo kirchnerista":11229,"Peronismo no kirchnerista":12249},"n":{"blancos":1691,"nulos":178},"p":47710,"m":125},"Vera":{"v":{"Centro progresista no peronista":6021,"Centroderecha liberal":242,"Centroizquierda no peronista":225,"Derecha nacionalista":121,"Izquierda":452,"Otros":364,"Peronismo kirchnerista":10977,"Peronismo no kirchnerista":5551},"n":{"blancos":1106,"nulos":65},"p":37630,"m":115}},"2011-PASO":{"Belgrano":{"v":{"Centro progresista no peronista":899,"Izquierda":273,"Peronismo kirchnerista":8563,"Peronismo no kirchnerista":7723,"Socialismo y progresismo santafesino":6568,"Union Civica Radical":2383},"n":{"blancos":707,"nulos":145},"p":34994,"m":102},"Caseros":{"v":{"Centro progresista no peronista":2053,"Izquierda":744,"Peronismo kirchnerista":13999,"Peronismo no kirchnerista":16118,"Socialismo y progresismo santafesino":13497,"Union Civica Radical":3941},"n":{"blancos":1093,"nulos":523},"p":67183,"m":202},"Castellanos":{"v":{"Centro progresista no peronista":3416,"Izquierda":1050,"Peronismo kirchnerista":34119,"Peronismo no kirchnerista":18772,"Socialismo y progresismo santafesino":30841,"Union Civica Radical":6889},"n":{"blancos":1779,"nulos":1528},"p":129009,"m":397},"Constitución":{"v":{"Centro progresista no peronista":1571,"Izquierda":635,"Peronismo kirchnerista":20779,"Peronismo no kirchnerista":9987,"Socialismo y progresismo santafesino":15410,"Union Civica Radical":4166},"n":{"blancos":846,"nulos":634},"p":69561,"m":206},"Garay":{"v":{"Centro progresista no peronista":203,"Izquierda":76,"Peronismo kirchnerista":5818,"Peronismo no kirchnerista":1119,"Socialismo y progresismo santafesino":3096,"Union Civica Radical":860},"n":{"blancos":184,"nulos":129},"p":15682,"m":50},"General López":{"v":{"Centro progresista no peronista":3370,"Izquierda":981,"Peronismo kirchnerista":36882,"Peronismo no kirchnerista":31255,"Socialismo y progresismo santafesino":26965,"Union Civica Radical":9572},"n":{"blancos":1671,"nulos":1060},"p":150259,"m":446},"General Obligado":{"v":{"Centro progresista no peronista":2096,"Izquierda":391,"Peronismo kirchnerista":40748,"Peronismo no kirchnerista":14069,"Socialismo y progresismo santafesino":18182,"Union Civica Radical":14441},"n":{"blancos":1617,"nulos":1344},"p":126957,"m":387},"Iriondo":{"v":{"Centro progresista no peronista":1321,"Izquierda":512,"Peronismo kirchnerista":14980,"Peronismo no kirchnerista":7776,"Socialismo y progresismo santafesino":11693,"Union Civica Radical":2616},"n":{"blancos":1005,"nulos":291},"p":52753,"m":158},"La Capital":{"v":{"Centro progresista no peronista":10730,"Izquierda":3689,"Peronismo kirchnerista":104294,"Peronismo no kirchnerista":37371,"Socialismo y progresismo santafesino":96277,"Union Civica Radical":15646},"n":{"blancos":3713,"nulos":5106},"p":389010,"m":1133},"Las Colonias":{"v":{"Centro progresista no peronista":2192,"Izquierda":524,"Peronismo kirchnerista":17111,"Peronismo no kirchnerista":12857,"Socialismo y progresismo santafesino":21321,"Union Civica Radical":4823},"n":{"blancos":1486,"nulos":806},"p":77516,"m":244},"Nueve de Julio":{"v":{"Centro progresista no peronista":435,"Izquierda":49,"Peronismo kirchnerista":7460,"Peronismo no kirchnerista":2415,"Socialismo y progresismo santafesino":3008,"Union Civica Radical":1302},"n":{"blancos":206,"nulos":180},"p":22209,"m":70},"Rosario":{"v":{"Centro progresista no peronista":22109,"Izquierda":11771,"Peronismo kirchnerista":246207,"Peronismo no kirchnerista":94945,"Socialismo y progresismo santafesino":251174,"Union Civica Radical":24888},"n":{"blancos":10139,"nulos":11381},"p":924301,"m":2680},"San Cristóbal":{"v":{"Centro progresista no peronista":867,"Izquierda":281,"Peronismo kirchnerista":16121,"Peronismo no kirchnerista":6304,"Socialismo y progresismo santafesino":7811,"Union Civica Radical":5761},"n":{"blancos":557,"nulos":350},"p":52458,"m":170},"San Javier":{"v":{"Centro progresista no peronista":390,"Izquierda":78,"Peronismo kirchnerista":8289,"Peronismo no kirchnerista":2045,"Socialismo y progresismo santafesino":3419,"Union Civica Radical":1878},"n":{"blancos":272,"nulos":200},"p":22679,"m":73},"San Jerónimo":{"v":{"Centro progresista no peronista":1231,"Izquierda":393,"Peronismo kirchnerista":19151,"Peronismo no kirchnerista":7222,"Socialismo y progresismo santafesino":14700,"Union Civica Radical":3123},"n":{"blancos":889,"nulos":566},"p":61760,"m":192},"San Justo":{"v":{"Centro progresista no peronista":808,"Izquierda":185,"Peronismo kirchnerista":8395,"Peronismo no kirchnerista":4706,"Socialismo y progresismo santafesino":6672,"Union Civica Radical":2534},"n":{"blancos":527,"nulos":264},"p":32297,"m":106},"San Lorenzo":{"v":{"Centro progresista no peronista":2769,"Izquierda":1668,"Peronismo kirchnerista":38903,"Peronismo no kirchnerista":14501,"Socialismo y progresismo santafesino":30458,"Union Civica Radical":4801},"n":{"blancos":1537,"nulos":1294},"p":123326,"m":361},"San Martín":{"v":{"Centro progresista no peronista":1366,"Izquierda":447,"Peronismo kirchnerista":12526,"Peronismo no kirchnerista":8716,"Socialismo y progresismo santafesino":10960,"Union Civica Radical":3261},"n":{"blancos":742,"nulos":492},"p":49727,"m":149},"Vera":{"v":{"Centro progresista no peronista":564,"Izquierda":134,"Peronismo kirchnerista":12841,"Peronismo no kirchnerista":3701,"Socialismo y progresismo santafesino":5470,"Union Civica Radical":2509},"n":{"blancos":405,"nulos":271},"p":38603,"m":123}},"2011-GENERAL":{"Belgrano":{"v":{"Centro progresista no peronista":413,"Izquierda":399,"Peronismo kirchnerista":9980,"Peronismo no kirchnerista":4542,"Socialismo y progresismo santafesino":8753,"Union Civica Radical":2114},"n":{"blancos":575,"nulos":75},"p":34994,"m":102},"Caseros":{"v":{"Centro progresista no peronista":972,"Izquierda":1004,"Peronismo kirchnerista":16600,"Peronismo no kirchnerista":9332,"Socialismo y progresismo santafesino":19833,"Union Civica Radical":3911},"n":{"blancos":866,"nulos":394},"p":67183,"m":202},"Castellanos":{"v":{"Centro progresista no peronista":1672,"Izquierda":1467,"Peronismo kirchnerista":37014,"Peronismo no kirchnerista":10203,"Socialismo y progresismo santafesino":40064,"Union Civica Radical":5606},"n":{"blancos":1141,"nulos":1090},"p":129009,"m":397},"Constitución":{"v":{"Centro progresista no peronista":764,"Izquierda":929,"Peronismo kirchnerista":23349,"Peronismo no kirchnerista":5967,"Socialismo y progresismo santafesino":19028,"Union Civica Radical":4146},"n":{"blancos":713,"nulos":371},"p":69561,"m":206},"Garay":{"v":{"Centro progresista no peronista":108,"Izquierda":126,"Peronismo kirchnerista":5954,"Peronismo no kirchnerista":645,"Socialismo y progresismo santafesino":3450,"Union Civica Radical":687},"n":{"blancos":148,"nulos":91},"p":15682,"m":50},"General López":{"v":{"Centro progresista no peronista":1654,"Izquierda":1376,"Peronismo kirchnerista":43431,"Peronismo no kirchnerista":18477,"Socialismo y progresismo santafesino":37458,"Union Civica Radical":8131},"n":{"blancos":1386,"nulos":745},"p":150259,"m":446},"General Obligado":{"v":{"Centro progresista no peronista":972,"Izquierda":723,"Peronismo kirchnerista":43696,"Peronismo no kirchnerista":7961,"Socialismo y progresismo santafesino":25818,"Union Civica Radical":11306},"n":{"blancos":937,"nulos":850},"p":126957,"m":387},"Iriondo":{"v":{"Centro progresista no peronista":734,"Izquierda":808,"Peronismo kirchnerista":16634,"Peronismo no kirchnerista":4617,"Socialismo y progresismo santafesino":14488,"Union Civica Radical":2618},"n":{"blancos":802,"nulos":195},"p":52753,"m":158},"La Capital":{"v":{"Centro progresista no peronista":5722,"Izquierda":5044,"Peronismo kirchnerista":119377,"Peronismo no kirchnerista":23634,"Socialismo y progresismo santafesino":110519,"Union Civica Radical":13894},"n":{"blancos":3173,"nulos":4008},"p":389010,"m":1133},"Las Colonias":{"v":{"Centro progresista no peronista":985,"Izquierda":809,"Peronismo kirchnerista":18643,"Peronismo no kirchnerista":6922,"Socialismo y progresismo santafesino":27116,"Union Civica Radical":4028},"n":{"blancos":1015,"nulos":512},"p":77516,"m":244},"Nueve de Julio":{"v":{"Centro progresista no peronista":230,"Izquierda":101,"Peronismo kirchnerista":6809,"Peronismo no kirchnerista":1238,"Socialismo y progresismo santafesino":3603,"Union Civica Radical":1213},"n":{"blancos":116,"nulos":95},"p":22209,"m":70},"Rosario":{"v":{"Centro progresista no peronista":12174,"Izquierda":13981,"Peronismo kirchnerista":288578,"Peronismo no kirchnerista":57492,"Socialismo y progresismo santafesino":294966,"Union Civica Radical":24333},"n":{"blancos":9328,"nulos":9322},"p":924301,"m":2680},"San Cristóbal":{"v":{"Centro progresista no peronista":388,"Izquierda":361,"Peronismo kirchnerista":16198,"Peronismo no kirchnerista":2946,"Socialismo y progresismo santafesino":10400,"Union Civica Radical":4446},"n":{"blancos":403,"nulos":200},"p":52458,"m":170},"San Javier":{"v":{"Centro progresista no peronista":173,"Izquierda":124,"Peronismo kirchnerista":8075,"Peronismo no kirchnerista":1230,"Socialismo y progresismo santafesino":3663,"Union Civica Radical":1497},"n":{"blancos":207,"nulos":146},"p":22679,"m":73},"San Jerónimo":{"v":{"Centro progresista no peronista":618,"Izquierda":620,"Peronismo kirchnerista":21015,"Peronismo no kirchnerista":4094,"Socialismo y progresismo santafesino":17585,"Union Civica Radical":2769},"n":{"blancos":657,"nulos":363},"p":61760,"m":192},"San Justo":{"v":{"Centro progresista no peronista":320,"Izquierda":425,"Peronismo kirchnerista":8583,"Peronismo no kirchnerista":2310,"Socialismo y progresismo santafesino":8452,"Union Civica Radical":1876},"n":{"blancos":374,"nulos":154},"p":32297,"m":106},"San Lorenzo":{"v":{"Centro progresista no peronista":1363,"Izquierda":1940,"Peronismo kirchnerista":43419,"Peronismo no kirchnerista":8685,"Socialismo y progresismo santafesino":35370,"Union Civica Radical":4898},"n":{"blancos":1267,"nulos":955},"p":123326,"m":361},"San Martín":{"v":{"Centro progresista no peronista":623,"Izquierda":664,"Peronismo kirchnerista":14037,"Peronismo no kirchnerista":4724,"Socialismo y progresismo santafesino":14829,"Union Civica Radical":2787},"n":{"blancos":557,"nulos":364},"p":49727,"m":149},"Vera":{"v":{"Centro progresista no peronista":292,"Izquierda":229,"Peronismo kirchnerista":12164,"Peronismo no kirchnerista":1920,"Socialismo y progresismo santafesino":6028,"Union Civica Radical":1961},"n":{"blancos":315,"nulos":146},"p":38603,"m":123}},"2015-PASO":{"Belgrano":{"v":{"Cambiemos":8987,"Izquierda":399,"Otros":83,"Peronismo kirchnerista":6808,"Peronismo no kirchnerista":6514,"Socialismo y progresismo santafesino":1217},"n":{"blancos":1296,"nulos":155},"p":37827,"m":111},"Caseros":{"v":{"Cambiemos":17666,"Izquierda":1165,"Otros":145,"Peronismo kirchnerista":10569,"Peronismo no kirchnerista":13877,"Socialismo y progresismo santafesino":2663},"n":{"blancos":2204,"nulos":676},"p":71026,"m":213},"Castellanos":{"v":{"Cambiemos":35928,"Izquierda":1799,"Otros":357,"Peronismo kirchnerista":23859,"Peronismo no kirchnerista":23907,"Socialismo y progresismo santafesino":4837},"n":{"blancos":3897,"nulos":1627},"p":143725,"m":436},"Constitución":{"v":{"Cambiemos":14780,"Izquierda":1262,"Otros":168,"Peronismo kirchnerista":17537,"Peronismo no kirchnerista":13088,"Socialismo y progresismo santafesino":2528},"n":{"blancos":2624,"nulos":935},"p":73536,"m":217},"Garay":{"v":{"Cambiemos":3019,"Izquierda":162,"Otros":57,"Peronismo kirchnerista":5304,"Peronismo no kirchnerista":2156,"Socialismo y progresismo santafesino":381},"n":{"blancos":849,"nulos":230},"p":17986,"m":56},"General López":{"v":{"Cambiemos":37438,"Izquierda":2084,"Otros":336,"Peronismo kirchnerista":29219,"Peronismo no kirchnerista":29081,"Socialismo y progresismo santafesino":4740},"n":{"blancos":4355,"nulos":1293},"p":162428,"m":477},"General Obligado":{"v":{"Cambiemos":31064,"Izquierda":1503,"Otros":711,"Peronismo kirchnerista":37553,"Peronismo no kirchnerista":17193,"Socialismo y progresismo santafesino":2690},"n":{"blancos":5179,"nulos":1877},"p":141389,"m":427},"Iriondo":{"v":{"Cambiemos":12048,"Izquierda":866,"Otros":157,"Peronismo kirchnerista":11693,"Peronismo no kirchnerista":9971,"Socialismo y progresismo santafesino":2062},"n":{"blancos":2216,"nulos":487},"p":57200,"m":170},"La Capital":{"v":{"Cambiemos":80441,"Izquierda":8326,"Otros":1427,"Peronismo kirchnerista":93904,"Peronismo no kirchnerista":66423,"Socialismo y progresismo santafesino":19039},"n":{"blancos":14856,"nulos":7823},"p":427886,"m":1240},"Las Colonias":{"v":{"Cambiemos":23717,"Izquierda":1150,"Otros":319,"Peronismo kirchnerista":13515,"Peronismo no kirchnerista":15766,"Socialismo y progresismo santafesino":2533},"n":{"blancos":4218,"nulos":1112},"p":85119,"m":265},"Nueve de Julio":{"v":{"Cambiemos":5251,"Izquierda":254,"Otros":203,"Peronismo kirchnerista":5904,"Peronismo no kirchnerista":2899,"Socialismo y progresismo santafesino":604},"n":{"blancos":807,"nulos":267},"p":24760,"m":76},"Rosario":{"v":{"Cambiemos":177857,"Izquierda":25096,"Otros":2417,"Peronismo kirchnerista":199945,"Peronismo no kirchnerista":157661,"Socialismo y progresismo santafesino":47281},"n":{"blancos":35776,"nulos":17550},"p":1023227,"m":2964},"San Cristóbal":{"v":{"Cambiemos":12223,"Izquierda":473,"Otros":190,"Peronismo kirchnerista":12412,"Peronismo no kirchnerista":7415,"Socialismo y progresismo santafesino":1322},"n":{"blancos":2198,"nulos":500},"p":56949,"m":180},"San Javier":{"v":{"Cambiemos":4479,"Izquierda":191,"Otros":75,"Peronismo kirchnerista":6855,"Peronismo no kirchnerista":2411,"Socialismo y progresismo santafesino":558},"n":{"blancos":1168,"nulos":271},"p":26017,"m":83},"San Jerónimo":{"v":{"Cambiemos":13179,"Izquierda":767,"Otros":181,"Peronismo kirchnerista":14935,"Peronismo no kirchnerista":10242,"Socialismo y progresismo santafesino":2119},"n":{"blancos":2620,"nulos":674},"p":67202,"m":204},"San Justo":{"v":{"Cambiemos":7805,"Izquierda":384,"Otros":118,"Peronismo kirchnerista":7385,"Peronismo no kirchnerista":5121,"Socialismo y progresismo santafesino":1363},"n":{"blancos":1606,"nulos":425},"p":35414,"m":115},"San Lorenzo":{"v":{"Cambiemos":24400,"Izquierda":2675,"Otros":230,"Peronismo kirchnerista":30791,"Peronismo no kirchnerista":25565,"Socialismo y progresismo santafesino":4609},"n":{"blancos":4873,"nulos":1721},"p":138938,"m":403},"San Martín":{"v":{"Cambiemos":12972,"Izquierda":656,"Otros":183,"Peronismo kirchnerista":8340,"Peronismo no kirchnerista":10059,"Socialismo y progresismo santafesino":1532},"n":{"blancos":1774,"nulos":594},"p":53504,"m":160},"Vera":{"v":{"Cambiemos":7414,"Izquierda":413,"Otros":103,"Peronismo kirchnerista":11337,"Peronismo no kirchnerista":4732,"Socialismo y progresismo santafesino":817},"n":{"blancos":1511,"nulos":490},"p":42928,"m":137}},"2015-GENERAL":{"Belgrano":{"v":{"Cambiemos":13061,"Izquierda":468,"Peronismo kirchnerista":8126,"Peronismo no kirchnerista":6790,"Socialismo y progresismo santafesino":1021},"n":{"blancos":774,"nulos":124},"p":37827,"m":111},"Caseros":{"v":{"Cambiemos":23932,"Izquierda":1471,"Peronismo kirchnerista":12710,"Peronismo no kirchnerista":14602,"Socialismo y progresismo santafesino":2276},"n":{"blancos":1288,"nulos":448},"p":71026,"m":213},"Castellanos":{"v":{"Cambiemos":50559,"Izquierda":2155,"Peronismo kirchnerista":28109,"Peronismo no kirchnerista":26874,"Socialismo y progresismo santafesino":3617},"n":{"blancos":2388,"nulos":1032},"p":143725,"m":436},"Constitución":{"v":{"Cambiemos":18403,"Izquierda":1633,"Peronismo kirchnerista":19999,"Peronismo no kirchnerista":15453,"Socialismo y progresismo santafesino":2107},"n":{"blancos":1431,"nulos":425},"p":73536,"m":217},"Garay":{"v":{"Cambiemos":3578,"Izquierda":187,"Peronismo kirchnerista":5715,"Peronismo no kirchnerista":2681,"Socialismo y progresismo santafesino":375},"n":{"blancos":563,"nulos":152},"p":17986,"m":56},"General López":{"v":{"Cambiemos":51626,"Izquierda":2596,"Peronismo kirchnerista":33853,"Peronismo no kirchnerista":31819,"Socialismo y progresismo santafesino":3764},"n":{"blancos":2601,"nulos":826},"p":162428,"m":477},"General Obligado":{"v":{"Cambiemos":40160,"Izquierda":1418,"Peronismo kirchnerista":41833,"Peronismo no kirchnerista":18924,"Socialismo y progresismo santafesino":2248},"n":{"blancos":2570,"nulos":894},"p":141389,"m":427},"Iriondo":{"v":{"Cambiemos":15803,"Izquierda":1046,"Peronismo kirchnerista":13535,"Peronismo no kirchnerista":11202,"Socialismo y progresismo santafesino":1867},"n":{"blancos":1429,"nulos":187},"p":57200,"m":170},"La Capital":{"v":{"Cambiemos":102904,"Izquierda":8093,"Peronismo kirchnerista":103847,"Peronismo no kirchnerista":82041,"Socialismo y progresismo santafesino":15241},"n":{"blancos":7873,"nulos":4646},"p":427886,"m":1240},"Las Colonias":{"v":{"Cambiemos":31768,"Izquierda":897,"Peronismo kirchnerista":14685,"Peronismo no kirchnerista":16573,"Socialismo y progresismo santafesino":2198},"n":{"blancos":1929,"nulos":524},"p":85119,"m":265},"Nueve de Julio":{"v":{"Cambiemos":7040,"Izquierda":155,"Peronismo kirchnerista":6623,"Peronismo no kirchnerista":3330,"Socialismo y progresismo santafesino":470},"n":{"blancos":473,"nulos":139},"p":24760,"m":76},"Rosario":{"v":{"Cambiemos":237692,"Izquierda":28032,"Peronismo kirchnerista":244461,"Peronismo no kirchnerista":221015,"Socialismo y progresismo santafesino":34175},"n":{"blancos":20783,"nulos":11190},"p":1023227,"m":2964},"San Cristóbal":{"v":{"Cambiemos":16900,"Izquierda":509,"Peronismo kirchnerista":14171,"Peronismo no kirchnerista":8794,"Socialismo y progresismo santafesino":1210},"n":{"blancos":1320,"nulos":253},"p":56949,"m":180},"San Javier":{"v":{"Cambiemos":6504,"Izquierda":216,"Peronismo kirchnerista":8304,"Peronismo no kirchnerista":3187,"Socialismo y progresismo santafesino":470},"n":{"blancos":674,"nulos":171},"p":26017,"m":83},"San Jerónimo":{"v":{"Cambiemos":17769,"Izquierda":959,"Peronismo kirchnerista":17524,"Peronismo no kirchnerista":12428,"Socialismo y progresismo santafesino":1780},"n":{"blancos":1670,"nulos":397},"p":67202,"m":204},"San Justo":{"v":{"Cambiemos":11134,"Izquierda":387,"Peronismo kirchnerista":8334,"Peronismo no kirchnerista":5396,"Socialismo y progresismo santafesino":862},"n":{"blancos":775,"nulos":214},"p":35414,"m":115},"San Lorenzo":{"v":{"Cambiemos":33569,"Izquierda":2625,"Peronismo kirchnerista":35223,"Peronismo no kirchnerista":32286,"Socialismo y progresismo santafesino":3737},"n":{"blancos":2849,"nulos":1119},"p":138938,"m":403},"San Martín":{"v":{"Cambiemos":17799,"Izquierda":737,"Peronismo kirchnerista":10101,"Peronismo no kirchnerista":10787,"Socialismo y progresismo santafesino":1439},"n":{"blancos":964,"nulos":447},"p":53504,"m":160},"Vera":{"v":{"Cambiemos":10256,"Izquierda":360,"Peronismo kirchnerista":12824,"Peronismo no kirchnerista":5632,"Socialismo y progresismo santafesino":727},"n":{"blancos":948,"nulos":209},"p":42928,"m":137}},"2015-BALOTAJE":{"Belgrano":{"v":{"Cambiemos":19711,"Peronismo kirchnerista":9963},"n":{"blancos":666,"nulos":168},"p":37827,"m":111},"Caseros":{"v":{"Cambiemos":37297,"Peronismo kirchnerista":18171},"n":{"blancos":1086,"nulos":770},"p":71026,"m":213},"Castellanos":{"v":{"Cambiemos":74784,"Peronismo kirchnerista":37065},"n":{"blancos":1371,"nulos":1593},"p":143725,"m":436},"Constitución":{"v":{"Cambiemos":30653,"Peronismo kirchnerista":27714},"n":{"blancos":1026,"nulos":677},"p":73536,"m":217},"Garay":{"v":{"Cambiemos":6303,"Peronismo kirchnerista":6801},"n":{"blancos":146,"nulos":160},"p":17986,"m":56},"General López":{"v":{"Cambiemos":77965,"Peronismo kirchnerista":47355},"n":{"blancos":1764,"nulos":1272},"p":162428,"m":477},"General Obligado":{"v":{"Cambiemos":57929,"Peronismo kirchnerista":52212},"n":{"blancos":614,"nulos":964},"p":141389,"m":427},"Iriondo":{"v":{"Cambiemos":25352,"Peronismo kirchnerista":18652},"n":{"blancos":1003,"nulos":385},"p":57200,"m":170},"La Capital":{"v":{"Cambiemos":169650,"Peronismo kirchnerista":145406},"n":{"blancos":4044,"nulos":5977},"p":427886,"m":1240},"Las Colonias":{"v":{"Cambiemos":47037,"Peronismo kirchnerista":20099},"n":{"blancos":881,"nulos":911},"p":85119,"m":265},"Nueve de Julio":{"v":{"Cambiemos":9979,"Peronismo kirchnerista":7979},"n":{"blancos":92,"nulos":134},"p":24760,"m":76},"Rosario":{"v":{"Cambiemos":400761,"Peronismo kirchnerista":372468},"n":{"blancos":13185,"nulos":17263},"p":1023227,"m":2964},"San Cristóbal":{"v":{"Cambiemos":24703,"Peronismo kirchnerista":17745},"n":{"blancos":430,"nulos":305},"p":56949,"m":180},"San Javier":{"v":{"Cambiemos":9687,"Peronismo kirchnerista":9426},"n":{"blancos":182,"nulos":233},"p":26017,"m":83},"San Jerónimo":{"v":{"Cambiemos":28563,"Peronismo kirchnerista":22871},"n":{"blancos":768,"nulos":536},"p":67202,"m":204},"San Justo":{"v":{"Cambiemos":16491,"Peronismo kirchnerista":10191},"n":{"blancos":305,"nulos":287},"p":35414,"m":115},"San Lorenzo":{"v":{"Cambiemos":58070,"Peronismo kirchnerista":50738},"n":{"blancos":1674,"nulos":1770},"p":138938,"m":403},"San Martín":{"v":{"Cambiemos":27133,"Peronismo kirchnerista":13840},"n":{"blancos":531,"nulos":585},"p":53504,"m":160},"Vera":{"v":{"Cambiemos":15640,"Peronismo kirchnerista":15504},"n":{"blancos":224,"nulos":229},"p":42928,"m":137}},"2019-PASO":{"Belgrano":{"v":{"Cambiemos":12017,"Derecha libertaria":714,"Derecha nacionalista":932,"Izquierda":580,"Otros":111,"Peronismo kirchnerista":10147,"Peronismo no kirchnerista":3549},"n":{"blancos":551,"nulos":640},"p":38665,"m":114},"Caseros":{"v":{"Cambiemos":21662,"Derecha libertaria":1715,"Derecha nacionalista":1177,"Izquierda":1514,"Otros":155,"Peronismo kirchnerista":18272,"Peronismo no kirchnerista":7171},"n":{"blancos":1171,"nulos":1277},"p":71892,"m":216},"Castellanos":{"v":{"Cambiemos":52779,"Derecha libertaria":2780,"Derecha nacionalista":3602,"Izquierda":2054,"Otros":247,"Peronismo kirchnerista":34775,"Peronismo no kirchnerista":10329},"n":{"blancos":1502,"nulos":2470},"p":147896,"m":451},"Constitución":{"v":{"Cambiemos":18251,"Derecha libertaria":1729,"Derecha nacionalista":1625,"Izquierda":1748,"Otros":181,"Peronismo kirchnerista":25972,"Peronismo no kirchnerista":6513},"n":{"blancos":959,"nulos":1239},"p":74998,"m":222},"Garay":{"v":{"Cambiemos":3992,"Derecha libertaria":197,"Derecha nacionalista":211,"Izquierda":179,"Otros":43,"Peronismo kirchnerista":6934,"Peronismo no kirchnerista":1230},"n":{"blancos":211,"nulos":442},"p":19237,"m":59},"General López":{"v":{"Cambiemos":48443,"Derecha libertaria":3322,"Derecha nacionalista":3646,"Izquierda":2833,"Otros":229,"Peronismo kirchnerista":45598,"Peronismo no kirchnerista":12948},"n":{"blancos":2012,"nulos":2110},"p":164971,"m":488},"General Obligado":{"v":{"Cambiemos":37829,"Derecha libertaria":2525,"Derecha nacionalista":2669,"Izquierda":1481,"Otros":373,"Peronismo kirchnerista":52498,"Peronismo no kirchnerista":8254},"n":{"blancos":1365,"nulos":2690},"p":149342,"m":451},"Iriondo":{"v":{"Cambiemos":15228,"Derecha libertaria":1245,"Derecha nacionalista":1441,"Izquierda":1069,"Otros":132,"Peronismo kirchnerista":17956,"Peronismo no kirchnerista":5265},"n":{"blancos":926,"nulos":957},"p":58492,"m":173},"La Capital":{"v":{"Cambiemos":107407,"Derecha libertaria":9871,"Derecha nacionalista":11725,"Izquierda":7276,"Otros":1193,"Peronismo kirchnerista":131336,"Peronismo no kirchnerista":38226},"n":{"blancos":3851,"nulos":8155},"p":444597,"m":1289},"Las Colonias":{"v":{"Cambiemos":32223,"Derecha libertaria":2293,"Derecha nacionalista":2155,"Izquierda":1088,"Otros":213,"Peronismo kirchnerista":18744,"Peronismo no kirchnerista":8249},"n":{"blancos":1209,"nulos":1746},"p":88607,"m":275},"Nueve de Julio":{"v":{"Cambiemos":6444,"Derecha libertaria":227,"Derecha nacionalista":988,"Izquierda":155,"Otros":55,"Peronismo kirchnerista":8162,"Peronismo no kirchnerista":913},"n":{"blancos":261,"nulos":368},"p":25816,"m":80},"Rosario":{"v":{"Cambiemos":211372,"Derecha libertaria":24165,"Derecha nacionalista":24504,"Izquierda":23266,"Otros":1358,"Peronismo kirchnerista":361401,"Peronismo no kirchnerista":105176},"n":{"blancos":9877,"nulos":18011},"p":1040840,"m":3019},"San Cristóbal":{"v":{"Cambiemos":15777,"Derecha libertaria":655,"Derecha nacionalista":707,"Izquierda":575,"Otros":112,"Peronismo kirchnerista":17179,"Peronismo no kirchnerista":3793},"n":{"blancos":616,"nulos":792},"p":58769,"m":186},"San Javier":{"v":{"Cambiemos":5929,"Derecha libertaria":303,"Derecha nacionalista":220,"Izquierda":260,"Otros":63,"Peronismo kirchnerista":9406,"Peronismo no kirchnerista":1149},"n":{"blancos":291,"nulos":432},"p":26994,"m":86},"San Jerónimo":{"v":{"Cambiemos":17298,"Derecha libertaria":1467,"Derecha nacionalista":1375,"Izquierda":860,"Otros":172,"Peronismo kirchnerista":22189,"Peronismo no kirchnerista":5629},"n":{"blancos":813,"nulos":1294},"p":68955,"m":210},"San Justo":{"v":{"Cambiemos":11265,"Derecha libertaria":543,"Derecha nacionalista":542,"Izquierda":385,"Otros":113,"Peronismo kirchnerista":10242,"Peronismo no kirchnerista":2598},"n":{"blancos":351,"nulos":688},"p":36524,"m":118},"San Lorenzo":{"v":{"Cambiemos":30292,"Derecha libertaria":3405,"Derecha nacionalista":4924,"Izquierda":2893,"Otros":228,"Peronismo kirchnerista":53103,"Peronismo no kirchnerista":15130},"n":{"blancos":1650,"nulos":2805},"p":148410,"m":432},"San Martín":{"v":{"Cambiemos":17521,"Derecha libertaria":1085,"Derecha nacionalista":1171,"Izquierda":812,"Otros":144,"Peronismo kirchnerista":13435,"Peronismo no kirchnerista":4489},"n":{"blancos":657,"nulos":1146},"p":54289,"m":162},"Vera":{"v":{"Cambiemos":9441,"Derecha libertaria":446,"Derecha nacionalista":510,"Izquierda":322,"Otros":103,"Peronismo kirchnerista":16146,"Peronismo no kirchnerista":2189},"n":{"blancos":413,"nulos":863},"p":45065,"m":144}},"2019-GENERAL":{"Belgrano":{"v":{"Cambiemos":15911,"Derecha libertaria":403,"Derecha nacionalista":510,"Izquierda":313,"Peronismo kirchnerista":10730,"Peronismo no kirchnerista":2729},"n":{"blancos":299,"nulos":337},"p":38665,"m":114},"Caseros":{"v":{"Cambiemos":28882,"Derecha libertaria":1135,"Derecha nacionalista":647,"Izquierda":912,"Peronismo kirchnerista":19432,"Peronismo no kirchnerista":5503},"n":{"blancos":541,"nulos":685},"p":71892,"m":216},"Castellanos":{"v":{"Cambiemos":68880,"Derecha libertaria":1823,"Derecha nacionalista":1728,"Izquierda":1139,"Peronismo kirchnerista":36241,"Peronismo no kirchnerista":7589},"n":{"blancos":670,"nulos":1414},"p":147896,"m":451},"Constitución":{"v":{"Cambiemos":24368,"Derecha libertaria":1206,"Derecha nacionalista":943,"Izquierda":1070,"Peronismo kirchnerista":27071,"Peronismo no kirchnerista":5356},"n":{"blancos":521,"nulos":755},"p":74998,"m":222},"Garay":{"v":{"Cambiemos":5747,"Derecha libertaria":141,"Derecha nacionalista":89,"Izquierda":127,"Peronismo kirchnerista":7079,"Peronismo no kirchnerista":899},"n":{"blancos":137,"nulos":228},"p":19237,"m":59},"General López":{"v":{"Cambiemos":64177,"Derecha libertaria":2264,"Derecha nacionalista":1846,"Izquierda":1818,"Peronismo kirchnerista":48667,"Peronismo no kirchnerista":10258},"n":{"blancos":949,"nulos":1435},"p":164971,"m":488},"General Obligado":{"v":{"Cambiemos":52540,"Derecha libertaria":1533,"Derecha nacionalista":1213,"Izquierda":926,"Peronismo kirchnerista":55481,"Peronismo no kirchnerista":5936},"n":{"blancos":546,"nulos":1301},"p":149342,"m":451},"Iriondo":{"v":{"Cambiemos":20440,"Derecha libertaria":860,"Derecha nacionalista":780,"Izquierda":669,"Peronismo kirchnerista":18663,"Peronismo no kirchnerista":4439},"n":{"blancos":424,"nulos":561},"p":58492,"m":173},"La Capital":{"v":{"Cambiemos":149834,"Derecha libertaria":7723,"Derecha nacionalista":6042,"Izquierda":4596,"Peronismo kirchnerista":139828,"Peronismo no kirchnerista":30680},"n":{"blancos":1798,"nulos":4954},"p":444597,"m":1289},"Las Colonias":{"v":{"Cambiemos":44149,"Derecha libertaria":1238,"Derecha nacionalista":886,"Izquierda":572,"Peronismo kirchnerista":19146,"Peronismo no kirchnerista":5431},"n":{"blancos":513,"nulos":930},"p":88607,"m":275},"Nueve de Julio":{"v":{"Cambiemos":8929,"Derecha libertaria":162,"Derecha nacionalista":409,"Izquierda":118,"Peronismo kirchnerista":8331,"Peronismo no kirchnerista":795},"n":{"blancos":102,"nulos":206},"p":25816,"m":80},"Rosario":{"v":{"Cambiemos":303231,"Derecha libertaria":16284,"Derecha nacionalista":12904,"Izquierda":14657,"Peronismo kirchnerista":378723,"Peronismo no kirchnerista":86111},"n":{"blancos":5314,"nulos":11961},"p":1041190,"m":3020},"San Cristóbal":{"v":{"Cambiemos":21475,"Derecha libertaria":522,"Derecha nacionalista":397,"Izquierda":342,"Peronismo kirchnerista":18756,"Peronismo no kirchnerista":2608},"n":{"blancos":329,"nulos":478},"p":58769,"m":186},"San Javier":{"v":{"Cambiemos":8305,"Derecha libertaria":185,"Derecha nacionalista":152,"Izquierda":177,"Peronismo kirchnerista":10463,"Peronismo no kirchnerista":923},"n":{"blancos":164,"nulos":284},"p":26994,"m":86},"San Jerónimo":{"v":{"Cambiemos":23344,"Derecha libertaria":1001,"Derecha nacionalista":773,"Izquierda":575,"Peronismo kirchnerista":23487,"Peronismo no kirchnerista":4354},"n":{"blancos":407,"nulos":637},"p":68955,"m":210},"San Justo":{"v":{"Cambiemos":14693,"Derecha libertaria":405,"Derecha nacionalista":308,"Izquierda":232,"Peronismo kirchnerista":10693,"Peronismo no kirchnerista":1892},"n":{"blancos":157,"nulos":397},"p":36524,"m":118},"San Lorenzo":{"v":{"Cambiemos":44450,"Derecha libertaria":2390,"Derecha nacionalista":2619,"Izquierda":1840,"Peronismo kirchnerista":54443,"Peronismo no kirchnerista":12798},"n":{"blancos":741,"nulos":1789},"p":148410,"m":432},"San Martín":{"v":{"Cambiemos":22578,"Derecha libertaria":715,"Derecha nacionalista":693,"Izquierda":491,"Peronismo kirchnerista":14351,"Peronismo no kirchnerista":3596},"n":{"blancos":274,"nulos":732},"p":54289,"m":162},"Vera":{"v":{"Cambiemos":12934,"Derecha libertaria":325,"Derecha nacionalista":266,"Izquierda":231,"Peronismo kirchnerista":17538,"Peronismo no kirchnerista":1605},"n":{"blancos":180,"nulos":396},"p":45065,"m":144}},"2023-PASO":{"Belgrano":{"v":{"Cambiemos":8630,"Centroderecha liberal":47,"Centroizquierda no peronista":46,"Derecha libertaria":10596,"Derecha nacionalista":48,"Izquierda":481,"Otros":53,"Peronismo kirchnerista":3994,"Peronismo no kirchnerista":2399},"n":{"blancos":1036,"nulos":387,"comando":14},"p":39428,"m":115},"Caseros":{"v":{"Cambiemos":16973,"Centroderecha liberal":78,"Centroizquierda no peronista":114,"Derecha libertaria":16929,"Derecha nacionalista":89,"Izquierda":988,"Otros":197,"Peronismo kirchnerista":7397,"Peronismo no kirchnerista":3635},"n":{"blancos":2251,"nulos":1054,"impugnados":10,"recurridos":4,"comando":29},"p":72338,"m":214},"Castellanos":{"v":{"Cambiemos":36144,"Centroderecha liberal":1,"Centroizquierda no peronista":189,"Derecha libertaria":36592,"Derecha nacionalista":7,"Izquierda":1584,"Otros":330,"Peronismo kirchnerista":14386,"Peronismo no kirchnerista":9337},"n":{"blancos":3401,"nulos":2224,"impugnados":2,"recurridos":4,"comando":64},"p":150951,"m":459},"Constitución":{"v":{"Cambiemos":16798,"Centroderecha liberal":118,"Centroizquierda no peronista":123,"Derecha libertaria":17707,"Derecha nacionalista":82,"Izquierda":1509,"Otros":167,"Peronismo kirchnerista":11971,"Peronismo no kirchnerista":3041},"n":{"blancos":2234,"nulos":1474,"impugnados":2,"recurridos":5,"comando":35},"p":76806,"m":228},"Garay":{"v":{"Cambiemos":3381,"Centroderecha liberal":23,"Centroizquierda no peronista":19,"Derecha libertaria":4924,"Derecha nacionalista":14,"Izquierda":178,"Otros":79,"Peronismo kirchnerista":2914,"Peronismo no kirchnerista":317},"n":{"blancos":519,"nulos":311,"comando":13},"p":19909,"m":62},"General López":{"v":{"Cambiemos":38511,"Centroderecha liberal":163,"Centroizquierda no peronista":229,"Derecha libertaria":43130,"Derecha nacionalista":135,"Izquierda":1920,"Otros":368,"Peronismo kirchnerista":16939,"Peronismo no kirchnerista":6837},"n":{"blancos":3696,"nulos":2075,"recurridos":1,"comando":83},"p":166983,"m":494},"General Obligado":{"v":{"Cambiemos":29655,"Centroderecha liberal":124,"Centroizquierda no peronista":343,"Derecha libertaria":37073,"Derecha nacionalista":194,"Izquierda":1782,"Otros":371,"Peronismo kirchnerista":22634,"Peronismo no kirchnerista":3791},"n":{"blancos":3901,"nulos":2274,"impugnados":8,"recurridos":4,"comando":77},"p":154178,"m":464},"Iriondo":{"v":{"Cambiemos":12559,"Centroderecha liberal":74,"Centroizquierda no peronista":110,"Derecha libertaria":15703,"Derecha nacionalista":86,"Izquierda":929,"Otros":142,"Peronismo kirchnerista":7384,"Peronismo no kirchnerista":3009},"n":{"blancos":1817,"nulos":817,"comando":33},"p":59844,"m":179},"La Capital":{"v":{"Cambiemos":96335,"Centroderecha liberal":131,"Centroizquierda no peronista":893,"Derecha libertaria":102896,"Derecha nacionalista":453,"Izquierda":7154,"Otros":1953,"Peronismo kirchnerista":63690,"Peronismo no kirchnerista":12610},"n":{"blancos":8497,"nulos":8059,"impugnados":52,"recurridos":84,"comando":33},"p":457995,"m":1330},"Las Colonias":{"v":{"Cambiemos":22325,"Centroizquierda no peronista":133,"Derecha libertaria":26533,"Izquierda":941,"Otros":309,"Peronismo kirchnerista":7804,"Peronismo no kirchnerista":3176},"n":{"blancos":2403,"nulos":1271,"comando":95},"p":91062,"m":282},"Nueve de Julio":{"v":{"Cambiemos":4246,"Centroderecha liberal":10,"Centroizquierda no peronista":44,"Derecha libertaria":7421,"Derecha nacionalista":6,"Izquierda":205,"Otros":95,"Peronismo kirchnerista":3609,"Peronismo no kirchnerista":568},"n":{"blancos":691,"nulos":331,"comando":8},"p":26821,"m":82},"Rosario":{"v":{"Cambiemos":206688,"Centroderecha liberal":28,"Centroizquierda no peronista":2510,"Derecha libertaria":214942,"Derecha nacionalista":958,"Izquierda":23421,"Otros":2634,"Peronismo kirchnerista":164011,"Peronismo no kirchnerista":28275},"n":{"blancos":23266,"nulos":20448,"impugnados":103,"recurridos":88,"comando":445},"p":1056533,"m":3050},"San Cristóbal":{"v":{"Cambiemos":11679,"Centroizquierda no peronista":67,"Derecha libertaria":13018,"Derecha nacionalista":2,"Izquierda":605,"Otros":137,"Peronismo kirchnerista":6703,"Peronismo no kirchnerista":2613},"n":{"blancos":1506,"nulos":667,"recurridos":1,"comando":59},"p":60559,"m":189},"San Javier":{"v":{"Cambiemos":4498,"Centroderecha liberal":31,"Centroizquierda no peronista":17,"Derecha libertaria":5457,"Derecha nacionalista":25,"Izquierda":189,"Otros":99,"Peronismo kirchnerista":4793,"Peronismo no kirchnerista":526},"n":{"blancos":670,"nulos":420,"impugnados":5,"comando":7},"p":27930,"m":89},"San Jerónimo":{"v":{"Cambiemos":14924,"Centroderecha liberal":90,"Centroizquierda no peronista":88,"Derecha libertaria":16850,"Derecha nacionalista":69,"Izquierda":874,"Otros":317,"Peronismo kirchnerista":9260,"Peronismo no kirchnerista":2557},"n":{"blancos":1936,"nulos":998,"recurridos":3,"comando":62},"p":70210,"m":211},"San Justo":{"v":{"Cambiemos":8780,"Centroizquierda no peronista":134,"Derecha libertaria":9107,"Izquierda":335,"Otros":145,"Peronismo kirchnerista":4226,"Peronismo no kirchnerista":1251},"n":{"blancos":948,"nulos":514,"recurridos":1,"comando":2},"p":37293,"m":117},"San Lorenzo":{"v":{"Cambiemos":28503,"Centroderecha liberal":205,"Centroizquierda no peronista":284,"Derecha libertaria":43227,"Derecha nacionalista":172,"Izquierda":2648,"Otros":468,"Peronismo kirchnerista":22658,"Peronismo no kirchnerista":5593},"n":{"blancos":3698,"nulos":2751,"impugnados":5,"recurridos":2,"comando":42},"p":157360,"m":455},"San Martín":{"v":{"Cambiemos":11930,"Centroderecha liberal":70,"Centroizquierda no peronista":189,"Derecha libertaria":14829,"Derecha nacionalista":52,"Izquierda":525,"Otros":186,"Peronismo kirchnerista":4940,"Peronismo no kirchnerista":3275},"n":{"blancos":1419,"nulos":920,"comando":32},"p":55164,"m":165},"Vera":{"v":{"Cambiemos":7308,"Centroderecha liberal":25,"Centroizquierda no peronista":74,"Derecha libertaria":9381,"Derecha nacionalista":14,"Izquierda":402,"Otros":172,"Peronismo kirchnerista":7552,"Peronismo no kirchnerista":1060},"n":{"blancos":1393,"nulos":634,"comando":27},"p":46430,"m":147}},"2023-GENERAL":{"Belgrano":{"v":{"Cambiemos":8272,"Derecha libertaria":10957,"Izquierda":333,"Peronismo kirchnerista":6038,"Peronismo no kirchnerista":4093},"n":{"blancos":354,"nulos":253,"recurridos":2},"p":39428,"m":115},"Caseros":{"v":{"Cambiemos":15939,"Derecha libertaria":18238,"Izquierda":899,"Peronismo kirchnerista":11612,"Peronismo no kirchnerista":7131},"n":{"blancos":587,"nulos":552,"impugnados":8,"comando":13},"p":72338,"m":214},"Castellanos":{"v":{"Cambiemos":33085,"Derecha libertaria":39564,"Izquierda":1350,"Peronismo kirchnerista":21353,"Peronismo no kirchnerista":16537},"n":{"blancos":933,"nulos":1106,"impugnados":3,"recurridos":4,"comando":53},"p":150951,"m":459},"Constitución":{"v":{"Cambiemos":14256,"Derecha libertaria":17747,"Izquierda":1229,"Peronismo kirchnerista":18339,"Peronismo no kirchnerista":6378},"n":{"blancos":599,"nulos":635,"impugnados":2,"recurridos":1,"comando":24},"p":76806,"m":228},"Garay":{"v":{"Cambiemos":3381,"Derecha libertaria":4827,"Izquierda":133,"Peronismo kirchnerista":4314,"Peronismo no kirchnerista":716},"n":{"blancos":118,"nulos":141,"comando":9},"p":19909,"m":62},"General López":{"v":{"Cambiemos":36915,"Derecha libertaria":44550,"Izquierda":1856,"Peronismo kirchnerista":26609,"Peronismo no kirchnerista":13354},"n":{"blancos":1193,"nulos":1165,"impugnados":4,"recurridos":1,"comando":7},"p":166983,"m":494},"General Obligado":{"v":{"Cambiemos":27734,"Derecha libertaria":38440,"Izquierda":1185,"Peronismo kirchnerista":36272,"Peronismo no kirchnerista":8056},"n":{"blancos":859,"nulos":1064,"recurridos":1,"comando":51},"p":154178,"m":464},"Iriondo":{"v":{"Cambiemos":11564,"Derecha libertaria":15749,"Izquierda":744,"Peronismo kirchnerista":11021,"Peronismo no kirchnerista":5710},"n":{"blancos":507,"nulos":421},"p":59844,"m":179},"La Capital":{"v":{"Cambiemos":85542,"Derecha libertaria":97083,"Izquierda":5661,"Peronismo kirchnerista":94217,"Peronismo no kirchnerista":25068},"n":{"blancos":2615,"nulos":4075,"impugnados":16,"recurridos":49,"comando":190},"p":457995,"m":1330},"Las Colonias":{"v":{"Cambiemos":20094,"Derecha libertaria":28144,"Izquierda":766,"Peronismo kirchnerista":11560,"Peronismo no kirchnerista":6852},"n":{"blancos":655,"nulos":690,"recurridos":8,"comando":40},"p":91062,"m":282},"Nueve de Julio":{"v":{"Cambiemos":4029,"Derecha libertaria":7342,"Izquierda":172,"Peronismo kirchnerista":5278,"Peronismo no kirchnerista":1130},"n":{"blancos":142,"nulos":119,"recurridos":5,"comando":9},"p":26821,"m":82},"Rosario":{"v":{"Cambiemos":203995,"Derecha libertaria":219820,"Izquierda":19504,"Peronismo kirchnerista":262897,"Peronismo no kirchnerista":54449},"n":{"blancos":7157,"nulos":11072,"impugnados":31,"recurridos":79,"comando":392},"p":1056533,"m":3050},"San Cristóbal":{"v":{"Cambiemos":10545,"Derecha libertaria":14275,"Izquierda":416,"Peronismo kirchnerista":10249,"Peronismo no kirchnerista":5221},"n":{"blancos":325,"nulos":326,"comando":35},"p":60559,"m":189},"San Javier":{"v":{"Cambiemos":4519,"Derecha libertaria":5728,"Izquierda":166,"Peronismo kirchnerista":6710,"Peronismo no kirchnerista":1410},"n":{"blancos":200,"nulos":232,"comando":1},"p":27930,"m":89},"San Jerónimo":{"v":{"Cambiemos":13367,"Derecha libertaria":17065,"Izquierda":688,"Peronismo kirchnerista":13648,"Peronismo no kirchnerista":5278},"n":{"blancos":562,"nulos":489,"recurridos":2,"comando":11},"p":70210,"m":211},"San Justo":{"v":{"Cambiemos":7342,"Derecha libertaria":9888,"Izquierda":246,"Peronismo kirchnerista":6304,"Peronismo no kirchnerista":2680},"n":{"blancos":202,"nulos":303,"impugnados":1,"recurridos":1,"comando":1},"p":37293,"m":117},"San Lorenzo":{"v":{"Cambiemos":26104,"Derecha libertaria":43498,"Izquierda":2489,"Peronismo kirchnerista":35170,"Peronismo no kirchnerista":11091},"n":{"blancos":1145,"nulos":1470,"impugnados":8,"recurridos":167,"comando":27},"p":157360,"m":455},"San Martín":{"v":{"Cambiemos":11214,"Derecha libertaria":15461,"Izquierda":425,"Peronismo kirchnerista":7693,"Peronismo no kirchnerista":5984},"n":{"blancos":327,"nulos":513,"recurridos":1},"p":55164,"m":165},"Vera":{"v":{"Cambiemos":6780,"Derecha libertaria":9437,"Izquierda":291,"Peronismo kirchnerista":11957,"Peronismo no kirchnerista":2067},"n":{"blancos":311,"nulos":309,"comando":14},"p":46430,"m":147}},"2023-BALOTAJE":{"Belgrano":{"v":{"Derecha libertaria":21026,"Peronismo kirchnerista":8266},"n":{"blancos":596,"nulos":461},"p":39428,"m":115},"Caseros":{"v":{"Derecha libertaria":37483,"Peronismo kirchnerista":15398},"n":{"blancos":1236,"nulos":1218,"impugnados":19,"recurridos":5},"p":72338,"m":214},"Castellanos":{"v":{"Derecha libertaria":81645,"Peronismo kirchnerista":29457},"n":{"blancos":1737,"nulos":2184,"impugnados":3,"recurridos":10},"p":150951,"m":459},"Constitución":{"v":{"Derecha libertaria":34436,"Peronismo kirchnerista":22835},"n":{"blancos":1111,"nulos":1370,"recurridos":8},"p":76806,"m":228},"Garay":{"v":{"Derecha libertaria":8566,"Peronismo kirchnerista":5291},"n":{"blancos":128,"nulos":224},"p":19909,"m":62},"General López":{"v":{"Derecha libertaria":85463,"Peronismo kirchnerista":35451},"n":{"blancos":2337,"nulos":2313,"impugnados":1,"recurridos":8},"p":166983,"m":494},"General Obligado":{"v":{"Derecha libertaria":70208,"Peronismo kirchnerista":42864},"n":{"blancos":1015,"nulos":1570,"impugnados":66,"recurridos":12},"p":154178,"m":464},"Iriondo":{"v":{"Derecha libertaria":29331,"Peronismo kirchnerista":14546},"n":{"blancos":968,"nulos":956},"p":59844,"m":179},"La Capital":{"v":{"Derecha libertaria":197934,"Peronismo kirchnerista":126820},"n":{"blancos":5508,"nulos":7617,"impugnados":23,"recurridos":120},"p":457995,"m":1330},"Las Colonias":{"v":{"Derecha libertaria":52798,"Peronismo kirchnerista":15669},"n":{"blancos":1118,"nulos":1340,"impugnados":3,"recurridos":6},"p":91062,"m":282},"Nueve de Julio":{"v":{"Derecha libertaria":12273,"Peronismo kirchnerista":6272},"n":{"blancos":142,"nulos":206,"recurridos":1},"p":26821,"m":82},"Rosario":{"v":{"Derecha libertaria":434442,"Peronismo kirchnerista":317557},"n":{"blancos":13483,"nulos":19249,"impugnados":50,"recurridos":154},"p":1056533,"m":3050},"San Cristóbal":{"v":{"Derecha libertaria":27775,"Peronismo kirchnerista":13716},"n":{"blancos":535,"nulos":742,"recurridos":2},"p":60559,"m":189},"San Javier":{"v":{"Derecha libertaria":10645,"Peronismo kirchnerista":8234},"n":{"blancos":208,"nulos":411,"recurridos":8},"p":27930,"m":89},"San Jerónimo":{"v":{"Derecha libertaria":32776,"Peronismo kirchnerista":17852},"n":{"blancos":843,"nulos":1001,"recurridos":6},"p":70210,"m":211},"San Justo":{"v":{"Derecha libertaria":18809,"Peronismo kirchnerista":8257},"n":{"blancos":313,"nulos":561,"impugnados":1,"recurridos":2},"p":37293,"m":117},"San Lorenzo":{"v":{"Derecha libertaria":75457,"Peronismo kirchnerista":42894},"n":{"blancos":1800,"nulos":2711,"impugnados":13,"recurridos":18},"p":157360,"m":455},"San Martín":{"v":{"Derecha libertaria":30077,"Peronismo kirchnerista":10800},"n":{"blancos":676,"nulos":980,"recurridos":5},"p":55164,"m":165},"Vera":{"v":{"Derecha libertaria":17099,"Peronismo kirchnerista":14209},"n":{"blancos":326,"nulos":413,"impugnados":7},"p":46430,"m":147}}}};
+
+/* Ocho familias con color propio; el resto se agrupa en un neutro, porque una
+   paleta categórica deja de ser distinguible más allá de ocho tonos. */
+const FAM = [
+  ["Peronismo kirchnerista","--s1"], ["Cambiemos","--s2"],
+  ["Peronismo no kirchnerista","--s4"], ["Derecha libertaria","--s8"],
+  ["Socialismo y progresismo santafesino","--s3"],
+  ["Centro progresista no peronista","--s7"],
+  ["Centroderecha liberal","--s5"], ["Izquierda","--s6"]];
+const OTRAS = "Otras fuerzas";
+const CORTO = {"Peronismo kirchnerista":"Per. kirchnerista","Cambiemos":"Cambiemos",
+  "Peronismo no kirchnerista":"Per. no kirchnerista","Derecha libertaria":"Der. libertaria",
+  "Socialismo y progresismo santafesino":"Socialismo SF",
+  "Centro progresista no peronista":"Centro progresista",
+  "Centroderecha liberal":"Centroderecha lib.","Izquierda":"Izquierda",[OTRAS]:OTRAS};
+const SERIES = FAM.map(f=>f[0]).concat([OTRAS]);
+const COLOR = {}; FAM.forEach(([n,v])=>COLOR[n]=`var(${v})`); COLOR[OTRAS]="var(--s9)";
+
+const est = {ambito:"Provincia", inst:"gral", modo:"pct",
+             eleccion:"2023-GENERAL", orden:"padron", ocultas:new Set()};
+const $ = s => document.querySelector(s);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt = n => n.toLocaleString("es-AR");
+const pct = n => n.toFixed(1).replace(".",",")+" %";
+
+function elecciones(){
+  return D.elecciones.filter(e => est.inst==="todas" || e.instancia==="GENERAL");
+}
+/* Suma del ámbito elegido: un departamento o la provincia entera. */
+function agregado(clave){
+  const dep = D.datos[clave]; if(!dep) return null;
+  const nombres = est.ambito==="Provincia" ? Object.keys(dep)
+                : (dep[est.ambito] ? [est.ambito] : []);
+  if(!nombres.length) return null;
+  const v={}, n={}; let padron=0, mesas=0;
+  for(const d of nombres){
+    const x=dep[d]; padron+=x.p; mesas+=x.m;
+    for(const [f,val] of Object.entries(x.v)){
+      const k = SERIES.includes(f) ? f : OTRAS;
+      v[k]=(v[k]||0)+val;
+    }
+    for(const [t,val] of Object.entries(x.n||{})) n[t]=(n[t]||0)+val;
+  }
+  const pos = Object.values(v).reduce((a,b)=>a+b,0);
+  const nop = Object.values(n).reduce((a,b)=>a+b,0);
+  return {v,n,pos,nop,total:pos+nop,padron,mesas};
+}
+const visibles = () => SERIES.filter(s=>!est.ocultas.has(s));
+
+/* ---------- gráfico de líneas ---------- */
+function dibujarSerie(){
+  const svg=$("#svg-serie"), W=900, H=400, M={t:18,r:132,b:46,l:56};
+  const els=elecciones(), ag=els.map(e=>agregado(e.clave));
+  const vis=visibles();
+  const series=vis.map(f=>({f, pts:ag.map(a=>{
+      if(!a) return null;
+      const val=a.v[f]||0;
+      return est.modo==="pct" ? (a.pos? 100*val/a.pos : 0) : val;
+    })})).filter(s=>s.pts.some(p=>p>0));
+
+  const max=Math.max(...series.flatMap(s=>s.pts.filter(p=>p!=null)),0)||1;
+  const top=est.modo==="pct" ? Math.ceil(max/10)*10 : max*1.08;
+  const x=i=>M.l+i*(W-M.l-M.r)/Math.max(1,els.length-1);
+  const y=v=>H-M.b-(v/top)*(H-M.t-M.b);
+  let o="";
+
+  const ticks = est.modo==="pct" ? [0,10,20,30,40,50,60,70].filter(t=>t<=top)
+    : [0,.25,.5,.75,1].map(f=>Math.round(top*f/1e4)*1e4);
+  for(const t of ticks){
+    o+=`<line x1="${M.l}" x2="${W-M.r}" y1="${y(t)}" y2="${y(t)}" stroke="${css('--line')}" stroke-width="1"/>`;
+    o+=`<text x="${M.l-9}" y="${y(t)+4}" text-anchor="end" font-size="11" fill="${css('--ink-3')}"
+        font-family="${css('--font-d')}">${est.modo==="pct"?t+"%":(t/1000)+"k"}</text>`;
+  }
+  els.forEach((e,i)=>{
+    const dosLineas=e.instancia!=="GENERAL";
+    o+=`<text x="${x(i)}" y="${H-M.b+18}" text-anchor="middle" font-size="11"
+        fill="${css('--ink-2')}" font-family="${css('--font-d')}">${e.anio}</text>`;
+    if(dosLineas) o+=`<text x="${x(i)}" y="${H-M.b+30}" text-anchor="middle" font-size="9"
+        fill="${css('--ink-3')}" font-family="${css('--font-d')}">${e.instancia==="PASO"?"PASO":"2ª v."}</text>`;
+  });
+
+  /* Las etiquetas del extremo derecho se separan verticalmente: sin esto,
+     dos familias con valores cercanos escriben una encima de la otra. */
+  const etqs=[];
+  for(const s of series){
+    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p>0).pop();
+    if(li) etqs.push({f:s.f, y:y(li[0])});
+  }
+  etqs.sort((a,b)=>a.y-b.y);
+  const MIN=14;
+  for(let i=1;i<etqs.length;i++)
+    if(etqs[i].y-etqs[i-1].y<MIN) etqs[i].y=etqs[i-1].y+MIN;
+  const desborde=etqs.length? etqs[etqs.length-1].y-(H-M.b) : 0;
+  if(desborde>0) etqs.forEach(e=>e.y-=desborde);
+  const posEtq=Object.fromEntries(etqs.map(e=>[e.f,e.y]));
+
+  for(const s of series){
+    const d=s.pts.map((p,i)=>p==null?null:`${x(i)},${y(p)}`).filter(Boolean).join(" L ");
+    o+=`<path d="M ${d}" fill="none" stroke="${COLOR[s.f]}" stroke-width="2"
+         stroke-linejoin="round" stroke-linecap="round"/>`;
+    s.pts.forEach((p,i)=>{ if(p==null||p===0) return;
+      o+=`<circle cx="${x(i)}" cy="${y(p)}" r="4" fill="${COLOR[s.f]}"
+           stroke="${css('--surface')}" stroke-width="2"/>`; });
+    const li=s.pts.map((p,i)=>[p,i]).filter(([p])=>p>0).pop();
+    if(li){
+      const ye=posEtq[s.f];
+      /* Guía corta cuando la etiqueta se corrió de su punto. */
+      if(Math.abs(ye-y(li[0]))>3)
+        o+=`<path d="M ${x(li[1])+6} ${y(li[0])} L ${W-M.r+5} ${ye-4}" fill="none"
+             stroke="${COLOR[s.f]}" stroke-width="1" opacity=".45"/>`;
+      o+=`<text x="${W-M.r+10}" y="${ye}" font-size="11.5" font-weight="500"
+        fill="${css('--ink-2')}" font-family="${css('--font-d')}">${CORTO[s.f]}</text>`;
+    }
+  }
+  o+=`<line id="cross" x1="0" x2="0" y1="${M.t}" y2="${H-M.b}" stroke="${css('--line-strong')}"
+       stroke-width="1" stroke-dasharray="3 3" opacity="0"/>`;
+  svg.innerHTML=o;
+
+  const tip=asegurarTip("#p-serie");
+  svg.onpointermove=ev=>{
+    const r=svg.getBoundingClientRect(), px=(ev.clientX-r.left)*W/r.width;
+    let i=0,best=1e9; els.forEach((_,k)=>{const d=Math.abs(x(k)-px); if(d<best){best=d;i=k}});
+    const cr=svg.querySelector("#cross");
+    cr.setAttribute("x1",x(i)); cr.setAttribute("x2",x(i)); cr.setAttribute("opacity","1");
+    const a=ag[i]; if(!a){tip.style.display="none";return}
+    const filas=vis.map(f=>{const val=a.v[f]||0; if(!val) return null;
+        return [f, est.modo==="pct"? pct(100*val/a.pos) : fmt(val), 100*val/a.pos];})
+      .filter(Boolean).sort((p,q)=>q[2]-p[2]).slice(0,6);
+    tip.innerHTML=`<div class="th">${els[i].anio} · ${els[i].instancia}</div>`+
+      filas.map(([f,v])=>`<div class="r"><span><span class="sw" style="display:inline-block;background:${COLOR[f]}"></span> ${CORTO[f]}</span><b>${v}</b></div>`).join("");
+    posicionarTip(tip,"#p-serie",ev);
+  };
+  svg.onpointerleave=()=>{tip.style.display="none";
+    const cr=svg.querySelector("#cross"); if(cr) cr.setAttribute("opacity","0")};
+
+  const a0=ag[0], aN=ag[ag.length-1];
+  $("#nota-serie").textContent = a0&&aN
+    ? `${est.ambito} · ${els.length} instancias · ${fmt(aN.padron)} electores en la última, ${fmt(a0.padron)} en la primera.`
+    : "";
+}
+
+/* ---------- barras apiladas por departamento ---------- */
+function dibujarDeptos(){
+  const svg=$("#svg-deptos"), W=900, M={t:10,r:14,b:26,l:132};
+  const dep=D.datos[est.eleccion]||{};
+  let nombres=Object.keys(dep);
+  if(est.orden==="padron") nombres.sort((a,b)=>dep[b].p-dep[a].p);
+  else nombres.sort((a,b)=>{
+    const g=o=>{let m=["",0]; for(const [f,v] of Object.entries(dep[o].v)) if(v>m[1]) m=[f,v]; return m[0]};
+    return (g(a)+a).localeCompare(g(b)+b,"es");});
+  const BH=22, GAP=5, H=M.t+M.b+nombres.length*(BH+GAP);
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const ancho=W-M.l-M.r;
+  let o="";
+  nombres.forEach((d,i)=>{
+    const x0=dep[d], yy=M.t+i*(BH+GAP);
+    const tot=Object.values(x0.v).reduce((a,b)=>a+b,0)||1;
+    const grup={}; for(const [f,v] of Object.entries(x0.v)){
+      const k=SERIES.includes(f)?f:OTRAS; grup[k]=(grup[k]||0)+v;}
+    o+=`<text x="${M.l-10}" y="${yy+BH/2+4}" text-anchor="end" font-size="11.5"
+        fill="${css('--ink-2')}" font-family="${css('--font-d')}">${d}</text>`;
+    let cx=M.l;
+    SERIES.filter(f=>grup[f]).forEach(f=>{
+      const w=Math.max(0,(grup[f]/tot)*ancho-2);
+      o+=`<rect x="${cx}" y="${yy}" width="${w}" height="${BH}" fill="${COLOR[f]}" rx="1.5"
+           data-d="${d}" data-f="${f}" data-v="${grup[f]}" data-p="${(100*grup[f]/tot).toFixed(1)}"/>`;
+      if(w>52) o+=`<text x="${cx+w/2}" y="${yy+BH/2+4}" text-anchor="middle" font-size="10.5"
+           font-weight="600" fill="#fff" font-family="${css('--font-d')}"
+           style="paint-order:stroke;stroke:rgba(0,0,0,.22);stroke-width:2.5px">${(100*grup[f]/tot).toFixed(0)}%</text>`;
+      cx+=w+2;});
+  });
+  svg.innerHTML=o;
+  const tip=asegurarTip("#p-deptos");
+  svg.querySelectorAll("rect").forEach(r=>{
+    r.style.cursor="crosshair";
+    r.onpointerenter=ev=>{tip.innerHTML=
+      `<div class="th">${r.dataset.d}</div>
+       <div class="r"><span><span class="sw" style="display:inline-block;background:${COLOR[r.dataset.f]}"></span> ${CORTO[r.dataset.f]}</span><b>${r.dataset.p.replace(".",",")} %</b></div>
+       <div class="r"><span>Votos</span><b>${fmt(+r.dataset.v)}</b></div>`;
+      posicionarTip(tip,"#p-deptos",ev);};
+    r.onpointerleave=()=>tip.style.display="none";});
+}
+
+/* ---------- volatilidad (Pedersen) y desafección ---------- */
+function dibujarVol(){
+  const svg=$("#svg-vol"), W=440,H=260,M={t:16,r:14,b:40,l:40};
+  const gs=D.elecciones.filter(e=>e.instancia==="GENERAL");
+  const ags=gs.map(e=>agregado(e.clave));
+  const pares=[];
+  for(let i=1;i<gs.length;i++){
+    const a=ags[i-1], b=ags[i]; if(!a||!b) continue;
+    let s=0; for(const f of SERIES){
+      s+=Math.abs(100*(b.v[f]||0)/b.pos - 100*(a.v[f]||0)/a.pos);}
+    pares.push({et:`${gs[i-1].anio}→${gs[i].anio}`, v:s/2});
+  }
+  const max=Math.ceil(Math.max(...pares.map(p=>p.v),10)/10)*10;
+  const bw=(W-M.l-M.r)/pares.length, y=v=>H-M.b-(v/max)*(H-M.t-M.b);
+  let o="";
+  for(const t of [0,20,40,60]){ if(t>max) continue;
+    o+=`<line x1="${M.l}" x2="${W-M.r}" y1="${y(t)}" y2="${y(t)}" stroke="${css('--line')}"/>`;
+    o+=`<text x="${M.l-8}" y="${y(t)+4}" text-anchor="end" font-size="10" fill="${css('--ink-3')}"
+        font-family="${css('--font-d')}">${t}</text>`;}
+  pares.forEach((p,i)=>{
+    const x=M.l+i*bw+bw*.18, w=bw*.64;
+    o+=`<rect x="${x}" y="${y(p.v)}" width="${w}" height="${H-M.b-y(p.v)}" fill="${css('--accent')}" rx="3"/>`;
+    o+=`<text x="${x+w/2}" y="${y(p.v)-6}" text-anchor="middle" font-size="10.5" font-weight="600"
+        fill="${css('--ink')}" font-family="${css('--font-d')}">${p.v.toFixed(0)}</text>`;
+    o+=`<text x="${x+w/2}" y="${H-M.b+16}" text-anchor="middle" font-size="9.5"
+        fill="${css('--ink-3')}" font-family="${css('--font-d')}">${p.et}</text>`;});
+  svg.innerHTML=o;
+}
+function dibujarDes(){
+  const svg=$("#svg-des"), W=440,H=260,M={t:16,r:14,b:40,l:40};
+  const gs=D.elecciones.filter(e=>e.instancia==="GENERAL");
+  const pts=gs.map(e=>{const a=agregado(e.clave); if(!a) return null;
+    return {anio:e.anio, bn:a.total? 100*a.nop/a.total:0, part:a.padron?100*a.total/a.padron:0};}).filter(Boolean);
+  const x=i=>M.l+i*(W-M.l-M.r)/Math.max(1,pts.length-1), y=v=>H-M.b-(v/100)*(H-M.t-M.b);
+  let o="";
+  for(const t of [0,25,50,75,100]){
+    o+=`<line x1="${M.l}" x2="${W-M.r}" y1="${y(t)}" y2="${y(t)}" stroke="${css('--line')}"/>`;
+    o+=`<text x="${M.l-8}" y="${y(t)+4}" text-anchor="end" font-size="10" fill="${css('--ink-3')}"
+        font-family="${css('--font-d')}">${t}%</text>`;}
+  const linea=(campo,color,etq,dy)=>{
+    const d=pts.map((p,i)=>`${x(i)},${y(p[campo])}`).join(" L ");
+    o+=`<path d="M ${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>`;
+    pts.forEach((p,i)=>o+=`<circle cx="${x(i)}" cy="${y(p[campo])}" r="4" fill="${color}"
+       stroke="${css('--surface')}" stroke-width="2"/>`);
+    const u=pts[pts.length-1];
+    o+=`<text x="${x(pts.length-1)}" y="${y(u[campo])+dy}" text-anchor="end" font-size="10.5"
+        font-weight="600" fill="${css('--ink-2')}" font-family="${css('--font-d')}">${etq} ${u[campo].toFixed(1).replace(".",",")}%</text>`;};
+  /* Participación va arriba de su línea y blancos+nulos abajo: las dos series
+     viven en extremos opuestos de la escala y así nunca se cruzan. */
+  linea("part",css("--s3"),"Participación",-12);
+  linea("bn",css("--s2"),"Blancos+nulos",18);
+  pts.forEach((p,i)=>o+=`<text x="${x(i)}" y="${H-M.b+16}" text-anchor="middle" font-size="9.5"
+      fill="${css('--ink-3')}" font-family="${css('--font-d')}">${p.anio}</text>`);
+  svg.innerHTML=o;
+}
+
+/* ---------- tabla ---------- */
+function dibujarTabla(){
+  const els=elecciones(), ag=els.map(e=>agregado(e.clave));
+  let h=`<thead><tr><th>Familia</th>${els.map(e=>
+    `<th>${e.anio}${e.instancia==="GENERAL"?"":" "+(e.instancia==="PASO"?"P":"2ª")}</th>`).join("")}</tr></thead><tbody>`;
+  for(const f of SERIES){
+    const c=ag.map(a=>a&&a.v[f]?100*a.v[f]/a.pos:null);
+    if(!c.some(v=>v)) continue;
+    h+=`<tr><td><span class="sw" style="display:inline-block;background:${COLOR[f]};margin-right:.4rem"></span>${CORTO[f]}</td>`+
+       c.map(v=>`<td>${v==null?"—":v.toFixed(1).replace(".",",")}</td>`).join("")+`</tr>`;}
+  h+=`<tr><td>Participación</td>${ag.map(a=>`<td>${a&&a.padron?(100*a.total/a.padron).toFixed(1).replace(".",","):"—"}</td>`).join("")}</tr>`;
+  h+=`<tr><td>Blancos y nulos</td>${ag.map(a=>`<td>${a&&a.total?(100*a.nop/a.total).toFixed(1).replace(".",","):"—"}</td>`).join("")}</tr></tbody>`;
+  $("#tabla").innerHTML=h;
+}
+
+/* ---------- tiles ---------- */
+function dibujarTiles(){
+  const u=agregado("2023-GENERAL"), p=agregado("2003-GENERAL");
+  const gs=D.elecciones.filter(e=>e.instancia==="GENERAL");
+  let volMax={v:0,et:""};
+  for(let i=1;i<gs.length;i++){
+    const a=agregado(gs[i-1].clave), b=agregado(gs[i].clave); if(!a||!b) continue;
+    let s=0; for(const f of SERIES) s+=Math.abs(100*(b.v[f]||0)/b.pos-100*(a.v[f]||0)/a.pos);
+    if(s/2>volMax.v) volMax={v:s/2, et:`${gs[i-1].anio}→${gs[i].anio}`};}
+  $("#tiles").innerHTML=[
+    ["12","instancias cubiertas"],
+    ["19","departamentos"],
+    [p?fmt(p.padron):"—","electores en 2003"],
+    [u?fmt(u.padron):"—","electores en 2023"],
+    [volMax.v.toFixed(0),`volatilidad máxima · ${volMax.et}`]
+  ].map(([n,l])=>`<div class="tile"><span class="n">${n}</span><span class="l">${l}</span></div>`).join("");
+}
+
+/* ---------- tooltips ---------- */
+function asegurarTip(sel){
+  const c=$(sel); let t=c.querySelector(".tip");
+  if(!t){t=document.createElement("div");t.className="tip";t.style.display="none";c.appendChild(t);}
+  return t;}
+function posicionarTip(t,sel,ev){
+  const c=$(sel).getBoundingClientRect();
+  t.style.display="block";
+  const w=t.offsetWidth, h=t.offsetHeight;
+  let l=ev.clientX-c.left+14, tp=ev.clientY-c.top-h-10;
+  if(l+w>c.width-6) l=ev.clientX-c.left-w-14;
+  if(tp<4) tp=ev.clientY-c.top+16;
+  t.style.left=Math.max(4,l)+"px"; t.style.top=Math.max(4,tp)+"px";}
+
+/* ---------- leyendas y controles ---------- */
+function leyenda(sel, interactiva){
+  $(sel).innerHTML=SERIES.map(f=>
+    `<button type="button" data-f="${f}" aria-pressed="${!est.ocultas.has(f)}">
+       <span class="sw" style="background:${COLOR[f]}"></span>${CORTO[f]}</button>`).join("");
+  if(!interactiva) return;
+  $(sel).querySelectorAll("button").forEach(b=>b.onclick=()=>{
+    const f=b.dataset.f;
+    est.ocultas.has(f)?est.ocultas.delete(f):est.ocultas.add(f);
+    if(est.ocultas.size===SERIES.length) est.ocultas.delete(f);
+    leyenda("#leg-serie",true); dibujarSerie(); dibujarTabla();});
+}
+function segmento(sel, campo, alCambiar){
+  $(sel).querySelectorAll("button").forEach(b=>b.onclick=()=>{
+    est[campo]=b.dataset.v;
+    $(sel).querySelectorAll("button").forEach(o=>o.setAttribute("aria-pressed",o===b));
+    alCambiar();});
+}
+function iniciar(){
+  $("#f-ambito").innerHTML=`<option>Provincia</option>`+
+    D.departamentos.map(d=>`<option>${d}</option>`).join("");
+  $("#f-eleccion").innerHTML=D.elecciones.map(e=>
+    `<option value="${e.clave}"${e.clave===est.eleccion?" selected":""}>${e.anio} · ${
+      e.instancia==="GENERAL"?"General":e.instancia==="PASO"?"PASO":"Balotaje"} · ${e.fecha}</option>`).join("");
+  $("#f-ambito").onchange=e=>{est.ambito=e.target.value;
+    dibujarSerie();dibujarVol();dibujarDes();dibujarTabla();dibujarTiles();};
+  $("#f-eleccion").onchange=e=>{est.eleccion=e.target.value;dibujarDeptos();};
+  segmento("#f-inst","inst",()=>{dibujarSerie();dibujarTabla();});
+  segmento("#f-modo","modo",dibujarSerie);
+  segmento("#f-orden","orden",dibujarDeptos);
+  leyenda("#leg-serie",true); leyenda("#leg-deptos",false);
+  dibujarTiles(); dibujarSerie(); dibujarDeptos(); dibujarVol(); dibujarDes(); dibujarTabla();
+}
+iniciar();
+let t; addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(()=>{
+  dibujarSerie();dibujarDeptos();dibujarVol();dibujarDes();},180);});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",()=>{
+  dibujarSerie();dibujarDeptos();dibujarVol();dibujarDes();});
+
+</script>

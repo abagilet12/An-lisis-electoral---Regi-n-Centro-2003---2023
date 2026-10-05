@@ -1,2 +1,32 @@
 __pycache__/
 *.pyc
+# Fuentes originales: no se versionan (ver docs/02-manifiesto-fuentes.md)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/geo/*
+!data/geo/.gitkeep
+# La cartografía de circuitos sí se versiona: es CC BY, pesa poco y hace que el
+# mapa sea reproducible sin depender de una descarga externa.
+!data/geo/circuitos/
+
+# Base SQLite: se regenera con src/build_db.py
+data/processed/*.db
+.ipynb_checkpoints/
+.venv/
+# Generados: el libro de prueba lo produce tests/fixtures/generar_fixture.py
+# y el informe lo produce src/validate.py
+tests/fixtures/*.xlsx
+docs/informe-validacion.md
+tests/fixtures/*.csv
+# El CSV por mesa pesa 42 MB; se documenta su origen en datos/INVENTARIO.md
+# y se versiona el agregado, no el crudo.
+datos/crudos/mesa/
+# Los .csv nacionales por mesa del repo PolAr pesan 48 MB; su origen queda
+# documentado y se versiona el agregado por circuito, no el crudo.
+datos/crudos/polar/arg_presi_*.csv
+# Paquete de entrega: duplica los Excel versionados y se rehace con
+# scripts/empaquetar_para_drive.py
+salida/*.zip
+salida/.paquete/
