@@ -10,7 +10,12 @@ Madrid, Taurus, 1995).
 
 **Nota sobre las citas:** el texto de Bobbio no estaba disponible en el entorno de trabajo cuando se escribió este criterio. Las
 definiciones que siguen son **paráfrasis sin número de página** de las ideas centrales del libro. Cuando se incorpore el texto,
-corresponde completar las páginas y verificar la fidelidad de cada paráfrasis. Como apoyo secundario con página, el artículo de
+corresponde completar las páginas y verificar la fidelidad de cada paráfrasis. Se contrastó la paráfrasis con reseñas y resúmenes accesibles en la web ([Aceprensa](https://www.aceprensa.com/resenas-libros/derecha-e-izquierda/),
+[El Espectador](https://www.elespectador.com/opinion/columnistas/rodrigo-uprimny/izquierdas-y-derechas-las-ensenanzas-de-bobbio/),
+[Resumen Maestro](https://resumenmaestro.com/resumen-derecha-e-izquierda-de-norberto-bobbio/)): todas coinciden en que el criterio
+distintivo es la actitud frente a la igualdad y que la izquierda ve injustas la mayoría de las desigualdades y busca reducirlas,
+mientras que la derecha tiende a considerarlas naturales y no eliminables. No traen páginas. Los sitios que alojan el texto completo
+están bloqueados desde este entorno. Como apoyo secundario con página, el artículo de
 Valencia Sáiz (pp. 155-171, adjunto en la revista donde se publicó Malamud, 2004) recoge el criterio de Bobbio: la izquierda es
 más igualitaria y la derecha menos, entendido como una tendencia y no como una utopía (p. 162).
 
