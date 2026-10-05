@@ -1,0 +1,20 @@
+/* ===== Pestañas «Elecciones» y «Partidos» ===== */
+.fcab{display:flex;flex-wrap:wrap;gap:.35rem 1.6rem;margin:0 0 1.1rem;padding:.8rem 1rem;
+  border-left:3px solid var(--coral);background:var(--surface-2);font-family:var(--font-d);font-size:.9rem;color:var(--ink)}
+.fcab b{color:var(--navy)}
+.fcab .g{color:var(--coral);font-weight:700}
+.fbar{display:inline-block;height:9px;background:var(--navy);border-radius:1px;vertical-align:middle;min-width:1px}
+td.nom,th.nom{text-align:left;white-space:normal;min-width:15rem}
+td.nom button,.vinc button{font:inherit;font-family:var(--font-d);color:var(--navy);background:none;border:0;
+  padding:0;cursor:pointer;text-align:left;text-decoration:underline;text-decoration-color:var(--coral);
+  text-underline-offset:3px}
+td.nom button:hover,.vinc button:hover{color:var(--coral)}
+.vinc{font-family:var(--font-d);font-size:.88rem;margin:0 0 1rem;display:flex;flex-direction:column;gap:.35rem}
+.vinc .fte{font-size:.78rem;color:var(--ink-3);max-width:74ch}
+tr.ausente td{color:var(--ink-3)}
+tr.sel td{background:var(--surface-2);font-weight:700}
+tr.clic{cursor:pointer}
+tr.clic:hover td{background:var(--surface-2)}
+.pista.sel{stroke:var(--coral)!important;stroke-width:2.2!important}
+.epi{font-family:var(--font-d);font-size:.76rem;font-style:italic;color:var(--ink-3);
+  max-width:none;margin:.55rem 0 0;line-height:1.45}
