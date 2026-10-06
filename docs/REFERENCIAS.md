@@ -11,6 +11,9 @@ Formato de cita en el HTML: (autor, año: página).
 - Mayer, W. G. (2008). What exactly is a swing voter? Definition and measurement. En W. G. Mayer (Ed.), *The swing voter in
   American politics* (cap. 1, pp. 1-31). Washington, D. C.: Brookings Institution Press. **El año y el volumen se dedujeron de
   la publicación conocida: el archivo no los consigna. Conviene verificarlos.**
+- Pedersen, M. N. (1979). The dynamics of European party systems: changing patterns of electoral volatility. *European Journal of
+  Political Research*, 7, 1-26. **Falta consignar la página de la definición del índice** (volumen y páginas del artículo consultados
+  en catálogos académicos en línea; el texto completo no estuvo disponible y no se pudo verificar el número de fascículo).
 - Scaramella, C. (2025). Todo en todas partes al mismo tiempo: segmentación estratégica del voto subnacional en Argentina en 2023,
   más allá de Milei. *Espaço & Geografia*, 28, 99-125. https://doi.org/10.26512/2236-56562025e57961
 

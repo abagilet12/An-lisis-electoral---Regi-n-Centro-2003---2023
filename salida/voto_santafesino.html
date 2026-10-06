@@ -564,7 +564,7 @@ tr.clic:hover td{background:var(--surface-2)}
   <div class="grid2">
     <div>
       <h3>Volatilidad electoral</h3>
-      <p class="note" style="margin-top:.2rem">El índice de Pedersen entre elecciones generales consecutivas equivale a la mitad de la suma de los cambios, en puntos porcentuales, de cada fuerza; mide, por lo tanto, cuánto se reacomodó el electorado de una elección a la siguiente.</p>
+      <p class="note" style="margin-top:.2rem">El índice de volatilidad de Pedersen (1979) mide el cambio neto total que experimenta el sistema de partidos entre dos elecciones como resultado de las transferencias de votos. Se calcula como la mitad de la suma de los valores absolutos de la variación del porcentaje de votos de cada fuerza entre dos elecciones consecutivas, <i>V</i> = ½ Σ |<i>p</i><sub><i>i,t</i></sub> − <i>p</i><sub><i>i,t</i>−1</sub>|, y varía de 0 (ningún cambio) a 100 (reemplazo completo de las fuerzas). Aquí se aplica a los porcentajes sobre votos positivos de cada familia política, entre generales consecutivas.</p>
       <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector «Instancias» se encuentre en «todas» (el ámbito sí se aplica): comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
       <div class="plot" id="p-vol" style="margin-top:.8rem">
         <svg id="svg-vol" viewBox="0 0 440 260" role="img"

@@ -51,13 +51,11 @@ existe; circuito, departamento y localidad usan el provisorio; ambos no se mezcl
 | Fuerzas políticas como **etiquetas focales** | Escolar (2011: 285, n. 38, a partir de Cox) | 82 etiquetas → 52 fuerzas → 13 familias, en `homologacion_agrupaciones.csv` (editable). FPV, Frente de Todos y UxP son una familia; la UCR no se imputa retroactivamente a Cambiemos; el Socialismo se mantiene propio; 2007 se clasifica por fórmula. |
 | Derecha libertaria y La Libertad Avanza | Murillo y Oliveros (2024: 161-163, 171, 173) | «Derecha libertaria» solo hasta 2019 (Unite); «La Libertad Avanza» desde 2023. La continuidad queda como pregunta, no como supuesto. Efecto: la volatilidad 2019-2023 suma ambas. |
 | Denominadores | Convención de los organismos electorales | Comparar fuerzas: % sobre positivos. Además, % sobre válidos y sobre emitidos. Participación sobre padrón; blanco y nulo sobre votantes; ausentismo = 100 − participación. |
-| **Volatilidad** (índice de Pedersen) | Pedersen (1979)\* | ½ Σ \|Δ %\| por familia política (más «Otras fuerzas»). Solo entre generales consecutivas; en el resumen, extremos 2003-2023 y promedio simple de los cinco pares. |
+| **Volatilidad** (índice de Pedersen) | Pedersen (1979): cambio neto total del sistema de partidos entre dos elecciones; ½ Σ \|Δ %\| | Se aplica a los % sobre positivos de cada familia política (más «Otras fuerzas»). Solo entre generales consecutivas; en el resumen, extremos 2003-2023 y promedio simple de los cinco pares. |
 | **Swing voters** | Mayer (2008: 2, 12-13): distingue swing voter de *party switcher* | Aplicado a territorios: un circuito «cambia» si cambia su ganador (familia más votada). Enlace histórico entre circuitos; sin equivalente = punto gris, no cuenta como cambio. Los datos agregados no separan voto cruzado, abstención ni cambios de oferta (inferencia ecológica). |
 | **Escala izquierda-derecha** (sentido de la flecha) | Bobbio (1994): izquierda y derecha se distinguen por la actitud frente a la igualdad; la libertad separa moderados de extremos | Puntaje de igualitarismo 1-5 por familia, cinco posiciones, eje de libertad (solo La Libertad Avanza con rasgos antiliberales). Posición respaldada en Malamud (2004: 145), Scaramella (2025: 104, 115), Murillo, Rubio y Mangonnet (2016) y Murillo y Oliveros (2024); **el puntaje fino es codificación del equipo** y se informa su sensibilidad. |
 | **Tamaño del lugar** | Censo 2022 (INDEC). La lógica de leer el cambio según el tamaño del lugar se tomó de un análisis de Schteingart sobre Brasil, cuyo texto no se pudo consultar | Escala de 5 categorías (rural ≤ 2.000; pueblo 2.001-5.000; ciudad pequeña 5.001-10.000; intermedia 10.001-50.000; grande desde 50.001). Cada circuito se asigna al gobierno local que aporta más población dentro de su polígono; corrección por padrón (circuito 04250). Rosario (1.030.069) se incluye en «grande». |
 | Color | — | Un color por familia (`docs/CRITERIOS_COLOR.md`). Tamaño del lugar: rampa ordinal de un solo tono (extremo claro con contraste ≥ 2:1) más forma de marcador. |
-
-\* Pedersen (1979) no figura en `docs/REFERENCIAS.md`; conviene agregarla (ver sección 6).
 
 ---
 
@@ -189,8 +187,6 @@ indicación.
 
 Citadas de memoria y sin páginas: **verificar los datos antes de incorporarlas.**
 
-- Pedersen, M. N. (1979). The dynamics of European party systems: changing patterns of electoral volatility. *European Journal of
-  Political Research*, 7(1) — fuente del índice de volatilidad.
 - Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. *American Sociological Review*, 15(3) — límites de
   la inferencia ecológica.
 - Jones, M. P. y Mainwaring, S. (2003). The nationalization of parties and party systems. *Party Politics*, 9(2) — nacionalización:
