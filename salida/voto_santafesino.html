@@ -139,6 +139,8 @@ details p{margin-top:.7rem;font-size:.95rem}
 .legend.vert{flex-direction:column;align-items:flex-start;gap:.34rem;margin-top:.3rem}
 .legend .item{display:flex;align-items:center;gap:.4rem;color:var(--ink-2)}
 .legend .sw{display:inline-block}
+.legend .ln{width:16px;height:3px;border-radius:2px;flex:none}
+#svg-des:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .escala{display:flex;flex-direction:column;gap:.3rem;font-family:var(--font-d);font-size:.76rem;
    color:var(--ink-2)}
 .escala b{font-weight:600;color:var(--ink);margin-bottom:.15rem}
@@ -574,9 +576,15 @@ tr.clic:hover td{background:var(--surface-2)}
     <div>
       <h3>Desafección</h3>
       <p class="note" style="margin-top:.2rem">Se informa la participación sobre el padrón y, por separado, el voto en blanco y el nulo sobre el total de votantes, dado que el blanco constituye una decisión política declarada, mientras que el nulo combina protesta y error material. Se utilizan dos escalas distintas, pues una sola comprimiría las series de menor magnitud.</p>
+      <p class="note" id="nota-des" style="margin-top:.45rem;font-size:.79rem"></p>
       <div class="plot" id="p-des" style="margin-top:.8rem">
         <svg id="svg-des" viewBox="0 0 440 300" role="img"
              aria-label="Participación, votos en blanco y votos nulos"></svg>
+        <div class="legend" id="leg-des">
+          <span class="item"><i class="ln" style="background:var(--accent)"></i>Participación</span>
+          <span class="item"><i class="ln" style="background:var(--navy)"></i>Nulos</span>
+          <span class="item"><i class="ln" style="background:var(--gris-az)"></i>Blancos</span>
+        </div>
       </div>
     </div>
   </div>
@@ -968,11 +976,22 @@ function dibujarVol(){
 function dibujarDes(){
   const svg=$("#svg-des"), W=440, H=300, Mg={t:14,r:16,b:40,l:42};
   const els=elecciones(estA.inst);
-  const pts=els.map(e=>{const a=agregado(e.clave, estA.ambito); if(!a) return null;
-    return {e, part:a.padron?100*a.total/a.padron:0,
-            bl:a.total?100*(a.n.blancos||0)/a.total:0,
-            nu:a.total?100*(a.n.nulos||0)/a.total:0};}).filter(Boolean);
-  if(!pts.length){svg.innerHTML="";return}
+  /* un punto por año: promedio simple de las instancias que hubo ese año (PASO, general, balotaje) */
+  const porAnio=new Map();
+  for(const e of els){ const a=agregado(e.clave, estA.ambito); if(!a) continue;
+    const m=porAnio.get(e.anio)||{anio:e.anio,part:[],bl:[],nu:[],inst:[]};
+    m.part.push(a.padron?100*a.total/a.padron:0);
+    m.bl.push(a.total?100*(a.n.blancos||0)/a.total:0);
+    m.nu.push(a.total?100*(a.n.nulos||0)/a.total:0);
+    m.inst.push(e.instancia); porAnio.set(e.anio,m); }
+  const media=v=>v.reduce((s,x)=>s+x,0)/v.length;
+  const pts=[...porAnio.values()].map(m=>({anio:m.anio,inst:m.inst,n:m.inst.length,
+    part:media(m.part), bl:media(m.bl), nu:media(m.nu)}));
+  if(!pts.length){svg.innerHTML="";$("#nota-des").textContent="";return}
+  $("#nota-des").textContent = estA.inst==="gral"
+    ? "Cada punto corresponde a la elección general de ese año."
+    : "Cada punto es el promedio simple de las instancias que hubo ese año: "+
+      pts.map(p=>`${p.anio} (${p.n})`).join(", ").replace(/, ([^,]*)$/," y $1")+".";
   /* Dos bandas con escalas propias: participación ronda el 75 % y el blanco el 2 %.
      Compartir una escala de 0 a 100 aplastaría las dos series de abajo contra el eje. */
   const corte=Mg.t+(H-Mg.t-Mg.b)*0.52;
@@ -983,6 +1002,7 @@ function dibujarDes(){
   const T=(xx,yy,t,o={})=>`<text x="${xx}" y="${yy}" text-anchor="${o.a||'end'}" `+
     `font-size="${o.s||10}" font-weight="${o.w||400}" fill="${o.c||css('--ink-3')}" `+
     `font-family="${css('--font-d')}">${t}</text>`;
+  const COL={part:css("--accent"),nu:css("--navy"),bl:css("--gris-az")};
   let o="";
   for(const t of [60,75,90]){
     o+=`<line x1="${Mg.l}" x2="${W-Mg.r}" y1="${yA(t)}" y2="${yA(t)}" stroke="${css('--line')}"/>`;
@@ -994,23 +1014,47 @@ function dibujarDes(){
      `stroke="${css('--line-strong')}" stroke-dasharray="3 3"/>`;
   o+=T(Mg.l, Mg.t+9, "Sobre el padrón", {a:"start",s:9,c:css('--ink-3')});
   o+=T(Mg.l, corte+15, "Sobre los votantes", {a:"start",s:9,c:css('--ink-3')});
-  const serie=(campo,esc,color,etq,dy)=>{
+  const serie=(campo,esc)=>{
     const d=pts.map((p,i)=>`${x(i)},${esc(p[campo])}`).join(" L ");
-    o+=`<path d="M ${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>`;
-    pts.forEach((p,i)=>o+=`<circle cx="${x(i)}" cy="${esc(p[campo])}" r="3.2" fill="${color}" `+
-      `stroke="${css('--surface')}" stroke-width="1.6"/>`);
-    const u=pts[pts.length-1];
-    o+=T(x(pts.length-1)-2, esc(u[campo])+dy, etq+" "+u[campo].toFixed(1).replace(".",",")+"%",
-         {s:10,w:600,c:color});};
-  serie("part",yA,css("--accent"),"Participación",-10);
-  serie("nu",yB,css("--navy"),"Nulos",-9);
-  serie("bl",yB,css("--gris-az"),"Blancos",15);
-  pts.forEach((p,i)=>{ if(pts.length>7 && i%2) return;
-    o+=T(x(i), H-Mg.b+16, p.e.anio, {a:"middle",s:9.5});
-    if(p.e.instancia!=="GENERAL")
-      o+=T(x(i), H-Mg.b+27, p.e.instancia==="PASO"?"PASO":"2ª", {a:"middle",s:8.5});});
+    o+=`<path d="M ${d}" fill="none" stroke="${COL[campo]}" stroke-width="2" stroke-linejoin="round"/>`;
+    pts.forEach((p,i)=>o+=`<circle cx="${x(i)}" cy="${esc(p[campo])}" r="3.2" fill="${COL[campo]}" `+
+      `stroke="${css('--surface')}" stroke-width="1.6"/>`);};
+  serie("part",yA);
+  serie("nu",yB);
+  serie("bl",yB);
+  pts.forEach((p,i)=>{ o+=T(x(i), H-Mg.b+16, p.anio, {a:"middle",s:9.5}); });
+  o+=`<line id="desCruz" y1="${Mg.t}" y2="${H-Mg.b}" stroke="${css('--ink-3')}" stroke-width="1" opacity="0" pointer-events="none"/>`;
   svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  svg.setAttribute("tabindex","0");
   svg.innerHTML=o;
+
+  /* lectura de los valores: al pasar el puntero o con las flechas del teclado */
+  const tip=asegurarTip("#p-des"); tip.style.display="none";
+  const cruz=svg.querySelector("#desCruz");
+  const NOM={GENERAL:"elección general",PASO:"PASO",BALOTAJE:"balotaje"};
+  const fila=(c,n,v)=>`<div class="r"><span><i style="display:inline-block;width:14px;height:3px;border-radius:2px;`+
+    `background:${c};margin-right:.4rem;vertical-align:middle"></i>${n}</span><b>${pct(v)}</b></div>`;
+  const mostrar=(i,ev)=>{
+    const p=pts[i];
+    cruz.setAttribute("x1",x(i)); cruz.setAttribute("x2",x(i)); cruz.setAttribute("opacity",".55");
+    tip.innerHTML=`<div class="th">${p.anio} · ${p.n>1?`promedio de ${p.n} instancias`:NOM[p.inst[0]]}</div>`+
+      fila(COL.part,"Participación",p.part)+fila(COL.nu,"Nulos",p.nu)+fila(COL.bl,"Blancos",p.bl);
+    posicionarTip(tip,"#p-des",ev);};
+  const ocultar=()=>{ tip.style.display="none"; cruz.setAttribute("opacity","0"); };
+  const cercana=cx=>{ const r=svg.getBoundingClientRect(), vx=(cx-r.left)*W/r.width;
+    return pts.reduce((b,_,i)=>Math.abs(x(i)-vx)<Math.abs(x(b)-vx)?i:b,0); };
+  svg.onpointermove=ev=>mostrar(cercana(ev.clientX),ev);
+  svg.onpointerleave=ocultar;
+  let activa=pts.length-1;
+  svg.onfocus=()=>{ const r=svg.getBoundingClientRect();
+    mostrar(activa,{clientX:r.left+x(activa)*r.width/W, clientY:r.top+r.height*.45}); };
+  svg.onblur=ocultar;
+  svg.onkeydown=ev=>{
+    if(ev.key==="Escape"){ ocultar(); return; }
+    const k={ArrowLeft:-1,ArrowRight:1}[ev.key];
+    if(ev.key==="Home") activa=0; else if(ev.key==="End") activa=pts.length-1;
+    else if(k) activa=Math.min(pts.length-1,Math.max(0,activa+k)); else return;
+    ev.preventDefault(); svg.onfocus();};
 }
 const estT = {ambito:"Provincia", inst:"gral"};
 const estA = {ambito:"Provincia", inst:"gral"};   // volatilidad y desafección

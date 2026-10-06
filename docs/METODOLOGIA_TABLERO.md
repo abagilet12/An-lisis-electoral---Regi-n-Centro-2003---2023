@@ -94,7 +94,7 @@ qué es una «fuerza política», PASO frente a generales, fuentes).
 | Tabla por elección | Resultado completo de una instancia por etiqueta oficial: votos, % positivos, % válidos, % emitidos; electores, votantes, participación, mesas y margen entre el primero y el segundo | Los tres denominadores no son intercambiables |
 | Composición por departamento | Barras apiladas del voto positivo de cada departamento, ordenadas por padrón o por fuerza ganadora | Una elección a la vez |
 | Volatilidad electoral | Índice de Pedersen entre generales consecutivas (29, 49, 53, 23 y 33 para la provincia) | Siempre entre generales; el ámbito sí se aplica. Fuerzas agrupadas por familia |
-| Desafección | Participación (sobre el padrón) y voto en blanco y nulo (sobre los votantes) | Dos bandas con escalas propias: una sola escala aplastaría las series de menor magnitud |
+| Desafección | Participación (sobre el padrón) y voto en blanco y nulo (sobre los votantes), un punto por año | Con «Todas», cada punto es el promedio simple de las instancias de ese año (2015 y 2023: tres; 2011 y 2019: dos; 2003 y 2007: una); con «Solo generales», la general. Sin etiquetas finales: los valores se leen al pasar el puntero. Dos bandas con escalas propias: una sola escala aplastaría las series de menor magnitud |
 
 ### Hallazgos
 
