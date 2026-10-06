@@ -412,6 +412,7 @@ tr.clic:hover td{background:var(--surface-2)}
       <div class="seg" id="ms-modo" role="group" aria-label="Qué muestran los mapas">
         <button type="button" data-v="gan" aria-pressed="true">Fuerza ganadora</button>
         <button type="button" data-v="cal" aria-pressed="false">Cantidad de votos</button>
+        <button type="button" data-v="var" aria-pressed="false">Variación de votos</button>
       </div></div>
   </div>
   <div class="mosaico" id="mosaico"></div>
@@ -1349,33 +1350,75 @@ const DEFINITORIAS=["2003-GENERAL","2007-GENERAL","2011-GENERAL","2015-BALOTAJE"
 const TRAMOS_VOTOS=[[1000,"Hasta 1.000"],[5000,"1.001 a 5.000"],[10000,"5.001 a 10.000"],[50000,"10.001 a 50.000"],[Infinity,"Más de 50.000"]];
 const tramoVotos=n=>TRAMOS_VOTOS.findIndex(([hasta])=>n<=hasta);
 const COLTV=i=>tinte("var(--accent)",[.36,.52,.68,.84,1][i]);
+/* Variación porcentual de los votos positivos de cada circuito respecto de la elección anterior del mosaico. Cinco tramos
+   simétricos. Baja: grises neutros; sube: azul del tablero. No se usan colores de familias políticas (rojo, naranja, celeste). */
+const TRAMOS_VAR=["Baja 20 % o más","Baja entre 5 y 20 %","Cambia menos de 5 %","Sube entre 5 y 20 %","Sube 20 % o más"];
+const tramoVar=r=>r<=-20?0:r<=-5?1:r<5?2:r<20?3:4;
+const COLVAR=["#606068","#acacb2","#ececf0","#656fc2","var(--accent)"];
+const nzc=c=>String(c).replace(/^0+/,"");
+/* Usa el enlace histórico de la pestaña «Swing voters» (circuito de b → circuito equivalente de a). Si un circuito se subdividió,
+   se compara la suma de los circuitos resultantes con el original y todos reciben esa variación: de otro modo cada parte
+   aparecería con una caída falsa. Devuelve {código de circuito de b: variación %}; los que no tienen equivalente no figuran. */
+function variacionVotos(i, cache){
+  const da=cache[i-1], db=cache[i];
+  const kA={}; Object.keys(da).forEach(k=>kA[nzc(k)]=k);
+  const kB={}; Object.keys(db).forEach(k=>kB[nzc(k)]=k);
+  const hijos={};
+  for(const u of SW.pares[i-1].u){ if(u[7]===9) continue;
+    const pa=nzc(u[1]), c=nzc(u[0]);
+    if(kA[pa]&&kB[c]) (hijos[pa]=hijos[pa]||[]).push(kB[c]); }
+  const out={};
+  for(const [pa,cs] of Object.entries(hijos)){
+    const ta=da[kA[pa]].tot; if(!ta) continue;
+    const r=100*(cs.reduce((s,k)=>s+db[k].tot,0)-ta)/ta;
+    cs.forEach(k=>out[k]=r); }
+  return out;
+}
 function dibujarMosaico(){
   const H=330, L=lienzo(H), S=H/GH;
   let html="";
   const cache=DEFINITORIAS.map(k=>porUnidad(k,"cir"));
+  const varia = estM.ms==="var" ? DEFINITORIAS.map((_,i)=>i? variacionVotos(i,cache) : null) : null;
   const usados=new Set();
   DEFINITORIAS.forEach((clave,i)=>{
     const datos=cache[i], geo=M.cap[CAPA(+clave.slice(0,4))];
     let o="";
+    if(varia&&i>0) o+=`<defs><pattern id="sinEq${i}" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)">`+
+      `<rect width="7" height="7" fill="${css('--surface')}"/><line x1="0" y1="0" x2="0" y2="7" stroke="${css('--line-strong')}" stroke-width="1.6"/></pattern></defs>`;
     for(const g of geo){
       const d=datos[g.c]; let fill="var(--surface-2)";
       if(estM.ms==="gan"){ if(d&&d.tot){const w=ganador(d); usados.add(w); fill=COLOR[w];} }
-      else if(d) fill=COLTV(tramoVotos(d.tot));
+      else if(estM.ms==="cal"){ if(d) fill=COLTV(tramoVotos(d.tot)); }
+      else if(i>0){ const r=varia[i][g.c]; fill = r==null ? `url(#sinEq${i})` : COLVAR[tramoVar(r)]; }
       o+=`<path d="${ruta(g.g,S,0,0)}" fill="${fill}" stroke="none"></path>`;
     }
     const e=D.elecciones.find(x=>x.clave===clave);
     html+=`<figure class="mini"><svg viewBox="0 0 ${L.w} ${H}" role="img" `+
       `aria-label="Mapa de ${etiquetaEl(e)}">${o}</svg>`+
-      `<figcaption>${e.anio}<span>${e.instancia==="BALOTAJE"?"Balotaje":"General"}</span></figcaption></figure>`;
+      `<figcaption>${e.anio}<span>${e.instancia==="BALOTAJE"?"Balotaje":"General"}</span>`+
+      (varia ? `<span>${i? "respecto de "+D.elecciones.find(x=>x.clave===DEFINITORIAS[i-1]).anio : "sin elección anterior"}</span>` : "")+
+      `</figcaption></figure>`;
   });
   $("#mosaico").innerHTML=html;
   $("#leg-ms").innerHTML = estM.ms==="gan"
     ? MFAM.filter(f=>usados.has(f)).map(f=>`<span class="item"><i class="sw" `+
         `style="background:${COLOR[f]}"></i>${CORTO_M(f)}</span>`).join("")
-    : `<div class="escala"><b>Votos positivos por circuito</b>`+TRAMOS_VOTOS.map(([,t],i)=>
-        `<span><i class="sw" style="background:${COLTV(i)}"></i>${t}</span>`).join("")+`</div>`;
+    : estM.ms==="cal"
+    ? `<div class="escala"><b>Votos positivos por circuito</b>`+TRAMOS_VOTOS.map(([,t],i)=>
+        `<span><i class="sw" style="background:${COLTV(i)}"></i>${t}</span>`).join("")+`</div>`
+    : `<div class="escala"><b>Variación de los votos positivos del circuito respecto de la elección anterior</b>`+
+        TRAMOS_VAR.map((t,i)=>`<span><i class="sw" style="background:${COLVAR[i]}"></i>${t}</span>`).join("")+
+        `<span><i class="sw" style="background:repeating-linear-gradient(45deg,var(--surface) 0 2px,var(--line-strong) 2px 3px)"></i>`+
+        `Sin equivalente en la elección anterior</span></div>`;
   $("#nota-ms").textContent = estM.ms==="gan"
     ? "Cada circuito se colorea según la fuerza más votada en esa instancia."
+    : estM.ms==="var"
+    ? "Cada circuito se colorea según la variación porcentual de sus votos positivos respecto de la elección anterior del mosaico "+
+      "(2007 respecto de 2003, y así hasta 2023 respecto de 2019), clasificada en cinco tramos simétricos: baja o sube 20 % o más, baja o sube entre 5 y 20 % "+
+      "y cambia menos de 5 %. Se usa el enlace histórico entre circuitos; si un circuito se subdividió, se compara la suma de los circuitos resultantes con el original. "+
+      "Los circuitos sin equivalente se muestran rayados y 2003, por ser la primera, no tiene comparación. Tres comparaciones cruzan una general con un balotaje "+
+      "(2011-2015, 2015-2019 y 2019-2023), de modo que incluyen el efecto del tipo de elección; y un circuito cuyo trazado se modificó puede mostrar "+
+      "una variación que refleja el cambio de territorio y no de votos."
     : "Cada circuito se colorea según los votos positivos que obtuvo en esa instancia, clasificados en cinco tramos de límites fijos "+
       "(hasta 1.000; 1.001 a 5.000; 5.001 a 10.000; 10.001 a 50.000 y más de 50.000). El tono crece con el tramo y la escala es idéntica "+
       "en las seis elecciones, de modo que un mismo color significa lo mismo en todos los mapas.";
