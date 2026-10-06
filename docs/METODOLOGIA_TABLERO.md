@@ -76,7 +76,7 @@ qué es una «fuerza política», PASO frente a generales, fuentes).
 |---|---|---|
 | Mapa de la serie por circuito | Las 12 instancias sobre los circuitos, con deslizador. Modo «fuerza ganadora» o «intensidad por fuerza». Un clic abre la ficha histórica del circuito (ganador y segundo en las 12 elecciones) | Color = familia más votada; intensidad = tinte de la familia, proporcional al máximo de esa elección. Capa de circuitos de cada año; 43 circuitos sin polígono no se dibujan pero suman en departamento y provincia. Tres líneas de interpretación con cifras verificables |
 | El voto departamento por departamento | Los 19 departamentos, con los mismos dos modos | Departamento = suma de circuitos. El código departamental de las capas 2003-2019 se tradujo por nombre (había 4 a 11 departamentos mal pintados) |
-| Comparación de las elecciones definitivas | Seis mapas por circuito en paralelo (generales 2003, 2007, 2011, 2019; balotajes 2015 y 2023); modo ganador o cantidad de votos | Sin deslizador, para comparar configuraciones. En «votos», escala de raíz cuadrada para que Rosario no opaque al resto |
+| Comparación de las elecciones definitivas | Seis mapas por circuito en paralelo (generales 2003, 2007, 2011, 2019; balotajes 2015 y 2023); modo ganador o cantidad de votos | Sin deslizador, para comparar configuraciones. En «votos», votos positivos del circuito en cinco tramos de límites fijos (hasta 1.000; 1.001 a 5.000; 5.001 a 10.000; 10.001 a 50.000; más de 50.000), iguales en las seis elecciones, con una rampa de un solo tono |
 
 ### Swing voters
 

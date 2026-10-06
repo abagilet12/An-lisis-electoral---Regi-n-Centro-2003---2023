@@ -1300,21 +1300,23 @@ function abrirFicha(codigo, anio){
 /* ---------- mosaico de seis mapas ---------- */
 const DEFINITORIAS=["2003-GENERAL","2007-GENERAL","2011-GENERAL","2015-BALOTAJE",
                     "2019-GENERAL","2023-BALOTAJE"];
+/* Votos positivos por circuito, en cinco tramos con límites fijos: la escala es la misma en las seis elecciones, de modo que
+   el color de un circuito significa lo mismo en todos los mapas. Rampa de un solo tono, de claro (pocos votos) a oscuro. */
+const TRAMOS_VOTOS=[[1000,"Hasta 1.000"],[5000,"1.001 a 5.000"],[10000,"5.001 a 10.000"],[50000,"10.001 a 50.000"],[Infinity,"Más de 50.000"]];
+const tramoVotos=n=>TRAMOS_VOTOS.findIndex(([hasta])=>n<=hasta);
+const COLTV=i=>tinte("var(--accent)",[.36,.52,.68,.84,1][i]);
 function dibujarMosaico(){
   const H=330, L=lienzo(H), S=H/GH;
-  let html="", maxVotos=0;
+  let html="";
   const cache=DEFINITORIAS.map(k=>porUnidad(k,"cir"));
-  if(estM.ms==="cal") cache.forEach(d=>Object.values(d).forEach(o=>maxVotos=Math.max(maxVotos,o.tot)));
   const usados=new Set();
   DEFINITORIAS.forEach((clave,i)=>{
     const datos=cache[i], geo=M.cap[CAPA(+clave.slice(0,4))];
     let o="";
     for(const g of geo){
       const d=datos[g.c]; let fill="var(--surface-2)";
-      if(d&&d.tot){
-        if(estM.ms==="gan"){const w=ganador(d); usados.add(w); fill=COLOR[w];}
-        else fill=tinte("var(--accent)", Math.sqrt(d.tot/maxVotos));
-      }
+      if(estM.ms==="gan"){ if(d&&d.tot){const w=ganador(d); usados.add(w); fill=COLOR[w];} }
+      else if(d) fill=COLTV(tramoVotos(d.tot));
       o+=`<path d="${ruta(g.g,S,0,0)}" fill="${fill}" stroke="none"></path>`;
     }
     const e=D.elecciones.find(x=>x.clave===clave);
@@ -1326,13 +1328,13 @@ function dibujarMosaico(){
   $("#leg-ms").innerHTML = estM.ms==="gan"
     ? MFAM.filter(f=>usados.has(f)).map(f=>`<span class="item"><i class="sw" `+
         `style="background:${COLOR[f]}"></i>${CORTO_M(f)}</span>`).join("")
-    : `<div class="escala"><b>Votos por circuito</b>`+[0,.25,.5,.75,1].map(t=>
-        `<span><i class="sw" style="background:${tinte("var(--accent)",Math.sqrt(t))}"></i>`+
-        `${fmt(Math.round(maxVotos*t))}</span>`).join("")+`</div>`;
+    : `<div class="escala"><b>Votos positivos por circuito</b>`+TRAMOS_VOTOS.map(([,t],i)=>
+        `<span><i class="sw" style="background:${COLTV(i)}"></i>${t}</span>`).join("")+`</div>`;
   $("#nota-ms").textContent = estM.ms==="gan"
     ? "Cada circuito se colorea según la fuerza más votada en esa instancia."
-    : "La intensidad es proporcional a la cantidad de votos positivos emitidos en el circuito. "+
-      "Se emplea una escala de raíz cuadrada porque, de lo contrario, Rosario opacaría al resto de la provincia.";
+    : "Cada circuito se colorea según los votos positivos que obtuvo en esa instancia, clasificados en cinco tramos de límites fijos "+
+      "(hasta 1.000; 1.001 a 5.000; 5.001 a 10.000; 10.001 a 50.000 y más de 50.000). El tono crece con el tramo y la escala es idéntica "+
+      "en las seis elecciones, de modo que un mismo color significa lo mismo en todos los mapas.";
 }
 
 /* ---------- tabla completa por elección ---------- */
