@@ -80,7 +80,7 @@ qué es una «fuerza política», PASO frente a generales, fuentes).
 
 | Elemento | Qué muestra | Cómo se construye y qué cuidar |
 |---|---|---|
-| Mapa con flechas y vista ampliada | Por circuito, entre pares de elecciones definitivas: flecha a la derecha o a la izquierda si cambió el ganador, «=» si hubo continuidad, punto gris si no hay equivalente | Sentido según la escala de Bobbio; color = fuerza que gana ahora. Tamaño de la marca ajustado a la cantidad de circuitos |
+| Mapa con flechas y vista ampliada | Por circuito, entre pares de elecciones definitivas: flecha a la derecha o a la izquierda si cambió el ganador, «=» si hubo continuidad, punto gris si no hay equivalente | Sentido según la escala de Bobbio; color = fuerza que gana ahora. Flecha de línea con punta abierta, sin relleno, para que las superpuestas se distingan. Tamaño de la marca ajustado a la cantidad de circuitos |
 | Resumen de la comparación elegida | Circuitos que continuaron, cambiaron a la derecha o a la izquierda, y los cambios más frecuentes | Ej. 2019-2023: 471 de 522 cambiaron (90,2 %); 470 a la derecha |
 | Las cinco comparaciones (mosaico y tabla) | 2003-2007, 2007-2011, 2011-2015, 2015-2019, 2019-2023: circuitos comparables, continuidad, dirección, % que cambió, cambios dentro de una misma posición | Tres comparaciones cruzan general y balotaje: el cambio incluye el efecto de la oferta. 2007-2011 es la más sensible a la escala (169 de 319 cambios ocurren dentro de la misma posición) |
 | El cambio según el tamaño del lugar | % de circuitos comparables que cambiaron, por categoría | Una proporción parecida entre categorías indica que el cambio no depende del tamaño del lugar |

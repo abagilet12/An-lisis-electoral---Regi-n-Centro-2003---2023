@@ -31,6 +31,10 @@ Pestaña «Swing voters» del tablero.
 4. **Colores y etiquetas:** los de siempre (`docs/CRITERIOS_COLOR.md`); la flecha lleva el color de la fuerza que gana ahora.
 5. **Tamaño de las marcas:** se calcula con la cantidad de circuitos y la superficie del mapa (`swTam`), entre 2 y 11 unidades
    de dibujo, para que sea legible donde los circuitos son más chicos.
+6. **Diseño de la flecha** (`swFlecha`): flecha de línea, con asta fina y punta abierta en «V», sin relleno ni contorno, trazada con el
+   color de la fuerza que gana. Las proporciones siguen la flecha de referencia del equipo; el grosor y la punta tienen un mínimo para que
+   la flecha se lea aun cuando es muy chica. Al no tener relleno, las flechas que se superponen se siguen distinguiendo. Solo cambia el
+   dibujo: el criterio de color y de sentido es el de las reglas 2 y 4.
 
 ## Datos y proceso
 
