@@ -15,6 +15,21 @@ vertical. Esos conceptos orientan qué se agrupa y en qué orden; el tablero no 
 | Elecciones | Ficha de cada elección, por etiqueta oficial | (generada por `scripts/agregar_pestanas.py`) |
 | Partidos | Ficha de cada partido | (generada por `scripts/agregar_pestanas.py`) |
 
+## Orden de cada gráfico, mapa o tabla
+
+Cada sección que presenta un gráfico, un mapa, una tabla o un resumen de cifras sigue el mismo orden, para que el título identifique
+de inmediato lo que se muestra:
+
+1. **Título** (`h2` y subtítulo `p.sub`; en los bloques con dos gráficos, un `h3` por gráfico).
+2. **Gráfico** (con sus controles y su leyenda).
+3. **Fuente**: el epígrafe «Elaboración propia a partir de…», que inserta `scripts/plantillas/epigrafes.js` justo debajo del gráfico o de la tabla.
+4. **Descripción agrupada** (`div.desc`): la introducción que antes iba bajo el título y todas las notas que explican cada criterio y cada
+   distinción (notas dinámicas, aclaraciones de método, desplegables).
+
+Al agregar una sección nueva hay que respetar ese orden: lo que explica va dentro de `div.desc`, después del gráfico y de su fuente. Las
+pestañas «Elecciones» y «Partidos» se generan desde `scripts/plantillas/fichas.html`, que ya sigue este orden. Quedan fuera del esquema los
+textos sin gráfico: la pestaña «Objetivos, método y base de datos» y las introducciones de cada pestaña (`p.contexto`).
+
 ## Criterios
 
 - Las lecturas cartográficas van en «Evolución del voto» (un solo mapa por circuito, el de la serie, con ficha

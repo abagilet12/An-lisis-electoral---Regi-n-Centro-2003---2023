@@ -10,7 +10,6 @@ td.nom button,.vinc button{font:inherit;font-family:var(--font-d);color:var(--na
   text-underline-offset:3px}
 td.nom button:hover,.vinc button:hover{color:var(--accent)}
 .vinc{font-family:var(--font-d);font-size:.88rem;margin:0 0 1rem;display:flex;flex-direction:column;gap:.35rem}
-.vinc .fte{font-size:.78rem;color:var(--ink-3);max-width:none}
 tr.ausente td{color:var(--ink-3)}
 tr.sel td{background:var(--surface-2);font-weight:700}
 tr.clic{cursor:pointer}

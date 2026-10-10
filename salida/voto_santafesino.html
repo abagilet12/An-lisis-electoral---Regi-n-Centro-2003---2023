@@ -99,6 +99,10 @@ select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outlin
 .tip .r b{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:500}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem}
 .note{font-size:.86rem;color:var(--ink-3);max-width:none;margin-top:.9rem}
+/* descripción agrupada: va después del gráfico y de su fuente */
+.desc{margin-top:1.1rem;padding-left:1rem;border-left:3px solid var(--line-strong)}
+.desc>:first-child{margin-top:0}
+.desc>:last-child{margin-bottom:0}
 .tablewrap{overflow-x:auto;margin-top:1.1rem;border:1px solid var(--line);background:var(--surface)}
 table{border-collapse:collapse;width:100%;font-family:var(--font-d);font-size:.82rem}
 th,td{padding:.45rem .7rem;text-align:right;border-bottom:1px solid var(--line);
@@ -202,7 +206,6 @@ td.nom button,.vinc button{font:inherit;font-family:var(--font-d);color:var(--na
   text-underline-offset:3px}
 td.nom button:hover,.vinc button:hover{color:var(--accent)}
 .vinc{font-family:var(--font-d);font-size:.88rem;margin:0 0 1rem;display:flex;flex-direction:column;gap:.35rem}
-.vinc .fte{font-size:.78rem;color:var(--ink-3);max-width:none}
 tr.ausente td{color:var(--ink-3)}
 tr.sel td{background:var(--surface-2);font-weight:700}
 tr.clic{cursor:pointer}
@@ -331,30 +334,6 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Evolución del voto a Presidente en Santa Fe 2003-2023 por circuito electoral</h2>
   <p class="sub">Mapa de la serie</p>
-  <p>Las doce instancias presidenciales se representan sobre los circuitos electorales de la
-  provincia, que constituyen la unidad más desagregada que publican los organismos electorales.
-  Al comparar el conjunto de las elecciones se perciben, al menos, tres líneas de interpretación
-  (porcentajes sobre votos positivos, recuento provisorio y fuerzas agrupadas por familia política).</p>
-  <ol class="objetivos">
-    <li><b>Alternancia sin una fuerza dominante.</b> En las seis elecciones generales se impusieron
-    cuatro fuerzas distintas —el Peronismo Federal en 2003, el Kirchnerismo en 2007 y 2011, Cambiemos
-    en 2015 y 2019, y La Libertad Avanza en 2023—, y las diferencias fueron estrechas en 2019
-    (43,4&nbsp;% frente a 42,7&nbsp;%) y en 2023 (32,5&nbsp;% frente a 29,7&nbsp;%).</li>
-    <li><b>De una oferta fragmentada a la competencia entre dos polos y, luego, a un escenario de tres.</b>
-    En 2003 y 2007 el voto se reparte entre varias fuerzas de peso comparable y, en 2011, el Socialismo,
-    de arraigo santafesino, alcanza el 39,1&nbsp;%; sin embargo, cae al 4,0&nbsp;% en 2015 y desaparece en 2019.
-    Entre 2015 y 2019, Cambiemos y el Kirchnerismo reúnen el 67,1&nbsp;% y el 86,1&nbsp;% de los votos, lo cual
-    puede leerse como una competencia organizada en torno a dos coaliciones de alcance nacional,
-    mientras que en 2023 la irrupción de La Libertad Avanza reabre el escenario con tres fuerzas
-    separadas por menos de seis puntos.</li>
-    <li><b>Un territorio heterogéneo en las generales y homogéneo en los balotajes.</b> En las generales
-    los departamentos se reparten entre fuerzas: en 2023, el Kirchnerismo conserva Rosario, Constitución,
-    San Javier y Vera frente a La Libertad Avanza en los otros quince. En los balotajes, en cambio, el
-    polo no kirchnerista gana 18 de los 19 departamentos en 2015 y los 19 en 2023.</li>
-  </ol>
-  <p>El deslizador permite recorrer la serie completa y, <b>al hacer clic sobre un circuito, se despliega
-  su historia entera</b>: la fuerza ganadora y la que obtuvo el segundo lugar en cada una de las doce
-  elecciones.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="mp-modo" role="group" aria-label="Qué muestra el mapa">
@@ -375,13 +354,38 @@ tr.clic:hover td{background:var(--surface-2)}
     <div class="legend vert" id="leg-mp"></div>
   </div>
   <div class="ficha" id="ficha" hidden></div>
-  <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY). Dado que los circuitos modifican su trazado y su código a lo largo de los veinte años, la ficha histórica vincula cada circuito actual con el que cubría el mismo territorio en cada elección anterior.</p>
+  <div class="desc">
+    <p>Las doce instancias presidenciales se representan sobre los circuitos electorales de la
+  provincia, que constituyen la unidad más desagregada que publican los organismos electorales.
+  Al comparar el conjunto de las elecciones se perciben, al menos, tres líneas de interpretación
+  (porcentajes sobre votos positivos, recuento provisorio y fuerzas agrupadas por familia política).</p>
+    <ol class="objetivos">
+    <li><b>Alternancia sin una fuerza dominante.</b> En las seis elecciones generales se impusieron
+    cuatro fuerzas distintas —el Peronismo Federal en 2003, el Kirchnerismo en 2007 y 2011, Cambiemos
+    en 2015 y 2019, y La Libertad Avanza en 2023—, y las diferencias fueron estrechas en 2019
+    (43,4&nbsp;% frente a 42,7&nbsp;%) y en 2023 (32,5&nbsp;% frente a 29,7&nbsp;%).</li>
+    <li><b>De una oferta fragmentada a la competencia entre dos polos y, luego, a un escenario de tres.</b>
+    En 2003 y 2007 el voto se reparte entre varias fuerzas de peso comparable y, en 2011, el Socialismo,
+    de arraigo santafesino, alcanza el 39,1&nbsp;%; sin embargo, cae al 4,0&nbsp;% en 2015 y desaparece en 2019.
+    Entre 2015 y 2019, Cambiemos y el Kirchnerismo reúnen el 67,1&nbsp;% y el 86,1&nbsp;% de los votos, lo cual
+    puede leerse como una competencia organizada en torno a dos coaliciones de alcance nacional,
+    mientras que en 2023 la irrupción de La Libertad Avanza reabre el escenario con tres fuerzas
+    separadas por menos de seis puntos.</li>
+    <li><b>Un territorio heterogéneo en las generales y homogéneo en los balotajes.</b> En las generales
+    los departamentos se reparten entre fuerzas: en 2023, el Kirchnerismo conserva Rosario, Constitución,
+    San Javier y Vera frente a La Libertad Avanza en los otros quince. En los balotajes, en cambio, el
+    polo no kirchnerista gana 18 de los 19 departamentos en 2015 y los 19 en 2023.</li>
+  </ol>
+    <p>El deslizador permite recorrer la serie completa y, <b>al hacer clic sobre un circuito, se despliega
+  su historia entera</b>: la fuerza ganadora y la que obtuvo el segundo lugar en cada una de las doce
+  elecciones.</p>
+    <p class="note">La cartografía de circuitos pertenece a Franco Galeano (licencia CC&nbsp;BY). Dado que los circuitos modifican su trazado y su código a lo largo de los veinte años, la ficha histórica vincula cada circuito actual con el que cubría el mismo territorio en cada elección anterior.</p>
+  </div>
 </section>
 
 <section>
   <h2>El voto departamento por departamento</h2>
   <p class="sub">Cartografía · departamentos</p>
-  <p>Los 19 departamentos de la provincia se representan elección por elección. El mapa se abre con la fuerza que obtuvo el primer lugar en cada uno; el segundo modo, en cambio, colorea la intensidad del voto de la fuerza seleccionada, lo que permite apreciar avances o retrocesos territoriales que el criterio del ganador no deja ver.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="md-modo" role="group" aria-label="Qué muestra el mapa">
@@ -401,12 +405,14 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Mapa del voto por departamento"></svg></div>
     <div class="legend vert" id="leg-md"></div>
   </div>
+  <div class="desc">
+    <p>Los 19 departamentos de la provincia se representan elección por elección. El mapa se abre con la fuerza que obtuvo el primer lugar en cada uno; el segundo modo, en cambio, colorea la intensidad del voto de la fuerza seleccionada, lo que permite apreciar avances o retrocesos territoriales que el criterio del ganador no deja ver.</p>
+  </div>
 </section>
 
 <section style="border-bottom:0">
   <h2>Comparación de las elecciones definitivas 2003 - 2023 en Santa Fe</h2>
   <p class="sub">Cartografía comparada</p>
-  <p>Se consideran definitivas las instancias que resolvieron la presidencia en cada ciclo: las elecciones generales de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Cada mapa corresponde a una de ellas y, al disponerlos en paralelo, sin deslizador ni animación, lo que se compara es la configuración del territorio y no el momento de la serie.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Qué muestra</label>
       <div class="seg" id="ms-modo" role="group" aria-label="Qué muestran los mapas">
@@ -417,7 +423,10 @@ tr.clic:hover td{background:var(--surface-2)}
   </div>
   <div class="mosaico" id="mosaico"></div>
   <div class="legend" id="leg-ms"></div>
-  <p class="note" id="nota-ms"></p>
+  <div class="desc">
+    <p>Se consideran definitivas las instancias que resolvieron la presidencia en cada ciclo: las elecciones generales de 2003, 2007, 2011 y 2019, y los balotajes de 2015 y 2023. Cada mapa corresponde a una de ellas y, al disponerlos en paralelo, sin deslizador ni animación, lo que se compara es la configuración del territorio y no el momento de la serie.</p>
+    <p class="note" id="nota-ms"></p>
+  </div>
 </section>
 </div>
 
@@ -425,20 +434,6 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Swing voters</h2>
   <p class="sub">Cambio de comportamiento electoral por circuito, elecciones definitivas 2003-2023</p>
-  <p>Los <i>swing voters</i> son aquellas personas que cambian su comportamiento electoral de una elección a la siguiente.
-  Con datos agregados a nivel de circuito electoral no es posible observar a cada votante, pero sí identificar los lugares
-  en los que ese cambio se expresó: los circuitos en los que la fuerza más votada no es la misma que en la elección
-  anterior. Esta lectura permite precisar uno de los objetivos del proyecto, a saber, la descripción de la evolución del voto
-  y de las principales tendencias del comportamiento electoral entre 2003 y 2023.</p>
-  <p>Se consideran únicamente las elecciones definitivas, es decir, las que definieron la presidencia: las generales de 2003,
-  2007, 2011 y 2019 y los balotajes de 2015 y 2023. Se comparan, circuito por circuito, cinco pares consecutivos:
-  2003-2007, 2007-2011, 2011-2015, 2015-2019 y 2019-2023.</p>
-  <p>Conviene precisar el alcance conceptual. Mayer distingue entre el <i>swing voter</i>, el votante ambivalente que podría
-  votar en cualquier dirección (Mayer, 2008: 2), y el <i>party switcher</i> o <i>floating voter</i>, quien cruza líneas
-  partidarias de una elección a la siguiente, y subraya que no son lo mismo (Mayer, 2008: 12-13). La definición
-  operativa que aquí se adopta se acerca a la segunda y se aplica a territorios: un circuito «cambia» cuando cambia su
-  ganador. Ese cambio es compatible con distintos procesos (voto cruzado, abstención, modificaciones de la oferta o del
-  padrón) que los datos agregados no permiten distinguir.</p>
   <div class="ctrls">
     <div class="ctrl"><label>Comparación</label>
       <div class="seg" id="sw-par" role="group" aria-label="Comparación entre elecciones definitivas"></div></div>
@@ -450,40 +445,59 @@ tr.clic:hover td{background:var(--surface-2)}
       <div>
         <h3>Cómo se lee</h3>
         <div class="swlee" id="sw-leyenda"></div>
-        <p class="note" style="margin-top:.8rem">La flecha indica el sentido del cambio en el arco ideológico: hacia la derecha
-        si la fuerza que ahora gana se ubica más a la derecha que la que ganó antes en ese circuito, y hacia la izquierda en
-        caso contrario, según una escala de igualitarismo inspirada en Bobbio (1994). Su color es el de la fuerza que gana ahora. El signo igual, en negro, indica continuidad: ganó la
-        misma fuerza en las dos elecciones. Los puntos grises son circuitos sin equivalente en la elección anterior.</p>
       </div>
       <div>
         <h3 id="sw-tit-par"></h3>
-        <p id="sw-nota" style="margin-bottom:.5rem"></p>
         <div class="tablewrap"><table id="tabla-swing-par"></table></div>
       </div>
     </div>
+  </div>
+  <div class="desc">
+    <p>Los <i>swing voters</i> son aquellas personas que cambian su comportamiento electoral de una elección a la siguiente.
+  Con datos agregados a nivel de circuito electoral no es posible observar a cada votante, pero sí identificar los lugares
+  en los que ese cambio se expresó: los circuitos en los que la fuerza más votada no es la misma que en la elección
+  anterior. Esta lectura permite precisar uno de los objetivos del proyecto, a saber, la descripción de la evolución del voto
+  y de las principales tendencias del comportamiento electoral entre 2003 y 2023.</p>
+    <p>Se consideran únicamente las elecciones definitivas, es decir, las que definieron la presidencia: las generales de 2003,
+  2007, 2011 y 2019 y los balotajes de 2015 y 2023. Se comparan, circuito por circuito, cinco pares consecutivos:
+  2003-2007, 2007-2011, 2011-2015, 2015-2019 y 2019-2023.</p>
+    <p>Conviene precisar el alcance conceptual. Mayer distingue entre el <i>swing voter</i>, el votante ambivalente que podría
+  votar en cualquier dirección (Mayer, 2008: 2), y el <i>party switcher</i> o <i>floating voter</i>, quien cruza líneas
+  partidarias de una elección a la siguiente, y subraya que no son lo mismo (Mayer, 2008: 12-13). La definición
+  operativa que aquí se adopta se acerca a la segunda y se aplica a territorios: un circuito «cambia» cuando cambia su
+  ganador. Ese cambio es compatible con distintos procesos (voto cruzado, abstención, modificaciones de la oferta o del
+  padrón) que los datos agregados no permiten distinguir.</p>
+    <p class="note" style="margin-top:.8rem">La flecha indica el sentido del cambio en el arco ideológico: hacia la derecha
+        si la fuerza que ahora gana se ubica más a la derecha que la que ganó antes en ese circuito, y hacia la izquierda en
+        caso contrario, según una escala de igualitarismo inspirada en Bobbio (1994). Su color es el de la fuerza que gana ahora. El signo igual, en negro, indica continuidad: ganó la
+        misma fuerza en las dos elecciones. Los puntos grises son circuitos sin equivalente en la elección anterior.</p>
+    <p id="sw-nota" style="margin-bottom:.5rem"></p>
   </div>
 </section>
 
 <section>
   <h2>Las cinco comparaciones</h2>
   <p class="sub">Cartografía comparada del cambio</p>
-  <p>Las cinco comparaciones se presentan en paralelo con el mismo criterio gráfico. El tamaño de cada marca se ajusta a la
-  cantidad de circuitos que se representan y a la superficie del mapa, de modo que sea legible aun donde los circuitos son
-  más pequeños. Un clic sobre un mapa lo selecciona en la vista ampliada.</p>
   <div class="swmos" id="sw-mosaico"></div>
   <div class="tablewrap" style="margin-top:1.2rem"><table id="tabla-swing"></table></div>
-  <p class="note" id="sw-nota-tabla"></p>
+  <div class="desc">
+    <p>Las cinco comparaciones se presentan en paralelo con el mismo criterio gráfico. El tamaño de cada marca se ajusta a la
+  cantidad de circuitos que se representan y a la superficie del mapa, de modo que sea legible aun donde los circuitos son
+  más pequeños. Un clic sobre un mapa lo selecciona en la vista ampliada.</p>
+    <p class="note" id="sw-nota-tabla"></p>
+  </div>
 </section>
 
 <section style="border-bottom:0">
   <h2>El cambio según el tamaño del lugar</h2>
   <p class="sub">Porcentaje de circuitos que cambiaron de ganador</p>
-  <p>Cada circuito se asigna a una localidad y esta, a una categoría según su población en el Censo 2022 (la misma escala de la
+  <div class="tablewrap"><table id="tabla-swing-tam"></table></div>
+  <div class="desc">
+    <p>Cada circuito se asigna a una localidad y esta, a una categoría según su población en el Censo 2022 (la misma escala de la
   pestaña «Hallazgos»). La tabla muestra, para cada comparación, qué porción de los circuitos comparables cambió de
   ganador en cada categoría. Una porción parecida entre categorías indica que el cambio no depende del tamaño del lugar.</p>
-  <div class="tablewrap"><table id="tabla-swing-tam"></table></div>
-  <p class="note">Solo se cuentan circuitos con equivalente en la elección anterior. Una categoría sin circuitos se muestra con guion.</p>
-  <details><summary>Escala izquierda-derecha utilizada</summary>
+    <p class="note">Solo se cuentan circuitos con equivalente en la elección anterior. Una categoría sin circuitos se muestra con guion.</p>
+    <details><summary>Escala izquierda-derecha utilizada</summary>
     <p>La escala sigue el criterio de Bobbio (1994). Según el autor, la izquierda y la derecha se distinguen por su actitud frente
     a la igualdad: la izquierda se orienta hacia una mayor igualdad entre las personas, porque considera que muchas desigualdades
     son sociales y, por lo tanto, pueden reducirse; la derecha, en cambio, acepta con mayor facilidad las desigualdades, por
@@ -498,6 +512,7 @@ tr.clic:hover td{background:var(--surface-2)}
     de investigación y puede revisarse en <code>datos/referencia/ubicacion_familias.csv</code> (véase
     <code>docs/CRITERIO_IDEOLOGICO_BOBBIO.md</code>).</p>
     <div class="tablewrap"><table id="tabla-swing-escala"></table></div></details>
+  </div>
 </section>
 </div>
 
@@ -506,7 +521,6 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Resultados comparados, 2003-2023</h2>
   <p class="sub">La serie en cifras</p>
-  <p>El punto de partida del análisis es la serie completa: el porcentaje que obtuvo cada fuerza política en cada elección, calculado sobre los votos positivos. Asimismo, se informan la participación sobre el padrón y el peso conjunto del voto en blanco y nulo. Cabe aclarar que los guiones no equivalen a ceros, sino que indican que la fuerza no se presentó en esa instancia.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="tb-ambito">Ámbito</label>
       <select id="tb-ambito"></select></div>
@@ -517,23 +531,27 @@ tr.clic:hover td{background:var(--surface-2)}
       </div></div>
   </div>
   <div class="tablewrap"><table id="tabla"></table></div>
+  <div class="desc">
+    <p>El punto de partida del análisis es la serie completa: el porcentaje que obtuvo cada fuerza política en cada elección, calculado sobre los votos positivos. Asimismo, se informan la participación sobre el padrón y el peso conjunto del voto en blanco y nulo. Cabe aclarar que los guiones no equivalen a ceros, sino que indican que la fuerza no se presentó en esa instancia.</p>
+  </div>
 </section>
 <section>
   <h2>Tabla por elección</h2>
   <p class="sub">Resultados completos por instancia</p>
-  <p>Se presentan los resultados provinciales de cada instancia conforme al criterio de publicación de los organismos electorales. Cabe advertir que los tres denominadores no son intercambiables: los votos <b>positivos</b> permiten comparar las fuerzas entre sí; los <b>válidos</b> incorporan el voto en blanco como opción política; y los <b>emitidos</b> miden qué proporción del acto electoral corresponde a cada categoría.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="t-eleccion">Elección</label>
       <select id="t-eleccion"></select></div>
   </div>
   <div class="tablewrap"><table id="tabla-anual"></table></div>
   <div class="resumen" id="resumen-anual"></div>
+  <div class="desc">
+    <p>Se presentan los resultados provinciales de cada instancia conforme al criterio de publicación de los organismos electorales. Cabe advertir que los tres denominadores no son intercambiables: los votos <b>positivos</b> permiten comparar las fuerzas entre sí; los <b>válidos</b> incorporan el voto en blanco como opción política; y los <b>emitidos</b> miden qué proporción del acto electoral corresponde a cada categoría.</p>
+  </div>
 </section>
 
 <section>
   <h2>Composición por departamento</h2>
   <p class="sub">Distribución del electorado</p>
-  <p>Los 19 departamentos se ordenan por padrón. Cada barra muestra cómo se distribuye el voto positivo del departamento en la elección seleccionada.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="f-eleccion">Elección</label>
       <select id="f-eleccion"></select></div>
@@ -548,14 +566,14 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Composición del voto por departamento"></svg>
   </div>
   <div class="legend" id="leg-deptos"></div>
+  <div class="desc">
+    <p>Los 19 departamentos se ordenan por padrón. Cada barra muestra cómo se distribuye el voto positivo del departamento en la elección seleccionada.</p>
+  </div>
 </section>
 
 <section style="border-bottom:0">
   <h2>Volatilidad y desafección</h2>
   <p class="sub">Dos indicadores</p>
-  <p>Se presentan dos indicadores complementarios del comportamiento electoral: la volatilidad, que mide cuánto se
-  reacomodan las preferencias de una elección a la siguiente, y la desafección, que reúne la ausencia del padrón,
-  el voto en blanco y el voto nulo.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="a-ambito">Ámbito</label><select id="a-ambito"></select></div>
     <div class="ctrl"><label>Instancias</label>
@@ -567,17 +585,17 @@ tr.clic:hover td{background:var(--surface-2)}
   <div class="grid2">
     <div>
       <h3>Volatilidad electoral</h3>
-      <p class="note" style="margin-top:.2rem">El índice de volatilidad de Pedersen (1979) mide el cambio neto total que experimenta el sistema de partidos entre dos elecciones como resultado de las transferencias de votos. Se calcula como la mitad de la suma de los valores absolutos de la variación del porcentaje de votos de cada fuerza entre dos elecciones consecutivas, <i>V</i> = ½ Σ |<i>p</i><sub><i>i,t</i></sub> − <i>p</i><sub><i>i,t</i>−1</sub>|, y varía de 0 (ningún cambio) a 100 (reemplazo completo de las fuerzas). Aquí se aplica a los porcentajes sobre votos positivos de cada familia política, entre generales consecutivas.</p>
-      <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector «Instancias» se encuentre en «todas» (el ámbito sí se aplica): comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
       <div class="plot" id="p-vol" style="margin-top:.8rem">
         <svg id="svg-vol" viewBox="0 0 440 260" role="img"
              aria-label="Volatilidad entre elecciones generales"></svg>
       </div>
+      <div class="desc">
+        <p class="note" style="margin-top:.2rem">El índice de volatilidad de Pedersen (1979) mide el cambio neto total que experimenta el sistema de partidos entre dos elecciones como resultado de las transferencias de votos. Se calcula como la mitad de la suma de los valores absolutos de la variación del porcentaje de votos de cada fuerza entre dos elecciones consecutivas, <i>V</i> = ½ Σ |<i>p</i><sub><i>i,t</i></sub> − <i>p</i><sub><i>i,t</i>−1</sub>|, y varía de 0 (ningún cambio) a 100 (reemplazo completo de las fuerzas). Aquí se aplica a los porcentajes sobre votos positivos de cada familia política, entre generales consecutivas.</p>
+        <p class="note" style="margin-top:.45rem;font-size:.79rem">Se calcula siempre entre generales consecutivas, aun cuando el selector «Instancias» se encuentre en «todas» (el ámbito sí se aplica): comparar una PASO con su general no informa sobre el reacomodamiento del electorado, sino sobre la distancia entre la interna y la elección definitiva.</p>
+      </div>
     </div>
     <div>
       <h3>Desafección</h3>
-      <p class="note" style="margin-top:.2rem">Se informa la participación sobre el padrón y, por separado, el voto en blanco y el nulo sobre el total de votantes, dado que el blanco constituye una decisión política declarada, mientras que el nulo combina protesta y error material. Se utilizan dos escalas distintas, pues una sola comprimiría las series de menor magnitud.</p>
-      <p class="note" id="nota-des" style="margin-top:.45rem;font-size:.79rem"></p>
       <div class="plot" id="p-des" style="margin-top:.8rem">
         <svg id="svg-des" viewBox="0 0 440 300" role="img"
              aria-label="Participación, votos en blanco y votos nulos"></svg>
@@ -587,7 +605,16 @@ tr.clic:hover td{background:var(--surface-2)}
           <span class="item"><i class="ln" style="background:var(--gris-az)"></i>Blancos</span>
         </div>
       </div>
+      <div class="desc">
+        <p class="note" style="margin-top:.2rem">Se informa la participación sobre el padrón y, por separado, el voto en blanco y el nulo sobre el total de votantes, dado que el blanco constituye una decisión política declarada, mientras que el nulo combina protesta y error material. Se utilizan dos escalas distintas, pues una sola comprimiría las series de menor magnitud.</p>
+        <p class="note" id="nota-des" style="margin-top:.45rem;font-size:.79rem"></p>
+      </div>
     </div>
+  </div>
+  <div class="desc">
+    <p>Se presentan dos indicadores complementarios del comportamiento electoral: la volatilidad, que mide cuánto se
+  reacomodan las preferencias de una elección a la siguiente, y la desafección, que reúne la ausencia del padrón,
+  el voto en blanco y el voto nulo.</p>
   </div>
 </section>
 </div>
@@ -614,37 +641,35 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Resumen de 5 números</h2>
   <p class="sub">Indicadores del período 2003-2023</p>
-  <p>Cinco cifras sintetizan el comportamiento electoral de Santa Fe en las seis elecciones generales del período: el
+  <div class="tiles" id="tiles"></div>
+  <div class="desc">
+    <p>Cinco cifras sintetizan el comportamiento electoral de Santa Fe en las seis elecciones generales del período: el
   reacomodamiento total de las preferencias entre 2003 y 2023, la cantidad de partidos que compitieron y los niveles
   promedio de voto en blanco, voto nulo y ausentismo.</p>
-  <div class="tiles" id="tiles"></div>
-  <p class="note" id="nota-resumen"></p>
+    <p class="note" id="nota-resumen"></p>
+  </div>
 </section>
 <section>
   <h2>Evolución de las fuerzas políticas</h2>
   <p class="sub">Las tres fuerzas que ganaron la presidencia</p>
-  <p>Se presentan únicamente las tres fuerzas que ganaron la presidencia en el período: las alianzas del Kirchnerismo
-  (Frente para la Victoria, Frente de Todos y Unión por la Patria), las de Cambiemos / Juntos por el Cambio y La Libertad
-  Avanza. Las demás fuerzas se excluyen de esta serie principal. Se expresa el porcentaje sobre los votos positivos y
-  las etiquetas partidarias se agrupan según su continuidad política, criterio que constituye una decisión de
-  investigación y no un dato: se encuentra documentado y es editable. La ausencia de línea indica que la fuerza no se
-  presentó en esa elección.</p>
-
   <div class="plot" id="p-serie">
     <svg id="svg-serie" viewBox="0 0 900 400" role="img"
          aria-label="Evolución del porcentaje de las tres fuerzas que ganaron la presidencia"></svg>
   </div>
   <div class="legend" id="leg-serie"></div>
-  <p class="note" id="nota-serie"></p>
+  <div class="desc">
+    <p>Se presentan únicamente las tres fuerzas que ganaron la presidencia en el período: las alianzas del Kirchnerismo
+  (Frente para la Victoria, Frente de Todos y Unión por la Patria), las de Cambiemos / Juntos por el Cambio y La Libertad
+  Avanza. Las demás fuerzas se excluyen de esta serie principal. Se expresa el porcentaje sobre los votos positivos y
+  las etiquetas partidarias se agrupan según su continuidad política, criterio que constituye una decisión de
+  investigación y no un dato: se encuentra documentado y es editable. La ausencia de línea indica que la fuerza no se
+  presentó en esa elección.</p>
+    <p class="note" id="nota-serie"></p>
+  </div>
 </section>
 <section style="border-bottom:0">
   <h2>El voto según el tamaño del lugar</h2>
   <p class="sub">Escala demográfica y comportamiento por fuerza</p>
-  <p>Las localidades se clasifican según su población en el Censo 2022 (INDEC): <b>rural</b>, menos de 2.000
-  habitantes; <b>pueblo</b>, de 2.001 a 5.000; <b>ciudad pequeña</b>, de 5.001 a 10.000; <b>ciudad intermedia</b>, de
-  10.001 a 50.000; y <b>ciudad grande</b>, de 50.001 a 1.000.000. Cada línea sigue el porcentaje que obtiene la fuerza
-  elegida sobre los votos positivos del conjunto de localidades de cada categoría, con los resultados por circuito agregados por localidad. Cuando las líneas se separan se
-  evidencia un gradiente según el tamaño del lugar; cuando convergen, la escala deja de ordenar el voto.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="tr-fuerza">Fuerza</label>
       <select id="tr-fuerza"></select></div>
@@ -654,17 +679,24 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Voto de una fuerza según el tamaño de la localidad"></svg>
   </div>
   <div class="legend" id="leg-tramos"></div>
-  <p class="note" id="nota-tramos"></p>
   <h3 id="tit-tabla-tramos" style="margin-top:1.4rem"></h3>
   <div class="tablewrap" style="margin-top:.5rem"><table id="tabla-tramos"></table></div>
-  <p class="note">Alcance y método: el análisis cubre toda la provincia y las doce instancias. Cada circuito electoral se asigna
+  <div class="desc">
+    <p>Las localidades se clasifican según su población en el Censo 2022 (INDEC): <b>rural</b>, menos de 2.000
+  habitantes; <b>pueblo</b>, de 2.001 a 5.000; <b>ciudad pequeña</b>, de 5.001 a 10.000; <b>ciudad intermedia</b>, de
+  10.001 a 50.000; y <b>ciudad grande</b>, de 50.001 a 1.000.000. Cada línea sigue el porcentaje que obtiene la fuerza
+  elegida sobre los votos positivos del conjunto de localidades de cada categoría, con los resultados por circuito agregados por localidad. Cuando las líneas se separan se
+  evidencia un gradiente según el tamaño del lugar; cuando convergen, la escala deja de ordenar el voto.</p>
+    <p class="note" id="nota-tramos"></p>
+    <p class="note">Alcance y método: el análisis cubre toda la provincia y las doce instancias. Cada circuito electoral se asigna
   a la localidad (gobierno local) en la que cae, mediante el cruce de la cartografía de circuitos con los radios censales del
   Censo 2022 (INDEC), y los resultados de los circuitos de cada localidad se suman. Las localidades son los gobiernos
   locales de la provincia e incluyen su zona rural. El cruce reproduce los 150 circuitos del nomenclador relevado a mano y,
   para las 30 localidades que cuentan con resultados propios, las cifras reconstruidas difieren en promedio menos de 1&nbsp;%.
   Rosario (1.030.069 habitantes) supera por poco el tope de 1.000.000 y se incluye en ciudad grande.</p>
-  <details><summary>Localidades consideradas, población y categoría</summary>
+    <details><summary>Localidades consideradas, población y categoría</summary>
     <div class="tablewrap"><table id="tabla-localidades"></table></div></details>
+  </div>
 </section>
 </div>
 <!--FICHAS-HTML:INI-->
@@ -672,7 +704,6 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Ficha de una elección</h2>
   <p class="sub">Resultado de cada partido, territorio por territorio</p>
-  <p>Se selecciona una elección y una unidad territorial. El mapa puede observarse por departamento o por circuito, y <b>un clic sobre él selecciona la unidad correspondiente</b>. Cada partido figura con el nombre oficial que tuvo en esa elección.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="ele-sel">Elección</label><select id="ele-sel"></select></div>
     <div class="ctrl"><label for="ele-unidad">Unidad</label><select id="ele-unidad"></select></div>
@@ -688,19 +719,26 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Fuerza ganadora en cada unidad territorial"></svg></div>
     <div class="legend vert" id="leg-ele"></div>
   </div>
-  <p class="note" id="ele-nota-mapa"></p>
+  <div class="desc">
+    <p>Se selecciona una elección y una unidad territorial. El mapa puede observarse por departamento o por circuito, y <b>un clic sobre él selecciona la unidad correspondiente</b>. Cada partido figura con el nombre oficial que tuvo en esa elección.</p>
+    <p class="note" id="ele-nota-mapa"></p>
+  </div>
 </section>
 <section>
   <h2 id="ele-tit-tabla">Resultado</h2>
   <p class="sub" id="ele-sub-tabla"></p>
   <div class="tablewrap"><table id="ele-tabla"></table></div>
-  <p class="note" id="ele-nota-tabla"></p>
+  <div class="desc">
+    <p class="note" id="ele-nota-tabla"></p>
+  </div>
 </section>
 <section style="border-bottom:0">
   <h2>Participación, votos en blanco y nulos</h2>
   <p class="sub" id="ele-sub-part"></p>
   <div class="resumen" id="ele-part"></div>
-  <p class="note" id="ele-nota-part"></p>
+  <div class="desc">
+    <p class="note" id="ele-nota-part"></p>
+  </div>
 </section>
 </div>
 
@@ -708,7 +746,6 @@ tr.clic:hover td{background:var(--surface-2)}
 <section>
   <h2>Ficha de un partido</h2>
   <p class="sub">Su recorrido elección por elección</p>
-  <p>Cada nombre oficial dispone de su propia ficha. Cuando un partido cambió de denominación, la ficha ofrece un vínculo opcional hacia la etiqueta anterior o posterior, junto con la fuente que lo respalda.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="par-sel">Partido</label><select id="par-sel"></select></div>
     <div class="ctrl"><label for="par-unidad">Unidad</label><select id="par-unidad"></select></div>
@@ -723,13 +760,19 @@ tr.clic:hover td{background:var(--surface-2)}
   <div class="plot" id="p-par-serie"><svg id="svg-par-serie" viewBox="0 0 900 330" role="img"
        aria-label="Evolución del partido en cada elección"></svg></div>
   <div class="legend" id="leg-par-serie"></div>
-  <p class="note" id="par-nota-serie"></p>
+  <div class="desc">
+    <p>Cada nombre oficial dispone de su propia ficha. Cuando un partido cambió de denominación, la ficha ofrece un vínculo opcional hacia la etiqueta anterior o posterior, junto con la fuente que lo respalda.</p>
+    <div id="par-vinc-nota"></div>
+    <p class="note" id="par-nota-serie"></p>
+  </div>
 </section>
 <section>
   <h2>Nombres y resultados por elección</h2>
   <p class="sub" id="par-sub-tabla"></p>
   <div class="tablewrap"><table id="par-tabla"></table></div>
-  <p class="note" id="par-nota-tabla"></p>
+  <div class="desc">
+    <p class="note" id="par-nota-tabla"></p>
+  </div>
 </section>
 <section style="border-bottom:0">
   <h2>El voto del partido en el territorio</h2>
@@ -747,8 +790,10 @@ tr.clic:hover td{background:var(--surface-2)}
          aria-label="Porcentaje del partido en cada unidad territorial"></svg></div>
     <div class="legend vert" id="leg-par"></div>
   </div>
-  <p class="note" id="par-nota-mapa"></p>
   <div class="tablewrap" style="margin-top:1.2rem"><table id="par-deptos"></table></div>
+  <div class="desc">
+    <p class="note" id="par-nota-mapa"></p>
+  </div>
 </section>
 </div>
 <!--FICHAS-HTML:FIN-->
@@ -2016,13 +2061,15 @@ function fCabPar(){
 }
 function fVinculos(){
   const k=FP.key, ant=R.vi.filter(v=>v[1]===k), sig=R.vi.filter(v=>v[0]===k);
-  let h="";
-  const bt=(kk,f,tit)=>`<div>${tit} <button type="button" data-k="${kk}">${fNombre(kk)}</button>`+
-                       `<div class="fte">Fuente del vínculo: ${f}</div></div>`;
-  ant.forEach(v=>h+=bt(v[0],v[2],"← Etiqueta anterior:"));
-  sig.forEach(v=>h+=bt(v[1],v[2],"Etiqueta siguiente →"));
-  if(h) h+=`<div class="fte">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</div>`;
+  /* El enlace queda junto al encabezado de la ficha; las aclaraciones sobre su fuente y su alcance van en la descripción. */
+  let h="", n="";
+  const bt=(kk,f,tit,rel)=>{ h+=`<div>${tit} <button type="button" data-k="${kk}">${fNombre(kk)}</button></div>`;
+                             n+=`<p class="note">Fuente del vínculo con la etiqueta ${rel} (${fNombre(kk)}): ${f}</p>`; };
+  ant.forEach(v=>bt(v[0],v[2],"← Etiqueta anterior:","anterior"));
+  sig.forEach(v=>bt(v[1],v[2],"Etiqueta siguiente →","siguiente"));
+  if(h) n+=`<p class="note">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</p>`;
   $("#par-vinc").className="vinc"; $("#par-vinc").innerHTML=h;
+  $("#par-vinc-nota").innerHTML=n;
   $("#par-vinc").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k));
 }
 function dibujarPartido(){

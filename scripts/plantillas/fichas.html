@@ -2,7 +2,6 @@
 <section>
   <h2>Ficha de una elección</h2>
   <p class="sub">Resultado de cada partido, territorio por territorio</p>
-  <p>Se selecciona una elección y una unidad territorial. El mapa puede observarse por departamento o por circuito, y <b>un clic sobre él selecciona la unidad correspondiente</b>. Cada partido figura con el nombre oficial que tuvo en esa elección.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="ele-sel">Elección</label><select id="ele-sel"></select></div>
     <div class="ctrl"><label for="ele-unidad">Unidad</label><select id="ele-unidad"></select></div>
@@ -18,19 +17,26 @@
          aria-label="Fuerza ganadora en cada unidad territorial"></svg></div>
     <div class="legend vert" id="leg-ele"></div>
   </div>
-  <p class="note" id="ele-nota-mapa"></p>
+  <div class="desc">
+    <p>Se selecciona una elección y una unidad territorial. El mapa puede observarse por departamento o por circuito, y <b>un clic sobre él selecciona la unidad correspondiente</b>. Cada partido figura con el nombre oficial que tuvo en esa elección.</p>
+    <p class="note" id="ele-nota-mapa"></p>
+  </div>
 </section>
 <section>
   <h2 id="ele-tit-tabla">Resultado</h2>
   <p class="sub" id="ele-sub-tabla"></p>
   <div class="tablewrap"><table id="ele-tabla"></table></div>
-  <p class="note" id="ele-nota-tabla"></p>
+  <div class="desc">
+    <p class="note" id="ele-nota-tabla"></p>
+  </div>
 </section>
 <section style="border-bottom:0">
   <h2>Participación, votos en blanco y nulos</h2>
   <p class="sub" id="ele-sub-part"></p>
   <div class="resumen" id="ele-part"></div>
-  <p class="note" id="ele-nota-part"></p>
+  <div class="desc">
+    <p class="note" id="ele-nota-part"></p>
+  </div>
 </section>
 </div>
 
@@ -38,7 +44,6 @@
 <section>
   <h2>Ficha de un partido</h2>
   <p class="sub">Su recorrido elección por elección</p>
-  <p>Cada nombre oficial dispone de su propia ficha. Cuando un partido cambió de denominación, la ficha ofrece un vínculo opcional hacia la etiqueta anterior o posterior, junto con la fuente que lo respalda.</p>
   <div class="ctrls">
     <div class="ctrl"><label for="par-sel">Partido</label><select id="par-sel"></select></div>
     <div class="ctrl"><label for="par-unidad">Unidad</label><select id="par-unidad"></select></div>
@@ -53,13 +58,19 @@
   <div class="plot" id="p-par-serie"><svg id="svg-par-serie" viewBox="0 0 900 330" role="img"
        aria-label="Evolución del partido en cada elección"></svg></div>
   <div class="legend" id="leg-par-serie"></div>
-  <p class="note" id="par-nota-serie"></p>
+  <div class="desc">
+    <p>Cada nombre oficial dispone de su propia ficha. Cuando un partido cambió de denominación, la ficha ofrece un vínculo opcional hacia la etiqueta anterior o posterior, junto con la fuente que lo respalda.</p>
+    <div id="par-vinc-nota"></div>
+    <p class="note" id="par-nota-serie"></p>
+  </div>
 </section>
 <section>
   <h2>Nombres y resultados por elección</h2>
   <p class="sub" id="par-sub-tabla"></p>
   <div class="tablewrap"><table id="par-tabla"></table></div>
-  <p class="note" id="par-nota-tabla"></p>
+  <div class="desc">
+    <p class="note" id="par-nota-tabla"></p>
+  </div>
 </section>
 <section style="border-bottom:0">
   <h2>El voto del partido en el territorio</h2>
@@ -77,7 +88,9 @@
          aria-label="Porcentaje del partido en cada unidad territorial"></svg></div>
     <div class="legend vert" id="leg-par"></div>
   </div>
-  <p class="note" id="par-nota-mapa"></p>
   <div class="tablewrap" style="margin-top:1.2rem"><table id="par-deptos"></table></div>
+  <div class="desc">
+    <p class="note" id="par-nota-mapa"></p>
+  </div>
 </section>
 </div>

@@ -242,13 +242,15 @@ function fCabPar(){
 }
 function fVinculos(){
   const k=FP.key, ant=R.vi.filter(v=>v[1]===k), sig=R.vi.filter(v=>v[0]===k);
-  let h="";
-  const bt=(kk,f,tit)=>`<div>${tit} <button type="button" data-k="${kk}">${fNombre(kk)}</button>`+
-                       `<div class="fte">Fuente del vínculo: ${f}</div></div>`;
-  ant.forEach(v=>h+=bt(v[0],v[2],"← Etiqueta anterior:"));
-  sig.forEach(v=>h+=bt(v[1],v[2],"Etiqueta siguiente →"));
-  if(h) h+=`<div class="fte">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</div>`;
+  /* El enlace queda junto al encabezado de la ficha; las aclaraciones sobre su fuente y su alcance van en la descripción. */
+  let h="", n="";
+  const bt=(kk,f,tit,rel)=>{ h+=`<div>${tit} <button type="button" data-k="${kk}">${fNombre(kk)}</button></div>`;
+                             n+=`<p class="note">Fuente del vínculo con la etiqueta ${rel} (${fNombre(kk)}): ${f}</p>`; };
+  ant.forEach(v=>bt(v[0],v[2],"← Etiqueta anterior:","anterior"));
+  sig.forEach(v=>bt(v[1],v[2],"Etiqueta siguiente →","siguiente"));
+  if(h) n+=`<p class="note">El vínculo constituye una ayuda para navegar entre denominaciones y no implica que se trate del mismo partido.</p>`;
   $("#par-vinc").className="vinc"; $("#par-vinc").innerHTML=h;
+  $("#par-vinc-nota").innerHTML=n;
   $("#par-vinc").querySelectorAll("button[data-k]").forEach(b=>b.onclick=()=>fIrPartido(b.dataset.k));
 }
 function dibujarPartido(){
