@@ -1,0 +1,524 @@
+circuito_id,seccion_id,seccion,localidad,mesas,electores,anio_referencia
+00010,1,La Capital,,12,3933,2023
+00020,1,La Capital,,11,3739,2023
+00030,1,La Capital,,6,2021,2023
+00040,1,La Capital,,10,3339,2023
+00050,1,La Capital,,10,3201,2023
+00060,1,La Capital,,10,3228,2023
+00070,1,La Capital,,37,12650,2023
+00080,1,La Capital,,21,7336,2023
+00090,1,La Capital,,24,8258,2023
+00100,1,La Capital,,26,9114,2023
+00110,1,La Capital,,22,7610,2023
+00115,1,La Capital,,29,9876,2023
+00120,1,La Capital,,25,8417,2023
+00130,1,La Capital,,46,16109,2023
+00140,1,La Capital,,44,15259,2023
+00142,1,La Capital,,27,9159,2023
+00150,1,La Capital,,55,19125,2023
+00152,1,La Capital,,20,6788,2023
+00160,1,La Capital,,66,22951,2023
+00161,1,La Capital,,79,27673,2023
+00162,1,La Capital,,47,16430,2023
+00165,1,La Capital,,41,14298,2023
+00170,1,La Capital,,26,8896,2023
+00171,1,La Capital,,35,11994,2023
+00172,1,La Capital,,21,7114,2023
+00175,1,La Capital,,88,30538,2023
+00180,1,La Capital,,26,9036,2023
+00185,1,La Capital,,21,7299,2023
+00190,1,La Capital,,13,4498,2023
+00192,1,La Capital,,21,7079,2023
+00194,1,La Capital,,19,6607,2023
+00196,1,La Capital,,6,2087,2023
+00200,1,La Capital,,65,22683,2023
+00202,1,La Capital,,72,25000,2023
+00204,1,La Capital,,32,10930,2023
+00220,1,La Capital,,33,11501,2023
+00230,1,La Capital,,41,14155,2023
+00240,1,La Capital,,20,6931,2023
+00250,1,La Capital,,3,904,2023
+00260,1,La Capital,,5,1408,2023
+00270,1,La Capital,,33,11312,2023
+00280,1,La Capital,,1,336,2023
+00290,1,La Capital,,13,4337,2023
+00300,1,La Capital,,7,2314,2023
+00310,1,La Capital,,3,938,2023
+00330,1,La Capital,,40,13806,2023
+00370,1,La Capital,,1,123,2023
+00390,1,La Capital,,6,1850,2023
+00400,1,La Capital,,11,3805,2023
+00410,2,Las Colonias,,1,337,2023
+00420,2,Las Colonias,,3,778,2023
+00430,2,Las Colonias,San Carlos Sud,6,2037,2023
+00440,2,Las Colonias,San Carlos Centro,29,10148,2023
+00450,2,Las Colonias,,3,951,2023
+00460,2,Las Colonias,Santa Clara de Buena Vista,8,2571,2023
+00470,2,Las Colonias,,2,360,2023
+00480,2,Las Colonias,,5,1401,2023
+00490,2,Las Colonias,,3,910,2023
+00500,2,Las Colonias,,1,155,2023
+00510,2,Las Colonias,,3,789,2023
+00520,2,Las Colonias,San Jerónimo Norte,18,5973,2023
+00530,2,Las Colonias,Franck,16,5395,2023
+00540,2,Las Colonias,,2,476,2023
+00550,2,Las Colonias,Esperanza,101,35438,2023
+00557,2,Las Colonias,,1,119,2023
+00559,2,Las Colonias,,1,58,2023
+00560,2,Las Colonias,Humboldt,13,4472,2023
+00570,2,Las Colonias,Pilar,13,4434,2023
+00580,2,Las Colonias,,2,589,2023
+00590,2,Las Colonias,,2,363,2023
+00600,2,Las Colonias,Felicia,6,1979,2023
+00610,2,Las Colonias,,3,811,2023
+00620,2,Las Colonias,,5,1452,2023
+00630,2,Las Colonias,Progreso,7,2223,2023
+00640,2,Las Colonias,,5,1426,2023
+00650,2,Las Colonias,,2,640,2023
+00660,2,Las Colonias,,3,721,2023
+00670,2,Las Colonias,,4,1078,2023
+00680,2,Las Colonias,,5,1499,2023
+00690,2,Las Colonias,,1,272,2023
+00700,2,Las Colonias,,1,73,2023
+00710,2,Las Colonias,,1,302,2023
+00720,2,Las Colonias,,1,54,2023
+00730,2,Las Colonias,,1,230,2023
+00740,2,Las Colonias,,1,113,2023
+00750,2,Las Colonias,,1,288,2023
+00760,2,Las Colonias,,1,110,2023
+00770,2,Las Colonias,,1,37,2023
+00790,3,San Jerónimo,,44,15409,2023
+00800,3,San Jerónimo,,2,436,2023
+00810,3,San Jerónimo,,3,865,2023
+00820,3,San Jerónimo,,4,1372,2023
+00830,3,San Jerónimo,,51,17615,2023
+00840,3,San Jerónimo,,5,1615,2023
+00850,3,San Jerónimo,,3,837,2023
+00855,3,San Jerónimo,,1,120,2023
+00860,3,San Jerónimo,,4,1392,2023
+00870,3,San Jerónimo,,13,4528,2023
+00880,3,San Jerónimo,,8,2707,2023
+00890,3,San Jerónimo,,24,8308,2023
+00910,3,San Jerónimo,,5,1546,2023
+00920,3,San Jerónimo,,6,1918,2023
+00930,3,San Jerónimo,,15,5047,2023
+00940,3,San Jerónimo,,8,2673,2023
+00950,3,San Jerónimo,,3,757,2023
+00960,3,San Jerónimo,,5,1704,2023
+00965,3,San Jerónimo,,3,800,2023
+00970,3,San Jerónimo,,1,156,2023
+00980,3,San Jerónimo,,1,127,2023
+01000,3,San Jerónimo,,1,101,2023
+01010,3,San Jerónimo,,1,177,2023
+01040,4,Garay,,1,262,2023
+01050,4,Garay,,2,690,2023
+01060,4,Garay,,22,7706,2023
+01064,4,Garay,,1,38,2023
+01066,4,Garay,,1,66,2023
+01070,4,Garay,,11,3703,2023
+01080,4,Garay,,16,5352,2023
+01085,4,Garay,,3,849,2023
+01090,4,Garay,,3,727,2023
+01100,4,Garay,,2,516,2023
+01110,5,Castellanos,,1,201,2023
+01120,5,Castellanos,,1,161,2023
+01130,5,Castellanos,,1,179,2023
+01140,5,Castellanos,,1,160,2023
+01150,5,Castellanos,,4,1326,2023
+01160,5,Castellanos,,1,297,2023
+01170,5,Castellanos,Humberto Primo,14,4657,2023
+01180,5,Castellanos,Sunchales,56,19381,2023
+01190,5,Castellanos,,3,719,2023
+01200,5,Castellanos,Colonia Aldao,5,1705,2023
+01202,5,Castellanos,,1,52,2023
+01204,5,Castellanos,,1,46,2023
+01210,5,Castellanos,Ataliva,6,1766,2023
+01220,5,Castellanos,,2,401,2023
+01230,5,Castellanos,Lehmann,8,2618,2023
+01240,5,Castellanos,Ramona,5,1625,2023
+01250,5,Castellanos,,4,1303,2023
+01260,5,Castellanos,,1,299,2023
+01270,5,Castellanos,,3,737,2023
+01280,5,Castellanos,,89,30901,2023
+01282,5,Castellanos,,45,15431,2023
+01284,5,Castellanos,,53,18366,2023
+01286,5,Castellanos,,50,17297,2023
+01290,5,Castellanos,,1,254,2023
+01300,5,Castellanos,Santa Clara de Saguier,6,1814,2023
+01310,5,Castellanos,,2,639,2023
+01320,5,Castellanos,,4,1294,2023
+01330,5,Castellanos,,1,145,2023
+01340,5,Castellanos,Josefina,3,733,2023
+01342,5,Castellanos,,3,872,2023
+01345,5,Castellanos,Frontera,21,7239,2023
+01350,5,Castellanos,,1,184,2023
+01360,5,Castellanos,,4,1285,2023
+01365,5,Castellanos,,1,49,2023
+01370,5,Castellanos,,4,1191,2023
+01380,5,Castellanos,Zenón Pereyra,5,1479,2023
+01390,5,Castellanos,,2,512,2023
+01400,5,Castellanos,María Juana,13,4211,2023
+01410,5,Castellanos,,1,313,2023
+01420,5,Castellanos,San Vicente,16,5374,2023
+01430,5,Castellanos,,5,1418,2023
+01440,5,Castellanos,,3,789,2023
+01450,5,Castellanos,,1,308,2023
+01460,5,Castellanos,,1,350,2023
+01470,5,Castellanos,,1,172,2023
+01480,5,Castellanos,,1,113,2023
+01490,5,Castellanos,,1,145,2023
+01500,5,Castellanos,,1,94,2023
+01510,5,Castellanos,,1,292,2023
+01520,5,Castellanos,,1,54,2023
+01530,6,San Martín,,2,513,2023
+01540,6,San Martín,,1,297,2023
+01550,6,San Martín,Sastre y Ortiz,14,4890,2023
+01560,6,San Martín,San Martín de las Escobas,7,2445,2023
+01570,6,San Martín,,4,1054,2023
+01580,6,San Martín,San Jorge,47,16426,2023
+01590,6,San Martín,,4,1161,2023
+01600,6,San Martín,Carlos Pellegrini,14,4801,2023
+01610,6,San Martín,Cañada Rosquín,13,4518,2023
+01620,6,San Martín,,2,652,2023
+01630,6,San Martín,,1,205,2023
+01640,6,San Martín,Piamonte,9,2839,2023
+01650,6,San Martín,El Trébol,31,10515,2023
+01660,6,San Martín,María Susana,8,2773,2023
+01670,6,San Martín,,4,1124,2023
+01680,6,San Martín,,1,152,2023
+01690,6,San Martín,,3,799,2023
+01740,7,San Cristóbal,,1,148,2023
+01750,7,San Cristóbal,,1,197,2023
+01760,7,San Cristóbal,,2,359,2023
+01770,7,San Cristóbal,,1,349,2023
+01780,7,San Cristóbal,,42,14692,2023
+01790,7,San Cristóbal,,8,2721,2023
+01800,7,San Cristóbal,,3,1033,2023
+01810,7,San Cristóbal,,3,717,2023
+01815,7,San Cristóbal,,1,129,2023
+01820,7,San Cristóbal,,1,156,2023
+01830,7,San Cristóbal,,9,2893,2023
+01840,7,San Cristóbal,,6,1832,2023
+01850,7,San Cristóbal,,39,13362,2023
+01860,7,San Cristóbal,,1,226,2023
+01870,7,San Cristóbal,,3,836,2023
+01880,7,San Cristóbal,,22,7623,2023
+01890,7,San Cristóbal,,2,417,2023
+01910,7,San Cristóbal,,17,5718,2023
+01920,7,San Cristóbal,,1,261,2023
+01930,7,San Cristóbal,,6,2044,2023
+01940,7,San Cristóbal,,2,429,2023
+01950,7,San Cristóbal,,4,1079,2023
+01960,7,San Cristóbal,,2,679,2023
+01964,7,San Cristóbal,,1,22,2023
+01970,7,San Cristóbal,,2,388,2023
+01980,7,San Cristóbal,,1,180,2023
+01990,7,San Cristóbal,,1,120,2023
+02000,7,San Cristóbal,,2,553,2023
+02010,7,San Cristóbal,,1,343,2023
+02020,7,San Cristóbal,,1,300,2023
+02030,7,San Cristóbal,,1,321,2023
+02040,7,San Cristóbal,,1,121,2023
+02050,7,San Cristóbal,,1,311,2023
+02070,8,San Justo,,2,421,2023
+02080,8,San Justo,,6,2027,2023
+02084,8,San Justo,,1,78,2023
+02086,8,San Justo,,1,189,2023
+02090,8,San Justo,,2,370,2023
+02100,8,San Justo,,60,20744,2023
+02105,8,San Justo,,1,104,2023
+02110,8,San Justo,,2,651,2023
+02120,8,San Justo,,5,1556,2023
+02125,8,San Justo,,2,459,2023
+02130,8,San Justo,,15,5185,2023
+02140,8,San Justo,,2,686,2023
+02145,8,San Justo,,2,638,2023
+02150,8,San Justo,,4,1063,2023
+02155,8,San Justo,,1,112,2023
+02160,8,San Justo,,6,1989,2023
+02165,8,San Justo,,1,55,2023
+02170,8,San Justo,,1,351,2023
+02180,8,San Justo,,2,572,2023
+02190,8,San Justo,,1,43,2023
+02200,9,General Obligado,,2,385,2023
+02210,9,General Obligado,,21,7251,2023
+02215,9,General Obligado,,1,45,2023
+02220,9,General Obligado,,2,678,2023
+02230,9,General Obligado,,2,484,2023
+02235,9,General Obligado,,1,90,2023
+02240,9,General Obligado,,58,20292,2023
+02242,9,General Obligado,,23,7775,2023
+02244,9,General Obligado,,32,11104,2023
+02246,9,General Obligado,,68,23604,2023
+02248,9,General Obligado,,3,1017,2023
+02249,9,General Obligado,,1,191,2023
+02250,9,General Obligado,,66,23129,2023
+02255,9,General Obligado,,1,142,2023
+02260,9,General Obligado,,3,799,2023
+02270,9,General Obligado,,7,2120,2023
+02272,9,General Obligado,,2,668,2023
+02274,9,General Obligado,,1,83,2023
+02280,9,General Obligado,,4,1345,2023
+02290,9,General Obligado,,3,941,2023
+02300,9,General Obligado,,9,2819,2023
+02305,9,General Obligado,,1,31,2023
+02310,9,General Obligado,,2,394,2023
+02320,9,General Obligado,,47,16165,2023
+02325,9,General Obligado,,1,88,2023
+02330,9,General Obligado,,8,2664,2023
+02340,9,General Obligado,,7,2337,2023
+02350,9,General Obligado,,31,10775,2023
+02370,9,General Obligado,,12,4154,2023
+02380,9,General Obligado,,3,1002,2023
+02390,9,General Obligado,,15,5009,2023
+02395,9,General Obligado,,2,678,2023
+02400,9,General Obligado,,1,227,2023
+02410,9,General Obligado,,1,45,2023
+02420,9,General Obligado,,4,1141,2023
+02440,9,General Obligado,,1,138,2023
+02444,9,General Obligado,,2,520,2023
+02446,9,General Obligado,,2,535,2023
+02450,9,General Obligado,,4,1068,2023
+02460,9,General Obligado,,4,1060,2023
+02465,9,General Obligado,,1,159,2023
+02470,9,General Obligado,,3,726,2023
+02480,9,General Obligado,,1,175,2023
+02490,9,General Obligado,,1,125,2023
+02510,10,Vera,,30,10204,2023
+02520,10,Vera,,11,3740,2023
+02530,10,Vera,,7,2238,2023
+02540,10,Vera,,54,18665,2023
+02545,10,Vera,,1,190,2023
+02550,10,Vera,,1,84,2023
+02560,10,Vera,,2,664,2023
+02570,10,Vera,,5,1546,2023
+02580,10,Vera,,1,153,2023
+02590,10,Vera,,4,1189,2023
+02600,10,Vera,,6,1906,2023
+02610,10,Vera,,2,371,2023
+02620,10,Vera,,2,495,2023
+02630,10,Vera,,4,1078,2023
+02640,10,Vera,,2,359,2023
+02670,10,Vera,,1,61,2023
+02680,10,Vera,,8,2476,2023
+02682,10,Vera,,2,451,2023
+02684,10,Vera,,1,180,2023
+02690,10,Vera,,1,294,2023
+02700,10,Vera,,1,63,2023
+02710,10,Vera,,1,23,2023
+02740,11,San Javier,,1,351,2023
+02750,11,San Javier,,41,14058,2023
+02755,11,San Javier,,3,784,2023
+02758,11,San Javier,,2,692,2023
+02760,11,San Javier,,9,3069,2023
+02762,11,San Javier,,1,14,2023
+02764,11,San Javier,,1,34,2023
+02766,11,San Javier,,1,226,2023
+02770,11,San Javier,,22,7598,2023
+02772,11,San Javier,,1,35,2023
+02774,11,San Javier,,1,47,2023
+02780,11,San Javier,,1,15,2023
+02790,11,San Javier,,2,580,2023
+02800,11,San Javier,,2,407,2023
+02810,11,San Javier,,1,20,2023
+02830,12,9 de Julio,,1,209,2023
+02840,12,9 de Julio,,2,679,2023
+02850,12,9 de Julio,,43,15023,2023
+02852,12,9 de Julio,,3,1006,2023
+02854,12,9 de Julio,,1,29,2023
+02860,12,9 de Julio,,1,32,2023
+02870,12,9 de Julio,,2,665,2023
+02890,12,9 de Julio,,6,1790,2023
+02900,12,9 de Julio,,1,222,2023
+02910,12,9 de Julio,,16,5315,2023
+02920,12,9 de Julio,,2,701,2023
+02930,12,9 de Julio,,3,1040,2023
+02940,12,9 de Julio,,1,110,2023
+03010,13,Rosario,,16,5429,2023
+03015,13,Rosario,,21,7167,2023
+03020,13,Rosario,,12,3989,2023
+03025,13,Rosario,,15,5040,2023
+03030,13,Rosario,,15,4928,2023
+03035,13,Rosario,,13,4217,2023
+03040,13,Rosario,,18,6165,2023
+03045,13,Rosario,,12,4005,2023
+03050,13,Rosario,,7,2422,2023
+03055,13,Rosario,,7,2149,2023
+03060,13,Rosario,,7,2140,2023
+03065,13,Rosario,,14,4657,2023
+03070,13,Rosario,,14,4807,2023
+03075,13,Rosario,,12,4196,2023
+03080,13,Rosario,,10,3503,2023
+03085,13,Rosario,,18,6218,2023
+03090,13,Rosario,,16,5372,2023
+03095,13,Rosario,,16,5448,2023
+03100,13,Rosario,,12,3882,2023
+03105,13,Rosario,,16,5419,2023
+03110,13,Rosario,,13,4315,2023
+03115,13,Rosario,,11,3598,2023
+03120,13,Rosario,,25,8509,2023
+03125,13,Rosario,,12,3992,2023
+03130,13,Rosario,,11,3700,2023
+03135,13,Rosario,,15,5061,2023
+03140,13,Rosario,,17,5758,2023
+03145,13,Rosario,,20,6743,2023
+03150,13,Rosario,,42,14556,2023
+03155,13,Rosario,,22,7687,2023
+03160,13,Rosario,,17,5891,2023
+03165,13,Rosario,,15,5089,2023
+03170,13,Rosario,,27,9160,2023
+03175,13,Rosario,,34,11758,2023
+03180,13,Rosario,,10,3274,2023
+03185,13,Rosario,,14,4829,2023
+03190,13,Rosario,,10,3362,2023
+03195,13,Rosario,,15,5094,2023
+03200,13,Rosario,,17,5756,2023
+03205,13,Rosario,,24,8324,2023
+03210,13,Rosario,,100,34971,2023
+03220,13,Rosario,,57,19948,2023
+03230,13,Rosario,,46,16173,2023
+03240,13,Rosario,,46,15837,2023
+03250,13,Rosario,,67,23370,2023
+03260,13,Rosario,,201,70407,2023
+03270,13,Rosario,,65,22833,2023
+03280,13,Rosario,,153,53479,2023
+03290,13,Rosario,,84,29323,2023
+03300,13,Rosario,,156,54872,2023
+03310,13,Rosario,,80,27968,2023
+03320,13,Rosario,,18,6279,2023
+03330,13,Rosario,,1,260,2023
+03340,13,Rosario,,87,30447,2023
+03350,13,Rosario,,118,41329,2023
+03360,13,Rosario,,56,19603,2023
+03370,13,Rosario,,32,10943,2023
+03380,13,Rosario,,42,14576,2023
+03390,13,Rosario,,154,53741,2023
+03400,13,Rosario,,111,38754,2023
+03410,13,Rosario,,14,4797,2023
+03415,13,Rosario,,2,531,2023
+03420,13,Rosario,,1,292,2023
+03430,13,Rosario,,19,6438,2023
+03435,13,Rosario,,6,2033,2023
+03450,13,Rosario,,58,20189,2023
+03455,13,Rosario,,14,4823,2023
+03500,13,Rosario,,3,777,2023
+03505,13,Rosario,,3,854,2023
+03510,13,Rosario,,7,2274,2023
+03515,13,Rosario,,1,349,2023
+03520,13,Rosario,,88,30794,2023
+03550,13,Rosario,,110,38535,2023
+03555,13,Rosario,,16,5341,2023
+03560,13,Rosario,,53,18583,2023
+03565,13,Rosario,,27,9456,2023
+03570,13,Rosario,,11,3527,2023
+03580,13,Rosario,,5,1437,2023
+03585,13,Rosario,,3,942,2023
+03600,13,Rosario,,85,29800,2023
+03602,13,Rosario,,73,25447,2023
+03604,13,Rosario,,58,20261,2023
+03610,13,Rosario,,18,6152,2023
+03615,13,Rosario,,13,4427,2023
+03620,13,Rosario,,30,10344,2023
+03625,13,Rosario,,16,5408,2023
+03640,14,Caseros,,18,6262,2023
+03650,14,Caseros,,9,2813,2023
+03660,14,Caseros,,6,1799,2023
+03670,14,Caseros,,14,4698,2023
+03680,14,Caseros,,90,31459,2023
+03690,14,Caseros,,3,1008,2023
+03700,14,Caseros,,19,6491,2023
+03710,14,Caseros,,15,4937,2023
+03720,14,Caseros,,5,1467,2023
+03730,14,Caseros,,5,1692,2023
+03740,14,Caseros,,7,2167,2023
+03750,14,Caseros,,17,5857,2023
+03755,14,Caseros,,1,108,2023
+03760,14,Caseros,,5,1580,2023
+03770,15,Constitución,,20,6849,2023
+03772,15,Constitución,,9,3013,2023
+03774,15,Constitución,,3,893,2023
+03780,15,Constitución,,2,382,2023
+03782,15,Constitución,,4,1313,2023
+03784,15,Constitución,,2,358,2023
+03786,15,Constitución,,3,939,2023
+03788,15,Constitución,,2,552,2023
+03790,15,Constitución,,4,1283,2023
+03792,15,Constitución,,2,557,2023
+03794,15,Constitución,,2,652,2023
+03800,15,Constitución,,9,3010,2023
+03810,15,Constitución,,5,1662,2023
+03820,15,Constitución,,7,2228,2023
+03830,15,Constitución,,9,2921,2023
+03840,15,Constitución,,118,41147,2023
+03845,15,Constitución,,18,6168,2023
+03846,15,Constitución,,7,2396,2023
+03848,15,Constitución,,2,483,2023
+03850,16,General López,,4,1173,2023
+03852,16,General López,,1,276,2023
+03854,16,General López,,2,420,2023
+03860,16,General López,,5,1548,2023
+03862,16,General López,,3,719,2023
+03864,16,General López,,11,3624,2023
+03870,16,General López,,5,1670,2023
+03880,16,General López,,6,1775,2023
+03885,16,General López,,1,250,2023
+03890,16,General López,,15,5158,2023
+03900,16,General López,,50,17483,2023
+03904,16,General López,,6,1998,2023
+03906,16,General López,,3,734,2023
+03908,16,General López,,2,419,2023
+03910,16,General López,,2,434,2023
+03915,16,General López,,5,1487,2023
+03920,16,General López,,6,1772,2023
+03930,16,General López,,6,2051,2023
+03935,16,General López,,3,878,2023
+03940,16,General López,,48,16656,2023
+03950,16,General López,,3,922,2023
+03955,16,General López,,10,3250,2023
+03960,16,General López,,13,4317,2023
+03965,16,General López,,2,642,2023
+03970,16,General López,,11,3850,2023
+03975,16,General López,,11,3697,2023
+03980,16,General López,,15,5115,2023
+03990,16,General López,,61,21099,2023
+03992,16,General López,,55,18993,2023
+03994,16,General López,,46,16003,2023
+03996,16,General López,,32,11223,2023
+04000,16,General López,,24,8291,2023
+04010,16,General López,,15,5053,2023
+04015,16,General López,,12,4003,2023
+04020,17,Belgrano,,31,10595,2023
+04030,17,Belgrano,,33,11411,2023
+04040,17,Belgrano,,34,11742,2023
+04045,17,Belgrano,,4,1272,2023
+04050,17,Belgrano,,7,2436,2023
+04060,17,Belgrano,,6,1972,2023
+04070,18,Iriondo,,4,1169,2023
+04080,18,Iriondo,,77,26871,2023
+04090,18,Iriondo,,4,1110,2023
+04100,18,Iriondo,,15,4912,2023
+04110,18,Iriondo,,6,2027,2023
+04115,18,Iriondo,,2,417,2023
+04120,18,Iriondo,,13,4246,2023
+04130,18,Iriondo,,28,9460,2023
+04132,18,Iriondo,,2,698,2023
+04134,18,Iriondo,,1,46,2023
+04140,18,Iriondo,,10,3378,2023
+04145,18,Iriondo,,9,2817,2023
+04150,18,Iriondo,,8,2693,2023
+04160,19,San Lorenzo,,42,14644,2023
+04170,19,San Lorenzo,,1,22,2023
+04172,19,San Lorenzo,,7,2277,2023
+04174,19,San Lorenzo,,6,2065,2023
+04180,19,San Lorenzo,,16,5406,2023
+04185,19,San Lorenzo,,2,658,2023
+04190,19,San Lorenzo,,4,1194,2023
+04200,19,San Lorenzo,,42,14569,2023
+04205,19,San Lorenzo,,73,25533,2023
+04210,19,San Lorenzo,,49,17157,2023
+04220,19,San Lorenzo,,9,3029,2023
+04224,19,San Lorenzo,,3,817,2023
+04230,19,San Lorenzo,,67,23222,2023
+04240,19,San Lorenzo,,7,2432,2023
+04245,19,San Lorenzo,,11,3787,2023
+04250,19,San Lorenzo,,116,40548,2023

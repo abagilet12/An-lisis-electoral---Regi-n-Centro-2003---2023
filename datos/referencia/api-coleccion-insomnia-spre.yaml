@@ -1,0 +1,526 @@
+_type: export
+__export_format: 4
+__export_date: 2023-06-12T17:50:48.613Z
+__export_source: insomnia.desktop.app:v2022.5.0
+resources:
+  - _id: req_wrk_cfbdc0b84d9e44da87c5f20f41e54d4967dcfaaf
+    parentId: fld_wrk_cfbdc0b84d9e44da87c5f20f41e54d4990bb1fcb
+    modified: 1686592197984
+    created: 1686592096369
+    url: "{{ base_url }}/resultados/getResultados"
+    name: Devuelve los resultados para el Id de la categoria solicitada.
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: anioEleccion
+        disabled: true
+        value: string
+        id: pair_b24340b6df2d4db385a2cb3439de6946
+      - name: tipoRecuento
+        disabled: true
+        value: string
+        id: pair_c7723f4e90c3465c8096af2eab67d836
+      - name: tipoEleccion
+        disabled: true
+        value: string
+        id: pair_d2cf3ef8875a49c9a4daad8d7b7b4269
+      - name: categoriaId
+        disabled: false
+        value: "0"
+        id: pair_afeb5ed4ac4d4dd59ec71f6ad431074e
+      - name: distritoId
+        disabled: true
+        value: string
+        id: pair_e0b4c781370c4088b58551d6ddf6e111
+      - name: seccionProvincialId
+        disabled: true
+        value: string
+        id: pair_2ac39adeb0ec4ae0a0b1d180bfbf1fc1
+      - name: seccionId
+        disabled: true
+        value: string
+        id: pair_cb670978f59b4bc399d57f9a0dd144f4
+      - name: circuitoId
+        disabled: true
+        value: string
+        id: pair_9b097c58c0604486b1091edbc24f10b5
+      - name: mesaId
+        disabled: true
+        value: string
+        id: pair_e795693e79ec4b5dab96aef36d2b8d9c
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{bearerToken}}"
+      prefix: ""
+    metaSortKey: -1686592096369
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_wrk_cfbdc0b84d9e44da87c5f20f41e54d4990bb1fcb
+    parentId: wrk_cfbdc0b84d9e44da87c5f20f41e54d49
+    modified: 1679504388846
+    created: 1679504388846
+    name: resultados
+    description: Valores Electorales Totalizados
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1679504388846
+    _type: request_group
+  - _id: wrk_cfbdc0b84d9e44da87c5f20f41e54d49
+    parentId: null
+    modified: 1679509945332
+    created: 1679503787492
+    name: api-publicacion-resultados-electorales.yml
+    description: API pública que provee información de resultados electorales de
+      elecciones anteriores, desde 2011.
+    scope: design
+    _type: workspace
+  - _id: req_8cfaf6586b134b10bf1667c3aa06653a
+    parentId: fld_wrk_cfbdc0b84d9e44da87c5f20f41e54d4990bb1fcb
+    modified: 1686592197337
+    created: 1679506531666
+    url: "{{ base_url }}/resultados/getResultados"
+    name: Presidente 2019 Generales
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: anioEleccion
+        disabled: false
+        value: "2019"
+        id: pair_65091460161943fca1e4f4afe45fe656
+        description: ""
+      - name: tipoRecuento
+        disabled: false
+        value: "1"
+        id: pair_3dbf51449bec45779b107ca2e4b0509c
+        description: ""
+      - name: tipoEleccion
+        disabled: false
+        value: "2"
+        id: pair_c6979c135a944426bc008ef03d1fedec
+      - name: categoriaId
+        disabled: false
+        value: "1"
+        id: pair_c98a808688df4f3d8a49791496689688
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{bearerToken}}"
+      prefix: ""
+    metaSortKey: -1679504388894
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_11557e65169a4dc7865547edcf9e50d0
+    parentId: fld_wrk_cfbdc0b84d9e44da87c5f20f41e54d4990bb1fcb
+    modified: 1686592196888
+    created: 1679506956074
+    url: "{{ base_url }}/resultados/getResultados"
+    name: Intendente La Plata 2019 Generales
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: anioEleccion
+        disabled: false
+        value: "2019"
+        id: pair_65091460161943fca1e4f4afe45fe656
+        description: ""
+      - name: tipoRecuento
+        disabled: false
+        value: "1"
+        id: pair_3dbf51449bec45779b107ca2e4b0509c
+        description: ""
+      - name: tipoEleccion
+        disabled: false
+        value: "2"
+        id: pair_c6979c135a944426bc008ef03d1fedec
+      - name: categoriaId
+        disabled: false
+        value: "7"
+        id: pair_c98a808688df4f3d8a49791496689688
+      - name: distritoId
+        disabled: false
+        value: "2"
+        id: pair_f1f2437729db420c86cadca099bdb82a
+      - name: seccionProvincialId
+        disabled: false
+        value: "8"
+        id: pair_f19f1879113d4ed18ee601c706caa0a3
+      - name: seccionId
+        disabled: false
+        value: "63"
+        id: pair_ddd95f151a784f7190c0c933d873af46
+      - name: circuitoId
+        disabled: true
+        value: "000039"
+        id: pair_f8a8cf9619dd4f7a934e396023219ad7
+      - name: mesaId
+        disabled: true
+        value: "1244"
+        id: pair_b4118350161f423da46eea6685840bfb
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{bearerToken}}"
+      prefix: ""
+    metaSortKey: -1674627152236.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_4940d118a34149a1ba9441d417a325c1
+    parentId: fld_wrk_cfbdc0b84d9e44da87c5f20f41e54d4990bb1fcb
+    modified: 1686592194541
+    created: 1679507552796
+    url: "{{ base_url }}/resultados/getResultados"
+    name: Ejemplo de  consulta por mesa
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - name: anioEleccion
+        disabled: false
+        value: "2019"
+        id: pair_65091460161943fca1e4f4afe45fe656
+        description: ""
+      - name: tipoRecuento
+        disabled: false
+        value: "1"
+        id: pair_3dbf51449bec45779b107ca2e4b0509c
+        description: ""
+      - name: tipoEleccion
+        disabled: false
+        value: "1"
+        id: pair_c6979c135a944426bc008ef03d1fedec
+      - name: categoriaId
+        disabled: false
+        value: "2"
+        id: pair_c98a808688df4f3d8a49791496689688
+      - name: distritoId
+        disabled: false
+        value: "1"
+        id: pair_f1f2437729db420c86cadca099bdb82a
+      - name: seccionProvincialId
+        disabled: false
+        value: "0"
+        id: pair_f19f1879113d4ed18ee601c706caa0a3
+      - name: seccionId
+        disabled: false
+        value: "3"
+        id: pair_ddd95f151a784f7190c0c933d873af46
+      - name: circuitoId
+        disabled: false
+        value: "000039"
+        id: pair_f8a8cf9619dd4f7a934e396023219ad7
+      - name: mesaId
+        disabled: false
+        value: "1244"
+        id: pair_b4118350161f423da46eea6685840bfb
+    headers: []
+    authentication:
+      type: bearer
+      token: "{{bearerToken}}"
+      prefix: ""
+    metaSortKey: -1667311297325.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_9617503812f1805656bc2650e49aca4068692314
+    parentId: wrk_cfbdc0b84d9e44da87c5f20f41e54d49
+    modified: 1686592147186
+    created: 1679503787495
+    name: Base Environment
+    data:
+      base_url: "{{ scheme }}://{{ host }}{{ base_path }}"
+    dataPropertyOrder:
+      "&":
+        - base_url
+    color: null
+    isPrivate: false
+    metaSortKey: 1679503787495
+    _type: environment
+  - _id: jar_9617503812f1805656bc2650e49aca4068692314
+    parentId: wrk_cfbdc0b84d9e44da87c5f20f41e54d49
+    modified: 1686592158142
+    created: 1679503787496
+    name: Default Jar
+    cookies:
+      - key: be_resultados
+        value: dine-elecciones-02
+        domain: resultados.mininterior.gob.ar
+        path: /
+        hostOnly: true
+        creation: 2023-06-12T17:49:18.139Z
+        lastAccessed: 2023-06-12T17:49:18.139Z
+        id: "09916720001687951"
+    _type: cookie_jar
+  - _id: spc_50cd9a71348c4aafa2bbb791dfe9b718
+    parentId: wrk_cfbdc0b84d9e44da87c5f20f41e54d49
+    modified: 1686592096374
+    created: 1679503787492
+    fileName: API Publicación de Resultados Electorales
+    contents: >-
+      ---
+
+      openapi: 3.0.3
+
+      info:
+        title: API de Publicación de Resultados Electorales
+        description: API de Publicación de Resultados Electorales de Elecciones Nacionales, desde 2011. Para su uso puede requerirse autenticación mediante Bearer Token.
+        termsOfService: https://resultados.mininterior.gob.ar/tos.html
+        contact:
+          email: soportedine@mininterior.gob.ar
+        license:
+          name: Apache 2.0
+          url: http://www.apache.org/licenses/LICENSE-2.0.html
+        version: 1.0.0
+      externalDocs:
+        description: Más información acerca de esta API
+        url: https://resultados.mininterior.gob.ar/api-publicacion-resultados-electorales.html
+      servers:
+
+      - url: https://resultados.mininterior.gob.ar/api
+
+      tags:
+
+      - name: resultados
+        description: Valores Electorales Totalizados
+      paths:
+        /resultados/getResultados:
+          get:
+            tags:
+            - resultados
+            summary: Devuelve los resultados para el Id de la categoria solicitada.
+            description: Devuelve los resultados para el Id de la categoría electoral solicitada. Para solicitar un ámbito en concreto será necesario enviar también los Id de los padres del ámbito. Por ejemplo para solicitar una sección, sera necesario enviar el Id de distrito. El Id de la mesa, sera el código único de la mesa (distrito + sección + número mesa).
+            operationId: getResultados
+            parameters:
+            - name: anioEleccion
+              in: query
+              description: Año del Ciclo Electoral 
+              required: false
+              style: form
+              explode: true
+              example: "2019"
+              schema:
+                type: string
+                format: year
+            - name: tipoRecuento
+              in: query
+              description: Tipo de recuento que se quiere consultar. Utilizar el valor "1" para Recuento Provisional.
+              required: false
+              style: form
+              explode: true
+              example: "1"
+              schema:
+                type: string
+            - name: tipoEleccion
+              in: query
+              description: Tipo de elección a consultar. Utilizar el valor "1" para PASO, "2" para Elecciones Generales y "3" para Segunda Vuelta.
+              required: false
+              style: form
+              explode: true
+              example: "1"
+              schema:
+                type: string
+            - name: categoriaId
+              in: query
+              description: Id de la categoría electoral para la cual se están solicitando datos.
+              required: true
+              style: form
+              explode: true
+              example: 2
+              schema:
+                type: integer
+                format: int32
+            - name: distritoId
+              in: query
+              description: Id del distrito
+              required: false
+              style: form
+              explode: true
+              example: "1"
+              schema:
+                type: string
+            - name: seccionProvincialId
+              in: query
+              description: Id de sección provincial
+              required: false
+              style: form
+              explode: true
+              example: "0"
+              schema:
+                type: string
+            - name: seccionId
+              in: query
+              description: Id de Sección, Departamento o Comuna.
+              required: false
+              style: form
+              explode: true
+              example: "3"
+              schema:
+                type: string
+            - name: circuitoId
+              in: query
+              description: Id del Circuito
+              required: false
+              style: form
+              explode: true
+              example: "000039"
+              schema:
+                type: string
+            - name: mesaId
+              in: query
+              description: Id de la Mesa
+              required: false
+              style: form
+              explode: true
+              example: "1244"
+              schema:
+                type: string
+            responses:
+              "200":
+                description: successful operation
+                content:
+                  application/json:
+                    schema:
+                      $ref: '#/components/schemas/ValorElectoralTotalizado'
+              "400":
+                description: Invalid ID value
+                content: {}
+            security:
+            - bearer_auth:
+              - read
+      components:
+        schemas:
+          ValorElectoralTotalizado:
+            type: object
+            properties:
+              fechaTotalizacion:
+                type: string
+                format: date-time
+              estadoRecuento:
+                $ref: '#/components/schemas/EstadoRecuento'
+              valoresTotalizadosPositivos:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ValoresAgrupacion'
+              valoresTotalizadosOtros:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ValoresTotalizadosOtros'
+          ValoresAgrupacion:
+            type: object
+            properties:
+              idAgrupacion:
+                type: string
+                description: Id de la agrupación politica. Este Id es un código interno único generado en el Sistema de Recuento, que podría no coincidir con el código del telegrama.
+              idAgrupacionTelegrama:
+                type: string
+                description: Id de la agrupacion politíca en el Telegrama. Este código puede no ser único para todo el pais.
+              nombreAgrupacion:
+                type: string
+              urlLogo:
+                type: string
+              votos:
+                type: integer
+                format: int64
+              votosPorcentaje:
+                type: number
+                format: double
+            description: Valores obtenidos por la agrupación política.
+          ValoresTotalizadosOtros:
+            type: object
+            properties:
+              votosNulos:
+                type: integer
+                format: int64
+              votosNulosPorcentaje:
+                type: number
+                format: double
+              votosEnBlanco:
+                type: integer
+                format: int64
+              votosEnBlancoPorcentaje:
+                type: number
+                format: double
+              votosRecurridosComandoImpugnados:
+                type: integer
+                format: int64
+              votosRecurridosComandoImpugnadosPorcentaje:
+                type: number
+                format: double
+          EstadoRecuento:
+            type: object
+            properties:
+              mesasEsperadas:
+                type: integer
+                format: int64
+              mesasTotalizadas:
+                type: integer
+                format: int64
+              mesasTotalizadasPorcentaje:
+                type: number
+                description: Porcentaje de totalización de mesas sobre el total del mesas esperadas.
+                format: double
+              cantidadElectores:
+                type: integer
+                description: Cantidad de electores sobre mesas totalizadas.
+                format: int64
+              cantidadVotantes:
+                type: integer
+                description: Cantidad de votantes sobre mesas totalizadas.
+                format: int64
+              participacionPorcentaje:
+                type: number
+                description: Porcentaje de participación sobre mesas totalizadas.
+                format: double
+        securitySchemes:
+          bearer_auth:
+            type: http
+            scheme: bearer
+            bearerFormat: JWT
+    contentType: yaml
+    _type: api_spec
+  - _id: env_env_9617503812f1805656bc2650e49aca4068692314_sub
+    parentId: env_9617503812f1805656bc2650e49aca4068692314
+    modified: 1686592142862
+    created: 1679504388847
+    name: Producción
+    data:
+      scheme: https
+      base_path: /api
+      host: resultados.mininterior.gob.ar
+      bearerToken: bearerToken
+    dataPropertyOrder:
+      "&":
+        - scheme
+        - base_path
+        - host
+        - bearerToken
+    color: null
+    isPrivate: false
+    metaSortKey: 1679504388847
+    _type: environment

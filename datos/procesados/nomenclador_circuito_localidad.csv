@@ -1,0 +1,151 @@
+anio,circuito_id,seccion,localidad
+2007,0043,Las Colonias,San Carlos Sud
+2007,0044,Las Colonias,San Carlos Centro
+2007,0046,Las Colonias,Santa Clara de Buena Vista
+2007,0052,Las Colonias,San Jerónimo Norte
+2007,0053,Las Colonias,Franck
+2007,0055,Las Colonias,Esperanza
+2007,0056,Las Colonias,Humboldt
+2007,0057,Las Colonias,Pilar
+2007,0060,Las Colonias,Felicia
+2007,0063,Las Colonias,Progreso
+2007,0117,Castellanos,Humberto Primo
+2007,0118,Castellanos,Sunchales
+2007,0120,Castellanos,Colonia Aldao
+2007,0121,Castellanos,Ataliva
+2007,0123,Castellanos,Lehmann
+2007,0124,Castellanos,Ramona
+2007,0130,Castellanos,Santa Clara de Saguier
+2007,0134,Castellanos,Josefina
+2007,0134A,Castellanos,Frontera
+2007,0138,Castellanos,Zenón Pereyra
+2007,0140,Castellanos,María Juana
+2007,0142,Castellanos,San Vicente
+2007,0155,San Martín,Sastre y Ortiz
+2007,0156,San Martín,San Martín de las Escobas
+2007,0158,San Martín,San Jorge
+2007,0160,San Martín,Carlos Pellegrini
+2007,0161,San Martín,Cañada Rosquín
+2007,0164,San Martín,Piamonte
+2007,0165,San Martín,El Trébol
+2007,0166,San Martín,María Susana
+2011,0043,Las Colonias,San Carlos Sud
+2011,0044,Las Colonias,San Carlos Centro
+2011,0046,Las Colonias,Santa Clara de Buena Vista
+2011,0052,Las Colonias,San Jerónimo Norte
+2011,0053,Las Colonias,Franck
+2011,0055,Las Colonias,Esperanza
+2011,0056,Las Colonias,Humboldt
+2011,0057,Las Colonias,Pilar
+2011,0060,Las Colonias,Felicia
+2011,0063,Las Colonias,Progreso
+2011,0117,Castellanos,Humberto Primo
+2011,0118,Castellanos,Sunchales
+2011,0120,Castellanos,Colonia Aldao
+2011,0121,Castellanos,Ataliva
+2011,0123,Castellanos,Lehmann
+2011,0124,Castellanos,Ramona
+2011,0130,Castellanos,Santa Clara de Saguier
+2011,0134,Castellanos,Josefina
+2011,0134A,Castellanos,Frontera
+2011,0138,Castellanos,Zenón Pereyra
+2011,0140,Castellanos,María Juana
+2011,0142,Castellanos,San Vicente
+2011,0155,San Martín,Sastre y Ortiz
+2011,0156,San Martín,San Martín de las Escobas
+2011,0158,San Martín,San Jorge
+2011,0160,San Martín,Carlos Pellegrini
+2011,0161,San Martín,Cañada Rosquín
+2011,0164,San Martín,Piamonte
+2011,0165,San Martín,El Trébol
+2011,0166,San Martín,María Susana
+2015,0043,Las Colonias,San Carlos Sud
+2015,0044,Las Colonias,San Carlos Centro
+2015,0046,Las Colonias,Santa Clara de Buena Vista
+2015,0052,Las Colonias,San Jerónimo Norte
+2015,0053,Las Colonias,Franck
+2015,0055,Las Colonias,Esperanza
+2015,0056,Las Colonias,Humboldt
+2015,0057,Las Colonias,Pilar
+2015,0060,Las Colonias,Felicia
+2015,0063,Las Colonias,Progreso
+2015,0117,Castellanos,Humberto Primo
+2015,0118,Castellanos,Sunchales
+2015,0120,Castellanos,Colonia Aldao
+2015,0121,Castellanos,Ataliva
+2015,0123,Castellanos,Lehmann
+2015,0124,Castellanos,Ramona
+2015,0130,Castellanos,Santa Clara de Saguier
+2015,0134,Castellanos,Josefina
+2015,0134A,Castellanos,Frontera
+2015,0138,Castellanos,Zenón Pereyra
+2015,0140,Castellanos,María Juana
+2015,0142,Castellanos,San Vicente
+2015,0155,San Martín,Sastre y Ortiz
+2015,0156,San Martín,San Martín de las Escobas
+2015,0158,San Martín,San Jorge
+2015,0160,San Martín,Carlos Pellegrini
+2015,0161,San Martín,Cañada Rosquín
+2015,0164,San Martín,Piamonte
+2015,0165,San Martín,El Trébol
+2015,0166,San Martín,María Susana
+2019,0043,Las Colonias,San Carlos Sud
+2019,0044,Las Colonias,San Carlos Centro
+2019,0046,Las Colonias,Santa Clara de Buena Vista
+2019,0052,Las Colonias,San Jerónimo Norte
+2019,0053,Las Colonias,Franck
+2019,0055,Las Colonias,Esperanza
+2019,0056,Las Colonias,Humboldt
+2019,0057,Las Colonias,Pilar
+2019,0060,Las Colonias,Felicia
+2019,0063,Las Colonias,Progreso
+2019,0117,Castellanos,Humberto Primo
+2019,0118,Castellanos,Sunchales
+2019,0120,Castellanos,Colonia Aldao
+2019,0121,Castellanos,Ataliva
+2019,0123,Castellanos,Lehmann
+2019,0124,Castellanos,Ramona
+2019,0130,Castellanos,Santa Clara de Saguier
+2019,0134,Castellanos,Josefina
+2019,0134A,Castellanos,Frontera
+2019,0138,Castellanos,Zenón Pereyra
+2019,0140,Castellanos,María Juana
+2019,0142,Castellanos,San Vicente
+2019,0155,San Martín,Sastre y Ortiz
+2019,0156,San Martín,San Martín de las Escobas
+2019,0158,San Martín,San Jorge
+2019,0160,San Martín,Carlos Pellegrini
+2019,0161,San Martín,Cañada Rosquín
+2019,0164,San Martín,Piamonte
+2019,0165,San Martín,El Trébol
+2019,0166,San Martín,María Susana
+2023,0430,Las Colonias,San Carlos Sud
+2023,0440,Las Colonias,San Carlos Centro
+2023,0460,Las Colonias,Santa Clara de Buena Vista
+2023,0520,Las Colonias,San Jerónimo Norte
+2023,0530,Las Colonias,Franck
+2023,0550,Las Colonias,Esperanza
+2023,0560,Las Colonias,Humboldt
+2023,0570,Las Colonias,Pilar
+2023,0600,Las Colonias,Felicia
+2023,0630,Las Colonias,Progreso
+2023,1170,Castellanos,Humberto Primo
+2023,1180,Castellanos,Sunchales
+2023,1200,Castellanos,Colonia Aldao
+2023,1210,Castellanos,Ataliva
+2023,1230,Castellanos,Lehmann
+2023,1240,Castellanos,Ramona
+2023,1300,Castellanos,Santa Clara de Saguier
+2023,1340,Castellanos,Josefina
+2023,1345,Castellanos,Frontera
+2023,1380,Castellanos,Zenón Pereyra
+2023,1400,Castellanos,María Juana
+2023,1420,Castellanos,San Vicente
+2023,1550,San Martín,Sastre y Ortiz
+2023,1560,San Martín,San Martín de las Escobas
+2023,1580,San Martín,San Jorge
+2023,1600,San Martín,Carlos Pellegrini
+2023,1610,San Martín,Cañada Rosquín
+2023,1640,San Martín,Piamonte
+2023,1650,San Martín,El Trébol
+2023,1660,San Martín,María Susana
